@@ -1,0 +1,622 @@
+{
+    "categories": [
+        "library.scientific.numeric",
+        "library.scientific.linalg"
+    ],
+    "commitID": "8980cf49aab243d054b6aa832721325e6fb50302",
+    "dateAdded": "2018-06-08T19:27:45",
+    "description": "autograd and dynamic neural networks library for D",
+    "documentationURL": "https:\/\/shigekikarita.github.io\/grain\/",
+    "id": "5b1abc91f56b1c8c5de6bf96",
+    "name": "grain",
+    "owner": "58ba870ffa413c75165b32b8",
+    "repository": {
+        "kind": "github",
+        "owner": "ShigekiKarita",
+        "project": "grain"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "mir-random": "~>2.2.6"
+            },
+            "name": "grain",
+            "version": "~v2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-gan"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-ptb"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-ptb-mkl"
+                },
+                {
+                    "dependencies": {
+                        "imaged": "~>1.0.2",
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-cifar"
+                },
+                {
+                    "name": "example-probability"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist-mkl"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist-cnn"
+                },
+                {
+                    "name": "example-char-rnn"
+                },
+                {
+                    "name": "example-char-rnn-hand"
+                },
+                {
+                    "name": "example-reinforce-random"
+                },
+                {
+                    "name": "example-reinforce-reinforce"
+                },
+                {
+                    "dependencies": {
+                        "drepl": "~>0.2.1",
+                        "linenoise": "~>1.1.0"
+                    },
+                    "name": "repl"
+                },
+                {
+                    "dependencies": {
+                        "asdf": "~>0.2.2",
+                        "drepl": "~>0.2.1",
+                        "linenoise": "~>1.1.0",
+                        "zmqd": "~>1.1.1"
+                    },
+                    "name": "jupyterd"
+                },
+                {
+                    "name": "makedeps"
+                }
+            ],
+            "dependencies": {
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>1.0.0",
+                "numir": "~>2.0.0"
+            },
+            "name": "grain",
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "name": "example-mnist"
+                }
+            ],
+            "dependencies": {
+                "derelict-cl": "~>3.2.0",
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>0.0.5",
+                "numir": "~>0.1.2"
+            },
+            "name": "grain",
+            "version": "0.0.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "name": "example-mnist"
+                },
+                {
+                    "name": "example-char-rnn"
+                }
+            ],
+            "dependencies": {
+                "derelict-cl": "~>3.2.0",
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>0.0.5",
+                "numir": "~>0.1.2"
+            },
+            "name": "grain",
+            "version": "0.0.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist"
+                },
+                {
+                    "name": "example-char-rnn"
+                }
+            ],
+            "dependencies": {
+                "derelict-cl": "~>3.2.0",
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>0.0.5",
+                "numir": "~>0.1.2"
+            },
+            "name": "grain",
+            "version": "0.0.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist"
+                },
+                {
+                    "name": "example-char-rnn"
+                },
+                {
+                    "name": "example-char-rnn-hand"
+                }
+            ],
+            "dependencies": {
+                "derelict-cl": "~>3.2.0",
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>0.0.5",
+                "numir": "~>0.1.2"
+            },
+            "name": "grain",
+            "version": "0.0.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist"
+                },
+                {
+                    "name": "example-char-rnn"
+                },
+                {
+                    "name": "example-char-rnn-hand"
+                }
+            ],
+            "dependencies": {
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>0.0.5",
+                "numir": "~>0.1.2"
+            },
+            "name": "grain",
+            "version": "0.0.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist"
+                },
+                {
+                    "name": "example-char-rnn"
+                },
+                {
+                    "name": "example-char-rnn-hand"
+                }
+            ],
+            "dependencies": {
+                "d_hdf5": "~>0.3.0",
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>0.0.5",
+                "numir": "~>0.1.2"
+            },
+            "name": "grain",
+            "version": "0.0.6"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist"
+                },
+                {
+                    "name": "example-char-rnn"
+                },
+                {
+                    "name": "example-char-rnn-hand"
+                }
+            ],
+            "dependencies": {
+                "d_hdf5": "~>0.3.0",
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>0.0.5",
+                "numir": "~>0.1.2"
+            },
+            "name": "grain",
+            "version": "0.0.7"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist-cnn"
+                },
+                {
+                    "name": "example-char-rnn"
+                },
+                {
+                    "name": "example-char-rnn-hand"
+                }
+            ],
+            "dependencies": {
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>0.0.5",
+                "numir": "~>0.1.4"
+            },
+            "name": "grain",
+            "version": "0.0.8"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist-cnn"
+                },
+                {
+                    "name": "example-char-rnn"
+                },
+                {
+                    "name": "example-char-rnn-hand"
+                }
+            ],
+            "dependencies": {
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>0.0.5",
+                "numir": "~>0.1.4"
+            },
+            "name": "grain",
+            "version": "0.0.9"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "dependencies": {
+                        "imaged": "~>1.0.2",
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-cifar"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist-cnn"
+                },
+                {
+                    "name": "example-char-rnn"
+                },
+                {
+                    "name": "example-char-rnn-hand"
+                },
+                {
+                    "name": "example-reinforce-random"
+                },
+                {
+                    "name": "example-reinforce-reinforce"
+                },
+                {
+                    "dependencies": {
+                        "drepl": "~>0.2.1",
+                        "linenoise": "~>1.1.0"
+                    },
+                    "name": "repl"
+                },
+                {
+                    "dependencies": {
+                        "asdf": "~>0.2.2",
+                        "drepl": "~>0.2.1",
+                        "linenoise": "~>1.1.0",
+                        "zmqd": "~>1.1.1"
+                    },
+                    "name": "jupyterd"
+                }
+            ],
+            "dependencies": {
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": ">=1.0.0-beta <1.1.0-0",
+                "numir": "~>2.0.0"
+            },
+            "name": "grain",
+            "version": "0.0.10"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-ptb"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-ptb-mkl"
+                },
+                {
+                    "dependencies": {
+                        "imaged": "~>1.0.2",
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-cifar"
+                },
+                {
+                    "name": "example-probability"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist-mkl"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist-cnn"
+                },
+                {
+                    "name": "example-char-rnn"
+                },
+                {
+                    "name": "example-char-rnn-hand"
+                },
+                {
+                    "name": "example-reinforce-random"
+                },
+                {
+                    "name": "example-reinforce-reinforce"
+                },
+                {
+                    "dependencies": {
+                        "drepl": "~>0.2.1",
+                        "linenoise": "~>1.1.0"
+                    },
+                    "name": "repl"
+                },
+                {
+                    "dependencies": {
+                        "asdf": "~>0.2.2",
+                        "drepl": "~>0.2.1",
+                        "linenoise": "~>1.1.0",
+                        "zmqd": "~>1.1.1"
+                    },
+                    "name": "jupyterd"
+                }
+            ],
+            "dependencies": {
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>1.0.0",
+                "numir": "~>2.0.0"
+            },
+            "name": "grain",
+            "version": "0.1.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "sourceLibrary"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-gan"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-ptb"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-ptb-mkl"
+                },
+                {
+                    "dependencies": {
+                        "imaged": "~>1.0.2",
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-cifar"
+                },
+                {
+                    "name": "example-probability"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist-mkl"
+                },
+                {
+                    "dependencies": {
+                        "snck": "~>0.0.4"
+                    },
+                    "name": "example-mnist-cnn"
+                },
+                {
+                    "name": "example-char-rnn"
+                },
+                {
+                    "name": "example-char-rnn-hand"
+                },
+                {
+                    "name": "example-reinforce-random"
+                },
+                {
+                    "name": "example-reinforce-reinforce"
+                },
+                {
+                    "dependencies": {
+                        "drepl": "~>0.2.1",
+                        "linenoise": "~>1.1.0"
+                    },
+                    "name": "repl"
+                },
+                {
+                    "dependencies": {
+                        "asdf": "~>0.2.2",
+                        "drepl": "~>0.2.1",
+                        "linenoise": "~>1.1.0",
+                        "zmqd": "~>1.1.1"
+                    },
+                    "name": "jupyterd"
+                }
+            ],
+            "dependencies": {
+                "derelict-cuda": "~>3.1.1",
+                "lubeck": "~>1.0.0",
+                "numir": "~>2.0.0"
+            },
+            "name": "grain",
+            "version": "0.1.1"
+        }
+    ]
+}

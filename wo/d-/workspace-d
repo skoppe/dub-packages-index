@@ -1,0 +1,1450 @@
+{
+    "categories": [
+        "application.desktop.development.plugin",
+        "library.development"
+    ],
+    "commitID": "c52b60020e6732c8e14f5fab506f245a87c7e641",
+    "dateAdded": "2017-01-21T03:03:01",
+    "description": "Provides functions for IDEs for managing DCD, Dscanner and Dfmt. Usable as application and library",
+    "documentationURL": "",
+    "id": "5882c15574ea3b8d60a48fbc",
+    "name": "workspace-d",
+    "owner": "54897d4ce39bebfb730049b2",
+    "repository": {
+        "kind": "github",
+        "owner": "Pure-D",
+        "project": "workspace-d"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "dub": ">=1.2.0-rc.1 <1.3.0-0",
+                "dunit": "~>1.0.14",
+                "libdparse": ">=0.7.0-beta.3 <0.8.0-0",
+                "painlessjson": "~>1.3.8",
+                "standardpaths": "~>0.7.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "workspace-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "libtest"
+                },
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "~moduleman"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.9.0",
+                "dscanner": "0.6.0",
+                "dub": "~>1.12.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.10.12",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "~new-libdparse"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.5.3",
+                "dscanner": "~>0.4.2",
+                "dub": "~>1.9.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.0.2",
+                "libdparse": ">=0.0.0",
+                "painlessjson": "~>1.3.8",
+                "standardpaths": "~>0.8.0"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "~v3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.11.0",
+                "dscanner": "0.8.0",
+                "dub": "1.18.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.13.1",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "dub": ">=1.2.0-rc.1 <1.3.0-0",
+                "dunit": "~>1.0.14",
+                "libdparse": {
+                    "path": "libdparse",
+                    "version": ">=0.0.0"
+                },
+                "painlessjson": "~>1.3.8",
+                "standardpaths": "~>0.7.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "workspace-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "libtest"
+                },
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "2.10.0"
+        },
+        {
+            "dependencies": {
+                "dub": ">=1.2.0-rc.1 <1.3.0-0",
+                "dunit": "~>1.0.14",
+                "libdparse": ">=0.7.0-beta.3 <0.8.0-0",
+                "painlessjson": "~>1.3.8",
+                "standardpaths": "~>0.7.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "workspace-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "libtest"
+                },
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "2.10.1"
+        },
+        {
+            "dependencies": {
+                "dub": "~>1.3.0",
+                "dunit": "~>1.0.14",
+                "libdparse": ">=0.7.1-beta.1 <0.8.0-0",
+                "painlessjson": "~>1.3.8",
+                "standardpaths": "~>0.7.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "workspace-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "libtest"
+                },
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "2.11.0"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.5.3",
+                "dscanner": "~>0.4.2",
+                "dub": "~>1.8.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.0.2",
+                "libdparse": ">=0.0.0",
+                "painlessjson": "~>1.3.8",
+                "standardpaths": "~>0.8.0"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "2.12.0"
+        },
+        {
+            "dependencies": {
+                "dfmt": "~>0.8.2",
+                "dscanner": "~>0.5.7",
+                "dub": "~>1.10.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "libdparse": ">=0.0.0",
+                "painlessjson": "~>1.3.8",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.1.0"
+        },
+        {
+            "dependencies": {
+                "dfmt": "~>0.8.2",
+                "dscanner": "~>0.5.7",
+                "dub": "~>1.10.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "libdparse": ">=0.0.0",
+                "painlessjson": "~>1.3.8",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.2.0"
+        },
+        {
+            "dependencies": {
+                "dfmt": "~master",
+                "dscanner": "0.5.10",
+                "dub": "~>1.11.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.3.0-pre1"
+        },
+        {
+            "dependencies": {
+                "dfmt": "~master",
+                "dscanner": "0.5.10",
+                "dub": "~>1.11.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.3.0-pre2"
+        },
+        {
+            "dependencies": {
+                "dfmt": "~master",
+                "dscanner": "0.5.10",
+                "dub": "~>1.11.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.3.0-pre3"
+        },
+        {
+            "dependencies": {
+                "dfmt": "~master",
+                "dscanner": "0.5.10",
+                "dub": "~>1.11.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.3.0-pre4"
+        },
+        {
+            "dependencies": {
+                "dfmt": "~master",
+                "dscanner": "0.5.10",
+                "dub": "~>1.11.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.3.0-pre5"
+        },
+        {
+            "dependencies": {
+                "dfmt": "~master",
+                "dscanner": "0.5.10",
+                "dub": "~>1.11.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.3.0-pre6"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.8.3",
+                "dscanner": "0.5.11",
+                "dub": "~>1.11.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.3.0-pre7"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.8.3",
+                "dscanner": "0.5.11",
+                "dub": "~>1.11.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.3.0-pre8"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.9.0",
+                "dscanner": "0.6.0",
+                "dub": "~>1.12.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.10.12",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.3.0-pre9"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.9.0",
+                "dscanner": "0.6.0",
+                "dub": "~>1.12.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.10.12",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.3.0"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.16.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre.10"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.9.0",
+                "dscanner": "0.6.0",
+                "dub": "~>1.12.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.10.12",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre1"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.16.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre10"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.16.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre11"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.16.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre12"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.16.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre13"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.9.0",
+                "dscanner": "0.6.0",
+                "dub": "~>1.13.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.10.12",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre2"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.9.0",
+                "dscanner": "0.6.0",
+                "dub": "~>1.13.0",
+                "dunit": "~>1.0.14",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.10.12",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre3"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.0-beta.1",
+                "dscanner": "0.7.0",
+                "dub": "~>1.13.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.11",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre4"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.0-beta.1",
+                "dscanner": "0.7.0",
+                "dub": "~>1.13.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.11",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre5"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.16.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "~>1.3.9",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre6"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.16.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre7"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.16.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre8"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.16.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0-pre9"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.16.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.4.0"
+        },
+        {
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.16.0",
+                "dunit": "~>1.0.14",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.5.0-pre.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "generic"
+                },
+                {
+                    "dependencies": {
+                        "dunit": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.18.0",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.5.0-pre.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "generic"
+                },
+                {
+                    "dependencies": {
+                        "dunit": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.18.0",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.5.0-pre.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.10.1",
+                "dscanner": "0.7.2",
+                "dub": "~>1.18.0",
+                "emsi_containers": "0.8.0-alpha.15",
+                "inifiled": "~>1.3.1",
+                "libdparse": "~>0.11.2",
+                "painlessjson": "1.4.0",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.5.0-pre.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.11.0",
+                "dscanner": "0.8.0",
+                "dub": "1.18.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.13.1",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.5.0-pre.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.11.0",
+                "dscanner": "0.8.0",
+                "dub": "1.18.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.13.1",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.5.0-pre.6"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.11.0",
+                "dscanner": "0.8.0",
+                "dub": "1.18.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.13.1",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.5.0-pre.7"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.11.0",
+                "dscanner": "0.8.0",
+                "dub": "1.18.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.13.1",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.5.0-pre.8"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.11.0",
+                "dscanner": "0.8.0",
+                "dub": "1.18.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.13.1",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.5.0-pre.9"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.11.0",
+                "dscanner": "0.8.0",
+                "dub": "1.18.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.13.1",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.5.0-pre.10"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.11.0",
+                "dscanner": "0.8.0",
+                "dub": "1.18.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.13.1",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.5.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.11.0",
+                "dscanner": "0.8.0",
+                "dub": "1.18.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.13.1",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.6.0-pre.1"
+        }
+    ]
+}

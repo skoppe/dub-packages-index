@@ -1,0 +1,160 @@
+{
+    "categories": [
+        "library.graphics",
+        "application.desktop.game"
+    ],
+    "commitID": "481ac6e3ccb6908c56a0b001d9c52500d7f772f0",
+    "dateAdded": "2013-12-01T11:03:17",
+    "description": "An educational 2D Game Engine ECS based.",
+    "documentationURL": "",
+    "id": "529b0965fdbeac833f000098",
+    "name": "batch-engine",
+    "owner": "5297b1cdf8955cb85100008e",
+    "repository": {
+        "kind": "github",
+        "owner": "vova616",
+        "project": "BatchEngine"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "build"
+                },
+                {
+                    "name": "gravity"
+                },
+                {
+                    "name": "life"
+                }
+            ],
+            "dependencies": {
+                "derelict-fi": "~master",
+                "derelict-ft": "~master",
+                "derelict-gl3": "~master",
+                "derelict-glfw3": "~master",
+                "gl3n": "~master"
+            },
+            "name": "batch-engine",
+            "version": "~bitsTypes"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "build"
+                },
+                {
+                    "name": "gravity"
+                },
+                {
+                    "name": "life"
+                }
+            ],
+            "dependencies": {
+                "derelict-fi": "~master",
+                "derelict-ft": "~master",
+                "derelict-gl3": "~master",
+                "derelict-glfw3": "~master",
+                "gfm:math": "~master"
+            },
+            "name": "batch-engine",
+            "version": "~gfm"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "gravity"
+                },
+                {
+                    "name": "life"
+                }
+            ],
+            "dependencies": {
+                "derelict-fi": "~master",
+                "derelict-ft": "~master",
+                "derelict-gl3": "~master",
+                "derelict-glfw3": "~master",
+                "gl3n": "~master"
+            },
+            "name": "batch-engine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "batch-engine": {
+                            "path": ".\/..\/..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dbox": "~master"
+                    },
+                    "name": "box2d"
+                },
+                {
+                    "dependencies": {
+                        "batch-engine": {
+                            "path": ".\/..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "life"
+                },
+                {
+                    "dependencies": {
+                        "batch-engine": {
+                            "path": ".\/..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "gravity"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "build"
+                }
+            ],
+            "dependencies": {
+                "derelict-fi": "~master",
+                "derelict-ft": "~master",
+                "derelict-gl3": "~master",
+                "derelict-glfw3": "~master",
+                "gl3n": "~master"
+            },
+            "name": "batch-engine",
+            "version": "0.0.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "build"
+                }
+            ],
+            "dependencies": {
+                "derelict-fi": "~master",
+                "derelict-ft": "~master",
+                "derelict-gl3": "~master",
+                "derelict-glfw3": "~master",
+                "gl3n": "~master"
+            },
+            "name": "batch-engine",
+            "version": "0.0.2"
+        }
+    ]
+}

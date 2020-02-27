@@ -1,0 +1,54 @@
+{
+    "categories": [
+        "library.data"
+    ],
+    "commitID": "41978f6537c79a41672b1ddb978f55558d41121d",
+    "dateAdded": "2016-07-21T19:47:16",
+    "description": "A backend library for the implementation of a ProtocolBuffer compiler.",
+    "documentationURL": "",
+    "id": "57910aa45c9d6c051d9bb960",
+    "name": "protocolbuffer",
+    "owner": "52894f96d74bca2a4e000b71",
+    "repository": {
+        "kind": "github",
+        "owner": "opticron",
+        "project": "ProtocolBuffer"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "dprotobuf"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "pbcompiler"
+                }
+            ],
+            "dependencies": {
+                "codebuilder": "~>0.6.1",
+                "protocolbuffer:wireformat": ">=0.0.0"
+            },
+            "name": "protocolbuffer",
+            "subPackages": [
+                "pbcompiler",
+                "wireformat"
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "dprotobuf"
+                },
+                {
+                    "name": "pbcompiler"
+                }
+            ],
+            "name": "protocolbuffer",
+            "version": "0.0.0"
+        }
+    ]
+}

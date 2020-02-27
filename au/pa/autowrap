@@ -1,0 +1,3119 @@
+{
+    "categories": [
+        "library"
+    ],
+    "commitID": "84b8713df0e0ffc7218a1e17c791bb87ef199bc2",
+    "dateAdded": "2018-04-18T17:18:04",
+    "description": "Wrap existing D code for use in other languages",
+    "documentationURL": "",
+    "id": "5ad761ac41202a2850adee09",
+    "name": "autowrap",
+    "owner": "5e133675d9ae6ba31bb31fcf",
+    "repository": {
+        "kind": "github",
+        "owner": "kaleidicassociates",
+        "project": "autowrap"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-travis"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.11.0"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.2"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "~John-Colvin-patch-1"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "~add-embedded-pynih"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": ">=0.0.0",
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "~ambitious-wrap-all"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "~laeeth_wip"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-travis"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.2"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "~sil_test_branch_do_not_delete"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:csharp": ">=0.0.0",
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "~straighten-csharp"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest-travis"
+                        }
+                    ],
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "~templatebug"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest-travis"
+                        }
+                    ],
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "~wrap_more"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest-travis"
+                        }
+                    ],
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "~wrap_xenon"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "mirror": ">=0.0.0"
+                    },
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:pyd": {
+                            "path": "..\/pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.13.0"
+                    },
+                    "name": "pyd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": ">=0.5.5"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "python36"
+                },
+                {
+                    "name": "python35"
+                },
+                {
+                    "name": "python34"
+                },
+                {
+                    "name": "python33"
+                },
+                {
+                    "name": "python27"
+                }
+            ],
+            "dependencies": {
+                "excel-d": "~>0.3.4",
+                "pyd": "~master"
+            },
+            "name": "autowrap",
+            "version": "0.0.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "python36"
+                },
+                {
+                    "name": "python35"
+                },
+                {
+                    "name": "python34"
+                },
+                {
+                    "name": "python33"
+                },
+                {
+                    "name": "python27"
+                }
+            ],
+            "dependencies": {
+                "excel-d": "~>0.3.5",
+                "pyd": "~master"
+            },
+            "name": "autowrap",
+            "version": "0.0.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "python36"
+                },
+                {
+                    "name": "python35"
+                },
+                {
+                    "name": "python34"
+                },
+                {
+                    "name": "python33"
+                },
+                {
+                    "name": "python27"
+                }
+            ],
+            "dependencies": {
+                "excel-d": "~>0.3.6",
+                "pyd": "~master"
+            },
+            "name": "autowrap",
+            "version": "0.0.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "python36"
+                },
+                {
+                    "name": "python35"
+                },
+                {
+                    "name": "python34"
+                },
+                {
+                    "name": "python33"
+                },
+                {
+                    "name": "python27"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "pyd": "~master",
+                        "reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.0.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "python36"
+                },
+                {
+                    "name": "python35"
+                },
+                {
+                    "name": "python34"
+                },
+                {
+                    "name": "python33"
+                },
+                {
+                    "name": "python27"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~master"
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.0.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "python36"
+                },
+                {
+                    "name": "python35"
+                },
+                {
+                    "name": "python34"
+                },
+                {
+                    "name": "python33"
+                },
+                {
+                    "name": "python27"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~master"
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.1.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "python36"
+                },
+                {
+                    "name": "python35"
+                },
+                {
+                    "name": "python34"
+                },
+                {
+                    "name": "python33"
+                },
+                {
+                    "name": "python27"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~master"
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.1.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~master"
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.1.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~master"
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.1.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": {
+                            "path": "..\/pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.1.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": {
+                            "path": "..\/pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.2.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": {
+                            "path": "..\/pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.2.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": {
+                            "path": "$PACKAGE_DIR\/..\/pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.2.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": {
+                            "path": "pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.2.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": {
+                            "path": "$PACKAGE_DIR\/pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.2.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": {
+                            "path": ".\/pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.2.6"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~master"
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.2.7"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.3"
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.2.8"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": {
+                            "path": "pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.2.9"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.2.10"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "dependencies": {
+                "autowrap:excel": ">=0.0.0",
+                "autowrap:python": ">=0.0.0",
+                "autowrap:reflection": ">=0.0.0"
+            },
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                }
+            ],
+            "version": "0.3.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest-travis"
+                        }
+                    ],
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.4.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest-travis"
+                        }
+                    ],
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.2"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.4.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest-travis"
+                        }
+                    ],
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.2"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.4.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-travis"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.10.4"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest-travis"
+                        }
+                    ],
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.2"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.4.3"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": ">=0.10.0 <0.12.0"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.4.4"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": ">=0.10.0 <0.12.0"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": "~>0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.4.5-beta1"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": ">=0.10.0 <0.12.0"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": ">=0.3.6"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.4.5-beta2"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": ">=0.10.0 <0.12.0"
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": ">=0.5.5"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.4.5"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "mirror": ">=0.0.0"
+                    },
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:pyd": {
+                            "path": "..\/pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": ">=0.10.0 <0.12.0"
+                    },
+                    "name": "pyd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": ">=0.5.5"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.5.0"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "mirror": ">=0.0.0"
+                    },
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:pyd": {
+                            "path": "..\/pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.13.0"
+                    },
+                    "name": "pyd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": ">=0.5.5"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.5.1"
+        }
+    ]
+}

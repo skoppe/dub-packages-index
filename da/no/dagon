@@ -1,0 +1,532 @@
+{
+    "categories": [
+        "library.graphics",
+        "library.gamedev"
+    ],
+    "commitID": "e67fc1378d4a0dce4100bb7eea328ce869bc3e13",
+    "dateAdded": "2017-04-05T18:23:40",
+    "description": "3D game engine for D",
+    "documentationURL": "",
+    "id": "58e51a0c944d653b44de9541",
+    "name": "dagon",
+    "owner": "51e0e583084863306c0001e4",
+    "repository": {
+        "kind": "github",
+        "owner": "gecko0307",
+        "project": "dagon"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-freetype": "~>0.5.0",
+                        "bindbc-nuklear": "~>0.2.0"
+                    },
+                    "name": "library"
+                },
+                {
+                    "name": "Minimal"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-nuklear": "~>0.2.0"
+                    },
+                    "name": "NoFreetype"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-freetype": "~>0.5.0"
+                    },
+                    "name": "NoNuklear"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "~>0.8.0",
+                "bindbc-sdl": "~>0.8.0",
+                "dlib": "~>0.16.0"
+            },
+            "name": "dagon",
+            "version": "~dagon-ng"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0",
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "library"
+                },
+                {
+                    "name": "Minimal"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "NoFreetype"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0"
+                    },
+                    "name": "NoNuklear"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "0.4.0",
+                "bindbc-sdl": "0.4.1",
+                "dlib": "0.17.0"
+            },
+            "name": "dagon",
+            "version": "~dev_0.10"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "derelict-ft": ">=2.0.0-beta.2 <2.1.0-0",
+                "derelict-gl3": ">=2.0.0-beta.5 <2.1.0-0",
+                "derelict-sdl2": ">=3.1.0-alpha.2 <3.2.0-0",
+                "dlib": "0.14.0"
+            },
+            "name": "dagon",
+            "version": "~dev_0.8"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.15.0"
+            },
+            "name": "dagon",
+            "version": "~dev_0.9"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "~>0.8.0",
+                "bindbc-sdl": "~>0.8.0",
+                "dlib": ">=0.18.0-beta1 <0.19.0-0"
+            },
+            "name": "dagon",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-freetype": "~>0.5.0",
+                        "dagon": ">=0.0.0",
+                        "dlib": ">=0.18.0-beta1 <0.19.0-0"
+                    },
+                    "name": "ftfont"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-nuklear": "~>0.3.1",
+                        "dagon": ">=0.0.0",
+                        "dagon:ftfont": ">=0.0.0",
+                        "dlib": ">=0.18.0-beta1 <0.19.0-0"
+                    },
+                    "name": "nuklear"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": ">=0.18.0-beta1 <0.19.0-0"
+                    },
+                    "name": "physics"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "demo"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.10.0"
+            },
+            "name": "dagon",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dlib": "0.10.0"
+                    },
+                    "name": "simple"
+                },
+                {
+                    "dependencies": {
+                        "dlib": "0.10.0"
+                    },
+                    "name": "obj"
+                },
+                {
+                    "dependencies": {
+                        "dlib": "0.10.0"
+                    },
+                    "name": "physics"
+                },
+                {
+                    "dependencies": {
+                        "dlib": "0.10.0"
+                    },
+                    "name": "animation"
+                },
+                {
+                    "dependencies": {
+                        "dlib": "0.10.0"
+                    },
+                    "name": "base"
+                }
+            ],
+            "version": "0.0.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "demo"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.10.0"
+            },
+            "name": "dagon",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dlib": "0.10.0"
+                    },
+                    "name": "simple"
+                },
+                {
+                    "dependencies": {
+                        "dlib": "0.10.0"
+                    },
+                    "name": "obj"
+                },
+                {
+                    "dependencies": {
+                        "dlib": "0.10.0"
+                    },
+                    "name": "physics"
+                },
+                {
+                    "dependencies": {
+                        "dlib": "0.10.0"
+                    },
+                    "name": "animation"
+                },
+                {
+                    "dependencies": {
+                        "dlib": "0.10.0"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "dlib": "0.10.0"
+                    },
+                    "name": "menu"
+                }
+            ],
+            "version": "0.0.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.11.1"
+            },
+            "name": "dagon",
+            "version": "0.1.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.11.1"
+            },
+            "name": "dagon",
+            "version": "0.1.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.11.1"
+            },
+            "name": "dagon",
+            "version": "0.2.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.11.1"
+            },
+            "name": "dagon",
+            "version": "0.3.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.11.1"
+            },
+            "name": "dagon",
+            "version": "0.4.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.12.0"
+            },
+            "name": "dagon",
+            "version": "0.5.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.12.2"
+            },
+            "name": "dagon",
+            "version": "0.6.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "derelict-ft": ">=2.0.0-beta.2 <2.1.0-0",
+                "derelict-gl3": ">=2.0.0-beta.5 <2.1.0-0",
+                "derelict-sdl2": ">=3.1.0-alpha.2 <3.2.0-0",
+                "dlib": "0.13.0"
+            },
+            "name": "dagon",
+            "version": "0.8.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "derelict-ft": ">=2.0.0-beta.2 <2.1.0-0",
+                "derelict-gl3": ">=2.0.0-beta.5 <2.1.0-0",
+                "derelict-sdl2": ">=3.1.0-alpha.2 <3.2.0-0",
+                "dlib": "0.14.0"
+            },
+            "name": "dagon",
+            "version": "0.8.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "derelict-ft": ">=2.0.0-beta.2 <2.1.0-0",
+                "derelict-gl3": ">=2.0.0-beta.5 <2.1.0-0",
+                "derelict-sdl2": ">=3.1.0-alpha.2 <3.2.0-0",
+                "dlib": "0.14.0"
+            },
+            "name": "dagon",
+            "version": "0.8.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "derelict-ft": ">=2.0.0-beta.2 <2.1.0-0",
+                "derelict-gl3": ">=2.0.0-beta.5 <2.1.0-0",
+                "derelict-sdl2": ">=3.1.0-alpha.2 <3.2.0-0",
+                "dlib": "0.14.0"
+            },
+            "name": "dagon",
+            "version": "0.8.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.15.0"
+            },
+            "name": "dagon",
+            "version": "0.9.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.15.0"
+            },
+            "name": "dagon",
+            "version": "0.9.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "0.15.0"
+            },
+            "name": "dagon",
+            "version": "0.9.2"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0",
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "library"
+                },
+                {
+                    "name": "Minimal"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "NoFreetype"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0"
+                    },
+                    "name": "NoNuklear"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "0.4.0",
+                "bindbc-sdl": "0.4.1",
+                "dlib": "0.16.0"
+            },
+            "name": "dagon",
+            "version": "0.10.0"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0",
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "library"
+                },
+                {
+                    "name": "Minimal"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "NoFreetype"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0"
+                    },
+                    "name": "NoNuklear"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "0.4.0",
+                "bindbc-sdl": "0.4.1",
+                "dlib": "0.16.0"
+            },
+            "name": "dagon",
+            "version": "0.10.1"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0",
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "library"
+                },
+                {
+                    "name": "Minimal"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "NoFreetype"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0"
+                    },
+                    "name": "NoNuklear"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "0.4.0",
+                "bindbc-sdl": "0.4.1",
+                "dlib": "0.17.0"
+            },
+            "name": "dagon",
+            "version": "0.10.2"
+        }
+    ]
+}

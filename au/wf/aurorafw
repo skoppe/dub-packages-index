@@ -1,0 +1,645 @@
+{
+    "categories": [
+        "library.gamedev",
+        "library.general",
+        "library.generic",
+        "library.audio"
+    ],
+    "commitID": "14171baee731196c263bf67e73998465d7f5ceb7",
+    "dateAdded": "2018-05-12T02:03:52",
+    "description": "A Powerful General Purpose Framework",
+    "documentationURL": "https:\/\/aurorafw.lsferreira.net\/docs\/",
+    "id": "5af62f680193ed7e5751bae8",
+    "name": "aurorafw",
+    "owner": "5af620820193ed7e5751b413",
+    "repository": {
+        "kind": "github",
+        "owner": "aurorafossorg",
+        "project": "framework"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "aurorafw:android": ">=0.0.0",
+                "aurorafw:audio": ">=0.0.0",
+                "aurorafw:core": ">=0.0.0",
+                "aurorafw:graphics": ">=0.0.0",
+                "aurorafw:gui": ">=0.0.0",
+                "aurorafw:image": ">=0.0.0",
+                "aurorafw:jni": ">=0.0.0",
+                "aurorafw:math": ">=0.0.0",
+                "aurorafw:metadata": ">=0.0.0",
+                "aurorafw:net": ">=0.0.0",
+                "aurorafw:stdx": ">=0.0.0"
+            },
+            "name": "aurorafw",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aurorafw:stdx": ">=0.0.0"
+                    },
+                    "name": "core"
+                },
+                {
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": ">=0.0.0",
+                        "aurorafw:math": ">=0.0.0"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "name": "image"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:gui": ">=0.0.0",
+                        "aurorafw:image": ">=0.0.0"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "aurorafw-gui-xcursor-dynamic"
+                        },
+                        {
+                            "name": "aurorafw-gui-xcursor-static"
+                        }
+                    ],
+                    "dependencies": {
+                        "aurorafw:core": ">=0.0.0",
+                        "aurorafw:math": ">=0.0.0"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "name": "net"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": ">=0.0.0"
+                    },
+                    "name": "metadata"
+                },
+                {
+                    "name": "jni"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:jni": ">=0.0.0"
+                    },
+                    "name": "android"
+                },
+                {
+                    "name": "stdx"
+                }
+            ],
+            "version": "~legacy"
+        },
+        {
+            "dependencies": {
+                "aurorafw:audio": ">=0.0.0",
+                "aurorafw:cli": ">=0.0.0",
+                "aurorafw:core": ">=0.0.0",
+                "aurorafw:entity": ">=0.0.0",
+                "aurorafw:graphics": ">=0.0.0",
+                "aurorafw:gui": ">=0.0.0",
+                "aurorafw:image": ">=0.0.0",
+                "aurorafw:math": ">=0.0.0",
+                "aurorafw:metadata": ">=0.0.0",
+                "aurorafw:net": ">=0.0.0",
+                "aurorafw:stdx": ">=0.0.0",
+                "aurorafw:unit": ">=0.0.0"
+            },
+            "name": "aurorafw",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aurorafw:stdx": {
+                            "path": "..\/stdx",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        },
+                        "riverd-ncurses": "~>1.0.4"
+                    },
+                    "name": "cli"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        },
+                        "riverd-sndfile": "~>1.0.1",
+                        "riverd-soundio": "~>1.0.1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "image"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:gui": {
+                            "path": "..\/gui",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:image": {
+                            "path": "..\/image",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        },
+                        "riverd-x11": "~>0.1.2",
+                        "riverd-xcursor": "~>1.0.0",
+                        "riverd-xxf86vm": "~>1.0.0"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "net"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "metadata"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "stdx"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "unit"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "entity"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "aurorafw:core": ">=0.0.0",
+                "aurorafw:math": ">=0.0.0"
+            },
+            "name": "aurorafw",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "name": "math"
+                }
+            ],
+            "version": "0.0.1-alpha.1"
+        },
+        {
+            "dependencies": {
+                "aurorafw:audio": ">=0.0.0",
+                "aurorafw:core": ">=0.0.0",
+                "aurorafw:math": ">=0.0.0"
+            },
+            "name": "aurorafw",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "name": "math"
+                },
+                {
+                    "name": "audio"
+                }
+            ],
+            "version": "0.0.1-alpha.2"
+        },
+        {
+            "dependencies": {
+                "aurorafw:audio": ">=0.0.0",
+                "aurorafw:cli": ">=0.0.0",
+                "aurorafw:core": ">=0.0.0",
+                "aurorafw:graphics": ">=0.0.0",
+                "aurorafw:gui": ">=0.0.0",
+                "aurorafw:image": ">=0.0.0",
+                "aurorafw:math": ">=0.0.0",
+                "aurorafw:metadata": ">=0.0.0",
+                "aurorafw:net": ">=0.0.0",
+                "aurorafw:stdx": ">=0.0.0",
+                "aurorafw:unit": ">=0.0.0"
+            },
+            "name": "aurorafw",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aurorafw:stdx": {
+                            "path": "..\/stdx",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        },
+                        "riverd-ncurses": "~>1.0.4"
+                    },
+                    "name": "cli"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        },
+                        "riverd-sndfile": "~>1.0.1",
+                        "riverd-soundio": "~>1.0.1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "image"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:gui": {
+                            "path": "..\/gui",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:image": {
+                            "path": "..\/image",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        },
+                        "riverd-x11": "~>0.1.2",
+                        "riverd-xcursor": "~>1.0.0",
+                        "riverd-xxf86vm": "~>1.0.0"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "net"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "metadata"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "stdx"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "unit"
+                }
+            ],
+            "version": "0.0.1-alpha.3"
+        },
+        {
+            "dependencies": {
+                "aurorafw:audio": ">=0.0.0",
+                "aurorafw:cli": ">=0.0.0",
+                "aurorafw:core": ">=0.0.0",
+                "aurorafw:entity": ">=0.0.0",
+                "aurorafw:graphics": ">=0.0.0",
+                "aurorafw:gui": ">=0.0.0",
+                "aurorafw:image": ">=0.0.0",
+                "aurorafw:math": ">=0.0.0",
+                "aurorafw:metadata": ">=0.0.0",
+                "aurorafw:net": ">=0.0.0",
+                "aurorafw:stdx": ">=0.0.0",
+                "aurorafw:unit": ">=0.0.0"
+            },
+            "name": "aurorafw",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aurorafw:stdx": {
+                            "path": "..\/stdx",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        },
+                        "riverd-ncurses": "~>1.0.4"
+                    },
+                    "name": "cli"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        },
+                        "riverd-sndfile": "~>1.0.1",
+                        "riverd-soundio": "~>1.0.1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "image"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:gui": {
+                            "path": "..\/gui",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:image": {
+                            "path": "..\/image",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        },
+                        "riverd-x11": "~>0.1.2",
+                        "riverd-xcursor": "~>1.0.0",
+                        "riverd-xxf86vm": "~>1.0.0"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "net"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "metadata"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "stdx"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "unit"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": {
+                            "path": "..\/unit",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "entity"
+                }
+            ],
+            "version": "0.0.1-alpha.4"
+        }
+    ]
+}

@@ -1,0 +1,4070 @@
+{
+    "categories": [
+        "library.scientific.numeric",
+        "library.optimized_mem",
+        "library.optimized_cpu",
+        "library.nogc"
+    ],
+    "commitID": "caa5bd0c70473a24535867e4fc80fe17ee5a2262",
+    "dateAdded": "2018-07-08T14:48:59",
+    "description": "Optimisation Framework",
+    "documentationURL": "",
+    "id": "5b42083b05e442820a516e3c",
+    "name": "mir-optim",
+    "owner": "541eccf89ad2b55e1d002692",
+    "repository": {
+        "kind": "github",
+        "owner": "libmir",
+        "project": "mir-optim"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=0.9.1",
+                "mir-lapack": "~>0.1.0"
+            },
+            "name": "mir-optim",
+            "version": "~jmh530-patch-1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0",
+                "osqp": "0.6.700-alpha"
+            },
+            "name": "mir-optim",
+            "version": "~osqp"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0"
+            },
+            "name": "mir-optim",
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=0.9.1",
+                "mir-lapack": "~>0.1.0"
+            },
+            "name": "mir-optim",
+            "version": "0.0.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=0.9.1",
+                "mir-lapack": "~>0.1.0"
+            },
+            "name": "mir-optim",
+            "version": "0.0.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=0.9.1",
+                "mir-lapack": "~>0.1.0"
+            },
+            "name": "mir-optim",
+            "version": "0.0.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=0.9.1",
+                "mir-lapack": "~>0.1.0"
+            },
+            "name": "mir-optim",
+            "version": "0.0.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=1.1.4",
+                "mir-lapack": "~>0.1.0"
+            },
+            "name": "mir-optim",
+            "version": "0.1.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=1.1.5",
+                "mir-lapack": "~>0.1.0"
+            },
+            "name": "mir-optim",
+            "version": "0.1.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": "~>0.4.1"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=1.1.5",
+                "mir-lapack": "~>0.3.0"
+            },
+            "name": "mir-optim",
+            "version": "0.2.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=2.0.0-beta2 <3.0.0",
+                "mir-lapack": ">=1.0.0-beta2 <1.1.0-0"
+            },
+            "name": "mir-optim",
+            "version": "1.0.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=2.0.0-beta2 <3.0.0",
+                "mir-lapack": ">=1.0.0-beta2 <1.1.0-0"
+            },
+            "name": "mir-optim",
+            "version": "1.0.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=2.0.0-beta2 <3.0.0",
+                "mir-lapack": ">=1.0.0-beta3 <1.1.0-0"
+            },
+            "name": "mir-optim",
+            "version": "1.1.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=2.0.0-beta2 <3.0.0",
+                "mir-lapack": ">=1.0.0-beta3 <1.1.0-0"
+            },
+            "name": "mir-optim",
+            "version": "1.2.0-beta"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=2.0.0-beta2 <3.0.0",
+                "mir-lapack": ">=1.0.0-beta3 <1.1.0-0"
+            },
+            "name": "mir-optim",
+            "version": "1.2.0-beta2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=2.0.0-beta2 <3.0.0",
+                "mir-lapack": ">=1.0.0-beta3 <1.1.0-0"
+            },
+            "name": "mir-optim",
+            "version": "1.2.0-beta3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=2.0.0-beta2 <4.0.0",
+                "mir-lapack": "~>1.0.0"
+            },
+            "name": "mir-optim",
+            "version": "1.2.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta <1.1.0-0"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=2.0.0-beta2 <4.0.0",
+                "mir-lapack": "~>1.0.0"
+            },
+            "name": "mir-optim",
+            "version": "1.2.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.1"
+            },
+            "name": "mir-optim",
+            "version": "1.3.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.1"
+            },
+            "name": "mir-optim",
+            "version": "1.3.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.1"
+            },
+            "name": "mir-optim",
+            "version": "1.3.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.1"
+            },
+            "name": "mir-optim",
+            "version": "1.3.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.1"
+            },
+            "name": "mir-optim",
+            "version": "1.3.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.1"
+            },
+            "name": "mir-optim",
+            "version": "1.3.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.1"
+            },
+            "name": "mir-optim",
+            "version": "1.3.6"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.1"
+            },
+            "name": "mir-optim",
+            "version": "1.3.7"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.3"
+            },
+            "name": "mir-optim",
+            "version": "1.3.8"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.3"
+            },
+            "name": "mir-optim",
+            "version": "1.4.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.3"
+            },
+            "name": "mir-optim",
+            "version": "1.4.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.3"
+            },
+            "name": "mir-optim",
+            "version": "1.4.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.3"
+            },
+            "name": "mir-optim",
+            "version": "1.4.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.0.3"
+            },
+            "name": "mir-optim",
+            "version": "1.4.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.2.0"
+            },
+            "name": "mir-optim",
+            "version": "1.4.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0"
+            },
+            "name": "mir-optim",
+            "version": "1.4.6"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0"
+            },
+            "name": "mir-optim",
+            "version": "1.5.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0"
+            },
+            "name": "mir-optim",
+            "version": "1.5.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0",
+                "osqp": {
+                    "path": ">=0.6.300-alpha",
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "mir-optim",
+            "version": "2.0.0-alpha01"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0",
+                "osqp": "0.6.400-alpha"
+            },
+            "name": "mir-optim",
+            "version": "2.0.0-alpha02"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0",
+                "osqp": "0.6.500-alpha"
+            },
+            "name": "mir-optim",
+            "version": "2.0.0-alpha03"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0",
+                "osqp": "0.6.600-alpha"
+            },
+            "name": "mir-optim",
+            "version": "2.0.0-alpha04"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0",
+                "osqp": "0.6.700-alpha"
+            },
+            "name": "mir-optim",
+            "version": "2.0.0-alpha05"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0",
+                "osqp": "0.6.700-alpha"
+            },
+            "name": "mir-optim",
+            "version": "2.0.0-alpha06"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0",
+                "osqp": "0.6.700-alpha"
+            },
+            "name": "mir-optim",
+            "version": "2.0.0-alpha07"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": ">=1.0.3 <1.3.0",
+                "osqp": "0.6.700-alpha"
+            },
+            "name": "mir-optim",
+            "version": "2.0.0-alpha08"
+        }
+    ]
+}
