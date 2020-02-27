@@ -1,0 +1,467 @@
+{
+    "categories": [
+        "library.gamedev",
+        "library.gui"
+    ],
+    "commitID": "2e8521eaec241061515ebb4f43c58a4c7f6e8fe4",
+    "dateAdded": "2014-11-07T11:57:10",
+    "description": "Provides window and OpenGL context creation cross platform.",
+    "documentationURL": "",
+    "id": "545ca5865cde19440300a4f8",
+    "name": "de_window",
+    "owner": "5220ad958921122b52000659",
+    "repository": {
+        "kind": "github",
+        "owner": "devisualization",
+        "project": "window"
+    },
+    "versions": [
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.4.2"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "opengl"
+                        },
+                        {
+                            "dependencies": {
+                                "directx-d": ">=0.9.1"
+                            },
+                            "name": "directx"
+                        }
+                    ],
+                    "dependencies": {
+                        "de_util:core": ">=0.0.7",
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.12",
+                        "x11": "~master"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_window:interfaces": "~master",
+                        "derelict-gl3": ">=1.0.4",
+                        "x11": ">=1.0.0"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_window:platform": "~master"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.1"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.1.3"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.4",
+                        "x11": ">=1.0.0"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.1.3",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.2"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.1.3"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.4",
+                        "x11": ">=1.0.0"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.3"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.1.3"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.4",
+                        "x11": ">=1.0.0"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.4"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.1.3"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.4",
+                        "x11": ">=1.0.0"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.5"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.1.3"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.4",
+                        "x11": ">=1.0.0"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.6"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.3.2"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.4",
+                        "x11": ">=1.0.3"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.7"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.3.3"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.4",
+                        "x11": ">=1.0.3"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.8"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.3.3"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.4",
+                        "x11": ">=1.0.3"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.9"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.3.3"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.4",
+                        "x11": ">=1.0.3"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.10"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.3.3"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.4",
+                        "x11": ">=1.0.3"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.1.0"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.3.3"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "opengl"
+                        },
+                        {
+                            "dependencies": {
+                                "directx-d": ">=0.9.1"
+                            },
+                            "name": "directx"
+                        }
+                    ],
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.12",
+                        "x11": "~master"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.1.1"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.3.3"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "opengl"
+                        },
+                        {
+                            "dependencies": {
+                                "directx-d": ">=0.9.1"
+                            },
+                            "name": "directx"
+                        }
+                    ],
+                    "dependencies": {
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.12",
+                        "x11": "~master"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.1.2"
+        },
+        {
+            "name": "de_window",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.4.2"
+                    },
+                    "name": "interfaces"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "opengl"
+                        },
+                        {
+                            "dependencies": {
+                                "directx-d": ">=0.9.1"
+                            },
+                            "name": "directx"
+                        }
+                    ],
+                    "dependencies": {
+                        "de_util:core": ">=0.0.7",
+                        "de_window:interfaces": ">=0.0.0",
+                        "derelict-gl3": ">=1.0.12",
+                        "x11": "~master"
+                    },
+                    "name": "platform"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_window:platform": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.1.3"
+        }
+    ]
+}

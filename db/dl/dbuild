@@ -1,0 +1,62 @@
+{
+    "categories": [],
+    "commitID": "820f5e7c43da4e1b9a804bdc156930f7d8403b02",
+    "dateAdded": "2018-10-28T15:53:47",
+    "description": "Write D code to build C\/C++ packages",
+    "documentationURL": "",
+    "id": "5bd5cd7b799abc5303155fd2",
+    "name": "dbuild",
+    "owner": "55020b4377020e7b650014ff",
+    "repository": {
+        "kind": "github",
+        "owner": "rtbo",
+        "project": "dbuild"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "dbuild"
+                },
+                {
+                    "name": "chef-app"
+                },
+                {
+                    "name": "cook-app"
+                }
+            ],
+            "dependencies": {
+                "derelict-lua": ">=2.0.0-beta.2 <2.1.0-0"
+            },
+            "name": "dbuild",
+            "version": "~chef"
+        },
+        {
+            "name": "dbuild",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dbuild": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cpp_lib"
+                }
+            ],
+            "version": "~cook"
+        },
+        {
+            "name": "dbuild",
+            "version": "~master"
+        },
+        {
+            "name": "dbuild",
+            "version": "0.0.1"
+        },
+        {
+            "name": "dbuild",
+            "version": "0.0.2"
+        }
+    ]
+}

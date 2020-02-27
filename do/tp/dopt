@@ -1,0 +1,1133 @@
+{
+    "categories": [
+        "library.scientific",
+        "library.optimized_cpu"
+    ],
+    "commitID": "3b2031ea922de0a484c13b8b011fe414e72882c5",
+    "dateAdded": "2017-07-20T15:47:32",
+    "description": "A numerical optimisation and deep learning framework",
+    "documentationURL": "",
+    "id": "5970b4746611442b15756f65",
+    "name": "dopt",
+    "owner": "51444153368129102a0012bb",
+    "repository": {
+        "kind": "github",
+        "owner": "henrygouk",
+        "project": "dopt"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "cblas": "~>2.0.0"
+            },
+            "name": "dopt",
+            "version": "0.1.0"
+        },
+        {
+            "dependencies": {
+                "cblas": "~>2.0.0",
+                "derelict-cuda": "~>3.1.0",
+                "derelict-cudnn": "~>1.0.2",
+                "derelict-nvrtc": "~>1.0.2"
+            },
+            "name": "dopt",
+            "version": "0.2.0"
+        },
+        {
+            "dependencies": {
+                "cblas": "~>2.0.0",
+                "derelict-cuda": "~>3.1.0",
+                "derelict-cudnn": "~>1.0.2",
+                "derelict-nvrtc": "~>1.0.2"
+            },
+            "name": "dopt",
+            "version": "0.2.1"
+        },
+        {
+            "dependencies": {
+                "cblas": "~>2.0.0",
+                "derelict-cuda": "~>3.1.0",
+                "derelict-cudnn": "~>1.0.2",
+                "derelict-nvrtc": "~>1.0.2"
+            },
+            "name": "dopt",
+            "version": "0.3.0"
+        },
+        {
+            "dependencies": {
+                "cblas": "~>2.0.0",
+                "derelict-cuda": "~>3.1.0",
+                "derelict-cudnn": "~>2.0.1",
+                "derelict-nvrtc": "~>1.0.2"
+            },
+            "name": "dopt",
+            "version": "0.3.1"
+        },
+        {
+            "dependencies": {
+                "cblas": "~>2.0.0",
+                "derelict-cuda": "~>3.1.0",
+                "derelict-cudnn": "~>2.0.1",
+                "derelict-nvrtc": "~>1.0.2"
+            },
+            "name": "dopt",
+            "version": "0.3.2"
+        },
+        {
+            "dependencies": {
+                "cblas": "~>2.0.0",
+                "derelict-cuda": "~>3.1.0",
+                "derelict-cudnn": "~>2.0.1",
+                "derelict-nvrtc": "~>1.0.2"
+            },
+            "name": "dopt",
+            "version": "0.3.3"
+        },
+        {
+            "dependencies": {
+                "cblas": "~>2.0.0",
+                "derelict-cuda": "~>3.1.0",
+                "derelict-cudnn": "~>2.0.1",
+                "derelict-nvrtc": "~>1.0.2"
+            },
+            "name": "dopt",
+            "version": "0.3.4"
+        },
+        {
+            "dependencies": {
+                "cblas": "~>2.0.0",
+                "derelict-cuda": "~>3.1.0",
+                "derelict-cudnn": "~>2.0.1",
+                "derelict-nvrtc": "~>1.0.2"
+            },
+            "name": "dopt",
+            "version": "0.3.5"
+        },
+        {
+            "dependencies": {
+                "cblas": "~>2.0.0",
+                "derelict-cuda": "~>3.1.0",
+                "derelict-cudnn": "~>2.0.1",
+                "derelict-nvrtc": "~>1.0.2"
+            },
+            "name": "dopt",
+            "version": "0.3.6"
+        },
+        {
+            "dependencies": {
+                "dopt:core": ">=0.0.0",
+                "dopt:cpu": ">=0.0.0",
+                "dopt:cuda": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                },
+                "dopt:nnet": ">=0.0.0",
+                "dopt:online": ">=0.0.0"
+            },
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.1",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.7"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.8"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.9"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.10"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.11"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.12"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.13"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.14"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.15"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.16"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.17"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0",
+                        "dopt:cuda": ">=0.0.0",
+                        "dopt:nnet": ">=0.0.0",
+                        "dopt:online": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                }
+            ],
+            "name": "dopt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "cblas": "~>2.0.0",
+                        "dopt:core": ">=0.0.0"
+                    },
+                    "name": "cpu"
+                },
+                {
+                    "dependencies": {
+                        "derelict-cuda": "~>3.1.0",
+                        "derelict-cudnn": "~>2.0.4",
+                        "derelict-nvrtc": "~>1.0.2",
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cpu": ">=0.0.0"
+                    },
+                    "name": "cuda"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:cuda": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "cuda"
+                        },
+                        {
+                            "dependencies": {
+                                "dopt:core": ">=0.0.0",
+                                "dopt:cpu": ">=0.0.0",
+                                "dopt:online": ">=0.0.0"
+                            },
+                            "name": "no-cuda"
+                        }
+                    ],
+                    "name": "nnet"
+                },
+                {
+                    "dependencies": {
+                        "dopt:core": ">=0.0.0",
+                        "dopt:cuda": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "online"
+                }
+            ],
+            "version": "0.3.18"
+        }
+    ]
+}

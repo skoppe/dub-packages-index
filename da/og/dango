@@ -1,0 +1,572 @@
+{
+    "categories": [
+        "library.general"
+    ],
+    "commitID": "d5bad65e810901f920fe34412bbf36799385d6df",
+    "dateAdded": "2017-06-19T15:52:22",
+    "description": "The library for constructing applications.",
+    "documentationURL": "",
+    "id": "5947d716de6f891a76258c3b",
+    "name": "dango",
+    "owner": "5817a2e01ca6430404654125",
+    "repository": {
+        "kind": "github",
+        "owner": "milofon",
+        "project": "dango"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "dango:service": ">=0.0.0",
+                "dango:store": ">=0.0.0",
+                "dango:system": ">=0.0.0",
+                "dango:web": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bolts": ">=0.10.0",
+                        "brightproof": "~>2.4.0",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "poodinis": "8.0.3+commit.2.g3c621a1",
+                        "rx": "~>0.9.0",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": ">=0.0.2-beta.1",
+                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.8.4"
+                    },
+                    "name": "web"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "zmqd": "~>1.1.0"
+                            },
+                            "name": "zeromq"
+                        }
+                    ],
+                    "dependencies": {
+                        "dango:web": ">=0.0.0",
+                        "libdparse": "~>0.11.0",
+                        "msgpack-d": ">=1.0.0-beta.7 <1.1.0-0",
+                        "uninode:serialization": "~>0.0.1"
+                    },
+                    "name": "service"
+                },
+                {
+                    "dependencies": {
+                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                    },
+                    "name": "store"
+                }
+            ],
+            "version": "~develop"
+        },
+        {
+            "dependencies": {
+                "dango:service": ">=0.0.0",
+                "dango:store": ">=0.0.0",
+                "dango:system": ">=0.0.0",
+                "dango:web": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bolts": ">=0.10.0",
+                        "brightproof": "~>2.4.0",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "poodinis": "8.0.3+commit.2.g3c621a1",
+                        "rx": "~>0.9.0",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": ">=0.0.2-beta.1",
+                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.8.4"
+                    },
+                    "name": "web"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "zmqd": "~>1.1.0"
+                            },
+                            "name": "zeromq"
+                        }
+                    ],
+                    "dependencies": {
+                        "dango:web": ">=0.0.0",
+                        "libdparse": "~>0.11.0",
+                        "msgpack-d": ">=1.0.0-beta.7 <1.1.0-0",
+                        "uninode:serialization": "~>0.0.1"
+                    },
+                    "name": "service"
+                },
+                {
+                    "dependencies": {
+                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                    },
+                    "name": "store"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "dango:http": ">=0.0.0",
+                "dango:system": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "brightproof": "~>2.4.0",
+                        "consoled": "~>1.0.4",
+                        "poodinis": "~>6.3.0",
+                        "proped": "~>0.0.6",
+                        "vibe-d:core": ">=0.8.0-beta.6 <0.9.0-0"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": ">=0.8.0-beta.6 <0.9.0-0"
+                    },
+                    "name": "http"
+                }
+            ],
+            "version": "0.0.1-beta.1"
+        },
+        {
+            "dependencies": {
+                "dango:http": ">=0.0.0",
+                "dango:system": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "brightproof": "~>2.4.0",
+                        "poodinis": "~>6.3.0",
+                        "proped": ">=0.0.7-rc.1 <0.1.0-0",
+                        "vibe-d:core": ">=0.8.0-beta.6 <0.9.0-0"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "proped": ">=0.0.7-rc.1 <0.1.0-0",
+                        "vibe-d:http": ">=0.8.0-beta.6 <0.9.0-0"
+                    },
+                    "name": "http"
+                }
+            ],
+            "version": "0.0.1-beta.2"
+        },
+        {
+            "dependencies": {
+                "dango:http": ">=0.0.0",
+                "dango:service": ">=0.0.0",
+                "dango:system": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "brightproof": "~>2.4.0",
+                        "poodinis": "~>6.3.0",
+                        "proped": ">=0.0.7-rc.1 <0.1.0-0",
+                        "vibe-core": ">=1.4.0-rc.1 <1.5.0-0"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "proped": ">=0.0.7-rc.1 <0.1.0-0",
+                        "vibe-d:http": ">=0.8.3-beta.1 <0.9.0-0"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "dango:http": ">=0.0.0",
+                        "dango:system": ">=0.0.0",
+                        "msgpack-d": ">=1.0.0-beta.6 <1.1.0-0",
+                        "requests": "~>0.7.2",
+                        "zmqd": "~>1.1.0"
+                    },
+                    "name": "service"
+                }
+            ],
+            "version": "0.0.1-beta.3"
+        },
+        {
+            "dependencies": {
+                "dango:service": ">=0.0.0",
+                "dango:store": ">=0.0.0",
+                "dango:system": ">=0.0.0",
+                "dango:web": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bolts": "~>0.8.1",
+                        "brightproof": "~>2.4.0",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "poodinis": "~>8.0.3",
+                        "rx": "~>0.9.0",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": "~>0.0.1",
+                        "vibe-core": "~>1.4.5"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.8.4"
+                    },
+                    "name": "web"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "zmqd": "~>1.1.0"
+                            },
+                            "name": "zeromq"
+                        }
+                    ],
+                    "dependencies": {
+                        "dango:web": ">=0.0.0",
+                        "libdparse": "~>0.9.1",
+                        "msgpack-d": ">=1.0.0-beta.7 <1.1.0-0",
+                        "uninode:serialization": "~>0.0.1"
+                    },
+                    "name": "service"
+                },
+                {
+                    "dependencies": {
+                        "vibe-core": "~>1.4.0"
+                    },
+                    "name": "store"
+                }
+            ],
+            "version": "0.0.1"
+        },
+        {
+            "dependencies": {
+                "dango:service": ">=0.0.0",
+                "dango:store": ">=0.0.0",
+                "dango:system": ">=0.0.0",
+                "dango:web": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bolts": "~>0.9.0",
+                        "brightproof": "~>2.4.0",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "poodinis": "8.0.3+commit.2.g3c621a1",
+                        "rx": "~>0.9.0",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": "~>0.0.1",
+                        "vibe-core": "~>1.4.5"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.8.4"
+                    },
+                    "name": "web"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "zmqd": "~>1.1.0"
+                            },
+                            "name": "zeromq"
+                        }
+                    ],
+                    "dependencies": {
+                        "dango:web": ">=0.0.0",
+                        "libdparse": "~>0.9.1",
+                        "msgpack-d": ">=1.0.0-beta.7 <1.1.0-0",
+                        "uninode:serialization": "~>0.0.1"
+                    },
+                    "name": "service"
+                },
+                {
+                    "dependencies": {
+                        "vibe-core": "~>1.4.0"
+                    },
+                    "name": "store"
+                }
+            ],
+            "version": "0.0.2-beta.1"
+        },
+        {
+            "dependencies": {
+                "dango:service": ">=0.0.0",
+                "dango:store": ">=0.0.0",
+                "dango:system": ">=0.0.0",
+                "dango:web": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bolts": "~>0.9.0",
+                        "brightproof": "~>2.4.0",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "poodinis": "8.0.3+commit.2.g3c621a1",
+                        "rx": "~>0.9.0",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": "~>0.0.1",
+                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.8.4"
+                    },
+                    "name": "web"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "zmqd": "~>1.1.0"
+                            },
+                            "name": "zeromq"
+                        }
+                    ],
+                    "dependencies": {
+                        "dango:web": ">=0.0.0",
+                        "libdparse": "~>0.9.1",
+                        "msgpack-d": ">=1.0.0-beta.7 <1.1.0-0",
+                        "uninode:serialization": "~>0.0.1"
+                    },
+                    "name": "service"
+                },
+                {
+                    "dependencies": {
+                        "vibe-core": "~>1.4.0"
+                    },
+                    "name": "store"
+                }
+            ],
+            "version": "0.0.2-beta.2"
+        },
+        {
+            "dependencies": {
+                "dango:service": ">=0.0.0",
+                "dango:store": ">=0.0.0",
+                "dango:system": ">=0.0.0",
+                "dango:web": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bolts": "~>0.9.0",
+                        "brightproof": "~>2.4.0",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "poodinis": "8.0.3+commit.2.g3c621a1",
+                        "rx": "~>0.9.0",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": ">=0.0.2-beta.1",
+                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.8.4"
+                    },
+                    "name": "web"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "zmqd": "~>1.1.0"
+                            },
+                            "name": "zeromq"
+                        }
+                    ],
+                    "dependencies": {
+                        "dango:web": ">=0.0.0",
+                        "libdparse": "~>0.11.0",
+                        "msgpack-d": ">=1.0.0-beta.7 <1.1.0-0",
+                        "uninode:serialization": "~>0.0.1"
+                    },
+                    "name": "service"
+                },
+                {
+                    "dependencies": {
+                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                    },
+                    "name": "store"
+                }
+            ],
+            "version": "0.0.2-beta.3"
+        },
+        {
+            "dependencies": {
+                "dango:service": ">=0.0.0",
+                "dango:store": ">=0.0.0",
+                "dango:system": ">=0.0.0",
+                "dango:web": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bolts": "~>0.9.0",
+                        "brightproof": "~>2.4.0",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "poodinis": "8.0.3+commit.2.g3c621a1",
+                        "rx": "~>0.9.0",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": ">=0.0.2-beta.1",
+                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.8.4"
+                    },
+                    "name": "web"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "zmqd": "~>1.1.0"
+                            },
+                            "name": "zeromq"
+                        }
+                    ],
+                    "dependencies": {
+                        "dango:web": ">=0.0.0",
+                        "libdparse": "~>0.11.0",
+                        "msgpack-d": ">=1.0.0-beta.7 <1.1.0-0",
+                        "uninode:serialization": "~>0.0.1"
+                    },
+                    "name": "service"
+                },
+                {
+                    "dependencies": {
+                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                    },
+                    "name": "store"
+                }
+            ],
+            "version": "0.0.2-beta.4"
+        },
+        {
+            "dependencies": {
+                "dango:service": ">=0.0.0",
+                "dango:store": ">=0.0.0",
+                "dango:system": ">=0.0.0",
+                "dango:web": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bolts": ">=0.10.0",
+                        "brightproof": "~>2.4.0",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "poodinis": "8.0.3+commit.2.g3c621a1",
+                        "rx": "~>0.9.0",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": ">=0.0.2-beta.1",
+                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.8.4"
+                    },
+                    "name": "web"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "zmqd": "~>1.1.0"
+                            },
+                            "name": "zeromq"
+                        }
+                    ],
+                    "dependencies": {
+                        "dango:web": ">=0.0.0",
+                        "libdparse": "~>0.11.0",
+                        "msgpack-d": ">=1.0.0-beta.7 <1.1.0-0",
+                        "uninode:serialization": "~>0.0.1"
+                    },
+                    "name": "service"
+                },
+                {
+                    "dependencies": {
+                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                    },
+                    "name": "store"
+                }
+            ],
+            "version": "0.0.2-beta.5"
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "categories": [
+        "library"
+    ],
+    "commitID": "6725564725b7a38b51b4f6ea6543e5ac8676ff70",
+    "dateAdded": "2016-06-12T18:05:14",
+    "description": "Treemap in D.",
+    "documentationURL": "",
+    "id": "575d883a803f890f4e9eb7cb",
+    "name": "treemap",
+    "owner": "56412bd1656da7f80e043fd9",
+    "repository": {
+        "kind": "github",
+        "owner": "gizmomogwai",
+        "project": "treemap"
+    },
+    "versions": [
+        {
+            "name": "treemap",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dlangui": ">=0.0.0",
+                        "treemap:core": ">=0.0.0"
+                    },
+                    "name": "dlangui"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "treemap:dlangui": ">=0.0.0"
+                    },
+                    "name": "file"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "treemap:dlangui": ">=0.0.0"
+                    },
+                    "name": "nofile"
+                },
+                {
+                    "dependencies": {
+                        "treemap:dlangui": ">=0.0.0"
+                    },
+                    "name": "zipfs"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "name": "treemap",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dlangui": "0.8.30",
+                        "treemap:core": ">=0.0.0"
+                    },
+                    "name": "dlangui"
+                },
+                {
+                    "dependencies": {
+                        "treemap:dlangui": ">=0.0.0"
+                    },
+                    "name": "file"
+                },
+                {
+                    "dependencies": {
+                        "treemap:dlangui": ">=0.0.0"
+                    },
+                    "name": "nofile"
+                }
+            ],
+            "version": "0.0.1"
+        }
+    ]
+}

@@ -1,0 +1,861 @@
+{
+    "categories": [
+        "library.data"
+    ],
+    "commitID": "e4f8b2a1e8288293dab41c9114f1b5391818b816",
+    "dateAdded": "2015-05-03T14:33:41",
+    "description": "Desktop Entry Specification implementation",
+    "documentationURL": "",
+    "id": "554615a5684f7d3461027a44",
+    "name": "desktopfile",
+    "owner": "551c59a4819ca7683f0005e5",
+    "repository": {
+        "kind": "github",
+        "owner": "FreeSlave",
+        "project": "desktopfile"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "findexecutable": "~>0.1.1",
+                "inilike": "~>1.1.0",
+                "xdgpaths": "~>0.2.4"
+            },
+            "name": "desktopfile",
+            "version": "~master"
+        },
+        {
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                }
+            ],
+            "version": "0.1.0"
+        },
+        {
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoptest"
+                }
+            ],
+            "version": "0.2.0"
+        },
+        {
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.0.4"
+                    },
+                    "name": "desktoptest"
+                }
+            ],
+            "version": "0.2.1"
+        },
+        {
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.0.4"
+                    },
+                    "name": "desktoptest"
+                }
+            ],
+            "version": "0.2.2"
+        },
+        {
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.0.4"
+                    },
+                    "name": "desktoptest"
+                }
+            ],
+            "version": "0.3.0"
+        },
+        {
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.0.4"
+                    },
+                    "name": "desktoptest"
+                }
+            ],
+            "version": "0.3.1"
+        },
+        {
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.1.2"
+                    },
+                    "name": "desktoptest"
+                }
+            ],
+            "version": "0.3.2"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.1.0"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.1.2"
+                    },
+                    "name": "desktoptest"
+                }
+            ],
+            "version": "0.3.3"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.1.1"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.1.2"
+                    },
+                    "name": "desktoptest"
+                }
+            ],
+            "version": "0.3.4"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.2.0",
+                "standardpaths": "~>0.2.0"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoptest"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                }
+            ],
+            "version": "0.4.0"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.2.1",
+                "standardpaths": "~>0.2.0"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoptest"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                }
+            ],
+            "version": "0.5.0"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.3.0",
+                "standardpaths": "~>0.2.0"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoptest"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                }
+            ],
+            "version": "0.6.0"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.4.0"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.2.0"
+                    },
+                    "name": "desktoptest"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shootdesktop"
+                }
+            ],
+            "version": "0.7.0"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.4.0"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.2.0"
+                    },
+                    "name": "desktoptest"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shootdesktop"
+                }
+            ],
+            "version": "0.7.1"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.4.0"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.2.0"
+                    },
+                    "name": "desktoptest"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shootdesktop"
+                }
+            ],
+            "version": "0.7.2"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.4.0",
+                "xdgpaths": "~>0.1.2"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.2.0"
+                    },
+                    "name": "desktoptest"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shootdesktop"
+                }
+            ],
+            "version": "0.7.3"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.4.0",
+                "xdgpaths": "~>0.1.2"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.2.0"
+                    },
+                    "name": "desktoptest"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shootdesktop"
+                }
+            ],
+            "version": "0.7.4"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.5.0",
+                "xdgpaths": "~>0.1.2"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.3.1"
+                    },
+                    "name": "desktoptest"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shootdesktop"
+                }
+            ],
+            "version": "0.8.0"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.6.1",
+                "xdgpaths": "~>0.2.1"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.4.0"
+                    },
+                    "name": "desktoptest"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "desktoputil"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shootdesktop"
+                }
+            ],
+            "version": "0.9.0"
+        },
+        {
+            "dependencies": {
+                "inilike": "~>0.6.2",
+                "xdgpaths": "~>0.2.1"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.4.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "0.9.1"
+        },
+        {
+            "dependencies": {
+                "findexecutable": "~>0.1.0",
+                "inilike": "~>0.6.2",
+                "xdgpaths": "~>0.2.1"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.4.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "0.9.2"
+        },
+        {
+            "dependencies": {
+                "findexecutable": "~>0.1.0",
+                "inilike": "~>0.6.2",
+                "xdgpaths": "~>0.2.1"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.5.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "1.0.0-beta"
+        },
+        {
+            "dependencies": {
+                "findexecutable": "~>0.1.0",
+                "inilike": ">=1.0.0-beta <1.1.0-0",
+                "xdgpaths": "~>0.2.1"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.5.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "1.0.0-beta2"
+        },
+        {
+            "dependencies": {
+                "findexecutable": "~>0.1.0",
+                "inilike": ">=1.0.0-beta <1.1.0-0",
+                "xdgpaths": "~>0.2.1"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.5.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "1.0.0-beta3"
+        },
+        {
+            "dependencies": {
+                "findexecutable": "~>0.1.0",
+                "inilike": ">=1.0.0-beta <1.1.0-0",
+                "xdgpaths": "~>0.2.1"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.5.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "1.0.0-beta4"
+        },
+        {
+            "dependencies": {
+                "findexecutable": "~>0.1.0",
+                "inilike": ">=1.0.0-beta3 <1.1.0-0",
+                "xdgpaths": "~>0.2.2"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.6.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "1.0.0-beta5"
+        },
+        {
+            "dependencies": {
+                "detached": "~>0.1.1",
+                "inilike": "~>1.0.0",
+                "xdgpaths": "~>0.2.2"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.6.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "1.0.0"
+        },
+        {
+            "dependencies": {
+                "detached": "~>0.1.1",
+                "inilike": "~>1.0.0",
+                "xdgpaths": "~>0.2.2"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.6.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "1.0.1"
+        },
+        {
+            "dependencies": {
+                "detached": "~>0.1.1",
+                "inilike": "~>1.0.0",
+                "xdgpaths": "~>0.2.2"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.6.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "1.0.2"
+        },
+        {
+            "dependencies": {
+                "detached": "~>0.1.7",
+                "inilike": "~>1.0.3",
+                "xdgpaths": "~>0.2.4"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.8.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "1.0.3"
+        },
+        {
+            "dependencies": {
+                "detached": "~>0.1.7",
+                "inilike": "~>1.1.0",
+                "xdgpaths": "~>0.2.4"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.8.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "1.1.0"
+        },
+        {
+            "dependencies": {
+                "detached": "~>0.1.7",
+                "inilike": "~>1.1.0",
+                "xdgpaths": "~>0.2.4"
+            },
+            "name": "desktopfile",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0",
+                        "standardpaths": "~>0.8.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "desktopfile": ">=0.0.0"
+                    },
+                    "name": "shoot"
+                }
+            ],
+            "version": "1.1.1"
+        },
+        {
+            "dependencies": {
+                "findexecutable": "~>0.1.1",
+                "inilike": "~>1.1.0",
+                "xdgpaths": "~>0.2.4"
+            },
+            "name": "desktopfile",
+            "version": "1.2.0"
+        }
+    ]
+}

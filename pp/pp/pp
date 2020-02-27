@@ -1,0 +1,1027 @@
+{
+    "categories": [
+        "application.desktop.game",
+        "library.graphics",
+        "library.development"
+    ],
+    "commitID": "368c6f4460b77239010ec6886f53e27babc4f3fd",
+    "dateAdded": "2018-06-15T14:51:39",
+    "description": "The base library of the polyplex engine. (Heavily WIP, non-idiomatic)",
+    "documentationURL": "",
+    "id": "5b23b65b2a94952e22fc1238",
+    "name": "pp",
+    "owner": "5a7f7576517e9b646d9883ca",
+    "repository": {
+        "kind": "github",
+        "owner": "PolyplexEngine",
+        "project": "libpp"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "OpenGL"
+                },
+                {
+                    "name": "OpenGL_ES"
+                },
+                {
+                    "name": "Vulkan"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.2.1",
+                "bindbc-opengl": ">0.5.0",
+                "bindbc-sdl": "~>0.10.1",
+                "colorize": "~>1.0.5",
+                "pp:openal": ">=0.0.0",
+                "ppc": "0.2.6",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "openal"
+                }
+            ],
+            "version": "~gles"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "simplemath"
+                },
+                {
+                    "name": "glmath"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.1.1",
+                "bindbc-sdl": "~>0.5.1",
+                "colorize": "~>1.0.5",
+                "pp:audio": ">=0.0.0",
+                "pp:core": ">=0.0.0",
+                "pp:gl3": ">=0.0.0",
+                "pp:openal": ">=0.0.0",
+                "pp:utils": ">=0.0.0",
+                "ppc": "~>0.2.0",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.1.1"
+                    },
+                    "name": "openal"
+                },
+                {
+                    "dependencies": {
+                        "pp:math": ">=0.0.0"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "pp:core": ">=0.0.0",
+                        "pp:math": ">=0.0.0",
+                        "pp:openal": ">=0.0.0",
+                        "ppc": "~>0.2.0"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "simplemath"
+                        },
+                        {
+                            "name": "glmath"
+                        }
+                    ],
+                    "dependencies": {
+                        "pp:utils": ">=0.0.0"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "colorize": "~>1.0.5"
+                    },
+                    "name": "utils"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-opengl": ">0.5.0",
+                        "pp:core": ">=0.0.0"
+                    },
+                    "name": "gl3"
+                }
+            ],
+            "version": "~refactor"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "OpenGL"
+                },
+                {
+                    "name": "OpenGL_ES"
+                },
+                {
+                    "name": "Vulkan"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.2.1",
+                "bindbc-opengl": ">0.5.0",
+                "bindbc-sdl": "~>0.10.1",
+                "colorize": "~>1.0.5",
+                "pp:openal": ">=0.0.0",
+                "ppc": "~>0.3.0",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "openal"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "derelict-gl3": ">=2.0.0-beta <2.1.0-0",
+                "derelict-il": ">=0.0.0",
+                "derelict-sdl2": ">=3.1.0-alpha.3 <3.2.0-0",
+                "derelict-util": ">2.0.0",
+                "derelict-vulkan": ">0.0.10"
+            },
+            "name": "pp",
+            "version": "0.0.2-alpha.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "derelict-gl3": ">=2.0.0-beta <2.1.0-0",
+                "derelict-il": ">=0.0.0",
+                "derelict-sdl2": ">=3.1.0-alpha.3 <3.2.0-0",
+                "derelict-util": ">2.0.0",
+                "derelict-vulkan": ">0.0.10"
+            },
+            "name": "pp",
+            "version": "0.0.2-alpha.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "derelict-gl3": ">=2.0.0-beta <2.1.0-0",
+                "derelict-il": ">=2.0.0-beta.2 <2.1.0-0",
+                "derelict-sdl2": ">=3.1.0-alpha.3 <3.2.0-0",
+                "derelict-util": ">2.0.0",
+                "derelict-vulkan": ">0.0.10"
+            },
+            "name": "pp",
+            "version": "0.0.2-alpha.3"
+        },
+        {
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "derelict-gl3": ">=2.0.0-beta.5 <2.1.0-0",
+                "derelict-sdl2": ">=3.1.0-alpha.3 <3.2.0-0",
+                "derelict-util": ">=3.0.0-beta.2 <3.1.0-0",
+                "derelict-vulkan": "~>0.0.13",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "version": "0.0.2-alpha.4"
+        },
+        {
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "derelict-gl3": ">=2.0.0-beta.5 <2.1.0-0",
+                "derelict-sdl2": ">=3.1.0-alpha.3 <3.2.0-0",
+                "derelict-util": ">=3.0.0-beta.2 <3.1.0-0",
+                "derelict-vulkan": "~>0.0.13",
+                "ppc": "~master",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "version": "0.0.2-alpha.5"
+        },
+        {
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "pp:derelict-gl3": ">=0.0.0",
+                "pp:derelict-sdl2": ">=0.0.0",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "ppc": "~master",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-sdl2"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-gl3"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.2-alpha.6"
+        },
+        {
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "pp:derelict-al": ">=0.0.0",
+                "pp:derelict-gl3": ">=0.0.0",
+                "pp:derelict-ogg": ">=0.0.0",
+                "pp:derelict-sdl2": ">=0.0.0",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "ppc": "~master",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-sdl2"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-gl3"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-al"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-ogg"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.2-alpha.7"
+        },
+        {
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "pp:derelict-al": ">=0.0.0",
+                "pp:derelict-gl3": ">=0.0.0",
+                "pp:derelict-ogg": ">=0.0.0",
+                "pp:derelict-sdl2": ">=0.0.0",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "ppc": "~master",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-sdl2"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-gl3"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-al"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-ogg"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.2-alpha.8"
+        },
+        {
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "pp:derelict-al": ">=0.0.0",
+                "pp:derelict-gl3": ">=0.0.0",
+                "pp:derelict-ogg": ">=0.0.0",
+                "pp:derelict-sdl2": ">=0.0.0",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "ppc": "~master",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-sdl2"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-gl3"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-al"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-ogg"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.3-alpha.1"
+        },
+        {
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "pp:derelict-al": ">=0.0.0",
+                "pp:derelict-gl3": ">=0.0.0",
+                "pp:derelict-sdl2": ">=0.0.0",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "ppc": "~master",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-sdl2"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-gl3"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-al"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.3-alpha.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "simplemath"
+                },
+                {
+                    "name": "glmath"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "pp:derelict-al": ">=0.0.0",
+                "pp:derelict-gl3": ">=0.0.0",
+                "pp:derelict-sdl2": ">=0.0.0",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "ppc": "~master",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-sdl2"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-gl3"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0"
+                    },
+                    "name": "derelict-al"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.3-alpha.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "simplemath"
+                },
+                {
+                    "name": "glmath"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.1.1",
+                "bindbc-opengl": "~>0.5.0",
+                "bindbc-sdl": "~>0.5.1",
+                "colorize": "~>1.0.5",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "pp:openal": ">=0.0.0",
+                "ppc": "~master",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.1.1"
+                    },
+                    "name": "openal"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "simplemath"
+                },
+                {
+                    "name": "glmath"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.1.1",
+                "bindbc-opengl": ">0.5.0",
+                "bindbc-sdl": "~>0.5.1",
+                "colorize": "~>1.0.5",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "pp:openal": ">=0.0.0",
+                "ppc": "~>0.2.0",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.1.1"
+                    },
+                    "name": "openal"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.51"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "simplemath"
+                },
+                {
+                    "name": "glmath"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.1.1",
+                "bindbc-opengl": ">0.5.0",
+                "bindbc-sdl": "~>0.5.1",
+                "colorize": "~>1.0.5",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "pp:openal": ">=0.0.0",
+                "ppc": "~>0.2.2",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.1.1"
+                    },
+                    "name": "openal"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.52"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "simplemath"
+                },
+                {
+                    "name": "glmath"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.2.1",
+                "bindbc-opengl": ">0.5.0",
+                "bindbc-sdl": "~>0.5.1",
+                "colorize": "~>1.0.5",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "pp:openal": ">=0.0.0",
+                "ppc": "~>0.2.4",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.1.1"
+                    },
+                    "name": "openal"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.60"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "simplemath"
+                },
+                {
+                    "name": "glmath"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.2.1",
+                "bindbc-opengl": ">0.5.0",
+                "bindbc-sdl": "~>0.5.1",
+                "colorize": "~>1.0.5",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "pp:openal": ">=0.0.0",
+                "ppc": "~>0.2.4",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.1.1"
+                    },
+                    "name": "openal"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.61"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "simplemath"
+                },
+                {
+                    "name": "glmath"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.2.1",
+                "bindbc-opengl": ">0.5.0",
+                "bindbc-sdl": "~>0.5.1",
+                "colorize": "~>1.0.5",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "pp:openal": ">=0.0.0",
+                "ppc": "~>0.2.4",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "openal"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.62"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "simplemath"
+                },
+                {
+                    "name": "glmath"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.2.1",
+                "bindbc-opengl": ">0.5.0",
+                "bindbc-sdl": "~>0.10.1",
+                "colorize": "~>1.0.5",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "pp:openal": ">=0.0.0",
+                "ppc": "~>0.2.4",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "openal"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.63"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "simplemath"
+                },
+                {
+                    "name": "glmath"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.2.1",
+                "bindbc-opengl": ">0.5.0",
+                "bindbc-sdl": "~>0.10.1",
+                "colorize": "~>1.0.5",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "pp:openal": ">=0.0.0",
+                "ppc": "~>0.2.5",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "openal"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.64"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "simplemath"
+                },
+                {
+                    "name": "glmath"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.2.1",
+                "bindbc-opengl": ">0.5.0",
+                "bindbc-sdl": "~>0.10.1",
+                "colorize": "~>1.0.5",
+                "pp:derelict-util": ">=0.0.0",
+                "pp:derelict-vulkan": ">=0.0.0",
+                "pp:openal": ">=0.0.0",
+                "ppc": "~>0.2.5",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "name": "derelict-util"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "openal"
+                },
+                {
+                    "dependencies": {
+                        "pp:derelict-util": ">=0.0.0",
+                        "xcb-d": {
+                            "optional": true,
+                            "version": "~>2.1.0"
+                        },
+                        "xlib-d": {
+                            "optional": true,
+                            "version": "~>0.1.1"
+                        }
+                    },
+                    "name": "derelict-vulkan"
+                }
+            ],
+            "version": "0.0.65"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "OpenGL"
+                },
+                {
+                    "name": "OpenGL_ES"
+                },
+                {
+                    "name": "Vulkan"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.2.1",
+                "bindbc-opengl": ">0.5.0",
+                "bindbc-sdl": "~>0.10.1",
+                "colorize": "~>1.0.5",
+                "pp:openal": ">=0.0.0",
+                "ppc": "~>0.3.0",
+                "sharpevents": "~>1.0.0"
+            },
+            "name": "pp",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "openal"
+                }
+            ],
+            "version": "0.1.0"
+        }
+    ]
+}

@@ -1,0 +1,580 @@
+{
+    "categories": [
+        "library.graphics",
+        "library.gui"
+    ],
+    "commitID": "82c1ebf3ac7dfd6a1fb5fdfa8a2a3ea224846cdc",
+    "dateAdded": "2014-02-12T21:21:20",
+    "description": "Set of multimedia libraries for games and gui applications",
+    "documentationURL": "",
+    "id": "52fbd7c00022b90d13037d02",
+    "name": "anchovy",
+    "owner": "51d15ef77d30904576000d98",
+    "repository": {
+        "kind": "github",
+        "owner": "MrSmith33",
+        "project": "anchovy"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "derelict-fi": "2.0.2",
+                "derelict-ft": "1.0.2",
+                "derelict-gl3": "1.0.17",
+                "derelict-glfw3": "1.1.0",
+                "dlib": "0.7.1",
+                "sdlang-d": "0.9.3"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example01"
+                },
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example02"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "anchovy:core": "~master",
+                "anchovy:graphics": "~master",
+                "anchovy:gui": "~master",
+                "anchovy:utils": "~master"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy:util": "~master",
+                        "derelict:freeimage": "~master",
+                        "derelict:freetype": "~master",
+                        "derelict:glfw3": "~master",
+                        "derelict:opengl3": "~master",
+                        "derelict:util": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master",
+                        "anchovy:util": "~master",
+                        "derelict:freeimage": "~master",
+                        "derelict:freetype": "~master",
+                        "derelict:glfw3": "~master",
+                        "derelict:opengl3": "~master",
+                        "derelict:util": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master",
+                        "anchovy:graphics": "~master",
+                        "anchovy:util": "~master",
+                        "derelict:freeimage": "~master",
+                        "derelict:freetype": "~master",
+                        "derelict:glfw3": "~master",
+                        "derelict:opengl3": "~master",
+                        "derelict:util": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master"
+                    },
+                    "name": "utils"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master",
+                        "anchovy:graphics": "~master",
+                        "anchovy:gui": "~master",
+                        "anchovy:util": "~master",
+                        "derelict:freeimage": "~master",
+                        "derelict:freetype": "~master",
+                        "derelict:glfw3": "~master",
+                        "derelict:opengl3": "~master",
+                        "derelict:util": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "examples"
+                }
+            ],
+            "version": "0.2.4"
+        },
+        {
+            "dependencies": {
+                "anchovy:core": "~master",
+                "anchovy:graphics": "~master",
+                "anchovy:gui": "~master",
+                "anchovy:utils": "~master"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master",
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master",
+                        "anchovy:graphics": "~master",
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "name": "utils"
+                }
+            ],
+            "version": "0.3.0"
+        },
+        {
+            "dependencies": {
+                "anchovy:core": "~master",
+                "anchovy:graphics": "~master",
+                "anchovy:gui": "~master",
+                "anchovy:utils": "~master"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master",
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master",
+                        "anchovy:graphics": "~master",
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master",
+                        "sdlang-d": "v0.8.4"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {},
+                    "name": "utils"
+                }
+            ],
+            "version": "0.4.0"
+        },
+        {
+            "dependencies": {
+                "anchovy:core": "~master",
+                "anchovy:graphics": "~master",
+                "anchovy:gui": "~master",
+                "anchovy:utils": "~master"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master",
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master",
+                        "anchovy:graphics": "~master",
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master",
+                        "sdlang-d": "0.8.4"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "name": "utils"
+                }
+            ],
+            "version": "0.5.0"
+        },
+        {
+            "dependencies": {
+                "anchovy:core": "~master",
+                "anchovy:graphics": "~master",
+                "anchovy:gui": "~master",
+                "anchovy:utils": "~master"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master",
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:core": "~master",
+                        "anchovy:graphics": "~master",
+                        "anchovy:utils": "~master",
+                        "derelict-fi": "~master",
+                        "derelict-ft": "~master",
+                        "derelict-gl3": "~master",
+                        "derelict-glfw3": "~master",
+                        "dlib": "~master",
+                        "sdlang-d": "~master"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "name": "utils"
+                },
+                {
+                    "dependencies": {
+                        "anchovy:gui": "~master"
+                    },
+                    "name": "guidemo"
+                }
+            ],
+            "version": "0.6.0"
+        },
+        {
+            "dependencies": {
+                "derelict-fi": "~master",
+                "derelict-ft": "~master",
+                "derelict-gl3": "1.0.0",
+                "derelict-glfw3": "1.0.0",
+                "derelict-sdl2": "1.2.0",
+                "dlib": "0.3.1",
+                "sdlang-d": "0.8.4"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example01"
+                }
+            ],
+            "version": "0.6.1"
+        },
+        {
+            "dependencies": {
+                "derelict-fi": "~master",
+                "derelict-ft": "~master",
+                "derelict-gl3": "1.0.0",
+                "derelict-glfw3": "1.0.0",
+                "derelict-sdl2": "1.2.0",
+                "dlib": "0.3.1",
+                "sdlang-d": "0.8.4"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example01"
+                }
+            ],
+            "version": "0.6.2"
+        },
+        {
+            "dependencies": {
+                "derelict-fi": ">=1.0.0",
+                "derelict-ft": ">=1.0.0",
+                "derelict-gl3": ">=1.0.0",
+                "derelict-glfw3": ">=1.0.0",
+                "derelict-sdl2": ">=1.2.0",
+                "dlib": ">=0.3.3",
+                "sdlang-d": ">=0.8.4"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example01"
+                },
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example02"
+                }
+            ],
+            "version": "0.7.0"
+        },
+        {
+            "dependencies": {
+                "derelict-fi": ">=1.0.0",
+                "derelict-ft": ">=1.0.0",
+                "derelict-gl3": ">=1.0.0",
+                "derelict-glfw3": ">=1.0.0",
+                "derelict-sdl2": ">=1.2.0",
+                "dlib": ">=0.3.3",
+                "sdlang-d": ">=0.8.4"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example01"
+                },
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example02"
+                }
+            ],
+            "version": "0.7.1"
+        },
+        {
+            "dependencies": {
+                "derelict-fi": "2.0.1",
+                "derelict-ft": ">=1.0.2",
+                "derelict-gl3": ">=1.0.14",
+                "derelict-glfw3": ">=1.1.0",
+                "dlib": ">=0.6.1",
+                "sdlang-d": ">=0.9.1"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example01"
+                },
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example02"
+                }
+            ],
+            "version": "0.8.0"
+        },
+        {
+            "dependencies": {
+                "derelict-fi": "2.0.1",
+                "derelict-ft": ">=1.0.2",
+                "derelict-gl3": ">=1.0.14",
+                "derelict-glfw3": ">=1.1.0",
+                "dlib": ">=0.6.1",
+                "sdlang-d": ">=0.9.1"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example01"
+                },
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example02"
+                }
+            ],
+            "version": "0.8.1"
+        },
+        {
+            "dependencies": {
+                "derelict-fi": "2.0.1",
+                "derelict-ft": ">=1.0.2",
+                "derelict-gl3": ">=1.0.14",
+                "derelict-glfw3": ">=1.1.0",
+                "dlib": ">=0.6.1",
+                "sdlang-d": ">=0.9.1"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example01"
+                },
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example02"
+                }
+            ],
+            "version": "0.8.2"
+        },
+        {
+            "dependencies": {
+                "derelict-fi": "2.0.2",
+                "derelict-ft": "1.0.2",
+                "derelict-gl3": "1.0.17",
+                "derelict-glfw3": "1.1.0",
+                "dlib": "0.7.1",
+                "sdlang-d": "0.9.3"
+            },
+            "name": "anchovy",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example01"
+                },
+                {
+                    "dependencies": {
+                        "anchovy": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example02"
+                }
+            ],
+            "version": "0.8.3"
+        }
+    ]
+}

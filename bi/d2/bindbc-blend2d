@@ -1,0 +1,117 @@
+{
+    "categories": [
+        "library"
+    ],
+    "commitID": "9b22b9593986ab3620bbe0faaeefd6bafb7b4e2a",
+    "dateAdded": "2019-12-31T20:44:00",
+    "description": "Dynamic and static bindings to the Blend2D C API, compatible with -betterC, @nogc, and nothrow.",
+    "documentationURL": "",
+    "id": "5e0ba500d14155be2b65113e",
+    "name": "bindbc-blend2d",
+    "owner": "514019e95f13f10275001890",
+    "repository": {
+        "kind": "github",
+        "owner": "kdmult",
+        "project": "bindbc-blend2d"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-blend2d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamicBC"
+                        },
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "staticBC"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-blend2d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "bl_capi_sample"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-blend2d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamicBC"
+                        },
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "staticBC"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-blend2d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "bl_capi_sample"
+                }
+            ],
+            "version": "0.0.1"
+        }
+    ]
+}

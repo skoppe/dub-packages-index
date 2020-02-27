@@ -1,0 +1,816 @@
+{
+    "categories": [],
+    "commitID": "c0845f05ddd9c86f9321ccb12539bce82f4a3920",
+    "dateAdded": "2019-08-01T03:46:01",
+    "description": "App public infrastructure.",
+    "documentationURL": "",
+    "id": "5d424459e892d4d04d54831d",
+    "name": "appbase",
+    "owner": "59302dd1ad94e3d47438a8ed",
+    "repository": {
+        "kind": "github",
+        "owner": "shove70",
+        "project": "appbase"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.26"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.6"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.13"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.20"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.1.30"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.7"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.1"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.20"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.1.30"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.7"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.2"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.20"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.1.31"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.8"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.3"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.20"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.1.32"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.8"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.4"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.20"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.1.33"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.9"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.5"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.20"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.1.34"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.10"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.6"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.21"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.1"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.11"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.7"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.22"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.2"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.12"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.8"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.23"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.2"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.12"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.9"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.24"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.2"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.12"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.10"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.24"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.3"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.12"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.11"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.24"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.4"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.13"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.12"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.24"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.5"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.13"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.13"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.25"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.5"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.13"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.14"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.26"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.5"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.13"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.15"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.26"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.6"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.13"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.16"
+        }
+    ]
+}

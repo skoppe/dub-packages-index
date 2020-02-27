@@ -1,0 +1,111 @@
+{
+    "categories": [],
+    "commitID": "ea69c78bfb6f21ee5181c6c13da23211a736af3b",
+    "dateAdded": "2020-01-22T20:27:23",
+    "description": "A flexible and dynamic visual novel engine using D and SFML (DSFML).",
+    "documentationURL": "",
+    "id": "5e28a21bd1ffc43109765777",
+    "name": "novelate",
+    "owner": "5e08cf048eb427bb36218757",
+    "repository": {
+        "kind": "github",
+        "owner": "Novelate",
+        "project": "NovelateEngine"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "dsfml": "2.1.1"
+            },
+            "name": "novelate",
+            "version": "~v0.0.3"
+        },
+        {
+            "name": "novelate",
+            "version": "~v0.0.4"
+        },
+        {
+            "name": "novelate",
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "dsfml": {
+                    "path": "external\/dsfml",
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "novelate",
+            "version": "0.0.1"
+        },
+        {
+            "dependencies": {
+                "dsfml": {
+                    "path": "external\/dsfml",
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "novelate",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        }
+                    ],
+                    "dependencies": {
+                        "dsfml:audio": "~>2.1",
+                        "dsfml:graphics": "~>2.1",
+                        "dsfml:network": "~>2.1",
+                        "dsfml:system": "~>2.1",
+                        "dsfml:window": "~>2.1"
+                    },
+                    "name": "dsfml",
+                    "subPackages": [
+                        {
+                            "dependencies": {
+                                "dsfml:system": "~>2.1"
+                            },
+                            "name": "audio"
+                        },
+                        {
+                            "dependencies": {
+                                "dsfml:system": "~>2.1",
+                                "dsfml:window": "~>2.1"
+                            },
+                            "name": "graphics"
+                        },
+                        {
+                            "dependencies": {
+                                "dsfml:system": "~>2.1"
+                            },
+                            "name": "window"
+                        },
+                        {
+                            "dependencies": {
+                                "dsfml:system": "~>2.1"
+                            },
+                            "name": "network"
+                        },
+                        {
+                            "name": "system"
+                        }
+                    ],
+                    "version": "2.1.1"
+                }
+            ],
+            "version": "0.0.2"
+        },
+        {
+            "dependencies": {
+                "dsfml": "2.1.1"
+            },
+            "name": "novelate",
+            "version": "0.0.3"
+        },
+        {
+            "name": "novelate",
+            "version": "0.0.4"
+        }
+    ]
+}

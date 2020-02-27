@@ -1,0 +1,58 @@
+{
+    "categories": [],
+    "commitID": "369e245c5dc5b62278a3f7ca8f5643d17adbd45a",
+    "dateAdded": "2015-08-20T22:10:25",
+    "description": "Wayland bindings for D.",
+    "documentationURL": "",
+    "id": "55d63431081176706500e5c3",
+    "name": "wayland-client-d",
+    "owner": "55020b4377020e7b650014ff",
+    "repository": {
+        "kind": "github",
+        "owner": "rtbo",
+        "project": "wayland-client-d"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "dependencies": {
+                        "derelict-util": "~>2.0.3"
+                    },
+                    "name": "dynamic"
+                }
+            ],
+            "name": "wayland-client-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "wayland-client-d": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "connect"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "dependencies": {
+                        "derelict-util": "~>2.0.3"
+                    },
+                    "name": "dynamic"
+                }
+            ],
+            "name": "wayland-client-d",
+            "version": "1.8.90"
+        }
+    ]
+}

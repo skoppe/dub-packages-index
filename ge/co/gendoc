@@ -1,0 +1,193 @@
+{
+    "categories": [
+        "application.desktop.development.documentation"
+    ],
+    "commitID": "5af528c8c0b92cc16e4033b4ca1ec7016f1a8241",
+    "dateAdded": "2019-08-17T15:03:01",
+    "description": "Document generator using Ddoc D language standard feature for dub package.",
+    "documentationURL": "https:\/\/shoo.github.io\/gendoc",
+    "id": "5d57fb05f2264e2b33d1239e",
+    "name": "gendoc",
+    "owner": "54aba5881f2566333b003fed",
+    "repository": {
+        "kind": "github",
+        "owner": "shoo",
+        "project": "gendoc"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "init"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dub": "~>1.19.0",
+                "mustache-d": "~>0.1.4"
+            },
+            "name": "gendoc",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "gendoc": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "none": {
+                                    "path": "..\/none",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "init"
+                        },
+                        {
+                            "dependencies": {
+                                "gendoc": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "candydoc"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "init"
+                }
+            ],
+            "dependencies": {
+                "dub": "~>1.16.0"
+            },
+            "name": "gendoc",
+            "version": "0.0.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "init"
+                }
+            ],
+            "dependencies": {
+                "dub": "~>1.16.0"
+            },
+            "name": "gendoc",
+            "version": "0.0.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "init"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dub": "~>1.16.0",
+                "mustache-d": "~>0.1.3"
+            },
+            "name": "gendoc",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "gendoc": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "none": {
+                                    "path": "..\/none",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "init"
+                        }
+                    ],
+                    "name": "candydoc"
+                }
+            ],
+            "version": "0.0.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "init"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dub": "~>1.16.0",
+                "mustache-d": "~>0.1.3"
+            },
+            "name": "gendoc",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "gendoc": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "none": {
+                                    "path": "..\/none",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "init"
+                        }
+                    ],
+                    "name": "candydoc"
+                }
+            ],
+            "version": "0.0.4"
+        }
+    ]
+}

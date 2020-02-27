@@ -1,0 +1,523 @@
+{
+    "categories": [
+        "application.desktop.network"
+    ],
+    "commitID": "439d0139b5de7b4d43505adf5bf0b12a3acf89d6",
+    "dateAdded": "2018-04-11T19:10:36",
+    "description": "Distributed load balance over SSH",
+    "documentationURL": "",
+    "id": "5ace418c4878a7f731abb2a6",
+    "name": "distssh",
+    "owner": "57d6f8176d99e72338d2655e",
+    "repository": {
+        "kind": "github",
+        "owner": "joakim-brannstrom",
+        "project": "distssh"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "distssh:msgpack-ll": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "name": "msgpack-ll"
+                }
+            ],
+            "version": "~autocomplete"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "server"
+                }
+            ],
+            "dependencies": {
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0",
+                "distssh:vibe-core": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "msgpack-ll"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "epoll"
+                        },
+                        {
+                            "name": "kqueue"
+                        },
+                        {
+                            "name": "winapi"
+                        },
+                        {
+                            "name": "select"
+                        },
+                        {
+                            "name": "winapi-optlink"
+                        },
+                        {
+                            "name": "select-optlink"
+                        },
+                        {
+                            "dependencies": {
+                                "libasync": "~>0.8.2"
+                            },
+                            "name": "libasync"
+                        },
+                        {
+                            "name": "generic"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:taggedalgebraic": ">=0.0.0"
+                    },
+                    "name": "eventcore"
+                },
+                {
+                    "name": "taggedalgebraic"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "winapi"
+                        },
+                        {
+                            "name": "winapi-optlink"
+                        },
+                        {
+                            "name": "epoll"
+                        },
+                        {
+                            "name": "kqueue"
+                        },
+                        {
+                            "name": "select"
+                        },
+                        {
+                            "name": "select-optlink"
+                        },
+                        {
+                            "name": "libasync"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:eventcore": ">=0.0.0",
+                        "distssh:stdx-allocator": ">=0.0.0"
+                    },
+                    "name": "vibe-core"
+                },
+                {
+                    "name": "stdx-allocator"
+                }
+            ],
+            "version": "~server-mode"
+        },
+        {
+            "dependencies": {
+                "distssh:colorlog": ">=0.0.0",
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:iz": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "name": "msgpack-ll"
+                },
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "name": "iz"
+                }
+            ],
+            "version": "~server-mode2"
+        },
+        {
+            "dependencies": {
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "msgpack-ll"
+                }
+            ],
+            "version": "~term-emulator"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "distssh:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "distssh:colorlog": ">=0.0.0",
+                "distssh:d2sqlite3": ">=0.0.0",
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:miniorm": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0",
+                "distssh:sumtype": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "travis"
+                        }
+                    ],
+                    "name": "d2sqlite3"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:d2sqlite3": ">=0.0.0",
+                        "distssh:sumtype": ">=0.0.0",
+                        "distssh:unit-threaded": ">=0.0.0"
+                    },
+                    "name": "miniorm"
+                },
+                {
+                    "name": "msgpack-ll"
+                },
+                {
+                    "name": "sumtype"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded",
+                    "version": "0.10.3"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "msgpack-ll"
+                }
+            ],
+            "version": "1.0.0"
+        },
+        {
+            "dependencies": {
+                "distssh:colorlog": ">=0.0.0",
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "name": "msgpack-ll"
+                },
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "colorlog"
+                }
+            ],
+            "version": "1.1.0"
+        },
+        {
+            "dependencies": {
+                "distssh:colorlog": ">=0.0.0",
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "name": "msgpack-ll"
+                },
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "colorlog"
+                }
+            ],
+            "version": "1.1.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "distssh:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "distssh:colorlog": ">=0.0.0",
+                "distssh:d2sqlite3": ">=0.0.0",
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:miniorm": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0",
+                "distssh:sumtype": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "travis"
+                        }
+                    ],
+                    "name": "d2sqlite3"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:d2sqlite3": ">=0.0.0",
+                        "distssh:sumtype": ">=0.0.0",
+                        "distssh:unit-threaded": ">=0.0.0"
+                    },
+                    "name": "miniorm"
+                },
+                {
+                    "name": "msgpack-ll"
+                },
+                {
+                    "name": "sumtype"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded",
+                    "version": "0.10.3"
+                }
+            ],
+            "version": "2.0.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "distssh:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "distssh:colorlog": ">=0.0.0",
+                "distssh:d2sqlite3": ">=0.0.0",
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:miniorm": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0",
+                "distssh:sumtype": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "travis"
+                        }
+                    ],
+                    "name": "d2sqlite3"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:d2sqlite3": ">=0.0.0",
+                        "distssh:sumtype": ">=0.0.0",
+                        "distssh:unit-threaded": ">=0.0.0"
+                    },
+                    "name": "miniorm"
+                },
+                {
+                    "name": "msgpack-ll"
+                },
+                {
+                    "name": "sumtype"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded",
+                    "version": "0.10.3"
+                }
+            ],
+            "version": "2.0.1"
+        }
+    ]
+}

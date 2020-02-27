@@ -1,0 +1,142 @@
+{
+    "categories": [
+        "application.desktop.development"
+    ],
+    "commitID": "b64b34117844624944bc77c2bf5713b510998c91",
+    "dateAdded": "2015-11-20T19:41:26",
+    "description": "DCPU-16 tools",
+    "documentationURL": "",
+    "id": "564f69562dcd637414002571",
+    "name": "dedcpu",
+    "owner": "542b1d6ac9b2b9ea7a000501",
+    "repository": {
+        "kind": "github",
+        "owner": "Zardoz89",
+        "project": "DEDCPU-16"
+    },
+    "versions": [
+        {
+            "name": "dedcpu",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "nogtk"
+                        },
+                        {
+                            "dependencies": {
+                                "gtk-d:gtkd": "~>3.2.0"
+                            },
+                            "name": "gtk"
+                        }
+                    ],
+                    "dependencies": {
+                        "dedcpu": ">=0.0.0"
+                    },
+                    "name": "lem1802"
+                },
+                {
+                    "dependencies": {
+                        "dedcpu": ">=0.0.0"
+                    },
+                    "name": "bconv"
+                },
+                {
+                    "dependencies": {
+                        "dedcpu:bconv": ">=0.0.0"
+                    },
+                    "name": "test-bconv"
+                },
+                {
+                    "dependencies": {
+                        "dedcpu": ">=0.0.0"
+                    },
+                    "name": "ddis"
+                }
+            ],
+            "version": "~develop"
+        },
+        {
+            "name": "dedcpu",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "nogtk"
+                        },
+                        {
+                            "dependencies": {
+                                "gtk-d:gtkd": "~>3.2.0"
+                            },
+                            "name": "gtk"
+                        }
+                    ],
+                    "name": "lem1802"
+                },
+                {
+                    "name": "bconv"
+                },
+                {
+                    "dependencies": {
+                        "dedcpu:bconv": ">=0.0.0"
+                    },
+                    "name": "test-bconv"
+                },
+                {
+                    "name": "ddis"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "name": "dedcpu",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "gtk-d:gtkd": "~>3.2.0"
+                    },
+                    "name": "lem1802"
+                },
+                {
+                    "name": "bconv"
+                },
+                {
+                    "name": "ddis"
+                }
+            ],
+            "version": "0.3.1"
+        },
+        {
+            "name": "dedcpu",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "nogtk"
+                        },
+                        {
+                            "dependencies": {
+                                "gtk-d:gtkd": "~>3.2.0"
+                            },
+                            "name": "gtk"
+                        }
+                    ],
+                    "name": "lem1802"
+                },
+                {
+                    "name": "bconv"
+                },
+                {
+                    "dependencies": {
+                        "dedcpu:bconv": ">=0.0.0"
+                    },
+                    "name": "test-bconv"
+                },
+                {
+                    "name": "ddis"
+                }
+            ],
+            "version": "0.3.2"
+        }
+    ]
+}

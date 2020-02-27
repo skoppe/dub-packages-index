@@ -1,0 +1,117 @@
+{
+    "categories": [
+        "application.desktop",
+        "application.server.game",
+        "application.server.messaging",
+        "library.network"
+    ],
+    "commitID": "1574feb6b6e2aaea457068e3a4252b820aa7ada4",
+    "dateAdded": "2014-10-24T20:55:37",
+    "description": "D ENet client\/server tutorials",
+    "documentationURL": "",
+    "id": "544aa0a94ade36ea63002cc0",
+    "name": "enet-tutorials",
+    "owner": "51d15ef77d30904576000d98",
+    "repository": {
+        "kind": "github",
+        "owner": "MrSmith33",
+        "project": "enet-tutorials"
+    },
+    "versions": [
+        {
+            "name": "enet-tutorials",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "derelict-enet": "1.3.10"
+                    },
+                    "name": "tut01"
+                },
+                {
+                    "dependencies": {
+                        "cbor-d": {
+                            "path": "..\/..\/..\/cbor",
+                            "version": ">=0.0.0"
+                        },
+                        "derelict-enet": "1.3.10"
+                    },
+                    "name": "tut02"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "client"
+                        },
+                        {
+                            "name": "server"
+                        }
+                    ],
+                    "dependencies": {
+                        "anchovy": ">=0.7.1",
+                        "cbor-d": ">=0.2.0",
+                        "derelict-enet": "1.3.10"
+                    },
+                    "name": "tut03"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "client"
+                        },
+                        {
+                            "name": "server"
+                        }
+                    ],
+                    "dependencies": {
+                        "cbor-d": ">=0.2.0",
+                        "commonlib": {
+                            "path": "..\/..\/commonlib",
+                            "version": ">=0.0.0"
+                        },
+                        "derelict-enet": "1.3.10"
+                    },
+                    "name": "tut04"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "name": "enet-tutorials",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "derelict-enet": "1.3.10"
+                    },
+                    "name": "tut01"
+                },
+                {
+                    "dependencies": {
+                        "cbor-d": {
+                            "path": "..\/..\/..\/cbor",
+                            "version": ">=0.0.0"
+                        },
+                        "derelict-enet": "1.3.10"
+                    },
+                    "name": "tut02"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "client"
+                        },
+                        {
+                            "name": "server"
+                        }
+                    ],
+                    "dependencies": {
+                        "anchovy": ">=0.7.0",
+                        "cbor-d": ">=0.2.0",
+                        "derelict-enet": "1.3.10"
+                    },
+                    "name": "tut03"
+                }
+            ],
+            "version": "0.1.0"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "categories": [
+        "application.desktop.development.compiler",
+        "application.desktop.web",
+        "application.web",
+        "library.vibed"
+    ],
+    "commitID": "69d74bc741f8853eefca13085e2d8867f3ac67c1",
+    "dateAdded": "2015-09-10T21:52:27",
+    "description": "A mustache-like template compiler for D",
+    "documentationURL": "",
+    "id": "55f1df7ba72e16c76800d9ef",
+    "name": "jax",
+    "owner": "54ec5cf3658e89694300d726",
+    "repository": {
+        "kind": "github",
+        "owner": "eBookingServices",
+        "project": "jax"
+    },
+    "versions": [
+        {
+            "name": "jax",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jax:filters": ">=0.0.0"
+                    },
+                    "name": "compiler"
+                },
+                {
+                    "name": "filters"
+                },
+                {
+                    "dependencies": {
+                        "jax:filters": ">=0.0.0",
+                        "vibe-d": ">=0.7.24"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "name": "jax",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jax:filters": ">=0.0.0"
+                    },
+                    "name": "compiler"
+                },
+                {
+                    "name": "filters"
+                },
+                {
+                    "dependencies": {
+                        "jax:filters": ">=0.0.0",
+                        "vibe-d": ">=0.7.24"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "0.1.0"
+        }
+    ]
+}

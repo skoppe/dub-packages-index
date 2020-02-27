@@ -1,0 +1,1087 @@
+{
+    "categories": [],
+    "commitID": "d2306be2d503def682ee55609038ead17d0bb5e3",
+    "dateAdded": "2019-12-15T09:09:14",
+    "description": "A library of sobaya, by sobaya, for sobaya",
+    "documentationURL": "",
+    "id": "5df5ea2acec745bd03dbc687",
+    "name": "sbylib",
+    "owner": "5b0b0f142677edaf66023b68",
+    "repository": {
+        "kind": "github",
+        "owner": "Sobaya007",
+        "project": "sbylib"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "vulkan-example-white-triangle"
+                },
+                {
+                    "name": "vulkan-example-per-vertex-triangle"
+                },
+                {
+                    "name": "vulkan-example-uniform-triangle"
+                },
+                {
+                    "name": "vulkan-example-texture-rectangle"
+                },
+                {
+                    "name": "glfw-example"
+                },
+                {
+                    "name": "engine-example"
+                }
+            ],
+            "dependencies": {
+                "sbylib:assimp": ">=0.0.0",
+                "sbylib:collision": ">=0.0.0",
+                "sbylib:engine": ">=0.0.0",
+                "sbylib:event": ">=0.0.0",
+                "sbylib:fi": ">=0.0.0",
+                "sbylib:ft": ">=0.0.0",
+                "sbylib:glfw": ">=0.0.0",
+                "sbylib:graphics": ">=0.0.0",
+                "sbylib:math": ">=0.0.0",
+                "sbylib:vulkan": ">=0.0.0"
+            },
+            "name": "sbylib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-assimp": ">=0.0.0",
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assimp"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "collision"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "engine"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "event"
+                },
+                {
+                    "dependencies": {
+                        "derelict-fi": ">=3.0.0-beta.1 <3.1.0-0"
+                    },
+                    "name": "fi"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0"
+                    },
+                    "name": "ft"
+                },
+                {
+                    "dependencies": {
+                        "derelict-glfw3": ">=4.0.0-alpha.6 <4.1.0-0",
+                        "erupted": ">=0.0.0"
+                    },
+                    "name": "glfw"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:assimp": {
+                            "path": "..\/assimp",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:engine": {
+                            "path": "..\/engine",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:fi": {
+                            "path": "..\/fi",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:ft": {
+                            "path": "..\/ft",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:vulkan": {
+                            "path": "..\/vulkan",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "erupted": "~>2.0.36",
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "vulkan"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "vulkan-example-white-triangle"
+                },
+                {
+                    "name": "vulkan-example-per-vertex-triangle"
+                },
+                {
+                    "name": "vulkan-example-uniform-triangle"
+                },
+                {
+                    "name": "vulkan-example-texture-rectangle"
+                },
+                {
+                    "name": "glfw-example"
+                },
+                {
+                    "name": "engine-example"
+                }
+            ],
+            "dependencies": {
+                "sbylib:assimp": ">=0.0.0",
+                "sbylib:engine": ">=0.0.0",
+                "sbylib:event": ">=0.0.0",
+                "sbylib:fi": ">=0.0.0",
+                "sbylib:ft": ">=0.0.0",
+                "sbylib:glfw": ">=0.0.0",
+                "sbylib:graphics": ">=0.0.0",
+                "sbylib:math": ">=0.0.0",
+                "sbylib:vulkan": ">=0.0.0"
+            },
+            "name": "sbylib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-assimp": ">=0.0.0",
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assimp"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "engine"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "event"
+                },
+                {
+                    "dependencies": {
+                        "derelict-fi": ">=3.0.0-beta.1 <3.1.0-0"
+                    },
+                    "name": "fi"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0"
+                    },
+                    "name": "ft"
+                },
+                {
+                    "dependencies": {
+                        "derelict-glfw3": ">=4.0.0-alpha.6 <4.1.0-0",
+                        "erupted": ">=0.0.0"
+                    },
+                    "name": "glfw"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:assimp": {
+                            "path": "..\/assimp",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:engine": {
+                            "path": "..\/engine",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:fi": {
+                            "path": "..\/fi",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:ft": {
+                            "path": "..\/ft",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:vulkan": {
+                            "path": "..\/vulkan",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "erupted": "~>2.0.36",
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "vulkan"
+                }
+            ],
+            "version": "0.0.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "vulkan-example-white-triangle"
+                },
+                {
+                    "name": "vulkan-example-per-vertex-triangle"
+                },
+                {
+                    "name": "vulkan-example-uniform-triangle"
+                },
+                {
+                    "name": "vulkan-example-texture-rectangle"
+                },
+                {
+                    "name": "glfw-example"
+                },
+                {
+                    "name": "collision-example"
+                }
+            ],
+            "dependencies": {
+                "sbylib:assimp": ">=0.0.0",
+                "sbylib:collision": ">=0.0.0",
+                "sbylib:engine": ">=0.0.0",
+                "sbylib:event": ">=0.0.0",
+                "sbylib:fi": ">=0.0.0",
+                "sbylib:ft": ">=0.0.0",
+                "sbylib:glfw": ">=0.0.0",
+                "sbylib:graphics": ">=0.0.0",
+                "sbylib:math": ">=0.0.0",
+                "sbylib:vulkan": ">=0.0.0"
+            },
+            "name": "sbylib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-assimp": ">=0.0.0",
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assimp"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "collision"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "engine"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "event"
+                },
+                {
+                    "dependencies": {
+                        "derelict-fi": ">=3.0.0-beta.1 <3.1.0-0"
+                    },
+                    "name": "fi"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0"
+                    },
+                    "name": "ft"
+                },
+                {
+                    "dependencies": {
+                        "derelict-glfw3": ">=4.0.0-alpha.6 <4.1.0-0",
+                        "erupted": ">=0.0.0"
+                    },
+                    "name": "glfw"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:assimp": {
+                            "path": "..\/assimp",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:engine": {
+                            "path": "..\/engine",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:fi": {
+                            "path": "..\/fi",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:ft": {
+                            "path": "..\/ft",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:vulkan": {
+                            "path": "..\/vulkan",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "erupted": "~>2.0.36",
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "vulkan"
+                }
+            ],
+            "version": "0.0.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "vulkan-example-white-triangle"
+                },
+                {
+                    "name": "vulkan-example-per-vertex-triangle"
+                },
+                {
+                    "name": "vulkan-example-uniform-triangle"
+                },
+                {
+                    "name": "vulkan-example-texture-rectangle"
+                },
+                {
+                    "name": "glfw-example"
+                }
+            ],
+            "dependencies": {
+                "sbylib:assimp": ">=0.0.0",
+                "sbylib:collision": ">=0.0.0",
+                "sbylib:engine": ">=0.0.0",
+                "sbylib:event": ">=0.0.0",
+                "sbylib:fi": ">=0.0.0",
+                "sbylib:ft": ">=0.0.0",
+                "sbylib:glfw": ">=0.0.0",
+                "sbylib:graphics": ">=0.0.0",
+                "sbylib:math": ">=0.0.0",
+                "sbylib:vulkan": ">=0.0.0"
+            },
+            "name": "sbylib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-assimp": ">=0.0.0",
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assimp"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "collision"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "engine"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "event"
+                },
+                {
+                    "dependencies": {
+                        "derelict-fi": ">=3.0.0-beta.1 <3.1.0-0"
+                    },
+                    "name": "fi"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0"
+                    },
+                    "name": "ft"
+                },
+                {
+                    "dependencies": {
+                        "derelict-glfw3": ">=4.0.0-alpha.6 <4.1.0-0",
+                        "erupted": ">=0.0.0"
+                    },
+                    "name": "glfw"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:assimp": {
+                            "path": "..\/assimp",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:engine": {
+                            "path": "..\/engine",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:fi": {
+                            "path": "..\/fi",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:ft": {
+                            "path": "..\/ft",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:vulkan": {
+                            "path": "..\/vulkan",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "erupted": "~>2.0.36",
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "vulkan"
+                }
+            ],
+            "version": "0.0.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "vulkan-example-white-triangle"
+                },
+                {
+                    "name": "vulkan-example-per-vertex-triangle"
+                },
+                {
+                    "name": "vulkan-example-uniform-triangle"
+                },
+                {
+                    "name": "vulkan-example-texture-rectangle"
+                },
+                {
+                    "name": "glfw-example"
+                }
+            ],
+            "dependencies": {
+                "sbylib:assimp": ">=0.0.0",
+                "sbylib:collision": ">=0.0.0",
+                "sbylib:engine": ">=0.0.0",
+                "sbylib:event": ">=0.0.0",
+                "sbylib:fi": ">=0.0.0",
+                "sbylib:ft": ">=0.0.0",
+                "sbylib:glfw": ">=0.0.0",
+                "sbylib:graphics": ">=0.0.0",
+                "sbylib:math": ">=0.0.0",
+                "sbylib:vulkan": ">=0.0.0"
+            },
+            "name": "sbylib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-assimp": ">=0.0.0",
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assimp"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "collision"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "engine"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "event"
+                },
+                {
+                    "dependencies": {
+                        "derelict-fi": ">=3.0.0-beta.1 <3.1.0-0"
+                    },
+                    "name": "fi"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0"
+                    },
+                    "name": "ft"
+                },
+                {
+                    "dependencies": {
+                        "derelict-glfw3": ">=4.0.0-alpha.6 <4.1.0-0",
+                        "erupted": ">=0.0.0"
+                    },
+                    "name": "glfw"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:assimp": {
+                            "path": "..\/assimp",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:engine": {
+                            "path": "..\/engine",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:fi": {
+                            "path": "..\/fi",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:ft": {
+                            "path": "..\/ft",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:vulkan": {
+                            "path": "..\/vulkan",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "erupted": "~>2.0.36",
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "vulkan"
+                }
+            ],
+            "version": "0.0.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "vulkan-example-white-triangle"
+                },
+                {
+                    "name": "vulkan-example-per-vertex-triangle"
+                },
+                {
+                    "name": "vulkan-example-uniform-triangle"
+                },
+                {
+                    "name": "vulkan-example-texture-rectangle"
+                },
+                {
+                    "name": "glfw-example"
+                }
+            ],
+            "dependencies": {
+                "sbylib:assimp": ">=0.0.0",
+                "sbylib:collision": ">=0.0.0",
+                "sbylib:engine": ">=0.0.0",
+                "sbylib:event": ">=0.0.0",
+                "sbylib:fi": ">=0.0.0",
+                "sbylib:ft": ">=0.0.0",
+                "sbylib:glfw": ">=0.0.0",
+                "sbylib:graphics": ">=0.0.0",
+                "sbylib:math": ">=0.0.0",
+                "sbylib:vulkan": ">=0.0.0"
+            },
+            "name": "sbylib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-assimp": ">=0.0.0",
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assimp"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "collision"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "engine"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "event"
+                },
+                {
+                    "dependencies": {
+                        "derelict-fi": ">=3.0.0-beta.1 <3.1.0-0"
+                    },
+                    "name": "fi"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0"
+                    },
+                    "name": "ft"
+                },
+                {
+                    "dependencies": {
+                        "derelict-glfw3": ">=4.0.0-alpha.6 <4.1.0-0",
+                        "erupted": ">=0.0.0"
+                    },
+                    "name": "glfw"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:assimp": {
+                            "path": "..\/assimp",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:engine": {
+                            "path": "..\/engine",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:fi": {
+                            "path": "..\/fi",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:ft": {
+                            "path": "..\/ft",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:vulkan": {
+                            "path": "..\/vulkan",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "erupted": "~>2.0.36",
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "vulkan"
+                }
+            ],
+            "version": "0.0.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "vulkan-example-white-triangle"
+                },
+                {
+                    "name": "vulkan-example-per-vertex-triangle"
+                },
+                {
+                    "name": "vulkan-example-uniform-triangle"
+                },
+                {
+                    "name": "vulkan-example-texture-rectangle"
+                },
+                {
+                    "name": "glfw-example"
+                }
+            ],
+            "dependencies": {
+                "sbylib:assimp": ">=0.0.0",
+                "sbylib:collision": ">=0.0.0",
+                "sbylib:engine": ">=0.0.0",
+                "sbylib:event": ">=0.0.0",
+                "sbylib:fi": ">=0.0.0",
+                "sbylib:ft": ">=0.0.0",
+                "sbylib:glfw": ">=0.0.0",
+                "sbylib:graphics": ">=0.0.0",
+                "sbylib:math": ">=0.0.0",
+                "sbylib:vulkan": ">=0.0.0"
+            },
+            "name": "sbylib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-assimp": ">=0.0.0",
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assimp"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "collision"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "engine"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "event"
+                },
+                {
+                    "dependencies": {
+                        "derelict-fi": ">=3.0.0-beta.1 <3.1.0-0"
+                    },
+                    "name": "fi"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0"
+                    },
+                    "name": "ft"
+                },
+                {
+                    "dependencies": {
+                        "derelict-glfw3": ">=4.0.0-alpha.6 <4.1.0-0",
+                        "erupted": ">=0.0.0"
+                    },
+                    "name": "glfw"
+                },
+                {
+                    "dependencies": {
+                        "sbylib:assimp": {
+                            "path": "..\/assimp",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:engine": {
+                            "path": "..\/engine",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:event": {
+                            "path": "..\/event",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:fi": {
+                            "path": "..\/fi",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:ft": {
+                            "path": "..\/ft",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "sbylib:vulkan": {
+                            "path": "..\/vulkan",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "erupted": "~>2.0.36",
+                        "sbylib:glfw": {
+                            "path": "..\/glfw",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "vulkan"
+                }
+            ],
+            "version": "0.0.6"
+        }
+    ]
+}

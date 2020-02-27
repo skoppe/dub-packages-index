@@ -1,0 +1,891 @@
+{
+    "categories": [
+        "library.graphics"
+    ],
+    "commitID": "838244ca0b42265e0f3a031fab0c1dcd1b72cd97",
+    "dateAdded": "2014-11-14T12:46:18",
+    "description": "Image loading and exporting Devisualization",
+    "documentationURL": "",
+    "id": "5465eb8a97e7b00f71006fb1",
+    "name": "de_image",
+    "owner": "5220ad958921122b52000659",
+    "repository": {
+        "kind": "github",
+        "owner": "devisualization",
+        "project": "image"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "de_image:base": ">=0.0.0",
+                "stdx-allocator": "~>2.77.2"
+            },
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "color": "~>0.0.6",
+                        "de_util:core": "~>0.1.5",
+                        "emsi_containers": "~>0.7.0",
+                        "stdx-allocator": ">=0.0.0"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "de_image": ">=0.0.0"
+                    },
+                    "name": "tests"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.1.0"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.1.2"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.1.3"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.1.4"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.2.0"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.2.1"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.2.2"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.2"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.2.3"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.2"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.0"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.2"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.1"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.3"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.2"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.4"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.3"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.4"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.4"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.4"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.5"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.4"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.6"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.4"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.4.0"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.4"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.4.1"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.7"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.4.2"
+        },
+        {
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "name": "interfaces"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "de_image:interfaces": ">=0.0.0",
+                        "de_util:core": ">=0.0.7"
+                    },
+                    "name": "mutable"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "de_image:mutable": ">=0.0.0",
+                        "de_image:png": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.4.3"
+        },
+        {
+            "dependencies": {
+                "de_image:base": ">=0.0.0"
+            },
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "color": "~>0.0.5",
+                        "de_util:core": "~>0.1.1",
+                        "emsi_containers": "~>0.5.3"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "de_image": ">=0.0.0"
+                    },
+                    "name": "tests"
+                }
+            ],
+            "version": "1.0.0"
+        },
+        {
+            "dependencies": {
+                "de_image:base": ">=0.0.0"
+            },
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "color": "~>0.0.5",
+                        "de_util:core": "~>0.1.3",
+                        "emsi_containers": "~>0.5.3"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "de_image": ">=0.0.0"
+                    },
+                    "name": "tests"
+                }
+            ],
+            "version": "1.0.1"
+        },
+        {
+            "dependencies": {
+                "de_image:base": ">=0.0.0",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "color": "~>0.0.5",
+                        "de_util:core": "~>0.1.3",
+                        "emsi_containers": "~>0.5.3"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "de_image": ">=0.0.0"
+                    },
+                    "name": "tests"
+                }
+            ],
+            "version": "1.0.2"
+        },
+        {
+            "dependencies": {
+                "de_image:base": ">=0.0.0",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "color": "~>0.0.5",
+                        "de_util:core": "~>0.1.5",
+                        "emsi_containers": "~>0.5.3",
+                        "stdx-allocator": "~>2.77.0"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "de_image": ">=0.0.0"
+                    },
+                    "name": "tests"
+                }
+            ],
+            "version": "1.0.3"
+        },
+        {
+            "dependencies": {
+                "de_image:base": ">=0.0.0",
+                "stdx-allocator": "~>2.77.2"
+            },
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "color": "~>0.0.6",
+                        "de_util:core": "~>0.1.5",
+                        "emsi_containers": "~>0.7.0",
+                        "stdx-allocator": ">=0.0.0"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "de_image": ">=0.0.0"
+                    },
+                    "name": "tests"
+                }
+            ],
+            "version": "1.1.0"
+        },
+        {
+            "dependencies": {
+                "de_image:base": ">=0.0.0",
+                "stdx-allocator": "~>2.77.2"
+            },
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "color": "~>0.0.6",
+                        "de_util:core": "~>0.1.5",
+                        "emsi_containers": "~>0.7.0",
+                        "stdx-allocator": ">=0.0.0"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "de_image": ">=0.0.0"
+                    },
+                    "name": "tests"
+                }
+            ],
+            "version": "1.1.1"
+        },
+        {
+            "dependencies": {
+                "de_image:base": ">=0.0.0",
+                "stdx-allocator": "~>2.77.2"
+            },
+            "name": "de_image",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "color": "~>0.0.6",
+                        "de_util:core": "~>0.1.5",
+                        "emsi_containers": "~>0.7.0",
+                        "stdx-allocator": ">=0.0.0"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "de_image": ">=0.0.0"
+                    },
+                    "name": "tests"
+                }
+            ],
+            "version": "1.1.2"
+        }
+    ]
+}

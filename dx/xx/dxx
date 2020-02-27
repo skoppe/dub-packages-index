@@ -1,0 +1,2504 @@
+{
+    "categories": [
+        "library",
+        "library.generic",
+        "library.scientific.numeric"
+    ],
+    "commitID": "11726a747e80a438006962cb077e971ed1b26308",
+    "dateAdded": "2018-08-15T05:04:53",
+    "description": "D language utility library and modular application framework",
+    "documentationURL": "",
+    "id": "5b7398559224d5983a5baa63",
+    "name": "dxx",
+    "owner": "58c2e2a9659bf77e01f8f6a2",
+    "repository": {
+        "kind": "github",
+        "owner": "logicfish",
+        "project": "dxx"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                },
+                {
+                    "name": "tool"
+                }
+            ],
+            "dependencies": {
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "boilerplate": "~>1.5.9",
+                        "crypto": "~>0.2.4",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.2.0",
+                        "reloaded": "~>0.1.5",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "backtrace-d": "~>0.1.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.6.2",
+                        "hunt-reflection": "~>0.2.1",
+                        "libasync": "~>0.8.4",
+                        "vayne": "~>0.0.46"
+                    },
+                    "name": "app"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "services"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "name": "dxx",
+            "version": "0.0.1"
+        },
+        {
+            "dependencies": {
+                "ctini": "~>0.2.1",
+                "gen-package-version": "~>1.0.4",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "dxx",
+            "version": "0.0.2"
+        },
+        {
+            "dependencies": {
+                "ctini": "~>0.2.1",
+                "gen-package-version": "~>1.0.4",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "dxx",
+            "version": "0.0.3"
+        },
+        {
+            "dependencies": {
+                "aedi": "~>0.5.0",
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "pegged": "~master",
+                "scriptlike": "~>0.10.2",
+                "semver": "~>0.3.2",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "basic"
+                }
+            ],
+            "version": "0.0.4"
+        },
+        {
+            "dependencies": {
+                "aedi": "~>0.5.0",
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "pegged": "~master",
+                "scriptlike": "~>0.10.2",
+                "semver": "~>0.3.2",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "basic"
+                }
+            ],
+            "version": "0.0.5"
+        },
+        {
+            "dependencies": {
+                "aedi": "~>0.5.0",
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "pegged": "~master",
+                "qscript": "~>0.6.1",
+                "scriptlike": "~>0.10.2",
+                "semver": "~>0.3.2",
+                "standardpaths": "~>0.8.1"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:services": {
+                            "path": "..\/..\/services\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "basic"
+                }
+            ],
+            "version": "0.0.6"
+        },
+        {
+            "dependencies": {
+                "aedi": "~>0.5.0",
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "metad": "~master",
+                "pegged": "~master",
+                "qscript": "~>0.6.1",
+                "scriptlike": "~>0.10.2",
+                "semver": "~>0.3.2",
+                "standardpaths": "~>0.8.1",
+                "urld": "~>2.1.1"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:services": {
+                            "path": "..\/..\/services\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "basic"
+                }
+            ],
+            "version": "0.0.7"
+        },
+        {
+            "dependencies": {
+                "aedi": "~>0.5.0",
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "d-opts": "~>1.0.2",
+                "metad": "~master",
+                "pegged": "~master",
+                "scriptlike": "~>0.10.2",
+                "semver": "~>0.3.2",
+                "standardpaths": "~>0.8.1",
+                "urld": "~>2.1.1"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:services": {
+                            "path": "..\/..\/services\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "basic"
+                }
+            ],
+            "version": "0.0.8"
+        },
+        {
+            "dependencies": {
+                "aedi": "~>0.5.0",
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "d-opts": "~>1.0.2",
+                "metad": "~master",
+                "pegged": "~master",
+                "reloaded": "~master",
+                "scriptlike": "~>0.10.2",
+                "semver": "~>0.3.2",
+                "standardpaths": "~>0.8.1",
+                "urld": "~>2.1.1"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "basic"
+                }
+            ],
+            "version": "0.0.9"
+        },
+        {
+            "dependencies": {
+                "aedi": "~>0.5.0",
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "d-opts": "~>1.0.2",
+                "metad": "~master",
+                "pegged": "~master",
+                "reloaded": "~master",
+                "scriptlike": "~>0.10.2",
+                "semver": "~>0.3.2",
+                "standardpaths": "~>0.8.1",
+                "urld": "~>2.1.1"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example-plugin"
+                }
+            ],
+            "version": "0.0.10"
+        },
+        {
+            "dependencies": {
+                "aedi": "~>0.5.0",
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "d-opts": "~>1.0.2",
+                "metad": "~master",
+                "pegged": "~master",
+                "reloaded": "~master",
+                "scriptlike": "~>0.10.2",
+                "semver": "~>0.3.2",
+                "standardpaths": "~>0.8.1",
+                "urld": "~>2.1.1"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example-plugin"
+                }
+            ],
+            "version": "0.1.0"
+        },
+        {
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~master",
+                        "pegged": "~master",
+                        "reloaded": "~master",
+                        "scriptlike": "~>0.10.2",
+                        "semver": "~>0.3.2",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "core": ">=0.0.0",
+                        "d-opts": "~>1.0.2"
+                    },
+                    "name": "app"
+                },
+                {
+                    "dependencies": {
+                        "app": ">=0.0.0",
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "app": ">=0.0.0",
+                        "core": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "app": ">=0.0.0"
+                    },
+                    "name": "example-plugin"
+                }
+            ],
+            "version": "0.1.1"
+        },
+        {
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~master",
+                        "pegged": "~master",
+                        "reloaded": "~master",
+                        "scriptlike": "~>0.10.2",
+                        "semver": "~>0.3.2",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "d-opts": "~>1.0.2",
+                        "dxx:core": ">=0.0.0"
+                    },
+                    "name": "app"
+                },
+                {
+                    "dependencies": {
+                        "app": ">=0.0.0",
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "dxx:core": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.1.2"
+        },
+        {
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~master",
+                        "pegged": "~master",
+                        "reloaded": "~master",
+                        "scriptlike": "~>0.10.2",
+                        "semver": "~>0.3.2",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "d-opts": "~>1.0.2",
+                        "dxx:core": ">=0.0.0"
+                    },
+                    "name": "app"
+                },
+                {
+                    "dependencies": {
+                        "app": ">=0.0.0",
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "dxx:core": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.2.0"
+        },
+        {
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~master",
+                        "pegged": "~master",
+                        "reloaded": "~master",
+                        "scriptlike": "~>0.10.2",
+                        "semver": "~>0.3.2",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "d-opts": "~>1.0.2",
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.2.0"
+                    },
+                    "name": "app"
+                },
+                {
+                    "dependencies": {
+                        "app": ">=0.0.0",
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "dxx:app": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.2.1"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "ctini": "~>0.2.1",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                }
+            ],
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~master",
+                        "pegged": "~master",
+                        "reloaded": "~master",
+                        "scriptlike": "~>0.10.2",
+                        "semver": "~>0.3.2",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "d-opts": "~>1.0.2",
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.2.0"
+                    },
+                    "name": "app"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "dxx:app": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.2.2"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                }
+            ],
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~master",
+                        "pegged": "~master",
+                        "reloaded": "~master",
+                        "scriptlike": "~>0.10.2",
+                        "semver": "~>0.3.2",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "d-opts": "~>1.0.2",
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.2.0"
+                    },
+                    "name": "app"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-console"
+                        },
+                        {
+                            "name": "dxx-gui"
+                        }
+                    ],
+                    "dependencies": {
+                        "dxx:app": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "vayne": "~>0.0.44"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.3.0"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                }
+            ],
+            "dependencies": {
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.0.2",
+                        "reloaded": "~master",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1",
+                        "vayne": "~>0.0.44"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.2.2",
+                        "reloaded": "~master"
+                    },
+                    "name": "app"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.3.1"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                }
+            ],
+            "dependencies": {
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.0.2",
+                        "reloaded": "~master",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.2.2",
+                        "vayne": "~>0.0.44"
+                    },
+                    "name": "app"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "ircbod2": "~>0.1.6",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.4.0"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                }
+            ],
+            "dependencies": {
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.1.0",
+                        "reloaded": "~master",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "backtrace-d": "~>0.1.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.4.1",
+                        "vayne": "~>0.0.45"
+                    },
+                    "name": "app"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.4.1"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                }
+            ],
+            "dependencies": {
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.1.0",
+                        "reloaded": "~>0.1.4",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "backtrace-d": "~>0.1.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.4.1",
+                        "vayne": "~>0.0.45"
+                    },
+                    "name": "app"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "vibe-d:web": "~>0.8.4"
+                    },
+                    "name": "services"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.4.2"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                },
+                {
+                    "name": "tool"
+                }
+            ],
+            "dependencies": {
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.1.0",
+                        "reloaded": "~>0.1.4",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "backtrace-d": "~>0.1.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.5.0",
+                        "vayne": "~>0.0.45"
+                    },
+                    "name": "app"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "vibe-d:web": ">=0.8.6-alpha.2 <0.9.0-0"
+                    },
+                    "name": "services"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.4.3"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                },
+                {
+                    "name": "tool"
+                }
+            ],
+            "dependencies": {
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.1.0",
+                        "reloaded": "~>0.1.5",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "backtrace-d": "~>0.1.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.5.0",
+                        "vayne": "~>0.0.45"
+                    },
+                    "name": "app"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "vibe-d:web": ">=0.8.6-alpha.2 <0.9.0-0"
+                    },
+                    "name": "services"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.5.0"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                },
+                {
+                    "name": "tool"
+                }
+            ],
+            "dependencies": {
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.1.0",
+                        "reloaded": "~>0.1.5",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "backtrace-d": "~>0.1.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.5.0",
+                        "vayne": "~>0.0.45"
+                    },
+                    "name": "app"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "vibe-d:web": ">=0.8.6-alpha.2 <0.9.0-0"
+                    },
+                    "name": "services"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.5.1"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                },
+                {
+                    "name": "tool"
+                }
+            ],
+            "dependencies": {
+                "aedi-property-reader": "~>0.2.0",
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi-property-reader": "~>0.2.0",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.1.0",
+                        "reloaded": "~>0.1.5",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>0.5.0",
+                        "backtrace-d": "~>0.1.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.5.0",
+                        "vayne": "~>0.0.45"
+                    },
+                    "name": "app"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0",
+                        "vibe-d:web": ">=0.8.6-alpha.2 <0.9.0-0"
+                    },
+                    "name": "services"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.5.2"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                },
+                {
+                    "name": "tool"
+                }
+            ],
+            "dependencies": {
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "crypto": "~>0.2.4",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.1.0",
+                        "reloaded": "~>0.1.5",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "backtrace-d": "~>0.1.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.6.2",
+                        "hunt-reflection": "~>0.2.1",
+                        "libasync": "~>0.8.4",
+                        "vayne": "~>0.0.46"
+                    },
+                    "name": "app"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "services"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.6.0"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                },
+                {
+                    "name": "tool"
+                }
+            ],
+            "dependencies": {
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "crypto": "~>0.2.4",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.1.0",
+                        "reloaded": "~>0.1.5",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "backtrace-d": "~>0.1.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.6.2",
+                        "hunt-reflection": "~>0.2.1",
+                        "libasync": "~>0.8.4",
+                        "vayne": "~>0.0.46"
+                    },
+                    "name": "app"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "services"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.6.1"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "dale": "~>0.0.1"
+                    },
+                    "name": "shi_sha"
+                },
+                {
+                    "name": "dxx-lib"
+                },
+                {
+                    "name": "tool"
+                }
+            ],
+            "dependencies": {
+                "ctini": "~>0.2.1",
+                "semver": "~>0.3.2"
+            },
+            "name": "dxx",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "crypto": "~>0.2.4",
+                        "ctini": "~>0.2.1",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "metad": "~>0.2.0",
+                        "reloaded": "~>0.1.5",
+                        "standardpaths": "~>0.8.1",
+                        "urld": "~>2.1.1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dxx-exec"
+                        },
+                        {
+                            "name": "dxx-plugin"
+                        }
+                    ],
+                    "dependencies": {
+                        "aedi": "~>1.0.0",
+                        "backtrace-d": "~>0.1.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:core": ">=0.0.0",
+                        "hunt-cache": "~>0.6.2",
+                        "hunt-reflection": "~>0.2.1",
+                        "libasync": "~>0.8.4",
+                        "vayne": "~>0.0.46"
+                    },
+                    "name": "app"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "dale": "~>0.0.1"
+                            },
+                            "name": "shi_sha"
+                        },
+                        {
+                            "name": "dxx-tool-console"
+                        },
+                        {
+                            "name": "dxx-tool-gui"
+                        },
+                        {
+                            "name": "dxx-tool-lib"
+                        }
+                    ],
+                    "dependencies": {
+                        "d-opts": "~>1.0.2",
+                        "dxx": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "tool"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "services"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0",
+                        "dxx:tool": ">=0.0.0"
+                    },
+                    "name": "toolexample"
+                },
+                {
+                    "dependencies": {
+                        "dxx": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "dxx:app": ">=0.0.0"
+                    },
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "dxx:app": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "version": "0.6.2"
+        }
+    ]
+}

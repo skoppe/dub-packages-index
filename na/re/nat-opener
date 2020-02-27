@@ -1,0 +1,64 @@
+{
+    "categories": [
+        "library.network",
+        "library.vibed",
+        "library.web.communication"
+    ],
+    "commitID": "32cf7cfc80302c69ac550f5fa89026bb8b231129",
+    "dateAdded": "2016-05-21T19:24:02",
+    "description": "Allows a server to listen on the specified port when behind a router.",
+    "documentationURL": "",
+    "id": "574099b2fd65f388148de4bb",
+    "name": "nat-opener",
+    "owner": "540fac6f5fbe9bb546008306",
+    "repository": {
+        "kind": "github",
+        "owner": "etcimon",
+        "project": "nat-opener"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "windows-headers": "~>1.0.1"
+                    },
+                    "name": "win64"
+                },
+                {
+                    "name": "posix"
+                },
+                {
+                    "dependencies": {
+                        "windows-headers": "~>1.0.1"
+                    },
+                    "name": "32mscoff"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~>0.4.5",
+                "vibe-0": "~>1.0.1"
+            },
+            "name": "nat-opener",
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "client_x64"
+                },
+                {
+                    "name": "client_32mscoff"
+                }
+            ],
+            "dependencies": {
+                "kxml": "1.0.0",
+                "memutils": "~>0.4.5",
+                "vibe-d": "~master",
+                "windows-headers": "1.0.1"
+            },
+            "name": "nat-opener",
+            "version": "0.2.0"
+        }
+    ]
+}

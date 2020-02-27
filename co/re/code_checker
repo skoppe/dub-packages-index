@@ -1,0 +1,526 @@
+{
+    "categories": [
+        "application.desktop.development.analyzer"
+    ],
+    "commitID": "56c6d4f5813aa134de80e0fcb0f42984132eaae9",
+    "dateAdded": "2018-07-23T19:34:20",
+    "description": "Tool to check the quality of code for a review\/inspection\/PR",
+    "documentationURL": "",
+    "id": "5b56119c6645bb847fb1d29f",
+    "name": "code_checker",
+    "owner": "57d6f8176d99e72338d2655e",
+    "repository": {
+        "kind": "github",
+        "owner": "joakim-brannstrom",
+        "project": "code_checker"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "integration_test"
+                }
+            ],
+            "dependencies": {
+                "code_checker:colorlog": ">=0.0.0",
+                "code_checker:toml": ">=0.0.0"
+            },
+            "name": "code_checker",
+            "subPackages": [
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "name": "toml",
+                    "subPackages": [
+                        {
+                            "dependencies": {
+                                "toml": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "json"
+                        }
+                    ]
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded",
+                    "version": "0.10.3"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "code_checker:toml": ">=0.0.0"
+            },
+            "name": "code_checker",
+            "subPackages": [
+                {
+                    "name": "toml",
+                    "subPackages": [
+                        {
+                            "dependencies": {
+                                "toml": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "json"
+                        }
+                    ]
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "unittest-only"
+                        },
+                        {
+                            "name": "unittest-unthreaded"
+                        },
+                        {
+                            "name": "unittest-light"
+                        },
+                        {
+                            "name": "unittest-fail"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded"
+                }
+            ],
+            "version": "0.0.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "code_checker:colorlog": ">=0.0.0",
+                "code_checker:toml": ">=0.0.0"
+            },
+            "name": "code_checker",
+            "subPackages": [
+                {
+                    "name": "toml",
+                    "subPackages": [
+                        {
+                            "dependencies": {
+                                "toml": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "json"
+                        }
+                    ]
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "unittest-only"
+                        },
+                        {
+                            "name": "unittest-unthreaded"
+                        },
+                        {
+                            "name": "unittest-light"
+                        },
+                        {
+                            "name": "unittest-fail"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded"
+                }
+            ],
+            "version": "0.0.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "code_checker:colorlog": ">=0.0.0",
+                "code_checker:toml": ">=0.0.0"
+            },
+            "name": "code_checker",
+            "subPackages": [
+                {
+                    "name": "toml",
+                    "subPackages": [
+                        {
+                            "dependencies": {
+                                "toml": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "json"
+                        }
+                    ]
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "unittest-only"
+                        },
+                        {
+                            "name": "unittest-unthreaded"
+                        },
+                        {
+                            "name": "unittest-light"
+                        },
+                        {
+                            "name": "unittest-fail"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded"
+                }
+            ],
+            "version": "0.0.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "code_checker:colorlog": ">=0.0.0",
+                "code_checker:toml": ">=0.0.0"
+            },
+            "name": "code_checker",
+            "subPackages": [
+                {
+                    "name": "toml",
+                    "subPackages": [
+                        {
+                            "dependencies": {
+                                "toml": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "json"
+                        }
+                    ]
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "unittest-only"
+                        },
+                        {
+                            "name": "unittest-unthreaded"
+                        },
+                        {
+                            "name": "unittest-light"
+                        },
+                        {
+                            "name": "unittest-fail"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded"
+                }
+            ],
+            "version": "0.0.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "code_checker:colorlog": ">=0.0.0",
+                "code_checker:toml": ">=0.0.0"
+            },
+            "name": "code_checker",
+            "subPackages": [
+                {
+                    "name": "toml",
+                    "subPackages": [
+                        {
+                            "dependencies": {
+                                "toml": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "json"
+                        }
+                    ]
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "unittest-only"
+                        },
+                        {
+                            "name": "unittest-unthreaded"
+                        },
+                        {
+                            "name": "unittest-light"
+                        },
+                        {
+                            "name": "unittest-fail"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded"
+                }
+            ],
+            "version": "0.0.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "code_checker:colorlog": ">=0.0.0",
+                "code_checker:toml": ">=0.0.0"
+            },
+            "name": "code_checker",
+            "subPackages": [
+                {
+                    "name": "toml",
+                    "subPackages": [
+                        {
+                            "dependencies": {
+                                "toml": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "json"
+                        }
+                    ]
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "unittest-only"
+                        },
+                        {
+                            "name": "unittest-unthreaded"
+                        },
+                        {
+                            "name": "unittest-light"
+                        },
+                        {
+                            "name": "unittest-fail"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded"
+                }
+            ],
+            "version": "0.0.6"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "integration_test"
+                }
+            ],
+            "dependencies": {
+                "code_checker:colorlog": ">=0.0.0",
+                "code_checker:toml": ">=0.0.0"
+            },
+            "name": "code_checker",
+            "subPackages": [
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "name": "toml",
+                    "subPackages": [
+                        {
+                            "dependencies": {
+                                "toml": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "json"
+                        }
+                    ]
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded",
+                    "version": "0.10.3"
+                }
+            ],
+            "version": "0.0.7"
+        }
+    ]
+}

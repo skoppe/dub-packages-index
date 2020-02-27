@@ -1,0 +1,87 @@
+{
+    "categories": [
+        "library.gamedev"
+    ],
+    "commitID": "cc79db0b722ca2da5c8f7cd0f4e37d3832fb7d08",
+    "dateAdded": "2017-09-04T12:20:56",
+    "description": "The Retrograde Game Engine",
+    "documentationURL": "",
+    "id": "59ad2908e373443243529c6b",
+    "name": "retrograde",
+    "owner": "538e57940c9cc1a23c0050e1",
+    "repository": {
+        "kind": "github",
+        "owner": "mbierlee",
+        "project": "retrograde"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "build"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": ">=0.8.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "derelict-assimp3": {
+                    "optional": true,
+                    "version": "~>1.3.0"
+                },
+                "derelict-gl3": {
+                    "optional": true,
+                    "version": "~>1.0.23"
+                },
+                "derelict-sdl2": {
+                    "optional": true,
+                    "version": "~>2.1.4"
+                },
+                "openssl": ">=0.0.0",
+                "poodinis": "~>8",
+                "vibe-d:data": "0.8.1",
+                "vibe-d:http": "0.8.1"
+            },
+            "name": "retrograde",
+            "version": "~develop"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "build"
+                },
+                {
+                    "dependencies": {
+                        "derelict-sdl2": "~>2.1.4"
+                    },
+                    "name": "sdl2-build"
+                },
+                {
+                    "dependencies": {
+                        "derelict-gl3": "~>1.0.23",
+                        "derelict-sdl2": "~>2.1.4"
+                    },
+                    "name": "sdl2-opengl-build"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": ">=0.8.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "derelict-assimp3": "~>1.3.0",
+                "openssl": ">=0.0.0",
+                "poodinis": "~>8",
+                "vibe-d:data": "0.8.1",
+                "vibe-d:http": "0.8.1"
+            },
+            "name": "retrograde",
+            "version": "0.0.0"
+        }
+    ]
+}
