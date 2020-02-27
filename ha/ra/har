@@ -1,0 +1,70 @@
+{
+    "categories": [
+        "library.data",
+        "application.web.development",
+        "application.web.communication",
+        "application.desktop.development.build"
+    ],
+    "commitID": "3f096d61682d4e1d1be7b73f80b65ea98e47b5c7",
+    "dateAdded": "2018-03-14T21:35:28",
+    "description": "An extractor\/archiver for HAR, the human-readable archive format",
+    "documentationURL": "",
+    "id": "5aa98790d3913e7109ec88f2",
+    "name": "har",
+    "owner": "53e3b566c6f14f372e005618",
+    "repository": {
+        "kind": "github",
+        "owner": "marler8997",
+        "project": "har"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "har:library": ">=0.0.0"
+            },
+            "name": "har",
+            "subPackages": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "har": ">=0.0.0"
+                    },
+                    "name": "test_command_line_tool"
+                },
+                {
+                    "dependencies": {
+                        "har:library": ">=0.0.0"
+                    },
+                    "name": "test_library"
+                }
+            ],
+            "version": "~next"
+        },
+        {
+            "dependencies": {
+                "har:library": ">=0.0.0"
+            },
+            "name": "har",
+            "subPackages": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "har": ">=0.0.0"
+                    },
+                    "name": "test_command_line_tool"
+                },
+                {
+                    "dependencies": {
+                        "har:library": ">=0.0.0"
+                    },
+                    "name": "test_library"
+                }
+            ],
+            "version": "0.1.0"
+        }
+    ]
+}

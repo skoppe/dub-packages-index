@@ -1,0 +1,81 @@
+{
+    "categories": [
+        "library.data"
+    ],
+    "commitID": "bb8587724a14dd5c68a185e4a92230c30a07a9e8",
+    "dateAdded": "2018-09-23T22:40:35",
+    "description": "A SDLang file parser based on Pegged.",
+    "documentationURL": "https:\/\/github.com\/araspik\/sdlangp\/wiki",
+    "id": "5ba7fa43ecdefeb85fbb8569",
+    "name": "sdlangp",
+    "owner": "5ba7f987ecdefeb85fbb8463",
+    "repository": {
+        "kind": "github",
+        "owner": "araspik",
+        "project": "sdlangp"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "sdlangp:app": ">=0.0.0",
+                "sdlangp:lib": ">=0.0.0"
+            },
+            "name": "sdlangp",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": "~>0.4.4",
+                        "sumtype": "~>0.6.2"
+                    },
+                    "name": "lib"
+                },
+                {
+                    "dependencies": {
+                        "sdlangp:lib": ">=0.0.0"
+                    },
+                    "name": "app"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "pegged": "~>0.4.4",
+                "sumtype": "~>0.6.2"
+            },
+            "name": "sdlangp",
+            "version": "0.0.1"
+        },
+        {
+            "dependencies": {
+                "pegged": "~>0.4.4",
+                "sumtype": "~>0.6.2"
+            },
+            "name": "sdlangp",
+            "version": "0.0.2"
+        },
+        {
+            "dependencies": {
+                "sdlangp:app": ">=0.0.0",
+                "sdlangp:lib": ">=0.0.0"
+            },
+            "name": "sdlangp",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": "~>0.4.4",
+                        "sumtype": "~>0.6.2"
+                    },
+                    "name": "lib"
+                },
+                {
+                    "dependencies": {
+                        "sdlangp:lib": ">=0.0.0"
+                    },
+                    "name": "app"
+                }
+            ],
+            "version": "0.0.3"
+        }
+    ]
+}

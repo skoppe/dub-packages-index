@@ -1,0 +1,699 @@
+{
+    "categories": [
+        "application.server.database",
+        "library.database",
+        "library.web.communication"
+    ],
+    "commitID": "4c6fc8c9271d94726875b6f17c3d7836abe2da8b",
+    "dateAdded": "2016-01-04T10:31:47",
+    "description": "Application server that transforms JSON-RPC calls into SQL queries for PostgreSQL",
+    "documentationURL": "",
+    "id": "568a3c03b7630999600011a8",
+    "name": "pgator",
+    "owner": "522f85f66fb976b274000175",
+    "repository": {
+        "kind": "github",
+        "owner": "DSoftOut",
+        "project": "pgator"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "vibe-d-postgresql": ">=0.3.0-beta.4 <0.4.0-0",
+                "vibe-d:http": "~>0.8.2"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~adds_bson_uuid_test"
+        },
+        {
+            "dependencies": {
+                "dpq2": "~>1.0.0",
+                "vibe-d-postgresql": "~>2.0.0",
+                "vibe-d:http": "~>0.8.4"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~deprecation_warning"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "dlogg": "~>0.3.3",
+                "pgator-backend": "~>0.2.4",
+                "vibe-d": ">=0.7.23-rc.1 <0.8.0-0"
+            },
+            "name": "pgator",
+            "version": "~dmd-2.067"
+        },
+        {
+            "dependencies": {
+                "dpq2": "~>1.0.0",
+                "vibe-d-postgresql": "~>2.0.0",
+                "vibe-d:http": "~>0.8.4"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~fix_ci"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "dlogg": ">=0.3.3",
+                "pgator-backend": "~improve_errors",
+                "vibe-d": ">=0.7.26"
+            },
+            "name": "pgator",
+            "version": "~improved_errors"
+        },
+        {
+            "dependencies": {
+                "dpq2": "~>1.0.0",
+                "vibe-d-postgresql": "~>2.0.0",
+                "vibe-d:http": "~>0.8.4"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~investigate_ci_fail"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "dlogg": ">=0.3.3",
+                "pgator-backend": ">=0.1.1",
+                "vibe-d": ">=0.7.21-beta.4"
+            },
+            "name": "pgator",
+            "version": "~issue-101"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "dlogg": ">=0.3.3",
+                "pgator-backend": ">=0.1.2",
+                "vibe-d": ">=0.7.21-beta.4"
+            },
+            "name": "pgator",
+            "version": "~issue-112"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "test1"
+                },
+                {
+                    "name": "test2"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~master",
+                "dlogg": "~master",
+                "dunit": ">=1.0.0-beta",
+                "vibe-d": "~master"
+            },
+            "name": "pgator",
+            "version": "~issue-52"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "dlogg": ">=0.3.3",
+                "pgator-backend": ">=0.2.4",
+                "vibe-d": ">=0.7.26"
+            },
+            "name": "pgator",
+            "version": "~legacy"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~master",
+                "vibe-d:http": "~>0.7.27"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": "~>0.7.27"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~multi_statement_transactions"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": ">=0.3.0-beta.1 <0.4.0-0",
+                "vibe-d:http": "~>0.8.1"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~new_vibe_pg_version"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~master",
+                "vibe-d:http": "~>0.7.27"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": "~>0.7.27"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~read_only_flag"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "dlogg": ">=0.3.3",
+                "pgator-backend": ">=0.2.4",
+                "vibe-d": ">=0.7.26"
+            },
+            "name": "pgator",
+            "version": "~remove_unused_code"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~master",
+                "vibe-d:http": "~>0.7.27"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": "~>0.7.27"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~transaction_class"
+        },
+        {
+            "dependencies": {
+                "dpq2": "~>1.0.0",
+                "vibe-d-postgresql": "~>2.0.0",
+                "vibe-d:http": "~>0.8.4"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "test1"
+                },
+                {
+                    "name": "test2"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~master",
+                "dlogg": "~master",
+                "dunit": ">=1.0.0-beta",
+                "vibe-d": "~master"
+            },
+            "name": "pgator",
+            "version": "0.1.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "dlogg": ">=0.3.3",
+                "pgator-backend": ">=0.1.1",
+                "vibe-d": ">=0.7.21-beta.4"
+            },
+            "name": "pgator",
+            "version": "0.2.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "dlogg": ">=0.3.3",
+                "pgator-backend": ">=0.2.2",
+                "vibe-d": ">=0.7.21-rc.4"
+            },
+            "name": "pgator",
+            "version": "0.2.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "dlogg": "~>0.3.3",
+                "pgator-backend": "~>0.2.4",
+                "vibe-d": ">=0.7.23-rc.1 <0.8.0-0"
+            },
+            "name": "pgator",
+            "version": "0.2.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "dlogg": ">=0.3.3",
+                "pgator-backend": ">=0.2.4",
+                "vibe-d": ">=0.7.26"
+            },
+            "name": "pgator",
+            "version": "0.2.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "production"
+                },
+                {
+                    "name": "testclient"
+                }
+            ],
+            "dependencies": {
+                "dlogg": ">=0.3.3",
+                "pgator-backend": ">=0.2.4",
+                "vibe-d": ">=0.7.26"
+            },
+            "name": "pgator",
+            "version": "0.2.4"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~master",
+                "vibe-d:http": ">=0.7.29-alpha.3 <0.8.0-0"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.0"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~master",
+                "vibe-d:http": ">=0.7.29-alpha.3 <0.8.0-0"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.1"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~master",
+                "vibe-d:http": ">=0.7.29-alpha.3 <0.8.0-0"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.2"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~master",
+                "vibe-d:http": ">=0.7.29-alpha.3 <0.8.0-0"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.3"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~master",
+                "vibe-d:http": ">=0.7.29-alpha.3 <0.8.0-0"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.4"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~>0.2.19",
+                "vibe-d:http": ">=0.7.29-alpha.3 <0.8.0-0"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.5"
+        },
+        {
+            "dependencies": {
+                "dpq2": "~>0.6.20",
+                "vibe-d-postgresql": "~>0.2.20",
+                "vibe-d:http": "~>0.7.30"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.6"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~>0.2.20",
+                "vibe-d:http": ">=0.8.0-beta.4 <0.9.0-0"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.7"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~>0.2.23",
+                "vibe-d:http": ">=0.8.0-rc.6 <0.9.0-0"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.8"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": "~>0.2.23",
+                "vibe-d:http": ">=0.8.0-rc.6 <0.9.0-0"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.9"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": ">=0.3.0-beta.3 <0.4.0-0",
+                "vibe-d:http": "~>0.8.1"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.10"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": ">=0.3.0-beta.3 <0.4.0-0",
+                "vibe-d:http": "~>0.8.1"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.11"
+        },
+        {
+            "dependencies": {
+                "vibe-d-postgresql": ">=0.3.0-beta.3 <0.4.0-0",
+                "vibe-d:http": "~>0.8.1"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.12"
+        },
+        {
+            "dependencies": {
+                "dpq2": ">=1.0.0-alpha.6 <1.1.0-0",
+                "vibe-d-postgresql": ">=1.0.0-alpha.2 <1.1.0-0",
+                "vibe-d:http": "~>0.8.2"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.13"
+        },
+        {
+            "dependencies": {
+                "dpq2": ">=1.0.0-alpha.9 <1.1.0-0",
+                "vibe-d-postgresql": ">=1.0.0-alpha.3 <1.1.0-0",
+                "vibe-d:http": "~>0.8.2"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.14"
+        },
+        {
+            "dependencies": {
+                "dpq2": ">=1.0.0-alpha.9 <1.1.0-0",
+                "vibe-d-postgresql": ">=2.0.0-alpha.1 <2.1.0-0",
+                "vibe-d:http": "~>0.8.2"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.15"
+        },
+        {
+            "dependencies": {
+                "dpq2": "~>1.0.0",
+                "vibe-d-postgresql": "~>2.0.0",
+                "vibe-d:http": "~>0.8.4"
+            },
+            "name": "pgator",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0",
+                        "vibe-d:web": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.3.16"
+        }
+    ]
+}

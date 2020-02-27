@@ -1,0 +1,93 @@
+{
+    "categories": [
+        "library.development"
+    ],
+    "commitID": "bb380df736645562c17675edc8d29381f758533e",
+    "dateAdded": "2019-06-26T14:32:52",
+    "description": "A library to help state transition matrix disign",
+    "documentationURL": "",
+    "id": "5d1365f4ae5c5fbb4eb9af39",
+    "name": "cushion",
+    "owner": "54aba5881f2566333b003fed",
+    "repository": {
+        "kind": "github",
+        "owner": "shoo",
+        "project": "cushion"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "ut"
+                }
+            ],
+            "name": "cushion",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "hmod"
+                        },
+                        {
+                            "name": "ddox"
+                        },
+                        {
+                            "name": "adrdox"
+                        }
+                    ],
+                    "name": "doc"
+                },
+                {
+                    "dependencies": {
+                        "cushion": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "stmtest"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "ut"
+                }
+            ],
+            "name": "cushion",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "hmod"
+                        },
+                        {
+                            "name": "ddox"
+                        },
+                        {
+                            "name": "adrdox"
+                        }
+                    ],
+                    "name": "doc"
+                },
+                {
+                    "dependencies": {
+                        "cushion": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "stmtest"
+                }
+            ],
+            "version": "0.0.0"
+        }
+    ]
+}

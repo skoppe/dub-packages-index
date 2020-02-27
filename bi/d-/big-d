@@ -1,0 +1,202 @@
+{
+    "categories": [],
+    "commitID": "65a6706932d5c8ece79a061cdd5c8767719386a5",
+    "dateAdded": "2017-08-27T15:46:40",
+    "description": "MVC Web framework for D",
+    "documentationURL": "",
+    "id": "59a2cd40a7458958102451ea",
+    "name": "big-d",
+    "owner": "58cdb1308f16ceb4171277c0",
+    "repository": {
+        "kind": "github",
+        "owner": "LLC-CERERIS",
+        "project": "big.d"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "big-d:config": ">=0.0.0",
+                "big-d:core": ">=0.0.0",
+                "big-d:log": ">=0.0.0",
+                "big-d:provider": ">=0.0.0",
+                "big-d:router": ">=0.0.0",
+                "big-d:utils": ">=0.0.0",
+                "dich": "~>0.0.2"
+            },
+            "name": "big-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dich": "~>0.0.2",
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "big-d:config": ">=0.0.0",
+                        "big-d:core": ">=0.0.0",
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "log"
+                },
+                {
+                    "dependencies": {
+                        "big-d:config": ">=0.0.0",
+                        "big-d:core": ">=0.0.0",
+                        "big-d:log": ">=0.0.0",
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "provider"
+                },
+                {
+                    "dependencies": {
+                        "big-d:core": ">=0.0.0",
+                        "big-d:utils": ">=0.0.0",
+                        "dyaml": "~>0.6.3"
+                    },
+                    "name": "config"
+                },
+                {
+                    "name": "utils"
+                },
+                {
+                    "dependencies": {
+                        "big-d:core": ">=0.0.0",
+                        "big-d:log": ">=0.0.0",
+                        "big-d:utils": ">=0.0.0"
+                    },
+                    "name": "router"
+                },
+                {
+                    "dependencies": {
+                        "big-d": ">=0.0.0",
+                        "checkit": "~>0.0.5",
+                        "dich": "~>0.0.1",
+                        "dyaml": "~>0.6.3",
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~20"
+        },
+        {
+            "dependencies": {
+                "big-d:config": ">=0.0.0",
+                "big-d:core": ">=0.0.0",
+                "big-d:log": ">=0.0.0",
+                "big-d:router": ">=0.0.0",
+                "big-d:udp": ">=0.0.0",
+                "big-d:utils": ">=0.0.0",
+                "dich": "~>0.0.2"
+            },
+            "name": "big-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dich": "~>0.0.2",
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "big-d:config": ">=0.0.0",
+                        "big-d:core": ">=0.0.0",
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "log"
+                },
+                {
+                    "dependencies": {
+                        "big-d:config": ">=0.0.0",
+                        "big-d:core": ">=0.0.0",
+                        "big-d:log": ">=0.0.0",
+                        "big-d:router": ">=0.0.0",
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "udp"
+                },
+                {
+                    "dependencies": {
+                        "big-d:core": ">=0.0.0",
+                        "big-d:utils": ">=0.0.0",
+                        "dyaml": "~>0.6.3"
+                    },
+                    "name": "config"
+                },
+                {
+                    "name": "utils"
+                },
+                {
+                    "dependencies": {
+                        "big-d:core": ">=0.0.0",
+                        "big-d:log": ">=0.0.0",
+                        "big-d:utils": ">=0.0.0"
+                    },
+                    "name": "router"
+                },
+                {
+                    "dependencies": {
+                        "big-d": ">=0.0.0",
+                        "checkit": "~>0.0.5",
+                        "dich": "~>0.0.1",
+                        "dyaml": "~>0.6.3",
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~dev"
+        },
+        {
+            "dependencies": {
+                "big-d:log": ">=0.0.0",
+                "dich": "~>0.0.2"
+            },
+            "name": "big-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "log"
+                },
+                {
+                    "dependencies": {
+                        "big-d": ">=0.0.0",
+                        "checkit": "~>0.0.5",
+                        "dich": "~>0.0.1",
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "big-d:log": ">=0.0.0"
+            },
+            "name": "big-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "log"
+                },
+                {
+                    "dependencies": {
+                        "big-d:log": ">=0.0.0",
+                        "checkit": "~>0.0.5",
+                        "vibe-d:core": ">=0.8.1-rc.3 <0.9.0-0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.1"
+        }
+    ]
+}
