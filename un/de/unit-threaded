@@ -1,0 +1,3740 @@
+{
+    "categories": [
+        "library"
+    ],
+    "commitID": "588152adceacbfa4fa18e95cbbc17d77a18a87ce",
+    "dateAdded": "2013-11-13T08:07:19",
+    "description": "Advanced multi-threaded unit testing framework with minimal to no boilerplate using built-in unittest blocks",
+    "documentationURL": "",
+    "id": "52832527882c2bf32b0005bc",
+    "name": "unit-threaded",
+    "owner": "5231963107d38e4d22000564",
+    "repository": {
+        "kind": "github",
+        "owner": "atilaneves",
+        "project": "unit-threaded"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "~0_7_50"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0"
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "~chdir"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "~experimental"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0"
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "~fix-in-usage"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "~gh-pages"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "~parametrised_types_bug"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0"
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.6"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.7"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.8"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.9"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.10"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.11"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.12"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.13"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.14"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.15"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.16"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.17"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.18"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.19"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.20"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.21"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.22"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.23"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.24"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.25"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.26"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.27"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.28"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.29"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.30"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.31"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.32"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.33"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.34"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.35"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.6.36"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.6"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.7"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.8"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.9"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.10"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.11"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.12"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.13"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.14"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.15"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.16"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.17"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.18"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.19"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.20"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.21"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.22"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.23"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.24"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.25"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.26"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.27"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.28"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.29"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.30"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.31"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.32"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.33"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.34"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.35"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.36"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.37"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.38"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.39"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.40"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.41"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.42"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.43"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.44"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.45"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.46"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.47"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.48"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.49"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-only"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "name": "unit-threaded",
+            "version": "0.7.50"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.7.51"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.7.52"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.7.53"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.7.54"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.7.55"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.8.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.9.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.9.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.9.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.9.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.9.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/exception",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/assertions",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/from",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.10.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0"
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.10.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0"
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.10.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0"
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.10.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0"
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.10.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0"
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.10.6"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0"
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "0.10.7"
+        }
+    ]
+}

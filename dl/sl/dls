@@ -1,0 +1,4343 @@
+{
+    "categories": [
+        "application.desktop.development"
+    ],
+    "commitID": "4994ca13c56a445e0a9d35f52baab84e5c7b68e9",
+    "dateAdded": "2018-03-21T11:16:12",
+    "description": "D Language Server",
+    "documentationURL": "",
+    "id": "5ab230ec9e9c6a99626b4911",
+    "name": "dls",
+    "owner": "5ab22f029e9c6a99626b45e8",
+    "repository": {
+        "kind": "github",
+        "owner": "d-language-server",
+        "project": "dls"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "libdparse": "~>0.10.10"
+                    },
+                    "name": "format"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~dls-format"
+        },
+        {
+            "dependencies": {
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "~dmd"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.10.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.11.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.12.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.13.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.14.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.15.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.16.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.17.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.18.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.19.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.1"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "~release\/v0.20.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "~release\/v0.21.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "~release\/v0.22.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "~release\/v0.23.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.0",
+                "dfmt": ">=0.10.0-beta.1 <0.11.0-0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.0",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "~release\/v0.24.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.2",
+                "dub": "~>1.17.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "~release\/v0.25.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.12.0",
+                "dfmt": "~>0.11.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.8.0",
+                "dub": "~>1.19.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "~release\/v0.26.x"
+        },
+        {
+            "dependencies": {
+                "arsd-official:color_base": "2.0.0",
+                "arsd-official:email": "2.0.0",
+                "dcd": "0.9.9",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dscanner": "0.5.7",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "name": "bootstrap"
+                }
+            ],
+            "version": "~release\/v0.6.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.7.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.8.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "~release\/v0.9.x"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.12.0",
+                "dfmt": "~>0.11.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.8.0",
+                "dub": "~>1.19.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.9",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.7",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.7.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.7.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.7.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.8.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.8.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.8.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.8.3"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.9.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.10.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.10.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.10.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.10.3"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.10.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.10.4"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.11.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.11.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.11.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.12.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.12.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.12.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.12.3"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.13.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.13.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.13.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.13.3"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.14.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.14.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.14.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.10",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.8",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.14.3"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.15.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.2",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.15.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.11.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.15.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.15.3"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.15.4"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.15.5"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.16.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.16.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.16.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.16.3"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.16.4"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.17.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.17.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "0.9.13",
+                "dfmt": "0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "0.5.11",
+                "dub": "1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.18.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.18.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.18.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.18.3"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.19.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.19.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "name": "gen"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                }
+            ],
+            "version": "0.19.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.1"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.20.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.1"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.20.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.9.13",
+                "dfmt": "~>0.8.3",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.5.11",
+                "dub": "~>1.12.1"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.20.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.12.1"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.12.1"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.12.1"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.12.1"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.3"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.12.1"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.4"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.12.1"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.5"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.6"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.8"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.9"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.10"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.11"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.21.12"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.22.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.22.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.22.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.22.4"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.22.5"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.22.6"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.13.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.22.7"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.23.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.10.2",
+                "dfmt": "~>0.9.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.6.0",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.23.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.0",
+                "dfmt": ">=0.10.0-beta.1 <0.11.0-0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.0",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.24.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.0",
+                "dfmt": ">=0.10.0-beta.1 <0.11.0-0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.0",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.24.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.0",
+                "dfmt": ">=0.10.0-beta.1 <0.11.0-0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.0",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.24.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.0",
+                "dfmt": ">=0.10.0-beta.1 <0.11.0-0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.0",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.24.3"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.0",
+                "dfmt": ">=0.10.0-beta.1 <0.11.0-0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.0",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.24.4"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.0",
+                "dfmt": ">=0.10.0-beta.1 <0.11.0-0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.0",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.24.5"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.2"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.3"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.14.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.4"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.5"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.6"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.7"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.8"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.9"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.10"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.1",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.11"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.2",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.12"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.2",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.13"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.2",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.14"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.2",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.15"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.2",
+                "dub": "~>1.15.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.16"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.2",
+                "dub": "~>1.17.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.17"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.2",
+                "dub": "~>1.17.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.18"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.11.1",
+                "dfmt": "~>0.10.1",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.7.2",
+                "dub": "~>1.17.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.25.19"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.12.0",
+                "dfmt": "~>0.11.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.8.0",
+                "dub": "~>1.17.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.26.0"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.12.0",
+                "dfmt": "~>0.11.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.8.0",
+                "dub": "~>1.19.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.26.1"
+        }
+    ]
+}

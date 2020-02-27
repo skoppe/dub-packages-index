@@ -1,0 +1,1137 @@
+{
+    "categories": [
+        "library.development",
+        "library.encoding",
+        "library.general",
+        "library.optimized_cpu"
+    ],
+    "commitID": "154e208d5c9866c9e5a55bd52b8cc4555c3893c2",
+    "dateAdded": "2015-02-23T05:24:35",
+    "description": "A D library for crypto and TLS",
+    "documentationURL": "",
+    "id": "54eaab833d2428a05b00fe3e",
+    "name": "botan",
+    "owner": "540fac6f5fbe9bb546008306",
+    "repository": {
+        "kind": "github",
+        "owner": "etcimon",
+        "project": "botan"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "full_x64"
+                },
+                {
+                    "name": "full_x86"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~master"
+            },
+            "name": "botan",
+            "version": "~fix-tls"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~>0.4.0"
+            },
+            "name": "botan",
+            "version": "~ldc-compat"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~>0.4.1"
+            },
+            "name": "botan",
+            "version": "~merge-new-algos"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "~pointers"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full_x86"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "memutils": {
+                    "path": "..\/memutils",
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "botan",
+            "version": "1.11.10"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full_x64"
+                },
+                {
+                    "name": "full_x86"
+                },
+                {
+                    "name": "full_win32"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~master"
+            },
+            "name": "botan",
+            "version": "1.11.11"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~>0.3.5"
+            },
+            "name": "botan",
+            "version": "1.11.12"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~>0.3.8"
+            },
+            "name": "botan",
+            "version": "1.11.13"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~>0.4.0"
+            },
+            "name": "botan",
+            "version": "1.11.14"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.11.15"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~>0.4.1"
+            },
+            "name": "botan",
+            "version": "1.12.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan:base": ">=0.0.0",
+                "botan:compression": ">=0.0.0",
+                "botan:passhash": ">=0.0.0",
+                "botan:tls": ">=0.0.0"
+            },
+            "name": "botan",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "dependencies": {
+                                "openssl": "~>1.1.4"
+                            },
+                            "name": "full_openssl"
+                        },
+                        {
+                            "name": "32mscoff"
+                        },
+                        {
+                            "name": "lite"
+                        },
+                        {
+                            "name": "pubkey"
+                        },
+                        {
+                            "name": "hash"
+                        }
+                    ],
+                    "dependencies": {
+                        "memutils": "~>0.4.2"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "compression"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "passhash"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "tls"
+                }
+            ],
+            "version": "1.12.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan:base": ">=0.0.0",
+                "botan:compression": ">=0.0.0",
+                "botan:passhash": ">=0.0.0",
+                "botan:tls": ">=0.0.0"
+            },
+            "name": "botan",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "dependencies": {
+                                "openssl": "~>1.1.4"
+                            },
+                            "name": "full_openssl"
+                        },
+                        {
+                            "name": "32mscoff"
+                        },
+                        {
+                            "name": "lite"
+                        },
+                        {
+                            "name": "pubkey"
+                        },
+                        {
+                            "name": "hash"
+                        }
+                    ],
+                    "dependencies": {
+                        "memutils": "~>0.4.3"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "compression"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "passhash"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "tls"
+                }
+            ],
+            "version": "1.12.2"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan:base": ">=0.0.0",
+                "botan:compression": ">=0.0.0",
+                "botan:passhash": ">=0.0.0",
+                "botan:tls": ">=0.0.0"
+            },
+            "name": "botan",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "dependencies": {
+                                "openssl": "~>1.1.4"
+                            },
+                            "name": "full_openssl"
+                        },
+                        {
+                            "name": "32mscoff"
+                        },
+                        {
+                            "name": "lite"
+                        },
+                        {
+                            "name": "pubkey"
+                        },
+                        {
+                            "name": "hash"
+                        }
+                    ],
+                    "dependencies": {
+                        "botan-math": "~>1.0.1",
+                        "memutils": "~>0.4.3"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "compression"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "passhash"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "tls"
+                }
+            ],
+            "version": "1.12.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan:base": ">=0.0.0",
+                "botan:compression": ">=0.0.0",
+                "botan:passhash": ">=0.0.0",
+                "botan:tls": ">=0.0.0"
+            },
+            "name": "botan",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "dependencies": {
+                                "openssl": "~>1.1.4"
+                            },
+                            "name": "full_openssl"
+                        },
+                        {
+                            "name": "32mscoff"
+                        },
+                        {
+                            "name": "lite"
+                        },
+                        {
+                            "name": "pubkey"
+                        },
+                        {
+                            "name": "hash"
+                        }
+                    ],
+                    "dependencies": {
+                        "botan-math": "~>1.0.2",
+                        "memutils": "~>0.4.4"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "compression"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "passhash"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "tls"
+                }
+            ],
+            "version": "1.12.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan:base": ">=0.0.0",
+                "botan:compression": ">=0.0.0",
+                "botan:passhash": ">=0.0.0",
+                "botan:tls": ">=0.0.0"
+            },
+            "name": "botan",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "dependencies": {
+                                "openssl": "~>1.1.4"
+                            },
+                            "name": "full_openssl"
+                        },
+                        {
+                            "name": "32mscoff"
+                        },
+                        {
+                            "name": "lite"
+                        },
+                        {
+                            "name": "pubkey"
+                        },
+                        {
+                            "name": "hash"
+                        }
+                    ],
+                    "dependencies": {
+                        "botan-math": "~>1.0.2",
+                        "memutils": "~>0.4.5"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "compression"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "passhash"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "tls"
+                }
+            ],
+            "version": "1.12.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan:base": ">=0.0.0",
+                "botan:compression": ">=0.0.0",
+                "botan:passhash": ">=0.0.0",
+                "botan:tls": ">=0.0.0"
+            },
+            "name": "botan",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "dependencies": {
+                                "openssl": "~>1.1.4"
+                            },
+                            "name": "full_openssl"
+                        },
+                        {
+                            "name": "32mscoff"
+                        },
+                        {
+                            "name": "lite"
+                        },
+                        {
+                            "name": "pubkey"
+                        },
+                        {
+                            "name": "hash"
+                        }
+                    ],
+                    "dependencies": {
+                        "botan-math": "~>1.0.2",
+                        "memutils": "~>0.4.6"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "compression"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "passhash"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "tls"
+                }
+            ],
+            "version": "1.12.6"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan:base": ">=0.0.0",
+                "botan:compression": ">=0.0.0",
+                "botan:passhash": ">=0.0.0",
+                "botan:tls": ">=0.0.0"
+            },
+            "name": "botan",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "dependencies": {
+                                "openssl": "~>1.1.4"
+                            },
+                            "name": "full_openssl"
+                        },
+                        {
+                            "name": "32mscoff"
+                        },
+                        {
+                            "name": "lite"
+                        },
+                        {
+                            "name": "pubkey"
+                        },
+                        {
+                            "name": "hash"
+                        }
+                    ],
+                    "dependencies": {
+                        "botan-math": "~>1.0.2",
+                        "memutils": "~>0.4.6"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "compression"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "passhash"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "tls"
+                }
+            ],
+            "version": "1.12.7"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan:base": ">=0.0.0",
+                "botan:compression": ">=0.0.0",
+                "botan:passhash": ">=0.0.0",
+                "botan:tls": ">=0.0.0"
+            },
+            "name": "botan",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "dependencies": {
+                                "openssl": "~>1.1.4"
+                            },
+                            "name": "full_openssl"
+                        },
+                        {
+                            "name": "32mscoff"
+                        },
+                        {
+                            "name": "lite"
+                        },
+                        {
+                            "name": "pubkey"
+                        },
+                        {
+                            "name": "hash"
+                        }
+                    ],
+                    "dependencies": {
+                        "botan-math": "~>1.0.2",
+                        "memutils": "~>0.4.8"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "compression"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "passhash"
+                },
+                {
+                    "dependencies": {
+                        "botan:base": ">=0.0.0"
+                    },
+                    "name": "tls"
+                }
+            ],
+            "version": "1.12.8"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "32mscoff"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>0.4.8"
+            },
+            "name": "botan",
+            "version": "1.12.9"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>0.4.8"
+            },
+            "name": "botan",
+            "version": "1.12.10"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.12.11"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.12.12"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.12.13"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.12.18"
+        }
+    ]
+}
