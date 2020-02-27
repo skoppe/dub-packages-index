@@ -1,0 +1,90 @@
+{
+    "categories": [
+        "library"
+    ],
+    "commitID": "f22962e0045ebde41106a62aff2cfcd2c5ba2f02",
+    "dateAdded": "2014-01-04T15:16:48",
+    "description": "Test repository.",
+    "documentationURL": "",
+    "id": "52c817d0701177cf33000c2f",
+    "name": "test_repos",
+    "owner": "52c81681701177cf33000c29",
+    "repository": {
+        "kind": "github",
+        "owner": "mdondorff",
+        "project": "test_repos"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "test_repos:subPackage1": ">=0.0.0"
+            },
+            "name": "test_repos",
+            "subPackages": [
+                {
+                    "name": "subpackage1"
+                },
+                {
+                    "name": "test_library"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "name": "test_repos",
+            "subPackages": [
+                {
+                    "name": "subPackage1"
+                },
+                {
+                    "name": "test_library"
+                }
+            ],
+            "version": "0.0.1-beta"
+        },
+        {
+            "dependencies": {
+                "test_repos:subPackage1": "*"
+            },
+            "name": "test_repos",
+            "subPackages": [
+                null,
+                null
+            ],
+            "version": "0.0.5"
+        },
+        {
+            "dependencies": {
+                "test_repos:subPackage1": ">=0.0.0"
+            },
+            "name": "test_repos",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d": "~master"
+                    },
+                    "name": "subPackage1"
+                },
+                {
+                    "name": "test_library"
+                }
+            ],
+            "version": "0.0.6"
+        },
+        {
+            "dependencies": {
+                "test_repos:subPackage1": ">=0.0.0"
+            },
+            "name": "test_repos",
+            "subPackages": [
+                {
+                    "name": "subpackage1"
+                },
+                {
+                    "name": "test_library"
+                }
+            ],
+            "version": "0.0.7"
+        }
+    ]
+}
