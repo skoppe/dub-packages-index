@@ -5,7 +5,7 @@
         "library.general",
         "library.scientific.numeric"
     ],
-    "commitID": "9c711d2a88e097d1cc3f07b384c51b2acd89b58e",
+    "commitID": "91fd3eb6aead03c3971dfc89b7c6c4e67e8577d8",
     "dateAdded": "2016-11-25T23:59:43",
     "description": "Dlang Random Number Generators",
     "documentationURL": "http:\/\/docs.random.dlang.io",
@@ -40,7 +40,7 @@
                 }
             ],
             "dependencies": {
-                "mir-core": ">=0.2.0 <1.1.0",
+                "mir-core": ">=0.2.0 <2.0.0",
                 "mir-linux-kernel": "~>1.0.0"
             },
             "name": "mir-random",
@@ -813,6 +813,34 @@
             },
             "name": "mir-random",
             "version": "2.2.10"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "mir-algorithm": {
+                            "optional": true,
+                            "version": ">=3.2.1 <4.0.0"
+                        }
+                    },
+                    "name": "default"
+                },
+                {
+                    "name": "minimal"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": ">=3.2.1 <4.0.0"
+                    },
+                    "name": "extended"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=0.2.0 <2.0.0",
+                "mir-linux-kernel": "~>1.0.0"
+            },
+            "name": "mir-random",
+            "version": "2.2.11"
         }
     ]
 }
