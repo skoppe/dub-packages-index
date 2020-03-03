@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "22ec18c1bb81ad43a1a9abce344b7a0e413e98b4",
+    "commitID": "5a56c0aaaf2fe692b70c43f4a3f270568cbbe80a",
     "dateAdded": "2018-08-23T18:14:14",
     "description": "Universal node with application",
     "documentationURL": "",
@@ -20,54 +20,15 @@
                 },
                 {
                     "dependencies": {
-                        "d-unit": "~>0.9.0"
+                        "silly": "~>1.0.1"
                     },
-                    "name": "test"
+                    "name": "unittest"
                 }
             ],
             "dependencies": {
-                "uninode:core": ">=0.0.0"
+                "optional": "~>0.19.1"
             },
             "name": "uninode",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "sumtype": "~>0.8.9"
-                    },
-                    "name": "core"
-                }
-            ],
-            "version": "~sumtype"
-        },
-        {
-            "configurations": [
-                {
-                    "name": "library"
-                },
-                {
-                    "dependencies": {
-                        "d-unit": "~>0.8.1"
-                    },
-                    "name": "test"
-                }
-            ],
-            "dependencies": {
-                "uninode:core": ">=0.0.0",
-                "uninode:serialization": ">=0.0.0"
-            },
-            "name": "uninode",
-            "subPackages": [
-                {
-                    "name": "core"
-                },
-                {
-                    "dependencies": {
-                        "uninode:core": ">=0.0.0",
-                        "vibe-d:data": "~>0.8.4"
-                    },
-                    "name": "serialization"
-                }
-            ],
             "version": "~master"
         },
         {
@@ -233,6 +194,24 @@
                 }
             ],
             "version": "0.0.2-beta.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "optional": "~>0.19.1"
+            },
+            "name": "uninode",
+            "version": "0.2.1"
         }
     ]
 }
