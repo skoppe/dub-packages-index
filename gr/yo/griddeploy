@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "4065f29fe1764c5e131934a55ffaceae69654670",
+    "commitID": "94b28b8c9c1d32b0994945182a87eeb65a93031e",
     "dateAdded": "2020-03-05T00:05:48",
     "description": "GridDeploy enables the execution, installation, and uninstallation of BuildGrid deployments.",
     "documentationURL": "",
@@ -100,6 +100,28 @@
             },
             "name": "griddeploy",
             "version": "0.8.2"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "requests": "~>1.0.14"
+                    },
+                    "name": "default"
+                },
+                {
+                    "name": "installer"
+                },
+                {
+                    "name": "uninstaller"
+                }
+            ],
+            "dependencies": {
+                "archive": "~>0.7.0",
+                "sdlang-d": "~>0.10.5"
+            },
+            "name": "griddeploy",
+            "version": "0.8.3"
         }
     ]
 }
