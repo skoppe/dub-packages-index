@@ -4,7 +4,7 @@
         "library.web.framework",
         "library.binding"
     ],
-    "commitID": "2cac40e64abde1e9b07a22131165893cf4b62300",
+    "commitID": "211b09f99cc31e8172c007a8e08d4d968e6bb044",
     "dateAdded": "2018-10-12T21:05:57",
     "description": "A framework for writing single page applications",
     "documentationURL": "",
@@ -17,6 +17,59 @@
         "project": "spasm"
     },
     "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "dmd"
+                }
+            ],
+            "dependencies": {
+                "optional": "~>0.16.0",
+                "stdx-allocator": ">=3.1.0-beta.2 <3.2.0-0"
+            },
+            "name": "spasm",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "sdlang-d": "~>0.10.4"
+                    },
+                    "name": "bootstrap-webpack"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "executable"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "openmethods": "~>1.1.1",
+                        "pegged": "~>0.4.4",
+                        "sdlang-d": "~>0.10.4",
+                        "wasm-reader": "~>0.0.4",
+                        "webidl-grammar": "0.0.8"
+                    },
+                    "name": "webidl"
+                }
+            ],
+            "version": "~dependabot\/npm_and_yarn\/examples\/dom\/lodash-4.17.15"
+        },
         {
             "configurations": [
                 {
@@ -1219,6 +1272,59 @@
                 }
             ],
             "version": "0.2.0-beta.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "dmd"
+                }
+            ],
+            "dependencies": {
+                "optional": "~>0.16.0",
+                "stdx-allocator": ">=3.1.0-beta.2 <3.2.0-0"
+            },
+            "name": "spasm",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "sdlang-d": "~>0.10.4"
+                    },
+                    "name": "bootstrap-webpack"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "executable"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "openmethods": "~>1.1.1",
+                        "pegged": "~>0.4.4",
+                        "sdlang-d": "~>0.10.4",
+                        "wasm-reader": "~>0.0.4",
+                        "webidl-grammar": "0.0.8"
+                    },
+                    "name": "webidl"
+                }
+            ],
+            "version": "0.2.0-beta.6"
         }
     ]
 }
