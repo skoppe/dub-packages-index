@@ -2,7 +2,7 @@
     "categories": [
         "library.network"
     ],
-    "commitID": "00c30f2f182f6bd43572cc4fd444a489dae2a483",
+    "commitID": "af66fab31f8e246d520bfe8e9f069f7c81cfff31",
     "dateAdded": "2019-09-07T23:24:24",
     "description": "IRC parsing library",
     "documentationURL": "https:\/\/zorael.github.io\/dialect\/",
@@ -87,8 +87,8 @@
                 }
             ],
             "dependencies": {
-                "lu:core": "~>0.2.0",
-                "lu:meld": "~>0.2.0"
+                "lu:core": "~>0.2.1",
+                "lu:meld": "~>0.2.1"
             },
             "name": "dialect",
             "version": "~master"
@@ -318,6 +318,34 @@
             },
             "name": "dialect",
             "version": "0.4.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "dependencies": {
+                        "lu:deltastrings": "~>0.2.0"
+                    },
+                    "name": "assertgen"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu:core": "~>0.2.1",
+                "lu:meld": "~>0.2.1"
+            },
+            "name": "dialect",
+            "version": "0.4.1"
         }
     ]
 }
