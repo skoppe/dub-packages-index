@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.optimized_mem"
     ],
-    "commitID": "5e3efc780370d4035df5547c9f902889da7f179b",
+    "commitID": "9f5f75a32b2ccf2aa0511c51a0b76646c5974bc4",
     "dateAdded": "2017-05-26T15:58:38",
     "description": "ndslice wrapper for BLAS",
     "documentationURL": "",
@@ -1037,6 +1037,58 @@
             },
             "name": "mir-blas",
             "version": "1.1.9"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "twolib"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                }
+            ],
+            "dependencies": {
+                "cblas": "~>2.0.4",
+                "mir-algorithm": ">=2.0.0-beta2 <4.0.0"
+            },
+            "name": "mir-blas",
+            "version": "1.1.10"
         }
     ]
 }
