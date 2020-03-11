@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "03c6e11c8ca5ee9d3a69311379ab11b12a1942b5",
+    "commitID": "7c55b643c09594bea776940fcb38100398f15d52",
     "dateAdded": "2018-09-04T15:19:55",
     "description": "Universal config with application",
     "documentationURL": "",
@@ -17,63 +17,67 @@
             "configurations": [
                 {
                     "name": "library"
-                },
-                {
-                    "dependencies": {
-                        "d-unit": "~>0.8.1"
-                    },
-                    "name": "test"
                 }
             ],
             "dependencies": {
                 "uniconf:core": ">=0.0.0",
-                "uniconf:json": ">=0.0.0",
-                "uniconf:properd": ">=0.0.0",
                 "uniconf:sdlang": ">=0.0.0",
-                "uniconf:toml": ">=0.0.0",
                 "uniconf:yaml": ">=0.0.0"
             },
             "name": "uniconf",
             "subPackages": [
                 {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
                     "dependencies": {
-                        "uninode:core": "~>0.0.1"
+                        "uninode": "~>0.2.3"
                     },
                     "name": "core"
                 },
                 {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
                     "dependencies": {
-                        "uniconf:core": ">=0.0.0"
-                    },
-                    "name": "json"
-                },
-                {
-                    "dependencies": {
-                        "sdlang-d": "~>0.10.4",
+                        "sdlang-d": "~>0.10.5",
                         "uniconf:core": ">=0.0.0"
                     },
                     "name": "sdlang"
                 },
                 {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
                     "dependencies": {
-                        "dyaml": "~>0.7.1",
+                        "dyaml": "~>0.8.0",
                         "uniconf:core": ">=0.0.0"
                     },
                     "name": "yaml"
-                },
-                {
-                    "dependencies": {
-                        "proper-d": "~>0.0.2",
-                        "uniconf:core": ">=0.0.0"
-                    },
-                    "name": "properd"
-                },
-                {
-                    "dependencies": {
-                        "toml": ">=1.0.0-rc.3 <1.1.0-0",
-                        "uniconf:core": ">=0.0.0"
-                    },
-                    "name": "toml"
                 }
             ],
             "version": "~master"
@@ -448,6 +452,75 @@
                 }
             ],
             "version": "0.0.2-beta.3"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "uniconf:core": ">=0.0.0",
+                "uniconf:sdlang": ">=0.0.0",
+                "uniconf:yaml": ">=0.0.0"
+            },
+            "name": "uniconf",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "uninode": "~>0.2.3"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "sdlang-d": "~>0.10.5",
+                        "uniconf:core": ">=0.0.0"
+                    },
+                    "name": "sdlang"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "dyaml": "~>0.8.0",
+                        "uniconf:core": ">=0.0.0"
+                    },
+                    "name": "yaml"
+                }
+            ],
+            "version": "0.2.1"
         }
     ]
 }
