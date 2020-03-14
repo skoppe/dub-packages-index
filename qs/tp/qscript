@@ -4,7 +4,7 @@
         "library.scripting",
         "library.optimized_cpu"
     ],
-    "commitID": "ac353ee6b135a6b1c7efbb55f9f2b21faebe1f7d",
+    "commitID": "a5018145eef3c38eddf4560a12b7fff328fa7116",
     "dateAdded": "2016-11-27T13:33:04",
     "description": "a tiny, small, & fast scripting lang.",
     "documentationURL": "",
@@ -41,7 +41,7 @@
                     "name": "default"
                 },
                 {
-                    "name": "demo"
+                    "name": "qscriptdemo"
                 },
                 {
                     "name": "compiler"
@@ -220,6 +220,25 @@
             },
             "name": "qscript",
             "version": "0.7.0"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "qscriptdemo"
+                },
+                {
+                    "name": "compiler"
+                }
+            ],
+            "dependencies": {
+                "navm": "~>0.2.3",
+                "utils": "~>0.3.7"
+            },
+            "name": "qscript",
+            "version": "0.7.1"
         }
     ]
 }
