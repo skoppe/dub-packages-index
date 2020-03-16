@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.optimized_mem"
     ],
-    "commitID": "4e823ee1df7e19a74393722293768230e306f769",
+    "commitID": "608f60237f9c51156e48f1709f2d252613be544f",
     "dateAdded": "2016-06-18T07:37:48",
     "description": "Pro-actor based abstraction layer over operating system asynchronous I\/O facilities.",
     "documentationURL": "https:\/\/vibed.org\/api\/",
@@ -18,84 +18,6 @@
         "project": "eventcore"
     },
     "versions": [
-        {
-            "configurations": [
-                {
-                    "name": "epoll"
-                },
-                {
-                    "name": "epoll-gaia"
-                },
-                {
-                    "name": "kqueue"
-                },
-                {
-                    "name": "winapi"
-                },
-                {
-                    "name": "select"
-                },
-                {
-                    "name": "winapi-optlink"
-                },
-                {
-                    "name": "select-optlink"
-                },
-                {
-                    "dependencies": {
-                        "libasync": "~>0.8.2"
-                    },
-                    "name": "libasync"
-                },
-                {
-                    "name": "generic"
-                }
-            ],
-            "dependencies": {
-                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
-            },
-            "name": "eventcore",
-            "version": "~connect_callback_fix"
-        },
-        {
-            "configurations": [
-                {
-                    "name": "epoll"
-                },
-                {
-                    "name": "epoll-gaia"
-                },
-                {
-                    "name": "kqueue"
-                },
-                {
-                    "name": "winapi"
-                },
-                {
-                    "name": "select"
-                },
-                {
-                    "name": "winapi-optlink"
-                },
-                {
-                    "name": "select-optlink"
-                },
-                {
-                    "dependencies": {
-                        "libasync": ">=0.8.2 <0.8.5"
-                    },
-                    "name": "libasync"
-                },
-                {
-                    "name": "generic"
-                }
-            ],
-            "dependencies": {
-                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
-            },
-            "name": "eventcore",
-            "version": "~dependency_fix"
-        },
         {
             "configurations": [
                 {
@@ -2303,6 +2225,45 @@
             },
             "name": "eventcore",
             "version": "0.8.48"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "epoll-gaia"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "winapi-optlink"
+                },
+                {
+                    "name": "select-optlink"
+                },
+                {
+                    "dependencies": {
+                        "libasync": "~>0.8.2"
+                    },
+                    "name": "libasync"
+                },
+                {
+                    "name": "generic"
+                }
+            ],
+            "dependencies": {
+                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
+            },
+            "name": "eventcore",
+            "version": "0.8.49"
         }
     ]
 }
