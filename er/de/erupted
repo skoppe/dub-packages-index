@@ -3,7 +3,7 @@
         "library.binding",
         "library.graphics"
     ],
-    "commitID": "931867703193057796e091dc3c95e748835a6428",
+    "commitID": "29eb1cc28d0f7aa60520ccf557fc15caed1ff925",
     "dateAdded": "2016-05-13T21:09:27",
     "description": "Auto-generated D bindings for Vulkan",
     "documentationURL": "",
@@ -113,41 +113,6 @@
                 }
             ],
             "version": "~master"
-        },
-        {
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4"
-                    },
-                    "name": "with-derelict-loader"
-                }
-            ],
-            "name": "erupted",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "erupted": {
-                            "path": ".",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "devices"
-                },
-                {
-                    "dependencies": {
-                        "erupted": {
-                            "path": ".",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "layers"
-                }
-            ],
-            "version": "1.0.1"
         },
         {
             "configurations": [
@@ -4798,6 +4763,30 @@
                 }
             ],
             "version": "2.0.51+v1.2.131"
+        },
+        {
+            "name": "erupted",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "erupted": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devices"
+                },
+                {
+                    "dependencies": {
+                        "erupted": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "layers"
+                }
+            ],
+            "version": "2.0.52+v1.2.132"
         }
     ]
 }
