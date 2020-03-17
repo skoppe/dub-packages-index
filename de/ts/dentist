@@ -2,7 +2,7 @@
     "categories": [
         "library.scientific.bioinformatics"
     ],
-    "commitID": "8e3ae8f5afb6744a89c358b299bcf5ad1fba710d",
+    "commitID": "9e049a98751bee89de49546e1138c18f009a77fe",
     "dateAdded": "2019-01-24T13:37:39",
     "description": "Close assembly gaps using long-reads with focus on correctness.",
     "documentationURL": "",
@@ -42,23 +42,6 @@
                 }
             ],
             "dependencies": {
-                "darg": "~>0.1.0",
-                "string-transform-d": "~>1.0.0",
-                "vibe-d:data": ">=0.8.4-alpha.1 <0.9.0-0"
-            },
-            "name": "dentist",
-            "version": "~feature\/ref-read-selection-random"
-        },
-        {
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "name": "testing"
-                }
-            ],
-            "dependencies": {
                 "darg": {
                     "path": ".\/darg",
                     "version": ">=0.0.0"
@@ -79,7 +62,10 @@
                 }
             ],
             "dependencies": {
-                "darg": "~>0.1.0",
+                "darg": {
+                    "path": ".\/darg",
+                    "version": ">=0.0.0"
+                },
                 "string-transform-d": "~>1.0.0",
                 "vibe-d:data": ">=0.8.4-alpha.1 <0.9.0-0"
             },
@@ -139,6 +125,26 @@
             },
             "name": "dentist",
             "version": "0.0.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "testing"
+                }
+            ],
+            "dependencies": {
+                "darg": {
+                    "path": ".\/darg",
+                    "version": ">=0.0.0"
+                },
+                "string-transform-d": "~>1.0.0",
+                "vibe-d:data": ">=0.8.4-alpha.1 <0.9.0-0"
+            },
+            "name": "dentist",
+            "version": "1.0.0-beta.1"
         }
     ]
 }
