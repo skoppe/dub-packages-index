@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.nogc"
     ],
-    "commitID": "5a9ea22a507ed489af1ba74043dc8312672865d5",
+    "commitID": "09f855ad3342f542182b5eb757ab21c529ec2b2a",
     "dateAdded": "2018-07-08T14:48:59",
     "description": "Optimisation Framework",
     "documentationURL": "",
@@ -4933,6 +4933,103 @@
             },
             "name": "mir-optim",
             "version": "2.0.0-alpha16"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.7.19",
+                "mir-lapack": "~>1.2.3"
+            },
+            "name": "mir-optim",
+            "version": "2.0.0-alpha17"
         }
     ]
 }
