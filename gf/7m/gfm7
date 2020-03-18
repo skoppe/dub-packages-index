@@ -1,0 +1,113 @@
+{
+    "categories": [],
+    "commitID": "290da226c446276ab96e44adabf19f1f2362b112",
+    "dateAdded": "2020-03-18T20:57:18",
+    "description": "D gamedev toolkit. OpenGL\/SDL\/FreeImage\/Assimp wrapper, coloured logger",
+    "documentationURL": "",
+    "id": "5e727d1ed9f0be61398de926",
+    "name": "gfm7",
+    "owner": "5270c3200d0eb7cf280004e9",
+    "repository": {
+        "kind": "github",
+        "owner": "drug007",
+        "project": "gfm7"
+    },
+    "versions": [
+        {
+            "dependencies": {
+                "gfm7:assimp": ">=0.0.0",
+                "gfm7:core": ">=0.0.0",
+                "gfm7:freeimage": ">=0.0.0",
+                "gfm7:logger": ">=0.0.0",
+                "gfm7:opengl": ">=0.0.0",
+                "gfm7:sdl2": ">=0.0.0"
+            },
+            "name": "gfm7",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "derelict-assimp3": ">=2.0.0-beta.1 <3.0.0"
+                    },
+                    "name": "assimp"
+                },
+                {
+                    "dependencies": {
+                        "derelict-gl3": ">=2.0.0-beta.1 <3.0.0",
+                        "gfm:math": "~>8.0.0"
+                    },
+                    "name": "opengl"
+                },
+                {
+                    "dependencies": {
+                        "derelict-sdl2": ">=3.0.0-beta.1 <4.0.0"
+                    },
+                    "name": "sdl2"
+                },
+                {
+                    "dependencies": {
+                        "derelict-fi": ">=3.0.0-beta.1 <4.0.0"
+                    },
+                    "name": "freeimage"
+                },
+                {
+                    "dependencies": {
+                        "colorize": "~>1"
+                    },
+                    "name": "logger"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "dependencies": {
+                "gfm7:assimp": ">=0.0.0",
+                "gfm7:core": ">=0.0.0",
+                "gfm7:freeimage": ">=0.0.0",
+                "gfm7:logger": ">=0.0.0",
+                "gfm7:opengl": ">=0.0.0",
+                "gfm7:sdl2": ">=0.0.0"
+            },
+            "name": "gfm7",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "derelict-assimp3": ">=2.0.0-beta.1 <3.0.0"
+                    },
+                    "name": "assimp"
+                },
+                {
+                    "dependencies": {
+                        "derelict-gl3": ">=2.0.0-beta.1 <3.0.0",
+                        "gfm:math": "~>8.0.0"
+                    },
+                    "name": "opengl"
+                },
+                {
+                    "dependencies": {
+                        "derelict-sdl2": ">=3.0.0-beta.1 <4.0.0"
+                    },
+                    "name": "sdl2"
+                },
+                {
+                    "dependencies": {
+                        "derelict-fi": ">=3.0.0-beta.1 <4.0.0"
+                    },
+                    "name": "freeimage"
+                },
+                {
+                    "dependencies": {
+                        "colorize": "~>1"
+                    },
+                    "name": "logger"
+                }
+            ],
+            "version": "1.0.0"
+        }
+    ]
+}
