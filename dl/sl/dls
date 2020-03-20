@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development"
     ],
-    "commitID": "4994ca13c56a445e0a9d35f52baab84e5c7b68e9",
+    "commitID": "4501a5d089360bb71cfd4bc9257c3fc4f0fcad5a",
     "dateAdded": "2018-03-21T11:16:12",
     "description": "D Language Server",
     "documentationURL": "",
@@ -649,7 +649,7 @@
                 "dls:protocol": ">=0.0.0",
                 "dls:util": ">=0.0.0",
                 "dscanner": "~>0.8.0",
-                "dub": "~>1.19.0"
+                "dub": "~>1.20.0"
             },
             "name": "dls",
             "subPackages": [
@@ -830,39 +830,6 @@
                 }
             ],
             "version": "~master"
-        },
-        {
-            "dependencies": {
-                "dcd": "0.9.9",
-                "dfmt": "0.8.2",
-                "dls:bootstrap": ">=0.0.0",
-                "dls:i18n": ">=0.0.0",
-                "dls:protocol": ">=0.0.0",
-                "dscanner": "0.5.7",
-                "dub": "1.10.0"
-            },
-            "name": "dls",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "dls:i18n": ">=0.0.0"
-                    },
-                    "name": "bootstrap"
-                },
-                {
-                    "name": "gen"
-                },
-                {
-                    "dependencies": {
-                        "dls:protocol": ">=0.0.0"
-                    },
-                    "name": "i18n"
-                },
-                {
-                    "name": "protocol"
-                }
-            ],
-            "version": "0.7.0"
         },
         {
             "dependencies": {
@@ -4338,6 +4305,43 @@
                 }
             ],
             "version": "0.26.1"
+        },
+        {
+            "dependencies": {
+                "dcd": "~>0.12.0",
+                "dfmt": "~>0.11.0",
+                "dls:bootstrap": ">=0.0.0",
+                "dls:i18n": ">=0.0.0",
+                "dls:protocol": ">=0.0.0",
+                "dls:util": ">=0.0.0",
+                "dscanner": "~>0.8.0",
+                "dub": "~>1.20.0"
+            },
+            "name": "dls",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dls:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dls:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "0.26.2"
         }
     ]
 }
