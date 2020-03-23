@@ -3,7 +3,7 @@
         "application.desktop",
         "library.tui"
     ],
-    "commitID": "0cea68c5944fc6e170fe4210f672c3aa1cec81c0",
+    "commitID": "441a0aacbd6ec634b7f5275630857badf92093a0",
     "dateAdded": "2020-01-26T04:38:00",
     "description": "Adam D. Ruppe's terminal emulation suite. Alternatives to xterm, gnu screen, putty, etc.",
     "documentationURL": "",
@@ -20,60 +20,70 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "arsd-official:bmp": ">=5.1.0",
-                        "arsd-official:jsvar": ">=5.1.0",
-                        "arsd-official:minigui": ">=5.1.0",
-                        "arsd-official:png": ">=5.1.0",
-                        "arsd-official:script": ">=5.1.0",
-                        "arsd-official:simpledisplay": ">=5.1.0",
-                        "arsd-official:ttf": ">=5.1.0"
+                        "arsd-official:bmp": ">=6.0.0",
+                        "arsd-official:jpeg": ">=6.0.0",
+                        "arsd-official:jsvar": ">=6.0.0",
+                        "arsd-official:minigui": ">=6.0.0",
+                        "arsd-official:png": ">=6.0.0",
+                        "arsd-official:script": ">=6.0.0",
+                        "arsd-official:simpledisplay": ">=6.0.0",
+                        "arsd-official:svg": ">=6.0.0",
+                        "arsd-official:ttf": ">=6.0.0"
                     },
                     "name": "main"
                 },
                 {
                     "dependencies": {
-                        "arsd-official:bmp": ">=5.2.0",
-                        "arsd-official:jsvar": ">=5.2.0",
-                        "arsd-official:minigui": ">=5.2.0",
-                        "arsd-official:png": ">=5.2.0",
-                        "arsd-official:script": ">=5.2.0",
-                        "arsd-official:simpledisplay": ">=5.2.0",
-                        "arsd-official:ttf": ">=5.2.0"
+                        "arsd-official:bmp": ">=6.0.0",
+                        "arsd-official:jpeg": ">=6.0.0",
+                        "arsd-official:jsvar": ">=6.0.0",
+                        "arsd-official:minigui": ">=6.0.0",
+                        "arsd-official:png": ">=6.0.0",
+                        "arsd-official:script": ">=6.0.0",
+                        "arsd-official:simpledisplay": ">=6.0.0",
+                        "arsd-official:svg": ">=6.0.0",
+                        "arsd-official:ttf": ">=6.0.0"
                     },
                     "name": "mactabs"
                 },
                 {
                     "dependencies": {
-                        "arsd-official:eventloop": ">=5.1.0",
-                        "arsd-official:png": ">=5.1.0",
-                        "arsd-official:terminal": ">=5.1.0"
+                        "arsd-official:eventloop": ">=6.0.0",
+                        "arsd-official:jpeg": ">=6.0.0",
+                        "arsd-official:png": ">=6.0.0",
+                        "arsd-official:svg": ">=6.0.0",
+                        "arsd-official:terminal": ">=6.0.0"
                     },
                     "name": "attach"
                 },
                 {
                     "dependencies": {
-                        "arsd-official:bmp": ">=5.1.0",
-                        "arsd-official:jsvar": ">=5.1.0",
-                        "arsd-official:libssh2_bindings": ">=5.1.0",
-                        "arsd-official:minigui": ">=5.1.0",
-                        "arsd-official:png": ">=5.1.0",
-                        "arsd-official:script": ">=5.1.0",
-                        "arsd-official:simpledisplay": ">=5.1.0",
-                        "arsd-official:ttf": ">=5.1.0"
+                        "arsd-official:bmp": ">=6.0.0",
+                        "arsd-official:jpeg": ">=6.0.0",
+                        "arsd-official:jsvar": ">=6.0.0",
+                        "arsd-official:libssh2_bindings": ">=6.0.0",
+                        "arsd-official:minigui": ">=6.0.0",
+                        "arsd-official:png": ">=6.0.0",
+                        "arsd-official:script": ">=6.0.0",
+                        "arsd-official:simpledisplay": ">=6.0.0",
+                        "arsd-official:svg": ">=6.0.0",
+                        "arsd-official:ttf": ">=6.0.0"
                     },
                     "name": "ssh-gui"
                 },
                 {
                     "dependencies": {
-                        "arsd-official:color_base": ">=5.1.0",
-                        "arsd-official:png": ">=5.1.0",
-                        "arsd-official:terminal": ">=5.1.0"
+                        "arsd-official:color_base": ">=6.0.0",
+                        "arsd-official:jpeg": ">=6.0.0",
+                        "arsd-official:png": ">=6.0.0",
+                        "arsd-official:svg": ">=6.0.0",
+                        "arsd-official:terminal": ">=6.0.0"
                     },
                     "name": "utility"
                 },
                 {
                     "dependencies": {
-                        "arsd-official:color_base": ">=5.1.0"
+                        "arsd-official:color_base": ">=6.0.0"
                     },
                     "name": "core"
                 }
@@ -434,6 +444,81 @@
             ],
             "name": "adr-terminalemulator",
             "version": "0.0.6"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "arsd-official:bmp": ">=6.0.0",
+                        "arsd-official:jpeg": ">=6.0.0",
+                        "arsd-official:jsvar": ">=6.0.0",
+                        "arsd-official:minigui": ">=6.0.0",
+                        "arsd-official:png": ">=6.0.0",
+                        "arsd-official:script": ">=6.0.0",
+                        "arsd-official:simpledisplay": ">=6.0.0",
+                        "arsd-official:svg": ">=6.0.0",
+                        "arsd-official:ttf": ">=6.0.0"
+                    },
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:bmp": ">=6.0.0",
+                        "arsd-official:jpeg": ">=6.0.0",
+                        "arsd-official:jsvar": ">=6.0.0",
+                        "arsd-official:minigui": ">=6.0.0",
+                        "arsd-official:png": ">=6.0.0",
+                        "arsd-official:script": ">=6.0.0",
+                        "arsd-official:simpledisplay": ">=6.0.0",
+                        "arsd-official:svg": ">=6.0.0",
+                        "arsd-official:ttf": ">=6.0.0"
+                    },
+                    "name": "mactabs"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:eventloop": ">=6.0.0",
+                        "arsd-official:jpeg": ">=6.0.0",
+                        "arsd-official:png": ">=6.0.0",
+                        "arsd-official:svg": ">=6.0.0",
+                        "arsd-official:terminal": ">=6.0.0"
+                    },
+                    "name": "attach"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:bmp": ">=6.0.0",
+                        "arsd-official:jpeg": ">=6.0.0",
+                        "arsd-official:jsvar": ">=6.0.0",
+                        "arsd-official:libssh2_bindings": ">=6.0.0",
+                        "arsd-official:minigui": ">=6.0.0",
+                        "arsd-official:png": ">=6.0.0",
+                        "arsd-official:script": ">=6.0.0",
+                        "arsd-official:simpledisplay": ">=6.0.0",
+                        "arsd-official:svg": ">=6.0.0",
+                        "arsd-official:ttf": ">=6.0.0"
+                    },
+                    "name": "ssh-gui"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:color_base": ">=6.0.0",
+                        "arsd-official:jpeg": ">=6.0.0",
+                        "arsd-official:png": ">=6.0.0",
+                        "arsd-official:svg": ">=6.0.0",
+                        "arsd-official:terminal": ">=6.0.0"
+                    },
+                    "name": "utility"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:color_base": ">=6.0.0"
+                    },
+                    "name": "core"
+                }
+            ],
+            "name": "adr-terminalemulator",
+            "version": "0.0.7"
         }
     ]
 }
