@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "47b2881a3682132b9488945ed3431c527fbc43f9",
+    "commitID": "d744b409abce45a5306f85fe686fa5582438ae11",
     "dateAdded": "2019-08-01T03:46:01",
     "description": "App public infrastructure.",
     "documentationURL": "",
@@ -858,6 +858,53 @@
                 }
             ],
             "version": "0.1.17"
+        },
+        {
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.26"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.6"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.13"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.18"
         }
     ]
 }
