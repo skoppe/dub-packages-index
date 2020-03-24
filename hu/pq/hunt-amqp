@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "1dd5c28d7afb0efe6ea6593cc2f173e3d74f875e",
+    "commitID": "7f04c660295786c0d0b08b23328b59c317b23163",
     "dateAdded": "2019-12-04T12:53:52",
     "description": "AMQP library for D programming language, based on hunt-net.",
     "documentationURL": "",
@@ -15,14 +15,8 @@
     "versions": [
         {
             "dependencies": {
-                "hunt-net": {
-                    "path": "..\/..\/hunt-net",
-                    "version": ">=0.0.0"
-                },
-                "hunt-proton": {
-                    "path": "..\/hunt-proton",
-                    "version": ">=0.0.0"
-                }
+                "hunt-net": "~>0.4.6",
+                "hunt-proton": ">=1.0.0-beta.2 <1.1.0-0"
             },
             "name": "hunt-amqp",
             "version": "~master"
@@ -49,6 +43,14 @@
             },
             "name": "hunt-amqp",
             "version": "1.0.0-beta.2"
+        },
+        {
+            "dependencies": {
+                "hunt-net": "~>0.4.6",
+                "hunt-proton": ">=1.0.0-beta.2 <1.1.0-0"
+            },
+            "name": "hunt-amqp",
+            "version": "1.0.0-beta.3"
         }
     ]
 }
