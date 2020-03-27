@@ -5,7 +5,7 @@
         "library.nogc",
         "library.optimized_cpu"
     ],
-    "commitID": "4f0efb29946c079a2b9825108d30984b051769e4",
+    "commitID": "f6639e36401f4484bcdef27f1a42e2cd6128e2ab",
     "dateAdded": "2017-01-05T14:40:05",
     "description": "Dlang Core Library",
     "documentationURL": "http:\/\/mir-algorithm.libmir.org\/",
@@ -92,6 +92,24 @@
             },
             "name": "mir-algorithm",
             "version": "~new_circle"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=0.3.5 <1.2.0"
+            },
+            "name": "mir-algorithm",
+            "version": "~newci"
         },
         {
             "configurations": [
@@ -290,21 +308,6 @@
             },
             "name": "mir-algorithm",
             "version": "3.4.0-beta14"
-        },
-        {
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "name": "dips"
-                }
-            ],
-            "dependencies": {
-                "mir-core": "~>0.2.2"
-            },
-            "name": "mir-algorithm",
-            "version": "3.4.0-beta2"
         },
         {
             "configurations": [
@@ -1772,6 +1775,24 @@
             },
             "name": "mir-algorithm",
             "version": "3.7.21"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=0.3.5 <1.2.0"
+            },
+            "name": "mir-algorithm",
+            "version": "3.7.22"
         }
     ]
 }
