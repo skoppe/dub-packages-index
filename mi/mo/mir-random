@@ -5,7 +5,7 @@
         "library.general",
         "library.scientific.numeric"
     ],
-    "commitID": "91fd3eb6aead03c3971dfc89b7c6c4e67e8577d8",
+    "commitID": "255b290400573fab56e7fe30a354e06615b0d765",
     "dateAdded": "2016-11-25T23:59:43",
     "description": "Dlang Random Number Generators",
     "documentationURL": "http:\/\/docs.random.dlang.io",
@@ -18,6 +18,34 @@
         "project": "mir-random"
     },
     "versions": [
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "mir-algorithm": {
+                            "optional": true,
+                            "version": ">=3.2.1 <4.0.0"
+                        }
+                    },
+                    "name": "default"
+                },
+                {
+                    "name": "minimal"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": ">=3.2.1 <4.0.0"
+                    },
+                    "name": "extended"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=0.2.0 <2.0.0",
+                "mir-linux-kernel": "~>1.0.0"
+            },
+            "name": "mir-random",
+            "version": "~newci"
+        },
         {
             "configurations": [
                 {
@@ -841,6 +869,62 @@
             },
             "name": "mir-random",
             "version": "2.2.11"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "mir-algorithm": {
+                            "optional": true,
+                            "version": ">=3.2.1 <4.0.0"
+                        }
+                    },
+                    "name": "default"
+                },
+                {
+                    "name": "minimal"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": ">=3.2.1 <4.0.0"
+                    },
+                    "name": "extended"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=0.2.0 <2.0.0",
+                "mir-linux-kernel": "~>1.0.0"
+            },
+            "name": "mir-random",
+            "version": "2.2.12"
+        },
+        {
+            "configurations": [
+                {
+                    "dependencies": {
+                        "mir-algorithm": {
+                            "optional": true,
+                            "version": ">=3.2.1 <4.0.0"
+                        }
+                    },
+                    "name": "default"
+                },
+                {
+                    "name": "minimal"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": ">=3.2.1 <4.0.0"
+                    },
+                    "name": "extended"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=0.2.0 <2.0.0",
+                "mir-linux-kernel": "~>1.0.0"
+            },
+            "name": "mir-random",
+            "version": "2.2.13"
         }
     ]
 }
