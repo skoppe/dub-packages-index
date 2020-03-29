@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "47ae7b6038bf7994777503449d66829f26efc0f6",
+    "commitID": "3499f98d581da5ea04d7cca4be99d91221e05c64",
     "dateAdded": "2019-11-02T12:38:29",
     "description": "containers library",
     "documentationURL": "",
@@ -15,6 +15,9 @@
     "versions": [
         {
             "configurations": [
+                {
+                    "name": "std"
+                },
                 {
                     "dependencies": {
                         "unit-threaded": "~>0"
@@ -108,6 +111,25 @@
             },
             "name": "ikod-containers",
             "version": "0.0.5"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "std"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "~>0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "automem": "~>0",
+                "unit-threaded": "~>0.10.4"
+            },
+            "name": "ikod-containers",
+            "version": "0.0.6"
         }
     ]
 }
