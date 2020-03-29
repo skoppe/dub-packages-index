@@ -5,10 +5,10 @@
         "library.optimized_cpu",
         "library.optimized_mem"
     ],
-    "commitID": "a1d284f01031c7aff778714a695d9dcf204d3964",
+    "commitID": "8253a816f3b1017e37306b2d9c8bcab28fc77280",
     "dateAdded": "2017-05-26T15:58:29",
     "description": "ndslice wrapper for LAPACK",
-    "documentationURL": "",
+    "documentationURL": "http:\/\/mir-lapack.libmir.org",
     "id": "59283485accee9524b62fd0a",
     "name": "mir-lapack",
     "owner": "541eccf89ad2b55e1d002692",
@@ -69,6 +69,58 @@
             },
             "name": "mir-lapack",
             "version": "~9il-patch-1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                }
+            ],
+            "dependencies": {
+                "lapack": "~>0.4.0",
+                "mir-blas": ">=1.1.3 <2.0.0"
+            },
+            "name": "mir-lapack",
+            "version": "~newci"
         },
         {
             "configurations": [
@@ -1049,6 +1101,58 @@
             },
             "name": "mir-lapack",
             "version": "1.2.4"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                }
+            ],
+            "dependencies": {
+                "lapack": "~>0.4.0",
+                "mir-blas": ">=1.1.3 <2.0.0"
+            },
+            "name": "mir-lapack",
+            "version": "1.2.5"
         }
     ]
 }
