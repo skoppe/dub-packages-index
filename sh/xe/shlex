@@ -3,7 +3,7 @@
         "library.development.parsing",
         "library.general"
     ],
-    "commitID": "5ccc989a8b15fefd8fc8bf5bae889961d1d28b63",
+    "commitID": "3af05eb6cb31e8ea09386deba5c979694a0c043a",
     "dateAdded": "2019-10-24T10:54:57",
     "description": "Simple shell-like lexical analysis library",
     "documentationURL": "",
@@ -304,6 +304,44 @@
                 }
             ],
             "version": "0.9.5"
+        },
+        {
+            "dependencies": {
+                "shlex:library": ">=0.0.0",
+                "shlex:shlex": ">=0.0.0"
+            },
+            "name": "shlex",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "application"
+                        },
+                        {
+                            "name": "shared-library"
+                        },
+                        {
+                            "name": "static-library"
+                        }
+                    ],
+                    "dependencies": {
+                        "pure-dependency-injector": ">=0.9.17"
+                    },
+                    "name": "library"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "application"
+                        }
+                    ],
+                    "dependencies": {
+                        "shlex:library": ">=0.0.0"
+                    },
+                    "name": "shlex"
+                }
+            ],
+            "version": "0.9.6"
         }
     ]
 }
