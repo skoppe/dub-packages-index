@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "37899c24d6e7b9e2ba356505b47203e55636eb4e",
+    "commitID": "cb63a2cd31067e91aab2b7709259bcaf9689e6e0",
     "dateAdded": "2019-08-16T16:09:20",
     "description": "A proxy for dub to allow local dependency resolution",
     "documentationURL": "",
@@ -165,6 +165,21 @@
             },
             "name": "dubproxy",
             "version": "1.1.1"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "cli"
+                },
+                {
+                    "name": "dubproxy"
+                }
+            ],
+            "dependencies": {
+                "urld": "~>2.1.1"
+            },
+            "name": "dubproxy",
+            "version": "1.1.2"
         }
     ]
 }
