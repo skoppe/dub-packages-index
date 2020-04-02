@@ -1,0 +1,87 @@
+{
+    "categories": [
+        "library.generic"
+    ],
+    "commitID": "0ce8d377630fdd0cbe8db853b0639a832662e033",
+    "dateAdded": "2020-04-02T18:27:20",
+    "description": "autoscanning + vibe.d + poodinis + mirror",
+    "documentationURL": "",
+    "id": "5e861268646289d274896c92",
+    "name": "glue-d",
+    "owner": "5e7f58aed0a5cee3498a9634",
+    "repository": {
+        "kind": "github",
+        "owner": "filipmalczak",
+        "project": "glue-d"
+    },
+    "versions": [
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "glue-d:indexer": ">=0.0.0"
+                    },
+                    "name": "indexer"
+                }
+            ],
+            "dependencies": {
+                "mirror": "~>0.1.9",
+                "poodinis": "~>8.0.3",
+                "poodinis-proper-d-injector": "~>0.1.0",
+                "unit-threaded": "~>0.10.8"
+            },
+            "name": "glue-d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "run"
+                        },
+                        {
+                            "name": "lib"
+                        }
+                    ],
+                    "name": "indexer"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "glue-d:indexer": ">=0.0.0"
+                    },
+                    "name": "indexer"
+                }
+            ],
+            "dependencies": {
+                "mirror": "~>0.1.9",
+                "poodinis": "~>8.0.3",
+                "poodinis-proper-d-injector": "~>0.1.0",
+                "unit-threaded": "~>0.10.8"
+            },
+            "name": "glue-d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "run"
+                        },
+                        {
+                            "name": "lib"
+                        }
+                    ],
+                    "name": "indexer"
+                }
+            ],
+            "version": "0.0.1"
+        }
+    ]
+}
