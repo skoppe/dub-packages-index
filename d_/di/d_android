@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "3c4364234c9b0ec6f2d4a1e2b2626019f4f73a19",
+    "commitID": "d3d62c2b7f60e58c043bbf530896c7087938f818",
     "dateAdded": "2019-12-16T19:41:40",
     "description": "Helper programs, instructions, and bindings for using D on Android",
     "documentationURL": "",
@@ -31,6 +31,9 @@
                         "arsd-official:jni": ">=5.0.2"
                     },
                     "name": "java_bindings"
+                },
+                {
+                    "name": "setup"
                 }
             ],
             "version": "~master"
@@ -85,6 +88,31 @@
                 }
             ],
             "version": "0.0.5"
+        },
+        {
+            "dependencies": {
+                "d_android:java_bindings": ">=0.0.0",
+                "d_android:ndk_bindings": ">=0.0.0"
+            },
+            "name": "d_android",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "arsd-official:jni": ">=5.0.2"
+                    },
+                    "name": "ndk_bindings"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:jni": ">=5.0.2"
+                    },
+                    "name": "java_bindings"
+                },
+                {
+                    "name": "setup"
+                }
+            ],
+            "version": "0.1.0"
         }
     ]
 }
