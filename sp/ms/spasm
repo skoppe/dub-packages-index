@@ -18,6 +18,61 @@
     },
     "versions": [
         {
+            "commitID": "bb42c4f95f49ab021a505da63e7d52b0961e36ef",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "dmd"
+                }
+            ],
+            "dependencies": {
+                "optional": "~>0.16.0",
+                "stdx-allocator": ">=3.1.0-beta.2 <3.2.0-0"
+            },
+            "name": "spasm",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "sdlang-d": "~>0.10.4"
+                    },
+                    "name": "bootstrap-webpack"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "executable"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "openmethods": "~>1.1.1",
+                        "pegged": "~>0.4.4",
+                        "sdlang-d": "~>0.10.4",
+                        "wasm-reader": "~>0.0.4",
+                        "webidl-grammar": "0.0.8"
+                    },
+                    "name": "webidl"
+                }
+            ],
+            "version": "~dependabot\/npm_and_yarn\/examples\/dom\/acorn-5.7.4"
+        },
+        {
+            "commitID": "4e4afc606e5eb88fcf1bd906a3f49d556a706a51",
             "configurations": [
                 {
                     "name": "library"
@@ -71,6 +126,7 @@
             "version": "~dependabot\/npm_and_yarn\/examples\/dom\/lodash-4.17.15"
         },
         {
+            "commitID": "819fd115bb49fd46ebde621af0484759a61bf654",
             "configurations": [
                 {
                     "name": "library"
@@ -124,6 +180,7 @@
             "version": "~dependabot\/npm_and_yarn\/examples\/dom\/mixin-deep-1.3.2"
         },
         {
+            "commitID": "3948f6f710eb504d16deb3be023818cd7ce079dd",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -163,6 +220,7 @@
             "version": "~material"
         },
         {
+            "commitID": "5edde57e262496ad62c88fc41138191f07124b76",
             "configurations": [
                 {
                     "name": "library"
@@ -216,6 +274,7 @@
             "version": "~namednode-child"
         },
         {
+            "commitID": "36965468c355f7d97f4c79abb7de4d36c038b0ed",
             "configurations": [
                 {
                     "name": "library"
@@ -269,6 +328,7 @@
             "version": "~optional-upgrade"
         },
         {
+            "commitID": "51b18bd68e32da7da6e95099713c9a96cb37eae3",
             "configurations": [
                 {
                     "name": "library"
@@ -322,6 +382,7 @@
             "version": "~master"
         },
         {
+            "commitID": "8932f8e0b027f9ac6e94d8df80deeb2c0a153dd7",
             "dependencies": {
                 "stdx-allocator": "2.77.3"
             },
@@ -338,6 +399,7 @@
             "version": "0.0.1"
         },
         {
+            "commitID": "433a7d55045f3df9e67db6b3f6f928e8f943f0a9",
             "dependencies": {
                 "stdx-allocator": "2.77.3"
             },
@@ -354,6 +416,7 @@
             "version": "0.0.2"
         },
         {
+            "commitID": "fc98e2d06863e08d251328d7bee69de17ff3489f",
             "dependencies": {
                 "stdx-allocator": "2.77.3"
             },
@@ -370,6 +433,7 @@
             "version": "0.0.3"
         },
         {
+            "commitID": "9b4cfccf770c210a0d8ada731d07d3c6c40dc0fa",
             "dependencies": {
                 "stdx-allocator": "2.77.3"
             },
@@ -386,6 +450,7 @@
             "version": "0.0.4"
         },
         {
+            "commitID": "8380129487711adaa1c5a3df1dadb3ae4fb7b20a",
             "dependencies": {
                 "stdx-allocator": "2.77.3"
             },
@@ -402,6 +467,7 @@
             "version": "0.0.5"
         },
         {
+            "commitID": "894dfed0918ec9736220a2003c56b616d16f88b3",
             "dependencies": {
                 "stdx-allocator": "2.77.3"
             },
@@ -418,6 +484,7 @@
             "version": "0.0.6"
         },
         {
+            "commitID": "b37802b1b72f674238cb770d3e55e426bb7570b4",
             "dependencies": {
                 "stdx-allocator": "2.77.3"
             },
@@ -434,6 +501,7 @@
             "version": "0.0.7"
         },
         {
+            "commitID": "a6a51a78880f141539360e6201d3f0b85673a837",
             "dependencies": {
                 "stdx-allocator": "2.77.3"
             },
@@ -450,6 +518,7 @@
             "version": "0.0.8"
         },
         {
+            "commitID": "40a34bd4f482e6090b444cf135eb35321f0d5d70",
             "dependencies": {
                 "stdx-allocator": "2.77.3"
             },
@@ -466,6 +535,7 @@
             "version": "0.0.9"
         },
         {
+            "commitID": "0a521a3103f94a6fb1ae80a2e9ebf36ca5da4e0b",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -505,6 +575,7 @@
             "version": "0.1.0"
         },
         {
+            "commitID": "01698fc8930f097422b9138df5637c4b170914e9",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -544,6 +615,7 @@
             "version": "0.1.1"
         },
         {
+            "commitID": "a9e71d60c18465f70f307a53800694b747fac415",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -583,6 +655,7 @@
             "version": "0.1.2"
         },
         {
+            "commitID": "9fcc3617717735fb431063e93fd0303aec67bac3",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -622,6 +695,7 @@
             "version": "0.1.3"
         },
         {
+            "commitID": "3c58a50af9178118a41a327cda3d5f30ff7b88fb",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -661,6 +735,7 @@
             "version": "0.1.4"
         },
         {
+            "commitID": "2b726f7bfb66080004e7f1548ef39de0c5ed4faa",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -700,6 +775,7 @@
             "version": "0.1.5"
         },
         {
+            "commitID": "0b484af297d691944cf28943b3bbadc218ad6dab",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -739,6 +815,7 @@
             "version": "0.1.6"
         },
         {
+            "commitID": "f429963b5371e4a56c354497a027adca1910484d",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -778,6 +855,7 @@
             "version": "0.1.7"
         },
         {
+            "commitID": "b8bec730622432aa20d8ba957a94f19a5e67853d",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -817,6 +895,7 @@
             "version": "0.1.8"
         },
         {
+            "commitID": "617ea9e42e8a03eedfc46fb4cb6bbcfd835e432f",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -856,6 +935,7 @@
             "version": "0.1.9"
         },
         {
+            "commitID": "1de1da88ba5e175ddc14febcbd70cc55b8e921be",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -895,6 +975,7 @@
             "version": "0.1.10"
         },
         {
+            "commitID": "af23cb1a715b2923fe79f293460ec191b7b58c0d",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -934,6 +1015,7 @@
             "version": "0.1.11"
         },
         {
+            "commitID": "e6267081faa451d80693390407e8431ae9d7cd6d",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -973,6 +1055,7 @@
             "version": "0.1.12"
         },
         {
+            "commitID": "513e4d44f064b15e325a0d517815371f5b452de4",
             "dependencies": {
                 "optional": "~>0.10.0",
                 "stdx-allocator": "2.77.3"
@@ -1012,6 +1095,7 @@
             "version": "0.1.13"
         },
         {
+            "commitID": "72b5ac83ea2a70378b0c2f1663edfd5d0b71262b",
             "configurations": [
                 {
                     "name": "library"
@@ -1062,6 +1146,7 @@
             "version": "0.2.0-beta.1"
         },
         {
+            "commitID": "2c34446afe3a9c8bf0f857643f218c818f06cfff",
             "configurations": [
                 {
                     "name": "library"
@@ -1115,6 +1200,7 @@
             "version": "0.2.0-beta.2"
         },
         {
+            "commitID": "8eb0f0abbf32b82f8c04c80043df5e62df918372",
             "configurations": [
                 {
                     "name": "library"
@@ -1168,6 +1254,7 @@
             "version": "0.2.0-beta.3"
         },
         {
+            "commitID": "0fffb394c7d46a2defaf8604c4d4f2663a42dfde",
             "configurations": [
                 {
                     "name": "library"
@@ -1221,6 +1308,7 @@
             "version": "0.2.0-beta.4"
         },
         {
+            "commitID": "2cac40e64abde1e9b07a22131165893cf4b62300",
             "configurations": [
                 {
                     "name": "library"
@@ -1274,6 +1362,7 @@
             "version": "0.2.0-beta.5"
         },
         {
+            "commitID": "211b09f99cc31e8172c007a8e08d4d968e6bb044",
             "configurations": [
                 {
                     "name": "library"

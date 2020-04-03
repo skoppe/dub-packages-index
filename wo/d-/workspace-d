@@ -17,6 +17,7 @@
     },
     "versions": [
         {
+            "commitID": "b3f5cc28a4b736a050676b421e94806ffa423b7c",
             "dependencies": {
                 "dub": ">=1.2.0-rc.1 <1.3.0-0",
                 "dunit": "~>1.0.14",
@@ -52,6 +53,7 @@
             "version": "~moduleman"
         },
         {
+            "commitID": "cf9d279ce4938645e00063ab6f4c3a9f3a15aac2",
             "dependencies": {
                 "dfmt": "0.9.0",
                 "dscanner": "0.6.0",
@@ -78,6 +80,48 @@
             "version": "~new-libdparse"
         },
         {
+            "commitID": "0fb73a100f32a941737379312e3a4e52a82649af",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.11.0",
+                "dscanner": "0.8.0",
+                "dub": "1.18.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.13.1",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "~source-cache"
+        },
+        {
+            "commitID": "d0e843eb074bf96f542e52d5aa48d8d562521f20",
             "dependencies": {
                 "dfmt": "0.5.3",
                 "dscanner": "~>0.4.2",
@@ -104,6 +148,7 @@
             "version": "~v3"
         },
         {
+            "commitID": "432c497999ac8d39da33bfa847344d6e6d72a00a",
             "configurations": [
                 {
                     "name": "executable"
@@ -144,6 +189,7 @@
             "version": "~master"
         },
         {
+            "commitID": "f1d6bb6cf030e90a42612b83810f34d008c5b2d2",
             "dependencies": {
                 "dub": ">=1.2.0-rc.1 <1.3.0-0",
                 "dunit": "~>1.0.14",
@@ -182,6 +228,7 @@
             "version": "2.10.0"
         },
         {
+            "commitID": "a2f25703f31dda804caa72a98f390c1992563802",
             "dependencies": {
                 "dub": ">=1.2.0-rc.1 <1.3.0-0",
                 "dunit": "~>1.0.14",
@@ -217,6 +264,7 @@
             "version": "2.10.1"
         },
         {
+            "commitID": "76224e32bf1698b5920a0442b68dc7d253382143",
             "dependencies": {
                 "dub": "~>1.3.0",
                 "dunit": "~>1.0.14",
@@ -252,6 +300,7 @@
             "version": "2.11.0"
         },
         {
+            "commitID": "76dccaa66c3cb623eeed5bee48b12174425adfe7",
             "dependencies": {
                 "dfmt": "0.5.3",
                 "dscanner": "~>0.4.2",
@@ -278,6 +327,7 @@
             "version": "2.12.0"
         },
         {
+            "commitID": "86a44a70c693f2d135bd7ffe29c02f39424841f2",
             "dependencies": {
                 "dfmt": "~>0.8.2",
                 "dscanner": "~>0.5.7",
@@ -304,6 +354,7 @@
             "version": "3.1.0"
         },
         {
+            "commitID": "511b62e0bfc8615dd916b9308b24545b37c62905",
             "dependencies": {
                 "dfmt": "~>0.8.2",
                 "dscanner": "~>0.5.7",
@@ -330,6 +381,7 @@
             "version": "3.2.0"
         },
         {
+            "commitID": "bf0d84cbae939bd61ad55846c21b250f064e0771",
             "dependencies": {
                 "dfmt": "~master",
                 "dscanner": "0.5.10",
@@ -355,6 +407,7 @@
             "version": "3.3.0-pre1"
         },
         {
+            "commitID": "fd7c899c6a7510b60f27bd351a526d139b31a936",
             "dependencies": {
                 "dfmt": "~master",
                 "dscanner": "0.5.10",
@@ -380,6 +433,7 @@
             "version": "3.3.0-pre2"
         },
         {
+            "commitID": "98fbf45b506adc5d3a8529fc959c74f1a4600653",
             "dependencies": {
                 "dfmt": "~master",
                 "dscanner": "0.5.10",
@@ -405,6 +459,7 @@
             "version": "3.3.0-pre3"
         },
         {
+            "commitID": "deb4ef329d6a484f7735d22961afd8e3a43ea24e",
             "dependencies": {
                 "dfmt": "~master",
                 "dscanner": "0.5.10",
@@ -430,6 +485,7 @@
             "version": "3.3.0-pre4"
         },
         {
+            "commitID": "581141a263028835cd9d0567607509c47ce99386",
             "dependencies": {
                 "dfmt": "~master",
                 "dscanner": "0.5.10",
@@ -455,6 +511,7 @@
             "version": "3.3.0-pre5"
         },
         {
+            "commitID": "24b89b3e621350a2f4a8e5fa749a0151a22ef9ee",
             "dependencies": {
                 "dfmt": "~master",
                 "dscanner": "0.5.10",
@@ -480,6 +537,7 @@
             "version": "3.3.0-pre6"
         },
         {
+            "commitID": "f8b8b9342bea17d523274ca08cd3f75367be031d",
             "dependencies": {
                 "dfmt": "0.8.3",
                 "dscanner": "0.5.11",
@@ -505,6 +563,7 @@
             "version": "3.3.0-pre7"
         },
         {
+            "commitID": "534a652108e58ee764b5fcfc792be05e6b91dcc2",
             "dependencies": {
                 "dfmt": "0.8.3",
                 "dscanner": "0.5.11",
@@ -530,6 +589,7 @@
             "version": "3.3.0-pre8"
         },
         {
+            "commitID": "91e6bee9475f1f7a9a52ee0e50f887cd86dc06ce",
             "dependencies": {
                 "dfmt": "0.9.0",
                 "dscanner": "0.6.0",
@@ -556,6 +616,7 @@
             "version": "3.3.0-pre9"
         },
         {
+            "commitID": "6bb61a47f7e8978e750d6e5c72c01541c9e4fa0b",
             "dependencies": {
                 "dfmt": "0.9.0",
                 "dscanner": "0.6.0",
@@ -582,6 +643,7 @@
             "version": "3.3.0"
         },
         {
+            "commitID": "a16435205fc80d19add429a92b8322cb6f9ab1e9",
             "dependencies": {
                 "dfmt": "0.10.1",
                 "dscanner": "0.7.2",
@@ -609,6 +671,7 @@
             "version": "3.4.0-pre.10"
         },
         {
+            "commitID": "79f90db417c7e4354a31465ecaa4b89e79efc789",
             "dependencies": {
                 "dfmt": "0.9.0",
                 "dscanner": "0.6.0",
@@ -635,6 +698,7 @@
             "version": "3.4.0-pre1"
         },
         {
+            "commitID": "a16435205fc80d19add429a92b8322cb6f9ab1e9",
             "dependencies": {
                 "dfmt": "0.10.1",
                 "dscanner": "0.7.2",
@@ -662,6 +726,7 @@
             "version": "3.4.0-pre10"
         },
         {
+            "commitID": "d8862d3151413d29abbe11bcbd0664373b9192a7",
             "dependencies": {
                 "dfmt": "0.10.1",
                 "dscanner": "0.7.2",
@@ -689,6 +754,7 @@
             "version": "3.4.0-pre11"
         },
         {
+            "commitID": "5c810c861a608582e68fcd0db2b831b7aa7ae35d",
             "dependencies": {
                 "dfmt": "0.10.1",
                 "dscanner": "0.7.2",
@@ -716,6 +782,7 @@
             "version": "3.4.0-pre12"
         },
         {
+            "commitID": "d45f2bd336c882f552cd71f4532ffab9f6e02c8d",
             "dependencies": {
                 "dfmt": "0.10.1",
                 "dscanner": "0.7.2",
@@ -743,6 +810,7 @@
             "version": "3.4.0-pre13"
         },
         {
+            "commitID": "c99a804006609086d9d2b4bf377e8b155b63c162",
             "dependencies": {
                 "dfmt": "0.9.0",
                 "dscanner": "0.6.0",
@@ -769,6 +837,7 @@
             "version": "3.4.0-pre2"
         },
         {
+            "commitID": "6ba1f4a0fce0375803bf73980e219c6269bdc68a",
             "dependencies": {
                 "dfmt": "0.9.0",
                 "dscanner": "0.6.0",
@@ -795,6 +864,7 @@
             "version": "3.4.0-pre3"
         },
         {
+            "commitID": "e35560cd701bc2e52c4c26d44ebd4a10580964c6",
             "dependencies": {
                 "dfmt": "0.10.0-beta.1",
                 "dscanner": "0.7.0",
@@ -822,6 +892,7 @@
             "version": "3.4.0-pre4"
         },
         {
+            "commitID": "f29668f32d7f03321a31dce8a30f9828fcc15c75",
             "dependencies": {
                 "dfmt": "0.10.0-beta.1",
                 "dscanner": "0.7.0",
@@ -849,6 +920,7 @@
             "version": "3.4.0-pre5"
         },
         {
+            "commitID": "863c642cbfdc2864959b569f21365d443259a216",
             "dependencies": {
                 "dfmt": "0.10.1",
                 "dscanner": "0.7.2",
@@ -876,6 +948,7 @@
             "version": "3.4.0-pre6"
         },
         {
+            "commitID": "ac5db6f2f164e13a67d23ee3f7419813cfaee371",
             "dependencies": {
                 "dfmt": "0.10.1",
                 "dscanner": "0.7.2",
@@ -903,6 +976,7 @@
             "version": "3.4.0-pre7"
         },
         {
+            "commitID": "da67014e07b41c7becdbb1e1ff453dec411da8b2",
             "dependencies": {
                 "dfmt": "0.10.1",
                 "dscanner": "0.7.2",
@@ -930,6 +1004,7 @@
             "version": "3.4.0-pre8"
         },
         {
+            "commitID": "3b6fcfe60f5e1f4812303575e274dec3dc556e63",
             "dependencies": {
                 "dfmt": "0.10.1",
                 "dscanner": "0.7.2",
@@ -957,6 +1032,7 @@
             "version": "3.4.0-pre9"
         },
         {
+            "commitID": "c62f286b7c9319b3c4acafcc3db8f8e24c27194e",
             "dependencies": {
                 "dfmt": "0.10.1",
                 "dscanner": "0.7.2",
@@ -984,6 +1060,7 @@
             "version": "3.4.0"
         },
         {
+            "commitID": "780f3208d22d3abdaeb99ceeb27da0e51caddd67",
             "dependencies": {
                 "dfmt": "0.10.1",
                 "dscanner": "0.7.2",
@@ -1011,6 +1088,7 @@
             "version": "3.5.0-pre.1"
         },
         {
+            "commitID": "b969f3fe820dc6b4099ff5c5ce10ab210334ec93",
             "configurations": [
                 {
                     "name": "generic"
@@ -1049,6 +1127,7 @@
             "version": "3.5.0-pre.2"
         },
         {
+            "commitID": "eec0617c4aee94309eb96f86ce1ccd5543742eb4",
             "configurations": [
                 {
                     "name": "generic"
@@ -1087,6 +1166,7 @@
             "version": "3.5.0-pre.3"
         },
         {
+            "commitID": "fdc3f39f230c4e547053692c59c4b58a8cc1fb78",
             "configurations": [
                 {
                     "name": "executable"
@@ -1127,6 +1207,7 @@
             "version": "3.5.0-pre.4"
         },
         {
+            "commitID": "3e16ce9840db238da9e9fd129894c1eab7d173dc",
             "configurations": [
                 {
                     "name": "executable"
@@ -1167,6 +1248,7 @@
             "version": "3.5.0-pre.5"
         },
         {
+            "commitID": "4606d2bc371c11406bb1054111dc3aef165c080b",
             "configurations": [
                 {
                     "name": "executable"
@@ -1207,6 +1289,7 @@
             "version": "3.5.0-pre.6"
         },
         {
+            "commitID": "15ca7067129ec6a82f6543fe7d0e9c464b9c763e",
             "configurations": [
                 {
                     "name": "executable"
@@ -1247,6 +1330,7 @@
             "version": "3.5.0-pre.7"
         },
         {
+            "commitID": "4197e7693afd692fbdfa3beb1360608a4d9b84ec",
             "configurations": [
                 {
                     "name": "executable"
@@ -1287,6 +1371,7 @@
             "version": "3.5.0-pre.8"
         },
         {
+            "commitID": "40baa0d142d51bd9ad4bbe3a0a2ee40019807892",
             "configurations": [
                 {
                     "name": "executable"
@@ -1327,6 +1412,7 @@
             "version": "3.5.0-pre.9"
         },
         {
+            "commitID": "d2880676dafcd036ff7eb7f12bde7d7cd1a0a822",
             "configurations": [
                 {
                     "name": "executable"
@@ -1367,6 +1453,7 @@
             "version": "3.5.0-pre.10"
         },
         {
+            "commitID": "4d4f6405542e701b4c538c265cd61a56f72ed2db",
             "configurations": [
                 {
                     "name": "executable"
@@ -1407,6 +1494,7 @@
             "version": "3.5.0"
         },
         {
+            "commitID": "c52b60020e6732c8e14f5fab506f245a87c7e641",
             "configurations": [
                 {
                     "name": "executable"
@@ -1447,6 +1535,7 @@
             "version": "3.6.0-pre.1"
         },
         {
+            "commitID": "31c95c85001705e373b8db2a3344d4e653402894",
             "configurations": [
                 {
                     "name": "executable"
