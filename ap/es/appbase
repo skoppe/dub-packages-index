@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "d744b409abce45a5306f85fe686fa5582438ae11",
+    "commitID": "714531277e41db4fdaf00740db0de137c6852c95",
     "dateAdded": "2019-08-01T03:46:01",
     "description": "App public infrastructure.",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "d744b409abce45a5306f85fe686fa5582438ae11",
+            "commitID": "714531277e41db4fdaf00740db0de137c6852c95",
             "dependencies": {
                 "appbase:configuration": ">=0.0.0",
                 "appbase:listener": ">=0.0.0",
@@ -924,6 +924,54 @@
                 }
             ],
             "version": "0.1.18"
+        },
+        {
+            "commitID": "714531277e41db4fdaf00740db0de137c6852c95",
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": "~>1.1.26"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": "~>0.2.6"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": "~>0.2.13"
+                    },
+                    "name": "security"
+                }
+            ],
+            "version": "0.1.19"
         }
     ]
 }
