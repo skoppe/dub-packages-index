@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.gui"
     ],
-    "commitID": "3eee2c64c663df95d48a0aea7123f07ef4e5ddb6",
+    "commitID": "564aa1f46f840ec4aa96c3f5df55013d037206cf",
     "dateAdded": "2017-01-20T00:24:00",
     "description": "A 2D game engine for retro styled games",
     "documentationURL": "",
@@ -18,16 +18,16 @@
     },
     "versions": [
         {
-            "commitID": "3eee2c64c663df95d48a0aea7123f07ef4e5ddb6",
+            "commitID": "564aa1f46f840ec4aa96c3f5df55013d037206cf",
             "dependencies": {
                 "bindbc-sdl": ">=0.0.0",
                 "bmfont": "0.1.0",
+                "collections-d": "0.1.0",
                 "cpublit": "0.4.0-alpha",
                 "dimage": "0.3.0-alpha",
                 "intel-intrinsics": ">=0.0.0",
                 "libpcm": "0.2.2",
-                "sdlang-d": ">=0.0.0",
-                "std-experimental-xml": ">=0.0.0"
+                "sdlang-d": ">=0.0.0"
             },
             "name": "pixelperfectengine",
             "subPackages": [
@@ -544,6 +544,35 @@
                 }
             ],
             "version": "0.9.6"
+        },
+        {
+            "commitID": "564aa1f46f840ec4aa96c3f5df55013d037206cf",
+            "dependencies": {
+                "bindbc-sdl": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.1.0",
+                "cpublit": "0.4.0-alpha",
+                "dimage": "0.3.0-alpha",
+                "intel-intrinsics": ">=0.0.0",
+                "libpcm": "0.2.2",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "pixelperfecteditor"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "windowmakerforconcrete"
+                }
+            ],
+            "version": "0.10.0-alpha"
         }
     ]
 }
