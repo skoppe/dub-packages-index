@@ -3,7 +3,7 @@
         "library.data",
         "library.development.parsing"
     ],
-    "commitID": "73df77aa35944b8c22181d1badb0927fa4d5215b",
+    "commitID": "634f65cb34230a4bbaff6d40f31288616edea0de",
     "dateAdded": "2013-03-06T04:34:04",
     "description": "Parse\/Generate SDLang (Simple Declarative Language - cleaner than JSON\/XML)",
     "documentationURL": "",
@@ -68,7 +68,7 @@
             "version": "~schema"
         },
         {
-            "commitID": "73df77aa35944b8c22181d1badb0927fa4d5215b",
+            "commitID": "634f65cb34230a4bbaff6d40f31288616edea0de",
             "configurations": [
                 {
                     "name": "cli"
@@ -427,6 +427,31 @@
             },
             "name": "sdlang-d",
             "version": "0.10.5"
+        },
+        {
+            "commitID": "634f65cb34230a4bbaff6d40f31288616edea0de",
+            "configurations": [
+                {
+                    "name": "cli"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest-builtin"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.6.28 <0.8.0-0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "taggedalgebraic": ">=0.10.2 <0.12.0-0"
+            },
+            "name": "sdlang-d",
+            "version": "0.10.6"
         }
     ]
 }
