@@ -2,10 +2,10 @@
     "categories": [
         "application.desktop.network"
     ],
-    "commitID": "a36737c9eaf4e21d32228f38d3413fcf0ca75304",
+    "commitID": "76e7d8903e95fd5234233351be4b03f7e371f896",
     "dateAdded": "2018-01-02T22:58:34",
     "description": "IRC bot",
-    "documentationURL": "https:\/\/zorael.github.io\/kameloso",
+    "documentationURL": "http:\/\/kameloso.dpldocs.info\/kameloso.html",
     "id": "5a4c008a48dc7f8d6ba48daf",
     "name": "kameloso",
     "owner": "52262ddffb9e366354000a35",
@@ -501,6 +501,65 @@
             },
             "name": "kameloso",
             "version": "~appveyor-singlefile"
+        },
+        {
+            "commitID": "3add3e3e9f68b35e02a29a952a9f3ad35809d3aa",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.1.1",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.1.1",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "twitch"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.1.1",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "dev"
+                },
+                {
+                    "name": "vanilla"
+                },
+                {
+                    "name": "colours"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.1.1",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "web"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.1.1",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.1.1",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dialect": "~>0.5.1",
+                "lu": "~>0.3.0"
+            },
+            "name": "kameloso",
+            "version": "~appveyor-tintfun"
         },
         {
             "commitID": "77ed06eb4c9624754a131066e95d041a91da9a89",
@@ -1392,97 +1451,25 @@
             "version": "~overflow"
         },
         {
-            "commitID": "e45e1559ea968057509fc0ae93667ced847a1201",
+            "commitID": "76e7d8903e95fd5234233351be4b03f7e371f896",
             "configurations": [
                 {
                     "dependencies": {
-                        "arsd-official:dom": "~>4.0.3",
-                        "requests": "~>1.0.9"
-                    },
-                    "name": "posix"
-                },
-                {
-                    "dependencies": {
-                        "arsd-official:dom": "~>4.0.3",
-                        "requests": "~>1.0.9"
-                    },
-                    "name": "windows"
-                },
-                {
-                    "dependencies": {
-                        "arsd-official:dom": "~>4.0.3",
-                        "requests": "~>1.0.9"
-                    },
-                    "name": "twitch"
-                },
-                {
-                    "dependencies": {
-                        "arsd-official:dom": "~>4.0.3",
-                        "requests": "~>1.0.9"
-                    },
-                    "name": "dev"
-                },
-                {
-                    "name": "vanilla"
-                },
-                {
-                    "name": "colours"
-                },
-                {
-                    "dependencies": {
-                        "arsd-official:dom": "~>4.0.3",
-                        "requests": "~>1.0.9"
-                    },
-                    "name": "web"
-                },
-                {
-                    "dependencies": {
-                        "arsd-official:dom": "~>4.0.3",
-                        "requests": "~>1.0.9"
-                    },
-                    "name": "full"
-                },
-                {
-                    "name": "pluginless"
-                },
-                {
-                    "name": "pluginless-vanilla"
-                },
-                {
-                    "dependencies": {
-                        "arsd-official:dom": "~>4.0.3",
-                        "requests": "~>1.0.9"
-                    },
-                    "name": "unittest"
-                }
-            ],
-            "dependencies": {
-                "dialect": "~>0.2.0",
-                "lu": "~>0.1.0"
-            },
-            "name": "kameloso",
-            "version": "~phrasesv2"
-        },
-        {
-            "commitID": "a36737c9eaf4e21d32228f38d3413fcf0ca75304",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "arsd-official:dom": "~>7.1.1",
+                        "arsd-official:dom": "~>7.2.0",
                         "requests": "~>1.1.0"
                     },
                     "name": "application"
                 },
                 {
                     "dependencies": {
-                        "arsd-official:dom": "~>7.1.1",
+                        "arsd-official:dom": "~>7.2.0",
                         "requests": "~>1.1.0"
                     },
                     "name": "twitch"
                 },
                 {
                     "dependencies": {
-                        "arsd-official:dom": "~>7.1.1",
+                        "arsd-official:dom": "~>7.2.0",
                         "requests": "~>1.1.0"
                     },
                     "name": "dev"
@@ -1495,21 +1482,21 @@
                 },
                 {
                     "dependencies": {
-                        "arsd-official:dom": "~>7.1.1",
+                        "arsd-official:dom": "~>7.2.0",
                         "requests": "~>1.1.0"
                     },
                     "name": "web"
                 },
                 {
                     "dependencies": {
-                        "arsd-official:dom": "~>7.1.1",
+                        "arsd-official:dom": "~>7.2.0",
                         "requests": "~>1.1.0"
                     },
                     "name": "full"
                 },
                 {
                     "dependencies": {
-                        "arsd-official:dom": "~>7.1.1",
+                        "arsd-official:dom": "~>7.2.0",
                         "requests": "~>1.1.0"
                     },
                     "name": "unittest"
@@ -3397,6 +3384,65 @@
             },
             "name": "kameloso",
             "version": "1.8.0"
+        },
+        {
+            "commitID": "76e7d8903e95fd5234233351be4b03f7e371f896",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.2.0",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.2.0",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "twitch"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.2.0",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "dev"
+                },
+                {
+                    "name": "vanilla"
+                },
+                {
+                    "name": "colours"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.2.0",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "web"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.2.0",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:dom": "~>7.2.0",
+                        "requests": "~>1.1.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dialect": "~>0.5.1",
+                "lu": "~>0.3.0"
+            },
+            "name": "kameloso",
+            "version": "1.8.1"
         }
     ]
 }
