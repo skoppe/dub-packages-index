@@ -2,9 +2,9 @@
     "categories": [
         "library.generic"
     ],
-    "commitID": "0ce8d377630fdd0cbe8db853b0639a832662e033",
+    "commitID": "87b399340f68a3f49568c8abb7b31a13ce3a31a2",
     "dateAdded": "2020-04-02T18:27:20",
-    "description": "autoscanning + vibe.d + poodinis + mirror",
+    "description": "autoscanning + DI (with dejector fork) + ...",
     "documentationURL": "",
     "id": "5e861268646289d274896c92",
     "name": "glue-d",
@@ -16,7 +16,142 @@
     },
     "versions": [
         {
-            "commitID": "0ce8d377630fdd0cbe8db853b0639a832662e033",
+            "commitID": "c088db8c092e7f8a33480be5b239402a1128c1dc",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "glue-d:indexer": ">=0.0.0"
+                    },
+                    "name": "indexer"
+                }
+            ],
+            "dependencies": {
+                "glue-dejector": ">=0.2.0",
+                "mirror": "~>0.1.9",
+                "optional": "~>1.0.0",
+                "unit-threaded": "~>0.10.8"
+            },
+            "name": "glue-d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "run"
+                        },
+                        {
+                            "name": "lib"
+                        }
+                    ],
+                    "name": "indexer"
+                }
+            ],
+            "version": "~dev"
+        },
+        {
+            "commitID": "87b399340f68a3f49568c8abb7b31a13ce3a31a2",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "glue-d:indexer": ">=0.0.0"
+                    },
+                    "name": "indexer"
+                }
+            ],
+            "dependencies": {
+                "glue-dejector": ">=0.2.0",
+                "glued:annotations": ">=0.0.0",
+                "glued:logging": ">=0.0.0",
+                "glued:utils": ">=0.0.0",
+                "mirror": "~>0.1.9",
+                "optional": "~>1.0.0",
+                "unit-threaded": "~>0.10.8"
+            },
+            "name": "glue-d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "run"
+                        },
+                        {
+                            "name": "lib"
+                        }
+                    ],
+                    "name": "indexer"
+                },
+                {
+                    "name": "utils"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "optional": "~>1.0.0",
+                        "unit-threaded": "~>0.10.8"
+                    },
+                    "name": "logging"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "glued:utils": ">=0.0.0",
+                        "unit-threaded": "~>0.10.8"
+                    },
+                    "name": "glue-d"
+                }
+            ],
+            "version": "~modularization"
+        },
+        {
+            "commitID": "b671701515254e6f460bbccae563ad9b6624d325",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "glue-d:indexer": ">=0.0.0"
+                    },
+                    "name": "indexer"
+                }
+            ],
+            "dependencies": {
+                "mirror": "~>0.1.9",
+                "poodinis": "~>8.0.3",
+                "poodinis-proper-d-injector": "~>0.1.0",
+                "unit-threaded": "~>0.10.8"
+            },
+            "name": "glue-d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "run"
+                        },
+                        {
+                            "name": "lib"
+                        }
+                    ],
+                    "name": "indexer"
+                }
+            ],
+            "version": "~poodinis-configurations"
+        },
+        {
+            "commitID": "e8aa5421e30902b49791eed2d64fcf6406081af8",
             "configurations": [
                 {
                     "name": "unittest"
@@ -84,6 +219,71 @@
                 }
             ],
             "version": "0.0.1"
+        },
+        {
+            "commitID": "87b399340f68a3f49568c8abb7b31a13ce3a31a2",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "glue-d:indexer": ">=0.0.0"
+                    },
+                    "name": "indexer"
+                }
+            ],
+            "dependencies": {
+                "glue-dejector": ">=0.2.0",
+                "glued:annotations": ">=0.0.0",
+                "glued:logging": ">=0.0.0",
+                "glued:utils": ">=0.0.0",
+                "mirror": "~>0.1.9",
+                "optional": "~>1.0.0",
+                "unit-threaded": "~>0.10.8"
+            },
+            "name": "glue-d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "run"
+                        },
+                        {
+                            "name": "lib"
+                        }
+                    ],
+                    "name": "indexer"
+                },
+                {
+                    "name": "utils"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "optional": "~>1.0.0",
+                        "unit-threaded": "~>0.10.8"
+                    },
+                    "name": "logging"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "glued:utils": ">=0.0.0",
+                        "unit-threaded": "~>0.10.8"
+                    },
+                    "name": "glue-d"
+                }
+            ],
+            "version": "0.0.2"
         }
     ]
 }
