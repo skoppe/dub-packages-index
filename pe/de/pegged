@@ -2,7 +2,7 @@
     "categories": [
         "library.development.parsing"
     ],
-    "commitID": "b1c5adfaec69d32c7d93b424d2077f46e17897b2",
+    "commitID": "146e9e0c31d86bd8fd6450f43713e04589378e93",
     "dateAdded": "2013-03-08T19:00:00",
     "description": "Parsing Expression Grammar (PEG) generator",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "d5b3dd9b54cddbee43cf3f40c614a451d6e1c4d2",
+            "commitID": "146e9e0c31d86bd8fd6450f43713e04589378e93",
             "configurations": [
                 {
                     "name": "default"
@@ -26,6 +26,53 @@
                 }
             ],
             "name": "pegged",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "arithmetic"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "numbers"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "strings"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "csv"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "json"
+                }
+            ],
             "version": "~master"
         },
         {
@@ -135,6 +182,66 @@
             ],
             "name": "pegged",
             "version": "0.4.5-beta.1"
+        },
+        {
+            "commitID": "146e9e0c31d86bd8fd6450f43713e04589378e93",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "tracer"
+                }
+            ],
+            "name": "pegged",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "arithmetic"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "numbers"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "strings"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "csv"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "json"
+                }
+            ],
+            "version": "0.4.5-beta.2"
         }
     ]
 }
