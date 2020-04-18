@@ -2,10 +2,10 @@
     "categories": [
         "library.scripting"
     ],
-    "commitID": "15633822a2c70edc0e93aed85f578e73f205a596",
+    "commitID": "f1c5c2a0f51554af96c7d475e7b3a091351c628b",
     "dateAdded": "2018-04-25T17:42:48",
-    "description": "Grimoire Scripting Language",
-    "documentationURL": "",
+    "description": "A fast, concurrent based scripting language for D",
+    "documentationURL": "https:\/\/enalye.github.io\/grimoire\/",
     "id": "5ae0a1f85ae7169952905c52",
     "name": "grimoire",
     "owner": "5ae081375ae71699529030f3",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "15633822a2c70edc0e93aed85f578e73f205a596",
+            "commitID": "f1c5c2a0f51554af96c7d475e7b3a091351c628b",
             "name": "grimoire",
             "subPackages": [
                 {
@@ -310,6 +310,56 @@
             "version": "0.2.0"
         },
         {
+            "commitID": "00e0710d5a68acbfff5399c82d7ebb036cb209f9",
+            "name": "grimoire",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "grimoire": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "grimoire": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittests"
+                }
+            ],
+            "version": "0.2.1"
+        },
+        {
+            "commitID": "b454f819b8156ecb40517e080c5553ad0c0aefd3",
+            "name": "grimoire",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "grimoire": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "grimoire": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittests"
+                }
+            ],
+            "version": "0.2.2"
+        },
+        {
             "commitID": "26c985b126accfde8313afc6616adabc7d7cacd8",
             "name": "grimoire",
             "subPackages": [
@@ -383,6 +433,31 @@
                 }
             ],
             "version": "0.3.0"
+        },
+        {
+            "commitID": "f1c5c2a0f51554af96c7d475e7b3a091351c628b",
+            "name": "grimoire",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "grimoire": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "grimoire": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittests"
+                }
+            ],
+            "version": "0.3.1"
         }
     ]
 }
