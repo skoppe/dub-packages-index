@@ -5,7 +5,7 @@
         "library.nogc",
         "library.optimized_cpu"
     ],
-    "commitID": "6570b3e415030eaab448b56d2fedc2fc32d4ba35",
+    "commitID": "b36788c79e410323b5a794140a4292b5dd6e4989",
     "dateAdded": "2017-01-05T14:40:05",
     "description": "Dlang Core Library",
     "documentationURL": "http:\/\/mir-algorithm.libmir.org\/",
@@ -230,7 +230,7 @@
             "version": "~test"
         },
         {
-            "commitID": "6570b3e415030eaab448b56d2fedc2fc32d4ba35",
+            "commitID": "b36788c79e410323b5a794140a4292b5dd6e4989",
             "configurations": [
                 {
                     "name": "default"
@@ -247,22 +247,6 @@
             },
             "name": "mir-algorithm",
             "version": "~master"
-        },
-        {
-            "commitID": "110d99f7969ebbb77be5ad45dc4386c73366b445",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "name": "dips"
-                }
-            ],
-            "dependencies": {
-                "mir-core": "~>0.2.2"
-            },
-            "name": "mir-algorithm",
-            "version": "3.4.0-beta11"
         },
         {
             "commitID": "e2ac4761226ae797ca2ccb948a2bea66df8bb236",
@@ -1931,6 +1915,25 @@
             },
             "name": "mir-algorithm",
             "version": "3.7.30"
+        },
+        {
+            "commitID": "b36788c79e410323b5a794140a4292b5dd6e4989",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=0.3.5 <1.2.0"
+            },
+            "name": "mir-algorithm",
+            "version": "3.7.31"
         }
     ]
 }
