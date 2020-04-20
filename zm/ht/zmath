@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "df9b959a0d411955c69505bb8a557c3ac2ae70e5",
+    "commitID": "2d997c0e765b38ae54ea594d706ba5338a294ff4",
     "dateAdded": "2020-04-14T16:49:37",
     "description": "A small quick made lib for 2d\/3d Math, over standard float point type of D lang.",
     "documentationURL": "http:\/\/zardoz89.github.io\/zmath\/docs.html",
@@ -16,14 +16,63 @@
     },
     "versions": [
         {
-            "commitID": "df9b959a0d411955c69505bb8a557c3ac2ae70e5",
+            "commitID": "542432588beb350d9b50ab526fc018cd4d8de6b0",
             "name": "zmath",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-opengl": "~>0.12.0",
+                        "bindbc-sdl": "~>0.16.0",
+                        "zmath": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "3d"
+                }
+            ],
+            "version": "~develop"
+        },
+        {
+            "commitID": "2d997c0e765b38ae54ea594d706ba5338a294ff4",
+            "name": "zmath",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-opengl": "~>0.12.0",
+                        "bindbc-sdl": "~>0.16.0",
+                        "zmath": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "3d"
+                }
+            ],
             "version": "~master"
         },
         {
             "commitID": "df9b959a0d411955c69505bb8a557c3ac2ae70e5",
             "name": "zmath",
             "version": "0.9.0"
+        },
+        {
+            "commitID": "2d997c0e765b38ae54ea594d706ba5338a294ff4",
+            "name": "zmath",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-opengl": "~>0.12.0",
+                        "bindbc-sdl": "~>0.16.0",
+                        "zmath": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "3d"
+                }
+            ],
+            "version": "0.9.1"
         }
     ]
 }
