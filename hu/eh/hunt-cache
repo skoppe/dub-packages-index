@@ -2,7 +2,7 @@
     "categories": [
         "library.data"
     ],
-    "commitID": "de018922d344cafe9ff36c6e3746e75c49354cc8",
+    "commitID": "665721f1b1c3b796be0effe2e89b0d89ec3d5d14",
     "dateAdded": "2018-08-28T10:18:57",
     "description": "A Powerfull Cache library for D. Support memory、redis、memcached backend.",
     "documentationURL": "",
@@ -42,7 +42,7 @@
             "version": "~v0.5.x"
         },
         {
-            "commitID": "de018922d344cafe9ff36c6e3746e75c49354cc8",
+            "commitID": "665721f1b1c3b796be0effe2e89b0d89ec3d5d14",
             "configurations": [
                 {
                     "name": "default"
@@ -392,6 +392,25 @@
             },
             "name": "hunt-cache",
             "version": "0.7.0"
+        },
+        {
+            "commitID": "665721f1b1c3b796be0effe2e89b0d89ec3d5d14",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "libmemcached": "~>1.1.1"
+                    },
+                    "name": "normal"
+                }
+            ],
+            "dependencies": {
+                "hunt-redis": "~>1.1.4"
+            },
+            "name": "hunt-cache",
+            "version": "0.7.1"
         }
     ]
 }
