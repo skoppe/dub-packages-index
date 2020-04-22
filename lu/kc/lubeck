@@ -4,7 +4,7 @@
         "library.optimized_cpu",
         "library.scientific.numeric"
     ],
-    "commitID": "094aaf7bd400690f568cbe836d9f635cba156174",
+    "commitID": "952f7a6208849bd6984d82fbc31c39fc315fcdf8",
     "dateAdded": "2017-05-27T07:42:17",
     "description": "High level linear algebra library for Dlang",
     "documentationURL": "",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "094aaf7bd400690f568cbe836d9f635cba156174",
+            "commitID": "f9ff83ea77ab7122ef327968c6e8fc1a031e26a8",
             "configurations": [
                 {
                     "name": "library"
@@ -1532,6 +1532,103 @@
             },
             "name": "lubeck",
             "version": "1.1.8"
+        },
+        {
+            "commitID": "952f7a6208849bd6984d82fbc31c39fc315fcdf8",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=2.2.5"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=2.2.5"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=2.2.5"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=2.2.5"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=2.2.5"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=2.2.5"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=2.2.5"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-lapack": "~>1.2.1"
+            },
+            "name": "lubeck",
+            "version": "1.2.0"
         }
     ]
 }
