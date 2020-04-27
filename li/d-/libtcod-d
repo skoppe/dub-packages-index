@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.gui"
     ],
-    "commitID": "30815c119d066486858f1a753d6997b48251bc86",
+    "commitID": "d1d2403a5d5c0089204d4ff0022d0f90f8648e05",
     "dateAdded": "2017-11-15T03:12:29",
     "description": "Bindings for using the excellent libtcod",
     "documentationURL": "",
@@ -37,7 +37,7 @@
             "version": "~high_level_api"
         },
         {
-            "commitID": "30815c119d066486858f1a753d6997b48251bc86",
+            "commitID": "d1d2403a5d5c0089204d4ff0022d0f90f8648e05",
             "configurations": [
                 {
                     "name": "default"
@@ -50,6 +50,7 @@
                 }
             ],
             "dependencies": {
+                "derelict-sdl2": ">=3.0.0-beta.8 <3.1.0-0",
                 "derelict-util": ">=3.0.0-beta.2 <3.1.0-0"
             },
             "name": "libtcod-d",
@@ -92,6 +93,26 @@
             },
             "name": "libtcod-d",
             "version": "1.5.1-2"
+        },
+        {
+            "commitID": "d1d2403a5d5c0089204d4ff0022d0f90f8648e05",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "samples_d"
+                },
+                {
+                    "name": "simple"
+                }
+            ],
+            "dependencies": {
+                "derelict-sdl2": ">=3.0.0-beta.8 <3.1.0-0",
+                "derelict-util": ">=3.0.0-beta.2 <3.1.0-0"
+            },
+            "name": "libtcod-d",
+            "version": "1.6.7-1"
         }
     ]
 }
