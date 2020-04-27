@@ -5,7 +5,7 @@
         "library.nogc",
         "library.optimized_cpu"
     ],
-    "commitID": "f30ccd9f7abc63166c9179e04b2817bf656764bd",
+    "commitID": "d29b10bd2b41737147530482d5073fc4130a56f1",
     "dateAdded": "2017-01-05T14:40:05",
     "description": "Dlang Core Library",
     "documentationURL": "http:\/\/mir-algorithm.libmir.org\/",
@@ -290,7 +290,7 @@
             "version": "~test"
         },
         {
-            "commitID": "f30ccd9f7abc63166c9179e04b2817bf656764bd",
+            "commitID": "d29b10bd2b41737147530482d5073fc4130a56f1",
             "configurations": [
                 {
                     "name": "default"
@@ -310,22 +310,6 @@
             },
             "name": "mir-algorithm",
             "version": "~master"
-        },
-        {
-            "commitID": "3ffdf52827040537e85e890dc555850e49e4b6ca",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "name": "dips"
-                }
-            ],
-            "dependencies": {
-                "mir-core": "~>0.2.2"
-            },
-            "name": "mir-algorithm",
-            "version": "3.4.0-beta908"
         },
         {
             "commitID": "3e4634f8ec4ee664cb251f0d3e6df09f30ae321e",
@@ -2030,6 +2014,28 @@
             },
             "name": "mir-algorithm",
             "version": "3.8.7"
+        },
+        {
+            "commitID": "d29b10bd2b41737147530482d5073fc4130a56f1",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=0.3.5 <1.2.0"
+            },
+            "name": "mir-algorithm",
+            "version": "3.8.8"
         }
     ]
 }
