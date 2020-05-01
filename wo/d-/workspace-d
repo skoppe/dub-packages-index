@@ -3,7 +3,7 @@
         "application.desktop.development.plugin",
         "library.development"
     ],
-    "commitID": "c57d4942b49dbd7cd2b52fd150b443054f15419a",
+    "commitID": "462fc682b58607fa7d7c2d1402f141cbe7c4172d",
     "dateAdded": "2017-01-21T03:03:01",
     "description": "Provides functions for IDEs for managing DCD, Dscanner and Dfmt. Usable as application and library",
     "documentationURL": "",
@@ -197,7 +197,7 @@
             "version": "~v3"
         },
         {
-            "commitID": "c57d4942b49dbd7cd2b52fd150b443054f15419a",
+            "commitID": "462fc682b58607fa7d7c2d1402f141cbe7c4172d",
             "configurations": [
                 {
                     "name": "executable"
@@ -215,7 +215,7 @@
             "dependencies": {
                 "dfmt": "0.12.0",
                 "dscanner": "0.9.0",
-                "dub": "1.18.0",
+                "dub": "1.20.0",
                 "emsi_containers": "0.8.0-alpha.19",
                 "inifiled": "1.3.1",
                 "libdparse": "0.14.0",
@@ -1705,6 +1705,47 @@
                 }
             ],
             "version": "3.6.0-pre.4"
+        },
+        {
+            "commitID": "462fc682b58607fa7d7c2d1402f141cbe7c4172d",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.12.0",
+                "dscanner": "0.9.0",
+                "dub": "1.20.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.14.0",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.6.0-pre.5"
         }
     ]
 }
