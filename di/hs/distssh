@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.network"
     ],
-    "commitID": "439d0139b5de7b4d43505adf5bf0b12a3acf89d6",
+    "commitID": "924829c5107c2bafa5482f7f7b1678f9c92dfb87",
     "dateAdded": "2018-04-11T19:10:36",
     "description": "Distributed load balance over SSH",
     "documentationURL": "",
@@ -177,7 +177,7 @@
             "version": "~term-emulator"
         },
         {
-            "commitID": "5cc6ccdc7d1a24978696dd34d07d273fc4b11f29",
+            "commitID": "924829c5107c2bafa5482f7f7b1678f9c92dfb87",
             "configurations": [
                 {
                     "name": "application"
@@ -528,6 +528,101 @@
                 }
             ],
             "version": "2.0.1"
+        },
+        {
+            "commitID": "924829c5107c2bafa5482f7f7b1678f9c92dfb87",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "distssh:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "distssh:colorlog": ">=0.0.0",
+                "distssh:d2sqlite3": ">=0.0.0",
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:miniorm": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0",
+                "distssh:sumtype": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "travis"
+                        }
+                    ],
+                    "name": "d2sqlite3"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:d2sqlite3": ">=0.0.0",
+                        "distssh:sumtype": ">=0.0.0",
+                        "distssh:unit-threaded": ">=0.0.0"
+                    },
+                    "name": "miniorm"
+                },
+                {
+                    "name": "msgpack-ll"
+                },
+                {
+                    "name": "sumtype"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded",
+                    "version": "0.10.3"
+                }
+            ],
+            "version": "3.0.0"
         }
     ]
 }
