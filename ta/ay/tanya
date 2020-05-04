@@ -3,7 +3,7 @@
         "library.network",
         "library.data_structures"
     ],
-    "commitID": "d55eac3bace62774e730921f4544681f00db4fc2",
+    "commitID": "c68b8d1bddd61b06135324cdaed5eb8d7c74ea60",
     "dateAdded": "2016-08-24T18:18:46",
     "description": "@nogc library. Containers, networking, metaprogramming, memory management, utilities",
     "documentationURL": "https:\/\/docs.caraus.io\/tanya",
@@ -83,7 +83,7 @@
             "version": "~deprecate-bigint"
         },
         {
-            "commitID": "048939410cb8ac3974a7d81d3873763712106a8d",
+            "commitID": "c68b8d1bddd61b06135324cdaed5eb8d7c74ea60",
             "configurations": [
                 {
                     "name": "library"
@@ -703,6 +703,72 @@
                 }
             ],
             "version": "0.16.1"
+        },
+        {
+            "commitID": "c68b8d1bddd61b06135324cdaed5eb8d7c74ea60",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "native"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-native"
+                }
+            ],
+            "dependencies": {
+                "mir-linux-kernel": "~>1.0.0",
+                "tanya:encoding": ">=0.0.0",
+                "tanya:meta": ">=0.0.0",
+                "tanya:middle": ">=0.0.0",
+                "tanya:os": ">=0.0.0",
+                "tanya:sys": ">=0.0.0",
+                "tanya:test": ">=0.0.0"
+            },
+            "name": "tanya",
+            "subPackages": [
+                {
+                    "name": "meta"
+                },
+                {
+                    "name": "sys"
+                },
+                {
+                    "dependencies": {
+                        "tanya:meta": ">=0.0.0"
+                    },
+                    "name": "os"
+                },
+                {
+                    "dependencies": {
+                        "tanya:meta": ">=0.0.0"
+                    },
+                    "name": "encoding"
+                },
+                {
+                    "dependencies": {
+                        "mir-linux-kernel": "~>1.0.0",
+                        "tanya:meta": ">=0.0.0",
+                        "tanya:os": ">=0.0.0",
+                        "tanya:sys": ">=0.0.0"
+                    },
+                    "name": "middle"
+                },
+                {
+                    "dependencies": {
+                        "tanya:middle": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.17.0"
         }
     ]
 }
