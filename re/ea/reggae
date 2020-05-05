@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.build"
     ],
-    "commitID": "bcc821f39f945cb5129ba6614752aaa7507f20c5",
+    "commitID": "0b0c374d0cd23216a56eb5d2a19a923abf450cc3",
     "dateAdded": "2015-03-18T19:10:29",
     "description": "A build system in D",
     "documentationURL": "",
@@ -16,7 +16,23 @@
     },
     "versions": [
         {
-            "commitID": "22706ad27aed2ced07fbe50ce52f6230f29b921a",
+            "commitID": "95220a8250469992f274f684971dd06d95e46a04",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "reggae",
+            "version": "~fix-windows"
+        },
+        {
+            "commitID": "0b0c374d0cd23216a56eb5d2a19a923abf450cc3",
             "configurations": [
                 {
                     "name": "executable"
@@ -800,6 +816,22 @@
             ],
             "name": "reggae",
             "version": "0.6.7"
+        },
+        {
+            "commitID": "0b0c374d0cd23216a56eb5d2a19a923abf450cc3",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "reggae",
+            "version": "0.6.8"
         }
     ]
 }
