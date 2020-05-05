@@ -3,7 +3,7 @@
         "library.graphics",
         "library.gamedev"
     ],
-    "commitID": "e67fc1378d4a0dce4100bb7eea328ce869bc3e13",
+    "commitID": "6265b325cdd29d0ed1d239a056dce233f8a6062b",
     "dateAdded": "2017-04-05T18:23:40",
     "description": "3D game engine for D",
     "documentationURL": "",
@@ -51,7 +51,7 @@
             "version": "~dagon-ng"
         },
         {
-            "commitID": "e67fc1378d4a0dce4100bb7eea328ce869bc3e13",
+            "commitID": "6265b325cdd29d0ed1d239a056dce233f8a6062b",
             "configurations": [
                 {
                     "dependencies": {
@@ -114,7 +114,7 @@
             "version": "~dev_0.9"
         },
         {
-            "commitID": "24d99eccc56524748b6b23abc66690b09e7bfee1",
+            "commitID": "fbcfd3b72c80e7873ce9e7c2fb8801d5ac2bc7be",
             "configurations": [
                 {
                     "name": "library"
@@ -551,6 +551,40 @@
             },
             "name": "dagon",
             "version": "0.10.2"
+        },
+        {
+            "commitID": "6265b325cdd29d0ed1d239a056dce233f8a6062b",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0",
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "library"
+                },
+                {
+                    "name": "Minimal"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "NoFreetype"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0"
+                    },
+                    "name": "NoNuklear"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "0.4.0",
+                "bindbc-sdl": "0.4.1",
+                "dlib": "0.17.0"
+            },
+            "name": "dagon",
+            "version": "0.10.3"
         }
     ]
 }
