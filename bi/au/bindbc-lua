@@ -3,7 +3,7 @@
         "library.binding",
         "library.scripting"
     ],
-    "commitID": "9c6bbd293d5e51a4773154da96db22ca261936a8",
+    "commitID": "4ef03784cedd1064cbbca5d65703da4c3483a725",
     "dateAdded": "2019-10-20T15:41:40",
     "description": "Dynamic and static bindings to Lua 5.1 and later, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "9c6bbd293d5e51a4773154da96db22ca261936a8",
+            "commitID": "4ef03784cedd1064cbbca5d65703da4c3483a725",
             "configurations": [
                 {
                     "dependencies": {
@@ -190,6 +190,31 @@
             ],
             "name": "bindbc-lua",
             "version": "0.2.0"
+        },
+        {
+            "commitID": "4ef03784cedd1064cbbca5d65703da4c3483a725",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-lua",
+            "version": "0.2.1"
         }
     ]
 }
