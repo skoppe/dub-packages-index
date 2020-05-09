@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "5fbe7993d965844bf64ad11c126b6ff3367f765b",
+    "commitID": "d244d0687b72dfd9c222771e686571ba7ddd7d49",
     "dateAdded": "2020-02-27T19:36:27",
     "description": "A library that turns .DUI files into graphical user interfaces at compile-time",
     "documentationURL": "",
@@ -14,21 +14,13 @@
     },
     "versions": [
         {
-            "commitID": "f6421c4eaacfa778023e3a5f7a057015387ace83",
+            "commitID": "d244d0687b72dfd9c222771e686571ba7ddd7d49",
             "dependencies": {
                 "declui:declui": ">=0.0.0"
             },
             "name": "declui",
             "subPackages": [
                 {
-                    "configurations": [
-                        {
-                            "dependencies": {
-                                "silly": "~>1.0.1"
-                            },
-                            "name": "unittest"
-                        }
-                    ],
                     "dependencies": {
                         "pegged": "~>0.4.4"
                     },
@@ -43,7 +35,10 @@
                 },
                 {
                     "dependencies": {
-                        "declui:common": ">=0.0.0",
+                        "declui:common": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
                         "gtk-d:gtkd": "~>3.9.0"
                     },
                     "name": "declgtk"
@@ -173,6 +168,39 @@
                 }
             ],
             "version": "0.1.2"
+        },
+        {
+            "commitID": "d244d0687b72dfd9c222771e686571ba7ddd7d49",
+            "dependencies": {
+                "declui:declui": ">=0.0.0"
+            },
+            "name": "declui",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": "~>0.4.4"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "declui:common": ">=0.0.0",
+                        "declui:declgtk": ">=0.0.0"
+                    },
+                    "name": "declui"
+                },
+                {
+                    "dependencies": {
+                        "declui:common": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "gtk-d:gtkd": "~>3.9.0"
+                    },
+                    "name": "declgtk"
+                }
+            ],
+            "version": "0.2.0"
         }
     ]
 }
