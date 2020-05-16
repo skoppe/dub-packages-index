@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "ac9ac89939827b92de75ada40cf839518e2a7c8a",
+    "commitID": "df86e591b970b5ece8413cf34efec1e30ebc7b66",
     "dateAdded": "2020-05-16T02:50:38",
     "description": "Send structs as BSON messages via RabbitMQ",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "4aa0bf940329f27b8d0ef36ac6055d96476befd8",
+            "commitID": "df86e591b970b5ece8413cf34efec1e30ebc7b66",
             "dependencies": {
                 "dutils-data": "~>2.0.1",
                 "dutils-random": "~>1.1.0",
@@ -59,6 +59,17 @@
             },
             "name": "dutils-message",
             "version": "1.1.2"
+        },
+        {
+            "commitID": "df86e591b970b5ece8413cf34efec1e30ebc7b66",
+            "dependencies": {
+                "dutils-data": "~>2.0.1",
+                "dutils-random": "~>1.1.0",
+                "hunt-jwt": ">=0.1.0-beta.1 <0.2.0-0",
+                "rabbitmq": "~>0.2.4"
+            },
+            "name": "dutils-message",
+            "version": "1.1.3"
         }
     ]
 }
