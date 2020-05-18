@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.optimized_mem"
     ],
-    "commitID": "555d1e886759da1eb89e48948af75b3bb6a3279a",
+    "commitID": "751091a2bdc5420596d11af60e76b19fa0a69403",
     "dateAdded": "2016-06-18T07:37:48",
     "description": "Pro-actor based abstraction layer over operating system asynchronous I\/O facilities.",
     "documentationURL": "https:\/\/vibed.org\/api\/",
@@ -56,7 +56,7 @@
             "version": "~issue_29_duplicate_object_name"
         },
         {
-            "commitID": "555d1e886759da1eb89e48948af75b3bb6a3279a",
+            "commitID": "751091a2bdc5420596d11af60e76b19fa0a69403",
             "configurations": [
                 {
                     "name": "epoll"
@@ -2412,6 +2412,46 @@
             },
             "name": "eventcore",
             "version": "0.9.0"
+        },
+        {
+            "commitID": "751091a2bdc5420596d11af60e76b19fa0a69403",
+            "configurations": [
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "epoll-gaia"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "winapi-optlink"
+                },
+                {
+                    "name": "select-optlink"
+                },
+                {
+                    "dependencies": {
+                        "libasync": "~>0.8.2"
+                    },
+                    "name": "libasync"
+                },
+                {
+                    "name": "generic"
+                }
+            ],
+            "dependencies": {
+                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
+            },
+            "name": "eventcore",
+            "version": "0.9.1"
         }
     ]
 }
