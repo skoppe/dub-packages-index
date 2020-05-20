@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.graphics"
     ],
-    "commitID": "18790df0e6ecd0a5a83ba4a9b07672a63e274c06",
+    "commitID": "c78ee6c8537673124ed605342bf3d8b14ccc74b9",
     "dateAdded": "2018-10-18T17:24:32",
     "description": "Dynamic and static bindings to SDL2 and its satellite libraries, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "18790df0e6ecd0a5a83ba4a9b07672a63e274c06",
+            "commitID": "c78ee6c8537673124ed605342bf3d8b14ccc74b9",
             "configurations": [
                 {
                     "dependencies": {
@@ -616,6 +616,31 @@
             ],
             "name": "bindbc-sdl",
             "version": "0.18.0"
+        },
+        {
+            "commitID": "c78ee6c8537673124ed605342bf3d8b14ccc74b9",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-sdl",
+            "version": "0.19.0"
         }
     ]
 }

@@ -2,7 +2,7 @@
     "categories": [
         "library.general"
     ],
-    "commitID": "d5bad65e810901f920fe34412bbf36799385d6df",
+    "commitID": "8eed28463b3313c726fe2d3483c41b25ff909354",
     "dateAdded": "2017-06-19T15:52:22",
     "description": "The library for constructing applications.",
     "documentationURL": "",
@@ -75,34 +75,39 @@
             "version": "~develop"
         },
         {
-            "commitID": "d5bad65e810901f920fe34412bbf36799385d6df",
+            "commitID": "8eed28463b3313c726fe2d3483c41b25ff909354",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
             "dependencies": {
-                "dango:service": ">=0.0.0",
-                "dango:store": ">=0.0.0",
                 "dango:system": ">=0.0.0",
                 "dango:web": ">=0.0.0"
             },
             "name": "dango",
             "subPackages": [
                 {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
                     "dependencies": {
-                        "bolts": ">=0.10.0",
                         "brightproof": "~>2.4.0",
+                        "commandr": "~>0.1.1",
                         "cronexp": ">=0.1.0-beta3 <0.2.0-0",
-                        "poodinis": "8.0.3+commit.2.g3c621a1",
-                        "rx": "~>0.9.0",
                         "termcolor-d": "~>0.0.1",
-                        "uniconf:sdlang": ">=0.0.2-beta.1",
-                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
+                        "uniconf:sdlang": "~>0.2.1",
+                        "vibe-core": "~>1.9.1"
                     },
                     "name": "system"
-                },
-                {
-                    "dependencies": {
-                        "dango:system": ">=0.0.0",
-                        "vibe-d:http": "~>0.8.4"
-                    },
-                    "name": "web"
                 },
                 {
                     "configurations": [
@@ -111,24 +116,16 @@
                         },
                         {
                             "dependencies": {
-                                "zmqd": "~>1.1.0"
+                                "silly": "~>1.0.1"
                             },
-                            "name": "zeromq"
+                            "name": "unittest"
                         }
                     ],
                     "dependencies": {
-                        "dango:web": ">=0.0.0",
-                        "libdparse": "~>0.11.0",
-                        "msgpack-d": ">=1.0.0-beta.7 <1.1.0-0",
-                        "uninode:serialization": "~>0.0.1"
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.8.6"
                     },
-                    "name": "service"
-                },
-                {
-                    "dependencies": {
-                        "vibe-core": ">=1.4.0-alpha.1 <2.0.0-0"
-                    },
-                    "name": "store"
+                    "name": "web"
                 }
             ],
             "version": "~master"
@@ -578,6 +575,155 @@
                 }
             ],
             "version": "0.0.2-beta.5"
+        },
+        {
+            "commitID": "700e40033970ff928cc0916d3c5c7760ffe0f538",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dango:system": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "brightproof": "~>2.4.0",
+                        "commandr": "~>0.1.1",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": "~>0.2.1",
+                        "vibe-core": "~>1.9.0"
+                    },
+                    "name": "system"
+                }
+            ],
+            "version": "0.2.1"
+        },
+        {
+            "commitID": "d68ee318c84425c809713b7eca3a1d96cddb58d8",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dango:system": ">=0.0.0",
+                "dango:web": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "brightproof": "~>2.4.0",
+                        "commandr": "~>0.1.1",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": "~>0.2.1",
+                        "vibe-core": "~>1.9.1"
+                    },
+                    "name": "system"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.8.6"
+                    },
+                    "name": "web"
+                }
+            ],
+            "version": "0.2.2"
+        },
+        {
+            "commitID": "8eed28463b3313c726fe2d3483c41b25ff909354",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dango:system": ">=0.0.0",
+                "dango:web": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "brightproof": "~>2.4.0",
+                        "commandr": "~>0.1.1",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": "~>0.2.1",
+                        "vibe-core": "~>1.9.1"
+                    },
+                    "name": "system"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.8.6"
+                    },
+                    "name": "web"
+                }
+            ],
+            "version": "0.2.3"
         }
     ]
 }
