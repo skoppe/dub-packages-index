@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "58d566f273d4f800c65d098c45cd77da0c006028",
+    "commitID": "3bdb7531b8ac55a9dc84a3c290294419ffce0cf7",
     "dateAdded": "2018-07-18T11:44:54",
     "description": "A network library for hunt.",
     "documentationURL": "",
@@ -34,7 +34,7 @@
             "version": "~v0.3.x"
         },
         {
-            "commitID": "58d566f273d4f800c65d098c45cd77da0c006028",
+            "commitID": "3bdb7531b8ac55a9dc84a3c290294419ffce0cf7",
             "configurations": [
                 {
                     "name": "default"
@@ -47,7 +47,7 @@
                 }
             ],
             "dependencies": {
-                "hunt": "~>1.4.12"
+                "hunt-extra": "~>1.0.0"
             },
             "name": "hunt-net",
             "version": "~master"
@@ -276,6 +276,25 @@
             },
             "name": "hunt-net",
             "version": "0.4.12"
+        },
+        {
+            "commitID": "3bdb7531b8ac55a9dc84a3c290294419ffce0cf7",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "hunt-openssl": "~>1.0.1"
+                    },
+                    "name": "ssl"
+                }
+            ],
+            "dependencies": {
+                "hunt-extra": "~>1.0.0"
+            },
+            "name": "hunt-net",
+            "version": "0.5.0"
         }
     ]
 }
