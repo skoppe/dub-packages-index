@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "ac8d957964530164e920f63266348d7f38d85fa3",
+    "commitID": "3fb2716bed3181f93198b993be29be4ecbad5fe1",
     "dateAdded": "2019-06-25T18:02:34",
     "description": "Metaprogramming library for the D language",
     "documentationURL": "https:\/\/lljochemll.github.io\/quirks\/",
@@ -29,14 +29,15 @@
             "version": "~azure-pipelines"
         },
         {
-            "commitID": "841329a88bbf232d87522f5b9c2b732d60b004a5",
+            "commitID": "265dac7612cf5d47a5374dc28750d26054ba60c7",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts": "~>0.12.0"
+                        "fluent-asserts": "~>0.12.0",
+                        "silly": "~>1.0.2"
                     },
                     "name": "unittest"
                 }
@@ -45,14 +46,15 @@
             "version": "~next"
         },
         {
-            "commitID": "ac8d957964530164e920f63266348d7f38d85fa3",
+            "commitID": "3fb2716bed3181f93198b993be29be4ecbad5fe1",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts": "~>0.12.0"
+                        "fluent-asserts": "~>0.12.0",
+                        "silly": "~>1.0.2"
                     },
                     "name": "unittest"
                 }
@@ -271,6 +273,23 @@
             ],
             "name": "quirks",
             "version": "0.6.2"
+        },
+        {
+            "commitID": "3fb2716bed3181f93198b993be29be4ecbad5fe1",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": "~>0.12.0",
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "quirks",
+            "version": "0.7.0"
         }
     ]
 }
