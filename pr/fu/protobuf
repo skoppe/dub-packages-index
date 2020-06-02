@@ -2,7 +2,7 @@
     "categories": [
         "library.data"
     ],
-    "commitID": "dc28539a9321d723b578d69e122420e9973bbab9",
+    "commitID": "6064461192db614ec557d2609672e7caff341579",
     "dateAdded": "2018-01-04T00:18:25",
     "description": "D runtime library for Google Protocol Buffers",
     "documentationURL": "",
@@ -37,27 +37,6 @@
             "version": "~bazel_build"
         },
         {
-            "commitID": "dc28539a9321d723b578d69e122420e9973bbab9",
-            "configurations": [
-                {
-                    "name": "protobuf"
-                },
-                {
-                    "name": "unittest"
-                }
-            ],
-            "name": "protobuf",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "protobuf": ">=0.0.0"
-                    },
-                    "name": "protoc-gen-d"
-                }
-            ],
-            "version": "~protobuf-v3.12.2"
-        },
-        {
             "commitID": "ee051780a73d6e076987b1c4204250693b12987d",
             "configurations": [
                 {
@@ -79,7 +58,7 @@
             "version": "~text_format"
         },
         {
-            "commitID": "dc28539a9321d723b578d69e122420e9973bbab9",
+            "commitID": "6064461192db614ec557d2609672e7caff341579",
             "configurations": [
                 {
                     "name": "protobuf"
@@ -384,6 +363,27 @@
                 }
             ],
             "version": "0.6.1"
+        },
+        {
+            "commitID": "6064461192db614ec557d2609672e7caff341579",
+            "configurations": [
+                {
+                    "name": "protobuf"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "protobuf",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "protobuf": ">=0.0.0"
+                    },
+                    "name": "protoc-gen-d"
+                }
+            ],
+            "version": "0.6.2"
         }
     ]
 }
