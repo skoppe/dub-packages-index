@@ -3,7 +3,7 @@
         "library.encoding",
         "application.desktop.development"
     ],
-    "commitID": "9cf472f8222991dd81b93c81af83a84c730095e5",
+    "commitID": "e0c14eb0b2d9c7f7e430ed22661f5422044b0185",
     "dateAdded": "2020-02-13T13:55:58",
     "description": "Pretty-print structured strings heuristically based on parentheses",
     "documentationURL": "",
@@ -17,14 +17,14 @@
     },
     "versions": [
         {
-            "commitID": "9cf472f8222991dd81b93c81af83a84c730095e5",
+            "commitID": "e0c14eb0b2d9c7f7e430ed22661f5422044b0185",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": "~>0.10"
+                        "unit-threaded": "~>1"
                     },
                     "name": "unittest"
                 }
@@ -149,6 +149,30 @@
                 }
             ],
             "version": "1.0.4"
+        },
+        {
+            "commitID": "e0c14eb0b2d9c7f7e430ed22661f5422044b0185",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "~>1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "prettyprint",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "prettyprint": ">=0.0.0"
+                    },
+                    "name": "pp"
+                }
+            ],
+            "version": "1.0.5"
         }
     ]
 }
