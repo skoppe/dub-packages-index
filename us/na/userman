@@ -3,7 +3,7 @@
         "library.web.auth",
         "library.vibed"
     ],
-    "commitID": "221193a9cc41c35b9824f061333fe1216e7e51bd",
+    "commitID": "be0d2736e202cdf8470d7a9a652b6e6aedcae350",
     "dateAdded": "2012-12-14T14:35:04",
     "description": "Provides user and group storage, authentication and administration.",
     "documentationURL": "",
@@ -61,7 +61,7 @@
             "version": "~upgrade_ci"
         },
         {
-            "commitID": "3530ef3d850305a5b88393170a4bd0f44a2c905b",
+            "commitID": "be0d2736e202cdf8470d7a9a652b6e6aedcae350",
             "configurations": [
                 {
                     "name": "application"
@@ -71,7 +71,7 @@
                 }
             ],
             "dependencies": {
-                "vibe-d": "~>0.8.2"
+                "vibe-d": ">=0.8.2 <0.10.0-0"
             },
             "name": "userman",
             "subPackages": [
@@ -773,6 +773,33 @@
                 }
             ],
             "version": "0.4.0-rc.1"
+        },
+        {
+            "commitID": "be0d2736e202cdf8470d7a9a652b6e6aedcae350",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "vibe-d": ">=0.8.2 <0.10.0-0"
+            },
+            "name": "userman",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "userman": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "0.4.0"
         }
     ]
 }
