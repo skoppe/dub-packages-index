@@ -4,7 +4,7 @@
         "library.data",
         "library.encoding"
     ],
-    "commitID": "374e096248ea2b0268a851aed4c351f55f099384",
+    "commitID": "f02468df349288ae22e31db630ea33a33953a2dc",
     "dateAdded": "2017-05-09T18:19:08",
     "description": "fontconfig bindings",
     "documentationURL": "",
@@ -18,9 +18,21 @@
     },
     "versions": [
         {
-            "commitID": "374e096248ea2b0268a851aed4c351f55f099384",
+            "commitID": "f02468df349288ae22e31db630ea33a33953a2dc",
             "dependencies": {
+                "bindbc-freetype": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                },
+                "bindbc-ft": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                },
                 "derelict-ft": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                },
+                "freetype-d": {
                     "optional": true,
                     "version": ">=0.0.0"
                 }
@@ -49,6 +61,29 @@
             },
             "name": "fontconfig",
             "version": "1.1.0"
+        },
+        {
+            "commitID": "f02468df349288ae22e31db630ea33a33953a2dc",
+            "dependencies": {
+                "bindbc-freetype": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                },
+                "bindbc-ft": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                },
+                "derelict-ft": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                },
+                "freetype-d": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "fontconfig",
+            "version": "2.0.0+2.13.91"
         }
     ]
 }
