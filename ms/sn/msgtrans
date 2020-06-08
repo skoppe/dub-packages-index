@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "f7b39d9eb1ffa2aa7fc858b1a162a3bae509c96e",
+    "commitID": "1ace2164e236328b6b8205680212751d07ffca8c",
     "dateAdded": "2019-11-21T10:56:35",
     "description": "Message Transport Framework. Based on TCP, WebSocket, UDP transmission protocol.",
     "documentationURL": "",
@@ -14,13 +14,9 @@
     },
     "versions": [
         {
-            "commitID": "6d73915ebae5af518bf6e20707fb2c9b41cf7f03",
+            "commitID": "1b1fdb192d527bc1e0d1858f1451abdde4cd4fdc",
             "dependencies": {
-                "hunt": {
-                    "path": "..\/hunt",
-                    "version": ">=0.0.0"
-                },
-                "hunt-http": ">=0.5.0-rc.1 <0.6.0-0",
+                "hunt-http": "~>0.6.0",
                 "hunt-reflection": "~>0.2.1"
             },
             "name": "msgtrans",
@@ -34,6 +30,15 @@
             },
             "name": "msgtrans",
             "version": "0.0.1"
+        },
+        {
+            "commitID": "1ace2164e236328b6b8205680212751d07ffca8c",
+            "dependencies": {
+                "hunt-http": "~>0.6.0",
+                "hunt-reflection": "~>0.2.1"
+            },
+            "name": "msgtrans",
+            "version": "0.0.2"
         }
     ]
 }
