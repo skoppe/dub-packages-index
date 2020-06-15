@@ -2,12 +2,13 @@
     "categories": [
         "library.vibed",
         "library.data_structures",
-        "library.general"
+        "library.general",
+        "library.optimized_cpu"
     ],
-    "commitID": "4756b4878a15ac6fa75cd5291dc9fa00e567ed17",
+    "commitID": "a0f41a6eea738f00e836e7304bb6c053deed6c0f",
     "dateAdded": "2016-03-27T19:32:01",
     "description": "Thread-pooled coroutines with lock-free staticaly typed communication channels",
-    "documentationURL": "",
+    "documentationURL": "https:\/\/github.com\/nin-jin\/go.d\/",
     "id": "56f819116b6e95a16c4660c7",
     "name": "jin-go",
     "owner": "54c6a135739787646c001293",
@@ -18,27 +19,18 @@
     },
     "versions": [
         {
-            "commitID": "b2a6106b161a9ec6e8b60330924426594dcffa97",
+            "commitID": "f6981c862f8a1979f0b9a96803496982433931fc",
             "dependencies": {
-                "dests": "~>0.3.0"
+                "dests": "0.3.1"
             },
             "name": "jin-go",
-            "version": "~lock-free"
+            "version": "~imgbot"
         },
         {
-            "commitID": "de94263bcb2627ec8a9b1371a215624df3d06cd5",
+            "commitID": "112c4f9ff113da4ac72b23dd07de555206a6be5e",
             "dependencies": {
-                "dests": "~>0.3.0",
-                "vibe-d:core": "~>0.7.28"
-            },
-            "name": "jin-go",
-            "version": "~safe-channels"
-        },
-        {
-            "commitID": "4756b4878a15ac6fa75cd5291dc9fa00e567ed17",
-            "dependencies": {
-                "dests": "~>0.3.0",
-                "vibe-d:core": "~>0.7.28"
+                "dests": "0.3.1",
+                "vibe-core": "1.9.2"
             },
             "name": "jin-go",
             "version": "~master"
@@ -87,6 +79,15 @@
             },
             "name": "jin-go",
             "version": "1.0.5"
+        },
+        {
+            "commitID": "a0f41a6eea738f00e836e7304bb6c053deed6c0f",
+            "dependencies": {
+                "dests": "0.3.1",
+                "vibe-core": "1.9.2"
+            },
+            "name": "jin-go",
+            "version": "2.0.0"
         }
     ]
 }
