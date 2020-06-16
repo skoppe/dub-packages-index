@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "4bfbcaeb50e01221e565fca3804839f9fc7cdcd6",
+    "commitID": "ceb9ed2a790d01c05f2f9fe266cc9c75a947f83d",
     "dateAdded": "2018-04-18T17:18:04",
     "description": "Wrap existing D code for use in other languages",
     "documentationURL": "",
@@ -760,7 +760,7 @@
             "version": "~wrap_xenon"
         },
         {
-            "commitID": "4bfbcaeb50e01221e565fca3804839f9fc7cdcd6",
+            "commitID": "ceb9ed2a790d01c05f2f9fe266cc9c75a947f83d",
             "configurations": [
                 {
                     "dependencies": {
@@ -3301,6 +3301,152 @@
                 }
             ],
             "version": "0.5.2"
+        },
+        {
+            "commitID": "ceb9ed2a790d01c05f2f9fe266cc9c75a947f83d",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "mirror": ">=0.0.0"
+                    },
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:pyd": {
+                            "path": "..\/pyd",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "pyd": "~>0.13.0"
+                    },
+                    "name": "pyd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "excel-d": ">=0.5.5"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common",
+                            "version": ">=0.0.0"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection",
+                            "version": ">=0.0.0"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.5.3"
         }
     ]
 }
