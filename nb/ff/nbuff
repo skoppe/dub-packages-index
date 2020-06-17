@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "6c7c87240f899beb4583187015590f5db5c7d3ef",
+    "commitID": "6ddb1c097bd87a1e0897e10a7d22106f44c42384",
     "dateAdded": "2017-09-13T14:28:29",
     "description": "Network buffer",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "6c7c87240f899beb4583187015590f5db5c7d3ef",
+            "commitID": "6ddb1c097bd87a1e0897e10a7d22106f44c42384",
             "configurations": [
                 {
                     "name": "std"
@@ -318,6 +318,27 @@
             },
             "name": "nbuff",
             "version": "0.1.10"
+        },
+        {
+            "commitID": "6ddb1c097bd87a1e0897e10a7d22106f44c42384",
+            "configurations": [
+                {
+                    "name": "std"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "automem": "~>0.6",
+                "ikod-containers": "~>0",
+                "unit-threaded": "~>0.10"
+            },
+            "name": "nbuff",
+            "version": "0.1.11"
         }
     ]
 }
