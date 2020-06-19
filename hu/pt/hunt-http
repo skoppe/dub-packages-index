@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "a587090082034ffe965277f6bfdaaf330fe3066a",
+    "commitID": "f085a849f504092beb21befc1f41a34cbb76357a",
     "dateAdded": "2018-07-18T11:47:08",
     "description": "Hunt-Http is a flexible performant http server and client. Support HTTP\/1.1, HTTP\/2, WebSocket and static resource.",
     "documentationURL": "",
@@ -68,7 +68,23 @@
             "version": "~v0.4.x"
         },
         {
-            "commitID": "a587090082034ffe965277f6bfdaaf330fe3066a",
+            "commitID": "bfd77724e8795430a6542e77caa0eddc1f65032f",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "tls"
+                }
+            ],
+            "dependencies": {
+                "hunt-net": "~>0.4.10"
+            },
+            "name": "hunt-http",
+            "version": "~v0.5.x"
+        },
+        {
+            "commitID": "f085a849f504092beb21befc1f41a34cbb76357a",
             "configurations": [
                 {
                     "name": "default"
@@ -233,6 +249,22 @@
             },
             "name": "hunt-http",
             "version": "0.6.0"
+        },
+        {
+            "commitID": "f085a849f504092beb21befc1f41a34cbb76357a",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "tls"
+                }
+            ],
+            "dependencies": {
+                "hunt-net": "~>0.5.0"
+            },
+            "name": "hunt-http",
+            "version": "0.6.1"
         }
     ]
 }
