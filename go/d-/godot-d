@@ -3,7 +3,7 @@
         "library.gamedev",
         "library.binding"
     ],
-    "commitID": "b81a3b659ae55477710007566770a30e1da09f91",
+    "commitID": "2b440cbdbb8dabd16d7dfc1624718549f858072b",
     "dateAdded": "2018-03-17T20:27:43",
     "description": "Godot game engine language bindings",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "b81a3b659ae55477710007566770a30e1da09f91",
+            "commitID": "2b440cbdbb8dabd16d7dfc1624718549f858072b",
             "dependencies": {
                 "godot-d:util": ">=0.0.0"
             },
@@ -69,7 +69,7 @@
             "version": "~releases"
         },
         {
-            "commitID": "78c50b47427fc76bc9443c5218f4bdf2ff95fdaa",
+            "commitID": "14b165fa9cb36341d503ee5db4e8b8edc6c723b5",
             "dependencies": {
                 "godot-d:util": ">=0.0.0"
             },
@@ -638,6 +638,58 @@
                 }
             ],
             "version": "0.1.8"
+        },
+        {
+            "commitID": "2b440cbdbb8dabd16d7dfc1624718549f858072b",
+            "dependencies": {
+                "godot-d:util": ">=0.0.0"
+            },
+            "name": "godot-d",
+            "subPackages": [
+                {
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "asdf": "~>0.5.2",
+                        "dxml": "~>0.4.1",
+                        "godot-d:util": ">=0.0.0"
+                    },
+                    "name": "generator"
+                },
+                {
+                    "dependencies": {
+                        "dsymbol": "~>0.9.0",
+                        "emsi_containers": ">=0.8.0-alpha.18 <0.9.0-0",
+                        "godot-d:util": ">=0.0.0",
+                        "libdparse": "~>0.13.1"
+                    },
+                    "name": "class-finder"
+                },
+                {
+                    "dependencies": {
+                        "godot-d:class-finder": ">=0.0.0",
+                        "godot-d:util": ">=0.0.0"
+                    },
+                    "name": "pregenerate"
+                },
+                {
+                    "dependencies": {
+                        "godot-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "godot-d": ">=0.0.0"
+                    },
+                    "name": "asteroids"
+                }
+            ],
+            "version": "0.1.9"
         }
     ]
 }
