@@ -3,7 +3,7 @@
         "library.binding",
         "library.gui"
     ],
-    "commitID": "73551eca72b4010ce69d9877fa595728de1e3a13",
+    "commitID": "96f099badc828a886e0a41d68aabc3fd513d2832",
     "dateAdded": "2020-02-19T08:39:34",
     "description": "Dynamic and static bindings to raylib",
     "documentationURL": "",
@@ -17,17 +17,23 @@
     },
     "versions": [
         {
-            "commitID": "73551eca72b4010ce69d9877fa595728de1e3a13",
+            "commitID": "96f099badc828a886e0a41d68aabc3fd513d2832",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>0.2.1"
+                        "bindbc-loader": "~>0.3.0"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>0.2.1"
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "arm"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
                     },
                     "name": "dynamicBC"
                 }
@@ -110,6 +116,31 @@
             ],
             "name": "bindbc-raylib",
             "version": "0.4.0"
+        },
+        {
+            "commitID": "96f099badc828a886e0a41d68aabc3fd513d2832",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "arm"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamicBC"
+                }
+            ],
+            "name": "bindbc-raylib",
+            "version": "0.5.0"
         }
     ]
 }
