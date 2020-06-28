@@ -4,7 +4,7 @@
         "library.optimized_cpu",
         "library.development"
     ],
-    "commitID": "d38b289d4527647ecc05f22eccae6f1f79ab3e6d",
+    "commitID": "0974b19e389e0c35779fa2d5b4690f775264239d",
     "dateAdded": "2017-10-12T05:52:18",
     "description": "A modular io library in D.",
     "documentationURL": "http:\/\/schveiguy.github.io\/iopipe\/",
@@ -143,7 +143,7 @@
             "version": "~usemnio"
         },
         {
-            "commitID": "d38b289d4527647ecc05f22eccae6f1f79ab3e6d",
+            "commitID": "0974b19e389e0c35779fa2d5b4690f775264239d",
             "dependencies": {
                 "io": {
                     "optional": true,
@@ -687,6 +687,54 @@
                 }
             ],
             "version": "0.2.0"
+        },
+        {
+            "commitID": "0974b19e389e0c35779fa2d5b4690f775264239d",
+            "dependencies": {
+                "io": {
+                    "optional": true,
+                    "version": "~>0.2.4"
+                }
+            },
+            "name": "iopipe",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "io": "~>0.2.4",
+                        "iopipe": ">=0.0.0"
+                    },
+                    "name": "byline"
+                },
+                {
+                    "dependencies": {
+                        "io": "~>0.2.4",
+                        "iopipe": ">=0.0.0"
+                    },
+                    "name": "convert"
+                },
+                {
+                    "dependencies": {
+                        "io": "~>0.2.4",
+                        "iopipe": ">=0.0.0"
+                    },
+                    "name": "unzip"
+                },
+                {
+                    "dependencies": {
+                        "io": "~>0.2.4",
+                        "iopipe": ">=0.0.0"
+                    },
+                    "name": "zip"
+                },
+                {
+                    "dependencies": {
+                        "io": "~>0.2.4",
+                        "iopipe": ">=0.0.0"
+                    },
+                    "name": "search"
+                }
+            ],
+            "version": "0.2.1"
         }
     ]
 }
