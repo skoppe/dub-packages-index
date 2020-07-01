@@ -3,7 +3,7 @@
         "library.generic",
         "library.testing"
     ],
-    "commitID": "ee4246433f86a1cee506aa828a03d435c7a61554",
+    "commitID": "75b99952d115ecb16c05156f9e7d293fdc84ea08",
     "dateAdded": "2020-05-20T07:23:49",
     "description": "A mocking framework for the D programming language",
     "documentationURL": "",
@@ -17,7 +17,41 @@
     },
     "versions": [
         {
-            "commitID": "ee4246433f86a1cee506aa828a03d435c7a61554",
+            "commitID": "7a865991eec424566071303468a3951c465ccd15",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "dshould": "~>1.3.1",
+                        "unit-threaded": "~>1.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "mocked",
+            "version": "~feature\/allow-templated-comparators"
+        },
+        {
+            "commitID": "1e54be82a5bdec8ffc86c18306e5789189c91dc4",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "dshould": "~>1.3.1",
+                        "unit-threaded": "~>1.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "mocked",
+            "version": "~fix\/dont-quote-expectations"
+        },
+        {
+            "commitID": "75b99952d115ecb16c05156f9e7d293fdc84ea08",
             "configurations": [
                 {
                     "name": "library"
@@ -134,6 +168,23 @@
             ],
             "name": "mocked",
             "version": "0.2.2"
+        },
+        {
+            "commitID": "75b99952d115ecb16c05156f9e7d293fdc84ea08",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "dshould": "~>1.3.1",
+                        "unit-threaded": "~>1.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "mocked",
+            "version": "0.3.0"
         }
     ]
 }
