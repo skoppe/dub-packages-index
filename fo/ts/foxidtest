@@ -1,6 +1,9 @@
 {
-    "categories": [],
-    "commitID": "661e8305a28e2691a338a6fcb3e6cb5bf8d90561",
+    "categories": [
+        "application.desktop",
+        "library.graphics"
+    ],
+    "commitID": "052f0585df07ba76dd2c608a4b494faf9052aedd",
     "dateAdded": "2020-07-07T09:06:53",
     "description": "Testing",
     "documentationURL": "",
@@ -14,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "93e749431687cd3c72ff093d1ae77085c987621d",
+            "commitID": "052f0585df07ba76dd2c608a4b494faf9052aedd",
             "configurations": [
                 {
                     "name": "executable"
@@ -27,7 +30,6 @@
                 }
             ],
             "dependencies": {
-                "bindbc-openal": "~>0.4.1",
                 "foxid": "~>0.0.22",
                 "unit-threaded": "~>1.0.2"
             },
@@ -54,6 +56,26 @@
             },
             "name": "foxidtest",
             "version": "0.0.1"
+        },
+        {
+            "commitID": "052f0585df07ba76dd2c608a4b494faf9052aedd",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "foxid": "~>0.0.22",
+                "unit-threaded": "~>1.0.2"
+            },
+            "name": "foxidtest",
+            "version": "0.0.2"
         }
     ]
 }
