@@ -1,8 +1,8 @@
 {
     "categories": [],
-    "commitID": "f384a4927c318b04cf4ec9de16ed4398ab623d66",
+    "commitID": "214610f2a0d20722346084d705dc08ab7f093f82",
     "dateAdded": "2020-06-25T05:49:44",
-    "description": "gRPC for DLang",
+    "description": "gRPC Core Implementation for DLang",
     "documentationURL": "",
     "id": "5ef41ed8723162531b8def04",
     "name": "grpc-d-core",
@@ -14,10 +14,13 @@
     },
     "versions": [
         {
-            "commitID": "55529d2c4f43210ff761dec4bda2ab345aa4a33d",
+            "commitID": "214610f2a0d20722346084d705dc08ab7f093f82",
             "configurations": [
                 {
                     "name": "library"
+                },
+                {
+                    "name": "gc"
                 },
                 {
                     "name": "asan"
@@ -26,7 +29,7 @@
             "dependencies": {
                 "automem": "~>0.6.2",
                 "grpc-d-interop": "~master",
-                "protobuf": "~>0.6.0"
+                "protobuf": "~>0.6.2"
             },
             "name": "grpc-d-core",
             "version": "~master"
@@ -48,6 +51,27 @@
             },
             "name": "grpc-d-core",
             "version": "0.0.1"
+        },
+        {
+            "commitID": "214610f2a0d20722346084d705dc08ab7f093f82",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "gc"
+                },
+                {
+                    "name": "asan"
+                }
+            ],
+            "dependencies": {
+                "automem": "~>0.6.2",
+                "grpc-d-interop": "~master",
+                "protobuf": "~>0.6.2"
+            },
+            "name": "grpc-d-core",
+            "version": "0.0.2"
         }
     ]
 }
