@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "757c9f0daf202d5d424c532539de8b7d166342f2",
+    "commitID": "111af30c16ae4ce0f23a313034fb80b3560ae960",
     "dateAdded": "2020-07-15T15:24:27",
     "description": "A library collection of algorithms and data structures for personal",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "757c9f0daf202d5d424c532539de8b7d166342f2",
+            "commitID": "afc27cce2ca11af146dc5caf6ecea4f880bb443f",
             "configurations": [
                 {
                     "name": "library"
@@ -29,6 +29,9 @@
                     "name": "integration_test"
                 }
             ],
+            "dependencies": {
+                "sumtype": "~>0.9.4"
+            },
             "name": "my",
             "version": "~master"
         },
@@ -50,6 +53,28 @@
             ],
             "name": "my",
             "version": "0.0.1"
+        },
+        {
+            "commitID": "111af30c16ae4ce0f23a313034fb80b3560ae960",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "~>1.0.4"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "integration_test"
+                }
+            ],
+            "dependencies": {
+                "sumtype": "~>0.9.4"
+            },
+            "name": "my",
+            "version": "0.0.2"
         }
     ]
 }
