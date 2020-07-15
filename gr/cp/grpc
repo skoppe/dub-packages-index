@@ -1,8 +1,8 @@
 {
     "categories": [],
-    "commitID": "20f0400a7e11eec860320903c614b8aff5360ffc",
+    "commitID": "f816bce73a9da0bbbd856178eaa6b63544760993",
     "dateAdded": "2019-03-11T10:41:13",
-    "description": "Grpc for D programming language, hunt-http library based.",
+    "description": "gRPC implementation for D programming language",
     "documentationURL": "",
     "id": "5c862d3923360e6d259a909f",
     "name": "grpc",
@@ -14,24 +14,10 @@
     },
     "versions": [
         {
-            "commitID": "5ed226d8b9d5726bef591814341daaf8ce60228e",
-            "configurations": [
-                {
-                    "name": "grpc"
-                },
-                {
-                    "name": "example"
-                },
-                {
-                    "name": "raw_example"
-                },
-                {
-                    "name": "streamexample"
-                }
-            ],
+            "commitID": "f816bce73a9da0bbbd856178eaa6b63544760993",
             "dependencies": {
-                "hunt-http": ">=0.4.0-beta.2 <0.5.0-0",
-                "protobuf": "~>0.5.0"
+                "hunt-http": "~>0.6.2",
+                "protobuf": "~>0.6.2"
             },
             "name": "grpc",
             "version": "~master"
@@ -104,6 +90,15 @@
             },
             "name": "grpc",
             "version": "0.3.0-beta.2"
+        },
+        {
+            "commitID": "f816bce73a9da0bbbd856178eaa6b63544760993",
+            "dependencies": {
+                "hunt-http": "~>0.6.2",
+                "protobuf": "~>0.6.2"
+            },
+            "name": "grpc",
+            "version": "0.3.0-beta.3"
         }
     ]
 }
