@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "ceea154b0047f71e4ffec224096ce87015578a8a",
+    "commitID": "951316bee5734c266f392f0f4495913276710ba2",
     "dateAdded": "2016-01-14T08:20:51",
     "description": "Symbol lookup support for libdparse",
     "documentationURL": "",
@@ -14,10 +14,10 @@
     },
     "versions": [
         {
-            "commitID": "ceea154b0047f71e4ffec224096ce87015578a8a",
+            "commitID": "951316bee5734c266f392f0f4495913276710ba2",
             "dependencies": {
                 "emsi_containers": ">=0.8.0-alpha.15 <0.9.0-0",
-                "libdparse": "~>0.14.0",
+                "libdparse": ">=0.14.0 <0.16.0",
                 "stdx-allocator": "~>2.77.5"
             },
             "name": "dsymbol",
@@ -704,6 +704,16 @@
             },
             "name": "dsymbol",
             "version": "0.10.0"
+        },
+        {
+            "commitID": "951316bee5734c266f392f0f4495913276710ba2",
+            "dependencies": {
+                "emsi_containers": ">=0.8.0-alpha.15 <0.9.0-0",
+                "libdparse": ">=0.14.0 <0.16.0",
+                "stdx-allocator": "~>2.77.5"
+            },
+            "name": "dsymbol",
+            "version": "0.11.0"
         }
     ]
 }
