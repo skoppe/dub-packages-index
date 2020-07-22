@@ -3,7 +3,7 @@
         "application.desktop.development.plugin",
         "library.development"
     ],
-    "commitID": "462fc682b58607fa7d7c2d1402f141cbe7c4172d",
+    "commitID": "af44edc2403e13d577b3d9ab4e32b9ba3b64bbce",
     "dateAdded": "2017-01-21T03:03:01",
     "description": "Provides functions for IDEs for managing DCD, Dscanner and Dfmt. Usable as application and library",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "efa4fe26447ab91e9b86b9920d3c96bcfb45a99f",
+            "commitID": "dae02013796b644ed39b29e9fad5abdb95662dfa",
             "configurations": [
                 {
                     "name": "executable"
@@ -35,7 +35,7 @@
             "dependencies": {
                 "dfmt": "0.12.0",
                 "dscanner": "0.9.0",
-                "dub": "1.18.0",
+                "dub": "1.20.0",
                 "emsi_containers": "0.8.0-alpha.19",
                 "inifiled": "1.3.1",
                 "libdparse": "0.14.0",
@@ -128,7 +128,7 @@
             "version": "~new-libdparse"
         },
         {
-            "commitID": "5e5dbe168ad338af0c99885caf2e77928f31bbe0",
+            "commitID": "00c869e7804a8cd2a22107c839c4fcc03363a26f",
             "configurations": [
                 {
                     "name": "executable"
@@ -145,19 +145,26 @@
             ],
             "dependencies": {
                 "cachetools": "~>0.3.1",
-                "dfmt": "0.11.0",
-                "dscanner": "0.8.0",
-                "dub": "1.18.0",
+                "dfmt": "0.12.0",
+                "dscanner": "0.9.0",
+                "dub": "1.20.0",
                 "emsi_containers": "0.8.0-alpha.19",
                 "inifiled": "1.3.1",
-                "libdparse": "0.13.1",
+                "libdparse": "0.14.0",
                 "painlessjson": "1.4.0",
-                "standardpaths": "0.8.1"
+                "standardpaths": "0.8.1",
+                "workspace-d:dcd": ">=0.0.0"
             },
             "name": "workspace-d",
             "subPackages": [
                 {
                     "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dcd:common": "~master"
+                    },
+                    "name": "dcd"
                 },
                 {
                     "dependencies": {
@@ -197,7 +204,7 @@
             "version": "~v3"
         },
         {
-            "commitID": "462fc682b58607fa7d7c2d1402f141cbe7c4172d",
+            "commitID": "af44edc2403e13d577b3d9ab4e32b9ba3b64bbce",
             "configurations": [
                 {
                     "name": "executable"
@@ -213,19 +220,26 @@
                 }
             ],
             "dependencies": {
-                "dfmt": "0.12.0",
-                "dscanner": "0.9.0",
-                "dub": "1.20.0",
+                "dfmt": "0.13.0",
+                "dscanner": "0.10.0",
+                "dub": "1.22.0",
                 "emsi_containers": "0.8.0-alpha.19",
                 "inifiled": "1.3.1",
-                "libdparse": "0.14.0",
+                "libdparse": "0.15.3",
                 "painlessjson": "1.4.0",
-                "standardpaths": "0.8.1"
+                "standardpaths": "0.8.1",
+                "workspace-d:dcd": ">=0.0.0"
             },
             "name": "workspace-d",
             "subPackages": [
                 {
                     "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dcd:common": "~>0.13.0"
+                    },
+                    "name": "dcd"
                 },
                 {
                     "dependencies": {
@@ -1746,6 +1760,54 @@
                 }
             ],
             "version": "3.6.0-pre.5"
+        },
+        {
+            "commitID": "af44edc2403e13d577b3d9ab4e32b9ba3b64bbce",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dfmt": "0.13.0",
+                "dscanner": "0.10.0",
+                "dub": "1.22.0",
+                "emsi_containers": "0.8.0-alpha.19",
+                "inifiled": "1.3.1",
+                "libdparse": "0.15.3",
+                "painlessjson": "1.4.0",
+                "standardpaths": "0.8.1",
+                "workspace-d:dcd": ">=0.0.0"
+            },
+            "name": "workspace-d",
+            "subPackages": [
+                {
+                    "name": "installer"
+                },
+                {
+                    "dependencies": {
+                        "dcd:common": "~>0.13.0"
+                    },
+                    "name": "dcd"
+                },
+                {
+                    "dependencies": {
+                        "dunit": "~>1.0.14",
+                        "pegged": "~>0.3.3"
+                    },
+                    "name": "dml"
+                }
+            ],
+            "version": "3.6.0-pre.6"
         }
     ]
 }
