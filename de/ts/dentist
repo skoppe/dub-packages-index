@@ -2,7 +2,7 @@
     "categories": [
         "library.scientific.bioinformatics"
     ],
-    "commitID": "005e384905af54188b6eef32eed8c896b2d86ea1",
+    "commitID": "713b0d4f6a3277e3cfe15e830fe7734d0c4c0697",
     "dateAdded": "2019-01-24T13:37:39",
     "description": "Close assembly gaps using long-reads with focus on correctness.",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "d1aaf6d2f4f2742bf1bb2f8ff2782603c6baea4a",
+            "commitID": "713b0d4f6a3277e3cfe15e830fe7734d0c4c0697",
             "configurations": [
                 {
                     "name": "default"
@@ -79,7 +79,7 @@
             "version": "~travis-ci"
         },
         {
-            "commitID": "d1aaf6d2f4f2742bf1bb2f8ff2782603c6baea4a",
+            "commitID": "713b0d4f6a3277e3cfe15e830fe7734d0c4c0697",
             "configurations": [
                 {
                     "name": "default"
@@ -198,6 +198,27 @@
             },
             "name": "dentist",
             "version": "1.0.0-beta.2"
+        },
+        {
+            "commitID": "713b0d4f6a3277e3cfe15e830fe7734d0c4c0697",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "testing"
+                }
+            ],
+            "dependencies": {
+                "darg": {
+                    "path": ".\/darg",
+                    "version": ">=0.0.0"
+                },
+                "string-transform-d": "~>1.0.0",
+                "vibe-d:data": ">=0.8.4-alpha.1 <0.9.0-0"
+            },
+            "name": "dentist",
+            "version": "1.0.0-beta.3"
         }
     ]
 }
