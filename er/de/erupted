@@ -3,7 +3,7 @@
         "library.binding",
         "library.graphics"
     ],
-    "commitID": "73839615a1e1889aaefd302efb1417fe1ff64c36",
+    "commitID": "7b69efe7b5f2d19c40fedd49be298f7c2a86aadb",
     "dateAdded": "2016-05-13T21:09:27",
     "description": "Auto-generated D bindings for Vulkan",
     "documentationURL": "",
@@ -92,7 +92,7 @@
             "version": "~dub_sdl"
         },
         {
-            "commitID": "73839615a1e1889aaefd302efb1417fe1ff64c36",
+            "commitID": "7b69efe7b5f2d19c40fedd49be298f7c2a86aadb",
             "name": "erupted",
             "subPackages": [
                 {
@@ -115,81 +115,6 @@
                 }
             ],
             "version": "~master"
-        },
-        {
-            "commitID": "48e65d79cf928c290ff3a1a9daca7c623513eedb",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4"
-                    },
-                    "name": "with-derelict-loader"
-                },
-                {
-                    "dependencies": {
-                        "xlib-d": "~>0.1.0"
-                    },
-                    "name": "dub-platform-xlib"
-                },
-                {
-                    "dependencies": {
-                        "xcb-d": "~>2.1.0"
-                    },
-                    "name": "dub-platform-xcb"
-                },
-                {
-                    "dependencies": {
-                        "wayland-client-d": "~>1.8.90"
-                    },
-                    "name": "dub-platform-wayland"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4",
-                        "xlib-d": "~>0.1.0"
-                    },
-                    "name": "dub-platform-xlib-derelict-loader"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4",
-                        "xcb-d": "~>2.1.0"
-                    },
-                    "name": "dub-platform-xcb-derelict-loader"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4",
-                        "wayland-client-d": "~>1.8.90"
-                    },
-                    "name": "dub-platform-wayland-derelict-loader"
-                }
-            ],
-            "name": "erupted",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "erupted": {
-                            "path": ".",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "devices"
-                },
-                {
-                    "dependencies": {
-                        "erupted": {
-                            "path": ".",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "layers"
-                }
-            ],
-            "version": "1.3.8"
         },
         {
             "commitID": "204c0481cead97b9258a702ce02c63d179f1f393",
@@ -4465,6 +4390,31 @@
                 }
             ],
             "version": "2.0.66+v1.2.146"
+        },
+        {
+            "commitID": "7b69efe7b5f2d19c40fedd49be298f7c2a86aadb",
+            "name": "erupted",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "erupted": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devices"
+                },
+                {
+                    "dependencies": {
+                        "erupted": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "layers"
+                }
+            ],
+            "version": "2.0.68+v1.2.148"
         }
     ]
 }
