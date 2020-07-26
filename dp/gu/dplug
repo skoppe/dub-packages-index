@@ -5,7 +5,7 @@
         "library.graphics",
         "library.nogc"
     ],
-    "commitID": "7ae4eb47a15c3cafd364ba7be57a305ddda1af19",
+    "commitID": "24e2ef15b1ac658afa8a589c66116fb9747e8f20",
     "dateAdded": "2013-11-15T01:02:39",
     "description": "A library for crafting native audio plugins as simply as possible.",
     "documentationURL": "http:\/\/dplug.dpldocs.info\/",
@@ -347,7 +347,7 @@
             "version": "~v8"
         },
         {
-            "commitID": "f375f6879cc9552220773ed404447e67bab9ff3c",
+            "commitID": "24e2ef15b1ac658afa8a589c66116fb9747e8f20",
             "dependencies": {
                 "dplug:au": ">=0.0.0",
                 "dplug:canvas": ">=0.0.0",
@@ -499,134 +499,6 @@
                 }
             ],
             "version": "~master"
-        },
-        {
-            "commitID": "6df4241eceebcd3354fe43b117c8ce5c6bff0bba",
-            "dependencies": {
-                "dplug:au": ">=0.0.0",
-                "dplug:carbon": ">=0.0.0",
-                "dplug:client": ">=0.0.0",
-                "dplug:cocoa": ">=0.0.0",
-                "dplug:core": ">=0.0.0",
-                "dplug:dsp": ">=0.0.0",
-                "dplug:flat-widgets": ">=0.0.0",
-                "dplug:graphics": ">=0.0.0",
-                "dplug:gui": ">=0.0.0",
-                "dplug:host": ">=0.0.0",
-                "dplug:pbr-widgets": ">=0.0.0",
-                "dplug:vst": ">=0.0.0",
-                "dplug:window": ">=0.0.0",
-                "dplug:x11": ">=0.0.0"
-            },
-            "name": "dplug",
-            "subPackages": [
-                {
-                    "name": "core"
-                },
-                {
-                    "dependencies": {
-                        "dplug:core": ">=0.0.0",
-                        "intel-intrinsics": "~>1",
-                        "pfft": "~>1"
-                    },
-                    "name": "dsp"
-                },
-                {
-                    "dependencies": {
-                        "dplug:core": ">=0.0.0"
-                    },
-                    "name": "client"
-                },
-                {
-                    "dependencies": {
-                        "dplug:core": ">=0.0.0",
-                        "gfm:math": "~>6"
-                    },
-                    "name": "graphics"
-                },
-                {
-                    "dependencies": {
-                        "dplug:core": ">=0.0.0",
-                        "dplug:vst": ">=0.0.0",
-                        "dplug:window": ">=0.0.0"
-                    },
-                    "name": "host"
-                },
-                {
-                    "dependencies": {
-                        "dplug:client": ">=0.0.0"
-                    },
-                    "name": "vst"
-                },
-                {
-                    "dependencies": {
-                        "dplug:carbon": ">=0.0.0",
-                        "dplug:client": ">=0.0.0",
-                        "dplug:cocoa": ">=0.0.0"
-                    },
-                    "name": "au"
-                },
-                {
-                    "dependencies": {
-                        "dplug:carbon": ">=0.0.0",
-                        "dplug:cocoa": ">=0.0.0",
-                        "dplug:core": ">=0.0.0",
-                        "dplug:graphics": ">=0.0.0",
-                        "dplug:x11": ">=0.0.0",
-                        "gfm:math": "~>6"
-                    },
-                    "name": "window"
-                },
-                {
-                    "dependencies": {
-                        "dplug:client": ">=0.0.0",
-                        "dplug:core": ">=0.0.0",
-                        "dplug:graphics": ">=0.0.0",
-                        "dplug:window": ">=0.0.0",
-                        "gfm:math": "~>6"
-                    },
-                    "name": "gui"
-                },
-                {
-                    "dependencies": {
-                        "dplug:client": ">=0.0.0",
-                        "dplug:core": ">=0.0.0",
-                        "dplug:graphics": ">=0.0.0",
-                        "dplug:gui": ">=0.0.0",
-                        "dplug:window": ">=0.0.0"
-                    },
-                    "name": "pbr-widgets"
-                },
-                {
-                    "dependencies": {
-                        "dplug:client": ">=0.0.0",
-                        "dplug:core": ">=0.0.0",
-                        "dplug:graphics": ">=0.0.0",
-                        "dplug:gui": ">=0.0.0",
-                        "dplug:window": ">=0.0.0"
-                    },
-                    "name": "flat-widgets"
-                },
-                {
-                    "dependencies": {
-                        "dplug:core": ">=0.0.0"
-                    },
-                    "name": "cocoa"
-                },
-                {
-                    "dependencies": {
-                        "dplug:core": ">=0.0.0"
-                    },
-                    "name": "carbon"
-                },
-                {
-                    "dependencies": {
-                        "dplug:core": ">=0.0.0"
-                    },
-                    "name": "x11"
-                }
-            ],
-            "version": "8.0.1"
         },
         {
             "commitID": "7abf09b1bfd061bedacb38128949ad8bbce8ef02",
@@ -14917,6 +14789,160 @@
                 }
             ],
             "version": "9.2.8"
+        },
+        {
+            "commitID": "24e2ef15b1ac658afa8a589c66116fb9747e8f20",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:carbon": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:cocoa": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1",
+                        "pfft": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "gfm:math": "~>8",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "gfm:math": "~>8",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:carbon": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:cocoa": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:carbon": ">=0.0.0",
+                        "dplug:cocoa": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0",
+                        "gfm:math": "~>8"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "gfm:math": "~>8",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "cocoa"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "carbon"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "9.2.9"
         }
     ]
 }
