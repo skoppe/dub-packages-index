@@ -5,7 +5,7 @@
         "library.graphics",
         "library.gamedev"
     ],
-    "commitID": "317599ce8738620037358a4d87bb3ac0c580b439",
+    "commitID": "687027fe9cee0869a6812569a6271de1c754eb5d",
     "dateAdded": "2014-04-17T07:02:07",
     "description": "Cross platform GUI for D. Layouts, styles, themes, unicode, i18n, OpenGL, widgets. Android support.",
     "documentationURL": "",
@@ -19,13 +19,13 @@
     },
     "versions": [
         {
-            "commitID": "1822edb88d5f06a6d3398f9c251255673f5f4dac",
+            "commitID": "4508ad427fae44840f5a852ee035d94b37f18888",
             "configurations": [
                 {
                     "dependencies": {
-                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0",
-                        "derelict-gl3": ">=2.0.0-beta.7 <2.1.0-0",
-                        "derelict-sdl2": ">=3.0.0-beta.7 <3.1.0-0"
+                        "derelict-ft": ">=2.0.0-beta.5 <2.1.0-0",
+                        "derelict-gl3": ">=2.0.0-beta.8 <2.1.0-0",
+                        "derelict-sdl2": ">=3.0.0-beta.8 <3.1.0-0"
                     },
                     "name": "default"
                 },
@@ -34,32 +34,32 @@
                 },
                 {
                     "dependencies": {
-                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0",
-                        "derelict-gl3": ">=2.0.0-beta.7 <2.1.0-0"
+                        "derelict-ft": ">=2.0.0-beta.5 <2.1.0-0",
+                        "derelict-gl3": ">=2.0.0-beta.8 <2.1.0-0"
                     },
                     "name": "external"
                 },
                 {
                     "dependencies": {
-                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0",
-                        "derelict-gl3": ">=2.0.0-beta.7 <2.1.0-0",
-                        "derelict-sdl2": ">=3.0.0-beta.7 <3.1.0-0"
+                        "derelict-ft": ">=2.0.0-beta.5 <2.1.0-0",
+                        "derelict-gl3": ">=2.0.0-beta.8 <2.1.0-0",
+                        "derelict-sdl2": ">=3.0.0-beta.8 <3.1.0-0"
                     },
                     "name": "minimal"
                 },
                 {
                     "dependencies": {
-                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0",
-                        "derelict-gl3": ">=2.0.0-beta.7 <2.1.0-0",
-                        "derelict-sdl2": ">=3.0.0-beta.7 <3.1.0-0"
+                        "derelict-ft": ">=2.0.0-beta.5 <2.1.0-0",
+                        "derelict-gl3": ">=2.0.0-beta.8 <2.1.0-0",
+                        "derelict-sdl2": ">=3.0.0-beta.8 <3.1.0-0"
                     },
                     "name": "sdl"
                 },
                 {
                     "dependencies": {
-                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0",
-                        "derelict-gl3": ">=2.0.0-beta.7 <2.1.0-0",
-                        "x11": "~>1.0.17"
+                        "derelict-ft": ">=2.0.0-beta.5 <2.1.0-0",
+                        "derelict-gl3": ">=2.0.0-beta.8 <2.1.0-0",
+                        "x11": "~>1.0.21"
                     },
                     "name": "x11"
                 },
@@ -207,175 +207,6 @@
                 }
             ],
             "version": "~master"
-        },
-        {
-            "commitID": "58f03df242be2f878fa0d538aa561dbe28f99cb1",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "derelict-ft": "~>1.1.2",
-                        "derelict-gl3": "~>1.0.18",
-                        "derelict-sdl2": "~>2.0.0"
-                    },
-                    "name": "default"
-                },
-                {
-                    "name": "console"
-                },
-                {
-                    "name": "external"
-                },
-                {
-                    "dependencies": {
-                        "derelict-ft": "~>1.1.2",
-                        "derelict-gl3": "~>1.0.18",
-                        "derelict-sdl2": "~>2.0.0"
-                    },
-                    "name": "minimal"
-                },
-                {
-                    "dependencies": {
-                        "derelict-ft": "~>1.1.2",
-                        "derelict-gl3": "~>1.0.18",
-                        "derelict-sdl2": "~>2.0.0"
-                    },
-                    "name": "sdl"
-                },
-                {
-                    "dependencies": {
-                        "derelict-ft": "~>1.1.2",
-                        "derelict-gl3": "~>1.0.18",
-                        "x11": "~>1.0.13"
-                    },
-                    "name": "x11"
-                },
-                {
-                    "dependencies": {
-                        "derelict-ft": "~>1.1.2",
-                        "derelict-gl3": "~>1.0.18",
-                        "dsfml": "~>2.1.0"
-                    },
-                    "name": "sfml"
-                }
-            ],
-            "name": "dlangui",
-            "subPackages": [
-                {
-                    "configurations": [
-                        {
-                            "name": "default"
-                        },
-                        {
-                            "name": "console"
-                        }
-                    ],
-                    "dependencies": {
-                        "dlangui": {
-                            "path": "..\/..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "helloworld"
-                },
-                {
-                    "configurations": [
-                        {
-                            "name": "default"
-                        },
-                        {
-                            "name": "console"
-                        },
-                        {
-                            "name": "sdl"
-                        },
-                        {
-                            "name": "x11"
-                        },
-                        {
-                            "name": "minimal"
-                        }
-                    ],
-                    "dependencies": {
-                        "dlangui": {
-                            "path": "..\/..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "example1"
-                },
-                {
-                    "dependencies": {
-                        "dlangui": {
-                            "path": "..\/..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "dmledit"
-                },
-                {
-                    "dependencies": {
-                        "dlangui": {
-                            "path": "..\/..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "d3d"
-                },
-                {
-                    "dependencies": {
-                        "dlangui": {
-                            "path": "..\/..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "dminer"
-                },
-                {
-                    "dependencies": {
-                        "dlangui": {
-                            "path": "..\/..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "tetris"
-                },
-                {
-                    "dependencies": {
-                        "dlangui": {
-                            "path": "..\/..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "opengl"
-                },
-                {
-                    "configurations": [
-                        {
-                            "name": "default"
-                        },
-                        {
-                            "name": "console"
-                        }
-                    ],
-                    "dependencies": {
-                        "dlangui": {
-                            "path": "..\/..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "ircclient"
-                },
-                {
-                    "dependencies": {
-                        "dlangui": {
-                            "path": "..\/..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "spreadsheet"
-                }
-            ],
-            "version": "0.9.83"
         },
         {
             "commitID": "1b6714b22b30c0a1d219d2bbc5cf0547d0f4efc9",
@@ -17398,6 +17229,196 @@
                 }
             ],
             "version": "0.9.182"
+        },
+        {
+            "commitID": "687027fe9cee0869a6812569a6271de1c754eb5d",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.5 <2.1.0-0",
+                        "derelict-gl3": ">=2.0.0-beta.8 <2.1.0-0",
+                        "derelict-sdl2": ">=3.0.0-beta.8 <3.1.0-0"
+                    },
+                    "name": "default"
+                },
+                {
+                    "name": "console"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.5 <2.1.0-0",
+                        "derelict-gl3": ">=2.0.0-beta.8 <2.1.0-0"
+                    },
+                    "name": "external"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.5 <2.1.0-0",
+                        "derelict-gl3": ">=2.0.0-beta.8 <2.1.0-0",
+                        "derelict-sdl2": ">=3.0.0-beta.8 <3.1.0-0"
+                    },
+                    "name": "minimal"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.5 <2.1.0-0",
+                        "derelict-gl3": ">=2.0.0-beta.8 <2.1.0-0",
+                        "derelict-sdl2": ">=3.0.0-beta.8 <3.1.0-0"
+                    },
+                    "name": "sdl"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.5 <2.1.0-0",
+                        "derelict-gl3": ">=2.0.0-beta.8 <2.1.0-0",
+                        "x11": "~>1.0.21"
+                    },
+                    "name": "x11"
+                },
+                {
+                    "dependencies": {
+                        "derelict-ft": ">=2.0.0-beta.4 <2.1.0-0",
+                        "derelict-gl3": ">=2.0.0-beta.7 <2.1.0-0",
+                        "dsfml": "~>2.1.0"
+                    },
+                    "name": "sfml"
+                }
+            ],
+            "name": "dlangui",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "console"
+                        }
+                    ],
+                    "dependencies": {
+                        "dlangui": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "helloworld"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "console"
+                        },
+                        {
+                            "name": "sdl"
+                        },
+                        {
+                            "name": "x11"
+                        },
+                        {
+                            "name": "minimal"
+                        }
+                    ],
+                    "dependencies": {
+                        "dlangui": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example1"
+                },
+                {
+                    "dependencies": {
+                        "dlangui": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "dmledit"
+                },
+                {
+                    "dependencies": {
+                        "dlangui": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "d3d"
+                },
+                {
+                    "dependencies": {
+                        "dlangui": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "dminer"
+                },
+                {
+                    "dependencies": {
+                        "dlangui": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "tetris"
+                },
+                {
+                    "dependencies": {
+                        "dlangui": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "opengl"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "console"
+                        }
+                    ],
+                    "dependencies": {
+                        "dlangui": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "ircclient"
+                },
+                {
+                    "dependencies": {
+                        "dlangui": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "spreadsheet"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "console"
+                        }
+                    ],
+                    "dependencies": {
+                        "dlangui": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "dragon"
+                }
+            ],
+            "version": "0.9.183"
         }
     ]
 }
