@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "f0ee61f8a395fa836be365614dae0ec233762d3a",
+    "commitID": "9321b1d468f8cc5445b9630fb35a868c4ee63d05",
     "dateAdded": "2020-07-25T23:44:38",
     "description": "RE_NGINE_FX game framework\/engine",
     "documentationURL": "",
@@ -14,9 +14,13 @@
     },
     "versions": [
         {
-            "commitID": "7de9805275182066e078000f2f65fc4121431382",
+            "commitID": "813a04b5f8e2993690ae347e36409224cdca2ab5",
             "configurations": [
                 {
+                    "dependencies": {
+                        "dlib": "~>0.17.0",
+                        "dmech": "~master"
+                    },
                     "name": "lib-standard"
                 },
                 {
@@ -24,9 +28,13 @@
                 },
                 {
                     "dependencies": {
+                        "dmech": "~master",
                         "silly": "~>1.0.2"
                     },
                     "name": "unittest"
+                },
+                {
+                    "name": "ddox"
                 }
             ],
             "dependencies": {
@@ -40,7 +48,7 @@
             "version": "~physics"
         },
         {
-            "commitID": "c68650ca1791cc1ddb0b8c89f27337c39cef7e53",
+            "commitID": "9321b1d468f8cc5445b9630fb35a868c4ee63d05",
             "configurations": [
                 {
                     "dependencies": {
@@ -167,6 +175,36 @@
             },
             "name": "reng",
             "version": "0.1.0-pre6"
+        },
+        {
+            "commitID": "9321b1d468f8cc5445b9630fb35a868c4ee63d05",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "nudge-d": ">=0.1.1"
+                    },
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "nudge-d": ">=0.1.1",
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "datefmt": "~>1.0.4",
+                "dray": ">=3.0.0-patch4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.1.0-pre7"
         }
     ]
 }
