@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "9321b1d468f8cc5445b9630fb35a868c4ee63d05",
+    "commitID": "b992a3abf94a43e403109f08f8e7e9edffe0e9fe",
     "dateAdded": "2020-07-25T23:44:38",
     "description": "RE_NGINE_FX game framework\/engine",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "813a04b5f8e2993690ae347e36409224cdca2ab5",
+            "commitID": "b992a3abf94a43e403109f08f8e7e9edffe0e9fe",
             "configurations": [
                 {
                     "dependencies": {
@@ -48,11 +48,12 @@
             "version": "~physics"
         },
         {
-            "commitID": "9321b1d468f8cc5445b9630fb35a868c4ee63d05",
+            "commitID": "983462b212a7d66a0162f13bf0a51730e9908608",
             "configurations": [
                 {
                     "dependencies": {
-                        "nudge-d": ">=0.1.1"
+                        "dlib": "~>0.17.0",
+                        "dmech": "~master"
                     },
                     "name": "lib-standard"
                 },
@@ -61,10 +62,13 @@
                 },
                 {
                     "dependencies": {
-                        "nudge-d": ">=0.1.1",
+                        "dmech": "~master",
                         "silly": "~>1.0.2"
                     },
                     "name": "unittest"
+                },
+                {
+                    "name": "ddox"
                 }
             ],
             "dependencies": {
@@ -205,6 +209,40 @@
             },
             "name": "reng",
             "version": "0.1.0-pre7"
+        },
+        {
+            "commitID": "b992a3abf94a43e403109f08f8e7e9edffe0e9fe",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dlib": "~>0.17.0",
+                        "dmech": "~master"
+                    },
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "dmech": "~master",
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "datefmt": "~>1.0.4",
+                "dray": ">=3.0.0-patch4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.1.0-pre8"
         }
     ]
 }
