@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "62f186ef0b7eca38b29e3e587fe7fab543a9eba8",
+    "commitID": "5159eb9a8073115f304aa7bfa8b4e532cd495071",
     "dateAdded": "2020-07-25T23:44:38",
     "description": "RE_NGINE_FX game framework\/engine",
     "documentationURL": "",
@@ -82,7 +82,7 @@
             "version": "~physics"
         },
         {
-            "commitID": "62f186ef0b7eca38b29e3e587fe7fab543a9eba8",
+            "commitID": "5159eb9a8073115f304aa7bfa8b4e532cd495071",
             "configurations": [
                 {
                     "dependencies": {
@@ -515,6 +515,40 @@
             },
             "name": "reng",
             "version": "0.3.4"
+        },
+        {
+            "commitID": "5159eb9a8073115f304aa7bfa8b4e532cd495071",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dlib": "~>0.19.1",
+                        "dmech": "~>0.4.1"
+                    },
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "dmech": "~>0.4.1",
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "datefmt": "~>1.0.4",
+                "dray": ">=3.0.0-patch4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.3.5"
         }
     ]
 }
