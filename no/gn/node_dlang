@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "ccd2c257fbf0985d6ba59984ed6f2b6767b5e0ba",
+    "commitID": "5c55e4bc052c003f3adfc6207d44316ca8b2e0f0",
     "dateAdded": "2020-07-31T04:44:51",
     "description": "Native node module creator",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "ccd2c257fbf0985d6ba59984ed6f2b6767b5e0ba",
+            "commitID": "5c55e4bc052c003f3adfc6207d44316ca8b2e0f0",
             "configurations": [
                 {
                     "name": "node_dlang_windows"
@@ -236,6 +236,70 @@
                 }
             ],
             "version": "0.0.6"
+        },
+        {
+            "commitID": "509d79ec77f89faa861856dfbeffc52b574490af",
+            "configurations": [
+                {
+                    "name": "node_dlang_windows"
+                },
+                {
+                    "name": "node_dlang_posix"
+                }
+            ],
+            "name": "node_dlang",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "example_windows"
+                        },
+                        {
+                            "name": "example_posix"
+                        }
+                    ],
+                    "dependencies": {
+                        "node_dlang": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "0.0.7"
+        },
+        {
+            "commitID": "5c55e4bc052c003f3adfc6207d44316ca8b2e0f0",
+            "configurations": [
+                {
+                    "name": "node_dlang_windows"
+                },
+                {
+                    "name": "node_dlang_posix"
+                }
+            ],
+            "name": "node_dlang",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "example_windows"
+                        },
+                        {
+                            "name": "example_posix"
+                        }
+                    ],
+                    "dependencies": {
+                        "node_dlang": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "0.0.8"
         }
     ]
 }
