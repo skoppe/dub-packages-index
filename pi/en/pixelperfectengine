@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.gui"
     ],
-    "commitID": "f013aa4070acd018360abf4479deacc60043772a",
+    "commitID": "32ff8eaa7da0005581ba4c563f336afda8323a78",
     "dateAdded": "2017-01-20T00:24:00",
     "description": "A 2D game engine for retro styled games",
     "documentationURL": "",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "f013aa4070acd018360abf4479deacc60043772a",
+            "commitID": "32ff8eaa7da0005581ba4c563f336afda8323a78",
             "dependencies": {
                 "bindbc-sdl": ">=0.0.0",
                 "bmfont": "0.1.0",
@@ -659,6 +659,35 @@
                 }
             ],
             "version": "0.10.0-alpha.4"
+        },
+        {
+            "commitID": "32ff8eaa7da0005581ba4c563f336afda8323a78",
+            "dependencies": {
+                "bindbc-sdl": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.2.0",
+                "cpublit": "0.4.0-alpha",
+                "dimage": "0.3.0-alpha",
+                "intel-intrinsics": ">=0.0.0",
+                "sdlang-d": ">=0.0.0",
+                "undead": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "pixelperfecteditor"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "windowmakerforconcrete"
+                }
+            ],
+            "version": "0.10.0-alpha.5"
         }
     ]
 }
