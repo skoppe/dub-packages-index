@@ -4,7 +4,7 @@
         "library.generic",
         "library.development"
     ],
-    "commitID": "1f4934d602b8fc69bb0ca3e329b71649db98416b",
+    "commitID": "a09d045355925c05eb33bca73c75d314479d5813",
     "dateAdded": "2017-06-11T14:50:34",
     "description": "The extensible test runner for DLang",
     "documentationURL": "http:\/\/trial.szabobogdan.com\/api\/",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "1f4934d602b8fc69bb0ca3e329b71649db98416b",
+            "commitID": "c8128f9c32caac8a49f41d25f4becf0d0220be9a",
             "configurations": [
                 {
                     "name": "executable"
@@ -32,7 +32,7 @@
                 },
                 {
                     "dependencies": {
-                        "dub": "~>1.12.0",
+                        "dub": "~>1.22.0",
                         "fluent-asserts": ">=0.12.0",
                         "libdparse": {
                             "optional": true,
@@ -60,11 +60,11 @@
                 },
                 {
                     "dependencies": {
-                        "dub": "~>1.12.0",
+                        "dub": "~>1.22.0",
                         "fluent-asserts": ">=0.12.0",
                         "libdparse": "~>0.8.7",
-                        "vibe-d:data": "~>0.8.4",
-                        "vibe-d:http": "~>0.8.4"
+                        "vibe-d:data": "~>0.8.6",
+                        "vibe-d:http": "~>0.8.6"
                     },
                     "name": "runner"
                 }
@@ -1501,6 +1501,60 @@
                 }
             ],
             "version": "0.7.2"
+        },
+        {
+            "commitID": "a09d045355925c05eb33bca73c75d314479d5813",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": ">=0.8.0"
+                    },
+                    "name": "trial"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.14.0",
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.8.0"
+                        },
+                        "vibe-d:data": "~>0.8.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "trial",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": {
+                            "optional": true,
+                            "version": ">=0.12.0"
+                        },
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.8.0"
+                        }
+                    },
+                    "name": "lifecycle"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.14.0",
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": "~>0.8.7",
+                        "vibe-d:data": "~>0.8.4",
+                        "vibe-d:http": "~>0.8.4"
+                    },
+                    "name": "runner"
+                }
+            ],
+            "version": "0.7.3"
         }
     ]
 }
