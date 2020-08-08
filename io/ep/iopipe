@@ -4,7 +4,7 @@
         "library.optimized_cpu",
         "library.development"
     ],
-    "commitID": "0974b19e389e0c35779fa2d5b4690f775264239d",
+    "commitID": "0fb9ba4e1df55d70abba8ab6312562589cbd55b1",
     "dateAdded": "2017-10-12T05:52:18",
     "description": "A modular io library in D.",
     "documentationURL": "http:\/\/schveiguy.github.io\/iopipe\/",
@@ -143,46 +143,46 @@
             "version": "~usemnio"
         },
         {
-            "commitID": "0974b19e389e0c35779fa2d5b4690f775264239d",
+            "commitID": "0fb9ba4e1df55d70abba8ab6312562589cbd55b1",
             "dependencies": {
                 "io": {
                     "optional": true,
-                    "version": "~>0.2.4"
+                    "version": ">=0.0.0"
                 }
             },
             "name": "iopipe",
             "subPackages": [
                 {
                     "dependencies": {
-                        "io": "~>0.2.4",
+                        "io": "~>0.3.1",
                         "iopipe": ">=0.0.0"
                     },
                     "name": "byline"
                 },
                 {
                     "dependencies": {
-                        "io": "~>0.2.4",
+                        "io": "~>0.3.1",
                         "iopipe": ">=0.0.0"
                     },
                     "name": "convert"
                 },
                 {
                     "dependencies": {
-                        "io": "~>0.2.4",
+                        "io": "~>0.3.1",
                         "iopipe": ">=0.0.0"
                     },
                     "name": "unzip"
                 },
                 {
                     "dependencies": {
-                        "io": "~>0.2.4",
+                        "io": "~>0.3.1",
                         "iopipe": ">=0.0.0"
                     },
                     "name": "zip"
                 },
                 {
                     "dependencies": {
-                        "io": "~>0.2.4",
+                        "io": "~>0.3.1",
                         "iopipe": ">=0.0.0"
                     },
                     "name": "search"
@@ -735,6 +735,54 @@
                 }
             ],
             "version": "0.2.1"
+        },
+        {
+            "commitID": "0fb9ba4e1df55d70abba8ab6312562589cbd55b1",
+            "dependencies": {
+                "io": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "iopipe",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "io": "~>0.3.1",
+                        "iopipe": ">=0.0.0"
+                    },
+                    "name": "byline"
+                },
+                {
+                    "dependencies": {
+                        "io": "~>0.3.1",
+                        "iopipe": ">=0.0.0"
+                    },
+                    "name": "convert"
+                },
+                {
+                    "dependencies": {
+                        "io": "~>0.3.1",
+                        "iopipe": ">=0.0.0"
+                    },
+                    "name": "unzip"
+                },
+                {
+                    "dependencies": {
+                        "io": "~>0.3.1",
+                        "iopipe": ">=0.0.0"
+                    },
+                    "name": "zip"
+                },
+                {
+                    "dependencies": {
+                        "io": "~>0.3.1",
+                        "iopipe": ">=0.0.0"
+                    },
+                    "name": "search"
+                }
+            ],
+            "version": "0.2.2"
         }
     ]
 }
