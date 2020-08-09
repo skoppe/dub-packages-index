@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "9b22b9593986ab3620bbe0faaeefd6bafb7b4e2a",
+    "commitID": "096b44d279c40f1e59b89b77610e397215345e89",
     "dateAdded": "2019-12-31T20:44:00",
     "description": "Dynamic and static bindings to the Blend2D C API, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "7d11e139a8f94d10219f918c9980d539b6925a87",
+            "commitID": "096b44d279c40f1e59b89b77610e397215345e89",
             "configurations": [
                 {
                     "dependencies": {
@@ -55,10 +55,74 @@
                         }
                     ],
                     "dependencies": {
-                        "bindbc-blend2d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                        "bindbc-blend2d": ">=0.0.0"
+                    },
+                    "name": "bl_capi_sample"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamicBC"
+                        },
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "staticBC"
                         }
+                    ],
+                    "dependencies": {
+                        "bindbc-blend2d": ">=0.0.0"
+                    },
+                    "name": "bl_getting_started_5"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "commitID": "e8fb4ad774c846a4b0a477834b156313f83dd929",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-blend2d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamicBC"
+                        },
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "staticBC"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-blend2d": ">=0.0.0"
                     },
                     "name": "bl-capi-sample"
                 },
@@ -78,15 +142,146 @@
                         }
                     ],
                     "dependencies": {
-                        "bindbc-blend2d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
-                        }
+                        "bindbc-blend2d": ">=0.0.0"
                     },
                     "name": "bl-getting-started-5"
                 }
             ],
-            "version": "~master"
+            "version": "0.0.1-069a2da"
+        },
+        {
+            "commitID": "79b03221e1bae90cb721e14dfaf7a275ee57628e",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-blend2d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamicBC"
+                        },
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "staticBC"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-blend2d": ">=0.0.0"
+                    },
+                    "name": "bl_capi_sample"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamicBC"
+                        },
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "staticBC"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-blend2d": ">=0.0.0"
+                    },
+                    "name": "bl_getting_started_5"
+                }
+            ],
+            "version": "0.0.1-8aeac6c"
+        },
+        {
+            "commitID": "096b44d279c40f1e59b89b77610e397215345e89",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-blend2d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamicBC"
+                        },
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "staticBC"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-blend2d": ">=0.0.0"
+                    },
+                    "name": "bl_capi_sample"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamicBC"
+                        },
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "staticBC"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-blend2d": ">=0.0.0"
+                    },
+                    "name": "bl_getting_started_5"
+                }
+            ],
+            "version": "0.0.1-e403ee1"
         },
         {
             "commitID": "9b22b9593986ab3620bbe0faaeefd6bafb7b4e2a",
@@ -137,6 +332,73 @@
                 }
             ],
             "version": "0.0.1"
+        },
+        {
+            "commitID": "096b44d279c40f1e59b89b77610e397215345e89",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.2.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-blend2d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamicBC"
+                        },
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "staticBC"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-blend2d": ">=0.0.0"
+                    },
+                    "name": "bl_capi_sample"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamicBC"
+                        },
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "staticBC"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-blend2d": ">=0.0.0"
+                    },
+                    "name": "bl_getting_started_5"
+                }
+            ],
+            "version": "0.0.1+3"
         }
     ]
 }
