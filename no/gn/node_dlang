@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "262d9e46714a84e1582a8e2be09a2a3b72df3c6d",
+    "commitID": "a9d55ca7c3d826d6341ca078b205948f83e06993",
     "dateAdded": "2020-07-31T04:44:51",
     "description": "Native node module creator",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "262d9e46714a84e1582a8e2be09a2a3b72df3c6d",
+            "commitID": "a9d55ca7c3d826d6341ca078b205948f83e06993",
             "configurations": [
                 {
                     "name": "node_dlang_windows"
@@ -460,6 +460,38 @@
                 }
             ],
             "version": "0.0.13"
+        },
+        {
+            "commitID": "a9d55ca7c3d826d6341ca078b205948f83e06993",
+            "configurations": [
+                {
+                    "name": "node_dlang_windows"
+                },
+                {
+                    "name": "node_dlang_posix"
+                }
+            ],
+            "name": "node_dlang",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "example_windows"
+                        },
+                        {
+                            "name": "example_posix"
+                        }
+                    ],
+                    "dependencies": {
+                        "node_dlang": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "0.0.14"
         }
     ]
 }
