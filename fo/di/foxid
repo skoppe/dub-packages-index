@@ -3,7 +3,7 @@
         "library.graphics",
         "library.gamedev"
     ],
-    "commitID": "c7dd16374d11b223e1bc2540fc336e610545e77f",
+    "commitID": "3834e581f4785f30dd45efb233d3d4847faa7600",
     "dateAdded": "2020-06-29T13:33:54",
     "description": "2D framework for Game develop",
     "documentationURL": "https:\/\/github.com\/TodNaz\/Foxid\/wiki",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "c7dd16374d11b223e1bc2540fc336e610545e77f",
+            "commitID": "3834e581f4785f30dd45efb233d3d4847faa7600",
             "dependencies": {
                 "bindbc-opengl": "~>0.13.0",
                 "bindbc-sdl": "~>0.19.0",
@@ -237,6 +237,24 @@
                 }
             ],
             "version": "0.1.3"
+        },
+        {
+            "commitID": "3834e581f4785f30dd45efb233d3d4847faa7600",
+            "dependencies": {
+                "bindbc-opengl": "~>0.13.0",
+                "bindbc-sdl": "~>0.19.0",
+                "silly": "~>1.0.2"
+            },
+            "name": "foxid",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "foxid": "~master"
+                    },
+                    "name": "helloworld"
+                }
+            ],
+            "version": "0.1.4"
         }
     ]
 }
