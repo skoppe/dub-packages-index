@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "bc263ef6bd0c52e8297c9cca95e5e41f9229f3de",
+    "commitID": "e2d1f0122b60a2d9bc37d97d9c2e504a088ee3c9",
     "dateAdded": "2018-08-28T10:18:45",
     "description": "Entity is an object-relational mapping (ORM) tool for the D programming language. Referring to the design idea of JPA. support PostgreSQL \/ MySQL.",
     "documentationURL": "",
@@ -76,10 +76,16 @@
             "version": "~v2.4.x"
         },
         {
-            "commitID": "bc263ef6bd0c52e8297c9cca95e5e41f9229f3de",
+            "commitID": "e2d1f0122b60a2d9bc37d97d9c2e504a088ee3c9",
             "dependencies": {
-                "hunt-database": "~>2.1.0",
-                "hunt-validation": "~>0.3.0"
+                "hunt-database": {
+                    "path": "..\/hunt-database",
+                    "version": ">=0.0.0"
+                },
+                "hunt-validation": {
+                    "path": "..\/hunt-validation",
+                    "version": ">=0.0.0"
+                }
             },
             "name": "hunt-entity",
             "version": "~master"
@@ -303,6 +309,21 @@
             },
             "name": "hunt-entity",
             "version": "2.6.1"
+        },
+        {
+            "commitID": "e2d1f0122b60a2d9bc37d97d9c2e504a088ee3c9",
+            "dependencies": {
+                "hunt-database": {
+                    "path": "..\/hunt-database",
+                    "version": ">=0.0.0"
+                },
+                "hunt-validation": {
+                    "path": "..\/hunt-validation",
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "hunt-entity",
+            "version": "2.6.2"
         }
     ]
 }
