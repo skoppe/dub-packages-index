@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "6bfb616caab2c53a775327a93ca963269a8ddbc5",
+    "commitID": "a53530ff8d19f9d22a7cd39df01031a15bea4e8f",
     "dateAdded": "2019-11-23T21:09:14",
     "description": "Hierarchical Timing Wheels",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "6bfb616caab2c53a775327a93ca963269a8ddbc5",
+            "commitID": "a53530ff8d19f9d22a7cd39df01031a15bea4e8f",
             "configurations": [
                 {
                     "dependencies": {
@@ -268,6 +268,27 @@
             },
             "name": "timingwheels",
             "version": "0.0.12"
+        },
+        {
+            "commitID": "a53530ff8d19f9d22a7cd39df01031a15bea4e8f",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "release"
+                }
+            ],
+            "dependencies": {
+                "automem": "~>0.6",
+                "ikod-containers": "~>0",
+                "unit-threaded": "~>0.10"
+            },
+            "name": "timingwheels",
+            "version": "0.0.13"
         }
     ]
 }
