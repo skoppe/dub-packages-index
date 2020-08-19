@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.web"
     ],
-    "commitID": "998c8dadc9534b312ff34c33a3b2d11719ec0826",
+    "commitID": "8ab72277d15a4ec436a71139085b5dfa3c749f01",
     "dateAdded": "2020-06-22T05:32:35",
     "description": "A minimal CDN.",
     "documentationURL": "",
@@ -146,6 +146,49 @@
                 }
             ],
             "version": "0.0.5"
+        },
+        {
+            "commitID": "8ab72277d15a4ec436a71139085b5dfa3c749f01",
+            "dependencies": {
+                "beangle-micdn:asset": ">=0.0.0",
+                "beangle-micdn:blob": ">=0.0.0",
+                "beangle-micdn:core": ">=0.0.0",
+                "beangle-micdn:maven": ">=0.0.0"
+            },
+            "name": "beangle-micdn",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dpq2": "~>1.0.14",
+                        "dxml": "~>0.4.1",
+                        "vibe-d:http": "~>0.9.0",
+                        "vibe-d:textfilter": "~>0.9.0"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "beangle-micdn:core": ">=0.0.0",
+                        "vibe-d:web": "~>0.9.0"
+                    },
+                    "name": "blob"
+                },
+                {
+                    "dependencies": {
+                        "beangle-micdn:core": ">=0.0.0",
+                        "vibe-d:web": "~>0.9.0"
+                    },
+                    "name": "asset"
+                },
+                {
+                    "dependencies": {
+                        "beangle-micdn:core": ">=0.0.0",
+                        "vibe-d:web": "~>0.9.0"
+                    },
+                    "name": "maven"
+                }
+            ],
+            "version": "0.0.6"
         }
     ]
 }
