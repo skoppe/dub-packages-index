@@ -4,7 +4,7 @@
         "library.graphics",
         "library.nogc"
     ],
-    "commitID": "57fa135629516705be13774405a844dbef482ed6",
+    "commitID": "a68ade3a5816050e788abc83c2387f9001c637b0",
     "dateAdded": "2020-08-20T13:50:37",
     "description": "D translation of GLFW, a multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input",
     "documentationURL": "",
@@ -18,7 +18,43 @@
     },
     "versions": [
         {
-            "commitID": "57fa135629516705be13774405a844dbef482ed6",
+            "commitID": "7dacc9e3ba822d47d249eb84e3335dd8bab1e78f",
+            "configurations": [
+                {
+                    "name": "x11"
+                },
+                {
+                    "name": "windows"
+                },
+                {
+                    "dependencies": {
+                        "xkbcommon-d": "0.5.1"
+                    },
+                    "name": "wayland"
+                },
+                {
+                    "name": "osmesa"
+                },
+                {
+                    "name": "cocoa"
+                }
+            ],
+            "name": "glfw-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "glfw-d": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~develop"
+        },
+        {
+            "commitID": "a68ade3a5816050e788abc83c2387f9001c637b0",
             "configurations": [
                 {
                     "name": "x11"
@@ -88,6 +124,42 @@
                 }
             ],
             "version": "1.0.0"
+        },
+        {
+            "commitID": "a68ade3a5816050e788abc83c2387f9001c637b0",
+            "configurations": [
+                {
+                    "name": "x11"
+                },
+                {
+                    "name": "windows"
+                },
+                {
+                    "dependencies": {
+                        "xkbcommon-d": "0.5.1"
+                    },
+                    "name": "wayland"
+                },
+                {
+                    "name": "osmesa"
+                },
+                {
+                    "name": "cocoa"
+                }
+            ],
+            "name": "glfw-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "glfw-d": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.0.1"
         }
     ]
 }
