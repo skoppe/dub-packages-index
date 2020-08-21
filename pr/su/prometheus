@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "e18344da57e72a474f0f332613df31311ef58804",
+    "commitID": "15469d649a09f8fe4d8d8bdf9d2b03018cc38339",
     "dateAdded": "2018-05-20T02:49:35",
     "description": "Prometheus collectors and metrics",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "e18344da57e72a474f0f332613df31311ef58804",
+            "commitID": "15469d649a09f8fe4d8d8bdf9d2b03018cc38339",
             "configurations": [
                 {
                     "name": "library"
@@ -34,7 +34,7 @@
                 {
                     "dependencies": {
                         "prometheus": ">=0.0.0",
-                        "vibe-d": "~>0.8.4"
+                        "vibe-d": ">=0.8.4"
                     },
                     "name": "vibe"
                 }
@@ -170,6 +170,32 @@
                 }
             ],
             "version": "0.2.0"
+        },
+        {
+            "commitID": "15469d649a09f8fe4d8d8bdf9d2b03018cc38339",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": "~>0.12.4",
+                        "vibe-d:tls": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "prometheus",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "prometheus": ">=0.0.0",
+                        "vibe-d": ">=0.8.4"
+                    },
+                    "name": "vibe"
+                }
+            ],
+            "version": "0.2.1"
         }
     ]
 }
