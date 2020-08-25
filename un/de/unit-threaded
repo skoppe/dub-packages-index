@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "74dd09deefc5a4508191445f9aa009398666d28c",
+    "commitID": "302b2797272f591d5246676f70a685e346c62012",
     "dateAdded": "2013-11-13T08:07:19",
     "description": "Advanced multi-threaded unit testing framework with minimal to no boilerplate using built-in unittest blocks",
     "documentationURL": "",
@@ -363,7 +363,7 @@
             "version": "~parametrised_types_bug"
         },
         {
-            "commitID": "44a9d401b9a720c408a9bdea84995eb34f2519d4",
+            "commitID": "302b2797272f591d5246676f70a685e346c62012",
             "configurations": [
                 {
                     "name": "library"
@@ -449,22 +449,6 @@
                 }
             ],
             "version": "~master"
-        },
-        {
-            "commitID": "a1ddd5a9b917473011c5386500a5c329ab43786a",
-            "configurations": [
-                {
-                    "name": "library"
-                },
-                {
-                    "name": "unittest"
-                },
-                {
-                    "name": "gen_ut_main"
-                }
-            ],
-            "name": "unit-threaded",
-            "version": "0.6.12"
         },
         {
             "commitID": "0692693ece328936e72720aed8469a072fbca188",
@@ -4378,6 +4362,94 @@
                 }
             ],
             "version": "1.0.4"
+        },
+        {
+            "commitID": "302b2797272f591d5246676f70a685e346c62012",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0"
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "unit-threaded:exception": ">=0.0.0",
+                        "unit-threaded:from": ">=0.0.0"
+                    },
+                    "name": "property"
+                }
+            ],
+            "version": "1.0.5"
         }
     ]
 }
