@@ -2,7 +2,7 @@
     "categories": [
         "library.binding"
     ],
-    "commitID": "367c0b4b61dba36a5fdbc6cb4354a0ce98cb0e60",
+    "commitID": "8ac78eb873c6bb591bca11eb230f77d9c255617f",
     "dateAdded": "2020-07-31T04:44:51",
     "description": "Native NodeJS® module creator",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "367c0b4b61dba36a5fdbc6cb4354a0ce98cb0e60",
+            "commitID": "2caad9fdfa3a65c30bea255b64f1aaf62b7e964c",
             "configurations": [
                 {
                     "name": "node_dlang_windows"
@@ -805,6 +805,55 @@
                 }
             ],
             "version": "0.2.3"
+        },
+        {
+            "commitID": "8ac78eb873c6bb591bca11eb230f77d9c255617f",
+            "configurations": [
+                {
+                    "name": "node_dlang_windows"
+                },
+                {
+                    "name": "node_dlang_posix"
+                }
+            ],
+            "name": "node_dlang",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "example_windows"
+                        },
+                        {
+                            "name": "example_posix"
+                        }
+                    ],
+                    "dependencies": {
+                        "node_dlang": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "example"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "example_windows"
+                        },
+                        {
+                            "name": "example_posix"
+                        }
+                    ],
+                    "dependencies": {
+                        "node_dlang": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "type_examples"
+                }
+            ],
+            "version": "0.3.0"
         }
     ]
 }
