@@ -3,7 +3,7 @@
         "library.data",
         "library.graphics"
     ],
-    "commitID": "daae48bb43e63b8df1458d6381c76ea3b0b5f56f",
+    "commitID": "e1c3724d65ef4ce13df57f27960efe0ed30fa417",
     "dateAdded": "2018-12-17T03:18:51",
     "description": "Image file handling for D",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "daae48bb43e63b8df1458d6381c76ea3b0b5f56f",
+            "commitID": "e1c3724d65ef4ce13df57f27960efe0ed30fa417",
             "configurations": [
                 {
                     "dependencies": {
@@ -215,6 +215,28 @@
             },
             "name": "dimage",
             "version": "0.3.0-alpha"
+        },
+        {
+            "commitID": "e1c3724d65ef4ce13df57f27960efe0ed30fa417",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "vfile": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "lzwford": ">=0.0.0"
+                    },
+                    "name": "lzwsupport"
+                }
+            ],
+            "dependencies": {
+                "bitleveld": "0.1.0-alpha"
+            },
+            "name": "dimage",
+            "version": "0.3.0-alpha.1"
         }
     ]
 }
