@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.documentation"
     ],
-    "commitID": "4ced25fa73bbcdbe801191147b32fdc94e947dd5",
+    "commitID": "9cf851e4476bdadccd96f3589e16ab9f9881c76d",
     "dateAdded": "2015-03-30T01:29:22",
     "description": "D implementation of the DDoc macro system",
     "documentationURL": "",
@@ -96,7 +96,7 @@
             "version": "~missing_parameters_fix"
         },
         {
-            "commitID": "4ced25fa73bbcdbe801191147b32fdc94e947dd5",
+            "commitID": "5aab95d04e1d0e7f6066a348dc272ec1be5d0b28",
             "configurations": [
                 {
                     "name": "lib"
@@ -106,7 +106,23 @@
                 }
             ],
             "dependencies": {
-                "libdparse": ">=0.13.0 <0.16.0"
+                "libdparse": ">=0.13.0 <0.18.0"
+            },
+            "name": "libddoc",
+            "version": "~update-libdparse-version"
+        },
+        {
+            "commitID": "9cf851e4476bdadccd96f3589e16ab9f9881c76d",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "exe"
+                }
+            ],
+            "dependencies": {
+                "libdparse": ">=0.13.0 <0.18.0"
             },
             "name": "libddoc",
             "version": "~master"
@@ -302,6 +318,22 @@
             },
             "name": "libddoc",
             "version": "0.7.3"
+        },
+        {
+            "commitID": "9cf851e4476bdadccd96f3589e16ab9f9881c76d",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "exe"
+                }
+            ],
+            "dependencies": {
+                "libdparse": ">=0.13.0 <0.18.0"
+            },
+            "name": "libddoc",
+            "version": "0.7.4"
         }
     ]
 }
