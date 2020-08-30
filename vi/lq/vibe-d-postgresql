@@ -3,7 +3,7 @@
         "library.vibed",
         "library.database"
     ],
-    "commitID": "f8e553476b2255146a5a72e37a87583c7e894c77",
+    "commitID": "69edbcffad494955336d3299b30b774149b4a4d6",
     "dateAdded": "2016-02-15T17:42:15",
     "description": "PostgreSQL support for Vibe.d",
     "documentationURL": "",
@@ -49,7 +49,7 @@
             "version": "~fix_resetStart"
         },
         {
-            "commitID": "7a0baa5c0d1281523ce020c73870853476256a65",
+            "commitID": "265c11a2d12d30ec02983d0564b038bc0ecc4225",
             "configurations": [
                 {
                     "name": "release_app"
@@ -79,6 +79,38 @@
                 }
             ],
             "version": "~gh-pages"
+        },
+        {
+            "commitID": "225bbf81587116291995fc251bfe308d72ecd99b",
+            "configurations": [
+                {
+                    "name": "release_app"
+                },
+                {
+                    "name": "integration_test"
+                },
+                {
+                    "dependencies": {
+                        "vibe-core": ">=1.4.0 <2.0.0"
+                    },
+                    "name": "integration_test_vibe_core"
+                }
+            ],
+            "dependencies": {
+                "dpq2": "~>1.0.7",
+                "vibe-d:core": ">=0.8.3 <0.10.0"
+            },
+            "name": "vibe-d-postgresql",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d": ">=0.0.0",
+                        "vibe-d-postgresql": ">=0.0.0"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~new_vibe-core_version"
         },
         {
             "commitID": "a4c5598f301bd08acbfb513024fa9b8834244b73",
@@ -273,7 +305,7 @@
             "version": "~useConn"
         },
         {
-            "commitID": "f8e553476b2255146a5a72e37a87583c7e894c77",
+            "commitID": "69edbcffad494955336d3299b30b774149b4a4d6",
             "configurations": [
                 {
                     "name": "release_app"
@@ -290,7 +322,7 @@
             ],
             "dependencies": {
                 "dpq2": "~>1.0.7",
-                "vibe-d:core": "~>0.8.3"
+                "vibe-d:core": ">=0.8.3 <0.10.0"
             },
             "name": "vibe-d-postgresql",
             "subPackages": [
@@ -1545,6 +1577,38 @@
                 }
             ],
             "version": "3.0.0"
+        },
+        {
+            "commitID": "69edbcffad494955336d3299b30b774149b4a4d6",
+            "configurations": [
+                {
+                    "name": "release_app"
+                },
+                {
+                    "name": "integration_test"
+                },
+                {
+                    "dependencies": {
+                        "vibe-core": ">=1.4.0 <2.0.0"
+                    },
+                    "name": "integration_test_vibe_core"
+                }
+            ],
+            "dependencies": {
+                "dpq2": "~>1.0.7",
+                "vibe-d:core": ">=0.8.3 <0.10.0"
+            },
+            "name": "vibe-d-postgresql",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-d": ">=0.0.0",
+                        "vibe-d-postgresql": ">=0.0.0"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "3.0.1"
         }
     ]
 }
