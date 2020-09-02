@@ -2,7 +2,7 @@
     "categories": [
         "library.binding"
     ],
-    "commitID": "61a8aa1754b26cd2925c2a30b45505d46431c30f",
+    "commitID": "5c87e43fa90bf3b8cf670130f0a0a92c7948b6f3",
     "dateAdded": "2020-07-31T04:44:51",
     "description": "Native NodeJS® module creator",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "378050713e0fda5a4394b4bb884281732cd9057b",
+            "commitID": "351dc813cd75aa7f014a7eca068530818ed0a6f1",
             "configurations": [
                 {
                     "name": "node_dlang_windows"
@@ -27,23 +27,6 @@
             ],
             "name": "node_dlang",
             "subPackages": [
-                {
-                    "configurations": [
-                        {
-                            "name": "example_windows"
-                        },
-                        {
-                            "name": "example_posix"
-                        }
-                    ],
-                    "dependencies": {
-                        "node_dlang": {
-                            "path": "..\/..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "example"
-                },
                 {
                     "configurations": [
                         {
@@ -1001,6 +984,38 @@
                 }
             ],
             "version": "0.4.0"
+        },
+        {
+            "commitID": "5c87e43fa90bf3b8cf670130f0a0a92c7948b6f3",
+            "configurations": [
+                {
+                    "name": "node_dlang_windows"
+                },
+                {
+                    "name": "node_dlang_posix"
+                }
+            ],
+            "name": "node_dlang",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "example_windows"
+                        },
+                        {
+                            "name": "example_posix"
+                        }
+                    ],
+                    "dependencies": {
+                        "node_dlang": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "type_examples"
+                }
+            ],
+            "version": "0.4.1"
         }
     ]
 }
