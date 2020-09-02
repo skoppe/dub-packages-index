@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "a3434122879c39e99d6eefa43da9907dc65a0806",
+    "commitID": "119be899e7be37951faf4fd93e8d5e61de786c21",
     "dateAdded": "2017-03-14T03:21:53",
     "description": "Automatic memory management",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "87bdeba80fa8f5368bc0d67e16ea3d7df0730cba",
+            "commitID": "f0873c0e7e16a7ad265665b2e9f0c4bd53464aa7",
             "configurations": [
                 {
                     "name": "library"
@@ -44,10 +44,10 @@
                 }
             ],
             "name": "automem",
-            "version": "~update"
+            "version": "~test-utils"
         },
         {
-            "commitID": "a3434122879c39e99d6eefa43da9907dc65a0806",
+            "commitID": "119be899e7be37951faf4fd93e8d5e61de786c21",
             "configurations": [
                 {
                     "name": "library"
@@ -924,6 +924,37 @@
             ],
             "name": "automem",
             "version": "0.6.2"
+        },
+        {
+            "commitID": "119be899e7be37951faf4fd93e8d5e61de786c21",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "asan"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "utl"
+                }
+            ],
+            "name": "automem",
+            "version": "0.6.3"
         }
     ]
 }
