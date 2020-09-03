@@ -5,7 +5,7 @@
         "library.crypto",
         "library.web"
     ],
-    "commitID": "74efd9e115c6fa08707a2e2059650060b2d85b7e",
+    "commitID": "69425b7089f56ab5c6e0229d0bdc0d3ae40d5426",
     "dateAdded": "2015-07-03T17:54:46",
     "description": "D implementation of JSON Web Token.",
     "documentationURL": "",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "74efd9e115c6fa08707a2e2059650060b2d85b7e",
+            "commitID": "69425b7089f56ab5c6e0229d0bdc0d3ae40d5426",
             "configurations": [
                 {
                     "dependencies": {
@@ -599,6 +599,49 @@
             ],
             "name": "jwtd",
             "version": "0.4.5"
+        },
+        {
+            "commitID": "69425b7089f56ab5c6e0229d0bdc0d3ae40d5426",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "openssl"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "openssl-1.1"
+                },
+                {
+                    "dependencies": {
+                        "botan": "~>1.12.0"
+                    },
+                    "name": "botan"
+                },
+                {
+                    "name": "phobos"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "unittest-openssl"
+                },
+                {
+                    "dependencies": {
+                        "botan": "~>1.12.0"
+                    },
+                    "name": "unittest-botan"
+                },
+                {
+                    "name": "unittest-phobos"
+                }
+            ],
+            "name": "jwtd",
+            "version": "0.4.6"
         }
     ]
 }
