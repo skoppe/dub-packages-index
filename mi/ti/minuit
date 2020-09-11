@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "959d7fbe36814da9fff1b1a7acaa39c8e63cae47",
+    "commitID": "48294e02dec677b61cb27fb4f75dd8e1be1bb1cf",
     "dateAdded": "2018-05-28T19:08:27",
     "description": "Midi library",
     "documentationURL": "",
@@ -138,6 +138,30 @@
                 }
             ],
             "version": "0.1.3"
+        },
+        {
+            "commitID": "48294e02dec677b61cb27fb4f75dd8e1be1bb1cf",
+            "configurations": [
+                {
+                    "name": "linux-build"
+                },
+                {
+                    "name": "windows-build"
+                }
+            ],
+            "name": "minuit",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "minuit": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.1.4"
         }
     ]
 }
