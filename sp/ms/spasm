@@ -4,7 +4,7 @@
         "library.web.framework",
         "library.binding"
     ],
-    "commitID": "5caa5545ad351717ae4581036ede07a41c92441f",
+    "commitID": "704faefe35aed579c9d41d94e8f6774e17c5e128",
     "dateAdded": "2018-10-12T21:05:57",
     "description": "A framework for writing single page applications",
     "documentationURL": "",
@@ -166,7 +166,7 @@
             "version": "~optional-upgrade"
         },
         {
-            "commitID": "5caa5545ad351717ae4581036ede07a41c92441f",
+            "commitID": "704faefe35aed579c9d41d94e8f6774e17c5e128",
             "configurations": [
                 {
                     "name": "library"
@@ -1306,6 +1306,60 @@
                 }
             ],
             "version": "0.2.0-beta.7"
+        },
+        {
+            "commitID": "704faefe35aed579c9d41d94e8f6774e17c5e128",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "dmd"
+                }
+            ],
+            "dependencies": {
+                "optional": "~>0.16.0",
+                "stdx-allocator": ">=3.1.0-beta.2 <3.2.0-0"
+            },
+            "name": "spasm",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "sdlang-d": "~>0.10.4"
+                    },
+                    "name": "bootstrap-webpack"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "executable"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "openmethods": "~>1.1.1",
+                        "pegged": "~>0.4.4",
+                        "sdlang-d": "~>0.10.4",
+                        "wasm-reader": "~>0.0.4",
+                        "webidl-grammar": "0.0.8"
+                    },
+                    "name": "webidl"
+                }
+            ],
+            "version": "0.2.0-beta.8"
         }
     ]
 }
