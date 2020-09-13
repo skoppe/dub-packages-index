@@ -4,7 +4,7 @@
         "library",
         "library.nogc"
     ],
-    "commitID": "157bfcc3eba6ec37e237b0fc7f61aef0925b310e",
+    "commitID": "ac26a4cf65fbef1f9b45ce5905c3878e2f4b5c8d",
     "dateAdded": "2019-02-15T19:39:36",
     "description": "Dynamic and static D bindings for Lua scripting language library",
     "documentationURL": "",
@@ -40,7 +40,7 @@
             "version": "~documentation"
         },
         {
-            "commitID": "b9569d34a8f1ba67cf6bc3cf8e7ac2297a5a0e46",
+            "commitID": "ac26a4cf65fbef1f9b45ce5905c3878e2f4b5c8d",
             "configurations": [
                 {
                     "name": "static"
@@ -148,6 +148,28 @@
             ],
             "name": "riverd-lua",
             "version": "1.0.3"
+        },
+        {
+            "commitID": "ac26a4cf65fbef1f9b45ce5905c3878e2f4b5c8d",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "dependencies": {
+                        "riverd-loader": "~>1.0.2"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "riverd-loader": "~>1.0.2"
+                    },
+                    "name": "dynamic-betterc"
+                }
+            ],
+            "name": "riverd-lua",
+            "version": "1.1.0"
         }
     ]
 }
