@@ -2,7 +2,7 @@
     "categories": [
         "library.binding"
     ],
-    "commitID": "07b1794f5176d8faf09121dbdf4da1056ac4a0a0",
+    "commitID": "03ac79935ab380071991ef89fda7fcd39d5225f8",
     "dateAdded": "2020-07-31T04:44:51",
     "description": "Native NodeJS® module creator",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "7ec0b20d59c39ff903525bfc11b1514298b79181",
+            "commitID": "c35bbec59e0ed4fc92ea64d5db5e244c621dade5",
             "configurations": [
                 {
                     "name": "node_dlang_windows"
@@ -1080,6 +1080,38 @@
                 }
             ],
             "version": "0.4.3"
+        },
+        {
+            "commitID": "03ac79935ab380071991ef89fda7fcd39d5225f8",
+            "configurations": [
+                {
+                    "name": "node_dlang_windows"
+                },
+                {
+                    "name": "node_dlang_posix"
+                }
+            ],
+            "name": "node_dlang",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "example_windows"
+                        },
+                        {
+                            "name": "example_posix"
+                        }
+                    ],
+                    "dependencies": {
+                        "node_dlang": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "type_examples"
+                }
+            ],
+            "version": "0.4.4"
         }
     ]
 }
