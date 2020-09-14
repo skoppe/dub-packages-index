@@ -2,9 +2,9 @@
     "categories": [
         "library.data"
     ],
-    "commitID": "021cd3985d883c4ab85db0c3dd358872d3b2b57e",
+    "commitID": "f5546146649abf52fd5bb4338112db32166a705b",
     "dateAdded": "2020-09-12T13:15:46",
-    "description": "HJSON parser compatible with std.json.",
+    "description": "Hjson parser compatible with std.json and ASDF.",
     "documentationURL": "",
     "id": "5f5cade2d9c4264c0e1bbcc4",
     "name": "hjson-d",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "021cd3985d883c4ab85db0c3dd358872d3b2b57e",
+            "commitID": "f5546146649abf52fd5bb4338112db32166a705b",
             "configurations": [
                 {
                     "name": "library"
@@ -29,6 +29,26 @@
                 }
             ],
             "name": "hjson-d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": "~>1.0.0"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "asdf": "~>0.7.0",
+                        "hjson-d": ">=0.0.0"
+                    },
+                    "name": "asdf"
+                }
+            ],
             "version": "~master"
         },
         {
@@ -46,6 +66,42 @@
             ],
             "name": "hjson-d",
             "version": "0.1.0"
+        },
+        {
+            "commitID": "f5546146649abf52fd5bb4338112db32166a705b",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "~>1.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "hjson-d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": "~>1.0.0"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "asdf": "~>0.7.0",
+                        "hjson-d": ">=0.0.0"
+                    },
+                    "name": "asdf"
+                }
+            ],
+            "version": "0.2.0"
         }
     ]
 }
