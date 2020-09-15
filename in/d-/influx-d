@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "c1bef4f44680b8c940b4cd2ecda982b60610d20c",
+    "commitID": "85f3f5bbd10115f975b797f7c506e5d31e772e0f",
     "dateAdded": "2017-04-21T12:47:21",
     "description": "InfluxDB wrapper",
     "documentationURL": "",
@@ -40,7 +40,7 @@
             "version": "~v0.0"
         },
         {
-            "commitID": "c1bef4f44680b8c940b4cd2ecda982b60610d20c",
+            "commitID": "85f3f5bbd10115f975b797f7c506e5d31e772e0f",
             "configurations": [
                 {
                     "name": "library"
@@ -1051,6 +1051,35 @@
             },
             "name": "influx-d",
             "version": "0.4.1-beta.1"
+        },
+        {
+            "commitID": "85f3f5bbd10115f975b797f7c506e5d31e772e0f",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "library-ssl-1.1"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-ssl-1.1"
+                }
+            ],
+            "dependencies": {
+                "asdf": ">=0.1.1 <0.7.0",
+                "vibe-d:http": "~>0.8.0"
+            },
+            "name": "influx-d",
+            "version": "0.4.1"
         }
     ]
 }
