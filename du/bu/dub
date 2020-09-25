@@ -4,7 +4,7 @@
         "application.desktop.development.packaging",
         "library.development"
     ],
-    "commitID": "01abab7993cc1dbf52a9a5923b72f38d0f86b70c",
+    "commitID": "4395f8f8fc9a8b3d47fec5e09b002ac75e3b2083",
     "dateAdded": "2013-01-14T20:03:10",
     "description": "Package manager for D packages",
     "documentationURL": "",
@@ -266,7 +266,7 @@
             "version": "~no_library_selections"
         },
         {
-            "commitID": "bbe6316fb456735463e781da8628d2b05ee89d7e",
+            "commitID": "57880ae46de5c4366dde5a578018a952dca9ce44",
             "configurations": [
                 {
                     "name": "application"
@@ -388,37 +388,6 @@
             ],
             "name": "dub",
             "version": "~master"
-        },
-        {
-            "commitID": "2aa0cd81284ac4115ab811795a721d1cb6ffc13a",
-            "configurations": [
-                {
-                    "name": "application"
-                },
-                {
-                    "name": "library"
-                },
-                {
-                    "dependencies": {
-                        "vibe-d:inet": {
-                            "optional": true,
-                            "version": "~>0.7.30"
-                        }
-                    },
-                    "name": "library-nonet"
-                },
-                {
-                    "dependencies": {
-                        "vibe-d:inet": {
-                            "optional": true,
-                            "version": "~>0.7.30"
-                        }
-                    },
-                    "name": "dynamic-library-nonet"
-                }
-            ],
-            "name": "dub",
-            "version": "1.2.0"
         },
         {
             "commitID": "2ca81246742268f608d75c977465739d42c8f0b1",
@@ -3488,6 +3457,37 @@
             ],
             "name": "dub",
             "version": "1.23.0-rc.1"
+        },
+        {
+            "commitID": "4395f8f8fc9a8b3d47fec5e09b002ac75e3b2083",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": {
+                            "optional": true,
+                            "version": ">=0.7.30 <0.10.0"
+                        }
+                    },
+                    "name": "library-nonet"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": {
+                            "optional": true,
+                            "version": ">=0.7.30 <0.10.0"
+                        }
+                    },
+                    "name": "dynamic-library-nonet"
+                }
+            ],
+            "name": "dub",
+            "version": "1.23.0"
         }
     ]
 }
