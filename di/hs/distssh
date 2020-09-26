@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.network"
     ],
-    "commitID": "0d159955af6093b65e9b5685c18fac190a2c109f",
+    "commitID": "a72de424efc5dd6e1e8c1dbb7291877b939d3b15",
     "dateAdded": "2018-04-11T19:10:36",
     "description": "Distributed load balance over SSH",
     "documentationURL": "",
@@ -27,6 +27,125 @@
                 }
             ],
             "version": "~autocomplete"
+        },
+        {
+            "commitID": "b1119c02b20d11d6edab433f39d63b73fa3c7d5b",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "distssh:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "distssh:colorlog": ">=0.0.0",
+                "distssh:d2sqlite3": ">=0.0.0",
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:miniorm": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0",
+                "distssh:proc": ">=0.0.0",
+                "distssh:sumtype": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0",
+                        "distssh:sumtype": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "travis"
+                        }
+                    ],
+                    "name": "d2sqlite3"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:d2sqlite3": ">=0.0.0",
+                        "distssh:sumtype": ">=0.0.0",
+                        "distssh:unit-threaded": ">=0.0.0"
+                    },
+                    "name": "miniorm"
+                },
+                {
+                    "name": "msgpack-ll"
+                },
+                {
+                    "name": "sumtype"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded",
+                    "version": "0.10.3"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:my": ">=0.0.0"
+                    },
+                    "name": "proc"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:sumtype": ">=0.0.0"
+                    },
+                    "name": "my"
+                }
+            ],
+            "version": "~dynamic-poll"
         },
         {
             "commitID": "3c34824d61435d0385804e84ee6cc17065eb4761",
@@ -177,7 +296,7 @@
             "version": "~term-emulator"
         },
         {
-            "commitID": "0d159955af6093b65e9b5685c18fac190a2c109f",
+            "commitID": "a72de424efc5dd6e1e8c1dbb7291877b939d3b15",
             "configurations": [
                 {
                     "name": "application"
@@ -766,6 +885,125 @@
                 }
             ],
             "version": "3.1.0"
+        },
+        {
+            "commitID": "a72de424efc5dd6e1e8c1dbb7291877b939d3b15",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "distssh:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "distssh:colorlog": ">=0.0.0",
+                "distssh:d2sqlite3": ">=0.0.0",
+                "distssh:distssh_common": ">=0.0.0",
+                "distssh:miniorm": ">=0.0.0",
+                "distssh:msgpack-ll": ">=0.0.0",
+                "distssh:proc": ">=0.0.0",
+                "distssh:sumtype": ">=0.0.0"
+            },
+            "name": "distssh",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "distssh:msgpack-ll": ">=0.0.0",
+                        "distssh:sumtype": ">=0.0.0"
+                    },
+                    "name": "distssh_common"
+                },
+                {
+                    "name": "colorlog"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "travis"
+                        }
+                    ],
+                    "name": "d2sqlite3"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with-lib"
+                        },
+                        {
+                            "name": "all-included"
+                        },
+                        {
+                            "name": "without-lib"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:d2sqlite3": ">=0.0.0",
+                        "distssh:sumtype": ">=0.0.0",
+                        "distssh:unit-threaded": ">=0.0.0"
+                    },
+                    "name": "miniorm"
+                },
+                {
+                    "name": "msgpack-ll"
+                },
+                {
+                    "name": "sumtype"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "gen_ut_main"
+                        }
+                    ],
+                    "name": "unit-threaded",
+                    "version": "0.10.3"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:my": ">=0.0.0"
+                    },
+                    "name": "proc"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        }
+                    ],
+                    "dependencies": {
+                        "distssh:sumtype": ">=0.0.0"
+                    },
+                    "name": "my"
+                }
+            ],
+            "version": "3.1.1"
         }
     ]
 }
