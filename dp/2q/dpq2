@@ -2,7 +2,7 @@
     "categories": [
         "library.database"
     ],
-    "commitID": "c3d2824239dd12bf3c4708a56af6ac52593ac9fa",
+    "commitID": "797a533d0432909ae07c6b2f111abfffd0bf885a",
     "dateAdded": "2013-09-14T10:32:29",
     "description": "Medium-level binding to the PostgreSQL database",
     "documentationURL": "",
@@ -157,7 +157,7 @@
             "version": "~bulk_copy"
         },
         {
-            "commitID": "c7f0db1ad0311a0bee1df44bb0007d8adf84fe2d",
+            "commitID": "0370cfe6d79dae130df6612db71b2c5476423cdb",
             "configurations": [
                 {
                     "name": "static"
@@ -344,7 +344,7 @@
             "version": "~static_config_fix"
         },
         {
-            "commitID": "c3d2824239dd12bf3c4708a56af6ac52593ac9fa",
+            "commitID": "797a533d0432909ae07c6b2f111abfffd0bf885a",
             "configurations": [
                 {
                     "name": "static"
@@ -383,23 +383,6 @@
                 }
             ],
             "version": "~master"
-        },
-        {
-            "commitID": "0e1198050be8d9609eff8f91ecb272b096a10e60",
-            "configurations": [
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "dynamic"
-                }
-            ],
-            "dependencies": {
-                "derelict-pq": "~>2.0.0",
-                "vibe-d:data": ">=0.7.27-rc.2 <0.8.0-0"
-            },
-            "name": "dpq2",
-            "version": "0.2.5"
         },
         {
             "commitID": "86553a59b5d5bac8ea3370f3733a0dddadb41c1d",
@@ -3159,6 +3142,47 @@
                 }
             ],
             "version": "1.0.16"
+        },
+        {
+            "commitID": "797a533d0432909ae07c6b2f111abfffd0bf885a",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
+                "money": "~>2.3.0",
+                "vibe-d:data": ">=0.8.3-beta.1"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": ">=0.0.0",
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": ">=0.0.0"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.0.17"
         }
     ]
 }
