@@ -3,7 +3,7 @@
         "library.graphics",
         "library.gamedev"
     ],
-    "commitID": "741d1334a9b8b571c5fabea0f7a0fc143097b775",
+    "commitID": "997d25350223f5a60f0bb1796fd37667066e7feb",
     "dateAdded": "2017-04-05T18:23:40",
     "description": "3D game engine for D",
     "documentationURL": "",
@@ -114,7 +114,7 @@
             "version": "~dev_0.9"
         },
         {
-            "commitID": "741d1334a9b8b571c5fabea0f7a0fc143097b775",
+            "commitID": "997d25350223f5a60f0bb1796fd37667066e7feb",
             "configurations": [
                 {
                     "name": "library"
@@ -716,6 +716,53 @@
                 }
             ],
             "version": "0.11.0-alpha3"
+        },
+        {
+            "commitID": "997d25350223f5a60f0bb1796fd37667066e7feb",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "~master"
+            },
+            "name": "dagon",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": "~master"
+                    },
+                    "name": "ftfont"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dagon:ftfont": ">=0.0.0",
+                        "dlib": "~master"
+                    },
+                    "name": "nuklear"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": "~master"
+                    },
+                    "name": "physics"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": "~master"
+                    },
+                    "name": "iqm"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.11.0-beta1"
         }
     ]
 }
