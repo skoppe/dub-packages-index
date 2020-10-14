@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "0b2077c1732796ad3c00fc0b39de05f306bf8027",
+    "commitID": "610aa1ca62462374a8473a814d29f9b9e3ed3255",
     "dateAdded": "2019-08-01T03:46:01",
     "description": "App public infrastructure.",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "0b2077c1732796ad3c00fc0b39de05f306bf8027",
+            "commitID": "610aa1ca62462374a8473a814d29f9b9e3ed3255",
             "dependencies": {
                 "appbase:configuration": ">=0.0.0",
                 "appbase:gateway": ">=0.0.0",
@@ -34,7 +34,7 @@
                 },
                 {
                     "dependencies": {
-                        "database:mysql": "~>1.1.26"
+                        "database:mysql": ">=0.0.0"
                     },
                     "name": "mysql"
                 },
@@ -48,21 +48,21 @@
                 {
                     "dependencies": {
                         "appbase:utils": ">=0.0.0",
-                        "async": "~>0.2.7"
+                        "async": ">=0.0.0"
                     },
                     "name": "listener"
                 },
                 {
                     "dependencies": {
                         "appbase:utils": ">=0.0.0",
-                        "crypto": "~>0.2.14"
+                        "crypto": ">=0.0.0"
                     },
                     "name": "security"
                 },
                 {
                     "dependencies": {
                         "appbase:utils": ">=0.0.0",
-                        "crypto": "~>0.2.14"
+                        "crypto": ">=0.0.0"
                     },
                     "name": "gateway"
                 }
@@ -1428,6 +1428,62 @@
                 }
             ],
             "version": "0.1.27"
+        },
+        {
+            "commitID": "610aa1ca62462374a8473a814d29f9b9e3ed3255",
+            "dependencies": {
+                "appbase:configuration": ">=0.0.0",
+                "appbase:gateway": ">=0.0.0",
+                "appbase:listener": ">=0.0.0",
+                "appbase:mysql": ">=0.0.0",
+                "appbase:options": ">=0.0.0",
+                "appbase:security": ">=0.0.0",
+                "appbase:utils": ">=0.0.0"
+            },
+            "name": "appbase",
+            "subPackages": [
+                {
+                    "name": "utils"
+                },
+                {
+                    "name": "configuration"
+                },
+                {
+                    "dependencies": {
+                        "database:mysql": ">=0.0.0"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "appbase:configuration": ">=0.0.0",
+                        "appbase:mysql": ">=0.0.0"
+                    },
+                    "name": "options"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "async": ">=0.0.0"
+                    },
+                    "name": "listener"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": ">=0.0.0"
+                    },
+                    "name": "security"
+                },
+                {
+                    "dependencies": {
+                        "appbase:utils": ">=0.0.0",
+                        "crypto": ">=0.0.0"
+                    },
+                    "name": "gateway"
+                }
+            ],
+            "version": "0.1.28"
         }
     ]
 }
