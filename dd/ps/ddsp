@@ -3,7 +3,7 @@
         "library.audio",
         "library.scientific"
     ],
-    "commitID": "bcb8273b930d40c28197119081d70178d0157ae1",
+    "commitID": "7190dfd94029c41bd916b624f39ce1d622d92ca2",
     "dateAdded": "2017-08-26T18:35:12",
     "description": "A small library for digital signal processing in D",
     "documentationURL": "",
@@ -16,6 +16,40 @@
         "project": "Ddsp"
     },
     "versions": [
+        {
+            "commitID": "446ab9d4af3a5490668c9c62839cb3ba4d00afda",
+            "dependencies": {
+                "dplug:core": "~>9"
+            },
+            "name": "ddsp",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "effect"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "filter"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "osc"
+                }
+            ],
+            "version": "~azure-pipelines"
+        },
         {
             "commitID": "c2cc821602143faa2d4ded33cfd10a9848f61c02",
             "dependencies": {
@@ -85,7 +119,7 @@
             "version": "~dev"
         },
         {
-            "commitID": "bcb8273b930d40c28197119081d70178d0157ae1",
+            "commitID": "7190dfd94029c41bd916b624f39ce1d622d92ca2",
             "dependencies": {
                 "dplug:core": "~>9"
             },
@@ -1099,6 +1133,40 @@
                 }
             ],
             "version": "2.4.2"
+        },
+        {
+            "commitID": "7190dfd94029c41bd916b624f39ce1d622d92ca2",
+            "dependencies": {
+                "dplug:core": "~>9"
+            },
+            "name": "ddsp",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "effect"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "filter"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "osc"
+                }
+            ],
+            "version": "2.5.0"
         }
     ]
 }
