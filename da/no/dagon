@@ -3,7 +3,7 @@
         "library.graphics",
         "library.gamedev"
     ],
-    "commitID": "021271cc289ca5f2b38581a5bf0c994b966c08b4",
+    "commitID": "0ed4660f2c3375eace431093c9ba2d46212685f7",
     "dateAdded": "2017-04-05T18:23:40",
     "description": "3D game engine for D",
     "documentationURL": "",
@@ -51,7 +51,7 @@
             "version": "~dagon-ng"
         },
         {
-            "commitID": "6265b325cdd29d0ed1d239a056dce233f8a6062b",
+            "commitID": "950f177bc97eb521de902e3b66f5f26043805d79",
             "configurations": [
                 {
                     "dependencies": {
@@ -79,7 +79,7 @@
             "dependencies": {
                 "bindbc-opengl": "0.4.0",
                 "bindbc-sdl": "0.4.1",
-                "dlib": "0.17.0"
+                "dlib": "0.19.2"
             },
             "name": "dagon",
             "version": "~dev_0.10"
@@ -114,21 +114,21 @@
             "version": "~dev_0.9"
         },
         {
-            "commitID": "021271cc289ca5f2b38581a5bf0c994b966c08b4",
+            "commitID": "0ed4660f2c3375eace431093c9ba2d46212685f7",
             "configurations": [
                 {
                     "name": "library"
                 }
             ],
             "dependencies": {
-                "dlib": "0.20.0-beta1"
+                "dlib": "~>0.20.0"
             },
             "name": "dagon",
             "subPackages": [
                 {
                     "dependencies": {
                         "dagon": ">=0.0.0",
-                        "dlib": "0.20.0-beta1"
+                        "dlib": "~>0.20.0"
                     },
                     "name": "ftfont"
                 },
@@ -136,21 +136,21 @@
                     "dependencies": {
                         "dagon": ">=0.0.0",
                         "dagon:ftfont": ">=0.0.0",
-                        "dlib": "0.20.0-beta1"
+                        "dlib": "~>0.20.0"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
                         "dagon": ">=0.0.0",
-                        "dlib": "0.20.0-beta1"
+                        "dlib": "~>0.20.0"
                     },
                     "name": "physics"
                 },
                 {
                     "dependencies": {
                         "dagon": ">=0.0.0",
-                        "dlib": "0.20.0-beta1"
+                        "dlib": "~>0.20.0"
                     },
                     "name": "iqm"
                 },
@@ -593,6 +593,40 @@
             "version": "0.10.3"
         },
         {
+            "commitID": "950f177bc97eb521de902e3b66f5f26043805d79",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0",
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "library"
+                },
+                {
+                    "name": "Minimal"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-nuklear": "0.1.0"
+                    },
+                    "name": "NoFreetype"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-ft": "0.1.0"
+                    },
+                    "name": "NoNuklear"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "0.4.0",
+                "bindbc-sdl": "0.4.1",
+                "dlib": "0.19.2"
+            },
+            "name": "dagon",
+            "version": "0.10.4"
+        },
+        {
             "commitID": "1e2410799d729b0836e7c20ef8405377fad60e9d",
             "configurations": [
                 {
@@ -810,6 +844,53 @@
                 }
             ],
             "version": "0.11.0-beta2"
+        },
+        {
+            "commitID": "0ed4660f2c3375eace431093c9ba2d46212685f7",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "~>0.20.0"
+            },
+            "name": "dagon",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": "~>0.20.0"
+                    },
+                    "name": "ftfont"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dagon:ftfont": ">=0.0.0",
+                        "dlib": "~>0.20.0"
+                    },
+                    "name": "nuklear"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": "~>0.20.0"
+                    },
+                    "name": "physics"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": "~>0.20.0"
+                    },
+                    "name": "iqm"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.11.0"
         }
     ]
 }
