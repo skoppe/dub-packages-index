@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "086f391af952cbc772b908ea26f0315fa66ca07f",
+    "commitID": "bd48d34422102828f70585928363f20e941255c9",
     "dateAdded": "2020-10-24T21:02:00",
     "description": "Dynamic and static bindings to imgui, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -14,23 +14,23 @@
     },
     "versions": [
         {
-            "commitID": "086f391af952cbc772b908ea26f0315fa66ca07f",
+            "commitID": "bd48d34422102828f70585928363f20e941255c9",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-glfw": "~>0.5.0",
+                        "bindbc-glfw": "~>0.10.1",
                         "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.1.0",
-                        "bindbc-sdl": "~>0.1.0"
+                        "bindbc-opengl": "~>0.13.0",
+                        "bindbc-sdl": "~>0.19.1"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-glfw": "~>0.5.0",
+                        "bindbc-glfw": "~>0.10.1",
                         "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.1.0",
-                        "bindbc-sdl": "~>0.1.0"
+                        "bindbc-opengl": "~>0.13.0",
+                        "bindbc-sdl": "~>0.19.1"
                     },
                     "name": "dynamicBC"
                 },
@@ -74,6 +74,37 @@
             ],
             "name": "bindbc-imgui",
             "version": "0.5.0"
+        },
+        {
+            "commitID": "bd48d34422102828f70585928363f20e941255c9",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>0.10.1",
+                        "bindbc-loader": "~>0.3.0",
+                        "bindbc-opengl": "~>0.13.0",
+                        "bindbc-sdl": "~>0.19.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>0.10.1",
+                        "bindbc-loader": "~>0.3.0",
+                        "bindbc-opengl": "~>0.13.0",
+                        "bindbc-sdl": "~>0.19.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-imgui",
+            "version": "0.5.1"
         }
     ]
 }
