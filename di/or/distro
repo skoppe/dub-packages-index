@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "cdee350c22a33349c7844a510b1204edecf0adc9",
+    "commitID": "31f30ca850aac2748ad87f10043f39ed97c0906c",
     "dateAdded": "2019-11-10T16:25:06",
     "description": "Library to determine the OS of our computer",
     "documentationURL": "http:\/\/distro.dpldocs.info",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "cdee350c22a33349c7844a510b1204edecf0adc9",
+            "commitID": "31f30ca850aac2748ad87f10043f39ed97c0906c",
             "dependencies": {
                 "distro:distro": ">=0.0.0",
                 "distro:library": ">=0.0.0"
@@ -34,7 +34,7 @@
                         }
                     ],
                     "dependencies": {
-                        "shlex": ">=0.9.5"
+                        "shlex:library": ">=0.9.5"
                     },
                     "name": "library"
                 },
@@ -168,6 +168,45 @@
                 }
             ],
             "version": "0.9.2"
+        },
+        {
+            "commitID": "31f30ca850aac2748ad87f10043f39ed97c0906c",
+            "dependencies": {
+                "distro:distro": ">=0.0.0",
+                "distro:library": ">=0.0.0"
+            },
+            "name": "distro",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "application"
+                        },
+                        {
+                            "name": "shared-library"
+                        },
+                        {
+                            "name": "static-library"
+                        }
+                    ],
+                    "dependencies": {
+                        "shlex:library": ">=0.9.5"
+                    },
+                    "name": "library"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "application"
+                        }
+                    ],
+                    "dependencies": {
+                        "distro:library": ">=0.0.0"
+                    },
+                    "name": "distro"
+                }
+            ],
+            "version": "0.9.3"
         }
     ]
 }
