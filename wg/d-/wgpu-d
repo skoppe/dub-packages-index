@@ -19,6 +19,26 @@
     },
     "versions": [
         {
+            "commitID": "658674cc8f33aa48fef51e5cdca4ef3b62a76f5a",
+            "dependencies": {
+                "bindbc-wgpu": "0.1.0-alpha.10"
+            },
+            "name": "wgpu-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "headless"
+                }
+            ],
+            "version": "~bindbc-wgpu"
+        },
+        {
             "commitID": "457e78f3f432f91c28199c6d4685d3c54c796854",
             "name": "wgpu-d",
             "subPackages": [
@@ -36,33 +56,6 @@
             "version": "~master"
         },
         {
-            "commitID": "e799e1f5caae2d13024b36988268f6cc011a7565",
-            "name": "wgpu-d",
-            "version": "0.6.0"
-        },
-        {
-            "commitID": "8973169bcb4a8c5150e2a5fdb8550611e2bd6fd7",
-            "name": "wgpu-d",
-            "version": "0.6.1"
-        },
-        {
-            "commitID": "055eed9d95fb3b3e19ef0a19785a8036b3231a40",
-            "name": "wgpu-d",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "imageformats": "~>7.0.2",
-                        "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "headless"
-                }
-            ],
-            "version": "0.6.2"
-        },
-        {
             "commitID": "20e99d18cdf7b1d6c9e298318ec6863d0db33eec",
             "name": "wgpu-d",
             "subPackages": [
@@ -77,7 +70,7 @@
                     "name": "headless"
                 }
             ],
-            "version": "0.6.3"
+            "version": "0.1.0-alpha.1"
         }
     ]
 }
