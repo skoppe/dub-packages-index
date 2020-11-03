@@ -3,7 +3,7 @@
         "library.binding",
         "library.graphics"
     ],
-    "commitID": "bd2074d6ffc0d162c5f59dc2ac7a20126ba28690",
+    "commitID": "d364d7afe36b19764cf2f6d29cb2cf883cb69efa",
     "dateAdded": "2016-05-13T21:09:27",
     "description": "Auto-generated D bindings for Vulkan",
     "documentationURL": "",
@@ -92,7 +92,7 @@
             "version": "~dub_sdl"
         },
         {
-            "commitID": "f7796066d10573f38458841aed117ae2b2ffbb26",
+            "commitID": "d364d7afe36b19764cf2f6d29cb2cf883cb69efa",
             "name": "erupted",
             "subPackages": [
                 {
@@ -115,156 +115,6 @@
                 }
             ],
             "version": "~master"
-        },
-        {
-            "commitID": "d0c4adea64c13a3daff4082764d7786e78df8f92",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4"
-                    },
-                    "name": "with-derelict-loader"
-                },
-                {
-                    "dependencies": {
-                        "xlib-d": "~>0.1.1"
-                    },
-                    "name": "dub-platform-xlib"
-                },
-                {
-                    "dependencies": {
-                        "xcb-d": "~>2.1.0"
-                    },
-                    "name": "dub-platform-xcb"
-                },
-                {
-                    "dependencies": {
-                        "wayland-client-d": "~>1.8.90"
-                    },
-                    "name": "dub-platform-wayland"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4",
-                        "xlib-d": "~>0.1.1"
-                    },
-                    "name": "dub-platform-xlib-derelict-loader"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4",
-                        "xcb-d": "~>2.1.0"
-                    },
-                    "name": "dub-platform-xcb-derelict-loader"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4",
-                        "wayland-client-d": "~>1.8.90"
-                    },
-                    "name": "dub-platform-wayland-derelict-loader"
-                }
-            ],
-            "name": "erupted",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "erupted": {
-                            "path": ".",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "devices"
-                },
-                {
-                    "dependencies": {
-                        "erupted": {
-                            "path": ".",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "layers"
-                }
-            ],
-            "version": "1.4.1"
-        },
-        {
-            "commitID": "e8b76024624035f0e21c4f091630527243103fdb",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4"
-                    },
-                    "name": "with-derelict-loader"
-                },
-                {
-                    "dependencies": {
-                        "xlib-d": "~>0.1.1"
-                    },
-                    "name": "dub-platform-xlib"
-                },
-                {
-                    "dependencies": {
-                        "xcb-d": "~>2.1.0"
-                    },
-                    "name": "dub-platform-xcb"
-                },
-                {
-                    "dependencies": {
-                        "wayland-client-d": "~>1.8.90"
-                    },
-                    "name": "dub-platform-wayland"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4",
-                        "xlib-d": "~>0.1.1"
-                    },
-                    "name": "dub-platform-xlib-derelict-loader"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4",
-                        "xcb-d": "~>2.1.0"
-                    },
-                    "name": "dub-platform-xcb-derelict-loader"
-                },
-                {
-                    "dependencies": {
-                        "derelict-util": "~>2.0.4",
-                        "wayland-client-d": "~>1.8.90"
-                    },
-                    "name": "dub-platform-wayland-derelict-loader"
-                }
-            ],
-            "name": "erupted",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "erupted": {
-                            "path": ".",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "devices"
-                },
-                {
-                    "dependencies": {
-                        "erupted": {
-                            "path": ".",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "layers"
-                }
-            ],
-            "version": "1.4.2"
         },
         {
             "commitID": "fc6a628629003d50564d28f3f8648ef5fb87606a",
@@ -4165,6 +4015,56 @@
                 }
             ],
             "version": "2.1.6+v1.2.156"
+        },
+        {
+            "commitID": "054fc1b839c7229f4332c5c77c1464a356525edc",
+            "name": "erupted",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "erupted": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devices"
+                },
+                {
+                    "dependencies": {
+                        "erupted": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "layers"
+                }
+            ],
+            "version": "2.1.8+v1.2.158"
+        },
+        {
+            "commitID": "d364d7afe36b19764cf2f6d29cb2cf883cb69efa",
+            "name": "erupted",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "erupted": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devices"
+                },
+                {
+                    "dependencies": {
+                        "erupted": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "layers"
+                }
+            ],
+            "version": "2.1.9+v1.2.159"
         }
     ]
 }
