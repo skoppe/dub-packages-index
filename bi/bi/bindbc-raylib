@@ -3,7 +3,7 @@
         "library.binding",
         "library.gui"
     ],
-    "commitID": "7362c7c409e3ec20b230f1dcd6fa60579b71ce73",
+    "commitID": "66728ab0ae327ccc5831704b62a34dae09608e3c",
     "dateAdded": "2020-02-19T08:39:34",
     "description": "Dynamic and static bindings to raylib",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "b10eed184915a67569363501d5f8d1853ba81b66",
+            "commitID": "66728ab0ae327ccc5831704b62a34dae09608e3c",
             "configurations": [
                 {
                     "dependencies": {
@@ -216,6 +216,31 @@
             ],
             "name": "bindbc-raylib",
             "version": "0.8.0"
+        },
+        {
+            "commitID": "66728ab0ae327ccc5831704b62a34dae09608e3c",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.2"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "arm"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamicBC"
+                }
+            ],
+            "name": "bindbc-raylib",
+            "version": "0.9.0"
         }
     ]
 }
