@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "63e7c3092c90da5a332fe2d649a022f537b511fb",
+    "commitID": "4c57144704dc08de5a39352cfa1fcf54e6418acf",
     "dateAdded": "2020-11-06T16:19:27",
     "description": "A lightweight framework for designing interactive CLI applications",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "63e7c3092c90da5a332fe2d649a022f537b511fb",
+            "commitID": "4c57144704dc08de5a39352cfa1fcf54e6418acf",
             "configurations": [
                 {
                     "name": "cli"
@@ -265,6 +265,67 @@
                 }
             ],
             "version": "0.0.4"
+        },
+        {
+            "commitID": "4c57144704dc08de5a39352cfa1fcf54e6418acf",
+            "configurations": [
+                {
+                    "name": "cli"
+                }
+            ],
+            "dependencies": {
+                "command:lib": ">=0.0.0"
+            },
+            "name": "command",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "linenoise": "~>1.1.0"
+                            },
+                            "name": "cli"
+                        }
+                    ],
+                    "dependencies": {
+                        "pegged": "~>0.4.4"
+                    },
+                    "name": "lib"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "lib"
+                        },
+                        {
+                            "name": "exe"
+                        }
+                    ],
+                    "dependencies": {
+                        "pegged": "~>0.4.4"
+                    },
+                    "name": "grammar"
+                },
+                {
+                    "dependencies": {
+                        "command": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "varstore"
+                },
+                {
+                    "dependencies": {
+                        "command": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "greeter"
+                }
+            ],
+            "version": "0.0.5"
         }
     ]
 }
