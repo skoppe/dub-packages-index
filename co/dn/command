@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "330367db7f710efc95790bb2ece154818c65f1f7",
+    "commitID": "63e7c3092c90da5a332fe2d649a022f537b511fb",
     "dateAdded": "2020-11-06T16:19:27",
     "description": "A lightweight framework for designing interactive CLI applications",
     "documentationURL": "",
@@ -14,16 +14,27 @@
     },
     "versions": [
         {
-            "commitID": "330367db7f710efc95790bb2ece154818c65f1f7",
+            "commitID": "63e7c3092c90da5a332fe2d649a022f537b511fb",
+            "configurations": [
+                {
+                    "name": "cli"
+                }
+            ],
             "dependencies": {
-                "command:grammar": ">=0.0.0",
                 "command:lib": ">=0.0.0"
             },
             "name": "command",
             "subPackages": [
                 {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "linenoise": "~>1.1.0"
+                            },
+                            "name": "cli"
+                        }
+                    ],
                     "dependencies": {
-                        "linenoise": "~>1.1.0",
                         "pegged": "~>0.4.4"
                     },
                     "name": "lib"
@@ -193,6 +204,67 @@
                 }
             ],
             "version": "0.0.3"
+        },
+        {
+            "commitID": "63e7c3092c90da5a332fe2d649a022f537b511fb",
+            "configurations": [
+                {
+                    "name": "cli"
+                }
+            ],
+            "dependencies": {
+                "command:lib": ">=0.0.0"
+            },
+            "name": "command",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "linenoise": "~>1.1.0"
+                            },
+                            "name": "cli"
+                        }
+                    ],
+                    "dependencies": {
+                        "pegged": "~>0.4.4"
+                    },
+                    "name": "lib"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "lib"
+                        },
+                        {
+                            "name": "exe"
+                        }
+                    ],
+                    "dependencies": {
+                        "pegged": "~>0.4.4"
+                    },
+                    "name": "grammar"
+                },
+                {
+                    "dependencies": {
+                        "command": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "varstore"
+                },
+                {
+                    "dependencies": {
+                        "command": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "greeter"
+                }
+            ],
+            "version": "0.0.4"
         }
     ]
 }
