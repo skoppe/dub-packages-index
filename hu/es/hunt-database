@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "2a20a0303e466791710683619e31aed67311b22d",
+    "commitID": "67e2ba703e918a503d1db30546c7124b51a714bf",
     "dateAdded": "2018-08-28T10:18:29",
     "description": "Database abstraction layer for D programing language, support PostgreSQL \/ MySQL.",
     "documentationURL": "",
@@ -78,7 +78,7 @@
             "version": "~v2.0.x"
         },
         {
-            "commitID": "2a20a0303e466791710683619e31aed67311b22d",
+            "commitID": "67e2ba703e918a503d1db30546c7124b51a714bf",
             "configurations": [
                 {
                     "name": "default"
@@ -311,6 +311,23 @@
             },
             "name": "hunt-database",
             "version": "2.1.10"
+        },
+        {
+            "commitID": "67e2ba703e918a503d1db30546c7124b51a714bf",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "ssl"
+                }
+            ],
+            "dependencies": {
+                "hunt-net": "~>0.5.0",
+                "hunt-sql": "~>1.4.0"
+            },
+            "name": "hunt-database",
+            "version": "2.1.11"
         }
     ]
 }
