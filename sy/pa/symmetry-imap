@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "d0a6a5872f3a9883a1040f145243dbf50f5d589d",
+    "commitID": "48d873d07abd5526d37ffd4b068f2adc2aa1bd35",
     "dateAdded": "2019-10-01T03:05:55",
     "description": "IMAP client library",
     "documentationURL": "",
@@ -271,7 +271,7 @@
             "version": "~wip2"
         },
         {
-            "commitID": "d0a6a5872f3a9883a1040f145243dbf50f5d589d",
+            "commitID": "48d873d07abd5526d37ffd4b068f2adc2aa1bd35",
             "configurations": [
                 {
                     "name": "default"
@@ -769,6 +769,48 @@
             },
             "name": "symmetry-imap",
             "version": "0.1.6"
+        },
+        {
+            "commitID": "48d873d07abd5526d37ffd4b068f2adc2aa1bd35",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        },
+                        "sil-lang": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sil-library"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        },
+                        "sil-lang": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:email": "~master",
+                "asdf": "~master",
+                "openssl": "~>1.1.6",
+                "requests": ">=0.0.0"
+            },
+            "name": "symmetry-imap",
+            "version": "0.1.7"
         }
     ]
 }
