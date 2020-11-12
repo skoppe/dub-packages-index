@@ -2,7 +2,7 @@
     "categories": [
         "library.general"
     ],
-    "commitID": "c2194521560dc5a5a41bd2a6e1085020662d5806",
+    "commitID": "092a7a835b3a28ba826f89adda228903f1d2905f",
     "dateAdded": "2017-06-19T15:52:22",
     "description": "The library for constructing applications.",
     "documentationURL": "",
@@ -75,7 +75,7 @@
             "version": "~develop"
         },
         {
-            "commitID": "d1715b247bf07de4170feacee4e84a4b4b911c3e",
+            "commitID": "092a7a835b3a28ba826f89adda228903f1d2905f",
             "configurations": [
                 {
                     "name": "library"
@@ -101,12 +101,12 @@
                     ],
                     "dependencies": {
                         "brightproof": "~>2.4.0",
-                        "commandr": "~>0.1.1",
+                        "commandr": "~>0.2.0",
                         "cronexp": ">=0.1.0-beta3 <0.2.0-0",
                         "packageversion": "~>0.0.19",
                         "termcolor-d": "~>0.0.1",
                         "uniconf:sdlang": "~>0.2.1",
-                        "vibe-core": "~>1.9.2"
+                        "vibe-core": "^1.9.2"
                     },
                     "name": "system"
                 },
@@ -124,7 +124,7 @@
                     ],
                     "dependencies": {
                         "dango:system": ">=0.0.0",
-                        "vibe-d:http": ">=0.9.0-beta.1 <0.10.0-0"
+                        "vibe-d:http": "~>0.9.2"
                     },
                     "name": "web"
                 }
@@ -728,7 +728,7 @@
             "version": "0.2.3"
         },
         {
-            "commitID": "c2194521560dc5a5a41bd2a6e1085020662d5806",
+            "commitID": "d1715b247bf07de4170feacee4e84a4b4b911c3e",
             "configurations": [
                 {
                     "name": "library"
@@ -783,6 +783,63 @@
                 }
             ],
             "version": "0.2.4"
+        },
+        {
+            "commitID": "092a7a835b3a28ba826f89adda228903f1d2905f",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dango:system": ">=0.0.0",
+                "dango:web": ">=0.0.0"
+            },
+            "name": "dango",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "brightproof": "~>2.4.0",
+                        "commandr": "~>0.2.0",
+                        "cronexp": ">=0.1.0-beta3 <0.2.0-0",
+                        "packageversion": "~>0.0.19",
+                        "termcolor-d": "~>0.0.1",
+                        "uniconf:sdlang": "~>0.2.1",
+                        "vibe-core": "^1.9.2"
+                    },
+                    "name": "system"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.0.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "dango:system": ">=0.0.0",
+                        "vibe-d:http": "~>0.9.2"
+                    },
+                    "name": "web"
+                }
+            ],
+            "version": "0.2.5"
         }
     ]
 }
