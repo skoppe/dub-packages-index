@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "dbc7497073f8f0a12ff5fa238073a65dff09e888",
+    "commitID": "25ee630a7ea3acc96706bea22aeb710fca87b961",
     "dateAdded": "2018-12-16T22:03:25",
     "description": "D graphics rendering library",
     "documentationURL": "",
@@ -1478,7 +1478,7 @@
             "version": "~secondary_buffers"
         },
         {
-            "commitID": "2fd42ca19d89ec33c9c26454b86387c14be3a816",
+            "commitID": "25ee630a7ea3acc96706bea22aeb710fca87b961",
             "name": "gfx",
             "subPackages": [
                 {
@@ -1506,9 +1506,6 @@
                                 "xlib-d": "~>0.1.1"
                             },
                             "name": "linux"
-                        },
-                        {
-                            "name": "windows"
                         }
                     ],
                     "dependencies": {
@@ -2500,6 +2497,272 @@
                 }
             ],
             "version": "0.1.2"
+        },
+        {
+            "commitID": "25ee630a7ea3acc96706bea22aeb710fca87b961",
+            "name": "gfx",
+            "subPackages": [
+                {
+                    "name": "bindings"
+                },
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "gfx:graal": {
+                            "path": "..\/graal",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "decl"
+                },
+                {
+                    "name": "genmesh"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "xlib-d": "~>0.1.1"
+                            },
+                            "name": "linux"
+                        }
+                    ],
+                    "dependencies": {
+                        "gfx:graal": {
+                            "path": "..\/graal",
+                            "version": ">=0.0.0"
+                        },
+                        "spirv_cross": "~>0.3.1"
+                    },
+                    "name": "gl3"
+                },
+                {
+                    "dependencies": {
+                        "gfx:core": {
+                            "path": "..\/core",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:math": {
+                            "path": "..\/math",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "graal"
+                },
+                {
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "gfx:graal": {
+                            "path": "..\/graal",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "memalloc"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "wayland:client": "~>0.2.0",
+                                "xcb-d": "~>2.1.1"
+                            },
+                            "name": "linux"
+                        },
+                        {
+                            "name": "windows"
+                        }
+                    ],
+                    "dependencies": {
+                        "gfx:graal": {
+                            "path": "..\/graal",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "vulkan"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "wayland:client": "~>0.2.0",
+                                "wayland:cursor": "~>0.2.0",
+                                "xcb-d": "~>2.1.1",
+                                "xkbcommon-d": "~>0.5.1",
+                                "xlib-d": "~>0.1.1"
+                            },
+                            "name": "linux"
+                        },
+                        {
+                            "name": "windows"
+                        }
+                    ],
+                    "dependencies": {
+                        "gfx:gl3": {
+                            "path": "..\/gl3",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:graal": {
+                            "path": "..\/graal",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:vulkan": {
+                            "path": "..\/vulkan",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "gfx:decl": {
+                            "path": "..\/..\/decl",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:genmesh": {
+                            "path": "..\/..\/genmesh",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:graal": {
+                            "path": "..\/..\/graal",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:math": {
+                            "path": "..\/..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:window": {
+                            "path": "..\/..\/window",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "declapi"
+                },
+                {
+                    "dependencies": {
+                        "gfx:graal": {
+                            "path": "..\/..\/graal",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:math": {
+                            "path": "..\/..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:window": {
+                            "path": "..\/..\/window",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "deferred"
+                },
+                {
+                    "dependencies": {
+                        "gfx:genmesh": {
+                            "path": "..\/..\/genmesh",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:graal": {
+                            "path": "..\/..\/graal",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:math": {
+                            "path": "..\/..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:window": {
+                            "path": "..\/..\/window",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "depth"
+                },
+                {
+                    "dependencies": {
+                        "gfx:genmesh": {
+                            "path": "..\/..\/genmesh",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:graal": {
+                            "path": "..\/..\/graal",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:math": {
+                            "path": "..\/..\/math",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:window": {
+                            "path": "..\/..\/window",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "shadow"
+                },
+                {
+                    "dependencies": {
+                        "gfx:graal": {
+                            "path": "..\/..\/graal",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:window": {
+                            "path": "..\/..\/window",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "stencil"
+                },
+                {
+                    "dependencies": {
+                        "gfx:graal": {
+                            "path": "..\/..\/graal",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:window": {
+                            "path": "..\/..\/window",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "swapchain"
+                },
+                {
+                    "dependencies": {
+                        "gfx:genmesh": {
+                            "path": "..\/..\/genmesh",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:graal": {
+                            "path": "..\/..\/graal",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:window": {
+                            "path": "..\/..\/window",
+                            "version": ">=0.0.0"
+                        },
+                        "gl3n": "~>1.3.1",
+                        "img": {
+                            "path": "..\/..\/3rdparty\/img-d",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "texture"
+                },
+                {
+                    "dependencies": {
+                        "gfx:graal": {
+                            "path": "..\/..\/graal",
+                            "version": ">=0.0.0"
+                        },
+                        "gfx:window": {
+                            "path": "..\/..\/window",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                }
+            ],
+            "version": "0.2.0"
         }
     ]
 }
