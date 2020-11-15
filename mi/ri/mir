@@ -5,7 +5,7 @@
         "library.generic",
         "library.optimized_cpu"
     ],
-    "commitID": "a1c17c9e175826c0264162150eb658bc61c417db",
+    "commitID": "2f0ffdd8f7ec9b2d23c80f66c10c5077932d6b53",
     "dateAdded": "2016-01-01T19:46:45",
     "description": "LLVM-accelerated Generic Numerical Library for Science and Machine Learning",
     "documentationURL": "http:\/\/mir.libmir.org\/",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "92e8b9eb22d284486ae9246eb279a6e2cc96e5fb",
+            "commitID": "2f0ffdd8f7ec9b2d23c80f66c10c5077932d6b53",
             "configurations": [
                 {
                     "name": "source"
@@ -1450,6 +1450,28 @@
             },
             "name": "mir",
             "version": "3.2.1"
+        },
+        {
+            "commitID": "2f0ffdd8f7ec9b2d23c80f66c10c5077932d6b53",
+            "configurations": [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "mir-random": "~>2.2.4"
+            },
+            "name": "mir",
+            "version": "3.2.2"
         }
     ]
 }
