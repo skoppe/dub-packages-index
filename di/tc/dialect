@@ -2,7 +2,7 @@
     "categories": [
         "library.network"
     ],
-    "commitID": "c1dd2b19cbebff387cfaa71794d2b3366ec9ea97",
+    "commitID": "1a038ed93e16507f476e5d6d2618510398a911b2",
     "dateAdded": "2019-09-07T23:24:24",
     "description": "IRC parsing library",
     "documentationURL": "https:\/\/zorael.github.io\/dialect\/dialect.html",
@@ -98,7 +98,7 @@
             "version": "~removespecial"
         },
         {
-            "commitID": "c1dd2b19cbebff387cfaa71794d2b3366ec9ea97",
+            "commitID": "1a038ed93e16507f476e5d6d2618510398a911b2",
             "configurations": [
                 {
                     "name": "library"
@@ -114,13 +114,13 @@
                 }
             ],
             "dependencies": {
-                "lu": "~>0.5.0"
+                "lu": "~>1.0.0"
             },
             "name": "dialect",
             "subPackages": [
                 {
                     "dependencies": {
-                        "lu": "~>0.5.0"
+                        "lu": "~>1.0.0"
                     },
                     "name": "assertgen"
                 }
@@ -693,6 +693,36 @@
                 }
             ],
             "version": "0.9.1"
+        },
+        {
+            "commitID": "1a038ed93e16507f476e5d6d2618510398a911b2",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.0.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.0.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "1.0.0"
         }
     ]
 }
