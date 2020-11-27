@@ -3,7 +3,7 @@
         "library.scripting",
         "library.binding"
     ],
-    "commitID": "814e3c6a2312ae6d48296deb8bb33079ad315c23",
+    "commitID": "f58c2a20482349e228d5b2d50a25b8a62d8c7000",
     "dateAdded": "2020-11-24T22:34:58",
     "description": "D bindings to the XS JavaScript engine",
     "documentationURL": "https:\/\/chances.github.io\/xs-d",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "814e3c6a2312ae6d48296deb8bb33079ad315c23",
+            "commitID": "f58c2a20482349e228d5b2d50a25b8a62d8c7000",
             "configurations": [
                 {
                     "name": "library"
@@ -94,6 +94,36 @@
                 }
             ],
             "version": "0.1.0-alpha.2"
+        },
+        {
+            "commitID": "f58c2a20482349e228d5b2d50a25b8a62d8c7000",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "release"
+                },
+                {
+                    "name": "static-release"
+                }
+            ],
+            "name": "xs",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "xs": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "hello-world"
+                }
+            ],
+            "version": "0.1.0-alpha.3"
         }
     ]
 }
