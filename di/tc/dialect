@@ -2,7 +2,7 @@
     "categories": [
         "library.network"
     ],
-    "commitID": "1a038ed93e16507f476e5d6d2618510398a911b2",
+    "commitID": "158d927ac2f239f78bbd9babcaa5a9b8a92af388",
     "dateAdded": "2019-09-07T23:24:24",
     "description": "IRC parsing library",
     "documentationURL": "https:\/\/zorael.github.io\/dialect\/dialect.html",
@@ -99,6 +99,36 @@
         },
         {
             "commitID": "1a038ed93e16507f476e5d6d2618510398a911b2",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.0.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.0.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "~v1.0"
+        },
+        {
+            "commitID": "158d927ac2f239f78bbd9babcaa5a9b8a92af388",
             "configurations": [
                 {
                     "name": "library"
@@ -723,6 +753,36 @@
                 }
             ],
             "version": "1.0.0"
+        },
+        {
+            "commitID": "158d927ac2f239f78bbd9babcaa5a9b8a92af388",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.0.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.0.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "1.1.0"
         }
     ]
 }
