@@ -2,7 +2,7 @@
     "categories": [
         "library.testing"
     ],
-    "commitID": "b4c7807cd90bb8aade05871910a178214707f738",
+    "commitID": "c6871f5bd3cad5cc7bef8113e42c94a67a2d5ca6",
     "dateAdded": "2019-07-03T08:23:12",
     "description": "Basic TAP implementation for D v2",
     "documentationURL": "",
@@ -32,7 +32,7 @@
             "version": "~tap_consumer"
         },
         {
-            "commitID": "0a61045ad0c020f975f8ae5ecbd6d49a98a75cad",
+            "commitID": "c6871f5bd3cad5cc7bef8113e42c94a67a2d5ca6",
             "name": "zug-tap",
             "subPackages": [
                 {
@@ -98,6 +98,22 @@
                 }
             ],
             "version": "0.2.1"
+        },
+        {
+            "commitID": "c6871f5bd3cad5cc7bef8113e42c94a67a2d5ca6",
+            "name": "zug-tap",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "zug-tap": {
+                            "path": ".\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "proved"
+                }
+            ],
+            "version": "0.2.2"
         }
     ]
 }
