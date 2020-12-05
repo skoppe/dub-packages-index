@@ -4,7 +4,7 @@
         "library.vibed",
         "library.web"
     ],
-    "commitID": "0cb8a709062dc8c21502bd4a5e6c5d219e317e46",
+    "commitID": "8ac00c5cccabe32d99bf25f9b80423f2fe5b5165",
     "dateAdded": "2018-04-08T23:59:14",
     "description": "Telegram Bot API implementation",
     "documentationURL": "",
@@ -18,31 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "372056cce08da5376629b4729c775a9adb7cbe1c",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "vibe-d:http": "~>0.8.4"
-                    },
-                    "name": "default"
-                },
-                {
-                    "dependencies": {
-                        "requests": "~>1.0.4",
-                        "socks-client": "~>0.1.0"
-                    },
-                    "name": "requests-driver"
-                }
-            ],
-            "dependencies": {
-                "asdf": "~>0.4.5",
-                "vibe-core": "~>1.6.0"
-            },
-            "name": "telega",
-            "version": "~54\/refactor-updates"
-        },
-        {
-            "commitID": "0cb8a709062dc8c21502bd4a5e6c5d219e317e46",
+            "commitID": "8ac00c5cccabe32d99bf25f9b80423f2fe5b5165",
             "configurations": [
                 {
                     "dependencies": {
@@ -60,7 +36,8 @@
             ],
             "dependencies": {
                 "asdf": "~>0.5.7",
-                "vibe-core": "~>1.9.2"
+                "dests": "~>0.3.1",
+                "vibe-core": "~>1.9"
             },
             "name": "telega",
             "version": "~master"
@@ -318,6 +295,31 @@
             },
             "name": "telega",
             "version": "0.1.2"
+        },
+        {
+            "commitID": "8ac00c5cccabe32d99bf25f9b80423f2fe5b5165",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "vibe-d:http": "~>0.8.6"
+                    },
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "requests": "~>1.0.4",
+                        "socks-client": "~>0.1.0"
+                    },
+                    "name": "requests-driver"
+                }
+            ],
+            "dependencies": {
+                "asdf": "~>0.5.7",
+                "dests": "~>0.3.1",
+                "vibe-core": "~>1.9"
+            },
+            "name": "telega",
+            "version": "0.2.0"
         }
     ]
 }
