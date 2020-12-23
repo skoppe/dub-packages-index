@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.network"
     ],
-    "commitID": "755d6b8a18910720b45740d9111afb1e1f638e3b",
+    "commitID": "9bd6d254722c270b6f8aafa92980e30bcdbcd044",
     "dateAdded": "2018-01-02T22:58:34",
     "description": "IRC bot",
     "documentationURL": "https:\/\/zorael.github.io\/kameloso\/kameloso.html",
@@ -380,7 +380,7 @@
             "version": "~mite"
         },
         {
-            "commitID": "1949a2877897d035fbc610664a8998118e34640f",
+            "commitID": "971f923a9394d7aea3cd0f8f73b0c439bf23771e",
             "configurations": [
                 {
                     "name": "application"
@@ -408,8 +408,45 @@
                 }
             ],
             "dependencies": {
-                "arsd-official:dom": "~>8.5.0",
-                "dialect": "~>1.0.0",
+                "arsd-official:dom": "~>9.0.0",
+                "dialect": "~>1.1.0",
+                "lu": "~>1.0.0",
+                "requests": "~>2.0.0"
+            },
+            "name": "kameloso",
+            "version": "~newhostmasks"
+        },
+        {
+            "commitID": "8fef1f96eb10735309833aef31798b0af64b4e47",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "application-lowmem"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitch-lowmem"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "dev-lowmem"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-lowmem"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:dom": "~>9.0.0",
+                "dialect": "~>1.1.0",
                 "lu": "~>1.0.0",
                 "requests": "~>2.0.0"
             },
@@ -599,7 +636,7 @@
             "version": "~troubleshoot-replays"
         },
         {
-            "commitID": "755d6b8a18910720b45740d9111afb1e1f638e3b",
+            "commitID": "9bd6d254722c270b6f8aafa92980e30bcdbcd044",
             "configurations": [
                 {
                     "name": "application"
@@ -627,7 +664,7 @@
                 }
             ],
             "dependencies": {
-                "arsd-official:dom": "~>8.5.0",
+                "arsd-official:dom": "~>9.0.0",
                 "dialect": "~>1.1.0",
                 "lu": "~>1.0.0",
                 "requests": "~>2.0.0"
@@ -2921,6 +2958,43 @@
             },
             "name": "kameloso",
             "version": "2.0.0-rc.3"
+        },
+        {
+            "commitID": "9bd6d254722c270b6f8aafa92980e30bcdbcd044",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "application-lowmem"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitch-lowmem"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "dev-lowmem"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-lowmem"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:dom": "~>9.0.0",
+                "dialect": "~>1.1.0",
+                "lu": "~>1.0.0",
+                "requests": "~>2.0.0"
+            },
+            "name": "kameloso",
+            "version": "2.0.0-rc.4"
         }
     ]
 }
