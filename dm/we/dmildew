@@ -2,9 +2,9 @@
     "categories": [
         "library.scripting"
     ],
-    "commitID": "bf8e29361b8810c1848c7cc83ddc488a0fa2fbb3",
+    "commitID": "8ffcc0383e13b76b98645d55a5711fac40c247e4",
     "dateAdded": "2020-12-27T00:19:26",
-    "description": "Port of PyMilDew to D",
+    "description": "Scripting language for D",
     "documentationURL": "",
     "id": "5fe7c4fe31f73f463f768de9",
     "name": "dmildew",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "bf8e29361b8810c1848c7cc83ddc488a0fa2fbb3",
+            "commitID": "8ffcc0383e13b76b98645d55a5711fac40c247e4",
             "name": "dmildew",
             "subPackages": [
                 {
@@ -42,6 +42,20 @@
                 }
             ],
             "version": "0.0.1"
+        },
+        {
+            "commitID": "8ffcc0383e13b76b98645d55a5711fac40c247e4",
+            "name": "dmildew",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "arsd-official:terminal": "~>9.0.4",
+                        "dmildew": "~main"
+                    },
+                    "name": "repl"
+                }
+            ],
+            "version": "0.0.2"
         }
     ]
 }
