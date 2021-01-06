@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.analyzer"
     ],
-    "commitID": "12b00f615a287e2e17f18be4d0167a243a4fdbe1",
+    "commitID": "e8179e23343bbc72341ae5546d5c92b2e13c535f",
     "dateAdded": "2015-05-01T00:18:27",
     "description": "Dependency Tool for D",
     "documentationURL": "",
@@ -19,6 +19,22 @@
             "commitID": "23e7cc0ae2cccf8899ce05ed497fc8c902705cc9",
             "name": "depend",
             "version": "~devel"
+        },
+        {
+            "commitID": "557354d52bae1c37a4c2a7e51b344c9d6246d7ba",
+            "configurations": [
+                {
+                    "name": "debug"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "depend",
+            "version": "~feature\/direct-decoding"
         },
         {
             "commitID": "f49f7d6e3f356cee38cf94c70265c48b02460e57",
@@ -71,7 +87,7 @@
             "version": "~fix\/check-fqn-prefix-for-dependencies-to-recursive-modules"
         },
         {
-            "commitID": "34c17be3978a0b3713a345c2db31115522e8d4ee",
+            "commitID": "e8179e23343bbc72341ae5546d5c92b2e13c535f",
             "configurations": [
                 {
                     "name": "debug"
@@ -134,6 +150,22 @@
             ],
             "name": "depend",
             "version": "0.3.1"
+        },
+        {
+            "commitID": "e8179e23343bbc72341ae5546d5c92b2e13c535f",
+            "configurations": [
+                {
+                    "name": "debug"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "depend",
+            "version": "0.4.0"
         }
     ]
 }
