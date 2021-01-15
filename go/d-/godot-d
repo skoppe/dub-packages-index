@@ -3,7 +3,7 @@
         "library.gamedev",
         "library.binding"
     ],
-    "commitID": "2b440cbdbb8dabd16d7dfc1624718549f858072b",
+    "commitID": "f4fb1419b40ab8e4fe91557b3ab3c502c15027f1",
     "dateAdded": "2018-03-17T20:27:43",
     "description": "Godot game engine language bindings",
     "documentationURL": "",
@@ -17,9 +17,10 @@
     },
     "versions": [
         {
-            "commitID": "2b440cbdbb8dabd16d7dfc1624718549f858072b",
+            "commitID": "f4fb1419b40ab8e4fe91557b3ab3c502c15027f1",
             "dependencies": {
-                "godot-d:util": ">=0.0.0"
+                "godot-d:util": ">=0.0.0",
+                "sumtype": "~>0.10.1"
             },
             "name": "godot-d",
             "subPackages": [
@@ -32,7 +33,7 @@
                         "dxml": "~>0.4.1",
                         "godot-d:util": ">=0.0.0"
                     },
-                    "name": "generator"
+                    "name": "api-binding-generator"
                 },
                 {
                     "dependencies": {
@@ -69,9 +70,10 @@
             "version": "~releases"
         },
         {
-            "commitID": "14b165fa9cb36341d503ee5db4e8b8edc6c723b5",
+            "commitID": "17e5a55aa2a6b0b7361087bb2ead0da37ca4904f",
             "dependencies": {
-                "godot-d:util": ">=0.0.0"
+                "godot-d:util": ">=0.0.0",
+                "sumtype": "~>0.10.1"
             },
             "name": "godot-d",
             "subPackages": [
@@ -84,7 +86,7 @@
                         "dxml": "~>0.4.1",
                         "godot-d:util": ">=0.0.0"
                     },
-                    "name": "generator"
+                    "name": "api-binding-generator"
                 },
                 {
                     "dependencies": {
@@ -690,6 +692,59 @@
                 }
             ],
             "version": "0.1.9"
+        },
+        {
+            "commitID": "f4fb1419b40ab8e4fe91557b3ab3c502c15027f1",
+            "dependencies": {
+                "godot-d:util": ">=0.0.0",
+                "sumtype": "~>0.10.1"
+            },
+            "name": "godot-d",
+            "subPackages": [
+                {
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "asdf": "~>0.5.2",
+                        "dxml": "~>0.4.1",
+                        "godot-d:util": ">=0.0.0"
+                    },
+                    "name": "api-binding-generator"
+                },
+                {
+                    "dependencies": {
+                        "dsymbol": "~>0.9.0",
+                        "emsi_containers": ">=0.8.0-alpha.18 <0.9.0-0",
+                        "godot-d:util": ">=0.0.0",
+                        "libdparse": "~>0.13.1"
+                    },
+                    "name": "class-finder"
+                },
+                {
+                    "dependencies": {
+                        "godot-d:class-finder": ">=0.0.0",
+                        "godot-d:util": ">=0.0.0"
+                    },
+                    "name": "pregenerate"
+                },
+                {
+                    "dependencies": {
+                        "godot-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "godot-d": ">=0.0.0"
+                    },
+                    "name": "asteroids"
+                }
+            ],
+            "version": "0.1.10"
         }
     ]
 }
