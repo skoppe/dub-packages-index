@@ -2,10 +2,10 @@
     "categories": [
         "library.network"
     ],
-    "commitID": "158d927ac2f239f78bbd9babcaa5a9b8a92af388",
+    "commitID": "6154fe5e86cdc73d0c5628592576ab6cb52ac3cc",
     "dateAdded": "2019-09-07T23:24:24",
     "description": "IRC parsing library",
-    "documentationURL": "https:\/\/zorael.github.io\/dialect\/dialect.html",
+    "documentationURL": "http:\/\/dialect.dpldocs.info",
     "id": "5d7420086412aa4d107a8a3b",
     "name": "dialect",
     "owner": "52262ddffb9e366354000a35",
@@ -128,7 +128,7 @@
             "version": "~v1.0"
         },
         {
-            "commitID": "158d927ac2f239f78bbd9babcaa5a9b8a92af388",
+            "commitID": "c3390cd64bfae4a7a1660e51c4eb114f51b08d3e",
             "configurations": [
                 {
                     "name": "library"
@@ -144,13 +144,13 @@
                 }
             ],
             "dependencies": {
-                "lu": "~>1.0.0"
+                "lu": "~>1.1.1"
             },
             "name": "dialect",
             "subPackages": [
                 {
                     "dependencies": {
-                        "lu": "~>1.0.0"
+                        "lu": "~>1.1.1"
                     },
                     "name": "assertgen"
                 }
@@ -783,6 +783,36 @@
                 }
             ],
             "version": "1.1.0"
+        },
+        {
+            "commitID": "6154fe5e86cdc73d0c5628592576ab6cb52ac3cc",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.1.1"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.1.1"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "1.1.1"
         }
     ]
 }

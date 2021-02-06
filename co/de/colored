@@ -3,7 +3,7 @@
         "library.general",
         "library.encoding"
     ],
-    "commitID": "df0a10a8edfff843f032982116bd4139dd3aa6c4",
+    "commitID": "85544ee5e5ce01219dd8317ea0422ef0837462d9",
     "dateAdded": "2017-07-03T17:31:08",
     "description": "A minimalistic console coloring library.",
     "documentationURL": "",
@@ -17,13 +17,14 @@
     },
     "versions": [
         {
-            "commitID": "df0a10a8edfff843f032982116bd4139dd3aa6c4",
+            "commitID": "85544ee5e5ce01219dd8317ea0422ef0837462d9",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
                     "dependencies": {
+                        "color": "~>0.0.9",
                         "unit-threaded": "~>1.0.0"
                     },
                     "name": "unittest"
@@ -515,6 +516,26 @@
             },
             "name": "colored",
             "version": "0.0.22"
+        },
+        {
+            "commitID": "85544ee5e5ce01219dd8317ea0422ef0837462d9",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "color": "~>0.0.9",
+                        "unit-threaded": "~>1.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "packageversion": "~>0.0.19"
+            },
+            "name": "colored",
+            "version": "0.0.23"
         }
     ]
 }

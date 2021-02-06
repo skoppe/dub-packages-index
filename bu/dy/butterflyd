@@ -2,7 +2,7 @@
     "categories": [
         "application.server.messaging"
     ],
-    "commitID": "738eb9397b7ddb401bd83d96aa5cca233c858770",
+    "commitID": "98c6208fe78b89da938bfd7269ebe569f15a3834",
     "dateAdded": "2020-05-03T17:31:24",
     "description": "Butterfly mail daemon",
     "documentationURL": "",
@@ -16,9 +16,11 @@
     },
     "versions": [
         {
-            "commitID": "738eb9397b7ddb401bd83d96aa5cca233c858770",
+            "commitID": "8ec842ca71a3623c4a689c58958605ed09572c0a",
             "dependencies": {
-                "bformat": "1.0.8"
+                "bformat": "3.1.0",
+                "gogga": "~>0.0.2",
+                "tristanable": "2.2.0"
             },
             "name": "butterflyd",
             "version": "~develop"
@@ -64,9 +66,21 @@
             "version": "~rework_mail"
         },
         {
-            "commitID": "5d12378cd3ee4f045ea96e106d46939c1f75f234",
+            "commitID": "cc8355100115e5e94527b8b536136bbcced1b6ff",
             "dependencies": {
-                "bformat": "1.0.8"
+                "bformat": "3.1.0",
+                "gogga": "~>0.0.2",
+                "tristanable": "2.2.0"
+            },
+            "name": "butterflyd",
+            "version": "~threaded_sender"
+        },
+        {
+            "commitID": "5a9896613c2b0e0e76692157351ff6848fef3e02",
+            "dependencies": {
+                "bformat": "3.1.0",
+                "gogga": "~>0.0.2",
+                "tristanable": "2.2.0"
             },
             "name": "butterflyd",
             "version": "~master"
@@ -343,6 +357,25 @@
             },
             "name": "butterflyd",
             "version": "0.0.34"
+        },
+        {
+            "commitID": "25961601bcc28865df28818adefc674bc2cb83e4",
+            "dependencies": {
+                "bformat": "3.1.0",
+                "tristanable": "~>2.2.0"
+            },
+            "name": "butterflyd",
+            "version": "0.0.35"
+        },
+        {
+            "commitID": "98c6208fe78b89da938bfd7269ebe569f15a3834",
+            "dependencies": {
+                "bformat": "3.1.0",
+                "gogga": "~>0.0.2",
+                "tristanable": "2.2.0"
+            },
+            "name": "butterflyd",
+            "version": "0.0.36"
         }
     ]
 }

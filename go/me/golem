@@ -1,6 +1,8 @@
 {
-    "categories": [],
-    "commitID": "52022eacab3323809f0cc7b94110bf12b18be5cd",
+    "categories": [
+        "library"
+    ],
+    "commitID": "16a5c2588f26a40954c50a6c0d451ce91c4a2d62",
     "dateAdded": "2020-10-06T14:48:10",
     "description": "A simple tensor library for the computational graph on CPU",
     "documentationURL": "",
@@ -14,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "52022eacab3323809f0cc7b94110bf12b18be5cd",
+            "commitID": "3a986182827c44d4e6d7cbd36129662895d36288",
             "configurations": [
                 {
                     "name": "default"
@@ -74,6 +76,68 @@
             },
             "name": "golem",
             "version": "0.1.0"
+        },
+        {
+            "commitID": "16ac2deb2fa3ffbef7091f8e417681eb03b778b6",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "makedeps"
+                },
+                {
+                    "name": "diff-update"
+                },
+                {
+                    "name": "diff"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.9.25",
+                "mir-blas": "~>1.1.13",
+                "msgpack-d": "~>1.0.3",
+                "numir": "2.0.5"
+            },
+            "name": "golem",
+            "version": "0.2.0"
+        },
+        {
+            "commitID": "16a5c2588f26a40954c50a6c0d451ce91c4a2d62",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "makedeps"
+                },
+                {
+                    "name": "diff-update"
+                },
+                {
+                    "name": "diff"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.9.25",
+                "mir-blas": "~>1.1.13",
+                "msgpack-d": "~>1.0.3",
+                "numir": "2.0.5"
+            },
+            "name": "golem",
+            "version": "0.2.1"
         }
     ]
 }

@@ -1,0 +1,813 @@
+{
+    "categories": [
+        "library.gamedev",
+        "library.graphics",
+        "library.scripting"
+    ],
+    "commitID": "859a4fa924c65ca5624ed8c60ad64da28b5a3d30",
+    "dateAdded": "2021-02-02T22:07:56",
+    "description": "An ECS game engine on a Vulkan foundation",
+    "documentationURL": "https:\/\/chances.github.io\/teraflop-d",
+    "id": "6019bf2c0ed5a1d7300b73f1",
+    "name": "teraflop",
+    "owner": "5f93ea512e55812617faa7ff",
+    "repository": {
+        "kind": "github",
+        "owner": "chances",
+        "project": "teraflop-d"
+    },
+    "versions": [
+        {
+            "commitID": "f23d4cd76e8f07686bdd3a6b673d5c6c2164a67a",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                }
+            ],
+            "version": "~gfx"
+        },
+        {
+            "commitID": "36e6dbfe849f310e7d6c63fb9c3982b7555f1d29",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "~issue\/13-segfault"
+        },
+        {
+            "commitID": "cc7ba063ef215ca5fab5684696833a11d886b522",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6",
+                "msgpack-d": "~>1.0.3",
+                "wasmer": "0.2.0"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                }
+            ],
+            "version": "~scripting"
+        },
+        {
+            "commitID": "d40c37618706af4b223b3b1853ff3fb343dbf59d",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "~textures"
+        },
+        {
+            "commitID": "08df1bdc7a23ff1805bcff627a1e7bb4e2c41314",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "erupted": "~>2.1.0",
+                "gfm:math": "~>8",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                }
+            ],
+            "version": "~vulkan"
+        },
+        {
+            "commitID": "b227ebd87ad6f5183ca84304a33403857d2d5dcc",
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "libasync": "~>0.8.6",
+                "wgpu-d": "~master"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                }
+            ],
+            "version": "~wgpu"
+        },
+        {
+            "commitID": "941fac99afa0c68122e4da85d3da4402a87918cf",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "commitID": "99ab38e36e7e02bd50bc76a5985397c50fd6fefb",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.1.0"
+        },
+        {
+            "commitID": "a6a546b681bb32967811e5ca432a53917d3e574a",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.1.1"
+        },
+        {
+            "commitID": "9973242a34dad8cae71b9a2715e2043ba8953392",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.1.2"
+        },
+        {
+            "commitID": "0b526f08b8de8fa01bbc9d166f113bb128b6dc17",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.2.0"
+        },
+        {
+            "commitID": "015e0060b87bedf4e932c488671cde21ad71cb1f",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.3.0"
+        },
+        {
+            "commitID": "3e468b056525478dccbc2bda3aa83f36bd0d4b9a",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.4.0"
+        },
+        {
+            "commitID": "4dcd3ce9d6ebfe100c08e03cccfb3e36e46fc8fd",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.5.0"
+        },
+        {
+            "commitID": "3b93b975163294798ac6e8a5acde7a7c4ce43e29",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.5.1"
+        },
+        {
+            "commitID": "ce4384303a2ddcc66ad92a752acfe7ae2b46cf15",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.6.0"
+        },
+        {
+            "commitID": "202bf77dc0efc915080a406cb5ab13895b3987f2",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.7.0"
+        },
+        {
+            "commitID": "1698498cda28f3a33069c4cd42c67e30d7b14569",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.7.1"
+        },
+        {
+            "commitID": "b18226e2c2a6b9792752407050ac0eb1ba9a8fa6",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.7.2"
+        },
+        {
+            "commitID": "859a4fa924c65ca5624ed8c60ad64da28b5a3d30",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-gpu"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1",
+                "concepts": "~>0.0.8",
+                "gfm:math": "~>8",
+                "gfx:genmesh": "~master",
+                "gfx:graal": "~master",
+                "gfx:vulkan": "~master",
+                "libasync": "~>0.8.6"
+            },
+            "name": "teraflop",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "teraflop": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.8.0"
+        }
+    ]
+}

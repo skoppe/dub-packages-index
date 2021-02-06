@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.build"
     ],
-    "commitID": "b4ecbc3a075da45f514e25415e8dceffe7a7018a",
+    "commitID": "304abc6f4606969b50c2f698211a67121f60626b",
     "dateAdded": "2015-03-18T19:10:29",
     "description": "A build system in D",
     "documentationURL": "",
@@ -16,23 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "95220a8250469992f274f684971dd06d95e46a04",
-            "configurations": [
-                {
-                    "name": "executable"
-                },
-                {
-                    "dependencies": {
-                        "unit-threaded": ">=0.0.0"
-                    },
-                    "name": "unittest"
-                }
-            ],
-            "name": "reggae",
-            "version": "~fix-windows"
-        },
-        {
-            "commitID": "b4ecbc3a075da45f514e25415e8dceffe7a7018a",
+            "commitID": "78db1156b820f373f0a53d33e1ba4c72c122d13f",
             "configurations": [
                 {
                     "name": "executable"
@@ -45,7 +29,26 @@
                 }
             ],
             "dependencies": {
-                "dub": "~>1.14.0"
+                "dub": "~>1.23.0"
+            },
+            "name": "reggae",
+            "version": "~fix-45"
+        },
+        {
+            "commitID": "304abc6f4606969b50c2f698211a67121f60626b",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dub": "~>1.23.0"
             },
             "name": "reggae",
             "version": "~master"
@@ -927,6 +930,25 @@
             },
             "name": "reggae",
             "version": "0.8.2"
+        },
+        {
+            "commitID": "304abc6f4606969b50c2f698211a67121f60626b",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dub": "~>1.23.0"
+            },
+            "name": "reggae",
+            "version": "0.8.3"
         }
     ]
 }

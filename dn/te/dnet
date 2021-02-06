@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "325b37c5dada061f4f914aa633d70d4aa728a5bf",
+    "commitID": "d6a62713a2d85d4b07aa0492736ed3353ff0f108",
     "dateAdded": "2020-09-29T00:05:52",
     "description": "dnet server",
     "documentationURL": "",
@@ -14,14 +14,24 @@
     },
     "versions": [
         {
-            "commitID": "a246ef1d7357c9135b08f031f18961d912b5bc58",
+            "commitID": "f780df7c56551898fa9062abcc632a08165808ea",
             "dependencies": {
-                "bformat": "~>1.0.8",
-                "gogga": "~>0.0.2",
-                "tristanable": "~>0.0.33"
+                "bformat": "~>3.1.0",
+                "gogga": "0.0.2",
+                "tristanable": "2.2.0"
             },
             "name": "dnet",
             "version": "~develop"
+        },
+        {
+            "commitID": "f780df7c56551898fa9062abcc632a08165808ea",
+            "dependencies": {
+                "bformat": "~>3.1.0",
+                "gogga": "0.0.2",
+                "tristanable": "2.2.0"
+            },
+            "name": "dnet",
+            "version": "~direct_messages"
         },
         {
             "commitID": "e265e092238fbe93d7e024f99e5ebf3f0137b52b",
@@ -40,6 +50,16 @@
             "version": "~link_protocol"
         },
         {
+            "commitID": "b32d26a53b4627214462026e550d8ee494712a6b",
+            "dependencies": {
+                "bformat": "3.1.0",
+                "gogga": "0.0.2",
+                "tristanable": "2.2.0"
+            },
+            "name": "dnet",
+            "version": "~linking"
+        },
+        {
             "commitID": "cc95b8e2e9bfa6ca11d657addc5b41ca7c3e764a",
             "dependencies": {
                 "bformat": "~>1.0.8",
@@ -50,7 +70,17 @@
             "version": "~listeners"
         },
         {
-            "commitID": "325b37c5dada061f4f914aa633d70d4aa728a5bf",
+            "commitID": "ce05d226bab484f741a55ecd7548cd53bd59a30c",
+            "dependencies": {
+                "bformat": "~>3.1.0",
+                "gogga": "~>0.0.2",
+                "tristanable": "~>0.0.33"
+            },
+            "name": "dnet",
+            "version": "~multiple_listeners"
+        },
+        {
+            "commitID": "ce05d226bab484f741a55ecd7548cd53bd59a30c",
             "dependencies": {
                 "bformat": "~>3.1.0",
                 "gogga": "~>0.0.2",
@@ -77,9 +107,11 @@
             "version": "~type_checking"
         },
         {
-            "commitID": "c560d9d4d9a8b18543d2b4f4dc651923fc284168",
+            "commitID": "f780df7c56551898fa9062abcc632a08165808ea",
             "dependencies": {
-                "tristanable": "~>0.0.33"
+                "bformat": "~>3.1.0",
+                "gogga": "0.0.2",
+                "tristanable": "2.2.0"
             },
             "name": "dnet",
             "version": "~master"
@@ -250,6 +282,36 @@
             },
             "name": "dnet",
             "version": "0.0.20"
+        },
+        {
+            "commitID": "32b3ca7661a05837670f0ffff702bd3f081a6f79",
+            "dependencies": {
+                "bformat": "~>3.1.0",
+                "gogga": "0.0.2",
+                "tristanable": "2.2.0"
+            },
+            "name": "dnet",
+            "version": "0.1.0"
+        },
+        {
+            "commitID": "1c9168a6b86bf83a6e1e3631a46ce46bcbb07287",
+            "dependencies": {
+                "bformat": "~>3.1.0",
+                "gogga": "0.0.2",
+                "tristanable": "2.2.0"
+            },
+            "name": "dnet",
+            "version": "0.1.1"
+        },
+        {
+            "commitID": "d6a62713a2d85d4b07aa0492736ed3353ff0f108",
+            "dependencies": {
+                "bformat": "~>3.1.0",
+                "gogga": "0.0.2",
+                "tristanable": "2.2.0"
+            },
+            "name": "dnet",
+            "version": "0.2.0"
         }
     ]
 }

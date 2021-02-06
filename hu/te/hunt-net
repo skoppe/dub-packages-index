@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "fec3afd8bfa48789f18d9c1a2c9935c0e76a24ac",
+    "commitID": "b5e8a66296fca4bc6b5dae91648863ca9b8d4463",
     "dateAdded": "2018-07-18T11:44:54",
     "description": "A network library for hunt.",
     "documentationURL": "",
@@ -53,7 +53,7 @@
             "version": "~v0.4.x"
         },
         {
-            "commitID": "fec3afd8bfa48789f18d9c1a2c9935c0e76a24ac",
+            "commitID": "1cc8646de3f69f4638a9d12c39f3c826e2f4e830",
             "configurations": [
                 {
                     "name": "default"
@@ -67,6 +67,25 @@
             ],
             "dependencies": {
                 "hunt-extra": "~>1.0.7"
+            },
+            "name": "hunt-net",
+            "version": "~v0.5.x"
+        },
+        {
+            "commitID": "b5e8a66296fca4bc6b5dae91648863ca9b8d4463",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "hunt-openssl": "~>1.0.1"
+                    },
+                    "name": "ssl"
+                }
+            ],
+            "dependencies": {
+                "hunt-extra": "~>1.1.0"
             },
             "name": "hunt-net",
             "version": "~master"
@@ -316,63 +335,6 @@
             "version": "0.4.13"
         },
         {
-            "commitID": "3ad69915b8594509c05eb64e31b318b3986de681",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "dependencies": {
-                        "hunt-openssl": "~>1.0.1"
-                    },
-                    "name": "ssl"
-                }
-            ],
-            "dependencies": {
-                "hunt-extra": "~>1.0.0"
-            },
-            "name": "hunt-net",
-            "version": "0.5.1"
-        },
-        {
-            "commitID": "40367790816e90146de3de45ce9ec08a815aef6c",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "dependencies": {
-                        "hunt-openssl": "~>1.0.1"
-                    },
-                    "name": "ssl"
-                }
-            ],
-            "dependencies": {
-                "hunt-extra": "~>1.0.0"
-            },
-            "name": "hunt-net",
-            "version": "0.5.3"
-        },
-        {
-            "commitID": "6632c83781272a8024b36a106a57010171b4dc91",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "dependencies": {
-                        "hunt-openssl": "~>1.0.1"
-                    },
-                    "name": "ssl"
-                }
-            ],
-            "dependencies": {
-                "hunt-extra": "~>1.0.0"
-            },
-            "name": "hunt-net",
-            "version": "0.5.4"
-        },
-        {
             "commitID": "28ffb561ea19832b39b17435b93f98f8b5c461d5",
             "configurations": [
                 {
@@ -466,6 +428,44 @@
             },
             "name": "hunt-net",
             "version": "0.5.9"
+        },
+        {
+            "commitID": "1cc8646de3f69f4638a9d12c39f3c826e2f4e830",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "hunt-openssl": "~>1.0.1"
+                    },
+                    "name": "ssl"
+                }
+            ],
+            "dependencies": {
+                "hunt-extra": "~>1.0.7"
+            },
+            "name": "hunt-net",
+            "version": "0.5.10"
+        },
+        {
+            "commitID": "b5e8a66296fca4bc6b5dae91648863ca9b8d4463",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "hunt-openssl": "~>1.0.1"
+                    },
+                    "name": "ssl"
+                }
+            ],
+            "dependencies": {
+                "hunt-extra": "~>1.1.0"
+            },
+            "name": "hunt-net",
+            "version": "0.6.2"
         }
     ]
 }
