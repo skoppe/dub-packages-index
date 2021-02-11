@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "c0fe7a4367f8fdcc112ddd7bc802f1d0bd622218",
+    "commitID": "c7cec481f9c1e675196add7bfd87c1872dd2baef",
     "dateAdded": "2021-01-14T12:40:56",
     "description": "concurrency library",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "c0fe7a4367f8fdcc112ddd7bc802f1d0bd622218",
+            "commitID": "c7cec481f9c1e675196add7bfd87c1872dd2baef",
             "configurations": [
                 {
                     "name": "default"
@@ -186,6 +186,28 @@
             },
             "name": "concurrency",
             "version": "0.0.8"
+        },
+        {
+            "commitID": "c7cec481f9c1e675196add7bfd87c1872dd2baef",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "nodip"
+                }
+            ],
+            "dependencies": {
+                "concepts": "~>0.0.8"
+            },
+            "name": "concurrency",
+            "version": "0.0.9"
         }
     ]
 }
