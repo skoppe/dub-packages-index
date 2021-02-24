@@ -2,7 +2,7 @@
     "categories": [
         "library.scripting"
     ],
-    "commitID": "f62a82322cc96ddfda95ed251d7c8b43572d6337",
+    "commitID": "e24c39652a6347f2de43cba04faf4398fef624a8",
     "dateAdded": "2020-12-27T00:19:26",
     "description": "Scripting language for D",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "f62a82322cc96ddfda95ed251d7c8b43572d6337",
+            "commitID": "e24c39652a6347f2de43cba04faf4398fef624a8",
             "name": "dmildew",
             "subPackages": [
                 {
@@ -464,6 +464,26 @@
                 }
             ],
             "version": "0.5.8"
+        },
+        {
+            "commitID": "e24c39652a6347f2de43cba04faf4398fef624a8",
+            "name": "dmildew",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "arsd-official:terminal": "~>9.0.4",
+                        "dmildew": "~main"
+                    },
+                    "name": "run"
+                },
+                {
+                    "dependencies": {
+                        "dmildew": "~main"
+                    },
+                    "name": "bccompiler"
+                }
+            ],
+            "version": "0.5.9"
         }
     ]
 }
