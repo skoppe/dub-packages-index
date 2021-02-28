@@ -3,7 +3,7 @@
         "application.desktop.development.compiler",
         "library.development.parsing"
     ],
-    "commitID": "0978204a62543e3889606c4b6caa5f71c7cc968e",
+    "commitID": "9f40eb24c4d572e10664a2b313c84f81f92b1db9",
     "dateAdded": "2020-04-14T10:42:00",
     "description": "The DMD compiler",
     "documentationURL": "",
@@ -110,7 +110,7 @@
             "version": "~source-manager"
         },
         {
-            "commitID": "0978204a62543e3889606c4b6caa5f71c7cc968e",
+            "commitID": "9f40eb24c4d572e10664a2b313c84f81f92b1db9",
             "dependencies": {
                 "ddc:frontend": ">=0.0.0"
             },
@@ -325,6 +325,37 @@
                 }
             ],
             "version": "0.0.6+2.095.0"
+        },
+        {
+            "commitID": "9f40eb24c4d572e10664a2b313c84f81f92b1db9",
+            "dependencies": {
+                "ddc:frontend": ">=0.0.0"
+            },
+            "name": "ddc",
+            "subPackages": [
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "ddc:root": ">=0.0.0"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "ddc:lexer": ">=0.0.0"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "ddc:parser": ">=0.0.0"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "0.0.7+9a66edc"
         }
     ]
 }
