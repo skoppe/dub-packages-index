@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "332090d303aeafbbf8dda083632494eafa472008",
+    "commitID": "394c2d64c4edc68ba00123bbbdaf6dbc7caf9776",
     "dateAdded": "2021-01-14T12:40:56",
     "description": "concurrency library",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "332090d303aeafbbf8dda083632494eafa472008",
+            "commitID": "394c2d64c4edc68ba00123bbbdaf6dbc7caf9776",
             "configurations": [
                 {
                     "name": "default"
@@ -300,6 +300,52 @@
             },
             "name": "concurrency",
             "version": "0.0.13"
+        },
+        {
+            "commitID": "ac329f46dfcf896065c9d1a97299b53e96c6abab",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "nodip"
+                }
+            ],
+            "dependencies": {
+                "concepts": "~>0.0.8",
+                "mir-core": "~>1.1.62"
+            },
+            "name": "concurrency",
+            "version": "0.0.14"
+        },
+        {
+            "commitID": "394c2d64c4edc68ba00123bbbdaf6dbc7caf9776",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "nodip"
+                }
+            ],
+            "dependencies": {
+                "concepts": "~>0.0.8",
+                "mir-core": "~>1.1.62"
+            },
+            "name": "concurrency",
+            "version": "1.0.0"
         }
     ]
 }
