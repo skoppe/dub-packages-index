@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.audio"
     ],
-    "commitID": "3a3352bafad4577efc182b5c35b5bfafefc02fd9",
+    "commitID": "bbd406ab0ac1e4ee6053e20ea0c58bb709151c15",
     "dateAdded": "2018-12-08T14:00:46",
     "description": "Dynamic bindings to OpenAL, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -18,7 +18,32 @@
     },
     "versions": [
         {
-            "commitID": "3a3352bafad4577efc182b5c35b5bfafefc02fd9",
+            "commitID": "ea2c907df2125d0b0d48214c8070b22690909657",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-openal",
+            "version": "~enhancements"
+        },
+        {
+            "commitID": "bbd406ab0ac1e4ee6053e20ea0c58bb709151c15",
             "configurations": [
                 {
                     "dependencies": {
@@ -160,6 +185,31 @@
             ],
             "name": "bindbc-openal",
             "version": "0.4.1"
+        },
+        {
+            "commitID": "bbd406ab0ac1e4ee6053e20ea0c58bb709151c15",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-openal",
+            "version": "0.5.0"
         }
     ]
 }
