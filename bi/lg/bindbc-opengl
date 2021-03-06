@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.graphics"
     ],
-    "commitID": "6b31d794788d46a0ba491eed7cd80429af97ecdd",
+    "commitID": "e07730e633c1d6b29912811db1b50ed5779b6aec",
     "dateAdded": "2018-10-18T17:24:00",
     "description": "Dynamic bindings to OpenGL, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "6b31d794788d46a0ba491eed7cd80429af97ecdd",
+            "commitID": "e07730e633c1d6b29912811db1b50ed5779b6aec",
             "configurations": [
                 {
                     "name": "dynamic"
@@ -336,6 +336,22 @@
             },
             "name": "bindbc-opengl",
             "version": "0.15.0"
+        },
+        {
+            "commitID": "e07730e633c1d6b29912811db1b50ed5779b6aec",
+            "configurations": [
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "dynamicBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.3.0"
+            },
+            "name": "bindbc-opengl",
+            "version": "0.16.0"
         }
     ]
 }
