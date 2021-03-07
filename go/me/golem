@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "f2933e97eccaf3b8f442e0e574ff6204d50c574c",
+    "commitID": "769ee56a3ca02857ead7d4fe57172833da872bfb",
     "dateAdded": "2020-10-06T14:48:10",
     "description": "A simple tensor library for the computational graph on CPU",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "f2933e97eccaf3b8f442e0e574ff6204d50c574c",
+            "commitID": "769ee56a3ca02857ead7d4fe57172833da872bfb",
             "configurations": [
                 {
                     "name": "default"
@@ -200,6 +200,37 @@
             },
             "name": "golem",
             "version": "0.4.0"
+        },
+        {
+            "commitID": "769ee56a3ca02857ead7d4fe57172833da872bfb",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "makedeps"
+                },
+                {
+                    "name": "diff-update"
+                },
+                {
+                    "name": "diff"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.9.25",
+                "mir-blas": "~>1.1.13",
+                "msgpack-d": "~>1.0.3",
+                "numir": "2.0.5"
+            },
+            "name": "golem",
+            "version": "0.5.0"
         }
     ]
 }
