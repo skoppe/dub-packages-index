@@ -5,7 +5,7 @@
         "library.generic",
         "library.gamedev"
     ],
-    "commitID": "54981d8447226d09d657c4a736d32513750b157e",
+    "commitID": "e476ece591512b1bf677536b3d90ee714a2ff829",
     "dateAdded": "2021-02-24T14:57:10",
     "description": "A GLFW wrapper for GLFWwindow in D",
     "documentationURL": "https:\/\/github.com\/ValhallaLib\/valhalla_window",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "54981d8447226d09d657c4a736d32513750b157e",
+            "commitID": "e476ece591512b1bf677536b3d90ee714a2ff829",
             "configurations": [
                 {
                     "name": "default"
@@ -55,6 +55,25 @@
             },
             "name": "valhalla_window",
             "version": "0.0.1-alpha"
+        },
+        {
+            "commitID": "e476ece591512b1bf677536b3d90ee714a2ff829",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": "0.0.1-alpha.4"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "bindbc-glfw": "~>0.10.1"
+            },
+            "name": "valhalla_window",
+            "version": "0.0.2-alpha"
         }
     ]
 }
