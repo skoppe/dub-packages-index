@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop"
     ],
-    "commitID": "37bb80678831677c4827898d426b7c0d57477686",
+    "commitID": "eea97eeadd32701c48a5eaad56c69d310fb61280",
     "dateAdded": "2018-07-16T04:49:57",
     "description": "eBay's TSV utilities. Command line tools for large, tabular data files. Filtering, statistics, sampling, joins and more.",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "37bb80678831677c4827898d426b7c0d57477686",
+            "commitID": "eea97eeadd32701c48a5eaad56c69d310fb61280",
             "configurations": [
                 {
                     "name": "executable"
@@ -4157,6 +4157,228 @@
                 }
             ],
             "version": "2.1.2"
+        },
+        {
+            "commitID": "eea97eeadd32701c48a5eaad56c69d310fb61280",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "tsv-utils",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "csv2tsv"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "keep-header"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "number-lines"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "tsv-append"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "tsv-filter"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "tsv-join"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "tsv-pretty"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "tsv-sample"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "tsv-select"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "tsv-split"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "tsv-summarize"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tsv-utils:common": {
+                                    "path": "..",
+                                    "version": ">=0.0.0"
+                                }
+                            },
+                            "name": "executable"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "tsv-uniq"
+                }
+            ],
+            "version": "2.2.0"
         }
     ]
 }
