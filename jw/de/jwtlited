@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "753cbe462a73382dcf07eccd539515d94ef50200",
+    "commitID": "31f5a45abeaaca1a059c8b951e2da965ebe0f641",
     "dateAdded": "2021-03-16T13:43:59",
     "description": "Fast and lightweight JSON Web Token Dlang implementation.",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "753cbe462a73382dcf07eccd539515d94ef50200",
+            "commitID": "31f5a45abeaaca1a059c8b951e2da965ebe0f641",
             "dependencies": {
                 "jwtlited:base": ">=0.0.0"
             },
@@ -70,6 +70,35 @@
                 }
             ],
             "version": "1.0.0"
+        },
+        {
+            "commitID": "31f5a45abeaaca1a059c8b951e2da965ebe0f641",
+            "dependencies": {
+                "jwtlited:base": ">=0.0.0"
+            },
+            "name": "jwtlited",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bc-string": ">=1.2.0"
+                    },
+                    "name": "base"
+                },
+                {
+                    "dependencies": {
+                        "jwtlited:base": ">=0.0.0",
+                        "openssl": ">=2.0.1+1.1.0h"
+                    },
+                    "name": "openssl"
+                },
+                {
+                    "dependencies": {
+                        "jwtlited:base": ">=0.0.0"
+                    },
+                    "name": "phobos"
+                }
+            ],
+            "version": "1.0.1"
         }
     ]
 }
