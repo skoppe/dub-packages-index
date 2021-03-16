@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "fe7f1ee91e20c63c14af00f4ed86de4a05159afd",
+    "commitID": "e686eb54d58cb129d937be555e5e9724c11a4894",
     "dateAdded": "2020-07-25T23:44:38",
     "description": "RE_NGINE_FX game framework\/engine",
     "documentationURL": "",
@@ -84,6 +84,40 @@
             "version": "~3d_phys_newton"
         },
         {
+            "commitID": "e686eb54d58cb129d937be555e5e9724c11a4894",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dlib": "~>0.19.1",
+                        "dmech": "~>0.4.1"
+                    },
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "dmech": "~>0.4.1",
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "datefmt": "~>1.0.4",
+                "dray": ">=3.5.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "~hidpi-scaling"
+        },
+        {
             "commitID": "6fc38252c4eb73ab5ba3edf926914078dbf49614",
             "configurations": [
                 {
@@ -152,7 +186,7 @@
             "version": "~raylib-3.5"
         },
         {
-            "commitID": "fe7f1ee91e20c63c14af00f4ed86de4a05159afd",
+            "commitID": "e686eb54d58cb129d937be555e5e9724c11a4894",
             "configurations": [
                 {
                     "dependencies": {
@@ -721,6 +755,40 @@
             },
             "name": "reng",
             "version": "0.4.0"
+        },
+        {
+            "commitID": "e686eb54d58cb129d937be555e5e9724c11a4894",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dlib": "~>0.19.1",
+                        "dmech": "~>0.4.1"
+                    },
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "dmech": "~>0.4.1",
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "datefmt": "~>1.0.4",
+                "dray": ">=3.5.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.4.1"
         }
     ]
 }
