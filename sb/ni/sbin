@@ -2,7 +2,7 @@
     "categories": [
         "library.general"
     ],
-    "commitID": "c62b22345da85e5ac70bb155fcc8cc41e433b890",
+    "commitID": "568530de48bcd1686591872facc2e48e5957e73a",
     "dateAdded": "2019-05-13T23:33:50",
     "description": "Simple binary [de]serialize",
     "documentationURL": "",
@@ -16,11 +16,15 @@
     },
     "versions": [
         {
-            "commitID": "c62b22345da85e5ac70bb155fcc8cc41e433b890",
+            "commitID": "3ddefa89af1a0b2f5e2a75775d0ad6fb13f85bef",
             "dependencies": {
                 "mir-core": {
                     "optional": true,
                     "version": "~>1.1.54"
+                },
+                "sumtype": {
+                    "optional": true,
+                    "version": "~>1.1.0"
                 },
                 "taggedalgebraic": {
                     "optional": true,
@@ -145,6 +149,25 @@
             },
             "name": "sbin",
             "version": "0.7.1"
+        },
+        {
+            "commitID": "568530de48bcd1686591872facc2e48e5957e73a",
+            "dependencies": {
+                "mir-core": {
+                    "optional": true,
+                    "version": "~>1.1.54"
+                },
+                "sumtype": {
+                    "optional": true,
+                    "version": "~>1.1.0"
+                },
+                "taggedalgebraic": {
+                    "optional": true,
+                    "version": "~>0.11.18"
+                }
+            },
+            "name": "sbin",
+            "version": "0.8.0"
         }
     ]
 }
