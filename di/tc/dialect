@@ -2,7 +2,7 @@
     "categories": [
         "library.network"
     ],
-    "commitID": "6154fe5e86cdc73d0c5628592576ab6cb52ac3cc",
+    "commitID": "277836412a8f3218cd28eb2e59567ea7273b2425",
     "dateAdded": "2019-09-07T23:24:24",
     "description": "IRC parsing library",
     "documentationURL": "http:\/\/dialect.dpldocs.info",
@@ -128,7 +128,7 @@
             "version": "~v1.0"
         },
         {
-            "commitID": "c3390cd64bfae4a7a1660e51c4eb114f51b08d3e",
+            "commitID": "277836412a8f3218cd28eb2e59567ea7273b2425",
             "configurations": [
                 {
                     "name": "library"
@@ -813,6 +813,36 @@
                 }
             ],
             "version": "1.1.1"
+        },
+        {
+            "commitID": "277836412a8f3218cd28eb2e59567ea7273b2425",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.1.1"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.1.1"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "1.2.0"
         }
     ]
 }
