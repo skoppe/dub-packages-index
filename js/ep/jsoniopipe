@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "4d3633b22935db4fa7da4a0f8c5b3d47d7d48799",
+    "commitID": "4fa5350ed97786e34612a755f7e857544c6f9512",
     "dateAdded": "2019-08-05T16:07:09",
     "description": "JSON parser for iopipe",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "4d3633b22935db4fa7da4a0f8c5b3d47d7d48799",
+            "commitID": "4fa5350ed97786e34612a755f7e857544c6f9512",
             "dependencies": {
                 "iopipe": ">=0.0.0"
             },
@@ -92,6 +92,22 @@
                 }
             ],
             "version": "0.1.3"
+        },
+        {
+            "commitID": "4fa5350ed97786e34612a755f7e857544c6f9512",
+            "dependencies": {
+                "iopipe": ">=0.0.0"
+            },
+            "name": "jsoniopipe",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jsoniopipe": ">=0.0.0"
+                    },
+                    "name": "formatjson"
+                }
+            ],
+            "version": "0.1.4"
         }
     ]
 }
