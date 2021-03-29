@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "966281191827bf1965869b619114d96d4b621913",
+    "commitID": "baa10e5c55ce74a68b2c7e8ac423214e7bf3bdbd",
     "dateAdded": "2021-03-16T13:43:59",
     "description": "Fast and lightweight JSON Web Token Dlang implementation.",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "966281191827bf1965869b619114d96d4b621913",
+            "commitID": "baa10e5c55ce74a68b2c7e8ac423214e7bf3bdbd",
             "dependencies": {
                 "jwtlited:base": ">=0.0.0"
             },
@@ -25,6 +25,21 @@
                         "bc-string": ">=1.2.0"
                     },
                     "name": "base"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-gnutls": ">=1.1.0",
+                        "jwtlited:base": ">=0.0.0"
+                    },
+                    "name": "gnutls"
                 },
                 {
                     "dependencies": {
@@ -128,6 +143,50 @@
                 }
             ],
             "version": "1.1.0"
+        },
+        {
+            "commitID": "baa10e5c55ce74a68b2c7e8ac423214e7bf3bdbd",
+            "dependencies": {
+                "jwtlited:base": ">=0.0.0"
+            },
+            "name": "jwtlited",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bc-string": ">=1.2.0"
+                    },
+                    "name": "base"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-gnutls": ">=1.1.0",
+                        "jwtlited:base": ">=0.0.0"
+                    },
+                    "name": "gnutls"
+                },
+                {
+                    "dependencies": {
+                        "jwtlited:base": ">=0.0.0",
+                        "openssl": ">=2.0.1+1.1.0h"
+                    },
+                    "name": "openssl"
+                },
+                {
+                    "dependencies": {
+                        "jwtlited:base": ">=0.0.0"
+                    },
+                    "name": "phobos"
+                }
+            ],
+            "version": "1.2.0"
         }
     ]
 }
