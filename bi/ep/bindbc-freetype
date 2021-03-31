@@ -3,7 +3,7 @@
         "library.binding",
         "library.graphics"
     ],
-    "commitID": "5b8c3cddc78589f16dbf4458faacdf0709dbb79c",
+    "commitID": "b9fd97860060da841cde68f811609a12ae30af19",
     "dateAdded": "2019-03-29T15:41:16",
     "description": "Dynamic and static bindings to FreeType, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "5b8c3cddc78589f16dbf4458faacdf0709dbb79c",
+            "commitID": "b9fd97860060da841cde68f811609a12ae30af19",
             "configurations": [
                 {
                     "dependencies": {
@@ -365,6 +365,31 @@
             ],
             "name": "bindbc-freetype",
             "version": "0.9.1"
+        },
+        {
+            "commitID": "b9fd97860060da841cde68f811609a12ae30af19",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-freetype",
+            "version": "0.10.0"
         }
     ]
 }
