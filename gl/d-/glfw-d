@@ -4,7 +4,7 @@
         "library.graphics",
         "library.nogc"
     ],
-    "commitID": "a68ade3a5816050e788abc83c2387f9001c637b0",
+    "commitID": "16d1ddbc7841ebdf43330f708ba28d4d9322c11b",
     "dateAdded": "2020-08-20T13:50:37",
     "description": "D translation of GLFW, a multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input",
     "documentationURL": "",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "7dacc9e3ba822d47d249eb84e3335dd8bab1e78f",
+            "commitID": "49556dddef3f9781f727e25e3b81ec78c8d57480",
             "configurations": [
                 {
                     "name": "x11"
@@ -27,9 +27,6 @@
                     "name": "windows"
                 },
                 {
-                    "dependencies": {
-                        "xkbcommon-d": "0.5.1"
-                    },
                     "name": "wayland"
                 },
                 {
@@ -44,17 +41,37 @@
                 {
                     "dependencies": {
                         "glfw-d": {
-                            "path": "..\/",
+                            "path": "..\/..\/",
                             "version": ">=0.0.0"
                         }
                     },
-                    "name": "example"
+                    "name": "empty-window"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-opengl": "~>0.13.0",
+                        "glfw-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle-gl"
+                },
+                {
+                    "dependencies": {
+                        "erupted": "~>2.1.12",
+                        "glfw-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle-vulkan"
                 }
             ],
             "version": "~develop"
         },
         {
-            "commitID": "a68ade3a5816050e788abc83c2387f9001c637b0",
+            "commitID": "1ee85ed4221e9c48730cbe2d98f0e50a74435627",
             "configurations": [
                 {
                     "name": "x11"
@@ -63,9 +80,6 @@
                     "name": "windows"
                 },
                 {
-                    "dependencies": {
-                        "xkbcommon-d": "0.5.1"
-                    },
                     "name": "wayland"
                 },
                 {
@@ -80,11 +94,74 @@
                 {
                     "dependencies": {
                         "glfw-d": {
-                            "path": "..\/",
+                            "path": "..\/..\/",
                             "version": ">=0.0.0"
                         }
                     },
-                    "name": "example"
+                    "name": "empty-window"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-opengl": "~>0.13.0",
+                        "glfw-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle-gl"
+                }
+            ],
+            "version": "~joystick-rumble"
+        },
+        {
+            "commitID": "16d1ddbc7841ebdf43330f708ba28d4d9322c11b",
+            "configurations": [
+                {
+                    "name": "x11"
+                },
+                {
+                    "name": "windows"
+                },
+                {
+                    "name": "wayland"
+                },
+                {
+                    "name": "osmesa"
+                },
+                {
+                    "name": "cocoa"
+                }
+            ],
+            "name": "glfw-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "glfw-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "empty-window"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-opengl": "~>0.13.0",
+                        "glfw-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle-gl"
+                },
+                {
+                    "dependencies": {
+                        "erupted": "~>2.1.12",
+                        "glfw-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle-vulkan"
                 }
             ],
             "version": "~master"
@@ -160,6 +237,59 @@
                 }
             ],
             "version": "1.0.1"
+        },
+        {
+            "commitID": "16d1ddbc7841ebdf43330f708ba28d4d9322c11b",
+            "configurations": [
+                {
+                    "name": "x11"
+                },
+                {
+                    "name": "windows"
+                },
+                {
+                    "name": "wayland"
+                },
+                {
+                    "name": "osmesa"
+                },
+                {
+                    "name": "cocoa"
+                }
+            ],
+            "name": "glfw-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "glfw-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "empty-window"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-opengl": "~>0.13.0",
+                        "glfw-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle-gl"
+                },
+                {
+                    "dependencies": {
+                        "erupted": "~>2.1.12",
+                        "glfw-d": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "triangle-vulkan"
+                }
+            ],
+            "version": "1.1.0"
         }
     ]
 }
