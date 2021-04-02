@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "58109cd4fd99d5618f85b40b5780a47f07b8ab00",
+    "commitID": "0b80e55f582e271ffc804a2eab9061e6a88340b5",
     "dateAdded": "2018-10-16T18:49:45",
     "description": "Jupyter kernel written in D",
     "documentationURL": "",
@@ -34,7 +34,7 @@
             "version": "~add-mime"
         },
         {
-            "commitID": "58109cd4fd99d5618f85b40b5780a47f07b8ab00",
+            "commitID": "0b80e55f582e271ffc804a2eab9061e6a88340b5",
             "configurations": [
                 {
                     "name": "default"
@@ -261,6 +261,26 @@
             },
             "name": "jupyter_wire",
             "version": "0.1.1"
+        },
+        {
+            "commitID": "0b80e55f582e271ffc804a2eab9061e6a88340b5",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "asdf": ">=0.7.1 <0.8.5",
+                "zmqd": "~>1.1.2"
+            },
+            "name": "jupyter_wire",
+            "version": "0.1.2"
         }
     ]
 }
