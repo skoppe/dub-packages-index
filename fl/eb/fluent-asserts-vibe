@@ -2,7 +2,7 @@
     "categories": [
         "library.vibed"
     ],
-    "commitID": "cd06e810315050317efe4620f8e2404678f74f44",
+    "commitID": "bf3f480b15ecba13a90c96b629f479d69c617840",
     "dateAdded": "2020-04-02T16:45:23",
     "description": "Fluent assertions for Vibe.d",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "cd06e810315050317efe4620f8e2404678f74f44",
+            "commitID": "bf3f480b15ecba13a90c96b629f479d69c617840",
             "configurations": [
                 {
                     "name": "library"
@@ -26,15 +26,9 @@
                 }
             ],
             "dependencies": {
-                "fluent-asserts": "~>0.12",
-                "vibe-d:data": {
-                    "optional": true,
-                    "version": ">=0.0.0"
-                },
-                "vibe-d:http": {
-                    "optional": true,
-                    "version": ">=0.0.0"
-                }
+                "fluent-asserts": ">=0.14.0-alpha.2 <0.15.0-0",
+                "vibe-d:data": ">=0.0.0",
+                "vibe-d:http": ">=0.0.0"
             },
             "name": "fluent-asserts-vibe",
             "version": "~master"
@@ -134,6 +128,24 @@
             },
             "name": "fluent-asserts-vibe",
             "version": "0.1.3"
+        },
+        {
+            "commitID": "bf3f480b15ecba13a90c96b629f479d69c617840",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "trial"
+                }
+            ],
+            "dependencies": {
+                "fluent-asserts": ">=0.14.0-alpha.2 <0.15.0-0",
+                "vibe-d:data": ">=0.0.0",
+                "vibe-d:http": ">=0.0.0"
+            },
+            "name": "fluent-asserts-vibe",
+            "version": "0.2.0-alpha.1"
         }
     ]
 }
