@@ -5,7 +5,7 @@
         "library.vibed",
         "library.generic"
     ],
-    "commitID": "a0c7808c4db65dc6f6017c6d8d9711bf5fe92c86",
+    "commitID": "4935d823e75b9287cd330de091043a7103db094f",
     "dateAdded": "2017-04-03T01:03:09",
     "description": "Fluent assertions done right",
     "documentationURL": "http:\/\/fluentasserts.szabobogdan.com\/",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "a0c7808c4db65dc6f6017c6d8d9711bf5fe92c86",
+            "commitID": "4935d823e75b9287cd330de091043a7103db094f",
             "configurations": [
                 {
                     "name": "library"
@@ -1753,6 +1753,27 @@
             },
             "name": "fluent-asserts",
             "version": "0.14.0-alpha.4"
+        },
+        {
+            "commitID": "4935d823e75b9287cd330de091043a7103db094f",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "trial"
+                }
+            ],
+            "dependencies": {
+                "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
+                "libdparse": "~>0.14.0",
+                "unit-threaded": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "fluent-asserts",
+            "version": "0.14.0-alpha.5"
         }
     ]
 }
