@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "4c200f090b9c3f4003c07f32acc5aea306b89ebb",
+    "commitID": "9ec83576851fbd76dda4e5bbd8502991362e08d7",
     "dateAdded": "2018-02-25T17:18:17",
     "description": "An optional\/maybe type with safe dispatchingrange semantics",
     "documentationURL": "https:\/\/aliak00.github.io\/optional\/optional.html",
@@ -32,7 +32,7 @@
             "version": "~adding-inout"
         },
         {
-            "commitID": "4c200f090b9c3f4003c07f32acc5aea306b89ebb",
+            "commitID": "9ec83576851fbd76dda4e5bbd8502991362e08d7",
             "configurations": [
                 {
                     "name": "library"
@@ -800,6 +800,34 @@
             },
             "name": "optional",
             "version": "1.2.0"
+        },
+        {
+            "commitID": "9ec83576851fbd76dda4e5bbd8502991362e08d7",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-safe"
+                },
+                {
+                    "name": "unittest-safe-asan"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:data": ">=0.0.0"
+                    },
+                    "name": "unittest-compat"
+                }
+            ],
+            "dependencies": {
+                "bolts": "~>1.3.0"
+            },
+            "name": "optional",
+            "version": "1.2.1"
         }
     ]
 }
