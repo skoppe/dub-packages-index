@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "baa10e5c55ce74a68b2c7e8ac423214e7bf3bdbd",
+    "commitID": "92f33e517729f48fa651271547ebb1e3a8347687",
     "dateAdded": "2021-03-16T13:43:59",
     "description": "Fast and lightweight JSON Web Token Dlang implementation.",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "baa10e5c55ce74a68b2c7e8ac423214e7bf3bdbd",
+            "commitID": "92f33e517729f48fa651271547ebb1e3a8347687",
             "dependencies": {
                 "jwtlited:base": ">=0.0.0"
             },
@@ -187,6 +187,50 @@
                 }
             ],
             "version": "1.2.0"
+        },
+        {
+            "commitID": "92f33e517729f48fa651271547ebb1e3a8347687",
+            "dependencies": {
+                "jwtlited:base": ">=0.0.0"
+            },
+            "name": "jwtlited",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bc-string": ">=1.2.0"
+                    },
+                    "name": "base"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-gnutls": ">=1.1.0",
+                        "jwtlited:base": ">=0.0.0"
+                    },
+                    "name": "gnutls"
+                },
+                {
+                    "dependencies": {
+                        "jwtlited:base": ">=0.0.0",
+                        "openssl": ">=2.0.1+1.1.0h"
+                    },
+                    "name": "openssl"
+                },
+                {
+                    "dependencies": {
+                        "jwtlited:base": ">=0.0.0"
+                    },
+                    "name": "phobos"
+                }
+            ],
+            "version": "1.3.0"
         }
     ]
 }
