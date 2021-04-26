@@ -2,10 +2,10 @@
     "categories": [
         "library.scientific.bioinformatics"
     ],
-    "commitID": "c26ba8afea1c4636f4c63a5e89fed0c1afecc055",
+    "commitID": "3f5948866138c541069e4b43158f3c80e3081ed4",
     "dateAdded": "2019-01-24T13:37:39",
     "description": "Close assembly gaps using long-reads with focus on correctness.",
-    "documentationURL": "",
+    "documentationURL": "https:\/\/a-ludi.github.io\/dentist\/",
     "id": "5c49b193bb1cafa34b13a1ae",
     "name": "dentist",
     "owner": "5c49b17ebb1cafa34b13a194",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "c26ba8afea1c4636f4c63a5e89fed0c1afecc055",
+            "commitID": "d85a86fda8da241b0de3d3b8d3b02cf9e3405302",
             "configurations": [
                 {
                     "name": "default"
@@ -34,7 +34,7 @@
                     "version": ">=0.0.0"
                 },
                 "string-transform-d": "~>1.0.0",
-                "vibe-d:data": ">=0.8.4-alpha.1 <0.9.0-0"
+                "vibe-d:data": "~>0.9.3"
             },
             "name": "dentist",
             "version": "~develop"
@@ -61,13 +61,10 @@
             "version": "~feature\/optionally-skip-file-locking"
         },
         {
-            "commitID": "fdf542db2fdd3a11d2decd8440290b7a597523fa",
+            "commitID": "19683a48985c1d78e33e0b59216a3d63853c95cc",
             "configurations": [
                 {
                     "name": "default"
-                },
-                {
-                    "name": "dockerfile"
                 },
                 {
                     "name": "testing"
@@ -82,10 +79,10 @@
                     "version": ">=0.0.0"
                 },
                 "string-transform-d": "~>1.0.0",
-                "vibe-d:data": ">=0.8.4-alpha.1 <0.9.0-0"
+                "vibe-d:data": "~>0.9.3"
             },
             "name": "dentist",
-            "version": "~feature\/singularity"
+            "version": "~gh-pages"
         },
         {
             "commitID": "123b53eaaeedb9a6a3a140ed76618048210f1fff",
@@ -112,28 +109,7 @@
             "version": "~no-damapper"
         },
         {
-            "commitID": "a493f32fa32a95182b48b3ac731c096614355ea3",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "name": "testing"
-                }
-            ],
-            "dependencies": {
-                "darg": {
-                    "path": ".\/darg",
-                    "version": ">=0.0.0"
-                },
-                "string-transform-d": "~>1.0.0",
-                "vibe-d:data": ">=0.8.4-alpha.1 <0.9.0-0"
-            },
-            "name": "dentist",
-            "version": "~travis-ci"
-        },
-        {
-            "commitID": "c26ba8afea1c4636f4c63a5e89fed0c1afecc055",
+            "commitID": "c10ee2db35cbbb12e8d14fb7b4b197566c3a1fcb",
             "configurations": [
                 {
                     "name": "default"
@@ -152,6 +128,30 @@
                 },
                 "string-transform-d": "~>1.0.0",
                 "vibe-d:data": ">=0.8.4-alpha.1 <0.9.0-0"
+            },
+            "name": "dentist",
+            "version": "~travis-ci"
+        },
+        {
+            "commitID": "d85a86fda8da241b0de3d3b8d3b02cf9e3405302",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "testing"
+                },
+                {
+                    "name": "read-las-test"
+                }
+            ],
+            "dependencies": {
+                "darg": {
+                    "path": ".\/darg",
+                    "version": ">=0.0.0"
+                },
+                "string-transform-d": "~>1.0.0",
+                "vibe-d:data": "~>0.9.3"
             },
             "name": "dentist",
             "version": "~master"
@@ -324,6 +324,30 @@
             },
             "name": "dentist",
             "version": "1.0.1"
+        },
+        {
+            "commitID": "3f5948866138c541069e4b43158f3c80e3081ed4",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "testing"
+                },
+                {
+                    "name": "read-las-test"
+                }
+            ],
+            "dependencies": {
+                "darg": {
+                    "path": ".\/darg",
+                    "version": ">=0.0.0"
+                },
+                "string-transform-d": "~>1.0.0",
+                "vibe-d:data": "~>0.9.3"
+            },
+            "name": "dentist",
+            "version": "1.0.2"
         }
     ]
 }
