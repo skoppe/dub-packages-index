@@ -2,7 +2,7 @@
     "categories": [
         "library.scientific"
     ],
-    "commitID": "8d8266cb815f9155bf114c611f5a92ecdfb066b1",
+    "commitID": "e5c71f56ed01ee3a7f58d1c4be66491a66d4fb88",
     "dateAdded": "2015-11-11T21:42:54",
     "description": "Plotting library for the D programming library. The design is inspired by ggplot2 for R.",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "c24eddf980becd82cbc97bd5c3f47d03bff2fe22",
+            "commitID": "353dfc309bf52c8b8f3262bde37568ccfd7c6813",
             "configurations": [
                 {
                     "name": "default"
@@ -85,7 +85,7 @@
             "version": "~travis_fix"
         },
         {
-            "commitID": "8d8266cb815f9155bf114c611f5a92ecdfb066b1",
+            "commitID": "e5c71f56ed01ee3a7f58d1c4be66491a66d4fb88",
             "configurations": [
                 {
                     "name": "default"
@@ -1022,6 +1022,29 @@
             },
             "name": "ggplotd",
             "version": "1.2.2"
+        },
+        {
+            "commitID": "e5c71f56ed01ee3a7f58d1c4be66491a66d4fb88",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "gtk-d:gtkd": "~>3.3.0"
+                    },
+                    "name": "ggplotd-gtk"
+                }
+            ],
+            "dependencies": {
+                "cairod": ">=0.0.1-alpha.3+1.10.2 <0.1.0-0",
+                "color": "~>0.0.8",
+                "dstats": "~>1.0.5",
+                "dunit": "~>1.0.15",
+                "painlesstraits": "~>0.3.0"
+            },
+            "name": "ggplotd",
+            "version": "1.2.3"
         }
     ]
 }
