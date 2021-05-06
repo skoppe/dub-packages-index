@@ -2,7 +2,7 @@
     "categories": [
         "library.testing"
     ],
-    "commitID": "7a572b88f283484f0667a4bb2e8f69fbbefb4f6c",
+    "commitID": "c49ed26bf61d82937742a13fc06fc91ff9beac32",
     "dateAdded": "2020-05-15T14:19:51",
     "description": "A BDD assertion library for D",
     "documentationURL": "https:\/\/zardoz89.github.io\/pijamas\/",
@@ -16,14 +16,18 @@
     },
     "versions": [
         {
-            "commitID": "7a572b88f283484f0667a4bb2e8f69fbbefb4f6c",
+            "commitID": "c49ed26bf61d82937742a13fc06fc91ff9beac32",
             "configurations": [
                 {
                     "name": "pijamas"
                 },
                 {
                     "dependencies": {
-                        "silly": "~>1.0.2"
+                        "silly": {
+                            "default": true,
+                            "optional": true,
+                            "version": "~>1.1"
+                        }
                     },
                     "name": "unittest"
                 }
@@ -32,14 +36,54 @@
             "version": "~develop"
         },
         {
-            "commitID": "7a572b88f283484f0667a4bb2e8f69fbbefb4f6c",
+            "commitID": "4b392a973f55865f6fee2d52b70caab61050652c",
             "configurations": [
                 {
                     "name": "pijamas"
                 },
                 {
                     "dependencies": {
-                        "silly": "~>1.0.2"
+                        "silly": {
+                            "default": true,
+                            "optional": true,
+                            "version": "~>1.1"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "pijamas",
+            "version": "~feature\/AssertError"
+        },
+        {
+            "commitID": "11ef231c0447057119d51128e3486d4b61922d93",
+            "configurations": [
+                {
+                    "name": "pijamas"
+                },
+                {
+                    "dependencies": {
+                        "trial:lifecycle": "~>0.7.5"
+                    },
+                    "name": "trial"
+                }
+            ],
+            "name": "pijamas",
+            "version": "~trial-runner"
+        },
+        {
+            "commitID": "c49ed26bf61d82937742a13fc06fc91ff9beac32",
+            "configurations": [
+                {
+                    "name": "pijamas"
+                },
+                {
+                    "dependencies": {
+                        "silly": {
+                            "default": true,
+                            "optional": true,
+                            "version": "~>1.1"
+                        }
                     },
                     "name": "unittest"
                 }
@@ -158,6 +202,26 @@
             ],
             "name": "pijamas",
             "version": "0.3.4"
+        },
+        {
+            "commitID": "c49ed26bf61d82937742a13fc06fc91ff9beac32",
+            "configurations": [
+                {
+                    "name": "pijamas"
+                },
+                {
+                    "dependencies": {
+                        "silly": {
+                            "default": true,
+                            "optional": true,
+                            "version": "~>1.1"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "pijamas",
+            "version": "0.3.5"
         }
     ]
 }
