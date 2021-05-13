@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.nogc"
     ],
-    "commitID": "d55eb01dc1372a512f9bf693adb9e4d1db2bb727",
+    "commitID": "e92004e97c20d4bd8e48ab2ef8dfebf76582624c",
     "dateAdded": "2018-07-08T14:48:59",
     "description": "Optimisation Framework",
     "documentationURL": "http:\/\/mir-optim.libmir.org",
@@ -292,7 +292,7 @@
             "version": "~osqp"
         },
         {
-            "commitID": "d55eb01dc1372a512f9bf693adb9e4d1db2bb727",
+            "commitID": "e92004e97c20d4bd8e48ab2ef8dfebf76582624c",
             "configurations": [
                 {
                     "name": "library"
@@ -5869,6 +5869,104 @@
             },
             "name": "mir-optim",
             "version": "2.0.0"
+        },
+        {
+            "commitID": "e92004e97c20d4bd8e48ab2ef8dfebf76582624c",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "threelib"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "lapack"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-openblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-threelib"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-cblas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-blas"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-lapack"
+                },
+                {
+                    "dependencies": {
+                        "mir-random": ">=1.0.0-beta"
+                    },
+                    "name": "unittest-mkl-sequential"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.7.19",
+                "mir-lapack": "~>1.2.3"
+            },
+            "name": "mir-optim",
+            "version": "2.0.1"
         }
     ]
 }
