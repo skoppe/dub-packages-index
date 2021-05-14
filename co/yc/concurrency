@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "e2ea68b436e29a6b787f89fc03d2acca4ac5a4a7",
+    "commitID": "6e19694460968389f7db89057ba876c30b95d93f",
     "dateAdded": "2021-01-14T12:40:56",
     "description": "concurrency library",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "5c3549e80c2e361071c030a490256dcd1c158002",
+            "commitID": "ed49c3651c447c323c352339bb5aa1f0ef1d8b08",
             "configurations": [
                 {
                     "name": "default"
@@ -45,7 +45,7 @@
             "version": "~flow"
         },
         {
-            "commitID": "5306370c7a1b0cec0985e93248de99f5f78ef2d4",
+            "commitID": "6e19694460968389f7db89057ba876c30b95d93f",
             "configurations": [
                 {
                     "name": "default"
@@ -527,6 +527,64 @@
             },
             "name": "concurrency",
             "version": "1.0.6"
+        },
+        {
+            "commitID": "9d2456a1f661e67ffb756fa06c6cf6700d8f2c3d",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "nodip"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-asan"
+                }
+            ],
+            "dependencies": {
+                "concepts": "~>0.0.8",
+                "mir-core": "~>1.1.62"
+            },
+            "name": "concurrency",
+            "version": "1.0.7"
+        },
+        {
+            "commitID": "6e19694460968389f7db89057ba876c30b95d93f",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "nodip"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-asan"
+                }
+            ],
+            "dependencies": {
+                "concepts": "~>0.0.8",
+                "mir-core": "~>1.1.62"
+            },
+            "name": "concurrency",
+            "version": "1.0.8"
         }
     ]
 }
