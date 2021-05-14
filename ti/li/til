@@ -1,9 +1,11 @@
 {
-    "categories": [],
-    "commitID": "13078620a896b634b8174797f95a6abd04344914",
+    "categories": [
+        "application.desktop.development"
+    ],
+    "commitID": "13020ee7cc09df98670469940a43cb31ff426392",
     "dateAdded": "2021-05-12T03:02:16",
     "description": "Yet another programming language",
-    "documentationURL": "",
+    "documentationURL": "https:\/\/til-lang.github.io\/til\/",
     "id": "609b29188c10971b2e8048c4",
     "name": "til",
     "owner": "609b26c18c10971b2e804698",
@@ -14,9 +16,41 @@
     },
     "versions": [
         {
-            "commitID": "13078620a896b634b8174797f95a6abd04344914",
+            "commitID": "ffa17532bbff30b80338bc604cb99030088799d2",
             "name": "til",
             "subPackages": [
+                {
+                    "name": "run"
+                },
+                {
+                    "name": "hellomodule"
+                }
+            ],
+            "version": "~development"
+        },
+        {
+            "commitID": "87b7305652064bb8eeb11416b1ac457b69e5ba7e",
+            "name": "til",
+            "subPackages": [
+                {
+                    "name": "run"
+                },
+                {
+                    "name": "hellomodule"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "commitID": "36b63480f3505a5234b1a5b5b0cb9511a4225a3d",
+            "name": "til",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "til": "0.1.0"
+                    },
+                    "name": "run"
+                },
                 {
                     "dependencies": {
                         "til": "0.1.0"
@@ -25,6 +59,19 @@
                 }
             ],
             "version": "0.1.0"
+        },
+        {
+            "commitID": "13020ee7cc09df98670469940a43cb31ff426392",
+            "name": "til",
+            "subPackages": [
+                {
+                    "name": "run"
+                },
+                {
+                    "name": "hellomodule"
+                }
+            ],
+            "version": "0.1.1"
         }
     ]
 }
