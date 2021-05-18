@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.graphics"
     ],
-    "commitID": "9d221336ac1b686ce0c74f93b2aa6c32f476ca53",
+    "commitID": "e9e30ee76664b2b7e94452b33a7e62c68bd19dbc",
     "dateAdded": "2018-10-18T17:24:32",
     "description": "Dynamic and static bindings to SDL2 and its satellite libraries, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "9d221336ac1b686ce0c74f93b2aa6c32f476ca53",
+            "commitID": "e9e30ee76664b2b7e94452b33a7e62c68bd19dbc",
             "configurations": [
                 {
                     "dependencies": {
@@ -791,6 +791,56 @@
             ],
             "name": "bindbc-sdl",
             "version": "0.21.2"
+        },
+        {
+            "commitID": "f69745e7f3561648415c26e1981d8344809b9254",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-sdl",
+            "version": "0.21.3"
+        },
+        {
+            "commitID": "e9e30ee76664b2b7e94452b33a7e62c68bd19dbc",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-sdl",
+            "version": "0.21.4"
         }
     ]
 }
