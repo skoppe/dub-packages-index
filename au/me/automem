@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "d599ec3a3c2b20aa5f535e7baa04d53d845ef4f4",
+    "commitID": "adb673564633136840fdb647e5dcde4b820b2205",
     "dateAdded": "2017-03-14T03:21:53",
     "description": "Automatic memory management",
     "documentationURL": "",
@@ -47,10 +47,13 @@
             "version": "~test-utils"
         },
         {
-            "commitID": "d599ec3a3c2b20aa5f535e7baa04d53d845ef4f4",
+            "commitID": "8f61747f437b7624ad4b44085e9525fc143a9e6c",
             "configurations": [
                 {
                     "name": "library"
+                },
+                {
+                    "name": "nodips"
                 },
                 {
                     "dependencies": {
@@ -986,6 +989,40 @@
             ],
             "name": "automem",
             "version": "0.6.4"
+        },
+        {
+            "commitID": "adb673564633136840fdb647e5dcde4b820b2205",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "nodips"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "asan"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "utl"
+                }
+            ],
+            "name": "automem",
+            "version": "0.6.5"
         }
     ]
 }
