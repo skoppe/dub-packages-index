@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.gui"
     ],
-    "commitID": "11344fcbae52a7699c547dea559d6c6834bf697b",
+    "commitID": "e56ecde94b9f693db350f6b0f00674632ec3cb20",
     "dateAdded": "2017-01-20T00:24:00",
     "description": "A 2D game engine for retro styled games",
     "documentationURL": "",
@@ -18,13 +18,13 @@
     },
     "versions": [
         {
-            "commitID": "11344fcbae52a7699c547dea559d6c6834bf697b",
+            "commitID": "e56ecde94b9f693db350f6b0f00674632ec3cb20",
             "dependencies": {
                 "bindbc-sdl": ">=0.0.0",
                 "bmfont": "0.1.0",
-                "collections-d": "0.3.1",
-                "cpublit": "0.4.0-alpha",
-                "dimage": "0.3.0-alpha.2",
+                "collections-d": "0.4.4",
+                "cpublit": "0.4.1",
+                "dimage": "0.3.0-beta.1",
                 "intel-intrinsics": ">=0.0.0",
                 "sdlang-d": ">=0.0.0",
                 "undead": ">=0.0.0"
@@ -717,6 +717,35 @@
                 }
             ],
             "version": "0.10.0-beta"
+        },
+        {
+            "commitID": "e56ecde94b9f693db350f6b0f00674632ec3cb20",
+            "dependencies": {
+                "bindbc-sdl": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.4.4",
+                "cpublit": "0.4.1",
+                "dimage": "0.3.0-beta.1",
+                "intel-intrinsics": ">=0.0.0",
+                "sdlang-d": ">=0.0.0",
+                "undead": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "pixelperfecteditor"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "windowmakerforconcrete"
+                }
+            ],
+            "version": "0.10.0-beta.1"
         }
     ]
 }
