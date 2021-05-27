@@ -2,9 +2,9 @@
     "categories": [
         "library.data"
     ],
-    "commitID": "25b51fd515309dab6fcaa5a15e4f12561f97391a",
+    "commitID": "4c0801118e1b9c44fa489be75f8ad5f1946e9ff9",
     "dateAdded": "2018-08-28T10:18:57",
-    "description": "A Powerfull Cache library for D. Support memory、redis、memcached backend.",
+    "description": "A Powerfull Cache library for D. Support memoryãredisãmemcached backend.",
     "documentationURL": "",
     "id": "5b850571c47a932b153fb7ba",
     "name": "hunt-cache",
@@ -61,7 +61,7 @@
             "version": "~v0.6.x"
         },
         {
-            "commitID": "25b51fd515309dab6fcaa5a15e4f12561f97391a",
+            "commitID": "4c0801118e1b9c44fa489be75f8ad5f1946e9ff9",
             "configurations": [
                 {
                     "name": "default"
@@ -74,7 +74,7 @@
                 }
             ],
             "dependencies": {
-                "hunt-redis": "~>1.3.0"
+                "hunt-redis": "~>1.3.2"
             },
             "name": "hunt-cache",
             "version": "~master"
@@ -317,44 +317,6 @@
             "version": "0.7.3"
         },
         {
-            "commitID": "8130437931d359f5f2168ff83800577f450446a4",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "dependencies": {
-                        "libmemcached": "~>1.1.1"
-                    },
-                    "name": "normal"
-                }
-            ],
-            "dependencies": {
-                "hunt-redis": "~>1.2.0"
-            },
-            "name": "hunt-cache",
-            "version": "0.8.0"
-        },
-        {
-            "commitID": "945fe21178ee6ec4a7d6ec761433868161e66b7d",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "dependencies": {
-                        "libmemcached": "~>1.1.1"
-                    },
-                    "name": "normal"
-                }
-            ],
-            "dependencies": {
-                "hunt-redis": "~>1.2.0"
-            },
-            "name": "hunt-cache",
-            "version": "0.8.1"
-        },
-        {
             "commitID": "db2061f2981901281ad0645525f23d5a1cd6cf70",
             "configurations": [
                 {
@@ -391,6 +353,25 @@
             },
             "name": "hunt-cache",
             "version": "0.9.0"
+        },
+        {
+            "commitID": "4c0801118e1b9c44fa489be75f8ad5f1946e9ff9",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "libmemcached": "~>1.1.1"
+                    },
+                    "name": "normal"
+                }
+            ],
+            "dependencies": {
+                "hunt-redis": "~>1.3.2"
+            },
+            "name": "hunt-cache",
+            "version": "0.9.1"
         }
     ]
 }
