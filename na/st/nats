@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "5c4a9322d76b981bc67cb0908e7148455572a947",
+    "commitID": "ab419c8bfaa1cf64d4963f22df9f2fe266a04daa",
     "dateAdded": "2020-02-20T06:17:15",
     "description": "A nats pubsub client for vibe.d",
     "documentationURL": "",
@@ -39,7 +39,7 @@
             "version": "~nbuff"
         },
         {
-            "commitID": "5c4a9322d76b981bc67cb0908e7148455572a947",
+            "commitID": "ab419c8bfaa1cf64d4963f22df9f2fe266a04daa",
             "configurations": [
                 {
                     "name": "lib"
@@ -499,6 +499,31 @@
             },
             "name": "nats",
             "version": "0.5.0"
+        },
+        {
+            "commitID": "ab419c8bfaa1cf64d4963f22df9f2fe266a04daa",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "build-deps"
+                },
+                {
+                    "name": "test-app"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "nbuff": "~>0.1",
+                "vibe-d:core": "~>0.9",
+                "vibe-d:data": "~>0.9",
+                "vibe-d:inet": "~>0.9"
+            },
+            "name": "nats",
+            "version": "0.5.1"
         }
     ]
 }
