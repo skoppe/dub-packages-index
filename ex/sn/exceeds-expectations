@@ -2,7 +2,7 @@
     "categories": [
         "library.testing"
     ],
-    "commitID": "274c04296047cbab1ceb883b1eafc44cab04ab92",
+    "commitID": "3ca2e8335256a98d3171d7aa4863adc25fca1615",
     "dateAdded": "2020-11-22T14:41:51",
     "description": "A simple, IDE-friendly assertion library",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "274c04296047cbab1ceb883b1eafc44cab04ab92",
+            "commitID": "3ca2e8335256a98d3171d7aa4863adc25fca1615",
             "configurations": [
                 {
                     "dependencies": {
@@ -26,6 +26,9 @@
                 },
                 {
                     "name": "library"
+                },
+                {
+                    "name": "output_test"
                 }
             ],
             "dependencies": {
@@ -204,6 +207,28 @@
             },
             "name": "exceeds-expectations",
             "version": "0.6.0"
+        },
+        {
+            "commitID": "3ca2e8335256a98d3171d7aa4863adc25fca1615",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "silly": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "output_test"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1"
+            },
+            "name": "exceeds-expectations",
+            "version": "0.7.0"
         }
     ]
 }
