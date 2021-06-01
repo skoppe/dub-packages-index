@@ -2,7 +2,7 @@
     "categories": [
         "library.general"
     ],
-    "commitID": "14474c6630a03b94c8ae6e7f4474169ea88feb14",
+    "commitID": "1e71068241e23e2eb48345af47a63011d22c664e",
     "dateAdded": "2014-11-19T05:59:07",
     "description": "CyberShadow's ArmageddonEngine utilites for almost everything",
     "documentationURL": "",
@@ -446,7 +446,7 @@
             "version": "~new-net"
         },
         {
-            "commitID": "f81562c6ef154478f6f0c1d6fe7e25e498ef9991",
+            "commitID": "1e71068241e23e2eb48345af47a63011d22c664e",
             "name": "ae",
             "subPackages": [
                 {
@@ -626,6 +626,188 @@
                 }
             ],
             "version": "~next"
+        },
+        {
+            "commitID": "3979fc046a556b55825792d959f3e3a95ff4fd15",
+            "name": "ae",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sqlite"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "lib-none"
+                        },
+                        {
+                            "name": "lib-implicit-1.0"
+                        },
+                        {
+                            "name": "lib-explicit-1.0"
+                        },
+                        {
+                            "name": "lib-implicit-1.1"
+                        }
+                    ],
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "openssl": ">=1.0.0"
+                    },
+                    "name": "openssl"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "libpng": "1.6.17"
+                    },
+                    "name": "libpng"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "derelict-sdl2": "2.0.2"
+                    },
+                    "name": "sdl2"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "windows"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "libx11": "0.0.1"
+                    },
+                    "name": "x11"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-ae"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-cachedcurl"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-curl"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:openssl": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-wininet": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-system"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-wininet"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-cachedcurl": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-curl": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-wininet": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-test"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "app-main-posix"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "app-main-windows"
+                },
+                {
+                    "name": "app-main"
+                }
+            ],
+            "version": "~next-master"
         },
         {
             "commitID": "f17667319346bf7be670e23667dc9efa499b6240",
@@ -930,7 +1112,7 @@
             "version": "~sys-d-next-v3"
         },
         {
-            "commitID": "14474c6630a03b94c8ae6e7f4474169ea88feb14",
+            "commitID": "1e71068241e23e2eb48345af47a63011d22c664e",
             "name": "ae",
             "subPackages": [
                 {
@@ -15155,7 +15337,7 @@
             "version": "0.0.2898"
         },
         {
-            "commitID": "14474c6630a03b94c8ae6e7f4474169ea88feb14",
+            "commitID": "3979fc046a556b55825792d959f3e3a95ff4fd15",
             "name": "ae",
             "subPackages": [
                 {
@@ -15335,6 +15517,188 @@
                 }
             ],
             "version": "0.0.3000"
+        },
+        {
+            "commitID": "1e71068241e23e2eb48345af47a63011d22c664e",
+            "name": "ae",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sqlite"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "lib-none"
+                        },
+                        {
+                            "name": "lib-implicit-1.0"
+                        },
+                        {
+                            "name": "lib-explicit-1.0"
+                        },
+                        {
+                            "name": "lib-implicit-1.1"
+                        }
+                    ],
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "openssl": ">=1.0.0"
+                    },
+                    "name": "openssl"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "libpng": "1.6.17"
+                    },
+                    "name": "libpng"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "derelict-sdl2": "2.0.2"
+                    },
+                    "name": "sdl2"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "windows"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "libx11": "0.0.1"
+                    },
+                    "name": "x11"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-ae"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-cachedcurl"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-curl"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:openssl": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-wininet": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-system"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-wininet"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-cachedcurl": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-curl": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        },
+                        "ae:sys-net-wininet": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sys-net-test"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "app-main-posix"
+                },
+                {
+                    "dependencies": {
+                        "ae": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "app-main-windows"
+                },
+                {
+                    "name": "app-main"
+                }
+            ],
+            "version": "0.0.3053"
         }
     ]
 }
