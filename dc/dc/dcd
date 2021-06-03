@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development"
     ],
-    "commitID": "f38d36ab411748b1ee306fe5de607cf1e7058908",
+    "commitID": "8dce131a8ec715382a104feed52d08a1aacdc960",
     "dateAdded": "2016-01-14T08:56:59",
     "description": "The D Completion Daemon is an auto-complete program for the D programming language",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "f38d36ab411748b1ee306fe5de607cf1e7058908",
+            "commitID": "8dce131a8ec715382a104feed52d08a1aacdc960",
             "configurations": [
                 {
                     "name": "library"
@@ -874,6 +874,68 @@
                 }
             ],
             "version": "0.13.2"
+        },
+        {
+            "commitID": "3e5dbd979a67e732d00e25f6fa3480fc4b5d855a",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "client"
+                },
+                {
+                    "name": "server"
+                }
+            ],
+            "dependencies": {
+                "dcd:common": ">=0.0.0",
+                "dsymbol": ">=0.11.2 <0.12.0",
+                "emsi_containers": "~>0.8.0",
+                "libdparse": ">=0.15.4 <0.16.0",
+                "stdx-allocator": "~>2.77.5"
+            },
+            "name": "dcd",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "msgpack-d": "1.0.1"
+                    },
+                    "name": "common"
+                }
+            ],
+            "version": "0.13.3"
+        },
+        {
+            "commitID": "8dce131a8ec715382a104feed52d08a1aacdc960",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "client"
+                },
+                {
+                    "name": "server"
+                }
+            ],
+            "dependencies": {
+                "dcd:common": ">=0.0.0",
+                "dsymbol": ">=0.11.2 <0.12.0",
+                "emsi_containers": "~>0.8.0",
+                "libdparse": ">=0.15.4 <0.16.0",
+                "stdx-allocator": "~>2.77.5"
+            },
+            "name": "dcd",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "msgpack-d": "1.0.1"
+                    },
+                    "name": "common"
+                }
+            ],
+            "version": "0.13.4"
         }
     ]
 }
