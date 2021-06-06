@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development"
     ],
-    "commitID": "79281267f3259d17d0333c57eaee61114ef1326a",
+    "commitID": "1cb865fe5728193b0a5665445ef62f7dd65acf4c",
     "dateAdded": "2021-05-12T03:02:16",
     "description": "Yet another programming language",
     "documentationURL": "https:\/\/til-lang.github.io\/til\/",
@@ -29,13 +29,16 @@
             "version": "~development"
         },
         {
-            "commitID": "79281267f3259d17d0333c57eaee61114ef1326a",
+            "commitID": "1cb865fe5728193b0a5665445ef62f7dd65acf4c",
             "name": "til",
             "subPackages": [
                 {
                     "name": "run"
                 },
                 {
+                    "dependencies": {
+                        "til": "~>0.2.0"
+                    },
                     "name": "hellomodule"
                 }
             ],
@@ -111,6 +114,22 @@
                 }
             ],
             "version": "0.2.0"
+        },
+        {
+            "commitID": "1cb865fe5728193b0a5665445ef62f7dd65acf4c",
+            "name": "til",
+            "subPackages": [
+                {
+                    "name": "run"
+                },
+                {
+                    "dependencies": {
+                        "til": "~>0.2.0"
+                    },
+                    "name": "hellomodule"
+                }
+            ],
+            "version": "0.2.1"
         }
     ]
 }
