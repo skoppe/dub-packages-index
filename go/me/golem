@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "e121b6865b0dbaf3068bed5d22a3becc7d4dc4ba",
+    "commitID": "6ce7be7251756c7615915a876f549951c9cad606",
     "dateAdded": "2020-10-06T14:48:10",
     "description": "A simple tensor library for the computational graph on CPU",
     "documentationURL": "",
@@ -16,14 +16,14 @@
     },
     "versions": [
         {
-            "commitID": "e121b6865b0dbaf3068bed5d22a3becc7d4dc4ba",
+            "commitID": "6ce7be7251756c7615915a876f549951c9cad606",
             "configurations": [
                 {
                     "name": "default"
                 },
                 {
                     "dependencies": {
-                        "silly": "~>1.0.2"
+                        "silly": "~>1.1.1"
                     },
                     "name": "unittest"
                 },
@@ -38,10 +38,10 @@
                 }
             ],
             "dependencies": {
-                "mir-algorithm": "~>3.9.25",
+                "mir-algorithm": "~>3.10.60",
                 "mir-blas": "~>1.1.13",
                 "msgpack-d": "~>1.0.3",
-                "numir": "2.0.5"
+                "numir": "~>2.0.6"
             },
             "name": "golem",
             "version": "~master"
@@ -293,6 +293,37 @@
             },
             "name": "golem",
             "version": "0.6.0"
+        },
+        {
+            "commitID": "6ce7be7251756c7615915a876f549951c9cad606",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "makedeps"
+                },
+                {
+                    "name": "diff-update"
+                },
+                {
+                    "name": "diff"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.10.60",
+                "mir-blas": "~>1.1.13",
+                "msgpack-d": "~>1.0.3",
+                "numir": "~>2.0.6"
+            },
+            "name": "golem",
+            "version": "0.7.0"
         }
     ]
 }
