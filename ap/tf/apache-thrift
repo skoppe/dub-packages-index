@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "f6fa1794539e68ac294038ac388d6bde40a6c237",
+    "commitID": "57e24caa86afa8bacf444e66a9aef6203831416c",
     "dateAdded": "2018-12-27T14:19:30",
     "description": "Apache Thrift D library",
     "documentationURL": "",
@@ -50,10 +50,32 @@
             "version": "~0.14.1"
         },
         {
-            "commitID": "a8c041dd580ff37f3e32b0eaafed542f496d5d58",
+            "commitID": "57e24caa86afa8bacf444e66a9aef6203831416c",
             "dependencies": {
                 "libevent": "~>2.0.2",
                 "openssl": ">=1.1.6"
+            },
+            "name": "apache-thrift",
+            "version": "~0.14.2"
+        },
+        {
+            "commitID": "fcfa34108dbf064e71704b4ffa8479e184cef94e",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.6"
+                    },
+                    "name": "use_openssl_1_0"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>2.0.3"
+                    },
+                    "name": "use_openssl_1_1"
+                }
+            ],
+            "dependencies": {
+                "libevent": "~>2.0.2"
             },
             "name": "apache-thrift",
             "version": "~master"
@@ -93,6 +115,15 @@
             },
             "name": "apache-thrift",
             "version": "0.14.1"
+        },
+        {
+            "commitID": "57e24caa86afa8bacf444e66a9aef6203831416c",
+            "dependencies": {
+                "libevent": "~>2.0.2",
+                "openssl": ">=1.1.6"
+            },
+            "name": "apache-thrift",
+            "version": "0.14.2"
         }
     ]
 }
