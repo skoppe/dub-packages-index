@@ -2,7 +2,7 @@
     "categories": [
         "library.development.parsing"
     ],
-    "commitID": "280dc3ff4acfed0eabd63ae65f464006ebc23e7d",
+    "commitID": "64e1eaaf8856be7b2b1d2ac3726fd943a8eab170",
     "dateAdded": "2020-04-21T13:44:10",
     "description": "Populates any given D struct with data read from a TOML string, and vice-versa.",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "280dc3ff4acfed0eabd63ae65f464006ebc23e7d",
+            "commitID": "64e1eaaf8856be7b2b1d2ac3726fd943a8eab170",
             "configurations": [
                 {
                     "name": "library"
@@ -24,9 +24,15 @@
                 {
                     "dependencies": {
                         "dshould": "~>1.1.0",
-                        "silly": "~>1.0.0"
+                        "silly": ">=0.0.0"
                     },
                     "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "colorize": "~>1"
+                    },
+                    "name": "sample-test"
                 }
             ],
             "dependencies": {
@@ -56,6 +62,33 @@
             },
             "name": "toml-foolery",
             "version": "1.0.0"
+        },
+        {
+            "commitID": "64e1eaaf8856be7b2b1d2ac3726fd943a8eab170",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "dshould": "~>1.1.0",
+                        "silly": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "colorize": "~>1"
+                    },
+                    "name": "sample-test"
+                }
+            ],
+            "dependencies": {
+                "datefmt": "~>1.0.4",
+                "pegged": "~>0.4.4"
+            },
+            "name": "toml-foolery",
+            "version": "1.0.1"
         }
     ]
 }
