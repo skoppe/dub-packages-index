@@ -3,7 +3,7 @@
         "library.graphics",
         "library.tui"
     ],
-    "commitID": "ec334cbcb077b6fff0ba0c2b743ef156be6ea21b",
+    "commitID": "47db1b40fe1dec8c3c3f29cde46036aab3729858",
     "dateAdded": "2018-09-26T23:29:44",
     "description": "Low-level API to generate self-contained PDF\/SVG\/HTML documents suitable for print",
     "documentationURL": "http:\/\/printed.dpldocs.info\/",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "ec334cbcb077b6fff0ba0c2b743ef156be6ea21b",
+            "commitID": "47db1b40fe1dec8c3c3f29cde46036aab3729858",
             "dependencies": {
                 "printed:canvas": ">=0.0.0",
                 "printed:font": ">=0.0.0",
@@ -542,6 +542,37 @@
                 }
             ],
             "version": "1.0.4"
+        },
+        {
+            "commitID": "47db1b40fe1dec8c3c3f29cde46036aab3729858",
+            "dependencies": {
+                "printed:canvas": ">=0.0.0",
+                "printed:font": ">=0.0.0",
+                "printed:htmlcolors": ">=0.0.0"
+            },
+            "name": "printed",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "binrange": "~>1",
+                        "standardpaths": "~>0"
+                    },
+                    "name": "font"
+                },
+                {
+                    "dependencies": {
+                        "binrange": "~>1",
+                        "dplug:graphics": ">=8.0.0 <10.0.0",
+                        "printed:font": ">=0.0.0",
+                        "printed:htmlcolors": ">=0.0.0"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "name": "htmlcolors"
+                }
+            ],
+            "version": "1.0.5"
         }
     ]
 }
