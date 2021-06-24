@@ -4,7 +4,7 @@
         "library.graphics",
         "library.gamedev"
     ],
-    "commitID": "470d1cffa11132ca04fb80b71f0133bc94e4762f",
+    "commitID": "9b9f363de249f1e3a24383f5c0f96fb7b151f1b0",
     "dateAdded": "2019-10-02T23:31:07",
     "description": "D language binding to gfx-rs\/wgpu",
     "documentationURL": "",
@@ -18,7 +18,29 @@
     },
     "versions": [
         {
-            "commitID": "470d1cffa11132ca04fb80b71f0133bc94e4762f",
+            "commitID": "9b9f363de249f1e3a24383f5c0f96fb7b151f1b0",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "debug"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-sdl": "~>0.19.1"
+                    },
+                    "name": "application"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.3.0"
+            },
+            "name": "bindbc-wgpu",
+            "version": "~master"
+        },
+        {
+            "commitID": "6bbbfacd7d8a86a9167623836a82a11c5eccbca7",
             "configurations": [
                 {
                     "name": "library"
@@ -28,7 +50,45 @@
                 "bindbc-loader": "~>0.3.0"
             },
             "name": "bindbc-wgpu",
-            "version": "~master"
+            "version": "0.1.0-alpha.10"
+        },
+        {
+            "commitID": "e8189407cda857e1694e2a196529e65c53773e50",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "debug"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.3.0"
+            },
+            "name": "bindbc-wgpu",
+            "version": "0.1.0-alpha.11"
+        },
+        {
+            "commitID": "c27c23fb5d4cf6449dfc7ee1cbf660c9bae2794b",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "debug"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-sdl": "~>0.19.1"
+                    },
+                    "name": "application"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.3.0"
+            },
+            "name": "bindbc-wgpu",
+            "version": "0.1.0-alpha.12"
         },
         {
             "commitID": "edfcbb2c0006263c6363e01a9b14796d10ba5d73",
@@ -146,6 +206,28 @@
             },
             "name": "bindbc-wgpu",
             "version": "0.1.0-alpha9"
+        },
+        {
+            "commitID": "9b9f363de249f1e3a24383f5c0f96fb7b151f1b0",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "debug"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-sdl": "~>0.19.1"
+                    },
+                    "name": "application"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.3.0"
+            },
+            "name": "bindbc-wgpu",
+            "version": "0.8.0"
         }
     ]
 }
