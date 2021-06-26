@@ -2,7 +2,7 @@
     "categories": [
         "library.gui"
     ],
-    "commitID": "d3f8f8dab1fe70e5c77ac9e2c6e74a956b2acf42",
+    "commitID": "99168ab50504c62186565b9f572030f7fae0e27e",
     "dateAdded": "2021-03-13T09:37:53",
     "description": "A simple UI library designed for IsodiTools and Samerion",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "d3f8f8dab1fe70e5c77ac9e2c6e74a956b2acf42",
+            "commitID": "99168ab50504c62186565b9f572030f7fae0e27e",
             "dependencies": {
                 "raylib-d": "~>3.0.3"
             },
@@ -74,6 +74,28 @@
                 }
             ],
             "version": "0.2.0"
+        },
+        {
+            "commitID": "99168ab50504c62186565b9f572030f7fae0e27e",
+            "dependencies": {
+                "raylib-d": "~>3.0.3"
+            },
+            "name": "glui",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "glui": ">=0.0.0"
+                    },
+                    "name": "example-showcase"
+                },
+                {
+                    "dependencies": {
+                        "glui": ">=0.0.0"
+                    },
+                    "name": "example-onions"
+                }
+            ],
+            "version": "0.3.0"
         }
     ]
 }
