@@ -2,7 +2,7 @@
     "categories": [
         "library.database"
     ],
-    "commitID": "9ba3a8541d9b41cb2ced15099e2c3a1ed3961e10",
+    "commitID": "c1f1c7c26f7e6cac7a34778dc580c92d8dec013b",
     "dateAdded": "2013-09-14T10:32:29",
     "description": "Medium-level binding to the PostgreSQL database",
     "documentationURL": "",
@@ -344,7 +344,7 @@
             "version": "~static_config_fix"
         },
         {
-            "commitID": "9ba3a8541d9b41cb2ced15099e2c3a1ed3961e10",
+            "commitID": "c1f1c7c26f7e6cac7a34778dc580c92d8dec013b",
             "configurations": [
                 {
                     "name": "static"
@@ -3514,6 +3514,47 @@
                 }
             ],
             "version": "1.0.18"
+        },
+        {
+            "commitID": "c1f1c7c26f7e6cac7a34778dc580c92d8dec013b",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
+                "money": "~>3.0.2",
+                "vibe-d:data": ">=0.8.3-beta.1"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": ">=0.0.0",
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": ">=0.0.0"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.0.19"
         }
     ]
 }
