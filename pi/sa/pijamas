@@ -1,8 +1,9 @@
 {
     "categories": [
-        "library.testing"
+        "library.testing",
+        "library.nogc"
     ],
-    "commitID": "2d918e03e666386760506e2636011ecb3f67b4aa",
+    "commitID": "3b2c91d5db496d3a3bff40ba6fc1205888faae49",
     "dateAdded": "2020-05-15T14:19:51",
     "description": "A BDD assertion library for D",
     "documentationURL": "https:\/\/zardoz89.github.io\/pijamas\/",
@@ -16,10 +17,20 @@
     },
     "versions": [
         {
-            "commitID": "a10610e5c4b67d6624bcd8b67a3c4dfd23f253ef",
+            "commitID": "2650c047c3b89a787fbf3aa00d9ff3b304012acc",
             "configurations": [
                 {
                     "name": "pijamas"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": {
+                            "default": true,
+                            "optional": true,
+                            "version": "~>3.10"
+                        }
+                    },
+                    "name": "nogc"
                 },
                 {
                     "name": "trial"
@@ -27,6 +38,29 @@
             ],
             "name": "pijamas",
             "version": "~develop"
+        },
+        {
+            "commitID": "131aa35dae987f155e2966ef799de183d7e8f24a",
+            "configurations": [
+                {
+                    "name": "pijamas"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": {
+                            "default": true,
+                            "optional": true,
+                            "version": "~>3.10"
+                        }
+                    },
+                    "name": "nogc"
+                },
+                {
+                    "name": "trial"
+                }
+            ],
+            "name": "pijamas",
+            "version": "~feature\/nogc"
         },
         {
             "commitID": "11ef231c0447057119d51128e3486d4b61922d93",
@@ -45,10 +79,20 @@
             "version": "~trial-runner"
         },
         {
-            "commitID": "2d918e03e666386760506e2636011ecb3f67b4aa",
+            "commitID": "3b2c91d5db496d3a3bff40ba6fc1205888faae49",
             "configurations": [
                 {
                     "name": "pijamas"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": {
+                            "default": true,
+                            "optional": true,
+                            "version": "~>3.10"
+                        }
+                    },
+                    "name": "nogc"
                 },
                 {
                     "name": "trial"
@@ -214,6 +258,29 @@
             ],
             "name": "pijamas",
             "version": "1.0.1"
+        },
+        {
+            "commitID": "3b2c91d5db496d3a3bff40ba6fc1205888faae49",
+            "configurations": [
+                {
+                    "name": "pijamas"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": {
+                            "default": true,
+                            "optional": true,
+                            "version": "~>3.10"
+                        }
+                    },
+                    "name": "nogc"
+                },
+                {
+                    "name": "trial"
+                }
+            ],
+            "name": "pijamas",
+            "version": "1.1.0"
         }
     ]
 }
