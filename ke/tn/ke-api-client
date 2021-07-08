@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "c870a139eeb29e820c7e1475ddc91d602c983daa",
+    "commitID": "da09f8eef5acc5a78afd6e15871371d86db43738",
     "dateAdded": "2021-07-05T04:46:23",
     "description": "The Konnex Engine API Client SDK",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "c870a139eeb29e820c7e1475ddc91d602c983daa",
+            "commitID": "da09f8eef5acc5a78afd6e15871371d86db43738",
             "configurations": [
                 {
                     "name": "ke-api-client"
@@ -27,6 +27,7 @@
                 }
             ],
             "dependencies": {
+                "fastjwt": "~>1.1.1",
                 "vibe-d": "~>0.9.3"
             },
             "name": "ke-api-client",
@@ -66,6 +67,26 @@
             },
             "name": "ke-api-client",
             "version": "0.0.1-3"
+        },
+        {
+            "commitID": "da09f8eef5acc5a78afd6e15871371d86db43738",
+            "configurations": [
+                {
+                    "name": "ke-api-client"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "fastjwt": "~>1.1.1",
+                "vibe-d": "~>0.9.3"
+            },
+            "name": "ke-api-client",
+            "version": "0.0.1-4"
         }
     ]
 }
