@@ -5,7 +5,7 @@
         "application.desktop.editor",
         "application.web.development"
     ],
-    "commitID": "f191f1baefa9693c3840d8597a807ed0c2b98954",
+    "commitID": "21b07aa359eef26c2dea07efbb405b0c72b7177a",
     "dateAdded": "2018-03-24T20:39:29",
     "description": "Microsoft Language Server Protocol implementation using workspace-d",
     "documentationURL": "",
@@ -110,7 +110,7 @@
             "version": "~workspaced-v3"
         },
         {
-            "commitID": "f191f1baefa9693c3840d8597a807ed0c2b98954",
+            "commitID": "21b07aa359eef26c2dea07efbb405b0c72b7177a",
             "configurations": [
                 {
                     "name": "executable"
@@ -137,7 +137,7 @@
                 "serve-d:http": ">=0.0.0",
                 "serve-d:lsp": ">=0.0.0",
                 "serve-d:serverbase": ">=0.0.0",
-                "workspace-d": "3.6.0-pre.12"
+                "workspace-d": "3.6.0-pre.15"
             },
             "name": "serve-d",
             "subPackages": [
@@ -379,6 +379,40 @@
                 }
             ],
             "version": "0.6.0-beta.1"
+        },
+        {
+            "commitID": "c2d80cf693068c5a12407d11f2efa8ef5823c26b",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.8.0-alpha.19",
+                "eventsystem": "~>1.2.0",
+                "libddoc": "0.7.0",
+                "painlessjson": "1.4.0",
+                "rm-rf": "~>0.1.0",
+                "serve-d:http": ">=0.0.0",
+                "workspace-d": "3.5.0-pre.9"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>1.0.11"
+                    },
+                    "name": "http"
+                }
+            ],
+            "version": "0.6.0-beta.2"
         },
         {
             "commitID": "a3c0469e0332c48057e5ed93a232af5f5f7ef250",
@@ -779,6 +813,67 @@
                 }
             ],
             "version": "0.7.0-beta.6"
+        },
+        {
+            "commitID": "21b07aa359eef26c2dea07efbb405b0c72b7177a",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.8.0",
+                "eventsystem": "~>1.2.0",
+                "libddoc": "0.7.4",
+                "rm-rf": "~>0.1.0",
+                "serve-d:http": ">=0.0.0",
+                "serve-d:lsp": ">=0.0.0",
+                "serve-d:serverbase": ">=0.0.0",
+                "workspace-d": "3.6.0-pre.15"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>1.1.6"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "eventsystem": "~>1.2.0",
+                        "painlessjson": "1.4.0"
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "workspace-d": {
+                            "optional": true,
+                            "version": ">=3.0.0"
+                        }
+                    },
+                    "name": "serverbase"
+                }
+            ],
+            "version": "0.7.0-beta.7"
         }
     ]
 }
