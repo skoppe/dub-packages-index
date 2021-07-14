@@ -4,7 +4,7 @@
         "library.graphics",
         "library.memory"
     ],
-    "commitID": "8fb88ad05193c3345058e0b2a6a498ac0c7332ad",
+    "commitID": "72402aac35acb49556d589195e7d5f6b675df6b0",
     "dateAdded": "2018-03-01T17:58:11",
     "description": "A simple RAII wrapper for SDL library.",
     "documentationURL": "https:\/\/masaniwasdp.github.io\/SDLRAII\/sdlraii",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "8fb88ad05193c3345058e0b2a6a498ac0c7332ad",
+            "commitID": "72402aac35acb49556d589195e7d5f6b675df6b0",
             "configurations": [
                 {
                     "name": "default"
@@ -118,6 +118,26 @@
             },
             "name": "sdlraii",
             "version": "2.1.0"
+        },
+        {
+            "commitID": "72402aac35acb49556d589195e7d5f6b675df6b0",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "mocksdl"
+                },
+                {
+                    "name": "ddox-windows"
+                }
+            ],
+            "dependencies": {
+                "derelict-sdl2": ">=3.1.0-alpha.4 <3.2.0-0",
+                "dunit": "~>1.0.14"
+            },
+            "name": "sdlraii",
+            "version": "2.2.0"
         }
     ]
 }
