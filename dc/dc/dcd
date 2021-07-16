@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development"
     ],
-    "commitID": "46ea058cfb56f411f594a1949c64075ca8e4a582",
+    "commitID": "02acaa534b9be65142aed7b202a6a8d5524abf2a",
     "dateAdded": "2016-01-14T08:56:59",
     "description": "The D Completion Daemon is an auto-complete program for the D programming language",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "46ea058cfb56f411f594a1949c64075ca8e4a582",
+            "commitID": "02acaa534b9be65142aed7b202a6a8d5524abf2a",
             "configurations": [
                 {
                     "name": "library"
@@ -967,6 +967,37 @@
                 }
             ],
             "version": "0.13.5"
+        },
+        {
+            "commitID": "02acaa534b9be65142aed7b202a6a8d5524abf2a",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "client"
+                },
+                {
+                    "name": "server"
+                }
+            ],
+            "dependencies": {
+                "dcd:common": ">=0.0.0",
+                "dsymbol": ">=0.11.2 <0.12.0",
+                "emsi_containers": "~>0.8.0",
+                "libdparse": ">=0.15.4 <0.16.0",
+                "stdx-allocator": "~>2.77.5"
+            },
+            "name": "dcd",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "msgpack-d": "1.0.1"
+                    },
+                    "name": "common"
+                }
+            ],
+            "version": "0.13.6"
         }
     ]
 }
