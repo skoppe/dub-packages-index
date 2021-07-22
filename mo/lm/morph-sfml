@@ -2,7 +2,7 @@
     "categories": [
         "library.binding"
     ],
-    "commitID": "172e0b34cd27d95b4bf1d39196f9fddac1e8adda",
+    "commitID": "178ce5626aa2dcbfe7bba54410a95726a2d8f8a7",
     "dateAdded": "2021-05-17T08:05:00",
     "description": "Simple Fast Media Library D Binding.",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "172e0b34cd27d95b4bf1d39196f9fddac1e8adda",
+            "commitID": "178ce5626aa2dcbfe7bba54410a95726a2d8f8a7",
             "dependencies": {
                 "morph-sfml:audio": ">=0.0.0",
                 "morph-sfml:graphics": ">=0.0.0",
@@ -29,7 +29,7 @@
                 {
                     "dependencies": {
                         "mixin_utilities": ">=0.0.1",
-                        "morph-dynalib": ">=1.1.0",
+                        "morph-dynalib": ">=1.1.3",
                         "morph-sfml:system": ">=0.0.0",
                         "morph-sfml:window": ">=0.0.0"
                     },
@@ -38,7 +38,7 @@
                 {
                     "dependencies": {
                         "mixin_utilities": ">=0.0.1",
-                        "morph-dynalib": ">=1.1.0",
+                        "morph-dynalib": ">=1.1.3",
                         "morph-sfml:system": ">=0.0.0",
                         "morph-sfml:window": ">=0.0.0"
                     },
@@ -47,21 +47,21 @@
                 {
                     "dependencies": {
                         "mixin_utilities": ">=0.0.1",
-                        "morph-dynalib": ">=1.1.0",
+                        "morph-dynalib": ">=1.1.3",
                         "morph-sfml:system": ">=0.0.0"
                     },
                     "name": "network"
                 },
                 {
                     "dependencies": {
-                        "morph-dynalib": ">=1.1.0"
+                        "morph-dynalib": ">=1.1.3"
                     },
                     "name": "system"
                 },
                 {
                     "dependencies": {
                         "mixin_utilities": ">=0.0.1",
-                        "morph-dynalib": ">=1.1.0",
+                        "morph-dynalib": ">=1.1.3",
                         "morph-sfml:system": ">=0.0.0"
                     },
                     "name": "window"
@@ -280,6 +280,60 @@
                 }
             ],
             "version": "0.2.0"
+        },
+        {
+            "commitID": "178ce5626aa2dcbfe7bba54410a95726a2d8f8a7",
+            "dependencies": {
+                "morph-sfml:audio": ">=0.0.0",
+                "morph-sfml:graphics": ">=0.0.0",
+                "morph-sfml:network": ">=0.0.0",
+                "morph-sfml:system": ">=0.0.0",
+                "morph-sfml:window": ">=0.0.0"
+            },
+            "name": "morph-sfml",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "mixin_utilities": ">=0.0.1",
+                        "morph-dynalib": ">=1.1.3",
+                        "morph-sfml:system": ">=0.0.0",
+                        "morph-sfml:window": ">=0.0.0"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "mixin_utilities": ">=0.0.1",
+                        "morph-dynalib": ">=1.1.3",
+                        "morph-sfml:system": ">=0.0.0",
+                        "morph-sfml:window": ">=0.0.0"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "mixin_utilities": ">=0.0.1",
+                        "morph-dynalib": ">=1.1.3",
+                        "morph-sfml:system": ">=0.0.0"
+                    },
+                    "name": "network"
+                },
+                {
+                    "dependencies": {
+                        "morph-dynalib": ">=1.1.3"
+                    },
+                    "name": "system"
+                },
+                {
+                    "dependencies": {
+                        "mixin_utilities": ">=0.0.1",
+                        "morph-dynalib": ">=1.1.3",
+                        "morph-sfml:system": ">=0.0.0"
+                    },
+                    "name": "window"
+                }
+            ],
+            "version": "0.2.1"
         }
     ]
 }
