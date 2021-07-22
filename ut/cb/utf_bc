@@ -3,7 +3,7 @@
         "library.encoding",
         "library.nogc"
     ],
-    "commitID": "4b1a755ebf0a45be45946a1220bbad0c7a743920",
+    "commitID": "6a4f2631fc298f84e4d7626c2826b0a571f2fe12",
     "dateAdded": "2021-07-21T23:36:50",
     "description": "D library for work with unicode formats. BetterC, pure, safe...",
     "documentationURL": "https:\/\/github.com\/MANKEYYENAME\/utf_bc\/blob\/master\/docs.md",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "4b1a755ebf0a45be45946a1220bbad0c7a743920",
+            "commitID": "6a4f2631fc298f84e4d7626c2826b0a571f2fe12",
             "name": "utf_bc",
             "subPackages": [
                 {
@@ -68,6 +68,22 @@
                 }
             ],
             "version": "0.2.0"
+        },
+        {
+            "commitID": "6a4f2631fc298f84e4d7626c2826b0a571f2fe12",
+            "name": "utf_bc",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "utf_bc": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "tests"
+                }
+            ],
+            "version": "0.2.1"
         }
     ]
 }
