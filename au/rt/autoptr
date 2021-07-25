@@ -5,9 +5,9 @@
         "library.data_structures",
         "library.nogc"
     ],
-    "commitID": "b0aba1f19749a590211ffcffbd63dd9550fbda7c",
+    "commitID": "f9471a1f79aac2ae799b7e01e15ff23e5cb40af6",
     "dateAdded": "2021-07-25T08:08:25",
-    "description": "Smart pointers like C++ std::smart_ptr and  std::unique_ptr.",
+    "description": "Mutable @nogc string struct using `std.experimental.allocator` for allocations.",
     "documentationURL": "https:\/\/submada.github.io\/autoptr\/",
     "id": "60fcffd921facde907519db5",
     "name": "autoptr",
@@ -19,7 +19,12 @@
     },
     "versions": [
         {
-            "commitID": "b0aba1f19749a590211ffcffbd63dd9550fbda7c",
+            "commitID": "f9471a1f79aac2ae799b7e01e15ff23e5cb40af6",
+            "dependencies": {
+                "automem": "~>0.6.4",
+                "mir-algorithm": "~>3.10.18",
+                "mir-core": "~>1.1.60"
+            },
             "name": "autoptr",
             "version": "~main"
         },
@@ -57,6 +62,36 @@
             "commitID": "b0aba1f19749a590211ffcffbd63dd9550fbda7c",
             "name": "autoptr",
             "version": "0.3.4-beta"
+        },
+        {
+            "commitID": "a04acf61f69ba58a7dcbcc094c48d2e586bf0c41",
+            "dependencies": {
+                "automem": "~>0.6.4",
+                "mir-algorithm": "~>3.10.18",
+                "mir-core": "~>1.1.60"
+            },
+            "name": "autoptr",
+            "version": "0.3.5-beta"
+        },
+        {
+            "commitID": "f7756db1935baa2010fc767fd909dfc39439ac03",
+            "dependencies": {
+                "automem": "~>0.6.4",
+                "mir-algorithm": "~>3.10.18",
+                "mir-core": "~>1.1.60"
+            },
+            "name": "autoptr",
+            "version": "0.3.6-beta"
+        },
+        {
+            "commitID": "f9471a1f79aac2ae799b7e01e15ff23e5cb40af6",
+            "dependencies": {
+                "automem": "~>0.6.4",
+                "mir-algorithm": "~>3.10.18",
+                "mir-core": "~>1.1.60"
+            },
+            "name": "autoptr",
+            "version": "0.3.7-beta"
         }
     ]
 }
