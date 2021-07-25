@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "bc8d7fd054e9f28845ca72bf1ffbed1b967633aa",
+    "commitID": "67880f73246ca82f378cc59c4dadd14448e8d5c0",
     "dateAdded": "2021-07-25T08:08:25",
     "description": "Mutable @nogc string struct using `std.experimental.allocator` for allocations.",
     "documentationURL": "https:\/\/submada.github.io\/autoptr\/",
@@ -14,7 +14,12 @@
     },
     "versions": [
         {
-            "commitID": "bc8d7fd054e9f28845ca72bf1ffbed1b967633aa",
+            "commitID": "67880f73246ca82f378cc59c4dadd14448e8d5c0",
+            "dependencies": {
+                "automem": "~>0.6.4",
+                "mir-algorithm": "~>3.10.18",
+                "mir-core": "~>1.1.60"
+            },
             "name": "autoptr",
             "version": "~main"
         },
@@ -27,6 +32,16 @@
             "commitID": "bc8d7fd054e9f28845ca72bf1ffbed1b967633aa",
             "name": "autoptr",
             "version": "0.3.1-beta"
+        },
+        {
+            "commitID": "67880f73246ca82f378cc59c4dadd14448e8d5c0",
+            "dependencies": {
+                "automem": "~>0.6.4",
+                "mir-algorithm": "~>3.10.18",
+                "mir-core": "~>1.1.60"
+            },
+            "name": "autoptr",
+            "version": "0.3.2-beta"
         }
     ]
 }
