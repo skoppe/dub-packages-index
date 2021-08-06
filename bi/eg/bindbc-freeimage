@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "20b1e1f5ed9d57009603c026017ae0f252d52757",
+    "commitID": "aa680841882bb2450cc8cc9fe492169b4d1912ea",
     "dateAdded": "2019-04-04T17:11:22",
     "description": "Dynamic and static bindings to FreeImage, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "20b1e1f5ed9d57009603c026017ae0f252d52757",
+            "commitID": "aa680841882bb2450cc8cc9fe492169b4d1912ea",
             "configurations": [
                 {
                     "dependencies": {
@@ -289,6 +289,31 @@
             ],
             "name": "bindbc-freeimage",
             "version": "0.5.1"
+        },
+        {
+            "commitID": "aa680841882bb2450cc8cc9fe492169b4d1912ea",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-freeimage",
+            "version": "1.0.0"
         }
     ]
 }
