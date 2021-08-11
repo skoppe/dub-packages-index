@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.build"
     ],
-    "commitID": "de5e5820c62db445c69da752145bb14273d1f2b3",
+    "commitID": "113658315a88f528a1cdb398cfc4bd03f0c0c15d",
     "dateAdded": "2015-03-18T19:10:29",
     "description": "A build system in D",
     "documentationURL": "",
@@ -15,6 +15,25 @@
         "project": "reggae"
     },
     "versions": [
+        {
+            "commitID": "ab3f75a292e392b4dac46607bf7f54f6d77847ec",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dub": "~>1.23.0"
+            },
+            "name": "reggae",
+            "version": "~fix-149"
+        },
         {
             "commitID": "78db1156b820f373f0a53d33e1ba4c72c122d13f",
             "configurations": [
@@ -54,7 +73,7 @@
             "version": "~fix-97"
         },
         {
-            "commitID": "de5e5820c62db445c69da752145bb14273d1f2b3",
+            "commitID": "113658315a88f528a1cdb398cfc4bd03f0c0c15d",
             "configurations": [
                 {
                     "name": "executable"
@@ -1006,6 +1025,25 @@
             },
             "name": "reggae",
             "version": "0.9.1"
+        },
+        {
+            "commitID": "113658315a88f528a1cdb398cfc4bd03f0c0c15d",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dub": "~>1.23.0"
+            },
+            "name": "reggae",
+            "version": "0.9.2"
         }
     ]
 }
