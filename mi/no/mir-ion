@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.nogc"
     ],
-    "commitID": "17701f426a9d05932e3127f652d906cdc62a7c90",
+    "commitID": "46b8fed1d7db9afc940a7e5ee10f093bec69df36",
     "dateAdded": "2020-10-04T11:03:23",
     "description": "Fast, Expressive, and Easy to use JSON Serialization Library with optional SIMD Optimization.",
     "documentationURL": "http:\/\/mir-ion.libmir.org\/",
@@ -36,7 +36,7 @@
             "version": "~filereader"
         },
         {
-            "commitID": "a008598b7dedea3e83f80f715fefd7b7f9d366d6",
+            "commitID": "ac9d419ef771514132d80b5122c8bf129f2b02f2",
             "configurations": [
                 {
                     "name": "common"
@@ -92,7 +92,30 @@
             "version": "~ser"
         },
         {
-            "commitID": "17701f426a9d05932e3127f652d906cdc62a7c90",
+            "commitID": "39db37412d0b161f38cebb998730d1a4c83fc757",
+            "configurations": [
+                {
+                    "name": "common"
+                },
+                {
+                    "name": "bloomberg"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.10.78",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "~text-reader"
+        },
+        {
+            "commitID": "46b8fed1d7db9afc940a7e5ee10f093bec69df36",
             "configurations": [
                 {
                     "name": "common"
@@ -1298,6 +1321,26 @@
             },
             "name": "mir-ion",
             "version": "0.1.51"
+        },
+        {
+            "commitID": "46b8fed1d7db9afc940a7e5ee10f093bec69df36",
+            "configurations": [
+                {
+                    "name": "common"
+                },
+                {
+                    "name": "bloomberg"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.10.69",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "0.1.52"
         }
     ]
 }
