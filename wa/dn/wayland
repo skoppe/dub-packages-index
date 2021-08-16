@@ -3,7 +3,7 @@
         "library.binding",
         "library.gui"
     ],
-    "commitID": "2da477b8bb5a45ac09218291ec423277bac02589",
+    "commitID": "788c20c9ffb228f8a0a064615e3eeeff8226518f",
     "dateAdded": "2018-01-18T22:43:32",
     "description": "Wayland bindings for D",
     "documentationURL": "",
@@ -17,7 +17,168 @@
     },
     "versions": [
         {
-            "commitID": "2da477b8bb5a45ac09218291ec423277bac02589",
+            "commitID": "6481a13024e8f84e78eea1f5a6763b5621119b25",
+            "name": "wayland",
+            "subPackages": [
+                {
+                    "name": "scanner"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "dependencies": {
+                                "derelict-util": "~>2.0.0"
+                            },
+                            "name": "dynamic"
+                        }
+                    ],
+                    "dependencies": {
+                        "wayland": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "client"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "dependencies": {
+                                "derelict-util": "~>2.0.0"
+                            },
+                            "name": "dynamic"
+                        }
+                    ],
+                    "dependencies": {
+                        "wayland:client": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "egl"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "dependencies": {
+                                "derelict-util": "~>2.0.0"
+                            },
+                            "name": "dynamic"
+                        }
+                    ],
+                    "name": "server"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "dependencies": {
+                                "derelict-util": "~>2.0.0"
+                            },
+                            "name": "dynamic"
+                        }
+                    ],
+                    "dependencies": {
+                        "wayland:client": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cursor"
+                },
+                {
+                    "dependencies": {
+                        "wayland:client": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "connect"
+                },
+                {
+                    "dependencies": {
+                        "wayland:client": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "list_registry"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "dynamic"
+                        }
+                    ],
+                    "dependencies": {
+                        "derelict-gles": {
+                            "path": "..\/..\/3rdparty\/DerelictGLES",
+                            "version": ">=0.0.0"
+                        },
+                        "wayland:client": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "wayland:cursor": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "wayland:egl": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "simple_egl"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "dynamic"
+                        }
+                    ],
+                    "dependencies": {
+                        "wayland:client": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "hello"
+                },
+                {
+                    "dependencies": {
+                        "wayland:server": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "xcb-d": "~>2.1.0",
+                        "xcb-util-wm-d": "~>0.5.0",
+                        "xkbcommon-d": "~>0.5.1",
+                        "xlib-d": "~>0.1.1"
+                    },
+                    "name": "compositor"
+                }
+            ],
+            "version": "~server_fix"
+        },
+        {
+            "commitID": "788c20c9ffb228f8a0a064615e3eeeff8226518f",
             "name": "wayland",
             "subPackages": [
                 {
@@ -1303,6 +1464,167 @@
                 }
             ],
             "version": "0.3.0"
+        },
+        {
+            "commitID": "788c20c9ffb228f8a0a064615e3eeeff8226518f",
+            "name": "wayland",
+            "subPackages": [
+                {
+                    "name": "scanner"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "dependencies": {
+                                "derelict-util": "~>2.0.0"
+                            },
+                            "name": "dynamic"
+                        }
+                    ],
+                    "dependencies": {
+                        "wayland": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "client"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "dependencies": {
+                                "derelict-util": "~>2.0.0"
+                            },
+                            "name": "dynamic"
+                        }
+                    ],
+                    "dependencies": {
+                        "wayland:client": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "egl"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "dependencies": {
+                                "derelict-util": "~>2.0.0"
+                            },
+                            "name": "dynamic"
+                        }
+                    ],
+                    "name": "server"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "dependencies": {
+                                "derelict-util": "~>2.0.0"
+                            },
+                            "name": "dynamic"
+                        }
+                    ],
+                    "dependencies": {
+                        "wayland:client": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "cursor"
+                },
+                {
+                    "dependencies": {
+                        "wayland:client": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "connect"
+                },
+                {
+                    "dependencies": {
+                        "wayland:client": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "list_registry"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "dynamic"
+                        }
+                    ],
+                    "dependencies": {
+                        "derelict-gles": {
+                            "path": "..\/..\/3rdparty\/DerelictGLES",
+                            "version": ">=0.0.0"
+                        },
+                        "wayland:client": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "wayland:cursor": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "wayland:egl": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "simple_egl"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "static"
+                        },
+                        {
+                            "name": "dynamic"
+                        }
+                    ],
+                    "dependencies": {
+                        "wayland:client": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "hello"
+                },
+                {
+                    "dependencies": {
+                        "wayland:server": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        },
+                        "xcb-d": "~>2.1.0",
+                        "xcb-util-wm-d": "~>0.5.0",
+                        "xkbcommon-d": "~>0.5.1",
+                        "xlib-d": "~>0.1.1"
+                    },
+                    "name": "compositor"
+                }
+            ],
+            "version": "0.3.1"
         }
     ]
 }
