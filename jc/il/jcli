@@ -2,9 +2,9 @@
     "categories": [
         "library"
     ],
-    "commitID": "e7d508f709722231c5b387a67eec894b9180e20a",
+    "commitID": "618d8e543d5e4bed042609edd7dd8e8c3416171c",
     "dateAdded": "2019-03-31T23:29:41",
-    "description": "A CLI framework library.",
+    "description": "A fully featured CLI framework for D",
     "documentationURL": "",
     "id": "5ca13145db35c5060575c3e7",
     "name": "jcli",
@@ -16,75 +16,65 @@
     },
     "versions": [
         {
-            "commitID": "d8b725903d32e9a28d9e0bcbe175c4506fc79679",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "name": "verbose_debug"
-                },
-                {
-                    "name": "binder_debug"
-                }
-            ],
+            "commitID": "618d8e543d5e4bed042609edd7dd8e8c3416171c",
             "dependencies": {
-                "asdf": {
-                    "optional": true,
-                    "version": "~>0.5.7"
-                },
-                "jioc": ">=0.2.0",
-                "silly": "~>1.0.2"
+                "jcli:argbinder": ">=0.0.0",
+                "jcli:argparser": ">=0.0.0",
+                "jcli:commandparser": ">=0.0.0",
+                "jcli:core": ">=0.0.0",
+                "jcli:helptext": ">=0.0.0",
+                "jcli:introspect": ">=0.0.0",
+                "jcli:resolver": ">=0.0.0",
+                "jcli:text": ">=0.0.0"
             },
             "name": "jcli",
-            "version": "~issue-31"
-        },
-        {
-            "commitID": "0afab2dce795711c374e58d014f7e40b9c4e538e",
-            "configurations": [
+            "subPackages": [
                 {
-                    "name": "default"
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "argbinder"
                 },
                 {
-                    "name": "verbose_debug"
+                    "name": "argparser"
                 },
                 {
-                    "name": "binder_debug"
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "commandparser"
+                },
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "helptext"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "introspect"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "resolver"
+                },
+                {
+                    "name": "text"
                 }
             ],
-            "dependencies": {
-                "asdf": {
-                    "optional": true,
-                    "version": "~>0.5.7"
-                },
-                "jioc": ">=0.2.0",
-                "silly": "~>1.0.2"
-            },
-            "name": "jcli",
-            "version": "~new-readmes"
-        },
-        {
-            "commitID": "e7d508f709722231c5b387a67eec894b9180e20a",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "name": "verbose_debug"
-                },
-                {
-                    "name": "binder_debug"
-                }
-            ],
-            "dependencies": {
-                "asdf": {
-                    "optional": true,
-                    "version": "~>0.5.7"
-                },
-                "jioc": ">=0.2.0",
-                "silly": "~>1.0.2"
-            },
-            "name": "jcli",
             "version": "~master"
         },
         {
@@ -408,6 +398,68 @@
             },
             "name": "jcli",
             "version": "0.12.1"
+        },
+        {
+            "commitID": "618d8e543d5e4bed042609edd7dd8e8c3416171c",
+            "dependencies": {
+                "jcli:argbinder": ">=0.0.0",
+                "jcli:argparser": ">=0.0.0",
+                "jcli:commandparser": ">=0.0.0",
+                "jcli:core": ">=0.0.0",
+                "jcli:helptext": ">=0.0.0",
+                "jcli:introspect": ">=0.0.0",
+                "jcli:resolver": ">=0.0.0",
+                "jcli:text": ">=0.0.0"
+            },
+            "name": "jcli",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "argbinder"
+                },
+                {
+                    "name": "argparser"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "commandparser"
+                },
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "helptext"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "introspect"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "resolver"
+                },
+                {
+                    "name": "text"
+                }
+            ],
+            "version": "0.20.0"
         }
     ]
 }
