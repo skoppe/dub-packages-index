@@ -3,7 +3,7 @@
         "library.audio",
         "library.nogc"
     ],
-    "commitID": "e99bc3b8617b38ed22cdfcec6ab4cc9b1766d761",
+    "commitID": "95fcc1f00853ff176392070a5d5b6e100c626244",
     "dateAdded": "2020-08-20T13:58:06",
     "description": "D translation of libsoundio",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "e99bc3b8617b38ed22cdfcec6ab4cc9b1766d761",
+            "commitID": "95fcc1f00853ff176392070a5d5b6e100c626244",
             "configurations": [
                 {
                     "name": "linux"
@@ -165,6 +165,81 @@
                 }
             ],
             "version": "1.0.0"
+        },
+        {
+            "commitID": "95fcc1f00853ff176392070a5d5b6e100c626244",
+            "configurations": [
+                {
+                    "name": "linux"
+                },
+                {
+                    "name": "windows"
+                },
+                {
+                    "name": "dummy"
+                },
+                {
+                    "name": "jack"
+                }
+            ],
+            "name": "libsoundio-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "libsoundio-d": ">=0.0.0"
+                    },
+                    "name": "sine"
+                },
+                {
+                    "dependencies": {
+                        "libsoundio-d": ">=0.0.0"
+                    },
+                    "name": "list-devices"
+                },
+                {
+                    "dependencies": {
+                        "libsoundio-d": ">=0.0.0"
+                    },
+                    "name": "record"
+                },
+                {
+                    "dependencies": {
+                        "libsoundio-d": ">=0.0.0"
+                    },
+                    "name": "microphone"
+                },
+                {
+                    "dependencies": {
+                        "libsoundio-d": ">=0.0.0"
+                    },
+                    "name": "backend-disconnect-recover"
+                },
+                {
+                    "dependencies": {
+                        "libsoundio-d": ">=0.0.0"
+                    },
+                    "name": "latency"
+                },
+                {
+                    "dependencies": {
+                        "libsoundio-d": ">=0.0.0"
+                    },
+                    "name": "overflow"
+                },
+                {
+                    "dependencies": {
+                        "libsoundio-d": ">=0.0.0"
+                    },
+                    "name": "underflow"
+                },
+                {
+                    "dependencies": {
+                        "libsoundio-d": ">=0.0.0"
+                    },
+                    "name": "unit-tests"
+                }
+            ],
+            "version": "1.1.0"
         }
     ]
 }
