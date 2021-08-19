@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "96cd1a05081fc6e46d3ef08adec56550bd4177bf",
+    "commitID": "3e30d3de244946bf34bf0e1f30673a0f8ea015ee",
     "dateAdded": "2021-01-14T12:40:56",
     "description": "concurrency library",
     "documentationURL": "",
@@ -82,7 +82,7 @@
             "version": "~timers"
         },
         {
-            "commitID": "b8d2fab88073e1571de1a9972c278d74458a7f7c",
+            "commitID": "3e30d3de244946bf34bf0e1f30673a0f8ea015ee",
             "configurations": [
                 {
                     "name": "default"
@@ -112,7 +112,7 @@
             "dependencies": {
                 "automem": "0.6.4",
                 "concepts": "~>0.0.8",
-                "ikod-containers": "0.0.20",
+                "ikod-containers": "0.0.21",
                 "mir-core": "~>1.1.62"
             },
             "name": "concurrency",
@@ -1024,6 +1024,43 @@
             },
             "name": "concurrency",
             "version": "3.0.4"
+        },
+        {
+            "commitID": "3e30d3de244946bf34bf0e1f30673a0f8ea015ee",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest-release"
+                },
+                {
+                    "name": "nodip"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest-asan"
+                }
+            ],
+            "dependencies": {
+                "automem": "0.6.4",
+                "concepts": "~>0.0.8",
+                "ikod-containers": "0.0.21",
+                "mir-core": "~>1.1.62"
+            },
+            "name": "concurrency",
+            "version": "3.0.5"
         }
     ]
 }
