@@ -3,9 +3,9 @@
         "library.binding",
         "library.scientific"
     ],
-    "commitID": "fd186e35cd28f47063a441e2be59ee50342918d4",
+    "commitID": "83bf693b5412f06697f4aa2b3dd0b424c92b44ee",
     "dateAdded": "2021-08-21T05:38:45",
-    "description": "D wrapper for libmpdec.",
+    "description": "D wrapper for libmpdec, part of mpdecimal, which is a package for correctly-rounded arbitrary precision decimal floating point arithmetic.",
     "documentationURL": "",
     "id": "61207545a33a2f9463e2a83f",
     "name": "d-mpdecimal",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "fd186e35cd28f47063a441e2be59ee50342918d4",
+            "commitID": "83bf693b5412f06697f4aa2b3dd0b424c92b44ee",
             "dependencies": {
                 "d-mpdecimal:example_primes": ">=0.0.0",
                 "d-mpdecimal:mpdec": ">=0.0.0",
@@ -83,6 +83,40 @@
                 }
             ],
             "version": "0.1.0"
+        },
+        {
+            "commitID": "83bf693b5412f06697f4aa2b3dd0b424c92b44ee",
+            "dependencies": {
+                "d-mpdecimal:example_primes": ">=0.0.0",
+                "d-mpdecimal:mpdec": ">=0.0.0",
+                "d-mpdecimal:test_decimal": ">=0.0.0",
+                "d-mpdecimal:test_mpdec": ">=0.0.0"
+            },
+            "name": "d-mpdecimal",
+            "subPackages": [
+                {
+                    "name": "mpdec"
+                },
+                {
+                    "dependencies": {
+                        "d-mpdecimal:mpdec": ">=0.0.0"
+                    },
+                    "name": "test_mpdec"
+                },
+                {
+                    "dependencies": {
+                        "d-mpdecimal:mpdec": ">=0.0.0"
+                    },
+                    "name": "test_decimal"
+                },
+                {
+                    "dependencies": {
+                        "d-mpdecimal:mpdec": ">=0.0.0"
+                    },
+                    "name": "example_primes"
+                }
+            ],
+            "version": "0.2.0"
         }
     ]
 }
