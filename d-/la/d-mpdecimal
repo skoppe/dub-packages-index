@@ -1,0 +1,88 @@
+{
+    "categories": [
+        "library.binding",
+        "library.scientific"
+    ],
+    "commitID": "fd186e35cd28f47063a441e2be59ee50342918d4",
+    "dateAdded": "2021-08-21T05:38:45",
+    "description": "D wrapper for libmpdec.",
+    "documentationURL": "",
+    "id": "61207545a33a2f9463e2a83f",
+    "name": "d-mpdecimal",
+    "owner": "61207263a33a2f9463e2a28d",
+    "repository": {
+        "kind": "github",
+        "owner": "pdenapo",
+        "project": "d-mpdecimal"
+    },
+    "versions": [
+        {
+            "commitID": "fd186e35cd28f47063a441e2be59ee50342918d4",
+            "dependencies": {
+                "d-mpdecimal:example_primes": ">=0.0.0",
+                "d-mpdecimal:mpdec": ">=0.0.0",
+                "d-mpdecimal:test_decimal": ">=0.0.0",
+                "d-mpdecimal:test_mpdec": ">=0.0.0"
+            },
+            "name": "d-mpdecimal",
+            "subPackages": [
+                {
+                    "name": "mpdec"
+                },
+                {
+                    "dependencies": {
+                        "d-mpdecimal:mpdec": ">=0.0.0"
+                    },
+                    "name": "test_mpdec"
+                },
+                {
+                    "dependencies": {
+                        "d-mpdecimal:mpdec": ">=0.0.0"
+                    },
+                    "name": "test_decimal"
+                },
+                {
+                    "dependencies": {
+                        "d-mpdecimal:mpdec": ">=0.0.0"
+                    },
+                    "name": "example_primes"
+                }
+            ],
+            "version": "~main"
+        },
+        {
+            "commitID": "fd186e35cd28f47063a441e2be59ee50342918d4",
+            "dependencies": {
+                "d-mpdecimal:example_primes": ">=0.0.0",
+                "d-mpdecimal:mpdec": ">=0.0.0",
+                "d-mpdecimal:test_decimal": ">=0.0.0",
+                "d-mpdecimal:test_mpdec": ">=0.0.0"
+            },
+            "name": "d-mpdecimal",
+            "subPackages": [
+                {
+                    "name": "mpdec"
+                },
+                {
+                    "dependencies": {
+                        "d-mpdecimal:mpdec": ">=0.0.0"
+                    },
+                    "name": "test_mpdec"
+                },
+                {
+                    "dependencies": {
+                        "d-mpdecimal:mpdec": ">=0.0.0"
+                    },
+                    "name": "test_decimal"
+                },
+                {
+                    "dependencies": {
+                        "d-mpdecimal:mpdec": ">=0.0.0"
+                    },
+                    "name": "example_primes"
+                }
+            ],
+            "version": "0.1.0"
+        }
+    ]
+}
