@@ -1,8 +1,8 @@
 {
     "categories": [],
-    "commitID": "24307a4f8769c183f91914c1e95a0162bc21bb20",
+    "commitID": "7f1b4c4705e9122fbf293858dc08f41bcbcaf3ba",
     "dateAdded": "2019-05-06T21:22:10",
-    "description": "Implementation of expected idiom for D",
+    "description": "Implementation of expected idiom (error handling with ok and err)",
     "documentationURL": "",
     "id": "5cd0896272ca5c561d787467",
     "name": "expected",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "131ddeedbfdd8bf43a13514b58477491ad175088",
+            "commitID": "7f1b4c4705e9122fbf293858dc08f41bcbcaf3ba",
             "configurations": [
                 {
                     "name": "default"
@@ -129,6 +129,31 @@
             ],
             "name": "expected",
             "version": "0.2.3"
+        },
+        {
+            "commitID": "7f1b4c4705e9122fbf293858dc08f41bcbcaf3ba",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "betterC"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "basicunittest"
+                },
+                {
+                    "name": "bettercunittest"
+                }
+            ],
+            "name": "expected",
+            "version": "0.2.4"
         }
     ]
 }
