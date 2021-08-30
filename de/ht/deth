@@ -1,10 +1,10 @@
 {
     "categories": [],
-    "commitID": "6c50cbf3266ab4ff53d1f0b3fbba382cf3e253f4",
-    "dateAdded": "2021-08-30T15:26:01",
+    "commitID": "ce8f4553f09e5188264d676b9839c7da67836a16",
+    "dateAdded": "2021-08-30T15:58:53",
     "description": "Example of using metaprgramming for creating smart contracts interface from abi",
     "documentationURL": "",
-    "id": "612cdc69a33a2f9463ee737a",
+    "id": "612ce41da33a2f9463ee7ae3",
     "name": "deth",
     "owner": "612c7ea9a33a2f9463ee169f",
     "repository": {
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "6c50cbf3266ab4ff53d1f0b3fbba382cf3e253f4",
+            "commitID": "ce8f4553f09e5188264d676b9839c7da67836a16",
             "dependencies": {
                 "rpc": {
                     "path": "d-rpc",
@@ -22,6 +22,17 @@
                 }
             },
             "name": "deth",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devtest"
+                }
+            ],
             "version": "~master"
         },
         {
@@ -34,6 +45,28 @@
             },
             "name": "deth",
             "version": "0.0.1-alpha"
+        },
+        {
+            "commitID": "ce8f4553f09e5188264d676b9839c7da67836a16",
+            "dependencies": {
+                "rpc": {
+                    "path": "d-rpc",
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "deth",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devtest"
+                }
+            ],
+            "version": "0.0.2-alpha"
         }
     ]
 }
