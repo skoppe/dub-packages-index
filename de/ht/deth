@@ -1,8 +1,8 @@
 {
     "categories": [],
-    "commitID": "ce8f4553f09e5188264d676b9839c7da67836a16",
+    "commitID": "3a24efb8be7c50a4b7737a45a5fd8a2fa86d40bf",
     "dateAdded": "2021-08-30T15:58:53",
-    "description": "Example of using metaprgramming for creating smart contracts interface from abi",
+    "description": "Etherium stuff for D",
     "documentationURL": "",
     "id": "612ce41da33a2f9463ee7ae3",
     "name": "deth",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "ce8f4553f09e5188264d676b9839c7da67836a16",
+            "commitID": "3a24efb8be7c50a4b7737a45a5fd8a2fa86d40bf",
             "dependencies": {
                 "rpc": {
                     "path": "d-rpc",
@@ -67,6 +67,28 @@
                 }
             ],
             "version": "0.0.2-alpha"
+        },
+        {
+            "commitID": "3a24efb8be7c50a4b7737a45a5fd8a2fa86d40bf",
+            "dependencies": {
+                "rpc": {
+                    "path": "d-rpc",
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "deth",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devtest"
+                }
+            ],
+            "version": "0.0.3-alpha"
         }
     ]
 }
