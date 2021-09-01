@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "d41995d04279481513dc7127382087e570e8ec97",
+    "commitID": "d76cc3feadb5dbf81b6376b2831c36f1cc1a0826",
     "dateAdded": "2015-06-01T16:37:56",
     "description": "Subpackage collection for web, database, terminal ui, gui, scripting, and more with a commitment to long-term compatibility and stability. Use individual subpackages instead of the overall package to avoid bringing in things you don't need\/want!",
     "documentationURL": "",
@@ -1485,7 +1485,7 @@
             "version": "~wip"
         },
         {
-            "commitID": "d41995d04279481513dc7127382087e570e8ec97",
+            "commitID": "d76cc3feadb5dbf81b6376b2831c36f1cc1a0826",
             "name": "arsd-official",
             "subPackages": [
                 {
@@ -23674,6 +23674,273 @@
                 }
             ],
             "version": "10.2.1"
+        },
+        {
+            "commitID": "d76cc3feadb5dbf81b6376b2831c36f1cc1a0826",
+            "name": "arsd-official",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "normal"
+                        },
+                        {
+                            "name": "without-opengl"
+                        },
+                        {
+                            "name": "cocoa"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:color_base": ">=0.0.0"
+                    },
+                    "name": "simpledisplay"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:simpledisplay": ">=0.0.0"
+                    },
+                    "name": "minigui"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:image_files": ">=0.0.0",
+                        "arsd-official:simpledisplay": ">=0.0.0",
+                        "arsd-official:svg": ">=0.0.0",
+                        "arsd-official:ttf": ">=0.0.0"
+                    },
+                    "name": "nanovega"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:minigui": ">=0.0.0",
+                        "arsd-official:nanovega": ">=0.0.0"
+                    },
+                    "name": "minigui-nanovega"
+                },
+                {
+                    "name": "gamehelpers"
+                },
+                {
+                    "name": "joystick"
+                },
+                {
+                    "name": "fibersocket"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:htmltotext": ">=0.0.0"
+                    },
+                    "name": "email"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:email": ">=0.0.0"
+                    },
+                    "name": "mailserver"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:bmp": ">=0.0.0",
+                        "arsd-official:color_base": ">=0.0.0",
+                        "arsd-official:imageresize": ">=0.0.0",
+                        "arsd-official:jpeg": ">=0.0.0",
+                        "arsd-official:png": ">=0.0.0",
+                        "arsd-official:svg": ">=0.0.0"
+                    },
+                    "name": "image_files"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:color_base": ">=0.0.0"
+                    },
+                    "name": "imageresize"
+                },
+                {
+                    "name": "simpleaudio"
+                },
+                {
+                    "name": "midi"
+                },
+                {
+                    "name": "nukedopl3"
+                },
+                {
+                    "name": "mp3"
+                },
+                {
+                    "name": "vorbis"
+                },
+                {
+                    "name": "wav"
+                },
+                {
+                    "name": "svg"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:color_base": ">=0.0.0"
+                    },
+                    "name": "jpeg"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:color_base": ">=0.0.0"
+                    },
+                    "name": "png"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:color_base": ">=0.0.0"
+                    },
+                    "name": "bmp"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:color_base": ">=0.0.0",
+                        "arsd-official:dom": ">=0.0.0"
+                    },
+                    "name": "htmltotext"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:characterencodings": ">=0.0.0"
+                    },
+                    "name": "dom"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:dom": ">=0.0.0"
+                    },
+                    "name": "rss"
+                },
+                {
+                    "name": "characterencodings"
+                },
+                {
+                    "name": "argon2"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "embedded_httpd"
+                        },
+                        {
+                            "name": "embedded_httpd_threads"
+                        },
+                        {
+                            "name": "embedded_httpd_processes"
+                        },
+                        {
+                            "name": "embedded_httpd_hybrid"
+                        },
+                        {
+                            "name": "cgi"
+                        },
+                        {
+                            "name": "fastcgi"
+                        },
+                        {
+                            "name": "scgi"
+                        },
+                        {
+                            "name": "stdio_http"
+                        }
+                    ],
+                    "name": "cgi"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:database_base": ">=0.0.0"
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:database_base": ">=0.0.0"
+                    },
+                    "name": "postgres"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:database_base": ">=0.0.0"
+                    },
+                    "name": "sqlite"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:database_base": ">=0.0.0"
+                    },
+                    "name": "mssql"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "with_openssl"
+                        },
+                        {
+                            "name": "without_openssl"
+                        }
+                    ],
+                    "name": "http"
+                },
+                {
+                    "name": "jsvar"
+                },
+                {
+                    "name": "jni"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:jsvar": ">=0.0.0"
+                    },
+                    "name": "script"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "normal"
+                        },
+                        {
+                            "dependencies": {
+                                "arsd-official:bmp": ">=0.0.0",
+                                "arsd-official:jpeg": ">=0.0.0",
+                                "arsd-official:minigui": ">=0.0.0",
+                                "arsd-official:png": ">=0.0.0",
+                                "arsd-official:svg": ">=0.0.0",
+                                "arsd-official:terminalemulator": ">=0.0.0"
+                            },
+                            "name": "builtin_emulator"
+                        }
+                    ],
+                    "name": "terminal"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:color_base": ">=0.0.0"
+                    },
+                    "name": "terminalemulator"
+                },
+                {
+                    "name": "ttf"
+                },
+                {
+                    "name": "color_base"
+                },
+                {
+                    "name": "database_base"
+                },
+                {
+                    "name": "libssh2_bindings"
+                },
+                {
+                    "name": "eventloop"
+                },
+                {
+                    "name": "archive"
+                }
+            ],
+            "version": "10.2.2"
         }
     ]
 }
