@@ -5,7 +5,7 @@
         "library.general",
         "library.scientific.numeric"
     ],
-    "commitID": "8df9c89e57445afcee7bbfd36aecba9d03304440",
+    "commitID": "c38881dc5264c5ee148ae51e7648d48da5dda520",
     "dateAdded": "2016-11-25T23:59:43",
     "description": "Dlang Random Number Generators",
     "documentationURL": "http:\/\/mir-random.libmir.org\/",
@@ -48,7 +48,7 @@
             "version": "~newci"
         },
         {
-            "commitID": "2640f603c3f4f23b18887a5c2bc2cb45ecba9a4f",
+            "commitID": "c38881dc5264c5ee148ae51e7648d48da5dda520",
             "configurations": [
                 {
                     "dependencies": {
@@ -71,7 +71,7 @@
             ],
             "dependencies": {
                 "mir-core": ">=0.2.0 <2.0.0",
-                "mir-linux-kernel": ">=1.0.0 <1.2.0"
+                "mir-linux-kernel": ">=1.0.0 <1.3.0"
             },
             "name": "mir-random",
             "version": "~master"
@@ -1103,6 +1103,64 @@
             },
             "name": "mir-random",
             "version": "2.2.17"
+        },
+        {
+            "commitID": "2640f603c3f4f23b18887a5c2bc2cb45ecba9a4f",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "mir-algorithm": {
+                            "optional": true,
+                            "version": ">=3.2.1 <4.0.0"
+                        }
+                    },
+                    "name": "default"
+                },
+                {
+                    "name": "minimal"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": ">=3.2.1 <4.0.0"
+                    },
+                    "name": "extended"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=0.2.0 <2.0.0",
+                "mir-linux-kernel": ">=1.0.0 <1.2.0"
+            },
+            "name": "mir-random",
+            "version": "2.2.18"
+        },
+        {
+            "commitID": "c38881dc5264c5ee148ae51e7648d48da5dda520",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "mir-algorithm": {
+                            "optional": true,
+                            "version": ">=3.2.1 <4.0.0"
+                        }
+                    },
+                    "name": "default"
+                },
+                {
+                    "name": "minimal"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": ">=3.2.1 <4.0.0"
+                    },
+                    "name": "extended"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=0.2.0 <2.0.0",
+                "mir-linux-kernel": ">=1.0.0 <1.3.0"
+            },
+            "name": "mir-random",
+            "version": "2.2.19"
         }
     ]
 }
