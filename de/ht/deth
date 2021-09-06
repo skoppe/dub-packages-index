@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "3a24efb8be7c50a4b7737a45a5fd8a2fa86d40bf",
+    "commitID": "adc4af9896c278245e487a4536aa4352081e4595",
     "dateAdded": "2021-08-30T15:58:53",
     "description": "Etherium stuff for D",
     "documentationURL": "",
@@ -14,12 +14,9 @@
     },
     "versions": [
         {
-            "commitID": "3a24efb8be7c50a4b7737a45a5fd8a2fa86d40bf",
+            "commitID": "adc4af9896c278245e487a4536aa4352081e4595",
             "dependencies": {
-                "rpc": {
-                    "path": "d-rpc",
-                    "version": ">=0.0.0"
-                }
+                "tynukrpc": ">=0.0.0"
             },
             "name": "deth",
             "subPackages": [
@@ -89,6 +86,25 @@
                 }
             ],
             "version": "0.0.3-alpha"
+        },
+        {
+            "commitID": "adc4af9896c278245e487a4536aa4352081e4595",
+            "dependencies": {
+                "tynukrpc": ">=0.0.0"
+            },
+            "name": "deth",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devtest"
+                }
+            ],
+            "version": "0.0.4-alpha"
         }
     ]
 }
