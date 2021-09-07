@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "22678cae514bb45008c8bf2a1dc1de5500ae5fae",
+    "commitID": "41116364b8554c64b8aad8367420c92685fc07bf",
     "dateAdded": "2021-09-07T00:42:09",
     "description": "An implementation of JSON Schema for D",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "22678cae514bb45008c8bf2a1dc1de5500ae5fae",
+            "commitID": "41116364b8554c64b8aad8367420c92685fc07bf",
             "configurations": [
                 {
                     "name": "default"
@@ -26,6 +26,9 @@
                     "name": "subschema"
                 }
             ],
+            "dependencies": {
+                "sdlite": "~>1.1.2"
+            },
             "name": "jsonschema",
             "version": "~master"
         },
@@ -44,6 +47,25 @@
             ],
             "name": "jsonschema",
             "version": "0.1.0"
+        },
+        {
+            "commitID": "41116364b8554c64b8aad8367420c92685fc07bf",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": "~>0.9.3"
+                    },
+                    "name": "subschema"
+                }
+            ],
+            "dependencies": {
+                "sdlite": "~>1.1.2"
+            },
+            "name": "jsonschema",
+            "version": "0.2.0"
         }
     ]
 }
