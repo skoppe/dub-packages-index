@@ -2,7 +2,7 @@
     "categories": [
         "library.database"
     ],
-    "commitID": "70847dc6056185cff65e7d557782a5140f0f3a90",
+    "commitID": "de60dba0f011a2dd6dc4f137e1191a024945cb7c",
     "dateAdded": "2019-05-26T12:40:24",
     "description": "A minimalistic ORM for SQLite",
     "documentationURL": "",
@@ -40,7 +40,7 @@
             "version": "~setup-ci"
         },
         {
-            "commitID": "70847dc6056185cff65e7d557782a5140f0f3a90",
+            "commitID": "de60dba0f011a2dd6dc4f137e1191a024945cb7c",
             "configurations": [
                 {
                     "name": "with-lib"
@@ -56,9 +56,9 @@
                 }
             ],
             "dependencies": {
-                "d2sqlite3": "~>0.18.3",
-                "sumtype": "~>0.8.13",
-                "unit-threaded": "~>0.10.3"
+                "d2sqlite3": "~>1.0.0",
+                "sumtype": "~>1.1.4",
+                "unit-threaded": "~>2.0.3"
             },
             "name": "miniorm",
             "version": "~master"
@@ -158,6 +158,30 @@
             },
             "name": "miniorm",
             "version": "0.0.4"
+        },
+        {
+            "commitID": "de60dba0f011a2dd6dc4f137e1191a024945cb7c",
+            "configurations": [
+                {
+                    "name": "with-lib"
+                },
+                {
+                    "name": "all-included"
+                },
+                {
+                    "name": "without-lib"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "d2sqlite3": "~>1.0.0",
+                "sumtype": "~>1.1.4",
+                "unit-threaded": "~>2.0.3"
+            },
+            "name": "miniorm",
+            "version": "0.0.5"
         }
     ]
 }
