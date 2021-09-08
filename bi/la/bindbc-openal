@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.audio"
     ],
-    "commitID": "bbd406ab0ac1e4ee6053e20ea0c58bb709151c15",
+    "commitID": "281d35b9c028ccb8cb3b7b6f2ce06b4e73118a38",
     "dateAdded": "2018-12-08T14:00:46",
     "description": "Dynamic bindings to OpenAL, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -43,17 +43,17 @@
             "version": "~enhancements"
         },
         {
-            "commitID": "bbd406ab0ac1e4ee6053e20ea0c58bb709151c15",
+            "commitID": "281d35b9c028ccb8cb3b7b6f2ce06b4e73118a38",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>0.3.0"
+                        "bindbc-loader": "~>1.0.0"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>0.3.0"
+                        "bindbc-loader": "~>1.0.0"
                     },
                     "name": "dynamicBC"
                 },
@@ -210,6 +210,31 @@
             ],
             "name": "bindbc-openal",
             "version": "0.5.0"
+        },
+        {
+            "commitID": "281d35b9c028ccb8cb3b7b6f2ce06b4e73118a38",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-openal",
+            "version": "1.0.0"
         }
     ]
 }
