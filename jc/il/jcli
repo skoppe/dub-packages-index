@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "ef88922dc3e12b8ad6745b65547dfdb1073aeca3",
+    "commitID": "c5ac51926753766c65d8326528d65440b9d086e6",
     "dateAdded": "2019-03-31T23:29:41",
     "description": "A fully featured CLI framework for D",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "ef88922dc3e12b8ad6745b65547dfdb1073aeca3",
+            "commitID": "c5ac51926753766c65d8326528d65440b9d086e6",
             "dependencies": {
                 "jcli:argbinder": ">=0.0.0",
                 "jcli:argparser": ">=0.0.0",
@@ -895,6 +895,77 @@
                 }
             ],
             "version": "0.22.3"
+        },
+        {
+            "commitID": "c5ac51926753766c65d8326528d65440b9d086e6",
+            "dependencies": {
+                "jcli:argbinder": ">=0.0.0",
+                "jcli:argparser": ">=0.0.0",
+                "jcli:autocomplete": ">=0.0.0",
+                "jcli:commandparser": ">=0.0.0",
+                "jcli:core": ">=0.0.0",
+                "jcli:helptext": ">=0.0.0",
+                "jcli:introspect": ">=0.0.0",
+                "jcli:resolver": ">=0.0.0",
+                "jcli:text": ">=0.0.0"
+            },
+            "name": "jcli",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "argbinder"
+                },
+                {
+                    "name": "argparser"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "commandparser"
+                },
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "helptext"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "introspect"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "resolver"
+                },
+                {
+                    "name": "text"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "autocomplete"
+                }
+            ],
+            "version": "0.22.4"
         }
     ]
 }
