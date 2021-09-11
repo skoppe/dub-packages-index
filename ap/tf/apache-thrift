@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "57e24caa86afa8bacf444e66a9aef6203831416c",
+    "commitID": "8317ec43ea2425b6f8e24e4dc4f5b2360f717eb4",
     "dateAdded": "2018-12-27T14:19:30",
     "description": "Apache Thrift D library",
     "documentationURL": "",
@@ -59,7 +59,29 @@
             "version": "~0.14.2"
         },
         {
-            "commitID": "fcfa34108dbf064e71704b4ffa8479e184cef94e",
+            "commitID": "8317ec43ea2425b6f8e24e4dc4f5b2360f717eb4",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.6"
+                    },
+                    "name": "use_openssl_1_0"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>2.0.3"
+                    },
+                    "name": "use_openssl_1_1"
+                }
+            ],
+            "dependencies": {
+                "libevent": "~>2.0.2"
+            },
+            "name": "apache-thrift",
+            "version": "~0.15.0"
+        },
+        {
+            "commitID": "38bd636a1883dbbf4d22ada48e856eaf6243d32e",
             "configurations": [
                 {
                     "dependencies": {
@@ -124,6 +146,28 @@
             },
             "name": "apache-thrift",
             "version": "0.14.2"
+        },
+        {
+            "commitID": "8317ec43ea2425b6f8e24e4dc4f5b2360f717eb4",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.6"
+                    },
+                    "name": "use_openssl_1_0"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>2.0.3"
+                    },
+                    "name": "use_openssl_1_1"
+                }
+            ],
+            "dependencies": {
+                "libevent": "~>2.0.2"
+            },
+            "name": "apache-thrift",
+            "version": "0.15.0"
         }
     ]
 }
