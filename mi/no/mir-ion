@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.nogc"
     ],
-    "commitID": "e527d6a94c23f6383d13ca10737dd08cb34cce56",
+    "commitID": "7cc52d125059b36a328ffe59c0812b8ad7454fca",
     "dateAdded": "2020-10-04T11:03:23",
     "description": "Fast, Expressive, and Easy to use JSON Serialization Library with optional SIMD Optimization.",
     "documentationURL": "http:\/\/mir-ion.libmir.org\/",
@@ -92,7 +92,7 @@
             "version": "~ser"
         },
         {
-            "commitID": "1bfcdfe6a2d179618a2328f645e54ab85478e0dd",
+            "commitID": "7cc52d125059b36a328ffe59c0812b8ad7454fca",
             "configurations": [
                 {
                     "name": "common"
@@ -109,26 +109,6 @@
             ],
             "dependencies": {
                 "mir-algorithm": ">=3.10.79",
-                "mir-cpuid": "~>1.2.6"
-            },
-            "name": "mir-ion",
-            "version": "~text-reader"
-        },
-        {
-            "commitID": "e527d6a94c23f6383d13ca10737dd08cb34cce56",
-            "configurations": [
-                {
-                    "name": "common"
-                },
-                {
-                    "name": "bloomberg"
-                },
-                {
-                    "name": "unittest"
-                }
-            ],
-            "dependencies": {
-                "mir-algorithm": ">=3.10.69",
                 "mir-cpuid": "~>1.2.6"
             },
             "name": "mir-ion",
@@ -1421,6 +1401,29 @@
             },
             "name": "mir-ion",
             "version": "0.1.56"
+        },
+        {
+            "commitID": "7cc52d125059b36a328ffe59c0812b8ad7454fca",
+            "configurations": [
+                {
+                    "name": "common"
+                },
+                {
+                    "name": "bloomberg"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.10.79",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "0.1.57"
         }
     ]
 }
