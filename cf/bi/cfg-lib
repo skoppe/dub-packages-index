@@ -3,7 +3,7 @@
         "library.development",
         "library.data_structures"
     ],
-    "commitID": "57d15590597b76115f2df90a3cd4a375bd723090",
+    "commitID": "8c6d9ebf9be1f857ef62c44176bf97c1ce2b5070",
     "dateAdded": "2020-03-24T20:25:19",
     "description": "Library for working with the CFG configuration format",
     "documentationURL": "https:\/\/docs.red-dove.com\/cfg\/dlang.html#the-cfg-api-for-d",
@@ -17,8 +17,14 @@
     },
     "versions": [
         {
-            "commitID": "f606362ace62a6ec6cf66f232b2a617a25954e4c",
+            "commitID": "8c6d9ebf9be1f857ef62c44176bf97c1ce2b5070",
             "configurations": [
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.9.0"
+                    },
+                    "name": "tests"
+                },
                 {
                     "name": "library"
                 }
@@ -35,6 +41,22 @@
             ],
             "name": "cfg-lib",
             "version": "0.1.0"
+        },
+        {
+            "commitID": "8c6d9ebf9be1f857ef62c44176bf97c1ce2b5070",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.9.0"
+                    },
+                    "name": "tests"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "name": "cfg-lib",
+            "version": "0.1.1"
         }
     ]
 }
