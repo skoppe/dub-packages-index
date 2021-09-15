@@ -2,7 +2,7 @@
     "categories": [
         "library.gamedev"
     ],
-    "commitID": "9f58957d76ffc9f7f34b18d943cf0495bf5a75b7",
+    "commitID": "ecaa8516e4791113643c53ce25d8f26d6d6a0833",
     "dateAdded": "2021-01-26T19:11:27",
     "description": "Tida is a library for creating 2D games, which is written with manual window creation and rendering using opengl and other tools for D games.",
     "documentationURL": "",
@@ -65,7 +65,7 @@
             "version": "~modernOpenGL"
         },
         {
-            "commitID": "9f58957d76ffc9f7f34b18d943cf0495bf5a75b7",
+            "commitID": "ecaa8516e4791113643c53ce25d8f26d6d6a0833",
             "configurations": [
                 {
                     "dependencies": {
@@ -282,6 +282,261 @@
                 }
             ],
             "version": "0.1.1-b2"
+        },
+        {
+            "commitID": "c339c65fc9a2eec835cbf23a11f6da484fda0ed1",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "x11": "~>1.0.21"
+                    },
+                    "name": "posix"
+                },
+                {
+                    "name": "windows"
+                },
+                {
+                    "dependencies": {
+                        "x11": "~>1.0.21"
+                    },
+                    "name": "posix-lib"
+                },
+                {
+                    "name": "windows-lib"
+                }
+            ],
+            "dependencies": {
+                "bindbc-freetype": "~>1.0.2",
+                "bindbc-openal": "~>1.0.0",
+                "bindbc-opengl": "~>1.0.0",
+                "imagefmt": "~>2.1.2",
+                "mp3decoder": "~>1.0.0"
+            },
+            "name": "tida",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dxml": "~>0.4.3",
+                        "tida": ">=0.0.0",
+                        "zstd": "~>0.2.1"
+                    },
+                    "name": "tiled"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "puppet"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplewindow"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplerender"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplegame"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0",
+                        "tida:tiled": ">=0.0.0"
+                    },
+                    "name": "simpletilemap"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "seabattle"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "init"
+                }
+            ],
+            "version": "0.1.1-b21"
+        },
+        {
+            "commitID": "b8c663fc75ef64d60620e4b6513412de2ac1e941",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "x11": "~>1.0.21"
+                    },
+                    "name": "posix"
+                },
+                {
+                    "name": "windows"
+                },
+                {
+                    "dependencies": {
+                        "x11": "~>1.0.21"
+                    },
+                    "name": "posix-lib"
+                },
+                {
+                    "name": "windows-lib"
+                }
+            ],
+            "dependencies": {
+                "bindbc-freetype": "~>1.0.2",
+                "bindbc-openal": "~>1.0.0",
+                "bindbc-opengl": "~>1.0.0",
+                "imagefmt": "~>2.1.2",
+                "mp3decoder": "~>1.0.0"
+            },
+            "name": "tida",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dxml": "~>0.4.3",
+                        "tida": ">=0.0.0",
+                        "zstd": "~>0.2.1"
+                    },
+                    "name": "tiled"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "puppet"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplewindow"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplerender"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplegame"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0",
+                        "tida:tiled": ">=0.0.0"
+                    },
+                    "name": "simpletilemap"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "seabattle"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "init"
+                }
+            ],
+            "version": "0.1.1-b22"
+        },
+        {
+            "commitID": "ecaa8516e4791113643c53ce25d8f26d6d6a0833",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "x11": "~>1.0.21"
+                    },
+                    "name": "posix"
+                },
+                {
+                    "name": "windows"
+                },
+                {
+                    "dependencies": {
+                        "x11": "~>1.0.21"
+                    },
+                    "name": "posix-lib"
+                },
+                {
+                    "name": "windows-lib"
+                }
+            ],
+            "dependencies": {
+                "bindbc-freetype": "~>1.0.2",
+                "bindbc-openal": "~>1.0.0",
+                "bindbc-opengl": "~>1.0.0",
+                "imagefmt": "~>2.1.2",
+                "mp3decoder": "~>1.0.0"
+            },
+            "name": "tida",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dxml": "~>0.4.3",
+                        "tida": ">=0.0.0",
+                        "zstd": "~>0.2.1"
+                    },
+                    "name": "tiled"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "puppet"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplewindow"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplerender"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplegame"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0",
+                        "tida:tiled": ">=0.0.0"
+                    },
+                    "name": "simpletilemap"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "seabattle"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "init"
+                }
+            ],
+            "version": "0.1.1-b23"
         }
     ]
 }
