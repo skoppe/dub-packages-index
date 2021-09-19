@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.gamedev"
     ],
-    "commitID": "251d2facea9a30bfcc0c96442ed6c59c036ccafc",
+    "commitID": "7f90d0e62e226ed9b0ce513a56e22a128883c3f6",
     "dateAdded": "2021-02-24T14:51:02",
     "description": "A simple, easy-to-use yet robust ecs lib in D",
     "documentationURL": "https:\/\/github.com\/ValhallaLib\/valhalla_ecs",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "251d2facea9a30bfcc0c96442ed6c59c036ccafc",
+            "commitID": "7f90d0e62e226ed9b0ce513a56e22a128883c3f6",
             "configurations": [
                 {
                     "name": "default"
@@ -29,24 +29,17 @@
                         "aurorafw:unit": "0.0.1-alpha.4"
                     },
                     "name": "unittest"
-                }
-            ],
-            "name": "valhalla_ecs",
-            "version": "~feature-resources"
-        },
-        {
-            "commitID": "251d2facea9a30bfcc0c96442ed6c59c036ccafc",
-            "configurations": [
-                {
-                    "name": "default"
                 },
                 {
                     "dependencies": {
                         "aurorafw:unit": "0.0.1-alpha.4"
                     },
-                    "name": "unittest"
+                    "name": "unittest-cov"
                 }
             ],
+            "dependencies": {
+                "vsignal": "~>0.1.0"
+            },
             "name": "valhalla_ecs",
             "version": "~master"
         },
@@ -147,7 +140,7 @@
             "version": "0.0.3-alpha.3"
         },
         {
-            "commitID": "251d2facea9a30bfcc0c96442ed6c59c036ccafc",
+            "commitID": "6bae19cc908fad96a2c0994cd1b7f657f6bd93f4",
             "configurations": [
                 {
                     "name": "default"
@@ -161,6 +154,31 @@
             ],
             "name": "valhalla_ecs",
             "version": "0.0.3-alpha.4"
+        },
+        {
+            "commitID": "7f90d0e62e226ed9b0ce513a56e22a128883c3f6",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": "0.0.1-alpha.4"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "aurorafw:unit": "0.0.1-alpha.4"
+                    },
+                    "name": "unittest-cov"
+                }
+            ],
+            "dependencies": {
+                "vsignal": "~>0.1.0"
+            },
+            "name": "valhalla_ecs",
+            "version": "0.1.0"
         }
     ]
 }
