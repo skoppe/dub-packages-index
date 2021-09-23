@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "e47d2d956cbe1a398e47b2d07ab80c38fcc6f11f",
+    "commitID": "9aafbb58b4d88025fd8d44a95539637afda8f8bc",
     "dateAdded": "2017-04-28T16:43:30",
     "description": "Utilities to write @nogc code",
     "documentationURL": "",
@@ -41,7 +41,7 @@
             "version": "~v0.2"
         },
         {
-            "commitID": "88000814e9d8a191696821f09cd9ee8469d4304e",
+            "commitID": "9aafbb58b4d88025fd8d44a95539637afda8f8bc",
             "configurations": [
                 {
                     "name": "library"
@@ -417,6 +417,34 @@
             },
             "name": "nogc",
             "version": "0.5.0"
+        },
+        {
+            "commitID": "9aafbb58b4d88025fd8d44a95539637afda8f8bc",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "asan"
+                }
+            ],
+            "dependencies": {
+                "automem": "~>0.6.0",
+                "localimport": ">=0.0.0"
+            },
+            "name": "nogc",
+            "version": "0.5.1"
         }
     ]
 }
