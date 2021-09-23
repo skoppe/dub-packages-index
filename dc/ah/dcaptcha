@@ -2,7 +2,7 @@
     "categories": [
         "library.web.auth"
     ],
-    "commitID": "855cc662862000010fc7b4efab529c4951abf202",
+    "commitID": "0417e698312621897166f0ff5653a6c0be36e333",
     "dateAdded": "2018-02-02T00:37:13",
     "description": "CAPTCHA for D programmers",
     "documentationURL": "",
@@ -52,6 +52,25 @@
                 }
             ],
             "version": "1.0.0"
+        },
+        {
+            "commitID": "0417e698312621897166f0ff5653a6c0be36e333",
+            "dependencies": {
+                "ae": ">=0.0.1969"
+            },
+            "name": "dcaptcha",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dcaptcha": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "1.0.1"
         }
     ]
 }
