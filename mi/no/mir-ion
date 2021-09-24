@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.nogc"
     ],
-    "commitID": "4ba30f987517108e544dbc68710968b70dceaa40",
+    "commitID": "6d63c75270d61d439082a8eadeb5a2c047a86161",
     "dateAdded": "2020-10-04T11:03:23",
     "description": "Fast, Expressive, and Easy to use JSON Serialization Library with optional SIMD Optimization.",
     "documentationURL": "http:\/\/mir-ion.libmir.org\/",
@@ -72,7 +72,7 @@
             "version": "~ser"
         },
         {
-            "commitID": "4ba30f987517108e544dbc68710968b70dceaa40",
+            "commitID": "6d63c75270d61d439082a8eadeb5a2c047a86161",
             "configurations": [
                 {
                     "name": "common"
@@ -1519,6 +1519,29 @@
             },
             "name": "mir-ion",
             "version": "0.1.62"
+        },
+        {
+            "commitID": "6d63c75270d61d439082a8eadeb5a2c047a86161",
+            "configurations": [
+                {
+                    "name": "common"
+                },
+                {
+                    "name": "bloomberg"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.10.79",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "0.1.63"
         }
     ]
 }
