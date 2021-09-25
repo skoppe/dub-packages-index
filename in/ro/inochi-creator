@@ -2,7 +2,7 @@
     "categories": [
         "application"
     ],
-    "commitID": "5da2b6c06c7dba032a86e48b03f7e29530072653",
+    "commitID": "ad675e3b7dcfdb11cbeedeaf4bdc3c81a50aff72",
     "dateAdded": "2021-06-08T15:01:43",
     "description": "Inochi2D rigging application",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "143160112459681a8ef30be059059e87fe8dc63b",
+            "commitID": "b87cd1a1aaea9ac3b60daa56ad86cb4a6e842faf",
             "configurations": [
                 {
                     "name": "posix"
@@ -201,6 +201,33 @@
             },
             "name": "inochi-creator",
             "version": "0.5.5-beta.1"
+        },
+        {
+            "commitID": "ad675e3b7dcfdb11cbeedeaf4bdc3c81a50aff72",
+            "configurations": [
+                {
+                    "name": "posix"
+                },
+                {
+                    "name": "winapp"
+                },
+                {
+                    "name": "winapp-noicon"
+                },
+                {
+                    "name": "winapp-debug"
+                }
+            ],
+            "dependencies": {
+                "bindbc-imgui": "~>1.0.0",
+                "bindbc-sdl": "~>0.21.4",
+                "gl3n": "~>1.3.1",
+                "inochi2d": "~>1.0.0",
+                "psd-d": "~>0.5.0",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.5.6-beta.1"
         }
     ]
 }
