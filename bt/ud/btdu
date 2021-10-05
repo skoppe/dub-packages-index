@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "9bbab62ba129d07c00b5e9e6cb00b6181b259831",
+    "commitID": "c0e511a8f046088ca7934bfc818ee67b062c99db",
     "dateAdded": "2020-11-08T09:43:31",
     "description": "sampling disk usage profiler for btrfs",
     "documentationURL": "",
@@ -14,20 +14,43 @@
     },
     "versions": [
         {
-            "commitID": "55deaef43c2cbd102ee0a2aa8d21fd4bd2630098",
+            "commitID": "3db62d3e4cc12e409a4dd8607f09ed5c9dc41c33",
             "dependencies": {
                 "ae": "~>0.0.2833",
-                "btrfs": "~>0.0.11",
+                "btrfs": "~>0.0.12",
+                "during": "~>0.1.0",
+                "ncurses": "~>0.0.149"
+            },
+            "name": "btdu",
+            "version": "~io_uring"
+        },
+        {
+            "commitID": "3eed736958c1b210f60e181011d55d7f242696ab",
+            "dependencies": {
+                "ae": "0.0.3100",
+                "btrfs": "~>0.0.12",
+                "emsi_containers": "0.9.0",
                 "ncurses": "~>0.0.149"
             },
             "name": "btdu",
             "version": "~next"
         },
         {
-            "commitID": "9bbab62ba129d07c00b5e9e6cb00b6181b259831",
+            "commitID": "b6d7b91e773880982ef0a328c6f393d665323a09",
             "dependencies": {
                 "ae": "~>0.0.2833",
-                "btrfs": "~>0.0.11",
+                "btrfs": "~>0.0.12",
+                "ncurses": "~>0.0.149"
+            },
+            "name": "btdu",
+            "version": "~resolved-ordering"
+        },
+        {
+            "commitID": "3eed736958c1b210f60e181011d55d7f242696ab",
+            "dependencies": {
+                "ae": "0.0.3100",
+                "btrfs": "~>0.0.12",
+                "emsi_containers": "0.9.0",
                 "ncurses": "~>0.0.149"
             },
             "name": "btdu",
@@ -62,6 +85,17 @@
             },
             "name": "btdu",
             "version": "0.2.1"
+        },
+        {
+            "commitID": "c0e511a8f046088ca7934bfc818ee67b062c99db",
+            "dependencies": {
+                "ae": "0.0.3100",
+                "btrfs": "~>0.0.12",
+                "emsi_containers": "0.9.0",
+                "ncurses": "~>0.0.149"
+            },
+            "name": "btdu",
+            "version": "0.3.0"
         }
     ]
 }

@@ -4,7 +4,7 @@
         "application.desktop.development.packaging",
         "library.development"
     ],
-    "commitID": "d0f135ce946a3596d1743dbab8ebddcd2126a829",
+    "commitID": "2636f31d41797963ef889d75082d6e685eff67ec",
     "dateAdded": "2013-01-14T20:03:10",
     "description": "Package manager for D packages",
     "documentationURL": "",
@@ -266,7 +266,7 @@
             "version": "~no_library_selections"
         },
         {
-            "commitID": "d0f135ce946a3596d1743dbab8ebddcd2126a829",
+            "commitID": "2636f31d41797963ef889d75082d6e685eff67ec",
             "configurations": [
                 {
                     "name": "application"
@@ -359,7 +359,7 @@
             "version": "~version-interval"
         },
         {
-            "commitID": "e4648047ad8cb1595a56b64a799eb922e99576bc",
+            "commitID": "c700ca8278abceaab1749ce5122f92ca7aa5180c",
             "configurations": [
                 {
                     "name": "application"
@@ -5322,6 +5322,37 @@
             ],
             "name": "dub",
             "version": "1.27.0-beta.2"
+        },
+        {
+            "commitID": "2636f31d41797963ef889d75082d6e685eff67ec",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": {
+                            "optional": true,
+                            "version": ">=0.9.0 <0.10.0"
+                        }
+                    },
+                    "name": "library-nonet"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": {
+                            "optional": true,
+                            "version": ">=0.9.0 <0.10.0"
+                        }
+                    },
+                    "name": "dynamic-library-nonet"
+                }
+            ],
+            "name": "dub",
+            "version": "1.27.0-beta.3"
         }
     ]
 }

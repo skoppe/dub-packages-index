@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.analyzer"
     ],
-    "commitID": "c187e3f648e6e834b2edf0c53b60d4c8cb3010aa",
+    "commitID": "efaa18ec063bea45b5645a545458e307d432ce0e",
     "dateAdded": "2018-07-23T19:34:20",
     "description": "Tool to check the quality of code for a review\/inspection\/PR",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "c187e3f648e6e834b2edf0c53b60d4c8cb3010aa",
+            "commitID": "1bf73cd2bfa23bc33a563776b297bc39917d51b9",
             "configurations": [
                 {
                     "name": "application"
@@ -35,41 +35,104 @@
                 }
             ],
             "dependencies": {
-                "code_checker:colorlog": ">=0.0.0",
-                "code_checker:toml": ">=0.0.0"
+                "colorlog": "~>0.0.7",
+                "compile_db": "~>0.0.2",
+                "miniorm": "~>0.0.5",
+                "my": "~>0.0.33",
+                "toml": ">=1.0.0-rc.3 <1.1.0-0",
+                "unit-threaded": "~>2.0.3"
             },
             "name": "code_checker",
-            "subPackages": [
+            "version": "~fix-robust-to-clang-tidy-crash"
+        },
+        {
+            "commitID": "381cb8b7b2446b032b4f7189e93e568876e82dc1",
+            "configurations": [
                 {
-                    "name": "colorlog"
+                    "name": "application"
                 },
                 {
-                    "name": "toml",
-                    "subPackages": [
-                        {
-                            "dependencies": {
-                                "toml": {
-                                    "path": "..",
-                                    "version": ">=0.0.0"
-                                }
-                            },
-                            "name": "json"
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
                         }
-                    ]
+                    },
+                    "name": "unittest"
                 },
                 {
-                    "configurations": [
-                        {
-                            "name": "library"
-                        },
-                        {
-                            "name": "gen_ut_main"
-                        }
-                    ],
-                    "name": "unit-threaded",
-                    "version": "0.10.3"
+                    "name": "integration_test"
                 }
             ],
+            "dependencies": {
+                "colorlog": "~>0.0.7",
+                "compile_db": "~>0.0.2",
+                "miniorm": "~>0.0.5",
+                "my": "~>0.0.33",
+                "toml": ">=1.0.0-rc.3 <1.1.0-0",
+                "unit-threaded": "~>2.0.3"
+            },
+            "name": "code_checker",
+            "version": "~fix-severity-levels"
+        },
+        {
+            "commitID": "8b2531e23889b0845d56a742434338891ea7ac42",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "integration_test"
+                }
+            ],
+            "dependencies": {
+                "colorlog": "~>0.0.7",
+                "compile_db": "~>0.0.2",
+                "miniorm": "~>0.0.5",
+                "my": "~>0.0.33",
+                "toml": ">=1.0.0-rc.3 <1.1.0-0",
+                "unit-threaded": "~>2.0.3"
+            },
+            "name": "code_checker",
+            "version": "~speedup"
+        },
+        {
+            "commitID": "a196425ce459d3f001b15eab05a106290f1c4cf1",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "integration_test"
+                }
+            ],
+            "dependencies": {
+                "colorlog": "~>0.0.7",
+                "compile_db": "~>0.0.2",
+                "miniorm": "~>0.0.5",
+                "my": "~>0.0.33",
+                "toml": ">=1.0.0-rc.3 <1.1.0-0",
+                "unit-threaded": "~>2.0.3"
+            },
+            "name": "code_checker",
             "version": "~master"
         },
         {
@@ -586,6 +649,36 @@
                 }
             ],
             "version": "1.0.0"
+        },
+        {
+            "commitID": "efaa18ec063bea45b5645a545458e307d432ce0e",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "integration_test"
+                }
+            ],
+            "dependencies": {
+                "colorlog": "~>0.0.7",
+                "compile_db": "~>0.0.2",
+                "miniorm": "~>0.0.5",
+                "my": "~>0.0.33",
+                "toml": ">=1.0.0-rc.3 <1.1.0-0",
+                "unit-threaded": "~>2.0.3"
+            },
+            "name": "code_checker",
+            "version": "2.0.0"
         }
     ]
 }
