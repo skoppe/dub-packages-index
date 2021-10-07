@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "2ad429f64f08ce6d21cb87ed87e24cdaa18839f3",
+    "commitID": "2eb4e5c0d78666820b8f3bf1005e7a3fa9119726",
     "dateAdded": "2021-10-07T19:46:52",
     "description": "The D Completion Daemon is an auto-complete program for the D programming language",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "2ad429f64f08ce6d21cb87ed87e24cdaa18839f3",
+            "commitID": "2eb4e5c0d78666820b8f3bf1005e7a3fa9119726",
             "configurations": [
                 {
                     "name": "library"
@@ -27,8 +27,8 @@
                 }
             ],
             "dependencies": {
-                "dcd:common": ">=0.0.0",
-                "dcd:dsymbol": ">=0.0.0",
+                "dcdplus:common": ">=0.0.0",
+                "dcdplus:dsymbol": ">=0.0.0",
                 "emsi_containers": "~>0.8.0",
                 "libdparse": ">=0.14.0 <0.19.0",
                 "stdx-allocator": "~>2.77.5"
@@ -90,6 +90,45 @@
                 }
             ],
             "version": "1.0.2"
+        },
+        {
+            "commitID": "2eb4e5c0d78666820b8f3bf1005e7a3fa9119726",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "client"
+                },
+                {
+                    "name": "server"
+                }
+            ],
+            "dependencies": {
+                "dcdplus:common": ">=0.0.0",
+                "dcdplus:dsymbol": ">=0.0.0",
+                "emsi_containers": "~>0.8.0",
+                "libdparse": ">=0.14.0 <0.19.0",
+                "stdx-allocator": "~>2.77.5"
+            },
+            "name": "dcdplus",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "msgpack-d": "1.0.1"
+                    },
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "emsi_containers": "~>0.8.0",
+                        "libdparse": ">=0.14.0 <0.19.0",
+                        "stdx-allocator": "~>2.77.5"
+                    },
+                    "name": "dsymbol"
+                }
+            ],
+            "version": "1.0.3"
         }
     ]
 }

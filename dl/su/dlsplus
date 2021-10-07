@@ -1,10 +1,10 @@
 {
     "categories": [],
-    "commitID": "6757697bd678e57251cfc20d506592385c51ad42",
-    "dateAdded": "2021-10-07T19:17:44",
+    "commitID": "38b2c52765d455e6469e631c4ac64fa5bd3e8b35",
+    "dateAdded": "2021-10-07T19:48:33",
     "description": "D Language Server",
     "documentationURL": "",
-    "id": "615f2bb8db72458b292ae783",
+    "id": "615f32f1db72458b292aed29",
     "name": "dlsplus",
     "owner": "615f2af9db72458b292ae745",
     "repository": {
@@ -14,12 +14,9 @@
     },
     "versions": [
         {
-            "commitID": "6757697bd678e57251cfc20d506592385c51ad42",
+            "commitID": "38b2c52765d455e6469e631c4ac64fa5bd3e8b35",
             "dependencies": {
-                "dcd": {
-                    "path": "dcd",
-                    "version": ">=0.0.0"
-                },
+                "dcdplus": "~>1.0.3",
                 "dfmt": "~>0.13.4",
                 "dlsplus:bootstrap": ">=0.0.0",
                 "dlsplus:i18n": ">=0.0.0",
@@ -50,43 +47,6 @@
                         "dlsplus:protocol": ">=0.0.0"
                     },
                     "name": "util"
-                },
-                {
-                    "configurations": [
-                        {
-                            "name": "library"
-                        },
-                        {
-                            "name": "client"
-                        },
-                        {
-                            "name": "server"
-                        }
-                    ],
-                    "dependencies": {
-                        "dcd:common": ">=0.0.0",
-                        "dcd:dsymbol": ">=0.0.0",
-                        "emsi_containers": "~>0.8.0",
-                        "libdparse": ">=0.14.0 <0.19.0",
-                        "stdx-allocator": "~>2.77.5"
-                    },
-                    "name": "dcd",
-                    "subPackages": [
-                        {
-                            "dependencies": {
-                                "msgpack-d": "1.0.1"
-                            },
-                            "name": "common"
-                        },
-                        {
-                            "dependencies": {
-                                "emsi_containers": "~>0.8.0",
-                                "libdparse": ">=0.14.0 <0.19.0",
-                                "stdx-allocator": "~>2.77.5"
-                            },
-                            "name": "dsymbol"
-                        }
-                    ]
                 }
             ],
             "version": "~main"
@@ -252,6 +212,44 @@
                 }
             ],
             "version": "1.0.1"
+        },
+        {
+            "commitID": "38b2c52765d455e6469e631c4ac64fa5bd3e8b35",
+            "dependencies": {
+                "dcdplus": "~>1.0.3",
+                "dfmt": "~>0.13.4",
+                "dlsplus:bootstrap": ">=0.0.0",
+                "dlsplus:i18n": ">=0.0.0",
+                "dlsplus:protocol": ">=0.0.0",
+                "dlsplus:util": ">=0.0.0",
+                "dscanner": "~>0.11.1",
+                "dub": "~>1.26.1"
+            },
+            "name": "dlsplus",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dlsplus:i18n": ">=0.0.0"
+                    },
+                    "name": "bootstrap"
+                },
+                {
+                    "dependencies": {
+                        "dlsplus:protocol": ">=0.0.0"
+                    },
+                    "name": "i18n"
+                },
+                {
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "dlsplus:protocol": ">=0.0.0"
+                    },
+                    "name": "util"
+                }
+            ],
+            "version": "1.0.2"
         }
     ]
 }
