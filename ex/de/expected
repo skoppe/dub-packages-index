@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "7f1b4c4705e9122fbf293858dc08f41bcbcaf3ba",
+    "commitID": "148ce8b2aa8fd568880aa192be6c2a96e515fa9a",
     "dateAdded": "2019-05-06T21:22:10",
     "description": "Implementation of expected idiom (error handling with ok and err)",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "7f1b4c4705e9122fbf293858dc08f41bcbcaf3ba",
+            "commitID": "148ce8b2aa8fd568880aa192be6c2a96e515fa9a",
             "configurations": [
                 {
                     "name": "default"
@@ -24,15 +24,12 @@
                 },
                 {
                     "dependencies": {
-                        "silly": "~>1.0.0"
+                        "silly": ">=1.1.0"
                     },
                     "name": "unittest"
                 },
                 {
-                    "name": "basicunittest"
-                },
-                {
-                    "name": "bettercunittest"
+                    "name": "expected-test-betterC"
                 }
             ],
             "name": "expected",
@@ -154,6 +151,28 @@
             ],
             "name": "expected",
             "version": "0.2.4"
+        },
+        {
+            "commitID": "148ce8b2aa8fd568880aa192be6c2a96e515fa9a",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "betterC"
+                },
+                {
+                    "dependencies": {
+                        "silly": ">=1.1.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "expected-test-betterC"
+                }
+            ],
+            "name": "expected",
+            "version": "0.3.0"
         }
     ]
 }
