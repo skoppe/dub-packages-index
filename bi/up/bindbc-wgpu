@@ -4,7 +4,7 @@
         "library.graphics",
         "library.gamedev"
     ],
-    "commitID": "63a06985fc4b9962f3a050807a705b060497c72c",
+    "commitID": "4ce871199292a1acaaa4ac7f403c68112aa77390",
     "dateAdded": "2019-10-02T23:31:07",
     "description": "D language binding to gfx-rs\/wgpu",
     "documentationURL": "",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "4cc335e09b984be75080cc2a00d4fdcc294f0d5c",
+            "commitID": "4ce871199292a1acaaa4ac7f403c68112aa77390",
             "configurations": [
                 {
                     "name": "library"
@@ -250,6 +250,28 @@
             },
             "name": "bindbc-wgpu",
             "version": "0.9.0"
+        },
+        {
+            "commitID": "4ce871199292a1acaaa4ac7f403c68112aa77390",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "debug"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-sdl": "~>0.19.1"
+                    },
+                    "name": "application"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.3.0"
+            },
+            "name": "bindbc-wgpu",
+            "version": "0.10.0"
         }
     ]
 }
