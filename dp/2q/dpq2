@@ -2,7 +2,7 @@
     "categories": [
         "library.database"
     ],
-    "commitID": "c1f1c7c26f7e6cac7a34778dc580c92d8dec013b",
+    "commitID": "c675ca7b5e3766f8fae6e9a4cc7ffdfc5d1a7e29",
     "dateAdded": "2013-09-14T10:32:29",
     "description": "Medium-level binding to the PostgreSQL database",
     "documentationURL": "",
@@ -344,7 +344,7 @@
             "version": "~static_config_fix"
         },
         {
-            "commitID": "c1f1c7c26f7e6cac7a34778dc580c92d8dec013b",
+            "commitID": "c675ca7b5e3766f8fae6e9a4cc7ffdfc5d1a7e29",
             "configurations": [
                 {
                     "name": "static"
@@ -356,7 +356,7 @@
             "dependencies": {
                 "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
                 "money": "~>3.0.2",
-                "vibe-d:data": ">=0.8.3-beta.1"
+                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
             },
             "name": "dpq2",
             "subPackages": [
@@ -3555,6 +3555,47 @@
                 }
             ],
             "version": "1.0.19"
+        },
+        {
+            "commitID": "c675ca7b5e3766f8fae6e9a4cc7ffdfc5d1a7e29",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
+                "money": "~>3.0.2",
+                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": ">=0.0.0",
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": ">=0.0.0"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.0.20"
         }
     ]
 }
