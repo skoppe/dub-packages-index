@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.nogc"
     ],
-    "commitID": "9adbfcf4f7c6b7d3705ff3ad0d3715bb769f2408",
+    "commitID": "22d711763c42f6e7de685db06cbfc0cf29a675b1",
     "dateAdded": "2020-10-04T11:03:23",
     "description": "Fast, Expressive, and Easy to use Ion\/JSON Serialization Library with optional SIMD Optimization.",
     "documentationURL": "http:\/\/mir-ion.libmir.org\/",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "3208555870664db92423bf79b956e6c37dcd7a79",
+            "commitID": "35e26b05f81202dd8d60c8ddf47f6d36ac4cb01b",
             "configurations": [
                 {
                     "name": "common"
@@ -42,7 +42,7 @@
                 "mir-cpuid": "~>1.2.6"
             },
             "name": "mir-ion",
-            "version": "~add-asan-ci"
+            "version": "~docs-improvement"
         },
         {
             "commitID": "9a1e3c2d5b26d1350356a94135a92fea4e71969e",
@@ -121,7 +121,7 @@
             "version": "~ser"
         },
         {
-            "commitID": "efb7d9da34318656458c27b84df3ab46208a00c2",
+            "commitID": "22d711763c42f6e7de685db06cbfc0cf29a675b1",
             "configurations": [
                 {
                     "name": "common"
@@ -131,6 +131,9 @@
                 },
                 {
                     "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
                 },
                 {
                     "name": "parser-test"
@@ -1660,6 +1663,32 @@
             },
             "name": "mir-ion",
             "version": "0.1.66"
+        },
+        {
+            "commitID": "22d711763c42f6e7de685db06cbfc0cf29a675b1",
+            "configurations": [
+                {
+                    "name": "common"
+                },
+                {
+                    "name": "bloomberg"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.10.79",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "0.1.67"
         }
     ]
 }
