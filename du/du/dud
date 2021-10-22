@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "66c4164005aa14b9cb5f2fe4510574bbe2bb8dfa",
+    "commitID": "4bbe6d663607e6e432f19313cac21ab1c3e91835",
     "dateAdded": "2021-08-18T17:20:09",
     "description": "Experimental tool for manipulating dub packages",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "12866367843a4365128da99b0629a82b5e825e64",
+            "commitID": "9421f29d459d620c276f18eff042da5f9f3e4460",
             "configurations": [
                 {
                     "name": "executable"
@@ -70,6 +70,11 @@
                     "name": "resolve"
                 },
                 {
+                    "configurations": [
+                        {
+                            "name": "app"
+                        }
+                    ],
                     "dependencies": {
                         "dud:descriptiongetter": ">=0.0.0"
                     },
@@ -129,7 +134,7 @@
             "version": "~template_workaround"
         },
         {
-            "commitID": "66c4164005aa14b9cb5f2fe4510574bbe2bb8dfa",
+            "commitID": "4bbe6d663607e6e432f19313cac21ab1c3e91835",
             "configurations": [
                 {
                     "name": "executable"
@@ -185,6 +190,11 @@
                     "name": "resolve"
                 },
                 {
+                    "configurations": [
+                        {
+                            "name": "app"
+                        }
+                    ],
                     "dependencies": {
                         "dud:descriptiongetter": ">=0.0.0"
                     },
@@ -334,6 +344,103 @@
                 }
             ],
             "version": "1.1.0"
+        },
+        {
+            "commitID": "4bbe6d663607e6e432f19313cac21ab1c3e91835",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "dud:testdata": ">=0.0.0"
+                    },
+                    "name": "testdata-app"
+                }
+            ],
+            "dependencies": {
+                "dud:pkgdescription": ">=0.0.0",
+                "dud:resolve": ">=0.0.0"
+            },
+            "name": "dud",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "name": "ExcessiveSDLTests"
+                        },
+                        {
+                            "name": "ExcessiveJSONTests"
+                        },
+                        {
+                            "name": "ExcessiveConvTests"
+                        }
+                    ],
+                    "dependencies": {
+                        "dud:exception": ">=0.0.0",
+                        "dud:sdlang": ">=0.0.0",
+                        "dud:semver": ">=0.0.0",
+                        "dud:testdata": ">=0.0.0",
+                        "dud:utils": ">=0.0.0"
+                    },
+                    "name": "pkgdescription"
+                },
+                {
+                    "dependencies": {
+                        "dud:exception": ">=0.0.0",
+                        "dud:pkgdescription": ">=0.0.0",
+                        "dud:semver": ">=0.0.0",
+                        "dud:testdata": ">=0.0.0",
+                        "dud:utils": ">=0.0.0"
+                    },
+                    "name": "resolve"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "app"
+                        }
+                    ],
+                    "dependencies": {
+                        "dud:descriptiongetter": ">=0.0.0"
+                    },
+                    "name": "testdata"
+                },
+                {
+                    "name": "exception"
+                },
+                {
+                    "name": "utils"
+                },
+                {
+                    "dependencies": {
+                        "dud:exception": ">=0.0.0"
+                    },
+                    "name": "semver"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "ExcessiveTests"
+                        }
+                    ],
+                    "dependencies": {
+                        "dud:testdata": ">=0.0.0",
+                        "dud:utils": ">=0.0.0"
+                    },
+                    "name": "sdlang"
+                },
+                {
+                    "name": "descriptiongetter"
+                }
+            ],
+            "version": "1.1.1"
         }
     ]
 }
