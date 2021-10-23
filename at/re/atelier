@@ -3,7 +3,7 @@
         "library.graphics",
         "application.desktop.game"
     ],
-    "commitID": "351efd6b1be3f6b676841605ff9edc81c8b10b14",
+    "commitID": "d6913859a387b7d97c8bb92aecc9615aa1867bef",
     "dateAdded": "2018-09-29T15:35:17",
     "description": "Atelier Framework",
     "documentationURL": "",
@@ -17,9 +17,9 @@
     },
     "versions": [
         {
-            "commitID": "c69245118de9ddc5b1373194c757b81d705016a2",
+            "commitID": "cd65cdac52de370e392fc1c94e258863023f3eb2",
             "dependencies": {
-                "derelict-sdl2": "~>2.1.4"
+                "bindbc-sdl": "~>0.21.2"
             },
             "name": "atelier",
             "subPackages": [
@@ -95,6 +95,25 @@
                 }
             ],
             "version": "0.0.3"
+        },
+        {
+            "commitID": "d6913859a387b7d97c8bb92aecc9615aa1867bef",
+            "dependencies": {
+                "bindbc-sdl": "~>0.21.2"
+            },
+            "name": "atelier",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "atelier": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "1.0.0"
         }
     ]
 }
