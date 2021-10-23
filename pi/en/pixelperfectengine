@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.gui"
     ],
-    "commitID": "e56ecde94b9f693db350f6b0f00674632ec3cb20",
+    "commitID": "baba0db8ab5ae26323ce4586cdc7cf3d53cc6e83",
     "dateAdded": "2017-01-20T00:24:00",
     "description": "A 2D game engine for retro styled games",
     "documentationURL": "",
@@ -18,14 +18,17 @@
     },
     "versions": [
         {
-            "commitID": "e56ecde94b9f693db350f6b0f00674632ec3cb20",
+            "commitID": "f4482184566f9a33d2bef28df43eba3808815fd1",
             "dependencies": {
                 "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
                 "bmfont": "0.1.0",
-                "collections-d": "0.4.4",
+                "collections-d": "0.4.5",
                 "cpublit": "0.4.1",
-                "dimage": "0.3.0-beta.1",
+                "dimage": "0.3.0-beta.2",
                 "intel-intrinsics": ">=0.0.0",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
                 "sdlang-d": ">=0.0.0",
                 "undead": ">=0.0.0"
             },
@@ -42,6 +45,12 @@
                         "pixelperfectengine": ">=0.0.0"
                     },
                     "name": "windowmakerforconcrete"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wallbreaker"
                 }
             ],
             "version": "~master"
@@ -746,6 +755,44 @@
                 }
             ],
             "version": "0.10.0-beta.1"
+        },
+        {
+            "commitID": "baba0db8ab5ae26323ce4586cdc7cf3d53cc6e83",
+            "dependencies": {
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.4.5",
+                "cpublit": "0.4.1",
+                "dimage": "0.3.0-beta.2",
+                "intel-intrinsics": ">=0.0.0",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "sdlang-d": ">=0.0.0",
+                "undead": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "pixelperfecteditor"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "windowmakerforconcrete"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wallbreaker"
+                }
+            ],
+            "version": "0.10.0-beta.2"
         }
     ]
 }
