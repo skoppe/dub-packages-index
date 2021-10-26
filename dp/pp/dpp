@@ -2,7 +2,7 @@
     "categories": [
         "application"
     ],
-    "commitID": "2b3dc408ac940d980282e8ecfdf72f0b74a71b16",
+    "commitID": "109954f9894c924afc1213ec2d42852f4f475c72",
     "dateAdded": "2018-04-09T12:19:02",
     "description": "Include C\/C++ headers directly in D files",
     "documentationURL": "",
@@ -150,7 +150,7 @@
             "version": "~node"
         },
         {
-            "commitID": "2b3dc408ac940d980282e8ecfdf72f0b74a71b16",
+            "commitID": "109954f9894c924afc1213ec2d42852f4f475c72",
             "configurations": [
                 {
                     "name": "executable"
@@ -1349,6 +1349,47 @@
             },
             "name": "dpp",
             "version": "0.4.7"
+        },
+        {
+            "commitID": "109954f9894c924afc1213ec2d42852f4f475c72",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.2.0",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "0.4.8"
         }
     ]
 }
