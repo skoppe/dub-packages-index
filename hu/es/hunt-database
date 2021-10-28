@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "e8931c9d44476d0245af47e7c15eafeef08ef2e6",
+    "commitID": "d59968e74a343b86b6741e70aa2c52717d644fcc",
     "dateAdded": "2018-08-28T10:18:29",
     "description": "Database abstraction layer for D programing language, support PostgreSQL \/ MySQL.",
     "documentationURL": "",
@@ -78,7 +78,7 @@
             "version": "~v2.0.x"
         },
         {
-            "commitID": "e8931c9d44476d0245af47e7c15eafeef08ef2e6",
+            "commitID": "630407da65174a13344c9d434166dfffc4255ab8",
             "configurations": [
                 {
                     "name": "default"
@@ -88,8 +88,25 @@
                 }
             ],
             "dependencies": {
-                "hunt-net": "~>0.6.0",
-                "hunt-sql": "~>1.5.0"
+                "hunt-net": "~>0.5.0",
+                "hunt-sql": "~>1.4.0"
+            },
+            "name": "hunt-database",
+            "version": "~v2.1.x"
+        },
+        {
+            "commitID": "d59968e74a343b86b6741e70aa2c52717d644fcc",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "ssl"
+                }
+            ],
+            "dependencies": {
+                "hunt-net": "~>0.7.0",
+                "hunt-sql": "~>1.6.0"
             },
             "name": "hunt-database",
             "version": "~master"
@@ -362,6 +379,23 @@
             },
             "name": "hunt-database",
             "version": "2.2.1"
+        },
+        {
+            "commitID": "d59968e74a343b86b6741e70aa2c52717d644fcc",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "ssl"
+                }
+            ],
+            "dependencies": {
+                "hunt-net": "~>0.7.0",
+                "hunt-sql": "~>1.6.0"
+            },
+            "name": "hunt-database",
+            "version": "2.3.0"
         }
     ]
 }
