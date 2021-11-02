@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "73e97e89be25168ffc87d67ef3cd0a6100146250",
+    "commitID": "d994e608dd890ff294140bed1d0b72c49a460de8",
     "dateAdded": "2021-01-14T12:40:56",
     "description": "concurrency library",
     "documentationURL": "",
@@ -45,7 +45,44 @@
             "version": "~flow"
         },
         {
-            "commitID": "ac006264eb1ca13b4e7548bcb5daf34d29f8df27",
+            "commitID": "ebd567375e1a5a8b81e0f8fcf527f1d979f973fd",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest-release"
+                },
+                {
+                    "name": "nodip"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest-asan"
+                }
+            ],
+            "dependencies": {
+                "automem": "0.6.4",
+                "concepts": "~>0.0.8",
+                "ikod-containers": "0.0.21",
+                "mir-core": "~>1.1.62"
+            },
+            "name": "concurrency",
+            "version": "~signal-nested-sync"
+        },
+        {
+            "commitID": "3f757de9931e8956f675b26d628c24fdb5a181a1",
             "configurations": [
                 {
                     "name": "default"
@@ -119,7 +156,7 @@
             "version": "~timers"
         },
         {
-            "commitID": "73e97e89be25168ffc87d67ef3cd0a6100146250",
+            "commitID": "d994e608dd890ff294140bed1d0b72c49a460de8",
             "configurations": [
                 {
                     "name": "default"
@@ -1357,6 +1394,117 @@
             },
             "name": "concurrency",
             "version": "3.4.0"
+        },
+        {
+            "commitID": "cc809da28ed509373b1c7cd8ad43ea625ab9ee48",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest-release"
+                },
+                {
+                    "name": "nodip"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest-asan"
+                }
+            ],
+            "dependencies": {
+                "automem": "0.6.4",
+                "concepts": "~>0.0.8",
+                "ikod-containers": "0.0.21",
+                "mir-core": "~>1.1.62"
+            },
+            "name": "concurrency",
+            "version": "3.4.1"
+        },
+        {
+            "commitID": "6b83214ff7414642a42bda6f0d78b4f1f85316f9",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest-release"
+                },
+                {
+                    "name": "nodip"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest-asan"
+                }
+            ],
+            "dependencies": {
+                "automem": "0.6.4",
+                "concepts": "~>0.0.8",
+                "ikod-containers": "0.0.21",
+                "mir-core": "~>1.1.62"
+            },
+            "name": "concurrency",
+            "version": "3.4.2"
+        },
+        {
+            "commitID": "d994e608dd890ff294140bed1d0b72c49a460de8",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest-release"
+                },
+                {
+                    "name": "nodip"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.15"
+                    },
+                    "name": "unittest-asan"
+                }
+            ],
+            "dependencies": {
+                "automem": "0.6.4",
+                "concepts": "~>0.0.8",
+                "ikod-containers": "0.0.21",
+                "mir-core": "~>1.1.62"
+            },
+            "name": "concurrency",
+            "version": "4.0.0"
         }
     ]
 }
