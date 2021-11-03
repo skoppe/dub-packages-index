@@ -1,6 +1,9 @@
 {
-    "categories": [],
-    "commitID": "3c93c2400937a0e267fffc2b0d53c43011c0f003",
+    "categories": [
+        "library.gui",
+        "library.binding"
+    ],
+    "commitID": "acfc8f3bd52c37803339cbe1e0cde8505e672fa4",
     "dateAdded": "2021-11-02T23:41:43",
     "description": "Dynamic and static bindings to Raylib, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -14,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "3c93c2400937a0e267fffc2b0d53c43011c0f003",
+            "commitID": "acfc8f3bd52c37803339cbe1e0cde8505e672fa4",
             "configurations": [
                 {
                     "dependencies": {
@@ -87,6 +90,56 @@
             ],
             "name": "bindbc-raylib3",
             "version": "0.2.0"
+        },
+        {
+            "commitID": "e756ffd5f586db9600e645657b6696632d921800",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-raylib3",
+            "version": "0.3.0"
+        },
+        {
+            "commitID": "acfc8f3bd52c37803339cbe1e0cde8505e672fa4",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-raylib3",
+            "version": "0.4.0"
         }
     ]
 }
