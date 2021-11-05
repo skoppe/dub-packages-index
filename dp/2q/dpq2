@@ -2,7 +2,7 @@
     "categories": [
         "library.database"
     ],
-    "commitID": "b4b025bfc46e8819d7f70fcd709b6662e85b2deb",
+    "commitID": "c63b5295beed91ce280bc85959bc9e5f444fb85e",
     "dateAdded": "2013-09-14T10:32:29",
     "description": "Medium-level binding to the PostgreSQL database",
     "documentationURL": "",
@@ -100,7 +100,7 @@
             "version": "~adds_portals"
         },
         {
-            "commitID": "b4b025bfc46e8819d7f70fcd709b6662e85b2deb",
+            "commitID": "c63b5295beed91ce280bc85959bc9e5f444fb85e",
             "configurations": [
                 {
                     "name": "static"
@@ -3801,6 +3801,47 @@
                 }
             ],
             "version": "1.0.22-variant"
+        },
+        {
+            "commitID": "c63b5295beed91ce280bc85959bc9e5f444fb85e",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
+                "money": "~>3.0.2",
+                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": ">=0.0.0",
+                        "gfm:math": "~>8.0.6"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": ">=0.0.0"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.0.22-variant.2"
         }
     ]
 }
