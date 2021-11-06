@@ -2,7 +2,7 @@
     "categories": [
         "library.database"
     ],
-    "commitID": "c63b5295beed91ce280bc85959bc9e5f444fb85e",
+    "commitID": "210960a538e1af63e0b06814c1d717010424c28a",
     "dateAdded": "2013-09-14T10:32:29",
     "description": "Medium-level binding to the PostgreSQL database",
     "documentationURL": "",
@@ -100,7 +100,7 @@
             "version": "~adds_portals"
         },
         {
-            "commitID": "c63b5295beed91ce280bc85959bc9e5f444fb85e",
+            "commitID": "210960a538e1af63e0b06814c1d717010424c28a",
             "configurations": [
                 {
                     "name": "static"
@@ -467,7 +467,7 @@
             "version": "~warning_fix"
         },
         {
-            "commitID": "0ec9bf5c12c74d0bd59893210f150386749129ba",
+            "commitID": "3d39bab1697859d43a9bd6cdf21f31cb1a957ad6",
             "configurations": [
                 {
                     "name": "static"
@@ -3842,6 +3842,47 @@
                 }
             ],
             "version": "1.0.22-variant.2"
+        },
+        {
+            "commitID": "210960a538e1af63e0b06814c1d717010424c28a",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
+                "money": "~>3.0.2",
+                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": ">=0.0.0",
+                        "gfm:math": "~>8.0.6"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": ">=0.0.0"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.0.22-variant.3"
         }
     ]
 }
