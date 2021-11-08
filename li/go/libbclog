@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "12dc6bfaf3050e32f79482e4b256107ab74c1e1a",
+    "commitID": "81dd1483aaf49f1dd124f9b4de7120b3fd600383",
     "dateAdded": "2021-11-05T21:09:35",
     "description": "A betterC structured logger",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "12dc6bfaf3050e32f79482e4b256107ab74c1e1a",
+            "commitID": "81dd1483aaf49f1dd124f9b4de7120b3fd600383",
             "configurations": [
                 {
                     "name": "default"
@@ -90,6 +90,32 @@
             },
             "name": "libbclog",
             "version": "0.2.0"
+        },
+        {
+            "commitID": "81dd1483aaf49f1dd124f9b4de7120b3fd600383",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "betterC"
+                },
+                {
+                    "name": "debugSerialiser"
+                }
+            ],
+            "dependencies": {
+                "libbcds": "~>0.1.1",
+                "libbcfmt": "~>0.1.2"
+            },
+            "name": "libbclog",
+            "version": "0.2.1"
         }
     ]
 }
