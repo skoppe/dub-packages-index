@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "c95c0bce344ba2a547cea80448c238f2f3c3afc9",
+    "commitID": "d8866ccb629c0e547df177169b99fe02c1f2414e",
     "dateAdded": "2021-10-01T22:33:05",
     "description": "A collection of packages in the D Programming Language made by me.",
     "documentationURL": "",
@@ -16,7 +16,26 @@
     },
     "versions": [
         {
-            "commitID": "70e7845df471e4c5a1f052ef25690e958c655acc",
+            "commitID": "f7bb71baebd1c01b3dd48ad6f81e7aff7cb831f5",
+            "name": "dutils",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dutils:skeleton": "~>0.1.0"
+                    },
+                    "name": "sprite"
+                },
+                {
+                    "name": "binom"
+                },
+                {
+                    "name": "skeleton"
+                }
+            ],
+            "version": "~testing"
+        },
+        {
+            "commitID": "51ebd5f63174dbdf56db0e10de0f5b229db2ad4d",
             "name": "dutils",
             "subPackages": [
                 {
@@ -76,6 +95,25 @@
                 }
             ],
             "version": "0.1.2-beta.1"
+        },
+        {
+            "commitID": "d8866ccb629c0e547df177169b99fe02c1f2414e",
+            "name": "dutils",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dutils:skeleton": "~>0.1.0"
+                    },
+                    "name": "sprite"
+                },
+                {
+                    "name": "binom"
+                },
+                {
+                    "name": "skeleton"
+                }
+            ],
+            "version": "0.1.2-beta.2"
         }
     ]
 }
