@@ -3,7 +3,7 @@
         "library.gui",
         "library.binding"
     ],
-    "commitID": "0893ff5601c15cf1c6723342d4f8165545af4944",
+    "commitID": "cb212656dc641164c36f2727592e41e57ea4dbed",
     "dateAdded": "2013-10-05T21:52:14",
     "description": "GtkD is the Digital Mars D programing language OO wrapper for Gtk+.",
     "documentationURL": "",
@@ -187,6 +187,26 @@
             "version": "~GtkD_2.3"
         },
         {
+            "commitID": "73b54335652b1712a569af81a02661b35d211244",
+            "dependencies": {
+                "gtk-d:gstreamer": ">=0.0.0",
+                "gtk-d:gtkd": ">=0.0.0"
+            },
+            "name": "gtk-d",
+            "subPackages": [
+                {
+                    "name": "gtkd"
+                },
+                {
+                    "dependencies": {
+                        "gtk-d:gtkd": ">=0.0.0"
+                    },
+                    "name": "gstreamer"
+                }
+            ],
+            "version": "~gtk4"
+        },
+        {
             "commitID": "04070f6a55afac2fdac2aa7044020f1a51717428",
             "dependencies": {
                 "gtk-d:gstreamer": ">=3.0.0-beta <3.1.0-0",
@@ -228,7 +248,7 @@
             "version": "~wrap-gir"
         },
         {
-            "commitID": "0cb19e56426f3f133d3b400ee9cc4ee528a68c0a",
+            "commitID": "cb212656dc641164c36f2727592e41e57ea4dbed",
             "dependencies": {
                 "gtk-d:gstreamer": ">=0.0.0",
                 "gtk-d:gtkd": ">=0.0.0",
@@ -2375,6 +2395,53 @@
                 }
             ],
             "version": "3.9.0"
+        },
+        {
+            "commitID": "cb212656dc641164c36f2727592e41e57ea4dbed",
+            "dependencies": {
+                "gtk-d:gstreamer": ">=0.0.0",
+                "gtk-d:gtkd": ">=0.0.0",
+                "gtk-d:peas": ">=0.0.0",
+                "gtk-d:sv": ">=0.0.0",
+                "gtk-d:vte": ">=0.0.0"
+            },
+            "name": "gtk-d",
+            "subPackages": [
+                {
+                    "name": "gtkd"
+                },
+                {
+                    "dependencies": {
+                        "gtk-d:gtkd": ">=0.0.0"
+                    },
+                    "name": "gtkdgl"
+                },
+                {
+                    "dependencies": {
+                        "gtk-d:gtkd": ">=0.0.0"
+                    },
+                    "name": "sv"
+                },
+                {
+                    "dependencies": {
+                        "gtk-d:gtkd": ">=0.0.0"
+                    },
+                    "name": "gstreamer"
+                },
+                {
+                    "dependencies": {
+                        "gtk-d:gtkd": ">=0.0.0"
+                    },
+                    "name": "vte"
+                },
+                {
+                    "dependencies": {
+                        "gtk-d:gtkd": ">=0.0.0"
+                    },
+                    "name": "peas"
+                }
+            ],
+            "version": "3.10.0"
         }
     ]
 }
