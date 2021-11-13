@@ -1,8 +1,9 @@
 {
     "categories": [
-        "library.gui"
+        "library.gui",
+        "library.gamedev"
     ],
-    "commitID": "8d4676f67e7183687378ee1715300f951fc4a385",
+    "commitID": "63f82b2b2a33c1fba6241c75eff9f45f264b78be",
     "dateAdded": "2021-03-13T09:37:53",
     "description": "A simple UI library designed for IsodiTools and Samerion",
     "documentationURL": "",
@@ -56,7 +57,7 @@
             "version": "~docs"
         },
         {
-            "commitID": "8d4676f67e7183687378ee1715300f951fc4a385",
+            "commitID": "63f82b2b2a33c1fba6241c75eff9f45f264b78be",
             "dependencies": {
                 "raylib-d": "~>3.1.0"
             },
@@ -91,6 +92,12 @@
                         "glui": ">=0.0.0"
                     },
                     "name": "example-margins"
+                },
+                {
+                    "dependencies": {
+                        "glui": ">=0.0.0"
+                    },
+                    "name": "example-hidpi"
                 }
             ],
             "version": "~main"
@@ -348,6 +355,52 @@
                 }
             ],
             "version": "0.4.3"
+        },
+        {
+            "commitID": "63f82b2b2a33c1fba6241c75eff9f45f264b78be",
+            "dependencies": {
+                "raylib-d": "~>3.1.0"
+            },
+            "name": "glui",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "glui": ">=0.0.0"
+                    },
+                    "name": "example-showcase"
+                },
+                {
+                    "dependencies": {
+                        "glui": ">=0.0.0"
+                    },
+                    "name": "example-onions"
+                },
+                {
+                    "dependencies": {
+                        "glui": ">=0.0.0"
+                    },
+                    "name": "example-checks"
+                },
+                {
+                    "dependencies": {
+                        "glui": ">=0.0.0"
+                    },
+                    "name": "example-scroll"
+                },
+                {
+                    "dependencies": {
+                        "glui": ">=0.0.0"
+                    },
+                    "name": "example-margins"
+                },
+                {
+                    "dependencies": {
+                        "glui": ">=0.0.0"
+                    },
+                    "name": "example-hidpi"
+                }
+            ],
+            "version": "0.4.4"
         }
     ]
 }

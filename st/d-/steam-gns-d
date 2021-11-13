@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.web"
     ],
-    "commitID": "6b5eb2edae6ebb5deb52546224973cd806f3905b",
+    "commitID": "cc03d4917b926512ac2cc0a3621ee2af3ce1a2f8",
     "dateAdded": "2021-10-21T21:43:26",
     "description": "Updated D bindings for GameNetworkingSockets",
     "documentationURL": "",
@@ -18,10 +18,18 @@
     },
     "versions": [
         {
-            "commitID": "6b5eb2edae6ebb5deb52546224973cd806f3905b",
+            "commitID": "cc03d4917b926512ac2cc0a3621ee2af3ce1a2f8",
             "name": "steam-gns-d",
             "subPackages": [
                 {
+                    "configurations": [
+                        {
+                            "name": "windows"
+                        },
+                        {
+                            "name": "default"
+                        }
+                    ],
                     "dependencies": {
                         "steam-gns-d": ">=0.0.0"
                     },
@@ -42,6 +50,27 @@
                 }
             ],
             "version": "0.1.0"
+        },
+        {
+            "commitID": "cc03d4917b926512ac2cc0a3621ee2af3ce1a2f8",
+            "name": "steam-gns-d",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "windows"
+                        },
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "steam-gns-d": ">=0.0.0"
+                    },
+                    "name": "example-chat"
+                }
+            ],
+            "version": "0.1.1"
         }
     ]
 }
