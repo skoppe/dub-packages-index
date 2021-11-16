@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.nogc"
     ],
-    "commitID": "d464f2414e83230673532662a65a0a2d54018c22",
+    "commitID": "172394fa86f0bd372ad418f0ab2f6b4af597e9c1",
     "dateAdded": "2020-10-04T11:03:23",
     "description": "Fast, Expressive, and Easy to use Ion\/JSON Serialization Library with optional SIMD Optimization.",
     "documentationURL": "http:\/\/mir-ion.libmir.org\/",
@@ -45,7 +45,7 @@
             "version": "~docs-improvement"
         },
         {
-            "commitID": "884453d7b868c1db7d5bda5d85cb0e9846e4b28f",
+            "commitID": "96d6d8f47690c80860cb66ae5cacec87bc8bdd14",
             "configurations": [
                 {
                     "name": "common"
@@ -64,7 +64,33 @@
                 }
             ],
             "dependencies": {
-                "mir-algorithm": ">=3.10.99",
+                "mir-algorithm": ">=3.10.106",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "~enable-base64-support"
+        },
+        {
+            "commitID": "780777f2dbcc601a98368361086c5325afe58d35",
+            "configurations": [
+                {
+                    "name": "common"
+                },
+                {
+                    "name": "bloomberg"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.10.106",
                 "mir-cpuid": "~>1.2.6"
             },
             "name": "mir-ion",
@@ -124,7 +150,7 @@
             "version": "~ser"
         },
         {
-            "commitID": "d464f2414e83230673532662a65a0a2d54018c22",
+            "commitID": "172394fa86f0bd372ad418f0ab2f6b4af597e9c1",
             "configurations": [
                 {
                     "name": "common"
@@ -143,7 +169,7 @@
                 }
             ],
             "dependencies": {
-                "mir-algorithm": ">=3.10.99",
+                "mir-algorithm": ">=3.11.0",
                 "mir-cpuid": "~>1.2.6"
             },
             "name": "mir-ion",
@@ -2238,6 +2264,32 @@
             },
             "name": "mir-ion",
             "version": "0.1.88"
+        },
+        {
+            "commitID": "172394fa86f0bd372ad418f0ab2f6b4af597e9c1",
+            "configurations": [
+                {
+                    "name": "common"
+                },
+                {
+                    "name": "bloomberg"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.11.0",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.0"
         }
     ]
 }
