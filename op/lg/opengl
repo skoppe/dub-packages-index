@@ -5,9 +5,9 @@
         "library.generic",
         "library.binding"
     ],
-    "commitID": "985c6abbab679185ee3a37124bc8b0fade3fcaa3",
+    "commitID": "7dff94c4ff14980a9eeb58999bda93aae0e9f5b5",
     "dateAdded": "2017-05-31T21:33:04",
-    "description": "Dynamic & Static OpenGL bindings with documentation generated from the spec using ogl_gen",
+    "description": "High Level wrapper + Dynamic & Static OpenGL bindings with documentation generated using ogl_gen",
     "documentationURL": "",
     "id": "592f1a70ad94e3d47437839a",
     "name": "opengl",
@@ -73,6 +73,37 @@
                 }
             ],
             "version": "1.0.0"
+        },
+        {
+            "commitID": "7dff94c4ff14980a9eeb58999bda93aae0e9f5b5",
+            "name": "opengl",
+            "subPackages": [
+                {
+                    "name": "gl2"
+                },
+                {
+                    "name": "gl3"
+                },
+                {
+                    "name": "gl4"
+                },
+                {
+                    "name": "gl2-static"
+                },
+                {
+                    "name": "gl3-static"
+                },
+                {
+                    "name": "gl4-static"
+                },
+                {
+                    "dependencies": {
+                        "opengl:gl4": ">=0.0.0"
+                    },
+                    "name": "d"
+                }
+            ],
+            "version": "1.0.1"
         }
     ]
 }
