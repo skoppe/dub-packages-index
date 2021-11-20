@@ -2,9 +2,9 @@
     "categories": [
         "library"
     ],
-    "commitID": "d8866ccb629c0e547df177169b99fe02c1f2414e",
+    "commitID": "0188e61d931288b975c62b258e210656e303f563",
     "dateAdded": "2021-10-01T22:33:05",
-    "description": "A collection of packages in the D Programming Language made by me.",
+    "description": "A collection of modules in the D Programming Language that people may find useful.",
     "documentationURL": "",
     "id": "6157708101e440df71731ca1",
     "name": "dutils",
@@ -16,12 +16,12 @@
     },
     "versions": [
         {
-            "commitID": "f7bb71baebd1c01b3dd48ad6f81e7aff7cb831f5",
+            "commitID": "0188e61d931288b975c62b258e210656e303f563",
             "name": "dutils",
             "subPackages": [
                 {
                     "dependencies": {
-                        "dutils:skeleton": "~>0.1.0"
+                        "dutils:skeleton": "~stable"
                     },
                     "name": "sprite"
                 },
@@ -30,17 +30,23 @@
                 },
                 {
                     "name": "skeleton"
+                },
+                {
+                    "dependencies": {
+                        "dutils:skeleton": "~stable"
+                    },
+                    "name": "physics"
                 }
             ],
-            "version": "~testing"
+            "version": "~stable"
         },
         {
-            "commitID": "51ebd5f63174dbdf56db0e10de0f5b229db2ad4d",
+            "commitID": "155b530e1552c8405540f4853f0ae6dc1b72566d",
             "name": "dutils",
             "subPackages": [
                 {
                     "dependencies": {
-                        "dutils:skeleton": "~>0.1.0"
+                        "dutils:skeleton": "~master"
                     },
                     "name": "sprite"
                 },
@@ -49,6 +55,12 @@
                 },
                 {
                     "name": "skeleton"
+                },
+                {
+                    "dependencies": {
+                        "dutils:skeleton": "~master"
+                    },
+                    "name": "physics"
                 }
             ],
             "version": "~master"
@@ -114,6 +126,31 @@
                 }
             ],
             "version": "0.1.2-beta.2"
+        },
+        {
+            "commitID": "0188e61d931288b975c62b258e210656e303f563",
+            "name": "dutils",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dutils:skeleton": "~stable"
+                    },
+                    "name": "sprite"
+                },
+                {
+                    "name": "binom"
+                },
+                {
+                    "name": "skeleton"
+                },
+                {
+                    "dependencies": {
+                        "dutils:skeleton": "~stable"
+                    },
+                    "name": "physics"
+                }
+            ],
+            "version": "0.1.2"
         }
     ]
 }
