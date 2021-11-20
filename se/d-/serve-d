@@ -5,7 +5,7 @@
         "application.desktop.editor",
         "application.web.development"
     ],
-    "commitID": "63dbeacd2e30a7242893e6ff5265e00d36760c62",
+    "commitID": "f10a3528b5026eeefc1aa67ff2b09ae4e6c4a785",
     "dateAdded": "2018-03-24T20:39:29",
     "description": "Microsoft Language Server Protocol implementation using workspace-d",
     "documentationURL": "",
@@ -232,7 +232,7 @@
             "version": "~workspaced-v3"
         },
         {
-            "commitID": "63dbeacd2e30a7242893e6ff5265e00d36760c62",
+            "commitID": "f10a3528b5026eeefc1aa67ff2b09ae4e6c4a785",
             "configurations": [
                 {
                     "name": "executable"
@@ -1179,6 +1179,67 @@
                 }
             ],
             "version": "0.7.0-rc.3"
+        },
+        {
+            "commitID": "f10a3528b5026eeefc1aa67ff2b09ae4e6c4a785",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.8.0",
+                "eventsystem": "~>1.2.0",
+                "libddoc": "0.7.4",
+                "rm-rf": "~>0.1.0",
+                "serve-d:http": ">=0.0.0",
+                "serve-d:lsp": ">=0.0.0",
+                "serve-d:serverbase": ">=0.0.0",
+                "workspace-d": "3.6.1"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>1.1.6"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "eventsystem": "~>1.2.0",
+                        "painlessjson": "1.4.0"
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "workspace-d": {
+                            "optional": true,
+                            "version": ">=3.0.0"
+                        }
+                    },
+                    "name": "serverbase"
+                }
+            ],
+            "version": "0.7.0"
         }
     ]
 }
