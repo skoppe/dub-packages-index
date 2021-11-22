@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.gui"
     ],
-    "commitID": "baba0db8ab5ae26323ce4586cdc7cf3d53cc6e83",
+    "commitID": "5f3277d233faf8fc81bc1405ef4b272d4f5ee17e",
     "dateAdded": "2017-01-20T00:24:00",
     "description": "A 2D game engine for retro styled games",
     "documentationURL": "",
@@ -18,13 +18,13 @@
     },
     "versions": [
         {
-            "commitID": "f4482184566f9a33d2bef28df43eba3808815fd1",
+            "commitID": "dd1cb18fea3ca62d315673be6e6a559d799d8997",
             "dependencies": {
                 "bindbc-sdl": ">=0.0.0",
                 "bitleveld": ">=0.0.0",
                 "bmfont": "0.1.0",
                 "collections-d": "0.4.5",
-                "cpublit": "0.4.1",
+                "cpublit": "0.5.0",
                 "dimage": "0.3.0-beta.2",
                 "intel-intrinsics": ">=0.0.0",
                 "midi-di": ">=0.0.0",
@@ -38,7 +38,13 @@
                     "dependencies": {
                         "pixelperfectengine": ">=0.0.0"
                     },
-                    "name": "pixelperfecteditor"
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
                 },
                 {
                     "dependencies": {
@@ -793,6 +799,44 @@
                 }
             ],
             "version": "0.10.0-beta.2"
+        },
+        {
+            "commitID": "5f3277d233faf8fc81bc1405ef4b272d4f5ee17e",
+            "dependencies": {
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.4.5",
+                "cpublit": "0.5.0",
+                "dimage": "0.3.0-beta.2",
+                "intel-intrinsics": ">=0.0.0",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "sdlang-d": ">=0.0.0",
+                "undead": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "windowmakerforconcrete"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wallbreaker"
+                }
+            ],
+            "version": "0.10.0-beta.3"
         }
     ]
 }
