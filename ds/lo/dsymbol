@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "b8920c2a4593e24d1ced91f8f0bce9e50f598e4d",
+    "commitID": "a29d40a9284bc962bc7a532c0fa96708637b0270",
     "dateAdded": "2016-01-14T08:20:51",
     "description": "Symbol lookup support for libdparse",
     "documentationURL": "",
@@ -14,6 +14,26 @@
     },
     "versions": [
         {
+            "commitID": "e15b718c8509d31672a342e7763291336691dc30",
+            "dependencies": {
+                "emsi_containers": "~>0.8.0",
+                "libdparse": ">=0.14.0 <0.19.0",
+                "stdx-allocator": "~>2.77.5"
+            },
+            "name": "dsymbol",
+            "version": "~bump-libdparse"
+        },
+        {
+            "commitID": "34b149130d9f2b374d06585602cbc428533dc413",
+            "dependencies": {
+                "emsi_containers": "~>0.8.0",
+                "libdparse": ">=0.14.0 <0.19.0",
+                "stdx-allocator": "~>2.77.5"
+            },
+            "name": "dsymbol",
+            "version": "~fix-gh-actions"
+        },
+        {
             "commitID": "e70c422224dd93b825ad9cbee981eb58a324bda9",
             "dependencies": {
                 "emsi_containers": ">=0.8.0-alpha.15 <0.9.0-0",
@@ -24,10 +44,10 @@
             "version": "~protection-fixes"
         },
         {
-            "commitID": "b8920c2a4593e24d1ced91f8f0bce9e50f598e4d",
+            "commitID": "a29d40a9284bc962bc7a532c0fa96708637b0270",
             "dependencies": {
-                "emsi_containers": ">=0.8.0-alpha.19 <0.9.0-0",
-                "libdparse": ">=0.14.0 <0.18.0",
+                "emsi_containers": "~>0.8.0",
+                "libdparse": ">=0.14.0 <0.19.0",
                 "stdx-allocator": "~>2.77.5"
             },
             "name": "dsymbol",
@@ -754,6 +774,16 @@
             },
             "name": "dsymbol",
             "version": "0.11.3"
+        },
+        {
+            "commitID": "a29d40a9284bc962bc7a532c0fa96708637b0270",
+            "dependencies": {
+                "emsi_containers": "~>0.8.0",
+                "libdparse": ">=0.14.0 <0.19.0",
+                "stdx-allocator": "~>2.77.5"
+            },
+            "name": "dsymbol",
+            "version": "0.12.0"
         }
     ]
 }
