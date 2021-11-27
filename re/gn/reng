@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "8561b67810ea1d8e9269a0fc3bfc952518bf430d",
+    "commitID": "a864964be42193b9f5f85021c224afa790e4b682",
     "dateAdded": "2020-07-25T23:44:38",
     "description": "RE_NGINE_FX game framework\/engine",
     "documentationURL": "",
@@ -48,13 +48,11 @@
             "version": "~2d_collision"
         },
         {
-            "commitID": "4d2de23879c47a9ef80de3ffdec4e21675ea7ad9",
+            "commitID": "a09ad7b2c2945bc765916711addcefe5bd23a723",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-newton": "~>0.1.1",
-                        "dlib": "~>0.19.1",
-                        "dmech": "~>0.4.1"
+                        "bindbc-newton": "~>0.2.0"
                     },
                     "name": "lib-standard"
                 },
@@ -63,7 +61,7 @@
                 },
                 {
                     "dependencies": {
-                        "dmech": "~>0.4.1",
+                        "bindbc-newton": "~>0.2.0",
                         "silly": "~>1.0.2"
                     },
                     "name": "unittest"
@@ -73,10 +71,10 @@
                 }
             ],
             "dependencies": {
-                "bindbc-loader": "~>0.3.2",
+                "bindbc-loader": "~>1.0.1",
                 "colorize": "~>1.0.5",
                 "datefmt": "~>1.0.4",
-                "dray": ">=3.0.0-patch4",
+                "dray": ">=4.0.0-r3",
                 "jar": "~>0.1.0",
                 "witchcraft": "~>0.1.9"
             },
@@ -186,7 +184,7 @@
             "version": "~load_stage"
         },
         {
-            "commitID": "de2da94494fcbed688f6b4af44a70db6d5412cb4",
+            "commitID": "8abaf10cef24e86f1ee6fd5b9cfeff90f24dce2f",
             "configurations": [
                 {
                     "dependencies": {
@@ -209,6 +207,7 @@
                 }
             ],
             "dependencies": {
+                "bindbc-loader": "~>1.0.1",
                 "colorize": "~>1.0.5",
                 "datefmt": "~>1.0.4",
                 "dray": ">=4.0.0-r3",
@@ -287,13 +286,9 @@
             "version": "~raylib-4.0"
         },
         {
-            "commitID": "2ababb56451113fd0c65b4ea244986544091b6fa",
+            "commitID": "a864964be42193b9f5f85021c224afa790e4b682",
             "configurations": [
                 {
-                    "dependencies": {
-                        "dlib": "~>0.19.1",
-                        "dmech": "~>0.4.1"
-                    },
                     "name": "lib-standard"
                 },
                 {
@@ -301,7 +296,6 @@
                 },
                 {
                     "dependencies": {
-                        "dmech": "~>0.4.1",
                         "silly": "~>1.0.2"
                     },
                     "name": "unittest"
@@ -312,7 +306,7 @@
             ],
             "dependencies": {
                 "colorize": "~>1.0.5",
-                "datefmt": "~>1.0.4",
+                "datefmt-redthing1": "~>1.0.6",
                 "dray": ">=4.0.0-r3",
                 "jar": "~>0.1.0",
                 "witchcraft": "~>0.1.9"
@@ -958,6 +952,35 @@
             },
             "name": "reng",
             "version": "0.5.0"
+        },
+        {
+            "commitID": "a864964be42193b9f5f85021c224afa790e4b682",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "datefmt-redthing1": "~>1.0.6",
+                "dray": ">=4.0.0-r3",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.5.1"
         }
     ]
 }
