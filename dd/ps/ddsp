@@ -3,7 +3,7 @@
         "library.audio",
         "library.scientific"
     ],
-    "commitID": "af47d3538ca4b3b529efe35a5f2737c65567f162",
+    "commitID": "8d18ec99935b327770f48b32d9e0d945717dd6da",
     "dateAdded": "2017-08-26T18:35:12",
     "description": "A small library for digital signal processing in D",
     "documentationURL": "",
@@ -119,7 +119,7 @@
             "version": "~dev"
         },
         {
-            "commitID": "af47d3538ca4b3b529efe35a5f2737c65567f162",
+            "commitID": "8d18ec99935b327770f48b32d9e0d945717dd6da",
             "dependencies": {
                 "dplug:core": "<13.0.0"
             },
@@ -1439,6 +1439,40 @@
                 }
             ],
             "version": "2.5.8"
+        },
+        {
+            "commitID": "8d18ec99935b327770f48b32d9e0d945717dd6da",
+            "dependencies": {
+                "dplug:core": "<13.0.0"
+            },
+            "name": "ddsp",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "effect"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "filter"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "osc"
+                }
+            ],
+            "version": "2.5.9"
         }
     ]
 }
