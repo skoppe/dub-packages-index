@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.analyzer"
     ],
-    "commitID": "7809598da0e06a319d35d3b6edb4277710fa776b",
+    "commitID": "cdf881c10386bb9cf9115af80daa86a48e93833b",
     "dateAdded": "2014-02-15T23:28:01",
     "description": "Swiss-army knife for D source code",
     "documentationURL": "",
@@ -15,6 +15,19 @@
         "project": "D-Scanner"
     },
     "versions": [
+        {
+            "commitID": "121520a83d6ae12e92aeb6b92362e4d90e1ab3fb",
+            "dependencies": {
+                "dsymbol": ">=0.11.3 <0.12.0",
+                "emsi_containers": "~>0.8.0",
+                "inifiled": "~>1.3.1",
+                "libddoc": "~>0.8.0",
+                "libdparse": ">=0.17.0 <0.19.0",
+                "stdx-allocator": "~>2.77.5"
+            },
+            "name": "dscanner",
+            "version": "~WebFreak001-patch-1"
+        },
         {
             "commitID": "6d526bbf25ce662587c10d7e52bae800585f6846",
             "dependencies": {
@@ -29,13 +42,26 @@
             "version": "~phobos"
         },
         {
-            "commitID": "7809598da0e06a319d35d3b6edb4277710fa776b",
+            "commitID": "402fddcae6dd3d90c84f14b06aa3c36c33b301c4",
             "dependencies": {
-                "dsymbol": ">=0.11.3 <0.12.0",
+                "dsymbol": ">=0.13.0 <1.0.0",
                 "emsi_containers": "~>0.8.0",
                 "inifiled": "~>1.3.1",
-                "libddoc": "~>0.7.3",
-                "libdparse": ">=0.17.0 <0.18.0",
+                "libddoc": "~>0.8.0",
+                "libdparse": ">=0.19.0 <1.0.0",
+                "stdx-allocator": "~>2.77.5"
+            },
+            "name": "dscanner",
+            "version": "~remove-rdmd"
+        },
+        {
+            "commitID": "1597733f12be4a1f42f78220a3086966085da6bb",
+            "dependencies": {
+                "dsymbol": ">=0.13.0 <1.0.0",
+                "emsi_containers": "~>0.8.0",
+                "inifiled": "~>1.3.1",
+                "libddoc": "~>0.8.0",
+                "libdparse": ">=0.19.0 <1.0.0",
                 "stdx-allocator": "~>2.77.5"
             },
             "name": "dscanner",
@@ -592,6 +618,19 @@
             },
             "name": "dscanner",
             "version": "0.11.1"
+        },
+        {
+            "commitID": "cdf881c10386bb9cf9115af80daa86a48e93833b",
+            "dependencies": {
+                "dsymbol": ">=0.13.0 <1.0.0",
+                "emsi_containers": "~>0.8.0",
+                "inifiled": "~>1.3.1",
+                "libddoc": "~>0.8.0",
+                "libdparse": ">=0.19.0 <1.0.0",
+                "stdx-allocator": "~>2.77.5"
+            },
+            "name": "dscanner",
+            "version": "0.12.0"
         }
     ]
 }

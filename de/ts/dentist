@@ -2,7 +2,7 @@
     "categories": [
         "library.scientific.bioinformatics"
     ],
-    "commitID": "e7659a9f23178c952b21da14da72f1aa6a812675",
+    "commitID": "6826e706d9a865692118cd3c02e1147c7484dd14",
     "dateAdded": "2019-01-24T13:37:39",
     "description": "Close assembly gaps using long-reads with focus on correctness.",
     "documentationURL": "https:\/\/a-ludi.github.io\/dentist\/",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "b10f1ffba1e090ab4965fbb4254d0443bc66d2ee",
+            "commitID": "f6d3fc178d1a0ff5372b208c56e298ed109188d5",
             "configurations": [
                 {
                     "name": "default"
@@ -33,30 +33,7 @@
                     "path": ".\/darg",
                     "version": ">=0.0.0"
                 },
-                "string-transform-d": "~>1.0.0",
-                "vibe-d:data": "~>0.9.3"
-            },
-            "name": "dentist",
-            "version": "~dependabot\/bundler\/docs\/nokogiri-1.11.5"
-        },
-        {
-            "commitID": "e7659a9f23178c952b21da14da72f1aa6a812675",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "name": "testing"
-                },
-                {
-                    "name": "read-las-test"
-                }
-            ],
-            "dependencies": {
-                "darg": {
-                    "path": ".\/darg",
-                    "version": ">=0.0.0"
-                },
+                "dyaml": "~>0.8.4",
                 "string-transform-d": "~>1.0.0",
                 "vibe-d:data": "~>0.9.3"
             },
@@ -85,7 +62,7 @@
             "version": "~feature\/optionally-skip-file-locking"
         },
         {
-            "commitID": "1d66d0e5c0210d2cd24fc9bbca41c50aafa68c0b",
+            "commitID": "91809fe0ca4d2b601356963133f1e1e1f83b9433",
             "configurations": [
                 {
                     "name": "default"
@@ -157,7 +134,7 @@
             "version": "~travis-ci"
         },
         {
-            "commitID": "786774391ca338db276b958eb3f25f7db4929f71",
+            "commitID": "25b071c2214fe124f286681ea6fe53397b295c58",
             "configurations": [
                 {
                     "name": "default"
@@ -174,6 +151,7 @@
                     "path": ".\/darg",
                     "version": ">=0.0.0"
                 },
+                "dyaml": "~>0.8.4",
                 "string-transform-d": "~>1.0.0",
                 "vibe-d:data": "~>0.9.3"
             },
@@ -396,6 +374,31 @@
             },
             "name": "dentist",
             "version": "2.0.0"
+        },
+        {
+            "commitID": "6826e706d9a865692118cd3c02e1147c7484dd14",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "testing"
+                },
+                {
+                    "name": "read-las-test"
+                }
+            ],
+            "dependencies": {
+                "darg": {
+                    "path": ".\/darg",
+                    "version": ">=0.0.0"
+                },
+                "dyaml": "~>0.8.4",
+                "string-transform-d": "~>1.0.0",
+                "vibe-d:data": "~>0.9.3"
+            },
+            "name": "dentist",
+            "version": "3.0.0"
         }
     ]
 }

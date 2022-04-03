@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "57dbc60b7756ea582e552e4a25abf6c4be35d55f",
+    "commitID": "0df1bb2f156ff5d263820075817b82c95f4f9af7",
     "dateAdded": "2019-06-09T11:44:21",
     "description": "CSS Library in D",
     "documentationURL": "",
@@ -16,11 +16,19 @@
     },
     "versions": [
         {
-            "commitID": "57dbc60b7756ea582e552e4a25abf6c4be35d55f",
+            "commitID": "f8119702520203c30e9c910bf2ad6aea4c6daae9",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "test"
+                }
+            ],
             "dependencies": {
-                "uim-core": "~>0.20.4",
-                "uim-oop": "~>0.20.4",
-                "vibe-d": ">=0.9.0-alpha.4 <0.10.0-0"
+                "uim-core": "~>22.1.1",
+                "uim-oop": "~>22.1.1",
+                "vibe-d": "~>0.9.4"
             },
             "name": "uim-css",
             "version": "~master"
@@ -34,6 +42,30 @@
             },
             "name": "uim-css",
             "version": "0.20.4"
+        },
+        {
+            "commitID": "0df1bb2f156ff5d263820075817b82c95f4f9af7",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "uim_core"
+                }
+            ],
+            "dependencies": {
+                "uim-core": {
+                    "repository": "git+https:\/\/github.com\/UI-Manufaktur\/uim-core.git",
+                    "version": "9171179266f02bafce9b9d7cba01f97354d01a59"
+                },
+                "uim-oop": {
+                    "repository": "git+https:\/\/github.com\/UI-Manufaktur\/uim-oop.git",
+                    "version": "a6fb933896b9864243e4455e61c77bc07f2b96e4"
+                },
+                "vibe-d": "~>0.9.4"
+            },
+            "name": "uim-css",
+            "version": "22.1.1"
         }
     ]
 }

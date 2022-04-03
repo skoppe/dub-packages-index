@@ -3,7 +3,7 @@
         "application.desktop.development.compiler",
         "library.development"
     ],
-    "commitID": "fa552dcc0d25994475f05f808a7c9926de6dd305",
+    "commitID": "47d5e54a4f07b71662c0b95815f2203abb944999",
     "dateAdded": "2014-12-13T05:06:10",
     "description": "An implementation of the ECMA 262 (Javascript) programming language ",
     "documentationURL": "",
@@ -47,7 +47,7 @@
             "version": "~test"
         },
         {
-            "commitID": "6f9cd53f3c9f22f28faa1c4051081d02134a59c3",
+            "commitID": "47d5e54a4f07b71662c0b95815f2203abb944999",
             "dependencies": {
                 "dmdscript:ds": ">=0.0.0",
                 "dmdscript:ds-ext": ">=0.0.0",
@@ -105,6 +105,36 @@
                 }
             ],
             "version": "2.0.3"
+        },
+        {
+            "commitID": "47d5e54a4f07b71662c0b95815f2203abb944999",
+            "dependencies": {
+                "dmdscript:ds": ">=0.0.0",
+                "dmdscript:ds-ext": ">=0.0.0",
+                "dmdscript:engine": ">=0.0.0"
+            },
+            "name": "dmdscript",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dmdscript:engine": ">=0.0.0"
+                    },
+                    "name": "ds"
+                },
+                {
+                    "dependencies": {
+                        "dmdscript:engine": ">=0.0.0"
+                    },
+                    "name": "ds-ext"
+                },
+                {
+                    "dependencies": {
+                        "undead": ">=1.0.3"
+                    },
+                    "name": "engine"
+                }
+            ],
+            "version": "2.1.0"
         }
     ]
 }

@@ -5,7 +5,7 @@
         "application.desktop.editor",
         "application.web.development"
     ],
-    "commitID": "f10a3528b5026eeefc1aa67ff2b09ae4e6c4a785",
+    "commitID": "e1fcbb82874e2329f15e29a4340b71c0d879e36f",
     "dateAdded": "2018-03-24T20:39:29",
     "description": "Microsoft Language Server Protocol implementation using workspace-d",
     "documentationURL": "",
@@ -159,6 +159,193 @@
             "version": "~fix-initialization"
         },
         {
+            "commitID": "cebd94346f9c945a532aa2af1b35870e2bf2b17f",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.8.0",
+                "eventsystem": "~>1.2.0",
+                "libddoc": "0.8.0",
+                "rm-rf": "~>0.1.0",
+                "serve-d:http": ">=0.0.0",
+                "serve-d:lsp": ">=0.0.0",
+                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:workspace-d": ">=0.0.0"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>1.1.6"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "eventsystem": "~>1.2.0",
+                        "painlessjson": "1.4.0"
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "workspace-d": {
+                            "optional": true,
+                            "version": ">=3.0.0"
+                        }
+                    },
+                    "name": "serverbase"
+                },
+                {
+                    "dependencies": {
+                        "dcd:common": "~>0.13.0"
+                    },
+                    "name": "dcd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "dfmt": "0.14.2",
+                        "dscanner": "0.12.0",
+                        "dub": "1.28.0-beta.1",
+                        "emsi_containers": "0.8.0",
+                        "inifiled": "1.3.3",
+                        "libdparse": "0.19.0",
+                        "painlessjson": "1.4.0",
+                        "serve-d:dcd": ">=0.0.0",
+                        "standardpaths": "0.8.2"
+                    },
+                    "name": "workspace-d"
+                }
+            ],
+            "version": "~fix-linker-error"
+        },
+        {
+            "commitID": "082e4102aaf5019d4828a64ffe64ca74667487f3",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.8.0",
+                "eventsystem": "~>1.2.0",
+                "libddoc": "0.8.0",
+                "rm-rf": "~>0.1.0",
+                "serve-d:http": ">=0.0.0",
+                "serve-d:lsp": ">=0.0.0",
+                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:workspace-d": ">=0.0.0"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>1.1.6"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "eventsystem": "~>1.2.0",
+                        "painlessjson": "1.4.0"
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "workspace-d": {
+                            "optional": true,
+                            "version": ">=3.0.0"
+                        }
+                    },
+                    "name": "serverbase"
+                },
+                {
+                    "dependencies": {
+                        "dcd:common": "~>0.13.0"
+                    },
+                    "name": "dcd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "dfmt": "0.14.2",
+                        "dscanner": "0.12.0",
+                        "dub": "1.28.0-beta.1",
+                        "emsi_containers": "0.8.0",
+                        "inifiled": "1.3.3",
+                        "libdparse": "0.19.0",
+                        "painlessjson": "1.4.0",
+                        "serve-d:dcd": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "standardpaths": "0.8.2"
+                    },
+                    "name": "workspace-d"
+                }
+            ],
+            "version": "~remove-painlessjson"
+        },
+        {
             "commitID": "2a396747fbaf57c017fc5db90533e80fe352f556",
             "configurations": [
                 {
@@ -232,7 +419,7 @@
             "version": "~workspaced-v3"
         },
         {
-            "commitID": "f10a3528b5026eeefc1aa67ff2b09ae4e6c4a785",
+            "commitID": "855a87a8b7afad6ba75c9f8440a3ac111b85ab4b",
             "configurations": [
                 {
                     "name": "executable"
@@ -254,12 +441,12 @@
                 "diet-complete": "~>0.0.3",
                 "emsi_containers": "0.8.0",
                 "eventsystem": "~>1.2.0",
-                "libddoc": "0.7.4",
+                "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
                 "serve-d:http": ">=0.0.0",
                 "serve-d:lsp": ">=0.0.0",
                 "serve-d:serverbase": ">=0.0.0",
-                "workspace-d": "3.6.1"
+                "serve-d:workspace-d": ">=0.0.0"
             },
             "name": "serve-d",
             "subPackages": [
@@ -288,6 +475,40 @@
                         }
                     },
                     "name": "serverbase"
+                },
+                {
+                    "dependencies": {
+                        "dcd:common": "~>0.13.0"
+                    },
+                    "name": "dcd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "dfmt": "0.14.2",
+                        "dscanner": "0.12.0",
+                        "dub": "1.28.0-beta.1",
+                        "emsi_containers": "0.8.0",
+                        "inifiled": "1.3.3",
+                        "libdparse": "0.19.0",
+                        "painlessjson": "1.4.0",
+                        "serve-d:dcd": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "standardpaths": "0.8.2"
+                    },
+                    "name": "workspace-d"
                 }
             ],
             "version": "~master"
@@ -1240,6 +1461,250 @@
                 }
             ],
             "version": "0.7.0"
+        },
+        {
+            "commitID": "84094fade433f3d52e43c5296d20af53b102ffdd",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.8.0",
+                "eventsystem": "~>1.2.0",
+                "libddoc": "0.7.4",
+                "rm-rf": "~>0.1.0",
+                "serve-d:http": ">=0.0.0",
+                "serve-d:lsp": ">=0.0.0",
+                "serve-d:serverbase": ">=0.0.0",
+                "workspace-d": "3.6.1"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>1.1.6"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "eventsystem": "~>1.2.0",
+                        "painlessjson": "1.4.0"
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "workspace-d": {
+                            "optional": true,
+                            "version": ">=3.0.0"
+                        }
+                    },
+                    "name": "serverbase"
+                }
+            ],
+            "version": "0.7.1"
+        },
+        {
+            "commitID": "553d088861effbfae9567362aabfca0cb8e00a5e",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.8.0",
+                "eventsystem": "~>1.2.0",
+                "libddoc": "0.7.4",
+                "rm-rf": "~>0.1.0",
+                "serve-d:http": ">=0.0.0",
+                "serve-d:lsp": ">=0.0.0",
+                "serve-d:serverbase": ">=0.0.0",
+                "workspace-d": "3.7.0"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>1.1.6"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "eventsystem": "~>1.2.0",
+                        "painlessjson": "1.4.0"
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "workspace-d": {
+                            "optional": true,
+                            "version": ">=3.0.0"
+                        }
+                    },
+                    "name": "serverbase"
+                }
+            ],
+            "version": "0.7.2"
+        },
+        {
+            "commitID": "e339f1ca3fc1ea91bca199a6d9c750abaf7573d3",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.8.0",
+                "eventsystem": "~>1.2.0",
+                "libddoc": "0.7.4",
+                "rm-rf": "~>0.1.0",
+                "serve-d:http": ">=0.0.0",
+                "serve-d:lsp": ">=0.0.0",
+                "serve-d:serverbase": ">=0.0.0",
+                "workspace-d": "3.7.0"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>1.1.6"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "eventsystem": "~>1.2.0",
+                        "painlessjson": "1.4.0"
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "workspace-d": {
+                            "optional": true,
+                            "version": ">=3.0.0"
+                        }
+                    },
+                    "name": "serverbase"
+                }
+            ],
+            "version": "0.7.3"
+        },
+        {
+            "commitID": "e1fcbb82874e2329f15e29a4340b71c0d879e36f",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.8.0",
+                "eventsystem": "~>1.2.0",
+                "libddoc": "0.7.4",
+                "rm-rf": "~>0.1.0",
+                "serve-d:http": ">=0.0.0",
+                "serve-d:lsp": ">=0.0.0",
+                "serve-d:serverbase": ">=0.0.0",
+                "workspace-d": "3.7.0"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>1.1.6"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "eventsystem": "~>1.2.0",
+                        "painlessjson": "1.4.0"
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        },
+                        "workspace-d": {
+                            "optional": true,
+                            "version": ">=3.0.0"
+                        }
+                    },
+                    "name": "serverbase"
+                }
+            ],
+            "version": "0.7.4"
         }
     ]
 }

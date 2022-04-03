@@ -1,0 +1,59 @@
+{
+    "categories": [
+        "application.server.game"
+    ],
+    "commitID": "8c9e67e48f8f01676a582fdf0f00a8e6e93dcfc7",
+    "dateAdded": "2022-03-25T22:32:59",
+    "description": "Server to host games using enet",
+    "documentationURL": "",
+    "id": "623e350be0a857331d18da51",
+    "name": "gameserver",
+    "owner": "59ded872be68b478448f373e",
+    "repository": {
+        "kind": "github",
+        "owner": "schveiguy",
+        "project": "gameserver"
+    },
+    "versions": [
+        {
+            "commitID": "8c9e67e48f8f01676a582fdf0f00a8e6e93dcfc7",
+            "dependencies": {
+                "enet-d": "~>0.0.1",
+                "jsoniopipe": "~>0.1.2"
+            },
+            "name": "gameserver",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "gameserver": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "server"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "commitID": "8c9e67e48f8f01676a582fdf0f00a8e6e93dcfc7",
+            "dependencies": {
+                "enet-d": "~>0.0.1",
+                "jsoniopipe": "~>0.1.2"
+            },
+            "name": "gameserver",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "gameserver": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "server"
+                }
+            ],
+            "version": "0.1.1"
+        }
+    ]
+}

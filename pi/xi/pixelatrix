@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "e85d18c837fe038739874661c998ff9202628218",
+    "commitID": "65cddefa2bc85013c3002ef5744950c448f08e5b",
     "dateAdded": "2021-11-25T06:53:21",
     "description": "Small library for handling old hardware graphic formats",
     "documentationURL": "",
@@ -14,12 +14,19 @@
     },
     "versions": [
         {
-            "commitID": "e85d18c837fe038739874661c998ff9202628218",
+            "commitID": "65cddefa2bc85013c3002ef5744950c448f08e5b",
             "dependencies": {
-                "magicalrainbows": ">=0.0.0",
-                "siryul": ">=0.0.0"
+                "magicalrainbows": "~>0"
             },
             "name": "pixelatrix",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "siryul": "~>0.6"
+                    },
+                    "name": "serializable"
+                }
+            ],
             "version": "~main"
         },
         {
@@ -30,6 +37,22 @@
             },
             "name": "pixelatrix",
             "version": "0.0.0"
+        },
+        {
+            "commitID": "65cddefa2bc85013c3002ef5744950c448f08e5b",
+            "dependencies": {
+                "magicalrainbows": "~>0"
+            },
+            "name": "pixelatrix",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "siryul": "~>0.6"
+                    },
+                    "name": "serializable"
+                }
+            ],
+            "version": "0.0.1"
         }
     ]
 }

@@ -3,7 +3,7 @@
         "library.binding",
         "library.scientific.bioinformatics"
     ],
-    "commitID": "0f284df0d57f973fb0a0e2b96af059d59bfb8975",
+    "commitID": "2529b1351a39f68a8e62dab5eb8d4bc6f968eb4a",
     "dateAdded": "2018-04-28T18:44:51",
     "description": "D bindings for htslib",
     "documentationURL": "",
@@ -135,7 +135,7 @@
             "version": "~coordsystem"
         },
         {
-            "commitID": "0f284df0d57f973fb0a0e2b96af059d59bfb8975",
+            "commitID": "1176725f91d8fa8a44ed00f6868f4b4804f02d5c",
             "configurations": [
                 {
                     "name": "source"
@@ -188,6 +188,218 @@
             "version": "~develop"
         },
         {
+            "commitID": "a65cf1f6f475051225897f503974b84df9f3b89f",
+            "configurations": [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-safety"
+                },
+                {
+                    "name": "tabix_test"
+                },
+                {
+                    "name": "bgzf_test"
+                },
+                {
+                    "name": "sam_test"
+                },
+                {
+                    "name": "cigar_test"
+                },
+                {
+                    "name": "vcf_writer_test"
+                },
+                {
+                    "name": "chunkby_test"
+                },
+                {
+                    "name": "source-static"
+                }
+            ],
+            "dependencies": {
+                "dhtslib:coordinates": ">=0.0.0"
+            },
+            "name": "dhtslib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "source"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "coordinates"
+                }
+            ],
+            "version": "~dstep"
+        },
+        {
+            "commitID": "dcda005dea57011594923e4b8b82d21d9a498bc5",
+            "configurations": [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-safety"
+                },
+                {
+                    "name": "tabix_test"
+                },
+                {
+                    "name": "bgzf_test"
+                },
+                {
+                    "name": "sam_test"
+                },
+                {
+                    "name": "cigar_test"
+                },
+                {
+                    "name": "vcf_writer_test"
+                },
+                {
+                    "name": "chunkby_test"
+                },
+                {
+                    "name": "source-static"
+                }
+            ],
+            "dependencies": {
+                "dhtslib:coordinates": ">=0.0.0"
+            },
+            "name": "dhtslib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "source"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "coordinates"
+                }
+            ],
+            "version": "~dstep2"
+        },
+        {
+            "commitID": "119c888f6b2597f5c91c5900594c2576cbddfff2",
+            "configurations": [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-safety"
+                },
+                {
+                    "name": "tabix_test"
+                },
+                {
+                    "name": "bgzf_test"
+                },
+                {
+                    "name": "sam_test"
+                },
+                {
+                    "name": "cigar_test"
+                },
+                {
+                    "name": "vcf_writer_test"
+                },
+                {
+                    "name": "chunkby_test"
+                },
+                {
+                    "name": "source-static"
+                }
+            ],
+            "dependencies": {
+                "dhtslib:coordinates": ">=0.0.0"
+            },
+            "name": "dhtslib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "source"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "coordinates"
+                }
+            ],
+            "version": "~file_abstract"
+        },
+        {
+            "commitID": "c51b842166300796944f786b00f60345face9d48",
+            "configurations": [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-safety"
+                },
+                {
+                    "name": "tabix_test"
+                },
+                {
+                    "name": "bgzf_test"
+                },
+                {
+                    "name": "sam_test"
+                },
+                {
+                    "name": "cigar_test"
+                },
+                {
+                    "name": "vcf_writer_test"
+                },
+                {
+                    "name": "chunkby_test"
+                },
+                {
+                    "name": "source-static"
+                }
+            ],
+            "dependencies": {
+                "dhtslib:coordinates": ">=0.0.0"
+            },
+            "name": "dhtslib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "source"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "coordinates"
+                }
+            ],
+            "version": "~fix_127"
+        },
+        {
             "commitID": "16a8189acca70f696fd946e300b441ac87468326",
             "configurations": [
                 {
@@ -211,6 +423,112 @@
             ],
             "name": "dhtslib",
             "version": "~hFILE_fix"
+        },
+        {
+            "commitID": "45e94a7c6e83fbdcdab3c7debdfc170a84d80bbe",
+            "configurations": [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-safety"
+                },
+                {
+                    "name": "tabix_test"
+                },
+                {
+                    "name": "bgzf_test"
+                },
+                {
+                    "name": "sam_test"
+                },
+                {
+                    "name": "cigar_test"
+                },
+                {
+                    "name": "vcf_writer_test"
+                },
+                {
+                    "name": "chunkby_test"
+                },
+                {
+                    "name": "source-static"
+                }
+            ],
+            "dependencies": {
+                "dhtslib:coordinates": ">=0.0.0"
+            },
+            "name": "dhtslib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "source"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "coordinates"
+                }
+            ],
+            "version": "~htslib-1.14"
+        },
+        {
+            "commitID": "7a1ba53eed7fb64909bb8bec3cafb00544dd4d68",
+            "configurations": [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-safety"
+                },
+                {
+                    "name": "tabix_test"
+                },
+                {
+                    "name": "bgzf_test"
+                },
+                {
+                    "name": "sam_test"
+                },
+                {
+                    "name": "cigar_test"
+                },
+                {
+                    "name": "vcf_writer_test"
+                },
+                {
+                    "name": "chunkby_test"
+                },
+                {
+                    "name": "source-static"
+                }
+            ],
+            "dependencies": {
+                "dhtslib:coordinates": ">=0.0.0"
+            },
+            "name": "dhtslib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "source"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "coordinates"
+                }
+            ],
+            "version": "~htslib-1.15"
         },
         {
             "commitID": "99f8b7509af358a21ca41ec16a12f1b0f8e69cf9",
@@ -238,6 +556,112 @@
             "version": "~htslib110"
         },
         {
+            "commitID": "a3cf6020dd9ce6ef8b58a261405418843db3e729",
+            "configurations": [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-safety"
+                },
+                {
+                    "name": "tabix_test"
+                },
+                {
+                    "name": "bgzf_test"
+                },
+                {
+                    "name": "sam_test"
+                },
+                {
+                    "name": "cigar_test"
+                },
+                {
+                    "name": "vcf_writer_test"
+                },
+                {
+                    "name": "chunkby_test"
+                },
+                {
+                    "name": "source-static"
+                }
+            ],
+            "dependencies": {
+                "dhtslib:coordinates": ">=0.0.0"
+            },
+            "name": "dhtslib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "source"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "coordinates"
+                }
+            ],
+            "version": "~htslibfile_and_itr"
+        },
+        {
+            "commitID": "ae7bf10e04d7735b7e95091f383d191a5efe1a3a",
+            "configurations": [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-safety"
+                },
+                {
+                    "name": "tabix_test"
+                },
+                {
+                    "name": "bgzf_test"
+                },
+                {
+                    "name": "sam_test"
+                },
+                {
+                    "name": "cigar_test"
+                },
+                {
+                    "name": "vcf_writer_test"
+                },
+                {
+                    "name": "chunkby_test"
+                },
+                {
+                    "name": "source-static"
+                }
+            ],
+            "dependencies": {
+                "dhtslib:coordinates": ">=0.0.0"
+            },
+            "name": "dhtslib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "source"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "coordinates"
+                }
+            ],
+            "version": "~linker_postblit_fix"
+        },
+        {
             "commitID": "103089759a1c2c1ffd4b979b4d5f53a79988c24e",
             "configurations": [
                 {
@@ -263,7 +687,7 @@
             "version": "~vcf_rw_File_input"
         },
         {
-            "commitID": "0f284df0d57f973fb0a0e2b96af059d59bfb8975",
+            "commitID": "2529b1351a39f68a8e62dab5eb8d4bc6f968eb4a",
             "configurations": [
                 {
                     "name": "source"
@@ -986,6 +1410,59 @@
                 }
             ],
             "version": "0.13.3+htslib-1.13"
+        },
+        {
+            "commitID": "2529b1351a39f68a8e62dab5eb8d4bc6f968eb4a",
+            "configurations": [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-safety"
+                },
+                {
+                    "name": "tabix_test"
+                },
+                {
+                    "name": "bgzf_test"
+                },
+                {
+                    "name": "sam_test"
+                },
+                {
+                    "name": "cigar_test"
+                },
+                {
+                    "name": "vcf_writer_test"
+                },
+                {
+                    "name": "chunkby_test"
+                },
+                {
+                    "name": "source-static"
+                }
+            ],
+            "dependencies": {
+                "dhtslib:coordinates": ">=0.0.0"
+            },
+            "name": "dhtslib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "source"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "coordinates"
+                }
+            ],
+            "version": "0.14.0+htslib-1.13"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "3abdab8b8c312779135fc850c3c015420885e663",
+    "commitID": "dc208dc616bef29691afe47ba9f94ac4087bb8c4",
     "dateAdded": "2018-08-29T22:51:37",
     "description": "A test project.",
     "documentationURL": "",
@@ -14,13 +14,14 @@
     },
     "versions": [
         {
-            "commitID": "3abdab8b8c312779135fc850c3c015420885e663",
+            "commitID": "dc208dc616bef29691afe47ba9f94ac4087bb8c4",
             "dependencies": {
                 "dubtestproject:test1": ">=0.0.0",
                 "dubtestproject:test2": ">=0.0.0",
                 "dubtestproject:test3": ">=0.0.0",
                 "dubtestproject:test4": ">=0.0.0",
-                "dubtestproject:test5": ">=0.0.0"
+                "dubtestproject:test5": ">=0.0.0",
+                "dubtestproject:test6": ">=0.0.0"
             },
             "name": "dubtestproject",
             "subPackages": [
@@ -38,6 +39,12 @@
                 },
                 {
                     "name": "test5"
+                },
+                {
+                    "dependencies": {
+                        "urld": "2.1.1"
+                    },
+                    "name": "test6"
                 }
             ],
             "version": "~master"
@@ -108,6 +115,42 @@
                 }
             ],
             "version": "1.2.0"
+        },
+        {
+            "commitID": "dc208dc616bef29691afe47ba9f94ac4087bb8c4",
+            "dependencies": {
+                "dubtestproject:test1": ">=0.0.0",
+                "dubtestproject:test2": ">=0.0.0",
+                "dubtestproject:test3": ">=0.0.0",
+                "dubtestproject:test4": ">=0.0.0",
+                "dubtestproject:test5": ">=0.0.0",
+                "dubtestproject:test6": ">=0.0.0"
+            },
+            "name": "dubtestproject",
+            "subPackages": [
+                {
+                    "name": "test1"
+                },
+                {
+                    "name": "test2"
+                },
+                {
+                    "name": "test3"
+                },
+                {
+                    "name": "test4"
+                },
+                {
+                    "name": "test5"
+                },
+                {
+                    "dependencies": {
+                        "urld": "2.1.1"
+                    },
+                    "name": "test6"
+                }
+            ],
+            "version": "1.3.0"
         }
     ]
 }

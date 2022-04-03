@@ -1,0 +1,77 @@
+{
+    "categories": [
+        "library.binding"
+    ],
+    "commitID": "c097ef628b9c2b7c4ea469b383108c2470f749f6",
+    "dateAdded": "2022-01-23T00:17:52",
+    "description": "A Raylib binding for DLang.",
+    "documentationURL": "",
+    "id": "61ec90a0a8d9f7d3120e195a",
+    "name": "dynalib-raylib",
+    "owner": "604ecef0eb3e06ca5365dd82",
+    "repository": {
+        "kind": "gitlab",
+        "owner": "ArchaicSoft\/Bindings",
+        "project": "raylib"
+    },
+    "versions": [
+        {
+            "commitID": "dbc093d537c5cb5f4c1ca5efaa2bf29d0d81874c",
+            "dependencies": {
+                "dynalib": ">=0.0.0"
+            },
+            "name": "dynalib-raylib",
+            "subPackages": [
+                {
+                    "name": "copy-files"
+                },
+                {
+                    "dependencies": {
+                        "dynalib": ">=0.0.0"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dynalib": ">=0.0.0",
+                        "dynalib-raylib:core": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "gui"
+                }
+            ],
+            "version": "~main"
+        },
+        {
+            "commitID": "c097ef628b9c2b7c4ea469b383108c2470f749f6",
+            "dependencies": {
+                "dynalib": ">=0.0.0"
+            },
+            "name": "dynalib-raylib",
+            "subPackages": [
+                {
+                    "name": "copy-files"
+                },
+                {
+                    "dependencies": {
+                        "dynalib": ">=0.0.0"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dynalib": ">=0.0.0",
+                        "dynalib-raylib:core": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "gui"
+                }
+            ],
+            "version": "0.1.0"
+        }
+    ]
+}

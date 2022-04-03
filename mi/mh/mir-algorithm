@@ -5,7 +5,7 @@
         "library.nogc",
         "library.optimized_cpu"
     ],
-    "commitID": "78322f7b9dbf491c066254fd5446627a5ce9a2f7",
+    "commitID": "a828eb1da6832fd4d57794141663deb09d58085d",
     "dateAdded": "2017-01-05T14:40:05",
     "description": "Dlang Core Library",
     "documentationURL": "http:\/\/mir-algorithm.libmir.org\/",
@@ -52,6 +52,28 @@
             },
             "name": "mir-algorithm",
             "version": "~9il-patch-1"
+        },
+        {
+            "commitID": "3b6a642517baefa6b55ddb812c65c3321712ffe5",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "~algoM"
         },
         {
             "commitID": "babf2e26012fea8942f9fef84a3e6c42cc936faa",
@@ -130,7 +152,7 @@
             "version": "~devel2"
         },
         {
-            "commitID": "25fde88c3e1303087ffd09d524d2530e9f637413",
+            "commitID": "e3f20b3b89979399551aabeb5627050608dd1cf3",
             "configurations": [
                 {
                     "name": "default"
@@ -146,10 +168,10 @@
                 }
             ],
             "dependencies": {
-                "mir-core": ">=1.1.75"
+                "mir-core": ">=1.1.88"
             },
             "name": "mir-algorithm",
-            "version": "~fix-decimalview"
+            "version": "~fix-ci"
         },
         {
             "commitID": "e1507bbafb6ab0e49792419cd71726b5a205ea18",
@@ -166,6 +188,62 @@
             },
             "name": "mir-algorithm",
             "version": "~fixsmstring"
+        },
+        {
+            "commitID": "fb72de8bbfbb3e47c43697bcfab81937b9e891c0",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "~github-actions"
+        },
+        {
+            "commitID": "84f4453a5b28c98586296c34fe7c4b08994e0415",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "~impl-bigint-division"
         },
         {
             "commitID": "6461687db1c98f18110ef054482c765a993c185c",
@@ -403,7 +481,7 @@
             "version": "~wip"
         },
         {
-            "commitID": "78322f7b9dbf491c066254fd5446627a5ce9a2f7",
+            "commitID": "a828eb1da6832fd4d57794141663deb09d58085d",
             "configurations": [
                 {
                     "name": "default"
@@ -416,10 +494,22 @@
                 },
                 {
                     "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
                 }
             ],
             "dependencies": {
-                "mir-core": ">=1.1.75"
+                "mir-core": ">=1.1.88"
             },
             "name": "mir-algorithm",
             "version": "~master"
@@ -8206,6 +8296,762 @@
             },
             "name": "mir-algorithm",
             "version": "3.11.4"
+        },
+        {
+            "commitID": "e49ec3282441b7f26d49007b6a067337c4c4399f",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.11.5"
+        },
+        {
+            "commitID": "f4d0a9464149c6f1881eeddafc726126631014f3",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.11.6"
+        },
+        {
+            "commitID": "b21ff3232c963d62d97fc09207d45707ea93f70f",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.11.7"
+        },
+        {
+            "commitID": "e669f3161cd59918f913477f8332cc7f385f3ccf",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.0"
+        },
+        {
+            "commitID": "ed7a3003a315b6f3a9c2cc45ddb1279e17d556f5",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.1"
+        },
+        {
+            "commitID": "f365e153f517fae3e74f2b8650634d589ecedb90",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.2"
+        },
+        {
+            "commitID": "05abcc59582328328bd8dd95cfbfa8758b316d93",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.3"
+        },
+        {
+            "commitID": "dcbcf703b50d381099407b7bdb73ce51ecef33a1",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.4"
+        },
+        {
+            "commitID": "c5f602c4e0a613e9a9b1fe7d98a07b7a724a09f2",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.5"
+        },
+        {
+            "commitID": "b831df612111a2ef0b3abf772cd8929929477aed",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.6"
+        },
+        {
+            "commitID": "541cacca81ade5f07180ad088b38cc1c57a70abc",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.7"
+        },
+        {
+            "commitID": "581076ff7117f0fe1baf945d31d27d34e92eb82a",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.8"
+        },
+        {
+            "commitID": "70701e9c6024b7e5b76e326520a62438dd84a027",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.9"
+        },
+        {
+            "commitID": "3f32207019a24b171bd4df1692210d8386c10af8",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.75"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.10"
+        },
+        {
+            "commitID": "7db102175b9d0fc93b909766e0d62e706ba0fe7b",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.11"
+        },
+        {
+            "commitID": "4f9cd5299dda7c08679c6408c539b44ec58fc7bb",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.12"
+        },
+        {
+            "commitID": "878d38ac1764e4cff6658804a851723d21f3f252",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.13"
+        },
+        {
+            "commitID": "60899a51f46ead92cdc8e2b5642439ac4d60ddd1",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.14"
+        },
+        {
+            "commitID": "f85f2fc7a201a2ea7d57dcac75c06331ac13a501",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.15"
+        },
+        {
+            "commitID": "a73dcd0759a489cad885205f956f85460253db63",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.16"
+        },
+        {
+            "commitID": "d88779a32dcd64cb5b179dcc121ef4873ed2fd60",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.17"
+        },
+        {
+            "commitID": "1da452eaf413b85131f1478d94f6520ffb81e06c",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.18"
+        },
+        {
+            "commitID": "a26a388e8825b140c4a20ac2ebcc04e092224e4d",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.19"
+        },
+        {
+            "commitID": "f6590421992a121ae3fe272ce8407734fa013a8a",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.20"
+        },
+        {
+            "commitID": "d3b6a512441319899747972f2308f98076ca844b",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.21"
+        },
+        {
+            "commitID": "eb81f4d586952fede5ea16a95fc0e25f39950e99",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.22"
+        },
+        {
+            "commitID": "4e8aa3329998d0872d147f6edf9cc5dc6a4d8da7",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.23"
+        },
+        {
+            "commitID": "b8148f3ba58dcc6c0490119af074f88dbd8e2977",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.24"
+        },
+        {
+            "commitID": "e33ca497794680999a509a7ab27f9ed35f9812e2",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.25"
+        },
+        {
+            "commitID": "a828eb1da6832fd4d57794141663deb09d58085d",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.88"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.26"
         }
     ]
 }

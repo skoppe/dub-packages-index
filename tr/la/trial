@@ -4,7 +4,7 @@
         "library.generic",
         "library.development"
     ],
-    "commitID": "53cff6d8becada5d3ce50141d60a4b4b2345e04a",
+    "commitID": "c82408b0607acce5984475ae75ae3cc52d108960",
     "dateAdded": "2017-06-11T14:50:34",
     "description": "The extensible test runner for DLang",
     "documentationURL": "http:\/\/trial.szabobogdan.com\/api\/",
@@ -17,6 +17,59 @@
         "project": "trial"
     },
     "versions": [
+        {
+            "commitID": "c82408b0607acce5984475ae75ae3cc52d108960",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": ">=0.8.0"
+                    },
+                    "name": "trial"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.27.0",
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.8.0"
+                        },
+                        "vibe-d:data": "~>0.9.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "trial",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": {
+                            "optional": true,
+                            "version": ">=0.12.0"
+                        },
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.8.0"
+                        }
+                    },
+                    "name": "lifecycle"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.27.0",
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": "~>0.8.7",
+                        "vibe-d": "~>0.9.2"
+                    },
+                    "name": "runner"
+                }
+            ],
+            "version": "~v0.7"
+        },
         {
             "commitID": "53cff6d8becada5d3ce50141d60a4b4b2345e04a",
             "configurations": [
@@ -1717,6 +1770,166 @@
                 }
             ],
             "version": "0.7.7"
+        },
+        {
+            "commitID": "556fb744fc133c02b5a6e9294a18542e86b8ca1d",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": ">=0.8.0"
+                    },
+                    "name": "trial"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.23.0",
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.8.0"
+                        },
+                        "vibe-d:data": "~>0.9.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "trial",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": {
+                            "optional": true,
+                            "version": ">=0.12.0"
+                        },
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.8.0"
+                        }
+                    },
+                    "name": "lifecycle"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.23.0",
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": "~>0.8.7",
+                        "vibe-d:data": "~>0.9.0",
+                        "vibe-d:http": "~>0.9.0"
+                    },
+                    "name": "runner"
+                }
+            ],
+            "version": "0.7.8"
+        },
+        {
+            "commitID": "c0f64a4d70f50ef6edb5c05e92eee1f71b4bd619",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": ">=0.8.0"
+                    },
+                    "name": "trial"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.27.0",
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.8.0"
+                        },
+                        "vibe-d:data": "~>0.9.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "trial",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": {
+                            "optional": true,
+                            "version": ">=0.12.0"
+                        },
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.8.0"
+                        }
+                    },
+                    "name": "lifecycle"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.27.0",
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": "~>0.8.7",
+                        "vibe-d": "~>0.9.2"
+                    },
+                    "name": "runner"
+                }
+            ],
+            "version": "0.7.9"
+        },
+        {
+            "commitID": "c82408b0607acce5984475ae75ae3cc52d108960",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": ">=0.8.0"
+                    },
+                    "name": "trial"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.27.0",
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.8.0"
+                        },
+                        "vibe-d:data": "~>0.9.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "trial",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": {
+                            "optional": true,
+                            "version": ">=0.12.0"
+                        },
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.8.0"
+                        }
+                    },
+                    "name": "lifecycle"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.27.0",
+                        "fluent-asserts": ">=0.12.0",
+                        "libdparse": "~>0.8.7",
+                        "vibe-d": "~>0.9.2"
+                    },
+                    "name": "runner"
+                }
+            ],
+            "version": "0.7.10"
         }
     ]
 }

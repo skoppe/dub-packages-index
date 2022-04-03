@@ -1,15 +1,15 @@
 {
     "categories": [],
-    "commitID": "a864964be42193b9f5f85021c224afa790e4b682",
+    "commitID": "40515464d861465025faa6bcf45d76bf64635646",
     "dateAdded": "2020-07-25T23:44:38",
-    "description": "RE_NGINE_FX game framework\/engine",
+    "description": "RE NGINE FX (rengfx) game framework\/engine",
     "documentationURL": "",
     "id": "5f1ca7c6cd0fccdf4a511c83",
     "name": "reng",
     "owner": "5ea1fbcba9552b3a608674e8",
     "repository": {
         "kind": "github",
-        "owner": "xdrie",
+        "owner": "redthing1",
         "project": "rengfx"
     },
     "versions": [
@@ -48,7 +48,7 @@
             "version": "~2d_collision"
         },
         {
-            "commitID": "a09ad7b2c2945bc765916711addcefe5bd23a723",
+            "commitID": "05b4b71640c503ac81e07741b6046940145bc58f",
             "configurations": [
                 {
                     "dependencies": {
@@ -73,13 +73,153 @@
             "dependencies": {
                 "bindbc-loader": "~>1.0.1",
                 "colorize": "~>1.0.5",
-                "datefmt": "~>1.0.4",
-                "dray": ">=4.0.0-r3",
+                "dray": ">=4.0.0-r4",
                 "jar": "~>0.1.0",
                 "witchcraft": "~>0.1.9"
             },
             "name": "reng",
             "version": "~3d_phys_newton"
+        },
+        {
+            "commitID": "f0861301b2fb63fddbbad0c4253ad4abccdf3a6d",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "datefmt-redthing1": "~>1.0.6",
+                "dray": ">=4.0.0-r3",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "~bug\/ecs\/storage"
+        },
+        {
+            "commitID": "33971fb139559d3582c4a030fdee6858c3e8a8c9",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "~documentation"
+        },
+        {
+            "commitID": "cb25fc66c1cf36a41dd655ed1cf29d1db5ee84ad",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "~feat\/hidpi"
+        },
+        {
+            "commitID": "fe4fbc33773ba303c1e505bfe8495970cb9e2938",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "~feat\/hotreload"
+        },
+        {
+            "commitID": "e78225c62bccfa7f5d35246b0127df59d873574d",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "~fun\/jupicool"
         },
         {
             "commitID": "e686eb54d58cb129d937be555e5e9724c11a4894",
@@ -286,7 +426,7 @@
             "version": "~raylib-4.0"
         },
         {
-            "commitID": "a864964be42193b9f5f85021c224afa790e4b682",
+            "commitID": "40515464d861465025faa6bcf45d76bf64635646",
             "configurations": [
                 {
                     "name": "lib-standard"
@@ -296,7 +436,7 @@
                 },
                 {
                     "dependencies": {
-                        "silly": "~>1.0.2"
+                        "silly": "~>1.1.1"
                     },
                     "name": "unittest"
                 },
@@ -306,8 +446,7 @@
             ],
             "dependencies": {
                 "colorize": "~>1.0.5",
-                "datefmt-redthing1": "~>1.0.6",
-                "dray": ">=4.0.0-r3",
+                "dray": ">=4.0.0-r5",
                 "jar": "~>0.1.0",
                 "witchcraft": "~>0.1.9"
             },
@@ -981,6 +1120,259 @@
             },
             "name": "reng",
             "version": "0.5.1"
+        },
+        {
+            "commitID": "f0861301b2fb63fddbbad0c4253ad4abccdf3a6d",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "datefmt-redthing1": "~>1.0.6",
+                "dray": ">=4.0.0-r3",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.5.2"
+        },
+        {
+            "commitID": "926caf6f96f81efe497b4d2676c1cfc7f39fc0a0",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r3",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.6.0"
+        },
+        {
+            "commitID": "d596c77ffa897417d1d7e7fecb9b524ffaa6d0c2",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.6.1"
+        },
+        {
+            "commitID": "cb25fc66c1cf36a41dd655ed1cf29d1db5ee84ad",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.6.2"
+        },
+        {
+            "commitID": "1f5a8be99fae6d625f69b3b615cb567d82dcd252",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.6.3"
+        },
+        {
+            "commitID": "fe4fbc33773ba303c1e505bfe8495970cb9e2938",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.7.0"
+        },
+        {
+            "commitID": "f6568cb368070c0fa549dc780fe9678693120711",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.7.1"
+        },
+        {
+            "commitID": "7de4ba8c72784b7c08b620704d2ae58e5d54660e",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r4",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.7.2"
+        },
+        {
+            "commitID": "40515464d861465025faa6bcf45d76bf64635646",
+            "configurations": [
+                {
+                    "name": "lib-standard"
+                },
+                {
+                    "name": "lib-minimal"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ddox"
+                }
+            ],
+            "dependencies": {
+                "colorize": "~>1.0.5",
+                "dray": ">=4.0.0-r5",
+                "jar": "~>0.1.0",
+                "witchcraft": "~>0.1.9"
+            },
+            "name": "reng",
+            "version": "0.7.3"
         }
     ]
 }

@@ -3,7 +3,7 @@
         "library.binding",
         "library.graphics"
     ],
-    "commitID": "043747cccdf65d5a2e62dc380da8d4421ac34c1c",
+    "commitID": "8cf53a8fb53e42d2b706c2f728536f12792db92c",
     "dateAdded": "2019-09-29T06:30:33",
     "description": "Dynamic and static D bindings for bgfx.",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "043747cccdf65d5a2e62dc380da8d4421ac34c1c",
+            "commitID": "8cf53a8fb53e42d2b706c2f728536f12792db92c",
             "configurations": [
                 {
                     "dependencies": {
@@ -240,6 +240,31 @@
             ],
             "name": "bindbc-bgfx",
             "version": "0.6.0+115"
+        },
+        {
+            "commitID": "8cf53a8fb53e42d2b706c2f728536f12792db92c",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-bgfx",
+            "version": "0.6.1+115"
         }
     ]
 }

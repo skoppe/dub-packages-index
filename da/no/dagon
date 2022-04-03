@@ -3,7 +3,7 @@
         "library.graphics",
         "library.gamedev"
     ],
-    "commitID": "c0344d702548750327ac778d2dfa9c8035cea6e7",
+    "commitID": "6cf0d703f3a63c2c639170841fb0d1e671268d89",
     "dateAdded": "2017-04-05T18:23:40",
     "description": "3D game engine for D",
     "documentationURL": "",
@@ -80,21 +80,28 @@
             "version": "~dev_0.9"
         },
         {
-            "commitID": "c0344d702548750327ac778d2dfa9c8035cea6e7",
+            "commitID": "6cf0d703f3a63c2c639170841fb0d1e671268d89",
             "configurations": [
                 {
                     "name": "library"
                 }
             ],
             "dependencies": {
-                "dlib": "~>0.23.0"
+                "dlib": "~>1.0.0"
             },
             "name": "dagon",
             "subPackages": [
                 {
                     "dependencies": {
                         "dagon": ">=0.0.0",
-                        "dlib": "~>0.23.0"
+                        "dlib": "~>1.0.0"
+                    },
+                    "name": "stbi"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": "~>1.0.0"
                     },
                     "name": "ftfont"
                 },
@@ -102,28 +109,21 @@
                     "dependencies": {
                         "dagon": ">=0.0.0",
                         "dagon:ftfont": ">=0.0.0",
-                        "dlib": "~>0.23.0"
+                        "dlib": "~>1.0.0"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
                         "dagon": ">=0.0.0",
-                        "dlib": "~>0.23.0"
+                        "dlib": "~>1.0.0"
                     },
                     "name": "newton"
                 },
                 {
                     "dependencies": {
                         "dagon": ">=0.0.0",
-                        "dlib": "~>0.23.0"
-                    },
-                    "name": "physics"
-                },
-                {
-                    "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dlib": "~>0.23.0"
+                        "dlib": "~>1.0.0"
                     },
                     "name": "iqm"
                 },
@@ -1080,6 +1080,60 @@
                 }
             ],
             "version": "0.12.1"
+        },
+        {
+            "commitID": "6cf0d703f3a63c2c639170841fb0d1e671268d89",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "dlib": "~>1.0.0"
+            },
+            "name": "dagon",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": "~>1.0.0"
+                    },
+                    "name": "stbi"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": "~>1.0.0"
+                    },
+                    "name": "ftfont"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dagon:ftfont": ">=0.0.0",
+                        "dlib": "~>1.0.0"
+                    },
+                    "name": "nuklear"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": "~>1.0.0"
+                    },
+                    "name": "newton"
+                },
+                {
+                    "dependencies": {
+                        "dagon": ">=0.0.0",
+                        "dlib": "~>1.0.0"
+                    },
+                    "name": "iqm"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.13.0"
         }
     ]
 }

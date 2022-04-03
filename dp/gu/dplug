@@ -5,7 +5,7 @@
         "library.graphics",
         "library.nogc"
     ],
-    "commitID": "365d49b0862bcb8b1d86e01c1bb80dcd4fba93f5",
+    "commitID": "c3a347a989e46514130f83145bb12eeb7743f375",
     "dateAdded": "2013-11-15T01:02:39",
     "description": "A library for crafting native audio plugins as simply as possible.",
     "documentationURL": "http:\/\/dplug.dpldocs.info\/",
@@ -347,7 +347,7 @@
             "version": "~v8"
         },
         {
-            "commitID": "a469e08bffbade592622b14550ee9713479819d4",
+            "commitID": "c3a347a989e46514130f83145bb12eeb7743f375",
             "dependencies": {
                 "dplug:au": ">=0.0.0",
                 "dplug:audio": ">=0.0.0",
@@ -367,6 +367,7 @@
                 "dplug:vst2": ">=0.0.0",
                 "dplug:vst3": ">=0.0.0",
                 "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
                 "dplug:x11": ">=0.0.0"
             },
             "name": "dplug",
@@ -506,6 +507,14 @@
                         "dplug:client": ">=0.0.0"
                     },
                     "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
                 },
                 {
                     "dependencies": {
@@ -56612,6 +56621,2272 @@
                 }
             ],
             "version": "12.1.19"
+        },
+        {
+            "commitID": "4bc9ddbe127d1ad0cce39fc8873b34f958c47c71",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.2.0"
+        },
+        {
+            "commitID": "6984343a7f8de45969d05b543de552ead6fc861b",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.2.1"
+        },
+        {
+            "commitID": "57a5411ff5508e108d12bbe369bf3ebe5f4f0b24",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.3.0"
+        },
+        {
+            "commitID": "0b949437d2d3b0d0fc443a63f5a5f887bd60fdb0",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.3.1"
+        },
+        {
+            "commitID": "b88efdc26e9fdaaa29f7c2ba5891c00496f4ed86",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.3.2"
+        },
+        {
+            "commitID": "d5c219a737a4cd62819fe1090ef79385e465b18e",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.3.3"
+        },
+        {
+            "commitID": "94b92b976fb95a7d3d74e8a1af8f194b58b8147e",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.4.0"
+        },
+        {
+            "commitID": "772d2bf17a3404819fd5cdddef5bb49762374812",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.4.1"
+        },
+        {
+            "commitID": "b48e3dd8e1d64c758f9c51fd5a5bbf91323b18af",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.4.2"
+        },
+        {
+            "commitID": "5254399727e1e929b6e997261ebb38414322a18a",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.4.3"
+        },
+        {
+            "commitID": "45f9b7c5ae030796819d3f1021dc7707087208d6",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.4.4"
+        },
+        {
+            "commitID": "c3a347a989e46514130f83145bb12eeb7743f375",
+            "dependencies": {
+                "dplug:au": ">=0.0.0",
+                "dplug:audio": ">=0.0.0",
+                "dplug:canvas": ">=0.0.0",
+                "dplug:client": ">=0.0.0",
+                "dplug:core": ">=0.0.0",
+                "dplug:dsp": ">=0.0.0",
+                "dplug:fft": ">=0.0.0",
+                "dplug:flat-widgets": ">=0.0.0",
+                "dplug:graphics": ">=0.0.0",
+                "dplug:gui": ">=0.0.0",
+                "dplug:host": ">=0.0.0",
+                "dplug:iir": ">=0.0.0",
+                "dplug:lv2": ">=0.0.0",
+                "dplug:macos": ">=0.0.0",
+                "dplug:pbr-widgets": ">=0.0.0",
+                "dplug:vst2": ">=0.0.0",
+                "dplug:vst3": ">=0.0.0",
+                "dplug:window": ">=0.0.0",
+                "dplug:wren-support": ">=0.0.0",
+                "dplug:x11": ">=0.0.0"
+            },
+            "name": "dplug",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0"
+                    },
+                    "name": "au"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "audio"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:fft": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "dsp"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "fft"
+                },
+                {
+                    "dependencies": {
+                        "dplug:canvas": ">=0.0.0",
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "flat-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "graphics"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:window": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:vst2": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "host"
+                },
+                {
+                    "dependencies": {
+                        "dplug:audio": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "iir"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "lv2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "macos"
+                },
+                {
+                    "dependencies": {
+                        "intel-intrinsics": "~>1"
+                    },
+                    "name": "math"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0",
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "dplug:window": ">=0.0.0"
+                    },
+                    "name": "pbr-widgets"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst2"
+                },
+                {
+                    "dependencies": {
+                        "dplug:client": ">=0.0.0"
+                    },
+                    "name": "vst3"
+                },
+                {
+                    "dependencies": {
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:gui": ">=0.0.0",
+                        "wren-port": "~>1.1"
+                    },
+                    "name": "wren-support"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0",
+                        "dplug:graphics": ">=0.0.0",
+                        "dplug:macos": ">=0.0.0",
+                        "dplug:math": ">=0.0.0",
+                        "dplug:x11": ">=0.0.0"
+                    },
+                    "name": "window"
+                },
+                {
+                    "dependencies": {
+                        "dplug:core": ">=0.0.0"
+                    },
+                    "name": "x11"
+                }
+            ],
+            "version": "12.4.5"
         }
     ]
 }

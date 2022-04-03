@@ -5,9 +5,9 @@
         "library.optimized_cpu",
         "library.nogc"
     ],
-    "commitID": "d76e1ea813a1e4c06d2bed44a73f1ed5d908c273",
+    "commitID": "934a1b8e40a0d7234f09fa0c9bb3f32a4d5c463c",
     "dateAdded": "2020-10-04T11:03:23",
-    "description": "Fast, Expressive, and Easy to use Ion\/JSON Serialization Library with optional SIMD Optimization.",
+    "description": "Fast, Expressive, and Easy to use Ion, JSON, Msgpack Serialization Library with optional SIMD Optimization.",
     "documentationURL": "http:\/\/mir-ion.libmir.org\/",
     "id": "5f798fdb4fd6944a2ac545e8",
     "name": "mir-ion",
@@ -19,13 +19,10 @@
     },
     "versions": [
         {
-            "commitID": "fa5d618f8999e73cde0afa74a1d540e112dd6e1a",
+            "commitID": "ae2af4e6f475e4eb8615efe029182ae1e8f80c76",
             "configurations": [
                 {
-                    "name": "common"
-                },
-                {
-                    "name": "bloomberg"
+                    "name": "library"
                 },
                 {
                     "name": "unittest"
@@ -38,20 +35,37 @@
                 }
             ],
             "dependencies": {
-                "mir-algorithm": ">=3.10.92",
+                "mir-algorithm": ">=3.12.17",
                 "mir-cpuid": "~>1.2.6"
             },
             "name": "mir-ion",
-            "version": "~docs-improvement"
+            "version": "~ci-fixes"
         },
         {
-            "commitID": "780777f2dbcc601a98368361086c5325afe58d35",
+            "commitID": "3cb2418165eca3b2b22ced88d4c136248d5d9d9d",
             "configurations": [
                 {
                     "name": "common"
                 },
                 {
                     "name": "bloomberg"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.10.69",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "~script"
+        },
+        {
+            "commitID": "934a1b8e40a0d7234f09fa0c9bb3f32a4d5c463c",
+            "configurations": [
+                {
+                    "name": "library"
                 },
                 {
                     "name": "unittest"
@@ -64,86 +78,7 @@
                 }
             ],
             "dependencies": {
-                "mir-algorithm": ">=3.10.106",
-                "mir-cpuid": "~>1.2.6"
-            },
-            "name": "mir-ion",
-            "version": "~enable-binary-literals"
-        },
-        {
-            "commitID": "9a1e3c2d5b26d1350356a94135a92fea4e71969e",
-            "configurations": [
-                {
-                    "name": "common"
-                },
-                {
-                    "name": "unittest"
-                }
-            ],
-            "dependencies": {
-                "mir-algorithm": ">=3.10.36",
-                "mir-cpuid": "~>1.2.6"
-            },
-            "name": "mir-ion",
-            "version": "~filereader"
-        },
-        {
-            "commitID": "3581b086cca1da2efbefdf62f148f100bbcb35d7",
-            "configurations": [
-                {
-                    "name": "common"
-                },
-                {
-                    "name": "unittest"
-                }
-            ],
-            "dependencies": {
-                "mir-algorithm": ">=3.10.36",
-                "mir-cpuid": "~>1.2.6"
-            },
-            "name": "mir-ion",
-            "version": "~pointers"
-        },
-        {
-            "commitID": "4d419767d21dbc35f6947c81b99829c79af36c30",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "mir-cpuid": "~>1.2.6"
-                    },
-                    "name": "x86_any"
-                },
-                {
-                    "name": "common"
-                }
-            ],
-            "dependencies": {
-                "mir-algorithm": ">=3.10.17"
-            },
-            "name": "mir-ion",
-            "version": "~ser"
-        },
-        {
-            "commitID": "d76e1ea813a1e4c06d2bed44a73f1ed5d908c273",
-            "configurations": [
-                {
-                    "name": "common"
-                },
-                {
-                    "name": "bloomberg"
-                },
-                {
-                    "name": "unittest"
-                },
-                {
-                    "name": "asan-unittest"
-                },
-                {
-                    "name": "parser-test"
-                }
-            ],
-            "dependencies": {
-                "mir-algorithm": ">=3.11.4",
+                "mir-algorithm": ">=3.12.17",
                 "mir-cpuid": "~>1.2.6"
             },
             "name": "mir-ion",
@@ -2240,7 +2175,7 @@
             "version": "0.1.88"
         },
         {
-            "commitID": "172394fa86f0bd372ad418f0ab2f6b4af597e9c1",
+            "commitID": "cd649a7c6917c3ae2964c9b369ee157953e727c0",
             "configurations": [
                 {
                     "name": "common"
@@ -2259,14 +2194,14 @@
                 }
             ],
             "dependencies": {
-                "mir-algorithm": ">=3.11.0",
+                "mir-algorithm": ">=3.11.4",
                 "mir-cpuid": "~>1.2.6"
             },
             "name": "mir-ion",
             "version": "1.0.0"
         },
         {
-            "commitID": "8441e5f5e13ec88f6e847dee32cd1388761746f7",
+            "commitID": "cd649a7c6917c3ae2964c9b369ee157953e727c0",
             "configurations": [
                 {
                     "name": "common"
@@ -2285,14 +2220,14 @@
                 }
             ],
             "dependencies": {
-                "mir-algorithm": ">=3.11.0",
+                "mir-algorithm": ">=3.11.4",
                 "mir-cpuid": "~>1.2.6"
             },
             "name": "mir-ion",
             "version": "1.0.1"
         },
         {
-            "commitID": "7e8b1243291814dc4918b056206ca4714a79725c",
+            "commitID": "cd649a7c6917c3ae2964c9b369ee157953e727c0",
             "configurations": [
                 {
                     "name": "common"
@@ -2311,14 +2246,14 @@
                 }
             ],
             "dependencies": {
-                "mir-algorithm": ">=3.11.0",
+                "mir-algorithm": ">=3.11.4",
                 "mir-cpuid": "~>1.2.6"
             },
             "name": "mir-ion",
             "version": "1.0.2"
         },
         {
-            "commitID": "08bd56e0790d2242654f2ceffb0c8df10d50903c",
+            "commitID": "cd649a7c6917c3ae2964c9b369ee157953e727c0",
             "configurations": [
                 {
                     "name": "common"
@@ -2344,7 +2279,7 @@
             "version": "1.0.3"
         },
         {
-            "commitID": "90b55780d3d26e8f2c525dfe4e25161e932f8bcf",
+            "commitID": "cd649a7c6917c3ae2964c9b369ee157953e727c0",
             "configurations": [
                 {
                     "name": "common"
@@ -2370,7 +2305,7 @@
             "version": "1.0.4"
         },
         {
-            "commitID": "d76e1ea813a1e4c06d2bed44a73f1ed5d908c273",
+            "commitID": "cd649a7c6917c3ae2964c9b369ee157953e727c0",
             "configurations": [
                 {
                     "name": "common"
@@ -2394,6 +2329,794 @@
             },
             "name": "mir-ion",
             "version": "1.0.5"
+        },
+        {
+            "commitID": "cd649a7c6917c3ae2964c9b369ee157953e727c0",
+            "configurations": [
+                {
+                    "name": "common"
+                },
+                {
+                    "name": "bloomberg"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.11.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.6"
+        },
+        {
+            "commitID": "b5e46bebef38434b9e5b5c23ed61d8eea42fb20b",
+            "configurations": [
+                {
+                    "name": "common"
+                },
+                {
+                    "name": "bloomberg"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.11.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.7"
+        },
+        {
+            "commitID": "2e981130b6a8b72820fae97aecebf8e2c0ea2b70",
+            "configurations": [
+                {
+                    "name": "common"
+                },
+                {
+                    "name": "bloomberg"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.11.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.8"
+        },
+        {
+            "commitID": "7ddb0e689f071cb7b822e2018a3ff2f23ff6b5e4",
+            "configurations": [
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.11.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.9"
+        },
+        {
+            "commitID": "69213450de6261f03f3e1606ca8976b476036f06",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.11.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.10"
+        },
+        {
+            "commitID": "33a4d97087d7f375b0266f3e06f9d41dec33c709",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.11.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.11"
+        },
+        {
+            "commitID": "1481817ae7d5a1fa480a915c8efb722abae0ecdf",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.11.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.12"
+        },
+        {
+            "commitID": "b1852aef5379497c4024a51600f7d22b5f08e453",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.11.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.13"
+        },
+        {
+            "commitID": "5b3439eb2aec5b490caf72019c638375838e4965",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.3",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.14"
+        },
+        {
+            "commitID": "5b3439eb2aec5b490caf72019c638375838e4965",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.3",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.15"
+        },
+        {
+            "commitID": "f2a8ba73325212d6627130602c300e52ec2ce6cb",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.3",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.16"
+        },
+        {
+            "commitID": "205bf043097f8622613b57a679d2c68c37a667d4",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.17"
+        },
+        {
+            "commitID": "e2b6cda10bb361556155b19d89487465a74c65a2",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.18"
+        },
+        {
+            "commitID": "77d5cfb73042a3b6cc5f1434a081d68b2eb426b5",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.19"
+        },
+        {
+            "commitID": "5d37ca1eb3010b414cad398ee3c2b62366c1ea53",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.20"
+        },
+        {
+            "commitID": "f23d7c4c284e97e200db8f02ffbf2e5e9c303cfc",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.21"
+        },
+        {
+            "commitID": "bff09072c6b4bff70e4dfb3d205ab94c81c4072d",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.22"
+        },
+        {
+            "commitID": "dba6ee1c41ce8f00ee47b14e942b87504c6758ac",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.23"
+        },
+        {
+            "commitID": "5d2b74bc747a65864a9e32f84fdc1c98aea0501f",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.24"
+        },
+        {
+            "commitID": "b680090ce938e6797ce5645eb3237465655b3179",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.25"
+        },
+        {
+            "commitID": "b3efeecde5292113c33bb8c701edec2bc61af7ca",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.26"
+        },
+        {
+            "commitID": "f270ac6713e36ab842ce3c1b7d9913388b19eec7",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.27"
+        },
+        {
+            "commitID": "e32d462068f6030eff30efe6cb864f43373bd9aa",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.28"
+        },
+        {
+            "commitID": "306f3adba5223f184b7117272a19c16593bf8685",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.29"
+        },
+        {
+            "commitID": "965265d5500b6f0798aa2216d800c3e8a7c86ac5",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.9",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.30"
+        },
+        {
+            "commitID": "504701c055e58560ecf0660d72260b385f8560cd",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.17",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.31"
+        },
+        {
+            "commitID": "be5ffa7d8f8b9871f4dc66e9fbbaac9e3ce9a858",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.17",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.32"
+        },
+        {
+            "commitID": "ec28d7e51d859896ef8ef923db6da5f3ed97bf9d",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.17",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.33"
+        },
+        {
+            "commitID": "2bd6f606fc59c5ee79f53990a816855f6d0f8c80",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.17",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.34"
+        },
+        {
+            "commitID": "a0f93a75986877f885395b0938bdbf7472c04f70",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.17",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.35"
+        },
+        {
+            "commitID": "902c425b15fb7d4fba5e6aec696b92127699d83d",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.17",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.36"
+        },
+        {
+            "commitID": "572ac4a4182dbfb31e9bb60ceebab38eead16067",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.17",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.37"
+        },
+        {
+            "commitID": "9874b931f4a74cc1788db2e141545dafed6ee48b",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.17",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.38"
+        },
+        {
+            "commitID": "934a1b8e40a0d7234f09fa0c9bb3f32a4d5c463c",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.17",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.39"
         }
     ]
 }

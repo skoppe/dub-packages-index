@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "be34e8224fb00d6a4cf26eab31529dca3b37ac3a",
+    "commitID": "44ed6064402d8ec02ca2ee69fe870c26e21aef30",
     "dateAdded": "2021-09-06T10:43:24",
     "description": "An RPC library",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "be34e8224fb00d6a4cf26eab31529dca3b37ac3a",
+            "commitID": "0b539f20d1f5015fd0cade9129bc98ff67c6bd78",
             "configurations": [
                 {
                     "name": "default"
@@ -28,13 +28,36 @@
             ],
             "dependencies": {
                 "autointf": "~>1.2.0",
-                "vibe-d:core": ">=0.0.0",
+                "vibe-core": ">=0.0.0",
                 "vibe-d:data": ">=0.0.0",
                 "vibe-d:http": ">=0.0.0",
                 "vibe-d:utils": ">=0.0.0"
             },
             "name": "tynukrpc",
             "version": "~master"
+        },
+        {
+            "commitID": "44ed6064402d8ec02ca2ee69fe870c26e21aef30",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "autointf": "~>1.2.0",
+                "vibe-core": ">=0.0.0",
+                "vibe-d:data": ">=0.0.0",
+                "vibe-d:http": ">=0.0.0",
+                "vibe-d:utils": ">=0.0.0"
+            },
+            "name": "tynukrpc",
+            "version": "1.2.0"
         }
     ]
 }

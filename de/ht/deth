@@ -1,22 +1,29 @@
 {
-    "categories": [],
-    "commitID": "adc4af9896c278245e487a4536aa4352081e4595",
+    "categories": [
+        "library.web.framework",
+        "application.web.development"
+    ],
+    "commitID": "61ebfe3b8124db6b7f704b354c0508a57ebf1f93",
     "dateAdded": "2021-08-30T15:58:53",
-    "description": "Etherium stuff for D",
+    "description": "Ethereum stuff for D",
     "documentationURL": "",
     "id": "612ce41da33a2f9463ee7ae3",
     "name": "deth",
     "owner": "612c7ea9a33a2f9463ee169f",
     "repository": {
         "kind": "gitlab",
-        "owner": "Tynukua",
+        "owner": "d-eth",
         "project": "deth"
     },
     "versions": [
         {
-            "commitID": "adc4af9896c278245e487a4536aa4352081e4595",
+            "commitID": "f2337703a7fdecddf468b0dcfc2a37368c53f590",
             "dependencies": {
-                "tynukrpc": ">=0.0.0"
+                "secp256k1": "2.1.0",
+                "silly": "~>1.1.1",
+                "structjson": "~>2.98.1",
+                "tynukrpc": "~>1.2.0",
+                "vibe-d:tls": ">=0.0.0"
             },
             "name": "deth",
             "subPackages": [
@@ -28,6 +35,46 @@
                         }
                     },
                     "name": "devtest"
+                },
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "dummydefi"
+                }
+            ],
+            "version": "~test-docker-file"
+        },
+        {
+            "commitID": "577f0aabfce12e9b77f9a0d14aea9907f4654bb2",
+            "dependencies": {
+                "secp256k1": "2.1.0",
+                "silly": "~>1.1.1",
+                "structjson": "~>2.98.1",
+                "tynukrpc": "~>1.2.0"
+            },
+            "name": "deth",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devtest"
+                },
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "dummydefi"
                 }
             ],
             "version": "~master"
@@ -105,6 +152,57 @@
                 }
             ],
             "version": "0.0.4-alpha"
+        },
+        {
+            "commitID": "39d954d2070a9d8f58b9dcc76e24aebf389ac301",
+            "dependencies": {
+                "secp256k1": "0.0.13",
+                "structjson": "~>2.98.1",
+                "tynukrpc": "1.2.0"
+            },
+            "name": "deth",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devtest"
+                }
+            ],
+            "version": "0.0.5-alpha"
+        },
+        {
+            "commitID": "61ebfe3b8124db6b7f704b354c0508a57ebf1f93",
+            "dependencies": {
+                "secp256k1": "2.1.0",
+                "structjson": "~>2.98.1",
+                "tynukrpc": "~>1.2.0"
+            },
+            "name": "deth",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devtest"
+                },
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "dummydefi"
+                }
+            ],
+            "version": "0.0.6-alpha"
         }
     ]
 }

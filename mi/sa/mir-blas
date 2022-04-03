@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.optimized_mem"
     ],
-    "commitID": "d0a71918132d3968c2dcac113a7098629b2829e1",
+    "commitID": "6322a1a9a8d5c8b45d8d07b4c656c7f5f844ad56",
     "dateAdded": "2017-05-26T15:58:38",
     "description": "ndslice wrapper for BLAS",
     "documentationURL": "http:\/\/mir-blas.libmir.org\/",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "0b0ec5aa34978fab09cf226b7ca0c9458a1d00d8",
+            "commitID": "6322a1a9a8d5c8b45d8d07b4c656c7f5f844ad56",
             "configurations": [
                 {
                     "name": "library"
@@ -1275,6 +1275,59 @@
             },
             "name": "mir-blas",
             "version": "1.1.13"
+        },
+        {
+            "commitID": "6322a1a9a8d5c8b45d8d07b4c656c7f5f844ad56",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "openblas"
+                },
+                {
+                    "name": "blas"
+                },
+                {
+                    "name": "cblas"
+                },
+                {
+                    "name": "twolib"
+                },
+                {
+                    "name": "zerolib"
+                },
+                {
+                    "name": "mkl-sequential"
+                },
+                {
+                    "name": "mkl-sequential-ilp"
+                },
+                {
+                    "name": "mkl-tbb-thread"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp"
+                },
+                {
+                    "name": "mkl-sequential-dll"
+                },
+                {
+                    "name": "mkl-sequential-ilp-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-dll"
+                },
+                {
+                    "name": "mkl-tbb-thread-ilp-dll"
+                }
+            ],
+            "dependencies": {
+                "cblas": ">=2.0.4",
+                "mir-algorithm": ">=2.0.0-beta2 <4.0.0"
+            },
+            "name": "mir-blas",
+            "version": "1.1.14"
         }
     ]
 }

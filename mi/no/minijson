@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "477d53c7bd676716878e9407ab5f692e3d5ddfad",
+    "commitID": "79fc1fa0e859bb1e85b8d0dccce736604a299aaf",
     "dateAdded": "2021-08-23T06:39:40",
     "description": "Minify JSON files",
     "documentationURL": "",
@@ -25,6 +25,30 @@
             ],
             "name": "minijson",
             "version": "~as-jsonminify"
+        },
+        {
+            "commitID": "b770b3eb4491ae6eafc78e2efba76070375174e5",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "benchmark"
+                }
+            ],
+            "dependencies": {
+                "automem": "~>0.6.6",
+                "bc-string": "1.2.2",
+                "despacer": {
+                    "path": ".\/src\/native\/despacer\/bindings\/d",
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "minijson",
+            "version": "~bc-string"
         },
         {
             "commitID": "ce4f73628351ccf417840da7144dd3787d6aab0d",
@@ -59,7 +83,7 @@
             "version": "~napi"
         },
         {
-            "commitID": "efc682e37963bc071bca92c9a25eafd08e4fa3ab",
+            "commitID": "79fc1fa0e859bb1e85b8d0dccce736604a299aaf",
             "configurations": [
                 {
                     "name": "executable"
@@ -72,7 +96,7 @@
                 }
             ],
             "dependencies": {
-                "automem": "~>0.6.6",
+                "automem": "0.6.7",
                 "despacer": {
                     "path": ".\/src\/native\/despacer\/bindings\/d",
                     "version": ">=0.0.0"
@@ -245,6 +269,52 @@
             },
             "name": "minijson",
             "version": "0.6.0"
+        },
+        {
+            "commitID": "05362425808a4bd2630f32eb90beaf7bbc0a3e4b",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "benchmark"
+                }
+            ],
+            "dependencies": {
+                "automem": "0.6.7",
+                "despacer": {
+                    "path": ".\/src\/native\/despacer\/bindings\/d",
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "minijson",
+            "version": "0.6.1"
+        },
+        {
+            "commitID": "79fc1fa0e859bb1e85b8d0dccce736604a299aaf",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "benchmark"
+                }
+            ],
+            "dependencies": {
+                "automem": "0.6.7",
+                "despacer": {
+                    "path": ".\/src\/native\/despacer\/bindings\/d",
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "minijson",
+            "version": "0.6.2"
         }
     ]
 }

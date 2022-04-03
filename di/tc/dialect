@@ -2,7 +2,7 @@
     "categories": [
         "library.network"
     ],
-    "commitID": "277836412a8f3218cd28eb2e59567ea7273b2425",
+    "commitID": "156d38f86f6d4ef075a7fb3e8666ab277935bc70",
     "dateAdded": "2019-09-07T23:24:24",
     "description": "IRC parsing library",
     "documentationURL": "http:\/\/dialect.dpldocs.info",
@@ -128,7 +128,7 @@
             "version": "~v1.0"
         },
         {
-            "commitID": "277836412a8f3218cd28eb2e59567ea7273b2425",
+            "commitID": "156d38f86f6d4ef075a7fb3e8666ab277935bc70",
             "configurations": [
                 {
                     "name": "library"
@@ -843,6 +843,66 @@
                 }
             ],
             "version": "1.2.0"
+        },
+        {
+            "commitID": "183ecba2fc079101de9ce3dc76da8a199652daf2",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.1.1"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.1.1"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "1.2.1"
+        },
+        {
+            "commitID": "156d38f86f6d4ef075a7fb3e8666ab277935bc70",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.1.1"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.1.1"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "1.2.2"
         }
     ]
 }

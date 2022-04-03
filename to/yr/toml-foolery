@@ -2,7 +2,7 @@
     "categories": [
         "library.development.parsing"
     ],
-    "commitID": "53da8255ae934f443556172dd3c4c9a6bc8aec4b",
+    "commitID": "1dd1cc0eedd8e5803d5678ee7f648c71930081af",
     "dateAdded": "2020-04-21T13:44:10",
     "description": "Populates any given D struct with data read from a TOML string, and vice-versa.",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "53da8255ae934f443556172dd3c4c9a6bc8aec4b",
+            "commitID": "1dd1cc0eedd8e5803d5678ee7f648c71930081af",
             "configurations": [
                 {
                     "name": "library"
@@ -116,6 +116,33 @@
             },
             "name": "toml-foolery",
             "version": "2.0.0"
+        },
+        {
+            "commitID": "1dd1cc0eedd8e5803d5678ee7f648c71930081af",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "exceeds-expectations": "~>0.8.0",
+                        "silly": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "colorize": "~>1"
+                    },
+                    "name": "sample-test"
+                }
+            ],
+            "dependencies": {
+                "datefmt": "~>1.0.4",
+                "pegged": "~>0.4.4"
+            },
+            "name": "toml-foolery",
+            "version": "2.1.0"
         }
     ]
 }

@@ -2,7 +2,7 @@
     "categories": [
         "library.web.framework"
     ],
-    "commitID": "9678fb08004430ee7e9bf7dc00270c3455afe6c3",
+    "commitID": "2ca36c24b7c617d0cd8ae53b765dbd37abe7a595",
     "dateAdded": "2018-08-28T10:19:12",
     "description": "A high performance full-stack Web framework.",
     "documentationURL": "",
@@ -91,11 +91,13 @@
             "version": "~v2.1.x"
         },
         {
-            "commitID": "68a7836db3ad257fc18455664b6ae56d50507bd8",
+            "commitID": "f1248f014d2351b94886b6216bd759937b6762fe",
             "dependencies": {
-                "hunt-cache": "~>0.6.5",
+                "hunt": "~>1.4.19",
+                "hunt-cache": "~>0.6.7",
                 "hunt-entity": "~>2.5.4",
                 "hunt-http": "~>0.4.3",
+                "hunt-redis": "~>1.1.6",
                 "hunt-stomp": "~>0.3.5"
             },
             "name": "hunt-framework",
@@ -132,22 +134,21 @@
             "version": "~v3.3-fix"
         },
         {
-            "commitID": "b4da6ebec0b86239d5a60b2e4458e87186dab124",
+            "commitID": "46a624bae7def6f480433739ca4a9959d80f578a",
             "dependencies": {
-                "hunt-amqp-client": ">=1.1.0-beta.2 <1.2.0-0",
-                "hunt-cache": "~>0.8.2",
-                "hunt-console": "~>0.2.0",
-                "hunt-entity": "~>2.6.30",
-                "hunt-http": "~>0.6.11",
-                "hunt-jwt": ">=0.2.0-beta.1 <0.3.0-0",
-                "hunt-shiro": "~>1.1.15",
-                "poodinis": "8.1.0-beta.2"
+                "hunt-cache": "~>0.10.0",
+                "hunt-console": "~>0.4.0",
+                "hunt-entity": "~>2.8.0",
+                "hunt-http": "~>0.8.0",
+                "hunt-jwt": ">=0.2.0-beta.4 <0.3.0-0",
+                "hunt-shiro": "~>1.3.0",
+                "poodinis": "~>8.1.0"
             },
             "name": "hunt-framework",
             "version": "~v3.3.x"
         },
         {
-            "commitID": "9678fb08004430ee7e9bf7dc00270c3455afe6c3",
+            "commitID": "f06465df1c551723e96b2bd94e8768fafa94f702",
             "dependencies": {
                 "grpc": ">=0.5.0-beta.1 <0.6.0-0",
                 "hunt-cache": "~>0.10.0",
@@ -258,6 +259,19 @@
             },
             "name": "hunt-framework",
             "version": "2.2.13"
+        },
+        {
+            "commitID": "f1248f014d2351b94886b6216bd759937b6762fe",
+            "dependencies": {
+                "hunt": "~>1.4.19",
+                "hunt-cache": "~>0.6.7",
+                "hunt-entity": "~>2.5.4",
+                "hunt-http": "~>0.4.3",
+                "hunt-redis": "~>1.1.6",
+                "hunt-stomp": "~>0.3.5"
+            },
+            "name": "hunt-framework",
+            "version": "2.2.14"
         },
         {
             "commitID": "d29e70ddc52a7da7d526e2ab08f2521bd4c3669c",
@@ -395,6 +409,62 @@
             "version": "3.3.30"
         },
         {
+            "commitID": "a6ce286309669c6892948a2a4485b39d1aef746f",
+            "dependencies": {
+                "hunt-cache": "~>0.10.0",
+                "hunt-console": "~>0.4.0",
+                "hunt-entity": "~>2.8.0",
+                "hunt-http": "~>0.8.0",
+                "hunt-jwt": ">=0.2.0-beta.4 <0.3.0-0",
+                "hunt-shiro": "~>1.3.0",
+                "poodinis": "~>8.1.0"
+            },
+            "name": "hunt-framework",
+            "version": "3.3.31-rc.1"
+        },
+        {
+            "commitID": "4f546285e09519c3119c228dbd09945479339384",
+            "dependencies": {
+                "hunt-cache": "~>0.10.0",
+                "hunt-console": "~>0.4.0",
+                "hunt-entity": "~>2.8.0",
+                "hunt-http": "~>0.8.0",
+                "hunt-jwt": ">=0.2.0-beta.4 <0.3.0-0",
+                "hunt-shiro": "~>1.3.0",
+                "poodinis": "~>8.1.0"
+            },
+            "name": "hunt-framework",
+            "version": "3.3.31-rc.2"
+        },
+        {
+            "commitID": "fe155d5a57ccb1ae76148a3486ea7c64668fc7af",
+            "dependencies": {
+                "hunt-cache": "~>0.10.0",
+                "hunt-console": "~>0.4.0",
+                "hunt-entity": "~>2.8.0",
+                "hunt-http": "~>0.8.0",
+                "hunt-jwt": ">=0.2.0-beta.4 <0.3.0-0",
+                "hunt-shiro": "~>1.3.0",
+                "poodinis": "~>8.1.0"
+            },
+            "name": "hunt-framework",
+            "version": "3.3.31-rc.3"
+        },
+        {
+            "commitID": "46a624bae7def6f480433739ca4a9959d80f578a",
+            "dependencies": {
+                "hunt-cache": "~>0.10.0",
+                "hunt-console": "~>0.4.0",
+                "hunt-entity": "~>2.8.0",
+                "hunt-http": "~>0.8.0",
+                "hunt-jwt": ">=0.2.0-beta.4 <0.3.0-0",
+                "hunt-shiro": "~>1.3.0",
+                "poodinis": "~>8.1.0"
+            },
+            "name": "hunt-framework",
+            "version": "3.3.31-rc.4"
+        },
+        {
             "commitID": "4d0bf3167ffa28dc785ba74f42bac065e25044bc",
             "dependencies": {
                 "grpc": ">=0.4.0-beta.1 <0.5.0-0",
@@ -425,22 +495,7 @@
             "version": "3.4.6-rc.1"
         },
         {
-            "commitID": "3622154fd82069a87719b37a9baa08941eebb5c8",
-            "dependencies": {
-                "grpc": ">=0.4.0-beta.1 <0.5.0-0",
-                "hunt-cache": "~>0.9.1",
-                "hunt-console": "~>0.3.0",
-                "hunt-entity": "~>2.7.0",
-                "hunt-http": "~>0.7.0",
-                "hunt-jwt": ">=0.2.0-beta.2 <0.3.0-0",
-                "hunt-shiro": "~>1.2.0",
-                "poodinis": "~>8.1.0"
-            },
-            "name": "hunt-framework",
-            "version": "3.4.6-rc.2"
-        },
-        {
-            "commitID": "35f7f237171ae481bc5f5e35b00cf55afa800e95",
+            "commitID": "2ca36c24b7c617d0cd8ae53b765dbd37abe7a595",
             "dependencies": {
                 "grpc": ">=0.5.0-beta.1 <0.6.0-0",
                 "hunt-cache": "~>0.10.0",
@@ -452,10 +507,10 @@
                 "poodinis": "~>8.1.0"
             },
             "name": "hunt-framework",
-            "version": "3.4.6-rc.4"
+            "version": "3.4.6-rc.6"
         },
         {
-            "commitID": "9678fb08004430ee7e9bf7dc00270c3455afe6c3",
+            "commitID": "2ca36c24b7c617d0cd8ae53b765dbd37abe7a595",
             "dependencies": {
                 "grpc": ">=0.5.0-beta.1 <0.6.0-0",
                 "hunt-cache": "~>0.10.0",
@@ -467,7 +522,7 @@
                 "poodinis": "~>8.1.0"
             },
             "name": "hunt-framework",
-            "version": "3.4.6-rc.5"
+            "version": "3.4.6"
         }
     ]
 }

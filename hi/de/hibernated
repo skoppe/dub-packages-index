@@ -2,13 +2,13 @@
     "categories": [
         "library.data"
     ],
-    "commitID": "8575f50d40c8c7c537111eda56b5f41ffaac0be0",
+    "commitID": "4375a13158c2086c621d9bc7bcb9a238cbabf5f6",
     "dateAdded": "2013-04-17T11:37:09",
     "description": "ORM for D language, similar to Hibernate",
     "documentationURL": "",
     "id": "516e6d45a8d210f967000640",
     "name": "hibernated",
-    "owner": "516e3593a8d210f967000495",
+    "owner": "5954f26f2189c363417f6574",
     "repository": {
         "kind": "github",
         "owner": "buggins",
@@ -16,7 +16,38 @@
     },
     "versions": [
         {
-            "commitID": "8575f50d40c8c7c537111eda56b5f41ffaac0be0",
+            "commitID": "640a11aee4b9c2bb1f2d6ae9c2fee573259bb769",
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "test"
+                },
+                {
+                    "name": "mysql"
+                },
+                {
+                    "name": "sqlite"
+                },
+                {
+                    "name": "postgres"
+                },
+                {
+                    "name": "oracle"
+                },
+                {
+                    "name": "mssql"
+                }
+            ],
+            "dependencies": {
+                "ddbc": "~>0.5.2"
+            },
+            "name": "hibernated",
+            "version": "~feature\/odbc"
+        },
+        {
+            "commitID": "782044c4540b14135824c912555ed5f1f37e18b5",
             "configurations": [
                 {
                     "name": "full"
@@ -32,7 +63,7 @@
                 }
             ],
             "dependencies": {
-                "ddbc": "~>0.5.1"
+                "ddbc": "~>0.5.4"
             },
             "name": "hibernated",
             "version": "~master"
@@ -738,6 +769,28 @@
             },
             "name": "hibernated",
             "version": "0.3.6"
+        },
+        {
+            "commitID": "4375a13158c2086c621d9bc7bcb9a238cbabf5f6",
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "MySQL"
+                },
+                {
+                    "name": "SQLite"
+                },
+                {
+                    "name": "PGSQL"
+                }
+            ],
+            "dependencies": {
+                "ddbc": "~>0.5.4"
+            },
+            "name": "hibernated",
+            "version": "0.3.7"
         }
     ]
 }

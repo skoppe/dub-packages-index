@@ -3,7 +3,7 @@
         "library.database",
         "library.vibed"
     ],
-    "commitID": "5416c2227828696b40e1176db9ef619474ab36a7",
+    "commitID": "c6b4d8d140a288b1e8d3a6ccde9210689ce31f14",
     "dateAdded": "2012-05-19T20:39:43",
     "description": "A native MySQL driver implementation based on Steve Teale's original",
     "documentationURL": "",
@@ -185,6 +185,65 @@
             "version": "~fix-travis"
         },
         {
+            "commitID": "5416c2227828696b40e1176db9ef619474ab36a7",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "vibe-core": {
+                    "optional": true,
+                    "version": ">=1.16.0"
+                }
+            },
+            "name": "mysql-native",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "mysql-native": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded": "~>1.0.15"
+                    },
+                    "name": "integration-tests"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native:integration-tests": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "vibe-core": ">=1.16.0"
+                    },
+                    "name": "integration-tests-vibe"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native:integration-tests": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration-tests-phobos"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "testconn"
+                }
+            ],
+            "version": "~gh-pages"
+        },
+        {
             "commitID": "c661d1482d153c36cfc559140c4107d92dd08f01",
             "configurations": [
                 {
@@ -318,60 +377,6 @@
             "version": "~redesign-prepared"
         },
         {
-            "commitID": "b8361148f821b4307af987b0b98f824ee45ba21f",
-            "configurations": [
-                {
-                    "name": "application"
-                },
-                {
-                    "name": "library"
-                }
-            ],
-            "dependencies": {
-                "vibe-d:core": {
-                    "optional": true,
-                    "version": "~>0.7.28"
-                }
-            },
-            "name": "mysql-native",
-            "version": "~s-ludwig-patch-1"
-        },
-        {
-            "commitID": "873c08ee900ed247bcd6c3b62cfc3b01f7c12747",
-            "configurations": [
-                {
-                    "name": "application"
-                },
-                {
-                    "name": "library"
-                },
-                {
-                    "name": "unittest"
-                },
-                {
-                    "dependencies": {
-                        "vibe-core": "~>1"
-                    },
-                    "name": "unittest-vibe"
-                },
-                {
-                    "dependencies": {
-                        "unit-threaded": "~>0.7.45",
-                        "vibe-core": "~>1"
-                    },
-                    "name": "unittest-vibe-ut"
-                }
-            ],
-            "dependencies": {
-                "vibe-core": {
-                    "optional": true,
-                    "version": "~>1"
-                }
-            },
-            "name": "mysql-native",
-            "version": "~test-older-vibecore"
-        },
-        {
             "commitID": "9b5911b31f3272976f01792f12c5fc86d29ea5d5",
             "configurations": [
                 {
@@ -470,7 +475,7 @@
             "version": "~v2.1.x"
         },
         {
-            "commitID": "5416c2227828696b40e1176db9ef619474ab36a7",
+            "commitID": "c6b4d8d140a288b1e8d3a6ccde9210689ce31f14",
             "configurations": [
                 {
                     "name": "library"
@@ -517,6 +522,17 @@
                     "name": "integration-tests-phobos"
                 },
                 {
+                    "configurations": [
+                        {
+                            "name": "application"
+                        },
+                        {
+                            "dependencies": {
+                                "vibe-core": ">=1.16.0"
+                            },
+                            "name": "connpool"
+                        }
+                    ],
                     "dependencies": {
                         "mysql-native": {
                             "path": "..\/",
@@ -1812,6 +1828,76 @@
                 }
             ],
             "version": "3.0.3"
+        },
+        {
+            "commitID": "c6b4d8d140a288b1e8d3a6ccde9210689ce31f14",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "vibe-core": {
+                    "optional": true,
+                    "version": ">=1.16.0"
+                }
+            },
+            "name": "mysql-native",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "mysql-native": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "unit-threaded": "~>1.0.15"
+                    },
+                    "name": "integration-tests"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native:integration-tests": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        },
+                        "vibe-core": ">=1.16.0"
+                    },
+                    "name": "integration-tests-vibe"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native:integration-tests": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "integration-tests-phobos"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "application"
+                        },
+                        {
+                            "dependencies": {
+                                "vibe-core": ">=1.16.0"
+                            },
+                            "name": "connpool"
+                        }
+                    ],
+                    "dependencies": {
+                        "mysql-native": {
+                            "path": "..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "testconn"
+                }
+            ],
+            "version": "3.1.0"
         }
     ]
 }

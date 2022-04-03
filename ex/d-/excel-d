@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "c31bd25e9d18351b9a6106bdf1a569c3f7c4611a",
+    "commitID": "0fc864c050381dc8aae01946f9a4f36fb82118ab",
     "dateAdded": "2017-03-20T20:50:57",
     "description": "Excel bindings for D",
     "documentationURL": "",
@@ -125,7 +125,7 @@
             "version": "~gh-pages"
         },
         {
-            "commitID": "c31bd25e9d18351b9a6106bdf1a569c3f7c4611a",
+            "commitID": "0fc864c050381dc8aae01946f9a4f36fb82118ab",
             "configurations": [
                 {
                     "name": "default"
@@ -1584,6 +1584,32 @@
             },
             "name": "excel-d",
             "version": "0.5.10"
+        },
+        {
+            "commitID": "0fc864c050381dc8aae01946f9a4f36fb82118ab",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "testLibrary"
+                },
+                {
+                    "dependencies": {
+                        "automem": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "nogc": "~>0.5.0"
+            },
+            "name": "excel-d",
+            "version": "0.5.11"
         }
     ]
 }
