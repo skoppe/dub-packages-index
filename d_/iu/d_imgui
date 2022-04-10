@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "956087a520626c76941e0dad36363a9d2265534b",
+    "commitID": "93dc0dcd5ea8675b8de4af151e1f4e7d3f9b6e03",
     "dateAdded": "2020-06-14T22:37:19",
     "description": "Port of Dear Imgui: Bloat-free Immediate Mode Graphical User interface with minimal dependencies",
     "documentationURL": "https:\/\/github.com\/KytoDragon\/imgui",
@@ -76,6 +76,84 @@
             },
             "name": "d_imgui",
             "version": "1.83.0-beta2"
+        },
+        {
+            "commitID": "f74b9be0fc32f711c2865165b085c3f4812b2598",
+            "dependencies": {
+                "d_snprintf": "~>1.1.1"
+            },
+            "name": "d_imgui",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "d_snprintf": "~>1.1.1",
+                        "erupted": "~>2.1"
+                    },
+                    "name": "glfw_vulkan"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "bindbc-opengl": "~>1.0.0",
+                        "d_snprintf": "~>1.1.1"
+                    },
+                    "name": "glfw_opengl3"
+                }
+            ],
+            "version": "1.84.2-beta1"
+        },
+        {
+            "commitID": "5a07132104dd8bdabb4255bd7c74ad21553582c1",
+            "dependencies": {
+                "d_snprintf": "~>1.1.1"
+            },
+            "name": "d_imgui",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "d_snprintf": "~>1.1.1",
+                        "erupted": "~>2.1"
+                    },
+                    "name": "glfw_vulkan"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "bindbc-opengl": "~>1.0.0",
+                        "d_snprintf": "~>1.1.1"
+                    },
+                    "name": "glfw_opengl3"
+                }
+            ],
+            "version": "1.85.0-beta1"
+        },
+        {
+            "commitID": "93dc0dcd5ea8675b8de4af151e1f4e7d3f9b6e03",
+            "dependencies": {
+                "d_snprintf": "~>1.1.1"
+            },
+            "name": "d_imgui",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "d_snprintf": "~>1.1.1",
+                        "erupted": "~>2.1"
+                    },
+                    "name": "glfw_vulkan"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "bindbc-opengl": "~>1.0.0",
+                        "d_snprintf": "~>1.1.1"
+                    },
+                    "name": "glfw_opengl3"
+                }
+            ],
+            "version": "1.86.0-beta1"
         }
     ]
 }
