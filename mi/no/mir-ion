@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.nogc"
     ],
-    "commitID": "934a1b8e40a0d7234f09fa0c9bb3f32a4d5c463c",
+    "commitID": "cf34c360a44307593933ab2fbaa9efdb516c1e18",
     "dateAdded": "2020-10-04T11:03:23",
     "description": "Fast, Expressive, and Easy to use Ion, JSON, Msgpack Serialization Library with optional SIMD Optimization.",
     "documentationURL": "http:\/\/mir-ion.libmir.org\/",
@@ -62,7 +62,7 @@
             "version": "~script"
         },
         {
-            "commitID": "934a1b8e40a0d7234f09fa0c9bb3f32a4d5c463c",
+            "commitID": "cf34c360a44307593933ab2fbaa9efdb516c1e18",
             "configurations": [
                 {
                     "name": "library"
@@ -3117,6 +3117,29 @@
             },
             "name": "mir-ion",
             "version": "1.0.39"
+        },
+        {
+            "commitID": "cf34c360a44307593933ab2fbaa9efdb516c1e18",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "asan-unittest"
+                },
+                {
+                    "name": "parser-test"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.12.17",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.40"
         }
     ]
 }
