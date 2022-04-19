@@ -3,7 +3,7 @@
         "library.binding",
         "library.gamedev"
     ],
-    "commitID": "9da177524ee2b013b31f4bbcf10541e1a2548e3b",
+    "commitID": "dd093c7600ff7559539cb8ccfd361fdae1db34f9",
     "dateAdded": "2018-10-18T17:24:47",
     "description": "Dynamic and static bindings to GLFW3, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "9da177524ee2b013b31f4bbcf10541e1a2548e3b",
+            "commitID": "dd093c7600ff7559539cb8ccfd361fdae1db34f9",
             "configurations": [
                 {
                     "dependencies": {
@@ -465,6 +465,31 @@
             ],
             "name": "bindbc-glfw",
             "version": "1.0.0"
+        },
+        {
+            "commitID": "dd093c7600ff7559539cb8ccfd361fdae1db34f9",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-glfw",
+            "version": "1.0.1"
         }
     ]
 }
