@@ -5,7 +5,7 @@
         "library.nogc",
         "library.general"
     ],
-    "commitID": "ff359f0008e0dacbb46c3c76393073e24cd554d2",
+    "commitID": "8056fcbb584f4606d6a4e6f6d7c8149d40ac5eb8",
     "dateAdded": "2022-01-24T17:37:13",
     "description": "Basic Template Library",
     "documentationURL": "https:\/\/submada.github.io\/btl\/",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "ff359f0008e0dacbb46c3c76393073e24cd554d2",
+            "commitID": "8056fcbb584f4606d6a4e6f6d7c8149d40ac5eb8",
             "dependencies": {
                 "btl:autoptr": ">=0.0.0",
                 "btl:list": ">=0.0.0",
@@ -386,6 +386,63 @@
                 }
             ],
             "version": "1.0.0-rc.7"
+        },
+        {
+            "commitID": "8056fcbb584f4606d6a4e6f6d7c8149d40ac5eb8",
+            "dependencies": {
+                "btl:autoptr": ">=0.0.0",
+                "btl:list": ">=0.0.0",
+                "btl:string": ">=0.0.0",
+                "btl:vector": ">=0.0.0"
+            },
+            "name": "btl",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "autoptr"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "string"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "vector"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "list"
+                }
+            ],
+            "version": "1.0.0-rc.8"
         }
     ]
 }
