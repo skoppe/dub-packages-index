@@ -5,7 +5,7 @@
         "library.generic",
         "library.encoding"
     ],
-    "commitID": "cd2b75560b089beaaf757011d308894dbe44dc93",
+    "commitID": "ac296f80cda437483b743f953dc69cb1271c82df",
     "dateAdded": "2018-06-24T22:06:58",
     "description": "D Standard Library",
     "documentationURL": "https:\/\/dlang.org\/phobos",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "09b71879289ea30554d9ea38c858c28886c306a6",
+            "commitID": "a8cd46e149a64b1deed2bcec8b0b5fd858aeef0b",
             "name": "phobos",
             "subPackages": [
                 {
@@ -35,86 +35,10 @@
                     "name": "allocator"
                 }
             ],
-            "version": "~9il-patch-1"
+            "version": "~revert-8096-fix-pure-scope-string"
         },
         {
-            "commitID": "7f12312893a96ca3b60c1eeccdf54fc14afc28e5",
-            "name": "phobos",
-            "subPackages": [
-                {
-                    "name": "checkedint"
-                },
-                {
-                    "name": "allocator-generator"
-                },
-                {
-                    "dependencies": {
-                        "phobos:allocator-generator": ">=0.0.0"
-                    },
-                    "name": "allocator"
-                }
-            ],
-            "version": "~andralex-patch-1"
-        },
-        {
-            "commitID": "2b7decde093bfcbbf7cea7537fd2457642c0af64",
-            "name": "phobos",
-            "subPackages": [
-                {
-                    "name": "checkedint"
-                },
-                {
-                    "name": "allocator-generator"
-                },
-                {
-                    "dependencies": {
-                        "phobos:allocator-generator": ">=0.0.0"
-                    },
-                    "name": "allocator"
-                }
-            ],
-            "version": "~revert-6346-18657"
-        },
-        {
-            "commitID": "0a45323f6f9127e2702b7170a7d4df11f4470966",
-            "name": "phobos",
-            "subPackages": [
-                {
-                    "name": "checkedint"
-                },
-                {
-                    "name": "allocator-generator"
-                },
-                {
-                    "dependencies": {
-                        "phobos:allocator-generator": ">=0.0.0"
-                    },
-                    "name": "allocator"
-                }
-            ],
-            "version": "~revert-6539-getTimesPosix"
-        },
-        {
-            "commitID": "71811dc1b458ce708f01b10e9fe042d62a84975b",
-            "name": "phobos",
-            "subPackages": [
-                {
-                    "name": "checkedint"
-                },
-                {
-                    "name": "allocator-generator"
-                },
-                {
-                    "dependencies": {
-                        "phobos:allocator-generator": ">=0.0.0"
-                    },
-                    "name": "allocator"
-                }
-            ],
-            "version": "~revert-6935-18657-2"
-        },
-        {
-            "commitID": "f0e03bf60d882e5f3a914132533fd618ad274ae1",
+            "commitID": "ac296f80cda437483b743f953dc69cb1271c82df",
             "name": "phobos",
             "subPackages": [
                 {
@@ -133,26 +57,7 @@
             "version": "~stable"
         },
         {
-            "commitID": "46e0074f0356bef8e21d8660c228a256d20934ea",
-            "name": "phobos",
-            "subPackages": [
-                {
-                    "name": "checkedint"
-                },
-                {
-                    "name": "allocator-generator"
-                },
-                {
-                    "dependencies": {
-                        "phobos:allocator-generator": ">=0.0.0"
-                    },
-                    "name": "allocator"
-                }
-            ],
-            "version": "~thewilsonator-patch-1"
-        },
-        {
-            "commitID": "cd2b75560b089beaaf757011d308894dbe44dc93",
+            "commitID": "d2c3da6d504d91d89f7e47e510b3569dede72b9a",
             "name": "phobos",
             "subPackages": [
                 {
@@ -169,6 +74,25 @@
                 }
             ],
             "version": "~master"
+        },
+        {
+            "commitID": "ac296f80cda437483b743f953dc69cb1271c82df",
+            "name": "phobos",
+            "subPackages": [
+                {
+                    "name": "checkedint"
+                },
+                {
+                    "name": "allocator-generator"
+                },
+                {
+                    "dependencies": {
+                        "phobos:allocator-generator": ">=0.0.0"
+                    },
+                    "name": "allocator"
+                }
+            ],
+            "version": "2.100.0-beta.1"
         }
     ]
 }
