@@ -3,7 +3,7 @@
         "library.network",
         "library.web.communication"
     ],
-    "commitID": "80cef928eda44a61c2bd575c989116bb2061f7c4",
+    "commitID": "db9b2b28f20c9c8d2a40858ae2acabd2c1222dee",
     "dateAdded": "2016-04-16T23:18:11",
     "description": "http\/ftp client library, inspired by python-requests",
     "documentationURL": "",
@@ -92,7 +92,7 @@
             "version": "~vibeTask"
         },
         {
-            "commitID": "80cef928eda44a61c2bd575c989116bb2061f7c4",
+            "commitID": "db9b2b28f20c9c8d2a40858ae2acabd2c1222dee",
             "configurations": [
                 {
                     "name": "std"
@@ -1192,6 +1192,28 @@
                 }
             ],
             "version": "2.0.4"
+        },
+        {
+            "commitID": "db9b2b28f20c9c8d2a40858ae2acabd2c1222dee",
+            "configurations": [
+                {
+                    "name": "std"
+                }
+            ],
+            "dependencies": {
+                "cachetools": "~>0"
+            },
+            "name": "requests",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "cachetools": "~>0",
+                        "vibe-d": "~>0.8"
+                    },
+                    "name": "vibed"
+                }
+            ],
+            "version": "2.0.5"
         }
     ]
 }
