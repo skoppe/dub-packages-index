@@ -2,7 +2,7 @@
     "categories": [
         "library.gamedev"
     ],
-    "commitID": "0fb242592a050d6d3f0e6cc48c879927f35394cc",
+    "commitID": "7b0b9b6e86373fde6a1c50aed965b293fb558b73",
     "dateAdded": "2021-01-26T19:11:27",
     "description": "Tida is a library for creating 2D games, which is written with manual window creation and rendering using opengl and other tools for D games.",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "91cd8429472f861e26d7f53d7531a651a4b1404a",
+            "commitID": "7b0b9b6e86373fde6a1c50aed965b293fb558b73",
             "configurations": [
                 {
                     "dependencies": {
@@ -720,6 +720,119 @@
                 }
             ],
             "version": "0.1.2-b1"
+        },
+        {
+            "commitID": "7b0b9b6e86373fde6a1c50aed965b293fb558b73",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "x11": "~>1.0.21"
+                    },
+                    "name": "posix"
+                },
+                {
+                    "name": "windows"
+                },
+                {
+                    "dependencies": {
+                        "x11": "~>1.0.21"
+                    },
+                    "name": "posix-lib"
+                },
+                {
+                    "name": "windows-lib"
+                },
+                {
+                    "name": "unittest-windows"
+                },
+                {
+                    "dependencies": {
+                        "x11": "~>1.0.21"
+                    },
+                    "name": "unittest-posix"
+                }
+            ],
+            "dependencies": {
+                "bindbc-freetype": "~>1.0.2",
+                "bindbc-openal": "~>1.0.0",
+                "bindbc-opengl": "~>1.0.0",
+                "imagefmt": "~>2.1.2",
+                "mp3decoder": "~>1.0.0"
+            },
+            "name": "tida",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dxml": "~>0.4.3",
+                        "tida": ">=0.0.0",
+                        "zstd": "~>0.2.1"
+                    },
+                    "name": "tiled"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "puppet"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "animobj"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "ui"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplewindow"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplerender"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "simplegame"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0",
+                        "tida:tiled": ">=0.0.0"
+                    },
+                    "name": "simpletilemap"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "seabattle"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0",
+                        "tida:ui": ">=0.0.0"
+                    },
+                    "name": "simpleui"
+                },
+                {
+                    "dependencies": {
+                        "tida": ">=0.0.0"
+                    },
+                    "name": "init"
+                }
+            ],
+            "version": "0.1.3"
         }
     ]
 }
