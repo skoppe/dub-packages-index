@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.network"
     ],
-    "commitID": "9aecb7089014d45f2585a7c4ae7461cdefbae2b7",
+    "commitID": "5bdb08b586bb6716b94cb43583780c907984640d",
     "dateAdded": "2018-01-02T22:58:34",
     "description": "IRC bot",
     "documentationURL": "https:\/\/zorael.github.io\/kameloso\/kameloso.html",
@@ -935,7 +935,7 @@
             "version": "~next3"
         },
         {
-            "commitID": "b4a2c675a168c16225e4554e95190dd4d9e03ba0",
+            "commitID": "43ccfe0ca32469afe2af25f81a4e93513fcab208",
             "configurations": [
                 {
                     "name": "application"
@@ -966,16 +966,17 @@
                 }
             ],
             "dependencies": {
-                "arsd-official:dom": "~>10.7.0",
+                "arsd-official:dom": "~>10.8.2",
+                "arsd-official:http": "~>10.8.2",
                 "dialect": "~>1.2.0",
                 "lu": "~>1.1.3",
                 "requests": "~>2.0.0"
             },
             "name": "kameloso",
-            "version": "~onlinetests"
+            "version": "~next31"
         },
         {
-            "commitID": "9aecb7089014d45f2585a7c4ae7461cdefbae2b7",
+            "commitID": "5bdb08b586bb6716b94cb43583780c907984640d",
             "configurations": [
                 {
                     "name": "application"
@@ -1006,8 +1007,8 @@
                 }
             ],
             "dependencies": {
-                "arsd-official:dom": "~>10.8.0",
-                "arsd-official:http": "~>10.8.0",
+                "arsd-official:dom": "~>10.8.2",
+                "arsd-official:http": "~>10.8.2",
                 "dialect": "~>1.2.0",
                 "lu": "~>1.1.3",
                 "requests": "~>2.0.0"
@@ -3773,6 +3774,47 @@
             },
             "name": "kameloso",
             "version": "3.0.0-rc.5"
+        },
+        {
+            "commitID": "5bdb08b586bb6716b94cb43583780c907984640d",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "application-lowmem"
+                },
+                {
+                    "name": "lowmem"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitch-lowmem"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "dev-lowmem"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-lowmem"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:dom": "~>10.8.2",
+                "arsd-official:http": "~>10.8.2",
+                "dialect": "~>1.2.0",
+                "lu": "~>1.1.3",
+                "requests": "~>2.0.0"
+            },
+            "name": "kameloso",
+            "version": "3.0.0"
         }
     ]
 }
