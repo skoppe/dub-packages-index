@@ -4,7 +4,7 @@
         "application.desktop.development.analyzer",
         "application.desktop.development.compiler"
     ],
-    "commitID": "eb7bee331a13026eeb4dcbf9d43d5d4e744a4d26",
+    "commitID": "081d61e157f0064dc93c757d61cd998d3cb5288f",
     "dateAdded": "2017-07-17T22:04:25",
     "description": "The DMD compiler",
     "documentationURL": "",
@@ -71,7 +71,7 @@
             "version": "~newCTFE"
         },
         {
-            "commitID": "eb7bee331a13026eeb4dcbf9d43d5d4e744a4d26",
+            "commitID": "081d61e157f0064dc93c757d61cd998d3cb5288f",
             "dependencies": {
                 "dmd:frontend": ">=0.0.0"
             },
@@ -102,7 +102,7 @@
             "version": "~stable"
         },
         {
-            "commitID": "49d44fa88f49f7a56cb67efeb05574468081e666",
+            "commitID": "7b07f9164aa3f87b2358e4f1e13d3eeb12253a78",
             "dependencies": {
                 "dmd:frontend": ">=0.0.0"
             },
@@ -162,6 +162,37 @@
                 }
             ],
             "version": "2.100.0-beta.1"
+        },
+        {
+            "commitID": "081d61e157f0064dc93c757d61cd998d3cb5288f",
+            "dependencies": {
+                "dmd:frontend": ">=0.0.0"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": ">=0.0.0"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": ">=0.0.0"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": ">=0.0.0"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.100.0-rc.1"
         }
     ]
 }
