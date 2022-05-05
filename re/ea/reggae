@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.build"
     ],
-    "commitID": "113658315a88f528a1cdb398cfc4bd03f0c0c15d",
+    "commitID": "4ae5079c42fe4a42cd65f701ed8cd506f9e39510",
     "dateAdded": "2015-03-18T19:10:29",
     "description": "A build system in D",
     "documentationURL": "",
@@ -73,7 +73,7 @@
             "version": "~fix-97"
         },
         {
-            "commitID": "113658315a88f528a1cdb398cfc4bd03f0c0c15d",
+            "commitID": "b68321a856910d7c2c51001a0387f15a036d9ecd",
             "configurations": [
                 {
                     "name": "executable"
@@ -86,7 +86,45 @@
                 }
             ],
             "dependencies": {
-                "dub": "~>1.23.0"
+                "dub": "~>1.27.0"
+            },
+            "name": "reggae",
+            "version": "~update"
+        },
+        {
+            "commitID": "0ce33cf85f02745f152be2a6c13bcb9f90fb5b21",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dub": "~>1.27.0"
+            },
+            "name": "reggae",
+            "version": "~upgrade"
+        },
+        {
+            "commitID": "4ae5079c42fe4a42cd65f701ed8cd506f9e39510",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dub": ">=1.28.0-rc <1.29.0-0"
             },
             "name": "reggae",
             "version": "~master"
@@ -1044,6 +1082,25 @@
             },
             "name": "reggae",
             "version": "0.9.2"
+        },
+        {
+            "commitID": "4ae5079c42fe4a42cd65f701ed8cd506f9e39510",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dub": ">=1.28.0-rc <1.29.0-0"
+            },
+            "name": "reggae",
+            "version": "0.9.3"
         }
     ]
 }
