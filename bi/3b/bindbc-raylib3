@@ -3,7 +3,7 @@
         "library.gui",
         "library.binding"
     ],
-    "commitID": "d87dbb40c3c45f0ede5363bc5c767ed4b2ea1d26",
+    "commitID": "1729be133272c3510ba2c81f8e7d6566bac4b973",
     "dateAdded": "2021-11-02T23:41:43",
     "description": "Dynamic and static bindings to Raylib, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "4e645b35cd3439f67905df4164b73639092e8354",
+            "commitID": "1729be133272c3510ba2c81f8e7d6566bac4b973",
             "configurations": [
                 {
                     "dependencies": {
@@ -190,6 +190,31 @@
             ],
             "name": "bindbc-raylib3",
             "version": "0.5.1"
+        },
+        {
+            "commitID": "1729be133272c3510ba2c81f8e7d6566bac4b973",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-raylib3",
+            "version": "0.6.0"
         }
     ]
 }
