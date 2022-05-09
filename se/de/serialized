@@ -3,7 +3,7 @@
         "library.encoding",
         "library.generic"
     ],
-    "commitID": "e29e718aabbbe24919569dd27f00f28e1d79fa35",
+    "commitID": "953856f277af6c2d7b366b1dbcd1cfef43bc49ec",
     "dateAdded": "2020-07-27T14:37:08",
     "description": "D XML\/JSON serialization code generator based on boilerplate",
     "documentationURL": "",
@@ -59,7 +59,7 @@
             "version": "~fix\/include-std-data-json"
         },
         {
-            "commitID": "e29e718aabbbe24919569dd27f00f28e1d79fa35",
+            "commitID": "953856f277af6c2d7b366b1dbcd1cfef43bc49ec",
             "configurations": [
                 {
                     "name": "library"
@@ -755,6 +755,28 @@
             },
             "name": "serialized",
             "version": "1.5.0"
+        },
+        {
+            "commitID": "953856f277af6c2d7b366b1dbcd1cfef43bc49ec",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "<2.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "boilerplate": ">=1.7.4",
+                "dshould": ">=1.2.1",
+                "dxml": ">=0.4.1",
+                "prettyprint": ">=1.0.5"
+            },
+            "name": "serialized",
+            "version": "1.5.1"
         }
     ]
 }
