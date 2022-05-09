@@ -2,7 +2,7 @@
     "categories": [
         "library.database"
     ],
-    "commitID": "474ef7d6479dad971d60c199d0e215cb4b300710",
+    "commitID": "9085a442af25a356d71a009e0adc08fad1b54cb0",
     "dateAdded": "2013-09-14T10:32:29",
     "description": "Medium-level binding to the PostgreSQL database",
     "documentationURL": "",
@@ -593,6 +593,53 @@
             "version": "~query_gen"
         },
         {
+            "commitID": "6ba2027ba18df0c4610e6fe47e8156027aca8077",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": ">=0.0.0",
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": ">=0.0.0"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~readme_imp"
+        },
+        {
             "commitID": "afc1d2bf498acf7236ae75039a562d0b2894ed47",
             "configurations": [
                 {
@@ -803,7 +850,7 @@
             "version": "~warning_fix"
         },
         {
-            "commitID": "bc7a271909b00e0da672d064211d4a4af5e5e171",
+            "commitID": "9085a442af25a356d71a009e0adc08fad1b54cb0",
             "configurations": [
                 {
                     "name": "static"
@@ -4682,6 +4729,53 @@
                 }
             ],
             "version": "1.1.0-rc"
+        },
+        {
+            "commitID": "9085a442af25a356d71a009e0adc08fad1b54cb0",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": ">=0.0.0",
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": ">=0.0.0"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.1.0"
         }
     ]
 }
