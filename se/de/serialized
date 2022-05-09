@@ -3,7 +3,7 @@
         "library.encoding",
         "library.generic"
     ],
-    "commitID": "64147c9b87c83975af983bb54b16cfbef8bf91c7",
+    "commitID": "e29e718aabbbe24919569dd27f00f28e1d79fa35",
     "dateAdded": "2020-07-27T14:37:08",
     "description": "D XML\/JSON serialization code generator based on boilerplate",
     "documentationURL": "",
@@ -59,12 +59,15 @@
             "version": "~fix\/include-std-data-json"
         },
         {
-            "commitID": "64147c9b87c83975af983bb54b16cfbef8bf91c7",
+            "commitID": "e29e718aabbbe24919569dd27f00f28e1d79fa35",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
+                    "dependencies": {
+                        "unit-threaded": "<2.0.0"
+                    },
                     "name": "unittest"
                 }
             ],
@@ -72,9 +75,7 @@
                 "boilerplate": ">=1.7.4",
                 "dshould": ">=1.2.1",
                 "dxml": ">=0.4.1",
-                "prettyprint": ">=1.0.5",
-                "sumtype": ">=0.9.4",
-                "unit-threaded": ">=0.0.0"
+                "prettyprint": ">=1.0.5"
             },
             "name": "serialized",
             "version": "~master"
@@ -732,6 +733,28 @@
             },
             "name": "serialized",
             "version": "1.4.7"
+        },
+        {
+            "commitID": "e29e718aabbbe24919569dd27f00f28e1d79fa35",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "<2.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "boilerplate": ">=1.7.4",
+                "dshould": ">=1.2.1",
+                "dxml": ">=0.4.1",
+                "prettyprint": ">=1.0.5"
+            },
+            "name": "serialized",
+            "version": "1.5.0"
         }
     ]
 }
