@@ -4,7 +4,7 @@
         "application.server.game",
         "library.gamedev"
     ],
-    "commitID": "7a8eab94e106bc5aef2da40484d05bf3125ea4da",
+    "commitID": "5bd75ca443966d323dab04044b6a807731888eaa",
     "dateAdded": "2015-02-24T18:41:03",
     "description": "Voxel engine",
     "documentationURL": "",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "95b57c1bc399fcba2786b60e371a00223aa97921",
+            "commitID": "5bd75ca443966d323dab04044b6a807731888eaa",
             "configurations": [
                 {
                     "name": "exe"
@@ -43,7 +43,7 @@
                             "path": ".\/deps\/dlib",
                             "version": ">=0.0.0"
                         },
-                        "sdlang-d": "0.10.4"
+                        "sdlang-d": "0.10.6"
                     },
                     "name": "engine"
                 },
@@ -280,6 +280,45 @@
             },
             "name": "voxelman",
             "version": "0.8.0"
+        },
+        {
+            "commitID": "5bd75ca443966d323dab04044b6a807731888eaa",
+            "configurations": [
+                {
+                    "name": "exe"
+                },
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "voxelman:engine": ">=0.0.0",
+                "voxelman:plugins": ">=0.0.0"
+            },
+            "name": "voxelman",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "cbor-d": ">=0.5.5",
+                        "derelict-gl3": ">=2.0.0-beta.5 <2.1.0",
+                        "derelict-glfw3": ">=4.0.0-beta.1 <4.1.0",
+                        "derelict-util": ">=3.0.0-beta.1 <3.1.0",
+                        "dlib": {
+                            "path": ".\/deps\/dlib",
+                            "version": ">=0.0.0"
+                        },
+                        "sdlang-d": "0.10.6"
+                    },
+                    "name": "engine"
+                },
+                {
+                    "dependencies": {
+                        "voxelman:engine": ">=0.0.0"
+                    },
+                    "name": "plugins"
+                }
+            ],
+            "version": "0.9.0"
         }
     ]
 }
