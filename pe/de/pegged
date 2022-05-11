@@ -2,7 +2,7 @@
     "categories": [
         "library.development.parsing"
     ],
-    "commitID": "d5b5052d7022617909eb8c00917d03fc5958c28b",
+    "commitID": "9636af7859607183c2b9debbc82997306071d07e",
     "dateAdded": "2013-03-08T19:00:00",
     "description": "Parsing Expression Grammar (PEG) generator",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "d5b5052d7022617909eb8c00917d03fc5958c28b",
+            "commitID": "2ecfb6d65b0ccd581b493094ae643b1233c29d7e",
             "configurations": [
                 {
                     "name": "default"
@@ -302,6 +302,66 @@
                 }
             ],
             "version": "0.4.5"
+        },
+        {
+            "commitID": "9636af7859607183c2b9debbc82997306071d07e",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "tracer"
+                }
+            ],
+            "name": "pegged",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "arithmetic"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "numbers"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "strings"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "csv"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "json"
+                }
+            ],
+            "version": "0.4.6"
         }
     ]
 }
