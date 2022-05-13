@@ -3,7 +3,7 @@
         "library.binding",
         "library.graphics"
     ],
-    "commitID": "f586f74e5e71de2acf8ebf7f724daa00237961e1",
+    "commitID": "5b008aa2f1e1946476757b4856ace19be09329d9",
     "dateAdded": "2016-05-13T21:09:27",
     "description": "Auto-generated D bindings for Vulkan",
     "documentationURL": "",
@@ -92,7 +92,7 @@
             "version": "~dub_sdl"
         },
         {
-            "commitID": "f586f74e5e71de2acf8ebf7f724daa00237961e1",
+            "commitID": "5b008aa2f1e1946476757b4856ace19be09329d9",
             "name": "erupted",
             "subPackages": [
                 {
@@ -6871,6 +6871,40 @@
                 }
             ],
             "version": "2.1.62+v1.3.212"
+        },
+        {
+            "commitID": "5b008aa2f1e1946476757b4856ace19be09329d9",
+            "name": "erupted",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "erupted": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devices"
+                },
+                {
+                    "dependencies": {
+                        "erupted": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "layers"
+                },
+                {
+                    "dependencies": {
+                        "erupted": {
+                            "path": ".",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "compute"
+                }
+            ],
+            "version": "2.1.63+v1.3.213"
         }
     ]
 }
