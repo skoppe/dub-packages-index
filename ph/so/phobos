@@ -57,7 +57,7 @@
             "version": "~stable"
         },
         {
-            "commitID": "998845c3d828f4210e6382c1758c8f8d36294bc8",
+            "commitID": "b20444aca4c5c89595d623d7f835938104f7aca7",
             "name": "phobos",
             "subPackages": [
                 {
@@ -112,6 +112,25 @@
                 }
             ],
             "version": "2.100.0-rc.1"
+        },
+        {
+            "commitID": "dba1bbe271a9b2d7f24edeebbc77846e29904e41",
+            "name": "phobos",
+            "subPackages": [
+                {
+                    "name": "checkedint"
+                },
+                {
+                    "name": "allocator-generator"
+                },
+                {
+                    "dependencies": {
+                        "phobos:allocator-generator": ">=0.0.0"
+                    },
+                    "name": "allocator"
+                }
+            ],
+            "version": "2.100.0"
         }
     ]
 }
