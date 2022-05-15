@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.analyzer"
     ],
-    "commitID": "79c7474d91166290569d73a3bc56b367c9b76e39",
+    "commitID": "c8ddd0b27e9b32fdbfb4c62a3ebcd2628bb37d94",
     "dateAdded": "2022-05-04T14:59:10",
     "description": " Cognitive Complexity code metric for D",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "79c7474d91166290569d73a3bc56b367c9b76e39",
+            "commitID": "c8ddd0b27e9b32fdbfb4c62a3ebcd2628bb37d94",
             "configurations": [
                 {
                     "name": "executable"
@@ -100,6 +100,25 @@
             },
             "name": "cogito",
             "version": "1.2.0"
+        },
+        {
+            "commitID": "c8ddd0b27e9b32fdbfb4c62a3ebcd2628bb37d94",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "~>2.0.3"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "argparse": "~>0.8.0"
+            },
+            "name": "cogito",
+            "version": "1.3.0"
         }
     ]
 }
