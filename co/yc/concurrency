@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "49b50e2ac0ec6304659a3b405101c8d34778440a",
+    "commitID": "dea17b26f7f5710abff10b22f140693f67d29209",
     "dateAdded": "2021-01-14T12:40:56",
     "description": "concurrency library",
     "documentationURL": "",
@@ -378,7 +378,7 @@
             "version": "~timers"
         },
         {
-            "commitID": "49b50e2ac0ec6304659a3b405101c8d34778440a",
+            "commitID": "dea17b26f7f5710abff10b22f140693f67d29209",
             "configurations": [
                 {
                     "name": "default"
@@ -2356,6 +2356,43 @@
             },
             "name": "concurrency",
             "version": "4.9.3"
+        },
+        {
+            "commitID": "dea17b26f7f5710abff10b22f140693f67d29209",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-release"
+                },
+                {
+                    "name": "nodip"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-asan"
+                }
+            ],
+            "dependencies": {
+                "automem": "0.6.4",
+                "concepts": "~>0.0.8",
+                "ikod-containers": "0.0.21",
+                "mir-core": "~>1.1.62"
+            },
+            "name": "concurrency",
+            "version": "4.10.0"
         }
     ]
 }
