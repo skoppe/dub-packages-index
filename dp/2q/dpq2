@@ -2,7 +2,7 @@
     "categories": [
         "library.database"
     ],
-    "commitID": "9085a442af25a356d71a009e0adc08fad1b54cb0",
+    "commitID": "48bdb2198ee7bfc455516dbba9199d7ca8f70c0f",
     "dateAdded": "2013-09-14T10:32:29",
     "description": "Medium-level binding to the PostgreSQL database",
     "documentationURL": "",
@@ -850,7 +850,7 @@
             "version": "~warning_fix"
         },
         {
-            "commitID": "9085a442af25a356d71a009e0adc08fad1b54cb0",
+            "commitID": "48bdb2198ee7bfc455516dbba9199d7ca8f70c0f",
             "configurations": [
                 {
                     "name": "static"
@@ -4776,6 +4776,53 @@
                 }
             ],
             "version": "1.1.0"
+        },
+        {
+            "commitID": "48bdb2198ee7bfc455516dbba9199d7ca8f70c0f",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": ">=0.0.0",
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": ">=0.0.0"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.1.1"
         }
     ]
 }
