@@ -3,7 +3,7 @@
         "library.crypto",
         "library.binding.deimos"
     ],
-    "commitID": "a033f18003aca6b2d8135e2228be8787b8b9ebc9",
+    "commitID": "ce9fd3fc73fe09e781d423161248e8a138b2d763",
     "dateAdded": "2013-04-27T18:24:06",
     "description": "Deimos bindings for the OpenSSL cryptographic library",
     "documentationURL": "",
@@ -33,10 +33,13 @@
             "version": "~pu"
         },
         {
-            "commitID": "a033f18003aca6b2d8135e2228be8787b8b9ebc9",
+            "commitID": "ce9fd3fc73fe09e781d423161248e8a138b2d763",
             "configurations": [
                 {
-                    "name": "library"
+                    "name": "library-autodetect"
+                },
+                {
+                    "name": "library-manual-version"
                 },
                 {
                     "name": "library-applink"
@@ -201,6 +204,25 @@
             ],
             "name": "openssl",
             "version": "2.0.3+1.1.0h"
+        },
+        {
+            "commitID": "ce9fd3fc73fe09e781d423161248e8a138b2d763",
+            "configurations": [
+                {
+                    "name": "library-autodetect"
+                },
+                {
+                    "name": "library-manual-version"
+                },
+                {
+                    "name": "library-applink"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "openssl",
+            "version": "3.0.0"
         }
     ]
 }
