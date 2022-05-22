@@ -4,7 +4,7 @@
         "library.optimized_cpu",
         "library.geospatial"
     ],
-    "commitID": "dbdf711c9e4d089442d8d1ebe2b00d2e122fe6d0",
+    "commitID": "5fe0dcb636918d4849a7b6271c16d85beb467e6e",
     "dateAdded": "2018-12-09T13:09:42",
     "description": "Google's S2 Geometric Library implemented in D.",
     "documentationURL": "https:\/\/vnayar.github.io\/s2geometry-d\/",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "dbdf711c9e4d089442d8d1ebe2b00d2e122fe6d0",
+            "commitID": "5fe0dcb636918d4849a7b6271c16d85beb467e6e",
             "configurations": [
                 {
                     "name": "library"
@@ -149,6 +149,25 @@
             },
             "name": "s2geometry-d",
             "version": "0.2.4"
+        },
+        {
+            "commitID": "5fe0dcb636918d4849a7b6271c16d85beb467e6e",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "~>0.7.53"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "fluent-asserts": "~>0.12.3"
+            },
+            "name": "s2geometry-d",
+            "version": "0.2.5"
         }
     ]
 }

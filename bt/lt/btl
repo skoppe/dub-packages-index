@@ -5,7 +5,7 @@
         "library.nogc",
         "library.general"
     ],
-    "commitID": "14eeacc002a6da26528a959472e6fa3318446857",
+    "commitID": "fb4f869fdd2596ef42b48e4179bc3937eb6a7d1f",
     "dateAdded": "2022-01-24T17:37:13",
     "description": "Basic Template Library",
     "documentationURL": "https:\/\/submada.github.io\/btl\/",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "14eeacc002a6da26528a959472e6fa3318446857",
+            "commitID": "fb4f869fdd2596ef42b48e4179bc3937eb6a7d1f",
             "dependencies": {
                 "btl:autoptr": ">=0.0.0",
                 "btl:lifetime": ">=0.0.0",
@@ -888,6 +888,86 @@
                 }
             ],
             "version": "1.0.0-rc.15"
+        },
+        {
+            "commitID": "fb4f869fdd2596ef42b48e4179bc3937eb6a7d1f",
+            "dependencies": {
+                "btl:autoptr": ">=0.0.0",
+                "btl:lifetime": ">=0.0.0",
+                "btl:list": ">=0.0.0",
+                "btl:string": ">=0.0.0",
+                "btl:traits": ">=0.0.0",
+                "btl:vector": ">=0.0.0"
+            },
+            "name": "btl",
+            "subPackages": [
+                {
+                    "name": "traits"
+                },
+                {
+                    "name": "lifetime"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:lifetime": ">=0.0.0",
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "autoptr"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "string"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:lifetime": ">=0.0.0",
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "vector"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:lifetime": ">=0.0.0",
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "list"
+                }
+            ],
+            "version": "1.0.0-rc.16"
         }
     ]
 }
