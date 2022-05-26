@@ -5,7 +5,7 @@
         "library.nogc",
         "library.optimized_cpu"
     ],
-    "commitID": "8690f3904f4dc05f681e071de274fc457a31a8ae",
+    "commitID": "33b541af2b92b68c4d895e6846dd474a9955ec13",
     "dateAdded": "2017-01-05T14:40:05",
     "description": "Dlang Core Library",
     "documentationURL": "http:\/\/mir-algorithm.libmir.org\/",
@@ -224,7 +224,7 @@
             "version": "~github-actions"
         },
         {
-            "commitID": "84f4453a5b28c98586296c34fe7c4b08994e0415",
+            "commitID": "6592006dec878458ae27fc3b54f845c1e5770e17",
             "configurations": [
                 {
                     "name": "default"
@@ -237,10 +237,22 @@
                 },
                 {
                     "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
                 }
             ],
             "dependencies": {
-                "mir-core": ">=1.1.88"
+                "mir-core": ">=1.1.106"
             },
             "name": "mir-algorithm",
             "version": "~impl-bigint-division"
@@ -481,7 +493,7 @@
             "version": "~wip"
         },
         {
-            "commitID": "df674dd7e5db048fe51b36e34f9761b9ee45d4ae",
+            "commitID": "33b541af2b92b68c4d895e6846dd474a9955ec13",
             "configurations": [
                 {
                     "name": "default"
@@ -9732,6 +9744,40 @@
             },
             "name": "mir-algorithm",
             "version": "3.12.46"
+        },
+        {
+            "commitID": "33b541af2b92b68c4d895e6846dd474a9955ec13",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "secure"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.106"
+            },
+            "name": "mir-algorithm",
+            "version": "3.12.47"
         }
     ]
 }
