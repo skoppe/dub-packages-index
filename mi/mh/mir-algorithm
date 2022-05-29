@@ -5,7 +5,7 @@
         "library.nogc",
         "library.optimized_cpu"
     ],
-    "commitID": "33b541af2b92b68c4d895e6846dd474a9955ec13",
+    "commitID": "21a27e9f3260e1831f7669049f4b01d13bdd6679",
     "dateAdded": "2017-01-05T14:40:05",
     "description": "Dlang Core Library",
     "documentationURL": "http:\/\/mir-algorithm.libmir.org\/",
@@ -222,40 +222,6 @@
             },
             "name": "mir-algorithm",
             "version": "~github-actions"
-        },
-        {
-            "commitID": "6592006dec878458ae27fc3b54f845c1e5770e17",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "name": "secure"
-                },
-                {
-                    "name": "dip1008"
-                },
-                {
-                    "name": "dips"
-                },
-                {
-                    "name": "ci-bignum-test"
-                },
-                {
-                    "name": "ci-core-test"
-                },
-                {
-                    "name": "ci-ndslice-test"
-                },
-                {
-                    "name": "ci-test"
-                }
-            ],
-            "dependencies": {
-                "mir-core": ">=1.1.106"
-            },
-            "name": "mir-algorithm",
-            "version": "~impl-bigint-division"
         },
         {
             "commitID": "6461687db1c98f18110ef054482c765a993c185c",
@@ -493,13 +459,16 @@
             "version": "~wip"
         },
         {
-            "commitID": "33b541af2b92b68c4d895e6846dd474a9955ec13",
+            "commitID": "21a27e9f3260e1831f7669049f4b01d13bdd6679",
             "configurations": [
                 {
                     "name": "default"
                 },
                 {
-                    "name": "secure"
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
                 },
                 {
                     "name": "dip1008"
@@ -9778,6 +9747,43 @@
             },
             "name": "mir-algorithm",
             "version": "3.12.47"
+        },
+        {
+            "commitID": "21a27e9f3260e1831f7669049f4b01d13bdd6679",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.106"
+            },
+            "name": "mir-algorithm",
+            "version": "3.13.0-alpha"
         }
     ]
 }
