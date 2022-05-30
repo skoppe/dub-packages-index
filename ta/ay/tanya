@@ -3,7 +3,7 @@
         "library.network",
         "library.data_structures"
     ],
-    "commitID": "c68b8d1bddd61b06135324cdaed5eb8d7c74ea60",
+    "commitID": "db607f7602ae2991a6efeb943f297ebdf4603900",
     "dateAdded": "2016-08-24T18:18:46",
     "description": "@nogc library. Containers, networking, metaprogramming, memory management, utilities",
     "documentationURL": "https:\/\/docs.caraus.io\/tanya",
@@ -12,12 +12,12 @@
     "owner": "57076a1bf53fae3d5abc8de1",
     "repository": {
         "kind": "github",
-        "owner": "caraus-ecms",
+        "owner": "belka-ew",
         "project": "tanya"
     },
     "versions": [
         {
-            "commitID": "4ca074812e20cf9f60c6ed46fb87299e6f7d076c",
+            "commitID": "db607f7602ae2991a6efeb943f297ebdf4603900",
             "configurations": [
                 {
                     "name": "library"
@@ -37,20 +37,15 @@
             ],
             "dependencies": {
                 "mir-linux-kernel": "~>1.0.0",
-                "tanya:encoding": ">=0.0.0",
                 "tanya:meta": ">=0.0.0",
                 "tanya:middle": ">=0.0.0",
                 "tanya:os": ">=0.0.0",
-                "tanya:sys": ">=0.0.0",
                 "tanya:test": ">=0.0.0"
             },
             "name": "tanya",
             "subPackages": [
                 {
                     "name": "meta"
-                },
-                {
-                    "name": "sys"
                 },
                 {
                     "dependencies": {
@@ -60,82 +55,9 @@
                 },
                 {
                     "dependencies": {
-                        "tanya:meta": ">=0.0.0"
-                    },
-                    "name": "encoding"
-                },
-                {
-                    "dependencies": {
                         "mir-linux-kernel": "~>1.0.0",
                         "tanya:meta": ">=0.0.0",
-                        "tanya:os": ">=0.0.0",
-                        "tanya:sys": ">=0.0.0"
-                    },
-                    "name": "middle"
-                },
-                {
-                    "dependencies": {
-                        "tanya:middle": ">=0.0.0"
-                    },
-                    "name": "test"
-                }
-            ],
-            "version": "~deprecate-bigint"
-        },
-        {
-            "commitID": "c68b8d1bddd61b06135324cdaed5eb8d7c74ea60",
-            "configurations": [
-                {
-                    "name": "library"
-                },
-                {
-                    "name": "dynamic"
-                },
-                {
-                    "name": "native"
-                },
-                {
-                    "name": "unittest"
-                },
-                {
-                    "name": "unittest-native"
-                }
-            ],
-            "dependencies": {
-                "mir-linux-kernel": "~>1.0.0",
-                "tanya:encoding": ">=0.0.0",
-                "tanya:meta": ">=0.0.0",
-                "tanya:middle": ">=0.0.0",
-                "tanya:os": ">=0.0.0",
-                "tanya:sys": ">=0.0.0",
-                "tanya:test": ">=0.0.0"
-            },
-            "name": "tanya",
-            "subPackages": [
-                {
-                    "name": "meta"
-                },
-                {
-                    "name": "sys"
-                },
-                {
-                    "dependencies": {
-                        "tanya:meta": ">=0.0.0"
-                    },
-                    "name": "os"
-                },
-                {
-                    "dependencies": {
-                        "tanya:meta": ">=0.0.0"
-                    },
-                    "name": "encoding"
-                },
-                {
-                    "dependencies": {
-                        "mir-linux-kernel": "~>1.0.0",
-                        "tanya:meta": ">=0.0.0",
-                        "tanya:os": ">=0.0.0",
-                        "tanya:sys": ">=0.0.0"
+                        "tanya:os": ">=0.0.0"
                     },
                     "name": "middle"
                 },
@@ -769,6 +691,60 @@
                 }
             ],
             "version": "0.17.0"
+        },
+        {
+            "commitID": "db607f7602ae2991a6efeb943f297ebdf4603900",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "native"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-native"
+                }
+            ],
+            "dependencies": {
+                "mir-linux-kernel": "~>1.0.0",
+                "tanya:meta": ">=0.0.0",
+                "tanya:middle": ">=0.0.0",
+                "tanya:os": ">=0.0.0",
+                "tanya:test": ">=0.0.0"
+            },
+            "name": "tanya",
+            "subPackages": [
+                {
+                    "name": "meta"
+                },
+                {
+                    "dependencies": {
+                        "tanya:meta": ">=0.0.0"
+                    },
+                    "name": "os"
+                },
+                {
+                    "dependencies": {
+                        "mir-linux-kernel": "~>1.0.0",
+                        "tanya:meta": ">=0.0.0",
+                        "tanya:os": ">=0.0.0"
+                    },
+                    "name": "middle"
+                },
+                {
+                    "dependencies": {
+                        "tanya:middle": ">=0.0.0"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.18.0"
         }
     ]
 }
