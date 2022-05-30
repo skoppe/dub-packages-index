@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "0e9aa2ae42e573741af26b98c823a45aac3dce61",
+    "commitID": "05142e3b05bb51e294a56e71b72b1d22eb649047",
     "dateAdded": "2021-08-29T17:16:28",
     "description": "A full Gtk binding for D.",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "0e9aa2ae42e573741af26b98c823a45aac3dce61",
+            "commitID": "05142e3b05bb51e294a56e71b72b1d22eb649047",
             "dependencies": {
                 "gtk_d:adw": ">=0.0.0",
                 "gtk_d:atk": ">=0.0.0",
@@ -540,6 +540,358 @@
                 }
             ],
             "version": "1.0.1"
+        },
+        {
+            "commitID": "06ab0c977980e6c87790aae3ae44395b11747b22",
+            "dependencies": {
+                "gtk_d:adw": ">=0.0.0",
+                "gtk_d:atk": ">=0.0.0",
+                "gtk_d:cairo": ">=0.0.0",
+                "gtk_d:gdk": ">=0.0.0",
+                "gtk_d:gdkpixbuf": ">=0.0.0",
+                "gtk_d:gio": ">=0.0.0",
+                "gtk_d:glib": ">=0.0.0",
+                "gtk_d:graphene": ">=0.0.0",
+                "gtk_d:gsk": ">=0.0.0",
+                "gtk_d:gtk": ">=0.0.0",
+                "gtk_d:harfbuzz": ">=0.0.0",
+                "gtk_d:linker": ">=0.0.0",
+                "gtk_d:pango": ">=0.0.0",
+                "gtk_d:rsvg": ">=0.0.0",
+                "gtk_d:shumate": ">=0.0.0",
+                "gtk_d:soup": ">=0.0.0",
+                "gtk_d:sourceview": ">=0.0.0"
+            },
+            "name": "gtk_d",
+            "subPackages": [
+                {
+                    "name": "linker",
+                    "version": "1.0.0"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "glib",
+                    "version": "2.68.1"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "graphene",
+                    "version": "1.10.6"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "cairo",
+                    "version": "1.17.4"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "harfbuzz",
+                    "version": "2.8.1"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:cairo": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:harfbuzz": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "pango",
+                    "version": "1.48"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "gio",
+                    "version": "2.66.7"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:gio": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "gdkpixbuf",
+                    "version": "2.42.6"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "atk",
+                    "version": "2.36.0"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:cairo": ">=0.0.0",
+                        "gtk_d:gdkpixbuf": ">=0.0.0",
+                        "gtk_d:gio": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0",
+                        "gtk_d:pango": ">=0.0.0"
+                    },
+                    "name": "gdk",
+                    "version": "4.2.1"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:cairo": ">=0.0.0",
+                        "gtk_d:gdkpixbuf": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "rsvg",
+                    "version": "2.50.7"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:cairo": ">=0.0.0",
+                        "gtk_d:gdk": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:graphene": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "gsk",
+                    "version": "4.2.1"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:gdk": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:graphene": ">=0.0.0",
+                        "gtk_d:gsk": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "gtk",
+                    "version": "4.2.1"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:gtk": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "adw",
+                    "version": "1.0.0"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:gtk": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "sourceview",
+                    "version": "5.0.0"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:gio": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "soup",
+                    "version": "2.72.0"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:gtk": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0",
+                        "gtk_d:soup": ">=0.0.0"
+                    },
+                    "name": "shumate",
+                    "version": "0.0.0"
+                }
+            ],
+            "version": "1.0.2"
+        },
+        {
+            "commitID": "05142e3b05bb51e294a56e71b72b1d22eb649047",
+            "dependencies": {
+                "gtk_d:adw": ">=0.0.0",
+                "gtk_d:atk": ">=0.0.0",
+                "gtk_d:cairo": ">=0.0.0",
+                "gtk_d:gdk": ">=0.0.0",
+                "gtk_d:gdkpixbuf": ">=0.0.0",
+                "gtk_d:gio": ">=0.0.0",
+                "gtk_d:glib": ">=0.0.0",
+                "gtk_d:graphene": ">=0.0.0",
+                "gtk_d:gsk": ">=0.0.0",
+                "gtk_d:gtk": ">=0.0.0",
+                "gtk_d:harfbuzz": ">=0.0.0",
+                "gtk_d:linker": ">=0.0.0",
+                "gtk_d:pango": ">=0.0.0",
+                "gtk_d:rsvg": ">=0.0.0",
+                "gtk_d:shumate": ">=0.0.0",
+                "gtk_d:soup": ">=0.0.0",
+                "gtk_d:sourceview": ">=0.0.0"
+            },
+            "name": "gtk_d",
+            "subPackages": [
+                {
+                    "name": "linker",
+                    "version": "1.0.0"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "glib",
+                    "version": "2.68.1"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "graphene",
+                    "version": "1.10.6"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "cairo",
+                    "version": "1.17.4"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "harfbuzz",
+                    "version": "2.8.1"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:cairo": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:harfbuzz": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "pango",
+                    "version": "1.48"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "gio",
+                    "version": "2.66.7"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:gio": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "gdkpixbuf",
+                    "version": "2.42.6"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "atk",
+                    "version": "2.36.0"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:cairo": ">=0.0.0",
+                        "gtk_d:gdkpixbuf": ">=0.0.0",
+                        "gtk_d:gio": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0",
+                        "gtk_d:pango": ">=0.0.0"
+                    },
+                    "name": "gdk",
+                    "version": "4.2.1"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:cairo": ">=0.0.0",
+                        "gtk_d:gdkpixbuf": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "rsvg",
+                    "version": "2.50.7"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:cairo": ">=0.0.0",
+                        "gtk_d:gdk": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:graphene": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "gsk",
+                    "version": "4.2.1"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:gdk": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:graphene": ">=0.0.0",
+                        "gtk_d:gsk": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "gtk",
+                    "version": "4.2.1"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:gtk": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "adw",
+                    "version": "1.0.0"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:gtk": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "sourceview",
+                    "version": "5.0.0"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:gio": ">=0.0.0",
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0"
+                    },
+                    "name": "soup",
+                    "version": "2.72.0"
+                },
+                {
+                    "dependencies": {
+                        "gtk_d:glib": ">=0.0.0",
+                        "gtk_d:gtk": ">=0.0.0",
+                        "gtk_d:linker": ">=0.0.0",
+                        "gtk_d:soup": ">=0.0.0"
+                    },
+                    "name": "shumate",
+                    "version": "0.0.0"
+                }
+            ],
+            "version": "1.0.3"
         }
     ]
 }
