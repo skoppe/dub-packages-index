@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.nogc"
     ],
-    "commitID": "17c436b22353457f27f48f6f9e543e343239a084",
+    "commitID": "7b48bc3efd08ffc77557a4598cb0cb7e6335ae7c",
     "dateAdded": "2020-10-04T11:03:23",
     "description": "Fast, Expressive, and Easy to use Ion, JSON, Msgpack Serialization Library with optional SIMD Optimization.",
     "documentationURL": "http:\/\/mir-ion.libmir.org\/",
@@ -62,23 +62,20 @@
             "version": "~script"
         },
         {
-            "commitID": "17c436b22353457f27f48f6f9e543e343239a084",
+            "commitID": "7b48bc3efd08ffc77557a4598cb0cb7e6335ae7c",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
-                    "name": "unittest"
-                },
-                {
-                    "name": "asan-unittest"
-                },
-                {
-                    "name": "parser-test"
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
                 }
             ],
             "dependencies": {
-                "mir-algorithm": ">=3.12.17",
+                "mir-algorithm": "~>3.13.2",
                 "mir-cpuid": "~>1.2.6"
             },
             "name": "mir-ion",
@@ -3278,6 +3275,26 @@
             },
             "name": "mir-ion",
             "version": "1.0.46"
+        },
+        {
+            "commitID": "7b48bc3efd08ffc77557a4598cb0cb7e6335ae7c",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.13.2",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.47"
         }
     ]
 }
