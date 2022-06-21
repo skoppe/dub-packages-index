@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "38c48b78e43a4a69f9f307060d3a5e5fe26c847c",
+    "commitID": "11848bf351814cadd0095b633ea19506774739a6",
     "dateAdded": "2019-10-01T03:05:55",
     "description": "IMAP client library",
     "documentationURL": "",
@@ -316,7 +316,7 @@
             "version": "~wip2"
         },
         {
-            "commitID": "cdaf8a0319e5d551a4db8e60348bd5348eb0946d",
+            "commitID": "eada5d15fefbaf9051131a967fac51b6fc968ec7",
             "configurations": [
                 {
                     "name": "default"
@@ -346,13 +346,16 @@
                         }
                     },
                     "name": "plugin"
+                },
+                {
+                    "name": "unittest"
                 }
             ],
             "dependencies": {
                 "arsd-official:email": ">=8.5.0",
                 "asdf": ">=0.6.0",
-                "mir-ion": ">=1.0.22",
-                "openssl": "~>1.1.6",
+                "mir-ion": ">=1.0.26",
+                "openssl": ">=3.1.0",
                 "requests": "~>2"
             },
             "name": "symmetry-imap",
@@ -1278,6 +1281,49 @@
             },
             "name": "symmetry-imap",
             "version": "0.1.18"
+        },
+        {
+            "commitID": "11848bf351814cadd0095b633ea19506774739a6",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        },
+                        "sil-lang": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "sil-library"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        },
+                        "sil-lang": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "plugin"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:email": ">=8.5.0",
+                "asdf": ">=0.6.0",
+                "mir-ion": ">=1.0.26",
+                "openssl": ">=3.1.0",
+                "requests": "~>2"
+            },
+            "name": "symmetry-imap",
+            "version": "0.1.19"
         }
     ]
 }

@@ -3,7 +3,7 @@
         "library.encoding",
         "library.generic"
     ],
-    "commitID": "a92ba7424f88561ccd769c5b509f24a7b61ce8d7",
+    "commitID": "e8b5e1ad6aa2d54b18412fce9e71b4fc58e9dfeb",
     "dateAdded": "2020-07-27T14:37:08",
     "description": "D XML\/JSON serialization code generator based on boilerplate",
     "documentationURL": "",
@@ -59,15 +59,12 @@
             "version": "~fix\/include-std-data-json"
         },
         {
-            "commitID": "a92ba7424f88561ccd769c5b509f24a7b61ce8d7",
+            "commitID": "e8b5e1ad6aa2d54b18412fce9e71b4fc58e9dfeb",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
-                    "dependencies": {
-                        "unit-threaded": "<2.0.0"
-                    },
                     "name": "unittest"
                 }
             ],
@@ -799,6 +796,47 @@
             },
             "name": "serialized",
             "version": "1.5.2"
+        },
+        {
+            "commitID": "9b3054121440fe75f1c03b5cfd9fa077b77bb448",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "<2.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "boilerplate": ">=1.7.4",
+                "dshould": ">=1.2.1",
+                "dxml": ">=0.4.1",
+                "prettyprint": ">=1.0.5"
+            },
+            "name": "serialized",
+            "version": "1.5.3"
+        },
+        {
+            "commitID": "e8b5e1ad6aa2d54b18412fce9e71b4fc58e9dfeb",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "boilerplate": ">=1.7.4",
+                "dshould": ">=1.2.1",
+                "dxml": ">=0.4.1",
+                "prettyprint": ">=1.0.5"
+            },
+            "name": "serialized",
+            "version": "1.5.4"
         }
     ]
 }

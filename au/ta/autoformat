@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "17a4f7ccc277ff0e38918e035b5eadde5c0579ad",
+    "commitID": "6557f1a4d395e4a4b25fd9398f8eef4098555c11",
     "dateAdded": "2019-10-14T18:15:48",
     "description": "Autoformatter of source code with git hooks",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "17a4f7ccc277ff0e38918e035b5eadde5c0579ad",
+            "commitID": "6557f1a4d395e4a4b25fd9398f8eef4098555c11",
             "configurations": [
                 {
                     "name": "application"
@@ -23,6 +23,11 @@
                     "name": "integration_test"
                 }
             ],
+            "dependencies": {
+                "colorlog": "~>0.0.7",
+                "my": "~>0.0.36",
+                "sumtype": "~>1.2.4"
+            },
             "name": "autoformat",
             "version": "~master"
         },
@@ -38,6 +43,24 @@
             ],
             "name": "autoformat",
             "version": "0.0.1"
+        },
+        {
+            "commitID": "6557f1a4d395e4a4b25fd9398f8eef4098555c11",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "integration_test"
+                }
+            ],
+            "dependencies": {
+                "colorlog": "~>0.0.7",
+                "my": "~>0.0.36",
+                "sumtype": "~>1.2.4"
+            },
+            "name": "autoformat",
+            "version": "1.0.0"
         }
     ]
 }

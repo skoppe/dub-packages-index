@@ -3,7 +3,7 @@
         "library.generic",
         "library.testing"
     ],
-    "commitID": "3b2bce859e685f356a5b8dec8ef24649f5610b56",
+    "commitID": "1ee6fc1f4da331c6f2ef4c904a07b2282bde75aa",
     "dateAdded": "2020-05-20T07:23:49",
     "description": "A mocking framework for the D programming language",
     "documentationURL": "",
@@ -34,15 +34,32 @@
             "version": "~feature\/allow-templated-comparators"
         },
         {
-            "commitID": "3b2bce859e685f356a5b8dec8ef24649f5610b56",
+            "commitID": "1ee6fc1f4da331c6f2ef4c904a07b2282bde75aa",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
                     "dependencies": {
-                        "dshould": ">=1.4.3",
-                        "unit-threaded": ">=1.0.11"
+                        "dshould": ">=1.5.1",
+                        "unit-threaded": ">=1.1.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "mocked",
+            "version": "~fix\/dip1000"
+        },
+        {
+            "commitID": "1ee6fc1f4da331c6f2ef4c904a07b2282bde75aa",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "dshould": ">=1.5.1",
+                        "unit-threaded": ">=1.1.0"
                     },
                     "name": "unittest"
                 }
@@ -440,6 +457,40 @@
             ],
             "name": "mocked",
             "version": "4.1.0"
+        },
+        {
+            "commitID": "0b31193c1799aa677abd12b373a297724dc9cdd6",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "dshould": ">=1.5.1",
+                        "unit-threaded": ">=1.1.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "mocked",
+            "version": "4.2.0"
+        },
+        {
+            "commitID": "1ee6fc1f4da331c6f2ef4c904a07b2282bde75aa",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "dshould": ">=1.5.1",
+                        "unit-threaded": ">=1.1.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "mocked",
+            "version": "4.2.1"
         }
     ]
 }
