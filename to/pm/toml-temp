@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "ddbe7798097db62b6a0f41f0edadab59c6c802a5",
+    "commitID": "5cb495c18f626a1bfe651509cd6977bfa96e42e9",
     "dateAdded": "2022-06-21T18:01:09",
     "description": "D implementation of TOML (temporary)",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "ddbe7798097db62b6a0f41f0edadab59c6c802a5",
+            "commitID": "5cb495c18f626a1bfe651509cd6977bfa96e42e9",
             "name": "toml-temp",
             "subPackages": [
                 {
@@ -44,6 +44,22 @@
                 }
             ],
             "version": "1.0.1"
+        },
+        {
+            "commitID": "5cb495c18f626a1bfe651509cd6977bfa96e42e9",
+            "name": "toml-temp",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "toml": {
+                            "path": "..",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "json"
+                }
+            ],
+            "version": "1.1.0"
         }
     ]
 }
