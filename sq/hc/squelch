@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.analyzer"
     ],
-    "commitID": "696c60b3caf30478c9dee5babf8fe20b64a0da23",
+    "commitID": "b0f253ac11fa8a0c971e06bc8b83dfef05dce3c4",
     "dateAdded": "2022-01-19T17:18:36",
     "description": "SQL formatter for BigQuery + Dbt",
     "documentationURL": "",
@@ -32,7 +32,7 @@
             "version": "~next"
         },
         {
-            "commitID": "696c60b3caf30478c9dee5babf8fe20b64a0da23",
+            "commitID": "b0f253ac11fa8a0c971e06bc8b83dfef05dce3c4",
             "dependencies": {
                 "squelch:lib": ">=0.0.0"
             },
@@ -94,6 +94,22 @@
                 }
             ],
             "version": "0.2.2"
+        },
+        {
+            "commitID": "b0f253ac11fa8a0c971e06bc8b83dfef05dce3c4",
+            "dependencies": {
+                "squelch:lib": ">=0.0.0"
+            },
+            "name": "squelch",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "ae": "0.0.3102"
+                    },
+                    "name": "lib"
+                }
+            ],
+            "version": "0.2.3"
         }
     ]
 }
