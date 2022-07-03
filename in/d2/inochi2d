@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "0d8a5dc68af934ed87f1cf91bea93c0c03dc4191",
+    "commitID": "6114bd16b1bcefa8a094b3519d5d4d445895509d",
     "dateAdded": "2021-06-06T13:47:29",
     "description": "A bring-your-own-renderer realtime 2D puppet library",
     "documentationURL": "",
@@ -14,13 +14,35 @@
     },
     "versions": [
         {
-            "commitID": "0d8a5dc68af934ed87f1cf91bea93c0c03dc4191",
+            "commitID": "116430a70647c6532d6ced65fd3d8f3e58d82d45",
             "dependencies": {
-                "bindbc-opengl": "~>0.13.0",
+                "bindbc-opengl": "~>1.0.1",
                 "fghj": "~>1.0.0",
-                "gl3n": "~>1.4.1",
                 "imagefmt": "~>2.1.0",
+                "inmath": "~>1.0.2",
                 "silly": "~>1.1.1"
+            },
+            "name": "inochi2d",
+            "version": "~legacy-gl"
+        },
+        {
+            "commitID": "6114bd16b1bcefa8a094b3519d5d4d445895509d",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "full"
+                },
+                {
+                    "name": "renderless"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "~>1.0.1",
+                "fghj": "~>1.0.0",
+                "imagefmt": "~>2.1.0",
+                "inmath": "~>1.0.2"
             },
             "name": "inochi2d",
             "version": "~main"
@@ -81,6 +103,28 @@
             },
             "name": "inochi2d",
             "version": "0.7.1"
+        },
+        {
+            "commitID": "6114bd16b1bcefa8a094b3519d5d4d445895509d",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "full"
+                },
+                {
+                    "name": "renderless"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "~>1.0.1",
+                "fghj": "~>1.0.0",
+                "imagefmt": "~>2.1.0",
+                "inmath": "~>1.0.2"
+            },
+            "name": "inochi2d",
+            "version": "0.7.2"
         }
     ]
 }
