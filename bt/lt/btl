@@ -5,7 +5,7 @@
         "library.nogc",
         "library.general"
     ],
-    "commitID": "fb4f869fdd2596ef42b48e4179bc3937eb6a7d1f",
+    "commitID": "63176afdd34a25e42d897a577b4257fafc0f30ea",
     "dateAdded": "2022-01-24T17:37:13",
     "description": "Basic Template Library",
     "documentationURL": "https:\/\/submada.github.io\/btl\/",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "fb4f869fdd2596ef42b48e4179bc3937eb6a7d1f",
+            "commitID": "9cc599fd8495215d346ccd62d6e9f1f7ac140937",
             "dependencies": {
                 "btl:autoptr": ">=0.0.0",
                 "btl:lifetime": ">=0.0.0",
@@ -968,6 +968,166 @@
                 }
             ],
             "version": "1.0.0-rc.16"
+        },
+        {
+            "commitID": "904d16972c6002c929b4f92c11b8329d9d3d25a2",
+            "dependencies": {
+                "btl:autoptr": ">=0.0.0",
+                "btl:lifetime": ">=0.0.0",
+                "btl:list": ">=0.0.0",
+                "btl:string": ">=0.0.0",
+                "btl:traits": ">=0.0.0",
+                "btl:vector": ">=0.0.0"
+            },
+            "name": "btl",
+            "subPackages": [
+                {
+                    "name": "traits"
+                },
+                {
+                    "name": "lifetime"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:lifetime": ">=0.0.0",
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "autoptr"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "string"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:lifetime": ">=0.0.0",
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "vector"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:lifetime": ">=0.0.0",
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "list"
+                }
+            ],
+            "version": "1.0.0-rc.17"
+        },
+        {
+            "commitID": "63176afdd34a25e42d897a577b4257fafc0f30ea",
+            "dependencies": {
+                "btl:autoptr": ">=0.0.0",
+                "btl:lifetime": ">=0.0.0",
+                "btl:list": ">=0.0.0",
+                "btl:string": ">=0.0.0",
+                "btl:traits": ">=0.0.0",
+                "btl:vector": ">=0.0.0"
+            },
+            "name": "btl",
+            "subPackages": [
+                {
+                    "name": "traits"
+                },
+                {
+                    "name": "lifetime"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:lifetime": ">=0.0.0",
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "autoptr"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "string"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:lifetime": ">=0.0.0",
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "vector"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "btl:lifetime": ">=0.0.0",
+                        "btl:traits": ">=0.0.0"
+                    },
+                    "name": "list"
+                }
+            ],
+            "version": "1.0.0-rc.18"
         }
     ]
 }
