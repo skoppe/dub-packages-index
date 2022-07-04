@@ -2,7 +2,7 @@
     "categories": [
         "application"
     ],
-    "commitID": "881656f4bcc91670ccd6ac4db6ff5f9ea1f6453e",
+    "commitID": "b6d0ab360729a7014cb764c18e7d32445a62dc87",
     "dateAdded": "2021-06-08T15:01:43",
     "description": "Inochi2D rigging application",
     "documentationURL": "",
@@ -15,6 +15,35 @@
         "project": "inochi-creator"
     },
     "versions": [
+        {
+            "commitID": "15f478ce03df91ef3dcb432311542301930a6a0c",
+            "configurations": [
+                {
+                    "name": "barebones"
+                },
+                {
+                    "name": "win32-barebones"
+                },
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "win32-full"
+                }
+            ],
+            "dependencies": {
+                "bindbc-imgui": "~>0.7.0",
+                "bindbc-sdl": "~>1.1.2",
+                "facetrack-d": "~>0.6.2",
+                "i18n-d": "~>1.0.1",
+                "inmath": "~>1.0.1",
+                "inochi2d": "~>0.7.2",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "~Remove-Intel-Integrated-Graphics-Section"
+        },
         {
             "commitID": "7fe58f16405067bf79278a94bc04d8d0082e0353",
             "configurations": [
@@ -44,28 +73,31 @@
             "version": "~dpifix"
         },
         {
-            "commitID": "881656f4bcc91670ccd6ac4db6ff5f9ea1f6453e",
+            "commitID": "e3088ea82beb635b4e9db447d7a8ee4a3b17bf05",
             "configurations": [
                 {
-                    "name": "posix"
+                    "name": "barebones"
                 },
                 {
-                    "name": "winapp"
+                    "name": "win32-barebones"
                 },
                 {
-                    "name": "winapp-noicon"
+                    "name": "full"
                 },
                 {
-                    "name": "winapp-debug"
+                    "name": "win32-full"
+                },
+                {
+                    "name": "win32-lite"
                 }
             ],
             "dependencies": {
-                "bindbc-imgui": "~>1.0.0",
-                "bindbc-sdl": "~>0.21.4",
-                "facetrack-d": "~>0.6.1",
-                "gl3n": "~>1.4.1",
-                "i18n-d": "~>1.0.0",
-                "inochi2d": "~>0.7.1",
+                "bindbc-imgui": "~>0.7.0",
+                "bindbc-sdl": "~>1.1.2",
+                "facetrack-d": "~>0.6.2",
+                "i18n-d": "~>1.0.1",
+                "inmath": "~>1.0.1",
+                "inochi2d": "~>0.7.2",
                 "psd-d": "~>0.6.1",
                 "tinyfiledialogs": "~>0.10.1"
             },
@@ -98,6 +130,47 @@
             },
             "name": "inochi-creator",
             "version": "~playmer\/Win32Improvements"
+        },
+        {
+            "commitID": "b9724f88e27cda13132c7193b7a23d9cc27a2257",
+            "configurations": [
+                {
+                    "name": "barebones"
+                },
+                {
+                    "name": "barebones-gallium"
+                },
+                {
+                    "name": "win32-barebones"
+                },
+                {
+                    "name": "win32-barebones-gallium"
+                },
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full-gallium"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "name": "win32-full-gallium"
+                }
+            ],
+            "dependencies": {
+                "bindbc-imgui": "~>1.0.0",
+                "bindbc-sdl": "~>0.21.4",
+                "facetrack-d": "~>0.6.2",
+                "i18n-d": "~>1.0.1",
+                "inmath": "~>1.0.1",
+                "inochi2d": "~>0.7.2",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "~playmer\/cimguiUpdate"
         },
         {
             "commitID": "f23e1a43408d188f25177f9fc567aefa5529db9b",
@@ -481,6 +554,70 @@
             },
             "name": "inochi-creator",
             "version": "0.7.2"
+        },
+        {
+            "commitID": "1960f117370cb16c5e7aa520ccb8bdb752d1276e",
+            "configurations": [
+                {
+                    "name": "barebones"
+                },
+                {
+                    "name": "win32-barebones"
+                },
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "name": "win32-lite"
+                }
+            ],
+            "dependencies": {
+                "bindbc-imgui": "~>0.7.0",
+                "bindbc-sdl": "~>1.1.2",
+                "facetrack-d": "~>0.6.2",
+                "i18n-d": "~>1.0.1",
+                "inmath": "~>1.0.1",
+                "inochi2d": "~>0.7.2",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.7.3-prerelease1"
+        },
+        {
+            "commitID": "b6d0ab360729a7014cb764c18e7d32445a62dc87",
+            "configurations": [
+                {
+                    "name": "barebones"
+                },
+                {
+                    "name": "win32-barebones"
+                },
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "name": "win32-lite"
+                }
+            ],
+            "dependencies": {
+                "bindbc-imgui": "~>0.7.0",
+                "bindbc-sdl": "~>1.1.2",
+                "facetrack-d": "~>0.6.2",
+                "i18n-d": "~>1.0.1",
+                "inmath": "~>1.0.1",
+                "inochi2d": "~>0.7.2",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.7.3"
         }
     ]
 }
