@@ -4,7 +4,7 @@
         "application.desktop.development.packaging",
         "library.development"
     ],
-    "commitID": "131ba4ecb5a4c9683c53ec4bc1c1c44a734bf8fa",
+    "commitID": "e02f58611f4e1deaf7b575c9d457c43c2f1440ac",
     "dateAdded": "2013-01-14T20:03:10",
     "description": "Package manager for D packages",
     "documentationURL": "",
@@ -142,7 +142,7 @@
             "version": "~fix_issue_622"
         },
         {
-            "commitID": "3ae6ff67fbac68131785d2359316b9252cc0cf2c",
+            "commitID": "ea78ec6c4660a3024746ef8c25f0ea2b59275afe",
             "configurations": [
                 {
                     "name": "application"
@@ -328,7 +328,7 @@
             "version": "~no_library_selections"
         },
         {
-            "commitID": "80a3e2d41af2a4907137dd34976a4517de2dbeb7",
+            "commitID": "e02f58611f4e1deaf7b575c9d457c43c2f1440ac",
             "configurations": [
                 {
                     "name": "application"
@@ -5632,6 +5632,68 @@
             ],
             "name": "dub",
             "version": "1.29.0"
+        },
+        {
+            "commitID": "a15f7ae4ea22b672df8bee4240c7cf142b255e71",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": {
+                            "optional": true,
+                            "version": ">=0.9.0 <0.10.0"
+                        }
+                    },
+                    "name": "library-nonet"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": {
+                            "optional": true,
+                            "version": ">=0.9.0 <0.10.0"
+                        }
+                    },
+                    "name": "dynamic-library-nonet"
+                }
+            ],
+            "name": "dub",
+            "version": "1.29.1-beta.1"
+        },
+        {
+            "commitID": "e02f58611f4e1deaf7b575c9d457c43c2f1440ac",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": {
+                            "optional": true,
+                            "version": ">=0.9.0 <0.10.0"
+                        }
+                    },
+                    "name": "library-nonet"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": {
+                            "optional": true,
+                            "version": ">=0.9.0 <0.10.0"
+                        }
+                    },
+                    "name": "dynamic-library-nonet"
+                }
+            ],
+            "name": "dub",
+            "version": "1.29.1"
         }
     ]
 }
