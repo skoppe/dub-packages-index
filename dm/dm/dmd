@@ -4,7 +4,7 @@
         "application.desktop.development.analyzer",
         "application.desktop.development.compiler"
     ],
-    "commitID": "c04f8e544177efaa1ec4b176173a8d125aa040b3",
+    "commitID": "f282f98f7b8cadd4e37fb95c78d3590756f817e7",
     "dateAdded": "2017-07-17T22:04:25",
     "description": "The DMD compiler",
     "documentationURL": "",
@@ -77,6 +77,37 @@
             "version": "~delete-jenkinsfile"
         },
         {
+            "commitID": "3fa0d2ab5f136554238d4725bc228bbff6e79e01",
+            "dependencies": {
+                "dmd:frontend": ">=0.0.0"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": ">=0.0.0"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": ">=0.0.0"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": ">=0.0.0"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "~dkorpel-patch-1"
+        },
+        {
             "commitID": "4a75696471a13e2ad0ac017843e8f3e36d5afa28",
             "dependencies": {
                 "dmd:parser": ">=0.0.0"
@@ -102,7 +133,7 @@
             "version": "~newCTFE"
         },
         {
-            "commitID": "b8cd91784e693b92eaf19034ab34c59a9836c98a",
+            "commitID": "f282f98f7b8cadd4e37fb95c78d3590756f817e7",
             "dependencies": {
                 "dmd:frontend": ">=0.0.0"
             },
@@ -133,7 +164,7 @@
             "version": "~stable"
         },
         {
-            "commitID": "bd30b13842f05eb2b31b589409ebd0215f83d140",
+            "commitID": "20bd0cacbd4c7cc26cda5a404eb79809ec14d209",
             "dependencies": {
                 "dmd:frontend": ">=0.0.0"
             },
@@ -226,7 +257,7 @@
             "version": "2.100.0-rc.1"
         },
         {
-            "commitID": "c04f8e544177efaa1ec4b176173a8d125aa040b3",
+            "commitID": "32c99d0b58684f1e5549dda710bf2f3d86b86cc8",
             "dependencies": {
                 "dmd:frontend": ">=0.0.0"
             },
@@ -255,6 +286,68 @@
                 }
             ],
             "version": "2.100.0"
+        },
+        {
+            "commitID": "fa80a8bb79808bee6629d84cbc83636399077d15",
+            "dependencies": {
+                "dmd:frontend": ">=0.0.0"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": ">=0.0.0"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": ">=0.0.0"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": ">=0.0.0"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.100.1-beta.1"
+        },
+        {
+            "commitID": "f282f98f7b8cadd4e37fb95c78d3590756f817e7",
+            "dependencies": {
+                "dmd:frontend": ">=0.0.0"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": ">=0.0.0"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": ">=0.0.0"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": ">=0.0.0"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.100.1"
         }
     ]
 }
