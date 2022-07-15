@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "fd91b01e3aa7bc4c06449707850591026794e5e3",
+    "commitID": "463dfedf6623f57ccb4798eb83f519b5253d3c81",
     "dateAdded": "2022-07-08T22:43:50",
     "description": "Internationalization compatible with the GNU gettext utilities.",
     "documentationURL": "",
@@ -14,16 +14,13 @@
     },
     "versions": [
         {
-            "commitID": "c3a85ea7196647a5fc65c7b1dc03fce7706874ca",
+            "commitID": "463dfedf6623f57ccb4798eb83f519b5253d3c81",
             "configurations": [
                 {
                     "name": "default"
                 },
                 {
                     "name": "xgettext"
-                },
-                {
-                    "name": "docs"
                 }
             ],
             "dependencies": {
@@ -90,6 +87,42 @@
                 }
             ],
             "version": "1.0.0"
+        },
+        {
+            "commitID": "463dfedf6623f57ccb4798eb83f519b5253d3c81",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "xgettext"
+                }
+            ],
+            "dependencies": {
+                "mofile": "~>0.2.1"
+            },
+            "name": "gettext",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "colorize": "~>1.0.5"
+                    },
+                    "name": "merge"
+                },
+                {
+                    "dependencies": {
+                        "colorize": "~>1.0.5"
+                    },
+                    "name": "po2mo"
+                },
+                {
+                    "dependencies": {
+                        "libdparse": "~>0.19.3"
+                    },
+                    "name": "todo"
+                }
+            ],
+            "version": "1.0.1"
         }
     ]
 }
