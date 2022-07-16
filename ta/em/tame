@@ -3,7 +3,7 @@
         "library.generic",
         "library.general"
     ],
-    "commitID": "78c30a53ccad64b2cecae401f1e99dd097b894ec",
+    "commitID": "16eb80e7f7fad1980e3af89765e3a2abc6196aec",
     "dateAdded": "2022-04-20T09:56:06",
     "description": "some utility library for D",
     "documentationURL": "",
@@ -17,13 +17,18 @@
     },
     "versions": [
         {
-            "commitID": "78c30a53ccad64b2cecae401f1e99dd097b894ec",
+            "commitID": "16eb80e7f7fad1980e3af89765e3a2abc6196aec",
             "configurations": [
                 {
                     "name": "lib"
                 }
             ],
             "name": "tame",
+            "subPackages": [
+                {
+                    "name": "lockfree"
+                }
+            ],
             "version": "~main"
         },
         {
@@ -35,6 +40,21 @@
             ],
             "name": "tame",
             "version": "0.0.1"
+        },
+        {
+            "commitID": "16eb80e7f7fad1980e3af89765e3a2abc6196aec",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "name": "tame",
+            "subPackages": [
+                {
+                    "name": "lockfree"
+                }
+            ],
+            "version": "0.0.2"
         }
     ]
 }
