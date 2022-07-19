@@ -3,7 +3,7 @@
         "library.graphics",
         "library.tui"
     ],
-    "commitID": "cf5d78eb9945e5b55a9b26990e41e0cdcb6ba30a",
+    "commitID": "32d38cddb9ae6d12a967984fabde7cb2d802b740",
     "dateAdded": "2018-09-26T23:29:44",
     "description": "Low-level API to generate self-contained PDF\/SVG\/HTML documents suitable for print",
     "documentationURL": "http:\/\/printed.dpldocs.info\/",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "cc888bf559417491cc0b50ff0932508ed287387a",
+            "commitID": "32d38cddb9ae6d12a967984fabde7cb2d802b740",
             "dependencies": {
                 "printed:canvas": ">=0.0.0",
                 "printed:font": ">=0.0.0",
@@ -35,7 +35,7 @@
                 {
                     "dependencies": {
                         "binrange": "~>1",
-                        "dplug:graphics": ">=8.0.0 <13.0.0",
+                        "gamut": "~>0",
                         "printed:font": ">=0.0.0",
                         "printed:htmlcolors": ">=0.0.0"
                     },
@@ -1135,6 +1135,43 @@
                 }
             ],
             "version": "1.2.9"
+        },
+        {
+            "commitID": "32d38cddb9ae6d12a967984fabde7cb2d802b740",
+            "dependencies": {
+                "printed:canvas": ">=0.0.0",
+                "printed:font": ">=0.0.0",
+                "printed:htmlcolors": ">=0.0.0"
+            },
+            "name": "printed",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "binrange": "~>1",
+                        "standardpaths": "~>0"
+                    },
+                    "name": "font"
+                },
+                {
+                    "dependencies": {
+                        "binrange": "~>1",
+                        "gamut": "~>0",
+                        "printed:font": ">=0.0.0",
+                        "printed:htmlcolors": ">=0.0.0"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "name": "htmlcolors"
+                },
+                {
+                    "dependencies": {
+                        "printed:canvas": ">=0.0.0"
+                    },
+                    "name": "flow"
+                }
+            ],
+            "version": "1.3.0"
         }
     ]
 }
