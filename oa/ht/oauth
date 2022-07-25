@@ -3,7 +3,7 @@
         "library.web.auth",
         "library.vibed"
     ],
-    "commitID": "7aaea401422a45ea45639415a351319a7234a381",
+    "commitID": "912bedb7074079f17a638f65d2d7699ce8f92638",
     "dateAdded": "2016-07-11T09:25:15",
     "description": "OAuth2 client library compatible with vibe.d",
     "documentationURL": "",
@@ -52,6 +52,31 @@
             "version": "~0.2"
         },
         {
+            "commitID": "5091bfc15c32b6a84035f2265d0f4f59e8d03228",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.7.11"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "vibe-d:core": ">=0.8.0-beta.6 <0.10.0",
+                "vibe-d:data": ">=0.0.0",
+                "vibe-d:http": ">=0.0.0",
+                "vibe-d:web": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "oauth",
+            "version": "~setup-gh-actions"
+        },
+        {
             "commitID": "2d806946fe24422838ccb3024f43dc6ccc891169",
             "configurations": [
                 {
@@ -77,22 +102,21 @@
             "version": "~use-newest-dmd"
         },
         {
-            "commitID": "7aaea401422a45ea45639415a351319a7234a381",
+            "commitID": "912bedb7074079f17a638f65d2d7699ce8f92638",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.7.11"
+                        "unit-threaded": "~>2"
                     },
                     "name": "unittest"
                 }
             ],
             "dependencies": {
-                "vibe-d:core": ">=0.8.0-beta.6 <0.10.0",
                 "vibe-d:data": ">=0.0.0",
-                "vibe-d:http": ">=0.0.0",
+                "vibe-d:http": "~>0.9.5",
                 "vibe-d:web": {
                     "optional": true,
                     "version": ">=0.0.0"
@@ -299,6 +323,30 @@
             },
             "name": "oauth",
             "version": "0.2.3"
+        },
+        {
+            "commitID": "912bedb7074079f17a638f65d2d7699ce8f92638",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "~>2"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "vibe-d:data": ">=0.0.0",
+                "vibe-d:http": "~>0.9.5",
+                "vibe-d:web": {
+                    "optional": true,
+                    "version": ">=0.0.0"
+                }
+            },
+            "name": "oauth",
+            "version": "0.2.4"
         }
     ]
 }
