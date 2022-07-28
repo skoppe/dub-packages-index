@@ -3,7 +3,7 @@
         "library.web.framework",
         "application.web.development"
     ],
-    "commitID": "61ebfe3b8124db6b7f704b354c0508a57ebf1f93",
+    "commitID": "72b4cddba8cc2eae32785331fdcfdf32234ebc12",
     "dateAdded": "2021-08-30T15:58:53",
     "description": "Ethereum stuff for D",
     "documentationURL": "",
@@ -49,7 +49,7 @@
             "version": "~test-docker-file"
         },
         {
-            "commitID": "577f0aabfce12e9b77f9a0d14aea9907f4654bb2",
+            "commitID": "72b4cddba8cc2eae32785331fdcfdf32234ebc12",
             "dependencies": {
                 "secp256k1": "2.1.0",
                 "silly": "~>1.1.1",
@@ -203,6 +203,37 @@
                 }
             ],
             "version": "0.0.6-alpha"
+        },
+        {
+            "commitID": "72b4cddba8cc2eae32785331fdcfdf32234ebc12",
+            "dependencies": {
+                "secp256k1": "2.1.0",
+                "silly": "~>1.1.1",
+                "structjson": "~>2.98.1",
+                "tynukrpc": "~>1.2.0"
+            },
+            "name": "deth",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "devtest"
+                },
+                {
+                    "dependencies": {
+                        "deth": {
+                            "path": "..\/..\/",
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "dummydefi"
+                }
+            ],
+            "version": "0.0.7-alpha"
         }
     ]
 }
