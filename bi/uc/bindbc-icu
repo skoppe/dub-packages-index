@@ -3,7 +3,7 @@
         "library.binding",
         "library.encoding"
     ],
-    "commitID": "1278c198d85b3a14eaf2af4262cf9c4a2ce4af64",
+    "commitID": "ce8292b9072d2cce2186c9d4496a4945b502e87b",
     "dateAdded": "2020-08-18T13:21:28",
     "description": "Dynamic and static bindings to IBM ICU, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "https:\/\/shoo.github.com\/bindbc-icu",
@@ -17,7 +17,38 @@
     },
     "versions": [
         {
-            "commitID": "1278c198d85b3a14eaf2af4262cf9c4a2ce4af64",
+            "commitID": "d9c05b43c80fe51e3a6a0259e42ca55897ed4944",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "static-nolib"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "dynamic-nolib"
+                },
+                {
+                    "name": "unittest-debug"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.3.0"
+            },
+            "name": "bindbc-icu",
+            "version": "~update_icu70"
+        },
+        {
+            "commitID": "ce8292b9072d2cce2186c9d4496a4945b502e87b",
             "configurations": [
                 {
                     "name": "default"
@@ -139,6 +170,37 @@
             },
             "name": "bindbc-icu",
             "version": "69.1.0"
+        },
+        {
+            "commitID": "ce8292b9072d2cce2186c9d4496a4945b502e87b",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "static-nolib"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "dynamic-nolib"
+                },
+                {
+                    "name": "unittest-debug"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>0.3.0"
+            },
+            "name": "bindbc-icu",
+            "version": "70.1.0"
         }
     ]
 }
