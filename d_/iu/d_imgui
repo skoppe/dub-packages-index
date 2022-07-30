@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "ab535c2fca0a6a635996dfc13c1f3ca7bb475067",
+    "commitID": "0df29d0bfe93486830097a9a602dc8eeb8d86a26",
     "dateAdded": "2020-06-14T22:37:19",
     "description": "Port of Dear Imgui: Bloat-free Immediate Mode Graphical User interface with minimal dependencies",
     "documentationURL": "https:\/\/github.com\/KytoDragon\/imgui",
@@ -180,6 +180,32 @@
                 }
             ],
             "version": "1.87.0-beta1"
+        },
+        {
+            "commitID": "0df29d0bfe93486830097a9a602dc8eeb8d86a26",
+            "dependencies": {
+                "d_snprintf": "~>1.1.1"
+            },
+            "name": "d_imgui",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "d_snprintf": "~>1.1.1",
+                        "erupted": "~>2.1"
+                    },
+                    "name": "glfw_vulkan"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "bindbc-opengl": "~>1.0.0",
+                        "d_snprintf": "~>1.1.1"
+                    },
+                    "name": "glfw_opengl3"
+                }
+            ],
+            "version": "1.87.0-beta2"
         }
     ]
 }
