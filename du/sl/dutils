@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "194d3db05c14edeb27fc189340f95f468aa20a4a",
+    "commitID": "d9bc6f1beff61d972e5f6202e593dd5715e4b334",
     "dateAdded": "2021-10-01T22:33:05",
     "description": "A collection of modules in the D Programming Language that people may find useful.",
     "documentationURL": "",
@@ -11,43 +11,12 @@
     "owner": "61522f5d56398098583ae55c",
     "repository": {
         "kind": "github",
-        "owner": "RubyTheRoobster",
+        "owner": "dutils-official",
         "project": "dutils"
     },
     "versions": [
         {
-            "commitID": "013f74a7966e5bde7c2814ae9175208ba64c8f3d",
-            "name": "dutils",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "dutils:skeleton": ">=0.0.0"
-                    },
-                    "name": "sprite"
-                },
-                {
-                    "name": "binom"
-                },
-                {
-                    "name": "skeleton"
-                },
-                {
-                    "dependencies": {
-                        "dutils:skeleton": ">=0.0.0"
-                    },
-                    "name": "physics"
-                },
-                {
-                    "dependencies": {
-                        "dutils:skeleton": ">=0.0.0"
-                    },
-                    "name": "transform"
-                }
-            ],
-            "version": "~stable"
-        },
-        {
-            "commitID": "194d3db05c14edeb27fc189340f95f468aa20a4a",
+            "commitID": "3e8867c70c22db6faac4884d69ba698cdb514d0b",
             "configurations": [
                 {
                     "name": "standard"
@@ -62,15 +31,72 @@
             "name": "dutils",
             "subPackages": [
                 {
-                    "dependencies": {
-                        "dutils:skeleton": ">=0.0.0"
-                    },
-                    "name": "sprite"
+                    "configurations": [
+                        {
+                            "name": "standard"
+                        },
+                        {
+                            "name": "shared"
+                        }
+                    ],
+                    "name": "math"
+                }
+            ],
+            "version": "~rubytheroobster"
+        },
+        {
+            "commitID": "602b6651123a0e1d56b22cd08aa3a5e8d6382f5a",
+            "configurations": [
+                {
+                    "name": "standard"
                 },
                 {
-                    "name": "binom"
+                    "name": "shared"
+                }
+            ],
+            "dependencies": {
+                "silly": "~>1.1.1"
+            },
+            "name": "dutils",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "standard"
+                        },
+                        {
+                            "name": "shared"
+                        }
+                    ],
+                    "name": "math"
+                }
+            ],
+            "version": "~stable"
+        },
+        {
+            "commitID": "d9bc6f1beff61d972e5f6202e593dd5715e4b334",
+            "configurations": [
+                {
+                    "name": "standard"
                 },
                 {
+                    "name": "shared"
+                }
+            ],
+            "dependencies": {
+                "silly": "~>1.1.1"
+            },
+            "name": "dutils",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "standard"
+                        },
+                        {
+                            "name": "shared"
+                        }
+                    ],
                     "name": "math"
                 }
             ],
@@ -266,6 +292,35 @@
                 }
             ],
             "version": "0.1.4-alpha"
+        },
+        {
+            "commitID": "d9bc6f1beff61d972e5f6202e593dd5715e4b334",
+            "configurations": [
+                {
+                    "name": "standard"
+                },
+                {
+                    "name": "shared"
+                }
+            ],
+            "dependencies": {
+                "silly": "~>1.1.1"
+            },
+            "name": "dutils",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "standard"
+                        },
+                        {
+                            "name": "shared"
+                        }
+                    ],
+                    "name": "math"
+                }
+            ],
+            "version": "0.2.0-beta.1"
         }
     ]
 }
