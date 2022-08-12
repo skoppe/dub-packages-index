@@ -4,7 +4,7 @@
         "library.generic",
         "library.development"
     ],
-    "commitID": "6e306b3e4576b0456b169b9f55e904f259cfc931",
+    "commitID": "2f4fb5c13a890ffd63bd4ae1bd28d162807b7849",
     "dateAdded": "2017-06-11T14:50:34",
     "description": "The extensible test runner for DLang",
     "documentationURL": "http:\/\/trial.szabobogdan.com\/api\/",
@@ -2995,6 +2995,60 @@
                 }
             ],
             "version": "0.7.11"
+        },
+        {
+            "commitID": "2f4fb5c13a890ffd63bd4ae1bd28d162807b7849",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": ">=0.0.0",
+                        "libdparse": ">=0.20.0"
+                    },
+                    "name": "trial"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.27.0",
+                        "fluent-asserts": ">=0.0.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        },
+                        "vibe-d:data": "~>0.9.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "trial",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": {
+                            "optional": true,
+                            "version": "0.14.0-alpha.11"
+                        },
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        }
+                    },
+                    "name": "lifecycle"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.27.0",
+                        "fluent-asserts": ">=0.0.0",
+                        "libdparse": "~>0.20.0",
+                        "vibe-d:data": "~>0.9.0",
+                        "vibe-d:http": "~>0.9.0"
+                    },
+                    "name": "runner"
+                }
+            ],
+            "version": "0.7.12"
         }
     ]
 }
