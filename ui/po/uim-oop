@@ -3,7 +3,7 @@
         "library.vibed",
         "library.generic"
     ],
-    "commitID": "0e1c2f2b79b6ed5eb49611b2bb1a6dac15bc9ec5",
+    "commitID": "1c7c9be24dae5d56a00e3e76d882f06b28656061",
     "dateAdded": "2019-05-01T09:10:56",
     "description": "OOP library for D",
     "documentationURL": "",
@@ -17,39 +17,61 @@
     },
     "versions": [
         {
-            "commitID": "38832ed6b3205fe32889d635625f480f987f1a15",
+            "commitID": "6ba8c929ad8a6a621613dfdabfdf4d6397452de3",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "uim-core": {
+                            "repository": "git+https:\/\/github.com\/UI-Manufaktur\/uim-core.git",
+                            "version": "a5bc7477f2817b36273dd49eaa4b6025188803ad"
+                        },
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "github"
+                },
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "testUnit"
+                },
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "testAll"
+                }
+            ],
+            "name": "uim-oop",
+            "version": "~master"
+        },
+        {
+            "commitID": "65ea048d079d8761268206facc38cb06a0960c18",
             "configurations": [
                 {
                     "name": "offline"
                 },
                 {
-                    "name": "test-offline"
-                },
-                {
-                    "dependencies": {
-                        "colored": "~>0.0.23",
-                        "silly": "~>1.1.1",
-                        "uim-core": "22.1.1",
-                        "vibe-d": "0.9.4"
-                    },
-                    "name": "online"
-                },
-                {
-                    "dependencies": {
-                        "colored": "~>0.0.23",
-                        "silly": "~>1.1.1",
-                        "uim-core": "22.1.1",
-                        "vibe-d": "0.9.4"
-                    },
-                    "name": "test-online"
+                    "name": "test"
                 }
             ],
             "dependencies": {
                 "colored": "~>0.0.23",
+                "uim-core": "~>22.1.1",
                 "vibe-d": "~>0.9.4"
             },
             "name": "uim-oop",
-            "version": "~master"
+            "version": "0.1.0"
         },
         {
             "commitID": "8287cd31b3c7316d2f370f48c20b128131508e1a",
@@ -192,6 +214,24 @@
             },
             "name": "uim-oop",
             "version": "22.2.1"
+        },
+        {
+            "commitID": "1c7c9be24dae5d56a00e3e76d882f06b28656061",
+            "configurations": [
+                {
+                    "name": "offline"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "dependencies": {
+                "colored": "~>0.0.27",
+                "silly": "~>1.1.1",
+                "vibe-d": "~>0.9.5"
+            },
+            "name": "uim-oop",
+            "version": "22.8.1"
         }
     ]
 }
