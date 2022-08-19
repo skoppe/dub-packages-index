@@ -5,7 +5,7 @@
         "library.nogc",
         "library.optimized_cpu"
     ],
-    "commitID": "76b43538ae58e55bc6ac5f14839f85729f709223",
+    "commitID": "5a465360f7c16033b3136473089b1dfe0646dd14",
     "dateAdded": "2017-01-05T14:40:05",
     "description": "Dlang Core Library",
     "documentationURL": "http:\/\/mir-algorithm.libmir.org\/",
@@ -474,7 +474,7 @@
             "version": "~wip"
         },
         {
-            "commitID": "76b43538ae58e55bc6ac5f14839f85729f709223",
+            "commitID": "5a465360f7c16033b3136473089b1dfe0646dd14",
             "configurations": [
                 {
                     "name": "default"
@@ -10761,6 +10761,43 @@
             },
             "name": "mir-algorithm",
             "version": "3.14.15"
+        },
+        {
+            "commitID": "5a465360f7c16033b3136473089b1dfe0646dd14",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                },
+                {
+                    "name": "dip1008"
+                },
+                {
+                    "name": "dips"
+                },
+                {
+                    "name": "ci-bignum-test"
+                },
+                {
+                    "name": "ci-core-test"
+                },
+                {
+                    "name": "ci-ndslice-test"
+                },
+                {
+                    "name": "ci-test"
+                }
+            ],
+            "dependencies": {
+                "mir-core": ">=1.1.106"
+            },
+            "name": "mir-algorithm",
+            "version": "3.14.16"
         }
     ]
 }
