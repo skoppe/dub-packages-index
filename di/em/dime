@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development"
     ],
-    "commitID": "a7025db48625cfd2f2e659d153fa1e5efa987d99",
+    "commitID": "d25b9e0d54e585fef7e257a8237d681081aba17f",
     "dateAdded": "2017-07-03T18:13:30",
     "description": "A simple time implementation in dlang.",
     "documentationURL": "",
@@ -16,11 +16,11 @@
     },
     "versions": [
         {
-            "commitID": "a7025db48625cfd2f2e659d153fa1e5efa987d99",
+            "commitID": "d25b9e0d54e585fef7e257a8237d681081aba17f",
             "configurations": [
                 {
                     "dependencies": {
-                        "asciitable": "~>0.0.14"
+                        "asciitable": "~>0.0.16"
                     },
                     "name": "application"
                 },
@@ -29,19 +29,13 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": "~>2.0.4"
+                        "unit-threaded": "~>2.1.2"
                     },
                     "name": "unittest"
-                },
-                {
-                    "dependencies": {
-                        "unit-threaded": "~>2.0.4"
-                    },
-                    "name": "ut"
                 }
             ],
             "dependencies": {
-                "colored": "~>0.0.27"
+                "colored": "~>0.0.29"
             },
             "name": "dime",
             "version": "~master"
@@ -289,6 +283,31 @@
             },
             "name": "dime",
             "version": "0.0.8"
+        },
+        {
+            "commitID": "d25b9e0d54e585fef7e257a8237d681081aba17f",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "asciitable": "~>0.0.16"
+                    },
+                    "name": "application"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "~>2.1.2"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "colored": "~>0.0.29"
+            },
+            "name": "dime",
+            "version": "0.0.9"
         }
     ]
 }

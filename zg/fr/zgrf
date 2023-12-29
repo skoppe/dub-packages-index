@@ -2,7 +2,7 @@
     "categories": [
         "library.data_structures"
     ],
-    "commitID": "aee8d2b37bf76f6fe1192edcab18c671f6ef1742",
+    "commitID": "48ea862beaeb5483c2f47b45ff466d17c5ab96af",
     "dateAdded": "2021-07-01T13:44:01",
     "description": "Library to interact with Gravity's GRF files.",
     "documentationURL": "",
@@ -16,9 +16,9 @@
     },
     "versions": [
         {
-            "commitID": "aee8d2b37bf76f6fe1192edcab18c671f6ef1742",
+            "commitID": "48ea862beaeb5483c2f47b45ff466d17c5ab96af",
             "dependencies": {
-                "zencoding:windows949": "~>1.0.0",
+                "zencoding:windows949": ">=1.0.0",
                 "zgrf:compression": ">=0.0.0",
                 "zgrf:crypto": ">=0.0.0"
             },
@@ -158,6 +158,42 @@
                 }
             ],
             "version": "1.1.0"
+        },
+        {
+            "commitID": "efdf31f621fb06b4a1a519d64d4d5069d30c1d79",
+            "dependencies": {
+                "zencoding:windows949": "~>1.0.0",
+                "zgrf:compression": ">=0.0.0",
+                "zgrf:crypto": ">=0.0.0"
+            },
+            "name": "zgrf",
+            "subPackages": [
+                {
+                    "name": "compression"
+                },
+                {
+                    "name": "crypto"
+                }
+            ],
+            "version": "2.0.0"
+        },
+        {
+            "commitID": "48ea862beaeb5483c2f47b45ff466d17c5ab96af",
+            "dependencies": {
+                "zencoding:windows949": ">=1.0.0",
+                "zgrf:compression": ">=0.0.0",
+                "zgrf:crypto": ">=0.0.0"
+            },
+            "name": "zgrf",
+            "subPackages": [
+                {
+                    "name": "compression"
+                },
+                {
+                    "name": "crypto"
+                }
+            ],
+            "version": "2.0.1"
         }
     ]
 }

@@ -3,7 +3,7 @@
         "application.desktop.development.documentation",
         "library.vibed"
     ],
-    "commitID": "5330af37e711017ea8a3f02270c413acd2534ffc",
+    "commitID": "7ce69fd87559b050f11422408b16909755f5799d",
     "dateAdded": "2012-10-06T00:26:04",
     "description": "Powerful alternative to DMD's DDOC engine.",
     "documentationURL": "",
@@ -12,12 +12,30 @@
     "owner": "4fb7e76ac2f9e3834c000000",
     "repository": {
         "kind": "github",
-        "owner": "rejectedsoftware",
+        "owner": "dlang",
         "project": "ddox"
     },
     "versions": [
         {
-            "commitID": "5330af37e711017ea8a3f02270c413acd2534ffc",
+            "commitID": "447b66092fd99d6b9a2ddcaaaf515c5ba5358208",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "hyphenate": "~>1.1.0",
+                "libdparse": "~>0.15.4",
+                "vibe-d:web": ">=0.7.31 <0.10.0-0"
+            },
+            "name": "ddox",
+            "version": "~fix-dmd-master"
+        },
+        {
+            "commitID": "b32457fc2c94405d02418d212818328fb3e177c9",
             "configurations": [
                 {
                     "name": "application"
@@ -1364,6 +1382,60 @@
             },
             "name": "ddox",
             "version": "0.16.19"
+        },
+        {
+            "commitID": "6c39c290521b561c5bbe2159ea99a95710a30d83",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "hyphenate": "~>1.1.0",
+                "libdparse": "~>0.15.4",
+                "vibe-d:web": ">=0.7.31 <0.10.0-0"
+            },
+            "name": "ddox",
+            "version": "0.16.20"
+        },
+        {
+            "commitID": "936014fb1bf5414d3eda21a50d090a231a89416b",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "hyphenate": "~>1.1.0",
+                "libdparse": "~>0.15.4",
+                "vibe-d:web": ">=0.7.31 <0.10.0-0"
+            },
+            "name": "ddox",
+            "version": "0.16.21"
+        },
+        {
+            "commitID": "7ce69fd87559b050f11422408b16909755f5799d",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "hyphenate": "~>1.1.0",
+                "libdparse": "~>0.15.4",
+                "vibe-d:web": ">=0.7.31 <0.10.0-0"
+            },
+            "name": "ddox",
+            "version": "0.16.22"
         }
     ]
 }

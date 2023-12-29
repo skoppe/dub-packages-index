@@ -2,15 +2,16 @@
     "categories": [
         "library.binding",
         "library.gamedev",
-        "library.graphics"
+        "library.graphics",
+        "library.nogc"
     ],
-    "commitID": "c9bb612307871c5355a35b9eca97bda7e9e3e265",
+    "commitID": "042f23eb40fef62fea1a45a85f8aa23813663b3c",
     "dateAdded": "2018-10-18T17:24:00",
-    "description": "Dynamic bindings to OpenGL, compatible with -betterC, @nogc, and nothrow.",
+    "description": "Dynamic bindings to OpenGL, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
     "id": "5bc8a590ee53f8ba4c8bd284",
     "name": "bindbc-opengl",
-    "owner": "51c06019cbbd2bfc610002a4",
+    "owner": "62d24f13a808d5cc35199e92",
     "repository": {
         "kind": "github",
         "owner": "BindBC",
@@ -34,7 +35,7 @@
             "version": "~wayland"
         },
         {
-            "commitID": "c9bb612307871c5355a35b9eca97bda7e9e3e265",
+            "commitID": "042f23eb40fef62fea1a45a85f8aa23813663b3c",
             "configurations": [
                 {
                     "name": "dynamic"
@@ -44,7 +45,7 @@
                 }
             ],
             "dependencies": {
-                "bindbc-loader": "~>1.0.0"
+                "bindbc-loader": "~>1.1.0"
             },
             "name": "bindbc-opengl",
             "version": "~master"
@@ -448,6 +449,70 @@
             },
             "name": "bindbc-opengl",
             "version": "1.0.2"
+        },
+        {
+            "commitID": "e9e1c9e9783156b40b947f56f5a223cabb0526a8",
+            "configurations": [
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "dynamicBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>1.0.0"
+            },
+            "name": "bindbc-opengl",
+            "version": "1.0.3"
+        },
+        {
+            "commitID": "3b1b3e2fcb0930e4ebaeeb7c4a4373d93cfc0702",
+            "configurations": [
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "dynamicBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>1.0.0"
+            },
+            "name": "bindbc-opengl",
+            "version": "1.0.4"
+        },
+        {
+            "commitID": "bfb9624c5ce714cedfa111462859bc6dccdbd290",
+            "configurations": [
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "dynamicBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>1.0.0"
+            },
+            "name": "bindbc-opengl",
+            "version": "1.0.5"
+        },
+        {
+            "commitID": "042f23eb40fef62fea1a45a85f8aa23813663b3c",
+            "configurations": [
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "dynamicBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>1.1.0"
+            },
+            "name": "bindbc-opengl",
+            "version": "1.1.0"
         }
     ]
 }

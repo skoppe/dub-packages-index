@@ -1,15 +1,16 @@
 {
     "categories": [
         "library.binding",
-        "library.scripting"
+        "library.scripting",
+        "library.nogc"
     ],
-    "commitID": "a188222d62ad7e624d00891632f6ef35930b1313",
+    "commitID": "04295093171716aade32eb81febcdb5087ecf8b6",
     "dateAdded": "2019-10-20T15:41:40",
-    "description": "Dynamic and static bindings to Lua 5.1 and later, compatible with -betterC, @nogc, and nothrow.",
+    "description": "Static & dynamic bindings to Lua 5.1 and up, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
     "id": "5dac64143a02a2a96740bbfb",
     "name": "bindbc-lua",
-    "owner": "51c06019cbbd2bfc610002a4",
+    "owner": "62d24f13a808d5cc35199e92",
     "repository": {
         "kind": "github",
         "owner": "BindBC",
@@ -17,17 +18,17 @@
     },
     "versions": [
         {
-            "commitID": "a188222d62ad7e624d00891632f6ef35930b1313",
+            "commitID": "04295093171716aade32eb81febcdb5087ecf8b6",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamicBC"
                 },
@@ -315,6 +316,81 @@
             ],
             "name": "bindbc-lua",
             "version": "0.5.0"
+        },
+        {
+            "commitID": "172a3cba5ed6539c426552bc4c2731875790479d",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-lua",
+            "version": "0.5.1"
+        },
+        {
+            "commitID": "aa6b2250381f2a0b7ffa72d9014c7694b33355f7",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-lua",
+            "version": "0.6.0"
+        },
+        {
+            "commitID": "04295093171716aade32eb81febcdb5087ecf8b6",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-lua",
+            "version": "0.6.1"
         }
     ]
 }

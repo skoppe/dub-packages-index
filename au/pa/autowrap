@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "5aba306890d12db0c11b09c0f5c7176e30d897f7",
+    "commitID": "b65eed0535fcc3a8894f707367c2e32c3af8a966",
     "dateAdded": "2018-04-18T17:18:04",
     "description": "Wrap existing D code for use in other languages",
     "documentationURL": "",
@@ -11,7 +11,7 @@
     "owner": "5e133675d9ae6ba31bb31fcf",
     "repository": {
         "kind": "github",
-        "owner": "kaleidicassociates",
+        "owner": "symmetryinvestments",
         "project": "autowrap"
     },
     "versions": [
@@ -66,8 +66,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.11.0"
                     },
@@ -81,8 +80,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -96,8 +94,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.2"
                     },
@@ -149,8 +146,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -164,8 +160,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -179,8 +174,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -239,8 +233,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -254,8 +247,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -275,6 +267,129 @@
                 }
             ],
             "version": "~ambitious-wrap-all"
+        },
+        {
+            "commitID": "78f1050484a8290b75c49fde37d60121e8ee3c3d",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "mirror": "~>0.3.0"
+                    },
+                    "name": "reflection"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:pynih": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python310"
+                        },
+                        {
+                            "name": "python39"
+                        },
+                        {
+                            "name": "python38"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "autowrap:reflection": {
+                            "path": ".."
+                        },
+                        "pyd": "~>0.14.0"
+                    },
+                    "name": "pyd"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "autowrap:reflection": {
+                            "path": ".."
+                        },
+                        "mirror": "~>0.3.0"
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "excel-d": ">=0.5.8"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "autowrap:reflection": {
+                            "path": ".."
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "~importc_pynih"
         },
         {
             "commitID": "671bc346bcab19aeb793c3b9412e6d51f060ff06",
@@ -322,8 +437,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -389,8 +503,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -404,8 +517,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -419,8 +531,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.2"
                     },
@@ -476,8 +587,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -492,8 +602,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "csharp"
@@ -542,8 +651,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -578,8 +686,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "csharp"
@@ -628,8 +735,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -664,8 +770,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "csharp"
@@ -714,8 +819,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -750,8 +854,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "csharp"
@@ -760,7 +863,7 @@
             "version": "~wrap_xenon"
         },
         {
-            "commitID": "aa210192ffd13ad77e729157eb63c4f4fd345841",
+            "commitID": "cfe0764687719fd6ffb83cb286d19ae05f41888e",
             "configurations": [
                 {
                     "dependencies": {
@@ -788,44 +891,16 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         },
                         "mirror": "~>0.3.0"
                     },
                     "name": "reflection"
                 },
                 {
-                    "configurations": [
-                        {
-                            "name": "env"
-                        },
-                        {
-                            "name": "python38"
-                        },
-                        {
-                            "name": "python37"
-                        },
-                        {
-                            "name": "python36"
-                        },
-                        {
-                            "name": "python35"
-                        },
-                        {
-                            "name": "python34"
-                        },
-                        {
-                            "name": "python33"
-                        },
-                        {
-                            "name": "python27"
-                        }
-                    ],
                     "dependencies": {
-                        "autowrap:pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                        "autowrap:pynih": {
+                            "path": ".."
                         }
                     },
                     "name": "python"
@@ -834,6 +909,9 @@
                     "configurations": [
                         {
                             "name": "env"
+                        },
+                        {
+                            "name": "python310"
                         },
                         {
                             "name": "python39"
@@ -862,12 +940,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         },
                         "pyd": "~>0.14.0"
                     },
@@ -881,22 +957,20 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         },
-                        "mirror": "~>0.3.0"
+                        "mirror": "~>0.3.0",
+                        "monty": "~>0.0.1"
                     },
                     "name": "pynih"
                 },
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         },
                         "excel-d": ">=0.5.8"
                     },
@@ -905,12 +979,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -1043,8 +1115,7 @@
                     "dependencies": {
                         "pyd": "~master",
                         "reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "python"
@@ -1107,8 +1178,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~master"
                     },
@@ -1178,8 +1248,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~master"
                     },
@@ -1249,8 +1318,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~master"
                     },
@@ -1308,8 +1376,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~master"
                     },
@@ -1367,8 +1434,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~master"
                     },
@@ -1426,12 +1492,10 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -1491,12 +1555,10 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -1556,12 +1618,10 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -1621,12 +1681,10 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": {
-                            "path": "$PACKAGE_DIR\/..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "$PACKAGE_DIR\/..\/pyd"
                         }
                     },
                     "name": "python"
@@ -1686,12 +1744,10 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": {
-                            "path": "pyd",
-                            "version": ">=0.0.0"
+                            "path": "pyd"
                         }
                     },
                     "name": "python"
@@ -1751,12 +1807,10 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": {
-                            "path": "$PACKAGE_DIR\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "$PACKAGE_DIR\/pyd"
                         }
                     },
                     "name": "python"
@@ -1816,12 +1870,10 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": {
-                            "path": ".\/pyd",
-                            "version": ">=0.0.0"
+                            "path": ".\/pyd"
                         }
                     },
                     "name": "python"
@@ -1881,8 +1933,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~master"
                     },
@@ -1943,8 +1994,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.3"
                     },
@@ -2005,12 +2055,10 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": {
-                            "path": "pyd",
-                            "version": ">=0.0.0"
+                            "path": "pyd"
                         }
                     },
                     "name": "python"
@@ -2070,8 +2118,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -2132,8 +2179,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -2189,8 +2235,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -2225,8 +2270,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "csharp"
@@ -2275,8 +2319,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -2311,8 +2354,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.2"
                     },
@@ -2362,8 +2404,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -2398,8 +2439,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.2"
                     },
@@ -2449,8 +2489,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.10.4"
                     },
@@ -2485,8 +2524,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.2"
                     },
@@ -2545,8 +2583,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": ">=0.10.0 <0.12.0"
                     },
@@ -2560,8 +2597,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -2575,8 +2611,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -2635,8 +2670,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": ">=0.10.0 <0.12.0"
                     },
@@ -2650,8 +2684,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -2665,8 +2698,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -2725,8 +2757,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": ">=0.10.0 <0.12.0"
                     },
@@ -2740,8 +2771,7 @@
                     ],
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -2755,8 +2785,7 @@
                 {
                     "dependencies": {
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -2794,8 +2823,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         }
                     },
                     "name": "reflection"
@@ -2826,12 +2854,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": ">=0.10.0 <0.12.0"
                     },
@@ -2845,12 +2871,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -2864,12 +2888,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -2907,8 +2929,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "mirror": ">=0.0.0"
                     },
@@ -2940,8 +2961,7 @@
                     ],
                     "dependencies": {
                         "autowrap:pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -2972,12 +2992,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": ">=0.10.0 <0.12.0"
                     },
@@ -2991,12 +3009,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -3010,12 +3026,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -3053,8 +3067,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "mirror": ">=0.0.0"
                     },
@@ -3086,8 +3099,7 @@
                     ],
                     "dependencies": {
                         "autowrap:pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -3118,12 +3130,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.13.0"
                     },
@@ -3137,12 +3147,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -3156,12 +3164,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -3199,8 +3205,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "mirror": ">=0.0.0"
                     },
@@ -3232,8 +3237,7 @@
                     ],
                     "dependencies": {
                         "autowrap:pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -3264,12 +3268,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.13.0"
                     },
@@ -3283,12 +3285,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -3302,12 +3302,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -3345,8 +3343,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "mirror": ">=0.0.0"
                     },
@@ -3378,8 +3375,7 @@
                     ],
                     "dependencies": {
                         "autowrap:pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -3410,12 +3406,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.13.0"
                     },
@@ -3429,12 +3423,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         }
                     },
                     "name": "pynih"
@@ -3448,12 +3440,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -3491,8 +3481,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -3524,8 +3513,7 @@
                     ],
                     "dependencies": {
                         "autowrap:pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -3556,12 +3544,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.13.0"
                     },
@@ -3575,12 +3561,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -3595,12 +3579,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -3638,8 +3620,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -3671,8 +3652,7 @@
                     ],
                     "dependencies": {
                         "autowrap:pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -3703,12 +3683,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.13.0"
                     },
@@ -3722,12 +3700,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -3736,8 +3712,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "excel-d": ">=0.5.8"
                     },
@@ -3746,12 +3721,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -3789,8 +3762,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -3822,8 +3794,7 @@
                     ],
                     "dependencies": {
                         "autowrap:pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -3854,12 +3825,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.13.0"
                     },
@@ -3873,12 +3842,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -3887,8 +3854,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "excel-d": ">=0.5.8"
                     },
@@ -3897,12 +3863,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -3940,8 +3904,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -3976,8 +3939,7 @@
                     ],
                     "dependencies": {
                         "autowrap:pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -4011,12 +3973,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.14.0"
                     },
@@ -4030,12 +3990,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -4044,8 +4002,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "excel-d": ">=0.5.8"
                     },
@@ -4054,12 +4011,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -4097,8 +4052,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -4133,8 +4087,7 @@
                     ],
                     "dependencies": {
                         "autowrap:pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -4168,12 +4121,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.14.0"
                     },
@@ -4187,12 +4138,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -4201,8 +4150,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "excel-d": ">=0.5.8"
                     },
@@ -4211,12 +4159,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -4254,8 +4200,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -4290,8 +4235,7 @@
                     ],
                     "dependencies": {
                         "autowrap:pyd": {
-                            "path": "..\/pyd",
-                            "version": ">=0.0.0"
+                            "path": "..\/pyd"
                         }
                     },
                     "name": "python"
@@ -4328,12 +4272,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "pyd": "~>0.14.0"
                     },
@@ -4347,12 +4289,10 @@
                     ],
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "mirror": "~>0.3.0"
                     },
@@ -4361,8 +4301,7 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "excel-d": ">=0.5.8"
                     },
@@ -4371,12 +4310,10 @@
                 {
                     "dependencies": {
                         "autowrap:common": {
-                            "path": "..\/common",
-                            "version": ">=0.0.0"
+                            "path": "..\/common"
                         },
                         "autowrap:reflection": {
-                            "path": "..\/reflection",
-                            "version": ">=0.0.0"
+                            "path": "..\/reflection"
                         },
                         "scriptlike": "~>0.10.3"
                     },
@@ -4384,6 +4321,691 @@
                 }
             ],
             "version": "0.6.5"
+        },
+        {
+            "commitID": "2c3cb2b23bd10c84c84dc0dac3075af5d838db45",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "mirror": "~>0.3.0"
+                    },
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python38"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:pyd": {
+                            "path": "..\/pyd"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python39"
+                        },
+                        {
+                            "name": "python38"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection"
+                        },
+                        "pyd": "~>0.14.0"
+                    },
+                    "name": "pyd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection"
+                        },
+                        "mirror": "~>0.3.0"
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "excel-d": ">=0.5.8"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.6.6"
+        },
+        {
+            "commitID": "3c9ee4e41ac3d124240cf2e8866501d4e6dca1ac",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "mirror": "~>0.3.0"
+                    },
+                    "name": "reflection"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python38"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:pyd": {
+                            "path": "..\/pyd"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python39"
+                        },
+                        {
+                            "name": "python38"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection"
+                        },
+                        "pyd": "~>0.14.0"
+                    },
+                    "name": "pyd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection"
+                        },
+                        "mirror": "~>0.3.0"
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "excel-d": ">=0.5.8"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.6.7"
+        },
+        {
+            "commitID": "709f1e98267b24bcc957874222b1d48c2a35b8f7",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "mirror": "~>0.3.0"
+                    },
+                    "name": "reflection"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:pynih": {
+                            "path": "..\/pynih"
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python39"
+                        },
+                        {
+                            "name": "python38"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection"
+                        },
+                        "pyd": "~>0.14.0"
+                    },
+                    "name": "pyd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection"
+                        },
+                        "mirror": "~>0.3.0"
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "excel-d": ">=0.5.8"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": "..\/common"
+                        },
+                        "autowrap:reflection": {
+                            "path": "..\/reflection"
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.7.0"
+        },
+        {
+            "commitID": "f38fc0ad966eb4d619780b8336624b24cae753a3",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "mirror": "~>0.3.0"
+                    },
+                    "name": "reflection"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:pynih": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python310"
+                        },
+                        {
+                            "name": "python39"
+                        },
+                        {
+                            "name": "python38"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "autowrap:reflection": {
+                            "path": ".."
+                        },
+                        "pyd": "~>0.14.0"
+                    },
+                    "name": "pyd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "autowrap:reflection": {
+                            "path": ".."
+                        },
+                        "mirror": "~>0.3.0",
+                        "monty": "~>0.0.1"
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "excel-d": ">=0.5.8"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "autowrap:reflection": {
+                            "path": ".."
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.8.0"
+        },
+        {
+            "commitID": "b65eed0535fcc3a8894f707367c2e32c3af8a966",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:pynih": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": ">=0.0.0",
+                        "autowrap:reflection": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-no-pynih"
+                }
+            ],
+            "name": "autowrap",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "mirror": "~>0.3.0"
+                    },
+                    "name": "reflection"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:pynih": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "env"
+                        },
+                        {
+                            "name": "python310"
+                        },
+                        {
+                            "name": "python39"
+                        },
+                        {
+                            "name": "python38"
+                        },
+                        {
+                            "name": "python37"
+                        },
+                        {
+                            "name": "python36"
+                        },
+                        {
+                            "name": "python35"
+                        },
+                        {
+                            "name": "python34"
+                        },
+                        {
+                            "name": "python33"
+                        },
+                        {
+                            "name": "python27"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "autowrap:reflection": {
+                            "path": ".."
+                        },
+                        "pyd": "~>0.14.0"
+                    },
+                    "name": "pyd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "autowrap:reflection": {
+                            "path": ".."
+                        },
+                        "mirror": "~>0.3.0",
+                        "monty": "~>0.0.1"
+                    },
+                    "name": "pynih"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "excel-d": ">=0.5.8"
+                    },
+                    "name": "excel"
+                },
+                {
+                    "dependencies": {
+                        "autowrap:common": {
+                            "path": ".."
+                        },
+                        "autowrap:reflection": {
+                            "path": ".."
+                        },
+                        "scriptlike": "~>0.10.3"
+                    },
+                    "name": "csharp"
+                }
+            ],
+            "version": "0.8.1"
         }
     ]
 }

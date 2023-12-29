@@ -3,7 +3,7 @@
         "library.binding",
         "library.gui"
     ],
-    "commitID": "2813b7bbb51ea9282a8920719b7d355d69cedd5c",
+    "commitID": "95db39b6f9522d5f62b60ba893c571641f7b47b5",
     "dateAdded": "2019-01-28T20:17:21",
     "description": "Dynamic and static bindings to nuklear, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -17,17 +17,17 @@
     },
     "versions": [
         {
-            "commitID": "2813b7bbb51ea9282a8920719b7d355d69cedd5c",
+            "commitID": "a6a5dca24051218dbae96ae322c00f15a7d516b2",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-loader": ">=0.2.1 <0.4.0"
+                        "bindbc-loader": ">=1.0.1"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": ">=0.2.1 <0.4.0"
+                        "bindbc-loader": ">=1.0.1"
                     },
                     "name": "dynamicBC"
                 },
@@ -390,6 +390,56 @@
             ],
             "name": "bindbc-nuklear",
             "version": "0.4.4"
+        },
+        {
+            "commitID": "98d37867e08dc84359c00fd12c038b5e30d6fd5f",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": ">=1.0.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": ">=1.0.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-nuklear",
+            "version": "0.5.0"
+        },
+        {
+            "commitID": "95db39b6f9522d5f62b60ba893c571641f7b47b5",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": ">=1.0.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": ">=1.0.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-nuklear",
+            "version": "0.5.1"
         }
     ]
 }

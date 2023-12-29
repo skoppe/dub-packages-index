@@ -1,0 +1,250 @@
+{
+    "categories": [
+        "library.web.framework"
+    ],
+    "commitID": "3df741302ace6dd33e939f9ad02e5bf07a07303d",
+    "dateAdded": "2023-07-09T05:43:12",
+    "description": "A minimal yet complete web framework",
+    "documentationURL": "",
+    "id": "64aa2cd053d32c16c0137d9a",
+    "name": "ninox-d_web",
+    "owner": "642df621bb22d3ff44e70446",
+    "repository": {
+        "kind": "github",
+        "owner": "Bithero-Agency",
+        "project": "ninox.d-web"
+    },
+    "versions": [
+        {
+            "commitID": "3df741302ace6dd33e939f9ad02e5bf07a07303d",
+            "dependencies": {
+                "ninox-d_async": "~>1.1.2",
+                "ninox-d_fs": "~>1.0.2",
+                "ninox-d_std:optional": "~>1.4.0",
+                "ninox-d_web:http": {
+                    "path": ".\/subpackages\/http"
+                }
+            },
+            "name": "ninox-d_web",
+            "subPackages": [
+                {
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "ninox-d_data": "~>1.1.0",
+                        "ninox-d_web": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "ninox-d_data"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "commitID": "17ebf1b866056e0e032fb1ff00273ec9d640735e",
+            "dependencies": {
+                "miniasync": "~>0.3.1",
+                "ninox-d_web:http": {
+                    "path": ".\/subpackages\/http"
+                }
+            },
+            "name": "ninox-d_web",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "ninox-d_web": {
+                            "path": ".."
+                        },
+                        "ninox-d_web:serialize-d": {
+                            "path": "..\/subpackages\/serialize_d"
+                        },
+                        "serialize-d:json": "~>1.0.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "ninox-d_web": {
+                            "path": ".."
+                        },
+                        "serialize-d": "~>1.0.0"
+                    },
+                    "name": "serialize-d"
+                }
+            ],
+            "version": "1.0.0"
+        },
+        {
+            "commitID": "951b94ffee94a54660c469d31d2b85dcb41bd42f",
+            "dependencies": {
+                "ninox-d_async": "~>1.0.0",
+                "ninox-d_web:http": {
+                    "path": ".\/subpackages\/http"
+                }
+            },
+            "name": "ninox-d_web",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "ninox-d_data:json": "~>1.0.0",
+                        "ninox-d_web": {
+                            "path": ".."
+                        },
+                        "ninox-d_web:ninox-d_data": {
+                            "path": "..\/subpackages\/ninox-d_data"
+                        }
+                    },
+                    "name": "test"
+                },
+                {
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "ninox-d_data": "~>1.0.0",
+                        "ninox-d_web": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "ninox-d_data"
+                }
+            ],
+            "version": "1.1.0"
+        },
+        {
+            "commitID": "9e0c0d842017f96c67662fa5eb1b2058b78ba353",
+            "dependencies": {
+                "ninox-d_async": "~>1.0.0",
+                "ninox-d_fs": "~>1.0.2",
+                "ninox-d_web:http": {
+                    "path": ".\/subpackages\/http"
+                }
+            },
+            "name": "ninox-d_web",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "ninox-d_data:json": "~>1.0.0",
+                        "ninox-d_web": {
+                            "path": ".."
+                        },
+                        "ninox-d_web:ninox-d_data": {
+                            "path": "..\/subpackages\/ninox-d_data"
+                        }
+                    },
+                    "name": "test"
+                },
+                {
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "ninox-d_data": "~>1.0.0",
+                        "ninox-d_web": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "ninox-d_data"
+                }
+            ],
+            "version": "1.2.0"
+        },
+        {
+            "commitID": "301b472f91452aadfbc8d47a2729e4e06bbb56de",
+            "dependencies": {
+                "ninox-d_async": "~>1.0.0",
+                "ninox-d_fs": "~>1.0.2",
+                "ninox-d_web:http": {
+                    "path": ".\/subpackages\/http"
+                }
+            },
+            "name": "ninox-d_web",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "ninox-d_data:json": "~>1.0.0",
+                        "ninox-d_web": {
+                            "path": ".."
+                        },
+                        "ninox-d_web:ninox-d_data": {
+                            "path": "..\/subpackages\/ninox-d_data"
+                        }
+                    },
+                    "name": "test"
+                },
+                {
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "ninox-d_data": "~>1.0.0",
+                        "ninox-d_web": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "ninox-d_data"
+                }
+            ],
+            "version": "1.2.1"
+        },
+        {
+            "commitID": "bffb60dcd2588843dc266d6081bcde392af3c7a3",
+            "dependencies": {
+                "ninox-d_async": "~>1.1.1",
+                "ninox-d_fs": "~>1.0.2",
+                "ninox-d_std:optional": "~>1.4.0",
+                "ninox-d_web:http": {
+                    "path": ".\/subpackages\/http"
+                }
+            },
+            "name": "ninox-d_web",
+            "subPackages": [
+                {
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "ninox-d_data": "~>1.1.0",
+                        "ninox-d_web": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "ninox-d_data"
+                }
+            ],
+            "version": "1.2.2"
+        },
+        {
+            "commitID": "3df741302ace6dd33e939f9ad02e5bf07a07303d",
+            "dependencies": {
+                "ninox-d_async": "~>1.1.2",
+                "ninox-d_fs": "~>1.0.2",
+                "ninox-d_std:optional": "~>1.4.0",
+                "ninox-d_web:http": {
+                    "path": ".\/subpackages\/http"
+                }
+            },
+            "name": "ninox-d_web",
+            "subPackages": [
+                {
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "ninox-d_data": "~>1.1.0",
+                        "ninox-d_web": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "ninox-d_data"
+                }
+            ],
+            "version": "1.2.3"
+        }
+    ]
+}

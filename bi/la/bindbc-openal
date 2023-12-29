@@ -2,15 +2,16 @@
     "categories": [
         "library.binding",
         "library.gamedev",
-        "library.audio"
+        "library.audio",
+        "library.nogc"
     ],
-    "commitID": "281d35b9c028ccb8cb3b7b6f2ce06b4e73118a38",
+    "commitID": "e158df25441d9a7f28db421b2e64fc5e06ec36f3",
     "dateAdded": "2018-12-08T14:00:46",
-    "description": "Dynamic bindings to OpenAL, compatible with -betterC, @nogc, and nothrow.",
+    "description": "Static & dynamic bindings to OpenAL, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
     "id": "5c0bc07e776ff85a2a1b00e9",
     "name": "bindbc-openal",
-    "owner": "51c06019cbbd2bfc610002a4",
+    "owner": "62d24f13a808d5cc35199e92",
     "repository": {
         "kind": "github",
         "owner": "BindBC",
@@ -43,17 +44,17 @@
             "version": "~enhancements"
         },
         {
-            "commitID": "281d35b9c028ccb8cb3b7b6f2ce06b4e73118a38",
+            "commitID": "e8d05c2e8013500e8417555202f972a5ba271a38",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamicBC"
                 },
@@ -64,6 +65,9 @@
                     "name": "staticBC"
                 }
             ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.1"
+            },
             "name": "bindbc-openal",
             "version": "~master"
         },
@@ -235,6 +239,56 @@
             ],
             "name": "bindbc-openal",
             "version": "1.0.0"
+        },
+        {
+            "commitID": "72ddaa18e8284574611143ceae04ea2cd4b6582b",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-openal",
+            "version": "1.0.1"
+        },
+        {
+            "commitID": "e158df25441d9a7f28db421b2e64fc5e06ec36f3",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-openal",
+            "version": "1.1.0"
         }
     ]
 }

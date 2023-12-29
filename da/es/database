@@ -2,7 +2,7 @@
     "categories": [
         "library.database"
     ],
-    "commitID": "b010795310ab3d33c9661731c844a3ca22817d2b",
+    "commitID": "8a70a586f6b95901e9304b3ff0b29cc5b93b13b6",
     "dateAdded": "2019-06-19T03:29:58",
     "description": "Lightweight native MySQL\/MariaDB & PostgreSQL driver",
     "documentationURL": "",
@@ -16,18 +16,101 @@
     },
     "versions": [
         {
-            "commitID": "b010795310ab3d33c9661731c844a3ca22817d2b",
+            "commitID": "07cd156079b9c67a7237ab143f4eab60ae2c4e9d",
             "dependencies": {
-                "database:mysql": ">=0.0.0",
-                "database:postgresql": ">=0.0.0"
+                "database:mysql": {
+                    "path": "."
+                },
+                "database:postgresql": {
+                    "path": "."
+                }
             },
             "name": "database",
             "subPackages": [
                 {
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
                     "name": "mysql"
                 },
                 {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "noMD5Auth"
+                        }
+                    ],
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
                     "name": "postgresql"
+                },
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
+                    "name": "sqlite"
+                },
+                {
+                    "name": "util"
+                }
+            ],
+            "version": "~0_v_0"
+        },
+        {
+            "commitID": "8a70a586f6b95901e9304b3ff0b29cc5b93b13b6",
+            "dependencies": {
+                "database:mysql": {
+                    "path": "."
+                },
+                "database:postgresql": {
+                    "path": "."
+                }
+            },
+            "name": "database",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "noMD5Auth"
+                        }
+                    ],
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
+                    "name": "postgresql"
+                },
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
+                    "name": "sqlite"
+                },
+                {
+                    "name": "util"
                 }
             ],
             "version": "~master"
@@ -271,6 +354,106 @@
                 }
             ],
             "version": "1.1.28"
+        },
+        {
+            "commitID": "07cd156079b9c67a7237ab143f4eab60ae2c4e9d",
+            "dependencies": {
+                "database:mysql": {
+                    "path": "."
+                },
+                "database:postgresql": {
+                    "path": "."
+                }
+            },
+            "name": "database",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "noMD5Auth"
+                        }
+                    ],
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
+                    "name": "postgresql"
+                },
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
+                    "name": "sqlite"
+                },
+                {
+                    "name": "util"
+                }
+            ],
+            "version": "1.2.0"
+        },
+        {
+            "commitID": "8a70a586f6b95901e9304b3ff0b29cc5b93b13b6",
+            "dependencies": {
+                "database:mysql": {
+                    "path": "."
+                },
+                "database:postgresql": {
+                    "path": "."
+                }
+            },
+            "name": "database",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
+                    "name": "mysql"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "noMD5Auth"
+                        }
+                    ],
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
+                    "name": "postgresql"
+                },
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "path": "."
+                        }
+                    },
+                    "name": "sqlite"
+                },
+                {
+                    "name": "util"
+                }
+            ],
+            "version": "1.2.1"
         }
     ]
 }

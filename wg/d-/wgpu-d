@@ -4,7 +4,7 @@
         "library.graphics",
         "application.desktop.game"
     ],
-    "commitID": "e1d2ffa22a62cf5ccab746f34c3c83a7d1d06b03",
+    "commitID": "fd676214ac85f437db0d5726b6297b89d86e111e",
     "dateAdded": "2020-10-24T10:53:17",
     "description": "D bindings to wgpu-native",
     "documentationURL": "https:\/\/chances.github.io\/wgpu-d",
@@ -28,8 +28,7 @@
                     "dependencies": {
                         "imageformats": "~>7.0.2",
                         "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "headless"
@@ -38,7 +37,7 @@
             "version": "~bindbc-wgpu"
         },
         {
-            "commitID": "abb1bde28b6ae58788c28ade4629720c8ae0c057",
+            "commitID": "903335265943182f35702756832e4616d92c180e",
             "configurations": [
                 {
                     "name": "library"
@@ -53,14 +52,57 @@
                     "dependencies": {
                         "imageformats": "~>7.0.2",
                         "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "headless"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "triangle"
                 }
             ],
             "version": "~ergonomics"
+        },
+        {
+            "commitID": "1afd2f8f7d3ef28869e766805fc8f102b1bdabe5",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "wgpu-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "headless"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "triangle"
+                }
+            ],
+            "version": "~examples\/cube"
         },
         {
             "commitID": "16540dd6debe8a0e9b2c08dd85869cef33a071b8",
@@ -78,8 +120,7 @@
                     "dependencies": {
                         "imageformats": "~>7.0.2",
                         "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "headless"
@@ -89,8 +130,7 @@
                         "bindbc-glfw": "~>1.0.0",
                         "imageformats": "~>7.0.2",
                         "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "triangle"
@@ -99,7 +139,7 @@
             "version": "~examples\/triangle"
         },
         {
-            "commitID": "f3b52432ad9bebc8568d7fe15aa33aee6cf19957",
+            "commitID": "652c20b2a00e35400bf6d6ca1866a55c0cd56f17",
             "configurations": [
                 {
                     "name": "library"
@@ -112,10 +152,17 @@
             "subPackages": [
                 {
                     "dependencies": {
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "enumerate"
+                },
+                {
+                    "dependencies": {
                         "imageformats": "~>7.0.2",
                         "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "headless"
@@ -125,11 +172,133 @@
                         "bindbc-glfw": "~>1.0.0",
                         "imageformats": "~>7.0.2",
                         "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "gfm:math": "~>8",
+                        "utils": {
+                            "path": "..\/utils"
+                        },
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "~wgpu-native-0.17"
+        },
+        {
+            "commitID": "64f7428c34272c32bd9639f7dd22eff4ed77bbe8",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "wgpu-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "enumerate"
+                },
+                {
+                    "dependencies": {
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "headless"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "gfm:math": "~>8",
+                        "utils": {
+                            "path": "..\/utils"
+                        },
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "~windows"
+        },
+        {
+            "commitID": "64f7428c34272c32bd9639f7dd22eff4ed77bbe8",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "wgpu-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "enumerate"
+                },
+                {
+                    "dependencies": {
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "headless"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "gfm:math": "~>8",
+                        "utils": {
+                            "path": "..\/utils"
+                        },
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "cube"
                 }
             ],
             "version": "~master"
@@ -142,8 +311,7 @@
                     "dependencies": {
                         "imageformats": "~>7.0.2",
                         "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "headless"
@@ -167,8 +335,7 @@
                     "dependencies": {
                         "imageformats": "~>7.0.2",
                         "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "headless"
@@ -192,8 +359,7 @@
                     "dependencies": {
                         "imageformats": "~>7.0.2",
                         "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "headless"
@@ -217,8 +383,7 @@
                     "dependencies": {
                         "imageformats": "~>7.0.2",
                         "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "headless"
@@ -228,14 +393,217 @@
                         "bindbc-glfw": "~>1.0.0",
                         "imageformats": "~>7.0.2",
                         "wgpu-d": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "triangle"
                 }
             ],
             "version": "0.1.0"
+        },
+        {
+            "commitID": "c80e609d6335a8d5b04650d76e6fd7a6940fe989",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "wgpu-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "headless"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "triangle"
+                }
+            ],
+            "version": "0.1.1"
+        },
+        {
+            "commitID": "875eb770cb6a8216e95230209040ec165521b661",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "wgpu-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "headless"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "triangle"
+                }
+            ],
+            "version": "0.1.2"
+        },
+        {
+            "commitID": "d963b7520867f25600b8db7c675343ae5ffa68a1",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "wgpu-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "headless"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "triangle"
+                }
+            ],
+            "version": "0.1.3"
+        },
+        {
+            "commitID": "755c7ea3b1b5ce7cd5a911f115e5f0136a4fd441",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "wgpu-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "headless"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "gfm:math": "~>8",
+                        "utils": {
+                            "path": "..\/utils"
+                        },
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.1.4"
+        },
+        {
+            "commitID": "fd676214ac85f437db0d5726b6297b89d86e111e",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "wgpu-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "enumerate"
+                },
+                {
+                    "dependencies": {
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "headless"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "imageformats": "~>7.0.2",
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "triangle"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-glfw": "~>1.0.0",
+                        "gfm:math": "~>8",
+                        "utils": {
+                            "path": "..\/utils"
+                        },
+                        "wgpu-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "cube"
+                }
+            ],
+            "version": "0.2.0"
         }
     ]
 }

@@ -4,7 +4,7 @@
         "library.generic",
         "library.development"
     ],
-    "commitID": "2f4fb5c13a890ffd63bd4ae1bd28d162807b7849",
+    "commitID": "08f2bf223e053a055c23246f90148b7ad00972f3",
     "dateAdded": "2017-06-11T14:50:34",
     "description": "The extensible test runner for DLang",
     "documentationURL": "http:\/\/trial.szabobogdan.com\/api\/",
@@ -3049,6 +3049,174 @@
                 }
             ],
             "version": "0.7.12"
+        },
+        {
+            "commitID": "fdb8ef8b865da043b1e9eee801485a3e03d3cf61",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dub": "~>1.29.2",
+                        "fluent-asserts": "~>1.0.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        },
+                        "vibe-d:data": "~>0.9.5"
+                    },
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.29.2",
+                        "fluent-asserts": "~>1.0.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        },
+                        "vibe-d:data": "~>0.9.5"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "trial",
+            "version": "0.8.0-beta.1"
+        },
+        {
+            "commitID": "6e306b3e4576b0456b169b9f55e904f259cfc931",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": "0.14.0-alpha.11",
+                        "libdparse": ">=0.20.0"
+                    },
+                    "name": "trial"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.27.0",
+                        "fluent-asserts": "0.14.0-alpha.11",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        },
+                        "vibe-d:data": "~>0.9.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "trial",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": {
+                            "optional": true,
+                            "version": "0.14.0-alpha.11"
+                        },
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        }
+                    },
+                    "name": "lifecycle"
+                },
+                {
+                    "dependencies": {
+                        "dub": "~>1.27.0",
+                        "fluent-asserts": "0.14.0-alpha.11",
+                        "libdparse": "~>0.20.0",
+                        "vibe-d:data": "~>0.9.0",
+                        "vibe-d:http": "~>0.9.0"
+                    },
+                    "name": "runner"
+                }
+            ],
+            "version": "0.8.0-beta.2"
+        },
+        {
+            "commitID": "29adc3938a9cdf0ef5d17915a3e2a2a14e9f69e1",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": "~>1.0.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        },
+                        "vibe-d:data": ">=0.0.0"
+                    },
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": "~>1.0.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        },
+                        "vibe-d:data": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "trial",
+            "version": "0.8.0-beta.3"
+        },
+        {
+            "commitID": "bc4ad2d21588d8a11c30deac09a07ed8372e2877",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": "~>1.0.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        }
+                    },
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": "~>1.0.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "trial",
+            "version": "0.8.0-beta.4"
+        },
+        {
+            "commitID": "08f2bf223e053a055c23246f90148b7ad00972f3",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": "~>1.0.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        }
+                    },
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "fluent-asserts": "~>1.0.0",
+                        "libdparse": {
+                            "optional": true,
+                            "version": ">=0.20.0"
+                        }
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "trial",
+            "version": "0.8.0-beta.5"
         }
     ]
 }

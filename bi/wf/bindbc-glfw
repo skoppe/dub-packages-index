@@ -1,15 +1,16 @@
 {
     "categories": [
         "library.binding",
-        "library.gamedev"
+        "library.gamedev",
+        "library.nogc"
     ],
-    "commitID": "dd093c7600ff7559539cb8ccfd361fdae1db34f9",
+    "commitID": "6529ce4f67f69839a93de5e0bbe1150fab30d633",
     "dateAdded": "2018-10-18T17:24:47",
-    "description": "Dynamic and static bindings to GLFW3, compatible with -betterC, @nogc, and nothrow.",
+    "description": "Static & dynamic bindings to GLFW3, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
     "id": "5bc8a5bfee53f8ba4c8bd2d6",
     "name": "bindbc-glfw",
-    "owner": "51c06019cbbd2bfc610002a4",
+    "owner": "62d24f13a808d5cc35199e92",
     "repository": {
         "kind": "github",
         "owner": "BindBC",
@@ -17,17 +18,17 @@
     },
     "versions": [
         {
-            "commitID": "dd093c7600ff7559539cb8ccfd361fdae1db34f9",
+            "commitID": "6529ce4f67f69839a93de5e0bbe1150fab30d633",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamicBC"
                 },
@@ -490,6 +491,81 @@
             ],
             "name": "bindbc-glfw",
             "version": "1.0.1"
+        },
+        {
+            "commitID": "ab7f7a3e050f0c855a001339d9601c79f4579252",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-glfw",
+            "version": "1.0.2"
+        },
+        {
+            "commitID": "fa1b49dbe8b2fea1f4b7c8707709dce34c742748",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-glfw",
+            "version": "1.0.3"
+        },
+        {
+            "commitID": "6529ce4f67f69839a93de5e0bbe1150fab30d633",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-glfw",
+            "version": "1.1.0"
         }
     ]
 }

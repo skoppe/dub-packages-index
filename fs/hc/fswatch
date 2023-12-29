@@ -3,7 +3,7 @@
         "library.optimized_cpu",
         "library.filesystem"
     ],
-    "commitID": "36cb3301878524dc73474b2a6e875c486b658db2",
+    "commitID": "8bfb96aaf546c748b415df298ac20e7ef500ae4d",
     "dateAdded": "2016-07-18T22:36:09",
     "description": "a cross-platform folder & file watching library using win32, inotify or std.file",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "1925700c64d9a26fbb2a6231b2cf94dc343800a4",
+            "commitID": "8bfb96aaf546c748b415df298ac20e7ef500ae4d",
             "name": "fswatch",
             "subPackages": [
                 {
@@ -137,6 +137,19 @@
                 }
             ],
             "version": "0.6.0"
+        },
+        {
+            "commitID": "8bfb96aaf546c748b415df298ac20e7ef500ae4d",
+            "name": "fswatch",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fswatch": ">=0.0.0"
+                    },
+                    "name": "watch"
+                }
+            ],
+            "version": "0.6.1"
         }
     ]
 }

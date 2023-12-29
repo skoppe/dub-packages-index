@@ -2,7 +2,7 @@
     "categories": [
         "library.data"
     ],
-    "commitID": "68ceb0eb446cc45fb683e02d231bd686fde7e191",
+    "commitID": "acba0778e880fc40a84b192ebc57feb446e3d108",
     "dateAdded": "2013-02-25T01:06:45",
     "description": "YAML parser and emitter",
     "documentationURL": "",
@@ -138,7 +138,7 @@
             "version": "~tuto-gh-pages"
         },
         {
-            "commitID": "68ceb0eb446cc45fb683e02d231bd686fde7e191",
+            "commitID": "8b18bb0c6c41306278beebcd9b98fe8433661b91",
             "configurations": [
                 {
                     "name": "library"
@@ -187,6 +187,12 @@
                         "dyaml": ">=0.0.0"
                     },
                     "name": "tojson"
+                },
+                {
+                    "dependencies": {
+                        "dyaml": ">=0.0.0"
+                    },
+                    "name": "tokens"
                 },
                 {
                     "dependencies": {
@@ -1127,6 +1133,84 @@
                 }
             ],
             "version": "0.9.1"
+        },
+        {
+            "commitID": "acba0778e880fc40a84b192ebc57feb446e3d108",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "tinyendian": ">=0.0.0"
+                    },
+                    "name": "unittest-dip1000"
+                }
+            ],
+            "dependencies": {
+                "tinyendian": "~>0.2.0"
+            },
+            "name": "dyaml",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dyaml": ">=0.0.0"
+                    },
+                    "name": "constructor"
+                },
+                {
+                    "dependencies": {
+                        "dyaml": ">=0.0.0"
+                    },
+                    "name": "getting-started"
+                },
+                {
+                    "dependencies": {
+                        "dyaml": ">=0.0.0"
+                    },
+                    "name": "representer"
+                },
+                {
+                    "dependencies": {
+                        "dyaml": ">=0.0.0"
+                    },
+                    "name": "resolver"
+                },
+                {
+                    "dependencies": {
+                        "dyaml": ">=0.0.0"
+                    },
+                    "name": "tojson"
+                },
+                {
+                    "dependencies": {
+                        "dyaml": ">=0.0.0"
+                    },
+                    "name": "benchmark"
+                },
+                {
+                    "dependencies": {
+                        "dyaml": ">=0.0.0"
+                    },
+                    "name": "yaml_gen"
+                },
+                {
+                    "dependencies": {
+                        "dyaml": ">=0.0.0"
+                    },
+                    "name": "yaml_stats"
+                },
+                {
+                    "dependencies": {
+                        "dyaml": ">=0.0.0"
+                    },
+                    "name": "testsuite"
+                }
+            ],
+            "version": "0.9.2"
         }
     ]
 }

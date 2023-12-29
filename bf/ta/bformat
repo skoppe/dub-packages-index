@@ -1,12 +1,10 @@
 {
-    "categories": [
-        "library.network.messaging"
-    ],
-    "commitID": "80d96c20a5d60416fe82331ae75bf451012af760",
-    "dateAdded": "2020-05-02T19:19:06",
-    "description": "bformat socket writer and reader",
+    "categories": [],
+    "commitID": "6ed46d051c47b7930df752c843a2d1faca3baf85",
+    "dateAdded": "2023-03-25T20:30:31",
+    "description": "A simple message format for automatically length-prefixing messages over any socket or stream",
     "documentationURL": "",
-    "id": "5eadab8a013b66812bac5860",
+    "id": "641f4bd7bb22d3ff44da89e2",
     "name": "bformat",
     "owner": "5eada8d6013b66812bac56e2",
     "repository": {
@@ -16,9 +14,39 @@
     },
     "versions": [
         {
+            "commitID": "5d9c97862981378659e28988d8de4830d31c8af9",
+            "dependencies": {
+                "river": "~>0.3.6"
+            },
+            "name": "bformat",
+            "version": "~feature\/oop"
+        },
+        {
+            "commitID": "575db2d998027c4242875b08f72a9a1ba78b3542",
+            "dependencies": {
+                "river": "~>0.3.6"
+            },
+            "name": "bformat",
+            "version": "~feature\/river_stream"
+        },
+        {
             "commitID": "2d26cde27e5c5cdc9a8ef5cc61e9645e52027208",
             "name": "bformat",
             "version": "~generic"
+        },
+        {
+            "commitID": "35563e306164133f0c3ed9db9824b7edcee30640",
+            "dependencies": {
+                "niknaks": ">=0.3.0",
+                "river": ">=0.3.6"
+            },
+            "name": "bformat",
+            "version": "~hotfix\/niknaks"
+        },
+        {
+            "commitID": "e988fb71929b3c42d2b341fa98fd2f695c18abdc",
+            "name": "bformat",
+            "version": "~signals"
         },
         {
             "commitID": "b3b3ee9d4991eaef029d3d1873589cdc9658004a",
@@ -26,7 +54,11 @@
             "version": "~syscall_reduction"
         },
         {
-            "commitID": "80d96c20a5d60416fe82331ae75bf451012af760",
+            "commitID": "6ed46d051c47b7930df752c843a2d1faca3baf85",
+            "dependencies": {
+                "niknaks": ">=0.3.0",
+                "river": ">=0.3.6"
+            },
             "name": "bformat",
             "version": "~master"
         },
@@ -104,6 +136,175 @@
             "commitID": "80d96c20a5d60416fe82331ae75bf451012af760",
             "name": "bformat",
             "version": "3.1.3"
+        },
+        {
+            "commitID": "2c16839d8a6957d29bce7d16075de4326dac9aa8",
+            "name": "bformat",
+            "version": "3.1.4"
+        },
+        {
+            "commitID": "e288324b0a1ef41b65fa4f074ab9f07616852bb6",
+            "name": "bformat",
+            "version": "3.1.5"
+        },
+        {
+            "commitID": "4a5e6a325eacd7f209ea961a8a71c5fec244fe49",
+            "name": "bformat",
+            "version": "3.1.6"
+        },
+        {
+            "commitID": "0cb0365dea00cb95b17602c39b77fa828c42af05",
+            "name": "bformat",
+            "version": "3.1.7"
+        },
+        {
+            "commitID": "1f7cb1180421e701d978a6c661ba4d2d70f59ca3",
+            "name": "bformat",
+            "version": "3.1.8"
+        },
+        {
+            "commitID": "f8f0803c98b32d6b87e85ab9583b2176ec5c3d92",
+            "name": "bformat",
+            "version": "3.1.9"
+        },
+        {
+            "commitID": "bcd29bac3d8dfdf7697c88a5e422518fbe12f00c",
+            "name": "bformat",
+            "version": "3.1.10"
+        },
+        {
+            "commitID": "7b3908b053093380dc7c87c568516bbce5759346",
+            "name": "bformat",
+            "version": "3.1.11"
+        },
+        {
+            "commitID": "a2eb975b535a23ba27afe970c8f9394ab37015f4",
+            "name": "bformat",
+            "version": "3.1.12"
+        },
+        {
+            "commitID": "7ef3be4203b13293debfb8f9db35eab23e5574a3",
+            "name": "bformat",
+            "version": "3.1.13"
+        },
+        {
+            "commitID": "e1787d16b5332aa6ed0522ef7bd2e952b5114b2c",
+            "name": "bformat",
+            "version": "3.1.14"
+        },
+        {
+            "commitID": "bef4f852bf4d275b67934ba1aadd87b7033ca3f2",
+            "name": "bformat",
+            "version": "3.1.15"
+        },
+        {
+            "commitID": "2eb45381d101db865763647b47c902d4e8ce0c11",
+            "name": "bformat",
+            "version": "3.1.16"
+        },
+        {
+            "commitID": "6498c85f4c4523d234f92e1ec08a4a9f1aa53de2",
+            "name": "bformat",
+            "version": "3.1.17"
+        },
+        {
+            "commitID": "f347229d27aecbb1a1bfbb362106227201d19890",
+            "name": "bformat",
+            "version": "3.1.18"
+        },
+        {
+            "commitID": "1094d3d61f3b1ca0b9374a2a02a0fc1a52508feb",
+            "name": "bformat",
+            "version": "3.1.19"
+        },
+        {
+            "commitID": "18ed6b7cebee4ef5294f2a8b851a7d332bc3bb17",
+            "dependencies": {
+                "river": "~>0.3.6"
+            },
+            "name": "bformat",
+            "version": "4.0.0"
+        },
+        {
+            "commitID": "347b8ba02ae20f707d331c8d063f4613b83986a4",
+            "dependencies": {
+                "river": "~>0.3.6"
+            },
+            "name": "bformat",
+            "version": "4.0.1"
+        },
+        {
+            "commitID": "b26cea357083551f665108150f72b4a0068a402e",
+            "dependencies": {
+                "river": "~>0.3.6"
+            },
+            "name": "bformat",
+            "version": "4.0.2"
+        },
+        {
+            "commitID": "d9f34fbac4379db6fc0d4d19ffa6739c20af108a",
+            "dependencies": {
+                "river": "~>0.3.6"
+            },
+            "name": "bformat",
+            "version": "4.0.3"
+        },
+        {
+            "commitID": "afab414d0138d51188e5f75cd075d2722cbe4e50",
+            "dependencies": {
+                "river": "~>0.3.6"
+            },
+            "name": "bformat",
+            "version": "4.1.0"
+        },
+        {
+            "commitID": "9979d0d894eddfb31adb8dade86ee4e834c7c841",
+            "dependencies": {
+                "river": ">=0.3.6"
+            },
+            "name": "bformat",
+            "version": "4.1.1"
+        },
+        {
+            "commitID": "280fb551f2986aecd19eef48fa6e8ecc5c1c5a6f",
+            "dependencies": {
+                "river": ">=0.3.6"
+            },
+            "name": "bformat",
+            "version": "4.1.2"
+        },
+        {
+            "commitID": "cef8adf2a9c4aa964998a752545b3174e4b4b82b",
+            "dependencies": {
+                "river": ">=0.3.6"
+            },
+            "name": "bformat",
+            "version": "4.1.3"
+        },
+        {
+            "commitID": "6eb94450424fcf50f7278acf0c66b1663b1b4b19",
+            "dependencies": {
+                "river": ">=0.3.6"
+            },
+            "name": "bformat",
+            "version": "4.1.4"
+        },
+        {
+            "commitID": "6067155fca246bbc9baecd0d72dd7e2397348d88",
+            "dependencies": {
+                "river": ">=0.3.6"
+            },
+            "name": "bformat",
+            "version": "4.1.5"
+        },
+        {
+            "commitID": "6ed46d051c47b7930df752c843a2d1faca3baf85",
+            "dependencies": {
+                "niknaks": ">=0.3.0",
+                "river": ">=0.3.6"
+            },
+            "name": "bformat",
+            "version": "5.0.0"
         }
     ]
 }

@@ -4,7 +4,7 @@
         "library.general",
         "library.vibed"
     ],
-    "commitID": "a646ede53bfabed69ebba9b5d91f774b27213c5f",
+    "commitID": "f4c6b75ae01b8664a16c684725d8466e89b21321",
     "dateAdded": "2016-10-25T00:36:09",
     "description": "The I\/O core library of vibe.d.",
     "documentationURL": "https:\/\/vibed.org\/api\/",
@@ -18,16 +18,16 @@
     },
     "versions": [
         {
-            "commitID": "41a36a13670b54de27d5948a4507f041084d09a7",
+            "commitID": "bf265c3dd753b16131dd58811bb8f7a2dbf1d5b9",
             "configurations": [
                 {
                     "name": "winapi"
                 },
                 {
-                    "name": "winapi-optlink"
+                    "name": "epoll"
                 },
                 {
-                    "name": "epoll"
+                    "name": "cfrunloop"
                 },
                 {
                     "name": "kqueue"
@@ -36,30 +36,27 @@
                     "name": "select"
                 },
                 {
-                    "name": "select-optlink"
-                },
-                {
                     "name": "libasync"
                 }
             ],
             "dependencies": {
-                "eventcore": "~>0.8.40",
+                "eventcore": "~>0.9.17",
                 "stdx-allocator": "~>2.77.0"
             },
             "name": "vibe-core",
-            "version": "~bugfix"
+            "version": "~1.x.x"
         },
         {
-            "commitID": "82980060beccbe76274b980c368aaf1b564598d0",
+            "commitID": "4698973a1db60a22e7c4691c6058362ad664306d",
             "configurations": [
                 {
                     "name": "winapi"
                 },
                 {
-                    "name": "winapi-optlink"
+                    "name": "epoll"
                 },
                 {
-                    "name": "epoll"
+                    "name": "cfrunloop"
                 },
                 {
                     "name": "kqueue"
@@ -68,18 +65,44 @@
                     "name": "select"
                 },
                 {
-                    "name": "select-optlink"
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.27",
+                "vibe-container": "~>1"
+            },
+            "name": "vibe-core",
+            "version": "~debug_task_hogs"
+        },
+        {
+            "commitID": "5a322bf9481961194d606442921573c0be1500ba",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
                 },
                 {
                     "name": "libasync"
                 }
             ],
             "dependencies": {
-                "eventcore": "~>0.8.40",
-                "stdx-allocator": "~>2.77.0"
+                "eventcore": "~>0.9.27",
+                "vibe-container": "~>1"
             },
             "name": "vibe-core",
-            "version": "~dip1000"
+            "version": "~fix_find_handle_leak"
         },
         {
             "commitID": "3926028072a4ae2b5b155a7f2af8a75c31933349",
@@ -113,7 +136,7 @@
             "version": "~reproduce_optlink_issue_18"
         },
         {
-            "commitID": "a646ede53bfabed69ebba9b5d91f774b27213c5f",
+            "commitID": "de2403ceab2b02db8155bfb2ccd04934b895e009",
             "configurations": [
                 {
                     "name": "winapi"
@@ -135,8 +158,37 @@
                 }
             ],
             "dependencies": {
-                "eventcore": "~>0.9.17",
-                "stdx-allocator": "~>2.77.0"
+                "eventcore": "~>0.9.27",
+                "vibe-container": "~>1"
+            },
+            "name": "vibe-core",
+            "version": "~void_perform_in_worker"
+        },
+        {
+            "commitID": "f4c6b75ae01b8664a16c684725d8466e89b21321",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.27",
+                "vibe-container": "~>1"
             },
             "name": "vibe-core",
             "version": "~master"
@@ -2996,6 +3048,586 @@
             },
             "name": "vibe-core",
             "version": "1.22.4"
+        },
+        {
+            "commitID": "2fd96b1564c28020d8a52576bacf1173f78bee56",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "1.22.5"
+        },
+        {
+            "commitID": "b0e4d96e5f13db340e5ea26d9840209df11e9443",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "1.22.6"
+        },
+        {
+            "commitID": "0896dfb1f27791579392f9c9f0e5699089be3542",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "1.22.7"
+        },
+        {
+            "commitID": "737bf2f1ab03c330c4365f1622132ce9758d4345",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "1.23.0"
+        },
+        {
+            "commitID": "bf265c3dd753b16131dd58811bb8f7a2dbf1d5b9",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "1.24.0"
+        },
+        {
+            "commitID": "314b10233dc0cf6332a3962f2b8dead1b1980876",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "2.0.0-alpha.1"
+        },
+        {
+            "commitID": "5e003784767782028421673922de6261286cae19",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "2.0.0-beta.1"
+        },
+        {
+            "commitID": "4f603f292bc6be95d2dbbdd5ac0e77f531f81d23",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "2.0.0-rc.1"
+        },
+        {
+            "commitID": "f1f47d6f2864372e77b55fa04bbf81348509873f",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "2.0.0"
+        },
+        {
+            "commitID": "455c9735c0995297ae4bc24ac526f97cb7331bb7",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "2.0.1"
+        },
+        {
+            "commitID": "ff0eb012b1cc56b5ec431b44efe3afe6abf99975",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "2.1.0"
+        },
+        {
+            "commitID": "df666958072bffa678a16fa67b66ed644fb1b21a",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "2.2.0"
+        },
+        {
+            "commitID": "f31ddc354b8f590ad9a8f206e24f608c67f2be94",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "2.2.1"
+        },
+        {
+            "commitID": "e8df4f6b1d0b65a5cc0c7253b54af58d35c5803b",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "stdx-allocator": "~>2.77.0"
+            },
+            "name": "vibe-core",
+            "version": "2.3.0"
+        },
+        {
+            "commitID": "8e56c69c99ddc1720d00e14d1014826ade799647",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "vibe-container": "~>1"
+            },
+            "name": "vibe-core",
+            "version": "2.4.0"
+        },
+        {
+            "commitID": "9966eae8c20feb87e3b1362a616056e8eeabacae",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "vibe-container": "~>1"
+            },
+            "name": "vibe-core",
+            "version": "2.5.0"
+        },
+        {
+            "commitID": "d9d82ce5bd32c80932c9911d174315e77b26659e",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.17",
+                "vibe-container": "~>1"
+            },
+            "name": "vibe-core",
+            "version": "2.5.1"
+        },
+        {
+            "commitID": "06b7e4950fc366b372696f680d66c00f5fb49b82",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.27",
+                "vibe-container": "~>1"
+            },
+            "name": "vibe-core",
+            "version": "2.6.0"
+        },
+        {
+            "commitID": "0ebe8380d43fa0a8466fd828192e59de254745c5",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.27",
+                "vibe-container": "~>1"
+            },
+            "name": "vibe-core",
+            "version": "2.7.0"
+        },
+        {
+            "commitID": "f4c6b75ae01b8664a16c684725d8466e89b21321",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.27",
+                "vibe-container": "~>1"
+            },
+            "name": "vibe-core",
+            "version": "2.7.1"
         }
     ]
 }

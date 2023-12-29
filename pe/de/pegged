@@ -2,7 +2,7 @@
     "categories": [
         "library.development.parsing"
     ],
-    "commitID": "9636af7859607183c2b9debbc82997306071d07e",
+    "commitID": "bdd26d33cae36b4a42bb8ae38a180bc310c5af6b",
     "dateAdded": "2013-03-08T19:00:00",
     "description": "Parsing Expression Grammar (PEG) generator",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "2ecfb6d65b0ccd581b493094ae643b1233c29d7e",
+            "commitID": "f12b0bdf86725ac3cea4cce4744050ab5a4e89a7",
             "configurations": [
                 {
                     "name": "default"
@@ -30,8 +30,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "arithmetic"
@@ -39,26 +38,29 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
-                    "name": "numbers"
+                    "name": "c"
                 },
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
+                        },
+                        "pegged:numbers": {
+                            "path": "..\/.."
+                        },
+                        "pegged:strings": {
+                            "path": "..\/.."
                         }
                     },
-                    "name": "strings"
+                    "name": "composition"
                 },
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "csv"
@@ -66,11 +68,50 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "json"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "numbers"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "simple_arithmetic"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "strings"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "xml"
                 }
             ],
             "version": "~master"
@@ -198,8 +239,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "arithmetic"
@@ -207,8 +247,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "numbers"
@@ -216,8 +255,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "strings"
@@ -225,8 +263,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "csv"
@@ -234,8 +271,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "json"
@@ -258,8 +294,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "arithmetic"
@@ -267,8 +302,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "numbers"
@@ -276,8 +310,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "strings"
@@ -285,8 +318,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "csv"
@@ -294,8 +326,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "json"
@@ -318,8 +349,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "arithmetic"
@@ -327,8 +357,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "numbers"
@@ -336,8 +365,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "strings"
@@ -345,8 +373,7 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "csv"
@@ -354,14 +381,292 @@
                 {
                     "dependencies": {
                         "pegged": {
-                            "path": "..\/..",
-                            "version": ">=0.0.0"
+                            "path": "..\/.."
                         }
                     },
                     "name": "json"
                 }
             ],
             "version": "0.4.6"
+        },
+        {
+            "commitID": "d5d27f0e227e04d7c6e0f2f6b551290816d8096a",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "tracer"
+                }
+            ],
+            "name": "pegged",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "arithmetic"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        },
+                        "pegged:numbers": {
+                            "path": "..\/.."
+                        },
+                        "pegged:strings": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "composition"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "csv"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "json"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "numbers"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "simple_arithmetic"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "strings"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "xml"
+                }
+            ],
+            "version": "0.4.7"
+        },
+        {
+            "commitID": "31e02e22e075a37434354a26ef5d1dd8f58808e5",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "tracer"
+                }
+            ],
+            "name": "pegged",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "arithmetic"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        },
+                        "pegged:numbers": {
+                            "path": "..\/.."
+                        },
+                        "pegged:strings": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "composition"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "csv"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "json"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "numbers"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "simple_arithmetic"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "strings"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "xml"
+                }
+            ],
+            "version": "0.4.8"
+        },
+        {
+            "commitID": "bdd26d33cae36b4a42bb8ae38a180bc310c5af6b",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "tracer"
+                }
+            ],
+            "name": "pegged",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "arithmetic"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        },
+                        "pegged:numbers": {
+                            "path": "..\/.."
+                        },
+                        "pegged:strings": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "composition"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "csv"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "json"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "numbers"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "python"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "simple_arithmetic"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "strings"
+                },
+                {
+                    "dependencies": {
+                        "pegged": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "xml"
+                }
+            ],
+            "version": "0.4.9"
         }
     ]
 }

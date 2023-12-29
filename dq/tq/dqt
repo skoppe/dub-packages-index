@@ -3,7 +3,7 @@
         "library.binding",
         "library.gui"
     ],
-    "commitID": "758996c07616d1e419d12a538cc9c48890608a6f",
+    "commitID": "fa5aca359202149cba3088a544e2d2d7fb8afffa",
     "dateAdded": "2021-12-05T13:12:02",
     "description": "D bindings for Qt.",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "6ae788e4db3e24ac4272d8cdcba717bf86f1e2eb",
+            "commitID": "9b8fef21bd71906acc73235dd5373c1f1ae54889",
             "dependencies": {
                 "dqt:widgets": ">=0.0.0"
             },
@@ -54,7 +54,7 @@
             "version": "~test"
         },
         {
-            "commitID": "b60c89bd6b45e6be1d7cf717b076b2b0d59bfa97",
+            "commitID": "1bc5eaf0c4d6ae6c33030ee766e33d346417f9cd",
             "dependencies": {
                 "dqt:widgets": ">=0.0.0"
             },
@@ -91,7 +91,7 @@
             "version": "~testqt6"
         },
         {
-            "commitID": "6ae788e4db3e24ac4272d8cdcba717bf86f1e2eb",
+            "commitID": "a96a06411c6ed657be8a92bd0e614945ca672ac8",
             "dependencies": {
                 "dqt:widgets": ">=0.0.0"
             },
@@ -163,6 +163,43 @@
                 }
             ],
             "version": "5.15.2-alpha.1"
+        },
+        {
+            "commitID": "fa5aca359202149cba3088a544e2d2d7fb8afffa",
+            "dependencies": {
+                "dqt:widgets": ">=0.0.0"
+            },
+            "name": "dqt",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dqt:core": ">=0.0.0"
+                    },
+                    "name": "gui"
+                },
+                {
+                    "dependencies": {
+                        "dqt:gui": ">=0.0.0"
+                    },
+                    "name": "widgets"
+                },
+                {
+                    "dependencies": {
+                        "dqt:widgets": ">=0.0.0"
+                    },
+                    "name": "helloworld"
+                },
+                {
+                    "dependencies": {
+                        "dqt:widgets": ">=0.0.0"
+                    },
+                    "name": "examplewidgets"
+                }
+            ],
+            "version": "5.15.2-alpha.2"
         }
     ]
 }

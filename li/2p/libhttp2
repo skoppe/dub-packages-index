@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.optimized_mem"
     ],
-    "commitID": "79826df540d5f7c3a3d07b9dd4151be82b21d586",
+    "commitID": "8f84871a5826bc4de18e268620a5ba6fc570aa69",
     "dateAdded": "2015-03-18T13:46:04",
     "description": "An HTTP\/2 implementation for D.",
     "documentationURL": "",
@@ -19,7 +19,17 @@
     },
     "versions": [
         {
-            "commitID": "d7a12c5f1e4615616f4d5e87774c7b2652a7f416",
+            "commitID": "08ee0fa11bd7a1191d893653b396fa29693ec9c3",
+            "dependencies": {
+                "memutils": {
+                    "path": "..\/memutils"
+                }
+            },
+            "name": "libhttp2",
+            "version": "~wasm"
+        },
+        {
+            "commitID": "680ba79edd598bce11448da76cf1720a1117f5d1",
             "dependencies": {
                 "memutils": "~>1.0.1"
             },
@@ -169,6 +179,14 @@
             },
             "name": "libhttp2",
             "version": "1.0.0"
+        },
+        {
+            "commitID": "8f84871a5826bc4de18e268620a5ba6fc570aa69",
+            "dependencies": {
+                "memutils": "~>1.0.1"
+            },
+            "name": "libhttp2",
+            "version": "1.0.1"
         }
     ]
 }

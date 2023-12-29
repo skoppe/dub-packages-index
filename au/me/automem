@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "48a702d00acdcc331e4e7caf4a3e132fff2c50fe",
+    "commitID": "2ae47bd98aad06a7b07550d6e564ffe60ed1fbbf",
     "dateAdded": "2017-03-14T03:21:53",
     "description": "Automatic memory management",
     "documentationURL": "",
@@ -15,6 +15,68 @@
         "project": "automem"
     },
     "versions": [
+        {
+            "commitID": "2174a51183df491b436bd8acad75b2c7ebe27229",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "asan"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "utl"
+                }
+            ],
+            "name": "automem",
+            "version": "~coverage"
+        },
+        {
+            "commitID": "10a92386886580349cfd225ae015dd24b9a5e5ff",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "asan"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "utl"
+                }
+            ],
+            "name": "automem",
+            "version": "~static-vector"
+        },
         {
             "commitID": "f0873c0e7e16a7ad265665b2e9f0c4bd53464aa7",
             "configurations": [
@@ -47,7 +109,7 @@
             "version": "~test-utils"
         },
         {
-            "commitID": "48a702d00acdcc331e4e7caf4a3e132fff2c50fe",
+            "commitID": "3d452c071c0279e89d444de4785670a482617295",
             "configurations": [
                 {
                     "name": "library"
@@ -1082,6 +1144,68 @@
             ],
             "name": "automem",
             "version": "0.6.7"
+        },
+        {
+            "commitID": "87fd0106a1d95edd0f21625d97b30e44d77483f1",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "asan"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "utl"
+                }
+            ],
+            "name": "automem",
+            "version": "0.6.8"
+        },
+        {
+            "commitID": "2ae47bd98aad06a7b07550d6e564ffe60ed1fbbf",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "asan"
+                },
+                {
+                    "dependencies": {
+                        "test_allocator": ">=0.0.0",
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "utl"
+                }
+            ],
+            "name": "automem",
+            "version": "0.6.9"
         }
     ]
 }

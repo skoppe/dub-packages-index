@@ -2,15 +2,16 @@
     "categories": [
         "library.binding",
         "library.gamedev",
-        "library.graphics"
+        "library.graphics",
+        "library.nogc"
     ],
-    "commitID": "b7af0ea8a2504a06794b9763aa5adf7b49e1ef61",
+    "commitID": "9cad4097c113cc32203108dd4707f633d3f2b30f",
     "dateAdded": "2020-11-02T11:53:21",
-    "description": "Dynamic and static bindings to the SFML2 libraries, compatible with -betterC, @nogc, and nothrow.",
+    "description": "Static & dynamic bindings to the SFML2 libraries, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
     "id": "5f9fe521d1c92dd1727f3464",
     "name": "bindbc-sfml",
-    "owner": "51c06019cbbd2bfc610002a4",
+    "owner": "62d24f13a808d5cc35199e92",
     "repository": {
         "kind": "github",
         "owner": "BindBC",
@@ -18,17 +19,17 @@
     },
     "versions": [
         {
-            "commitID": "9f5188d67f205706eaf63f15ba8c70bb3692819f",
+            "commitID": "3846c376dc5a0139252a9020911c958e7602a776",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamicBC"
                 },
@@ -40,7 +41,7 @@
                 }
             ],
             "name": "bindbc-sfml",
-            "version": "~main"
+            "version": "~master"
         },
         {
             "commitID": "2536b07941b824e9be2355687afac8bfa8b00d7b",
@@ -116,6 +117,81 @@
             ],
             "name": "bindbc-sfml",
             "version": "1.0.0"
+        },
+        {
+            "commitID": "a1bc81da5c41ec49257228a29dc0f30ec7e5c788",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-sfml",
+            "version": "1.0.1"
+        },
+        {
+            "commitID": "f736abb9f55a7d623bab3f33c74a38fdbf817314",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-sfml",
+            "version": "1.0.2"
+        },
+        {
+            "commitID": "9cad4097c113cc32203108dd4707f633d3f2b30f",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-sfml",
+            "version": "1.1.0"
         }
     ]
 }

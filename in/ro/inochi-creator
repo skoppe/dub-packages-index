@@ -2,7 +2,7 @@
     "categories": [
         "application"
     ],
-    "commitID": "b6d0ab360729a7014cb764c18e7d32445a62dc87",
+    "commitID": "06da208b82745a5013073604ee9d9e8f1890403d",
     "dateAdded": "2021-06-08T15:01:43",
     "description": "Inochi2D rigging application",
     "documentationURL": "",
@@ -73,31 +73,51 @@
             "version": "~dpifix"
         },
         {
-            "commitID": "e3088ea82beb635b4e9db447d7a8ee4a3b17bf05",
+            "commitID": "28a6f41d4286a46219ff35c35304b29e5da46a95",
             "configurations": [
                 {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
                     "name": "barebones"
                 },
                 {
-                    "name": "win32-barebones"
+                    "name": "meta"
                 },
                 {
-                    "name": "full"
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-full"
+                },
+                {
+                    "name": "osx-full"
                 },
                 {
                     "name": "win32-full"
                 },
                 {
-                    "name": "win32-lite"
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-nightly"
+                },
+                {
+                    "name": "osx-nightly"
+                },
+                {
+                    "name": "win32-nightly"
                 }
             ],
             "dependencies": {
-                "bindbc-imgui": "~>0.7.0",
                 "bindbc-sdl": "~>1.1.2",
-                "facetrack-d": "~>0.6.2",
-                "i18n-d": "~>1.0.1",
-                "inmath": "~>1.0.1",
-                "inochi2d": "~>0.7.2",
+                "dcv:core": "~>0.3.0",
+                "facetrack-d": "~>0.7.6",
+                "i18n-d": "~>1.0.2",
+                "i2d-imgui": "~>0.8.0",
+                "inmath": "~>1.0.5",
+                "inochi2d": "~>0.8.3",
+                "kra-d": "~>0.5.5",
                 "psd-d": "~>0.6.1",
                 "tinyfiledialogs": "~>0.10.1"
             },
@@ -226,6 +246,58 @@
             },
             "name": "inochi-creator",
             "version": "~updating_imgui"
+        },
+        {
+            "commitID": "2ea10bacff0d1ddb53948ce8231fa385f4474695",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "barebones"
+                },
+                {
+                    "name": "meta"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-full"
+                },
+                {
+                    "name": "osx-full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-nightly"
+                },
+                {
+                    "name": "osx-nightly"
+                },
+                {
+                    "name": "win32-nightly"
+                }
+            ],
+            "dependencies": {
+                "bindbc-sdl": "~>1.1.2",
+                "dcv:core": "~>0.3.0",
+                "facetrack-d": "~>0.7.6",
+                "i18n-d": "~>1.0.2",
+                "i2d-imgui": "~>0.8.0",
+                "inmath": "~>1.0.5",
+                "inochi2d": "~>0.8.3",
+                "kra-d": "~>0.5.5",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "~v0_8"
         },
         {
             "commitID": "220052d0927df8f66859ba20aa8a49001ae1e4d3",
@@ -618,6 +690,512 @@
             },
             "name": "inochi-creator",
             "version": "0.7.3"
+        },
+        {
+            "commitID": "a7e87fd2c4ba0da58a07ba07199e3799553318e0",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "barebones"
+                },
+                {
+                    "name": "win32-barebones"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "full"
+                },
+                {
+                    "name": "osx-full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "name": "win32-lite"
+                }
+            ],
+            "dependencies": {
+                "bindbc-imgui": "~>0.7.0",
+                "bindbc-sdl": "~>1.1.2",
+                "facetrack-d": "~>0.6.2",
+                "i18n-d": "~>1.0.1",
+                "inmath": "~>1.0.1",
+                "inochi2d": "~>0.7.2",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.7.4"
+        },
+        {
+            "commitID": "8fbfa36a4bab352bc32cd900b59b155450a8b3c6",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "barebones"
+                },
+                {
+                    "name": "meta"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-full"
+                },
+                {
+                    "name": "osx-full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-nightly"
+                },
+                {
+                    "name": "osx-nightly"
+                },
+                {
+                    "name": "win32-nightly"
+                }
+            ],
+            "dependencies": {
+                "bindbc-imgui": "~>0.7.0",
+                "bindbc-sdl": "~>1.1.2",
+                "dcv:core": "~>0.3.0",
+                "facetrack-d": "~>0.7.0",
+                "i18n-d": "~>1.0.1",
+                "inmath": "~>1.0.5",
+                "inochi2d": "~>0.8.0",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.8.0-rc1"
+        },
+        {
+            "commitID": "7b4fae1d063ac5d10f66faf34874ff5543efa8ff",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "barebones"
+                },
+                {
+                    "name": "meta"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-full"
+                },
+                {
+                    "name": "osx-full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-nightly"
+                },
+                {
+                    "name": "osx-nightly"
+                },
+                {
+                    "name": "win32-nightly"
+                }
+            ],
+            "dependencies": {
+                "bindbc-imgui": "~>0.7.0",
+                "bindbc-sdl": "~>1.1.2",
+                "dcv:core": "~>0.3.0",
+                "facetrack-d": "~>0.7.0",
+                "i18n-d": "~>1.0.1",
+                "inmath": "~>1.0.5",
+                "inochi2d": "~>0.8.0",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.8.0-rc2"
+        },
+        {
+            "commitID": "f5e2c90d65dec437a8dff8f8165f32ec933cd699",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "barebones"
+                },
+                {
+                    "name": "meta"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-full"
+                },
+                {
+                    "name": "osx-full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-nightly"
+                },
+                {
+                    "name": "osx-nightly"
+                },
+                {
+                    "name": "win32-nightly"
+                }
+            ],
+            "dependencies": {
+                "bindbc-imgui": "~>0.7.0",
+                "bindbc-sdl": "~>1.1.2",
+                "dcv:core": "~>0.3.0",
+                "facetrack-d": "~>0.7.6",
+                "i18n-d": "~>1.0.2",
+                "inmath": "~>1.0.5",
+                "inochi2d": "~>0.8.0",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.8.0"
+        },
+        {
+            "commitID": "e9c4fb657eab0029f47e2a1f8b6202b02606b78f",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "barebones"
+                },
+                {
+                    "name": "meta"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-full"
+                },
+                {
+                    "name": "osx-full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-nightly"
+                },
+                {
+                    "name": "osx-nightly"
+                },
+                {
+                    "name": "win32-nightly"
+                }
+            ],
+            "dependencies": {
+                "bindbc-sdl": "~>1.1.2",
+                "dcv:core": "~>0.3.0",
+                "facetrack-d": "~>0.7.6",
+                "i18n-d": "~>1.0.2",
+                "i2d-imgui": "~>0.8.0",
+                "inmath": "~>1.0.5",
+                "inochi2d": "~>0.8.0",
+                "kra-d": "~>0.5.2",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.8.1-rc1"
+        },
+        {
+            "commitID": "fe860874d2316f783eeb95002c23ed56c4ca5a62",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "barebones"
+                },
+                {
+                    "name": "meta"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-full"
+                },
+                {
+                    "name": "osx-full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-nightly"
+                },
+                {
+                    "name": "osx-nightly"
+                },
+                {
+                    "name": "win32-nightly"
+                }
+            ],
+            "dependencies": {
+                "bindbc-sdl": "~>1.1.2",
+                "dcv:core": "~>0.3.0",
+                "facetrack-d": "~>0.7.6",
+                "i18n-d": "~>1.0.2",
+                "i2d-imgui": "~>0.8.0",
+                "inmath": "~>1.0.5",
+                "inochi2d": "~>0.8.1",
+                "kra-d": "~>0.5.5",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.8.1-rc2"
+        },
+        {
+            "commitID": "4fabc60ffbf08bdb587c705d2513d5df2ff40077",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "barebones"
+                },
+                {
+                    "name": "meta"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-full"
+                },
+                {
+                    "name": "osx-full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-nightly"
+                },
+                {
+                    "name": "osx-nightly"
+                },
+                {
+                    "name": "win32-nightly"
+                }
+            ],
+            "dependencies": {
+                "bindbc-sdl": "~>1.1.2",
+                "dcv:core": "~>0.3.0",
+                "facetrack-d": "~>0.7.6",
+                "i18n-d": "~>1.0.2",
+                "i2d-imgui": "~>0.8.0",
+                "inmath": "~>1.0.5",
+                "inochi2d": "~>0.8.2",
+                "kra-d": "~>0.5.5",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.8.1-rc3"
+        },
+        {
+            "commitID": "4b694fb059ce285781f8bf965a97701f9d16b0e4",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "barebones"
+                },
+                {
+                    "name": "meta"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-full"
+                },
+                {
+                    "name": "osx-full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-nightly"
+                },
+                {
+                    "name": "osx-nightly"
+                },
+                {
+                    "name": "win32-nightly"
+                }
+            ],
+            "dependencies": {
+                "bindbc-sdl": "~>1.1.2",
+                "dcv:core": "~>0.3.0",
+                "facetrack-d": "~>0.7.6",
+                "i18n-d": "~>1.0.2",
+                "i2d-imgui": "~>0.8.0",
+                "inmath": "~>1.0.5",
+                "inochi2d": "~>0.8.2",
+                "kra-d": "~>0.5.5",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.8.1"
+        },
+        {
+            "commitID": "a8d671b4b82361c719fec5884c27f46fa30e7aba",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "barebones"
+                },
+                {
+                    "name": "meta"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-full"
+                },
+                {
+                    "name": "osx-full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-nightly"
+                },
+                {
+                    "name": "osx-nightly"
+                },
+                {
+                    "name": "win32-nightly"
+                }
+            ],
+            "dependencies": {
+                "bindbc-sdl": "~>1.1.2",
+                "dcv:core": "~>0.3.0",
+                "facetrack-d": "~>0.7.6",
+                "i18n-d": "~>1.0.2",
+                "i2d-imgui": "~>0.8.0",
+                "inmath": "~>1.0.5",
+                "inochi2d": "~>0.8.3",
+                "kra-d": "~>0.5.5",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.8.2"
+        },
+        {
+            "commitID": "06da208b82745a5013073604ee9d9e8f1890403d",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "barebones"
+                },
+                {
+                    "name": "meta"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-full"
+                },
+                {
+                    "name": "osx-full"
+                },
+                {
+                    "name": "win32-full"
+                },
+                {
+                    "dependencies": {
+                        "dportals": "~>0.1.0"
+                    },
+                    "name": "linux-nightly"
+                },
+                {
+                    "name": "osx-nightly"
+                },
+                {
+                    "name": "win32-nightly"
+                }
+            ],
+            "dependencies": {
+                "bindbc-sdl": "~>1.1.2",
+                "dcv:core": "~>0.3.0",
+                "facetrack-d": "~>0.7.6",
+                "i18n-d": "~>1.0.2",
+                "i2d-imgui": "~>0.8.0",
+                "inmath": "~>1.0.5",
+                "inochi2d": "~>0.8.3",
+                "kra-d": "~>0.5.5",
+                "psd-d": "~>0.6.1",
+                "tinyfiledialogs": "~>0.10.1"
+            },
+            "name": "inochi-creator",
+            "version": "0.8.3"
         }
     ]
 }

@@ -4,7 +4,7 @@
         "library.generic",
         "library.testing"
     ],
-    "commitID": "4c31033c42c6f30075d43f497c4c4f06196da17e",
+    "commitID": "cbc3d4ee3c11c9e594adf71f51b08c87f60d4430",
     "dateAdded": "2018-06-05T15:59:34",
     "description": "D fluent asserts library",
     "documentationURL": "",
@@ -13,7 +13,7 @@
     "owner": "5b03beb308bfda1913cc8d36",
     "repository": {
         "kind": "github",
-        "owner": "funkwerk",
+        "owner": "funkwerk-mobility",
         "project": "dshould"
     },
     "versions": [
@@ -56,7 +56,7 @@
             "version": "~initial"
         },
         {
-            "commitID": "4c31033c42c6f30075d43f497c4c4f06196da17e",
+            "commitID": "cbc3d4ee3c11c9e594adf71f51b08c87f60d4430",
             "configurations": [
                 {
                     "dependencies": {
@@ -1102,6 +1102,30 @@
             ],
             "name": "dshould",
             "version": "1.7.0"
+        },
+        {
+            "commitID": "cbc3d4ee3c11c9e594adf71f51b08c87f60d4430",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "prettyprint": ">=1.0.6",
+                        "unit-threaded": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        }
+                    },
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "prettyprint": ">=1.0.6",
+                        "unit-threaded": ">=1.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "dshould",
+            "version": "1.7.1"
         }
     ]
 }

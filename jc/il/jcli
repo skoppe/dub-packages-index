@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "7da19276325f8d7d38ee33e6d30e936c4146bfa4",
+    "commitID": "8ff849ca1f997821c6bcc28b8cb2728083bea472",
     "dateAdded": "2019-03-31T23:29:41",
     "description": "A fully featured CLI framework for D",
     "documentationURL": "",
@@ -16,7 +16,96 @@
     },
     "versions": [
         {
-            "commitID": "7da19276325f8d7d38ee33e6d30e936c4146bfa4",
+            "commitID": "f1f3cf4293967713bcd2e367e342b9ca26d9e4d3",
+            "dependencies": {
+                "jcli:argbinder": ">=0.0.0",
+                "jcli:argparser": ">=0.0.0",
+                "jcli:autocomplete": ">=0.0.0",
+                "jcli:commandgraph": ">=0.0.0",
+                "jcli:commandparser": ">=0.0.0",
+                "jcli:core": ">=0.0.0",
+                "jcli:helptext": ">=0.0.0",
+                "jcli:introspect": ">=0.0.0",
+                "jcli:resolver": ">=0.0.0",
+                "jcli:text": ">=0.0.0"
+            },
+            "name": "jcli",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "argbinder"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "argparser"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "commandparser"
+                },
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "helptext"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "introspect"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "resolver"
+                },
+                {
+                    "name": "text"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "autocomplete"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:autocomplete": ">=0.0.0",
+                        "jcli:commandparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:helptext": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:resolver": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "commandgraph"
+                }
+            ],
+            "version": "~fix\/issue-57-alternative"
+        },
+        {
+            "commitID": "5e0d219d87ed1c72312b2619de1d2a1f19e8b103",
             "dependencies": {
                 "jcli:argbinder": ">=0.0.0",
                 "jcli:argparser": ">=0.0.0",
@@ -82,6 +171,95 @@
                         "jcli:introspect": ">=0.0.0"
                     },
                     "name": "autocomplete"
+                }
+            ],
+            "version": "~refactor-patch-1"
+        },
+        {
+            "commitID": "8ff849ca1f997821c6bcc28b8cb2728083bea472",
+            "dependencies": {
+                "jcli:argbinder": ">=0.0.0",
+                "jcli:argparser": ">=0.0.0",
+                "jcli:autocomplete": ">=0.0.0",
+                "jcli:commandgraph": ">=0.0.0",
+                "jcli:commandparser": ">=0.0.0",
+                "jcli:core": ">=0.0.0",
+                "jcli:helptext": ">=0.0.0",
+                "jcli:introspect": ">=0.0.0",
+                "jcli:resolver": ">=0.0.0",
+                "jcli:text": ">=0.0.0"
+            },
+            "name": "jcli",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "argbinder"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "argparser"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "commandparser"
+                },
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "helptext"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "introspect"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "resolver"
+                },
+                {
+                    "name": "text"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "autocomplete"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:autocomplete": ">=0.0.0",
+                        "jcli:commandparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:helptext": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:resolver": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "commandgraph"
                 }
             ],
             "version": "~master"
@@ -1108,6 +1286,273 @@
                 }
             ],
             "version": "0.24.0"
+        },
+        {
+            "commitID": "813fe61e8d62fa1de477de4566ac554293825651",
+            "dependencies": {
+                "jcli:argbinder": ">=0.0.0",
+                "jcli:argparser": ">=0.0.0",
+                "jcli:autocomplete": ">=0.0.0",
+                "jcli:commandgraph": ">=0.0.0",
+                "jcli:commandparser": ">=0.0.0",
+                "jcli:core": ">=0.0.0",
+                "jcli:helptext": ">=0.0.0",
+                "jcli:introspect": ">=0.0.0",
+                "jcli:resolver": ">=0.0.0",
+                "jcli:text": ">=0.0.0"
+            },
+            "name": "jcli",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "argbinder"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "argparser"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "commandparser"
+                },
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "helptext"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "introspect"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "resolver"
+                },
+                {
+                    "name": "text"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "autocomplete"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:autocomplete": ">=0.0.0",
+                        "jcli:commandparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:helptext": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:resolver": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "commandgraph"
+                }
+            ],
+            "version": "0.25.0-beta.1"
+        },
+        {
+            "commitID": "5698cc6299e523b2b8cb9b20f42aa0b3a6d68525",
+            "dependencies": {
+                "jcli:argbinder": ">=0.0.0",
+                "jcli:argparser": ">=0.0.0",
+                "jcli:autocomplete": ">=0.0.0",
+                "jcli:commandgraph": ">=0.0.0",
+                "jcli:commandparser": ">=0.0.0",
+                "jcli:core": ">=0.0.0",
+                "jcli:helptext": ">=0.0.0",
+                "jcli:introspect": ">=0.0.0",
+                "jcli:resolver": ">=0.0.0",
+                "jcli:text": ">=0.0.0"
+            },
+            "name": "jcli",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "argbinder"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "argparser"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "commandparser"
+                },
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "helptext"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "introspect"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "resolver"
+                },
+                {
+                    "name": "text"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "autocomplete"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:autocomplete": ">=0.0.0",
+                        "jcli:commandparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:helptext": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:resolver": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "commandgraph"
+                }
+            ],
+            "version": "0.25.0-beta.2"
+        },
+        {
+            "commitID": "8ff849ca1f997821c6bcc28b8cb2728083bea472",
+            "dependencies": {
+                "jcli:argbinder": ">=0.0.0",
+                "jcli:argparser": ">=0.0.0",
+                "jcli:autocomplete": ">=0.0.0",
+                "jcli:commandgraph": ">=0.0.0",
+                "jcli:commandparser": ">=0.0.0",
+                "jcli:core": ">=0.0.0",
+                "jcli:helptext": ">=0.0.0",
+                "jcli:introspect": ">=0.0.0",
+                "jcli:resolver": ">=0.0.0",
+                "jcli:text": ">=0.0.0"
+            },
+            "name": "jcli",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "argbinder"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "argparser"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "commandparser"
+                },
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "helptext"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "introspect"
+                },
+                {
+                    "dependencies": {
+                        "jcli:core": ">=0.0.0"
+                    },
+                    "name": "resolver"
+                },
+                {
+                    "name": "text"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0"
+                    },
+                    "name": "autocomplete"
+                },
+                {
+                    "dependencies": {
+                        "jcli:argbinder": ">=0.0.0",
+                        "jcli:argparser": ">=0.0.0",
+                        "jcli:autocomplete": ">=0.0.0",
+                        "jcli:commandparser": ">=0.0.0",
+                        "jcli:core": ">=0.0.0",
+                        "jcli:helptext": ">=0.0.0",
+                        "jcli:introspect": ">=0.0.0",
+                        "jcli:resolver": ">=0.0.0",
+                        "jcli:text": ">=0.0.0"
+                    },
+                    "name": "commandgraph"
+                }
+            ],
+            "version": "0.25.0-beta.3"
         }
     ]
 }

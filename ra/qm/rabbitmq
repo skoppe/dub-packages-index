@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "495e3c91ec2ba777fcf5a63335a8c42db16592f6",
+    "commitID": "e759b9b3787c6b1854c8fca6f6808fc49290c656",
     "dateAdded": "2019-05-04T18:43:53",
     "description": "Bindings and high-level wrapper for librabbitmq-c",
     "documentationURL": "",
@@ -49,7 +49,7 @@
             "version": "~remix"
         },
         {
-            "commitID": "495e3c91ec2ba777fcf5a63335a8c42db16592f6",
+            "commitID": "e759b9b3787c6b1854c8fca6f6808fc49290c656",
             "configurations": [
                 {
                     "dependencies": {
@@ -167,6 +167,22 @@
             ],
             "name": "rabbitmq",
             "version": "0.2.6"
+        },
+        {
+            "commitID": "e759b9b3787c6b1854c8fca6f6808fc49290c656",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "openssl": ">=0.0.0"
+                    },
+                    "name": "openssl"
+                },
+                {
+                    "name": "no-openssl"
+                }
+            ],
+            "name": "rabbitmq",
+            "version": "0.2.7"
         }
     ]
 }

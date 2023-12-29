@@ -1,8 +1,10 @@
 {
-    "categories": [],
-    "commitID": "23140de1d19f72ae56cd74dd9ad0d6e82ddb0d41",
+    "categories": [
+        "application.desktop.development.compiler"
+    ],
+    "commitID": "07394d59746064a940ba5437a93883475e57f1cb",
     "dateAdded": "2022-04-23T21:25:34",
-    "description": "The snazzy D compiler. Currently only sdfmt (sdc:sdfmt) is available via dub",
+    "description": "The snazzy D compiler. Currently only sdfmt (sdc:sdfmt) and its dependencies are available via dub.",
     "documentationURL": "",
     "id": "626452aee0a857331d39d87f",
     "name": "sdc",
@@ -14,64 +16,288 @@
     },
     "versions": [
         {
-            "commitID": "23140de1d19f72ae56cd74dd9ad0d6e82ddb0d41",
+            "commitID": "da34ba45981a316d0321918811c0f9a6c334615f",
             "name": "sdc",
             "subPackages": [
                 {
+                    "dependencies": {
+                        "sdc:config": ">=0.0.0",
+                        "sdc:format": ">=0.0.0"
+                    },
                     "name": "sdfmt"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "format"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "sdc:util": ">=0.0.0"
+                    },
+                    "name": "source"
+                },
+                {
+                    "name": "util"
+                }
+            ],
+            "version": "~htmlentities"
+        },
+        {
+            "commitID": "fb8ff5fa7e9fbd6e3b66ecb2eb4420b2262fe5dd",
+            "name": "sdc",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "sdc:config": ">=0.0.0",
+                        "sdc:format": ">=0.0.0"
+                    },
+                    "name": "sdfmt"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "format"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "sdc:util": ">=0.0.0"
+                    },
+                    "name": "source"
+                },
+                {
+                    "name": "util"
+                }
+            ],
+            "version": "~legacy"
+        },
+        {
+            "commitID": "f9b86706d249bd35b2e676ae1bd9b68a5857b12c",
+            "name": "sdc",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "sdc:config": ">=0.0.0",
+                        "sdc:format": ">=0.0.0"
+                    },
+                    "name": "sdfmt"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "format"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "sdc:util": ">=0.0.0"
+                    },
+                    "name": "source"
+                },
+                {
+                    "name": "util"
+                }
+            ],
+            "version": "~updategihubworklow"
+        },
+        {
+            "commitID": "fb7ed0ddc9ec58bba05f6b1eb57ed3742fe89e3a",
+            "name": "sdc",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "sdc:config": ">=0.0.0",
+                        "sdc:format": ">=0.0.0"
+                    },
+                    "name": "sdfmt"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "format"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "sdc:util": ">=0.0.0"
+                    },
+                    "name": "source"
+                },
+                {
+                    "name": "util"
                 }
             ],
             "version": "~master"
         },
         {
-            "commitID": "bfdc90caf770b8b55d8af3ef855f2357c2f8915d",
+            "commitID": "a9868c8c024af910586a6f23eb9eddfd0f8909b0",
             "name": "sdc",
             "subPackages": [
                 {
                     "name": "sdfmt"
                 }
             ],
-            "version": "0.0.1"
+            "version": "0.0.10"
         },
         {
-            "commitID": "6dd3b89972c85d659eff0e5d9f0626c2f5e0f0dc",
+            "commitID": "aa5626ccaa4d51d37f069b53be21ab7c84a4113a",
             "name": "sdc",
             "subPackages": [
                 {
+                    "dependencies": {
+                        "sdc:config": ">=0.0.0",
+                        "sdc:format": ">=0.0.0"
+                    },
                     "name": "sdfmt"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "format"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "name": "source"
                 }
             ],
-            "version": "0.0.2"
+            "version": "0.0.11"
         },
         {
-            "commitID": "40ec9a8718bcc3b3fe2e6def10073a86d18c1cda",
+            "commitID": "1d8e3375bfc589d87bc494e37b762fad5543f87c",
             "name": "sdc",
             "subPackages": [
                 {
+                    "dependencies": {
+                        "sdc:config": ">=0.0.0",
+                        "sdc:format": ">=0.0.0"
+                    },
                     "name": "sdfmt"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "format"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "sdc:util": ">=0.0.0"
+                    },
+                    "name": "source"
+                },
+                {
+                    "name": "util"
                 }
             ],
-            "version": "0.0.3"
+            "version": "0.0.12"
         },
         {
-            "commitID": "ec4ade575703ec27ecd796c153c6a626b7ade207",
+            "commitID": "9bd634e88f51eaf6b2f8ef61ae88aa7177793334",
             "name": "sdc",
             "subPackages": [
                 {
+                    "dependencies": {
+                        "sdc:config": ">=0.0.0",
+                        "sdc:format": ">=0.0.0"
+                    },
                     "name": "sdfmt"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "format"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "sdc:util": ">=0.0.0"
+                    },
+                    "name": "source"
+                },
+                {
+                    "name": "util"
                 }
             ],
-            "version": "0.0.4"
+            "version": "0.0.13"
         },
         {
-            "commitID": "23140de1d19f72ae56cd74dd9ad0d6e82ddb0d41",
+            "commitID": "07394d59746064a940ba5437a93883475e57f1cb",
             "name": "sdc",
             "subPackages": [
                 {
+                    "dependencies": {
+                        "sdc:config": ">=0.0.0",
+                        "sdc:format": ">=0.0.0"
+                    },
                     "name": "sdfmt"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "format"
+                },
+                {
+                    "dependencies": {
+                        "sdc:source": ">=0.0.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "sdc:util": ">=0.0.0"
+                    },
+                    "name": "source"
+                },
+                {
+                    "name": "util"
                 }
             ],
-            "version": "0.0.5"
+            "version": "0.0.14"
         }
     ]
 }

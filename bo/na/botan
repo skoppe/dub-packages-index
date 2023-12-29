@@ -5,7 +5,7 @@
         "library.general",
         "library.optimized_cpu"
     ],
-    "commitID": "15ff68b93eb60a9291c98e066fb1a94af66509d4",
+    "commitID": "5257ff4d92e9c72185267093a8d596049ce6700c",
     "dateAdded": "2015-02-23T05:24:35",
     "description": "A D library for crypto and TLS",
     "documentationURL": "",
@@ -123,17 +123,17 @@
             "version": "~pointers"
         },
         {
-            "commitID": "15ff68b93eb60a9291c98e066fb1a94af66509d4",
+            "commitID": "b6f01490ef404dd1bd2996eb864c3df0077a58a2",
             "configurations": [
                 {
                     "name": "full"
                 },
                 {
-                    "name": "full_32mscoff"
-                },
-                {
                     "dependencies": {
-                        "openssl": "~>1.1.4"
+                        "openssl": {
+                            "optional": true,
+                            "version": "~>1.1.7"
+                        }
                     },
                     "name": "full_openssl"
                 },
@@ -175,8 +175,7 @@
             ],
             "dependencies": {
                 "memutils": {
-                    "path": "..\/memutils",
-                    "version": ">=0.0.0"
+                    "path": "..\/memutils"
                 }
             },
             "name": "botan",
@@ -1193,6 +1192,233 @@
             },
             "name": "botan",
             "version": "1.12.19"
+        },
+        {
+            "commitID": "e43a39afab613194b0b4d81914d4ffa1d8a403f6",
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full_32mscoff"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.4"
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.13.0"
+        },
+        {
+            "commitID": "8e319484123e53e258871eb1b3da4ef1fc6dad3e",
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "name": "full_32mscoff"
+                },
+                {
+                    "dependencies": {
+                        "openssl": {
+                            "optional": true,
+                            "version": "~>1.1.7"
+                        }
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.13.1"
+        },
+        {
+            "commitID": "d53e8e15c8f59c9bd5109e9f6205dbb9da68cb5b",
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": {
+                            "optional": true,
+                            "version": "~>1.1.7"
+                        }
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.13.2"
+        },
+        {
+            "commitID": "5eaca3ee9fcce5fabdf164adc5d5ed9d4432b603",
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": {
+                            "optional": true,
+                            "version": "~>1.1.7"
+                        }
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.13.3"
+        },
+        {
+            "commitID": "830b68bd46aed25abb2e873fdad49b38a9276014",
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": {
+                            "optional": true,
+                            "version": "~>1.1.7"
+                        }
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.13.4"
+        },
+        {
+            "commitID": "1e8ec9d47357cc1c713a88f8c6d0819b9917f6d1",
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": {
+                            "optional": true,
+                            "version": "~>1.1.7"
+                        }
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.13.5"
+        },
+        {
+            "commitID": "5257ff4d92e9c72185267093a8d596049ce6700c",
+            "configurations": [
+                {
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "openssl": {
+                            "optional": true,
+                            "version": "~>1.1.7"
+                        }
+                    },
+                    "name": "full_openssl"
+                },
+                {
+                    "name": "lite"
+                },
+                {
+                    "name": "pubkey"
+                },
+                {
+                    "name": "hash"
+                }
+            ],
+            "dependencies": {
+                "botan-math": "~>1.0.2",
+                "memutils": "~>1.0.1"
+            },
+            "name": "botan",
+            "version": "1.13.6"
         }
     ]
 }

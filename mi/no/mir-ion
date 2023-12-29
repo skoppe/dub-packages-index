@@ -5,9 +5,9 @@
         "library.optimized_cpu",
         "library.nogc"
     ],
-    "commitID": "91bab37179f5315ab0f596426f6641eea1b47105",
+    "commitID": "dd8af701999fe9ce359c96dc4e085cf2b68e4532",
     "dateAdded": "2020-10-04T11:03:23",
-    "description": "Fast, Expressive, and Easy to use Ion, JSON, Msgpack Serialization Library with SIMD optimization.",
+    "description": "Fast, Expressive, and Easy to use Ion, JSON, YAML, CSV, and Msgpack Serialization Library with SIMD optimization.",
     "documentationURL": "http:\/\/mir-ion.libmir.org\/",
     "id": "5f798fdb4fd6944a2ac545e8",
     "name": "mir-ion",
@@ -85,6 +85,29 @@
             "version": "~script"
         },
         {
+            "commitID": "cd911bc15062c53adef712599909b75a4c8d694d",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.15.2",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "~stable"
+        },
+        {
             "commitID": "92b4c2c429ea3c1f43443ab7ef1bb41ce11720d0",
             "configurations": [
                 {
@@ -108,7 +131,7 @@
             "version": "~thunderbolt"
         },
         {
-            "commitID": "91bab37179f5315ab0f596426f6641eea1b47105",
+            "commitID": "b03e3b8b2e36fce204050f10081e58bef14ea99d",
             "configurations": [
                 {
                     "name": "library"
@@ -124,7 +147,7 @@
                 }
             ],
             "dependencies": {
-                "mir-algorithm": "~>3.14.0",
+                "mir-algorithm": ">=3.21.0",
                 "mir-cpuid": "~>1.2.6"
             },
             "name": "mir-ion",
@@ -201,8 +224,7 @@
             ],
             "dependencies": {
                 "mir-algorithm": {
-                    "path": "..\/mir-algorithm",
-                    "version": ">=0.0.0"
+                    "path": "..\/mir-algorithm"
                 }
             },
             "name": "mir-ion",
@@ -3406,6 +3428,46 @@
             "version": "1.0.50"
         },
         {
+            "commitID": "f793ad9ce472cd88638e1ad9ba738b4dfedfeadd",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.13.2",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.51"
+        },
+        {
+            "commitID": "bc4fcd9f100b5f12db9e93db72c049ff9d38bccb",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.13.2",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.0.52"
+        },
+        {
             "commitID": "3f366a9e2a38052397f005ed4da65c21532e7628",
             "configurations": [
                 {
@@ -3496,6 +3558,949 @@
             },
             "name": "mir-ion",
             "version": "1.1.0-rc3"
+        },
+        {
+            "commitID": "5a0fc2ce0b9cc48e9c0545262104d0d2f8d3134d",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.14.0",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.1.0-rc4"
+        },
+        {
+            "commitID": "6d00d22622040383ad2615e4e31b9a64755bf834",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.14.0",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.1.0-rc5"
+        },
+        {
+            "commitID": "da87c239326d69dc384d8bd057e7d39b8985d328",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.14.0",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.1.0"
+        },
+        {
+            "commitID": "935fbbe6f9738f787e0dbc7aef6bc1954904d974",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.14.0",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.1.1"
+        },
+        {
+            "commitID": "cd911bc15062c53adef712599909b75a4c8d694d",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.15.2",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "1.2.0"
+        },
+        {
+            "commitID": "1a76d470b40d09d6f374ac8841d0007169d0e7e6",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.15.2",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.0"
+        },
+        {
+            "commitID": "572b33ae07404e79bfdd4d63052391f047cbd269",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.15.2",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.1"
+        },
+        {
+            "commitID": "65c73cce5742a35e1d0f947d57c43e13db49471b",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.2"
+        },
+        {
+            "commitID": "65c73cce5742a35e1d0f947d57c43e13db49471b",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.3"
+        },
+        {
+            "commitID": "dfbadda30a12f24660fc502196bf34c809dc3a55",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.4"
+        },
+        {
+            "commitID": "ee7692157224b8cc1744cf65668207813069184d",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.5"
+        },
+        {
+            "commitID": "f3287061b84326cd1a8bc2c0689cf0ab4a53dd89",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.6"
+        },
+        {
+            "commitID": "5528bfa31127105b048662a5e868bf1a092f2178",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.7"
+        },
+        {
+            "commitID": "65b769d887e030429294855dd31cad231e5d8128",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.8"
+        },
+        {
+            "commitID": "379a961d1a17b32cf5ab61e4c4bfbcd6d024acae",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.9"
+        },
+        {
+            "commitID": "f3309ad390d7979a71f5a43fe2c2251ba2a3edf5",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.10"
+        },
+        {
+            "commitID": "19f1222965ca4d52a344c2edc8e50884f5ab4bdf",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.11"
+        },
+        {
+            "commitID": "7738ad22cc04cfb8447b7de1849c09d4e18eeed5",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.12"
+        },
+        {
+            "commitID": "6f3931c942a8fb3d4b83b40521ce075edc3cdda4",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.13"
+        },
+        {
+            "commitID": "0ba88bf0934bf2f79c516422229c9d3220fb5a6d",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.14"
+        },
+        {
+            "commitID": "78f69f4d1e622b99f3141520486663bc953381ce",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.15"
+        },
+        {
+            "commitID": "9e5acc875fd2933f88983cd8e00e2b0ff7e8af12",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.16"
+        },
+        {
+            "commitID": "34df1664fe39479e0f4721338c37672e7e295722",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.17"
+        },
+        {
+            "commitID": "ca217b7f39097504311073d79c2308ed4e3b7618",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.18"
+        },
+        {
+            "commitID": "ee32e833fe63f6cb2153bca6a96f52d1c9c34fc0",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.19"
+        },
+        {
+            "commitID": "54b850b36686f41c2477166e00592a4a040550fc",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.20"
+        },
+        {
+            "commitID": "be0441dac1cb079a81a3b000efac381500c85e7a",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.21"
+        },
+        {
+            "commitID": "fde557d6555ccefcbddebbb35e72a8c838f2b762",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.22"
+        },
+        {
+            "commitID": "90b81b8b82d9290003e6b5f84e818f77ca7119a1",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.0.23"
+        },
+        {
+            "commitID": "0cf7221c617def450f54e80fea1aa0a5c483a13e",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.15.4",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.1.0"
+        },
+        {
+            "commitID": "6cdd9f75705923a58d16499f4e784faf194ca281",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.18.1",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.1.1"
+        },
+        {
+            "commitID": "a5499d4aca785c82205926e3d025762d78b6722b",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.18.1",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.1.2"
+        },
+        {
+            "commitID": "3e47af7a6695014abf8e6148f753992a651229aa",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.18.1",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.1.3"
+        },
+        {
+            "commitID": "342a99beb6ee34e594a8d4a989d2e93a5fe0e89f",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.18.1",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.1.4"
+        },
+        {
+            "commitID": "8aa61fd4c0874cafbfc8640386d1f93627016b06",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.18.1",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.1.5"
+        },
+        {
+            "commitID": "62c476a6a00d0d5ddfb3585bdfbe520d825e872b",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.18.1",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.1.6"
+        },
+        {
+            "commitID": "0904a2f0a64882b1044a2b43bb5c04db536337bb",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.18.1",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.1.7"
+        },
+        {
+            "commitID": "f4a5d9967f8af727cf629f018d95338612c45d97",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.18.1",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.1.8"
+        },
+        {
+            "commitID": "fc569f2ee94440cad80b174d882fd258bfa186bd",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.20.5",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.1.9"
+        },
+        {
+            "commitID": "3eaf539a7553601a86be65854421e4e968224d98",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.21.0",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.2.0"
+        },
+        {
+            "commitID": "dd8af701999fe9ce359c96dc4e085cf2b68e4532",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "boson"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "silly"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": ">=3.21.0",
+                "mir-cpuid": "~>1.2.6"
+            },
+            "name": "mir-ion",
+            "version": "2.2.1"
         }
     ]
 }

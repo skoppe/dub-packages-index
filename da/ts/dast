@@ -1,0 +1,1003 @@
+{
+    "categories": [
+        "library.generic"
+    ],
+    "commitID": "f05c58f924fee0314949dfe8b1488067f3c8fc12",
+    "dateAdded": "2023-02-28T13:35:19",
+    "description": "A flexible, lightweight framework for D programming language.",
+    "documentationURL": "",
+    "id": "63fdf5072f2d300b2a0b8119",
+    "name": "dast",
+    "owner": "623b0166e0a857331d159084",
+    "repository": {
+        "kind": "github",
+        "owner": "0-v-0",
+        "project": "dast"
+    },
+    "versions": [
+        {
+            "commitID": "999aac6e1c020e15a3ad30dbd153ffc4777f569f",
+            "dependencies": {
+                "dast:config": {
+                    "path": "."
+                },
+                "dast:util": {
+                    "path": "."
+                }
+            },
+            "name": "dast",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "dependencies": {
+                        "tame": "~>0.0.5"
+                    },
+                    "name": "async"
+                },
+                {
+                    "dependencies": {
+                        "ctfepp": {
+                            "optional": true,
+                            "repository": "git+https:\/\/github.com\/rikkimax\/ctfepp.git",
+                            "version": "775759f"
+                        },
+                        "dast:util": {
+                            "path": "."
+                        },
+                        "lyaml": "0.1.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.5"
+                    },
+                    "name": "fcgi"
+                },
+                {
+                    "dependencies": {
+                        "dast:async": {
+                            "path": "."
+                        },
+                        "httparsed": "~>1.2.1",
+                        "tame": "~>0.0.5"
+                    },
+                    "name": "http"
+                },
+                {
+                    "name": "map"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "lib"
+                        },
+                        {
+                            "name": "exe"
+                        }
+                    ],
+                    "name": "md2d"
+                },
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        },
+                        "tame": "~>0.0.5"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.5"
+                    },
+                    "name": "uwsgi"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "dependencies": {
+                        "dast:async": {
+                            "path": "."
+                        },
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "sha1ct": "~>1.0.0",
+                        "tame": "~>0.0.5"
+                    },
+                    "name": "ws"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "tame:lockfree": ">=0.0.0"
+                            },
+                            "name": "server"
+                        },
+                        {
+                            "dependencies": {
+                                "dast:util": {
+                                    "path": ".."
+                                }
+                            },
+                            "name": "apidoc"
+                        }
+                    ],
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "lmpl4d": "~>0.0.11"
+                    },
+                    "name": "wsrpc"
+                }
+            ],
+            "version": "~main"
+        },
+        {
+            "commitID": "da3ded2ce376a7ef92a7a034223a7e01c64d9702",
+            "dependencies": {
+                "dast:config": {
+                    "path": "."
+                },
+                "dast:util": {
+                    "path": "."
+                }
+            },
+            "name": "dast",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "name": "async"
+                },
+                {
+                    "dependencies": {
+                        "ctfepp": {
+                            "optional": true,
+                            "repository": "git+https:\/\/github.com\/rikkimax\/ctfepp.git",
+                            "version": "775759f"
+                        },
+                        "dast:util": {
+                            "path": "."
+                        },
+                        "lyaml": "0.1.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "fcgi"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        }
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "http1"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "datefmt-redthing1": "~>1.0.6"
+                    },
+                    "name": "lshttp"
+                },
+                {
+                    "name": "map"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "lib"
+                        },
+                        {
+                            "name": "exe"
+                        }
+                    ],
+                    "name": "md2d"
+                },
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "uwsgi"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "dependencies": {
+                        "dast:async": {
+                            "path": "."
+                        },
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "sha1ct": "~>1.0.0",
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "ws"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "lmpl4d": "~>0.0.8",
+                        "tame:lockfree": ">=0.0.0"
+                    },
+                    "name": "wsrpc"
+                }
+            ],
+            "version": "0.1.0"
+        },
+        {
+            "commitID": "6534e77f89894a0a0701f8b48b5d6643e59ebd0b",
+            "dependencies": {
+                "dast:config": {
+                    "path": "."
+                },
+                "dast:util": {
+                    "path": "."
+                }
+            },
+            "name": "dast",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "name": "async"
+                },
+                {
+                    "dependencies": {
+                        "ctfepp": {
+                            "optional": true,
+                            "repository": "git+https:\/\/github.com\/rikkimax\/ctfepp.git",
+                            "version": "775759f"
+                        },
+                        "dast:util": {
+                            "path": "."
+                        },
+                        "lyaml": "0.1.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "fcgi"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        }
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "http1"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "datefmt-redthing1": "~>1.0.6"
+                    },
+                    "name": "lshttp"
+                },
+                {
+                    "name": "map"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "lib"
+                        },
+                        {
+                            "name": "exe"
+                        }
+                    ],
+                    "name": "md2d"
+                },
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "uwsgi"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "dependencies": {
+                        "dast:async": {
+                            "path": "."
+                        },
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "sha1ct": "~>1.0.0",
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "ws"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "lmpl4d": "~>0.0.8",
+                        "tame:lockfree": ">=0.0.0"
+                    },
+                    "name": "wsrpc"
+                }
+            ],
+            "version": "0.1.1"
+        },
+        {
+            "commitID": "83e5b63eaa8dae4271c9d330799cd241d7e35908",
+            "dependencies": {
+                "dast:config": {
+                    "path": "."
+                },
+                "dast:util": {
+                    "path": "."
+                }
+            },
+            "name": "dast",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "name": "async"
+                },
+                {
+                    "dependencies": {
+                        "ctfepp": {
+                            "optional": true,
+                            "repository": "git+https:\/\/github.com\/rikkimax\/ctfepp.git",
+                            "version": "775759f"
+                        },
+                        "dast:util": {
+                            "path": "."
+                        },
+                        "lyaml": "0.1.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "fcgi"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        }
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "http1"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "datefmt-redthing1": "~>1.0.6"
+                    },
+                    "name": "lshttp"
+                },
+                {
+                    "name": "map"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "lib"
+                        },
+                        {
+                            "name": "exe"
+                        }
+                    ],
+                    "name": "md2d"
+                },
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "uwsgi"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "dependencies": {
+                        "dast:async": {
+                            "path": "."
+                        },
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "sha1ct": "~>1.0.0",
+                        "tame": "~>0.0.2"
+                    },
+                    "name": "ws"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "lmpl4d": "~>0.0.8",
+                        "tame:lockfree": ">=0.0.0"
+                    },
+                    "name": "wsrpc"
+                }
+            ],
+            "version": "0.1.2"
+        },
+        {
+            "commitID": "d328316a955b31026456456eaf002896cbaf189d",
+            "dependencies": {
+                "dast:config": {
+                    "path": "."
+                },
+                "dast:util": {
+                    "path": "."
+                }
+            },
+            "name": "dast",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "dependencies": {
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "async"
+                },
+                {
+                    "dependencies": {
+                        "ctfepp": {
+                            "optional": true,
+                            "repository": "git+https:\/\/github.com\/rikkimax\/ctfepp.git",
+                            "version": "775759f"
+                        },
+                        "dast:util": {
+                            "path": "."
+                        },
+                        "lyaml": "0.1.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "fcgi"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        }
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "http1"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "datefmt-redthing1": "~>1.0.6"
+                    },
+                    "name": "lshttp"
+                },
+                {
+                    "name": "map"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "lib"
+                        },
+                        {
+                            "name": "exe"
+                        }
+                    ],
+                    "name": "md2d"
+                },
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        },
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "uwsgi"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "dependencies": {
+                        "dast:async": {
+                            "path": "."
+                        },
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "sha1ct": "~>1.0.0",
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "ws"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "lmpl4d": "~>0.0.8",
+                        "tame:lockfree": ">=0.0.0"
+                    },
+                    "name": "wsrpc"
+                }
+            ],
+            "version": "0.1.3"
+        },
+        {
+            "commitID": "95a6c2146bd3054cd0abf94052c63d86f5de6783",
+            "dependencies": {
+                "dast:config": {
+                    "path": "."
+                },
+                "dast:util": {
+                    "path": "."
+                }
+            },
+            "name": "dast",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "dependencies": {
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "async"
+                },
+                {
+                    "dependencies": {
+                        "ctfepp": {
+                            "optional": true,
+                            "repository": "git+https:\/\/github.com\/rikkimax\/ctfepp.git",
+                            "version": "775759f"
+                        },
+                        "dast:util": {
+                            "path": "."
+                        },
+                        "lyaml": "0.1.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "fcgi"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        }
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "http1"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "datefmt-redthing1": "~>1.0.6"
+                    },
+                    "name": "lshttp"
+                },
+                {
+                    "name": "map"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "lib"
+                        },
+                        {
+                            "name": "exe"
+                        }
+                    ],
+                    "name": "md2d"
+                },
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        },
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "uwsgi"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "dependencies": {
+                        "dast:async": {
+                            "path": "."
+                        },
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "sha1ct": "~>1.0.0",
+                        "tame": "~>0.0.3"
+                    },
+                    "name": "ws"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "lmpl4d": "~>0.0.8",
+                        "tame:lockfree": ">=0.0.0"
+                    },
+                    "name": "wsrpc"
+                }
+            ],
+            "version": "0.1.4"
+        },
+        {
+            "commitID": "f05c58f924fee0314949dfe8b1488067f3c8fc12",
+            "dependencies": {
+                "dast:config": {
+                    "path": "."
+                },
+                "dast:util": {
+                    "path": "."
+                }
+            },
+            "name": "dast",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "dependencies": {
+                        "tame": "~>0.0.4"
+                    },
+                    "name": "async"
+                },
+                {
+                    "dependencies": {
+                        "ctfepp": {
+                            "optional": true,
+                            "repository": "git+https:\/\/github.com\/rikkimax\/ctfepp.git",
+                            "version": "775759f"
+                        },
+                        "dast:util": {
+                            "path": "."
+                        },
+                        "lyaml": "0.1.0"
+                    },
+                    "name": "config"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.4"
+                    },
+                    "name": "fcgi"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        }
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.4"
+                    },
+                    "name": "http1"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "datefmt-redthing1": "~>1.0.6"
+                    },
+                    "name": "lshttp"
+                },
+                {
+                    "name": "map"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "lib"
+                        },
+                        {
+                            "name": "exe"
+                        }
+                    ],
+                    "name": "md2d"
+                },
+                {
+                    "dependencies": {
+                        "database:util": {
+                            "optional": true,
+                            "version": ">=0.0.0"
+                        },
+                        "tame": "~>0.0.4"
+                    },
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "dast:map": {
+                            "path": "."
+                        },
+                        "tame": "~>0.0.4"
+                    },
+                    "name": "uwsgi"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "full"
+                        },
+                        {
+                            "name": "lite"
+                        }
+                    ],
+                    "dependencies": {
+                        "dast:async": {
+                            "path": "."
+                        },
+                        "dast:http": {
+                            "path": "."
+                        },
+                        "sha1ct": "~>1.0.0",
+                        "tame": "~>0.0.4"
+                    },
+                    "name": "ws"
+                },
+                {
+                    "dependencies": {
+                        "dast:ws": {
+                            "path": "."
+                        },
+                        "lmpl4d": "~>0.0.9",
+                        "tame:lockfree": ">=0.0.0"
+                    },
+                    "name": "wsrpc"
+                }
+            ],
+            "version": "0.1.5"
+        }
+    ]
+}

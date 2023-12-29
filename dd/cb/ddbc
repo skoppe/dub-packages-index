@@ -2,7 +2,7 @@
     "categories": [
         "library.database"
     ],
-    "commitID": "ff8ac541fa88bdbe41d0654480e92c490ac5c134",
+    "commitID": "736b2cd010935cff30d6840d20f3629a54812ae6",
     "dateAdded": "2013-04-17T12:24:52",
     "description": "DB Connector for D language, similar to JDBC (mysql, sqlite, postgresql, odbc)",
     "documentationURL": "",
@@ -16,12 +16,12 @@
     },
     "versions": [
         {
-            "commitID": "cd5f630cae83bd94ad9455272b9993ee34a8230e",
+            "commitID": "a0eda0f222cd9148cc0b82d2209cce3221ef5c7e",
             "configurations": [
                 {
                     "dependencies": {
                         "derelict-pq": "~>2.2.0",
-                        "mysql-native": "~>3.0.3",
+                        "mysql-native": "~>3.1.0",
                         "odbc": "~>1.0.0"
                     },
                     "name": "full"
@@ -29,14 +29,14 @@
                 {
                     "dependencies": {
                         "derelict-pq": "~>2.2.0",
-                        "mysql-native": "~>3.0.3",
+                        "mysql-native": "~>3.1.0",
                         "odbc": "~>1.0.0"
                     },
                     "name": "full-omf"
                 },
                 {
                     "dependencies": {
-                        "mysql-native": "~>3.0.3"
+                        "mysql-native": "~>3.1.0"
                     },
                     "name": "MySQL"
                 },
@@ -62,9 +62,83 @@
                     "name": "API"
                 },
                 {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2",
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
                     "name": "test"
                 },
                 {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
+                    "name": "test-omf"
+                }
+            ],
+            "name": "ddbc",
+            "version": "~ci\/gdc_builds"
+        },
+        {
+            "commitID": "c147b1081aa8bc157dadc95f49be911949587e3f",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full-omf"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native": "~>3.1.0"
+                    },
+                    "name": "MySQL"
+                },
+                {
+                    "name": "SQLite"
+                },
+                {
+                    "name": "SQLite-omf"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0"
+                    },
+                    "name": "PGSQL"
+                },
+                {
+                    "dependencies": {
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "ODBC"
+                },
+                {
+                    "name": "API"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2",
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
                     "name": "test-omf"
                 }
             ],
@@ -72,7 +146,7 @@
             "version": "~feature\/nvarchar"
         },
         {
-            "commitID": "39683079456a5bfea5f8e6131607535d6d68ec5a",
+            "commitID": "7c072c49e61c57c03645aaf3325a43cb8ebf1343",
             "configurations": [
                 {
                     "dependencies": {
@@ -136,9 +210,15 @@
                     "name": "API"
                 },
                 {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
                     "name": "test"
                 },
                 {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
                     "name": "test-omf"
                 }
             ],
@@ -215,12 +295,12 @@
             "version": "~feature\/subpackages"
         },
         {
-            "commitID": "cc893f832424fa26efd001f0b884553fbf81245e",
+            "commitID": "736b2cd010935cff30d6840d20f3629a54812ae6",
             "configurations": [
                 {
                     "dependencies": {
                         "derelict-pq": "~>2.2.0",
-                        "mysql-native": "~>3.0.3",
+                        "mysql-native": "~>3.1.0",
                         "odbc": "~>1.0.0"
                     },
                     "name": "full"
@@ -228,14 +308,14 @@
                 {
                     "dependencies": {
                         "derelict-pq": "~>2.2.0",
-                        "mysql-native": "~>3.0.3",
+                        "mysql-native": "~>3.1.0",
                         "odbc": "~>1.0.0"
                     },
                     "name": "full-omf"
                 },
                 {
                     "dependencies": {
-                        "mysql-native": "~>3.0.3"
+                        "mysql-native": "~>3.1.0"
                     },
                     "name": "MySQL"
                 },
@@ -261,30 +341,23 @@
                     "name": "API"
                 },
                 {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2",
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
                     "name": "test"
                 },
                 {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
                     "name": "test-omf"
                 }
             ],
             "name": "ddbc",
             "version": "~master"
-        },
-        {
-            "commitID": "0ff7672f405ec76787075f2aabf4cfcb88563ca6",
-            "configurations": [
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "name": "ddbc",
-            "version": "0.2.4"
         },
         {
             "commitID": "cc54b2fc20d131335c808c72c97109caf8daf542",
@@ -301,264 +374,6 @@
             ],
             "name": "ddbc",
             "version": "0.2.6"
-        },
-        {
-            "commitID": "5f319e6f8f779ffc7b3012eafbc855bcf420b553",
-            "configurations": [
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": "0.0.9"
-            },
-            "name": "ddbc",
-            "version": "0.2.9"
-        },
-        {
-            "commitID": "00368c715614a35a1bd4dc4d56bbef6715a24534",
-            "configurations": [
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": "0.0.10"
-            },
-            "name": "ddbc",
-            "version": "0.2.10"
-        },
-        {
-            "commitID": "be59f341938df2db8c9c8dd9ab0e06c5520ee90b",
-            "configurations": [
-                {
-                    "name": "full"
-                },
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": ">=0.0.12"
-            },
-            "name": "ddbc",
-            "version": "0.2.11"
-        },
-        {
-            "commitID": "ff0600f64c3f42c58c02f1635d7510b3857b9abc",
-            "configurations": [
-                {
-                    "name": "full"
-                },
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": ">=0.0.12"
-            },
-            "name": "ddbc",
-            "version": "0.2.12"
-        },
-        {
-            "commitID": "928f370633e402cb509b9a2a245cb1612dc7c3c7",
-            "configurations": [
-                {
-                    "name": "full"
-                },
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": ">=0.0.12"
-            },
-            "name": "ddbc",
-            "version": "0.2.13"
-        },
-        {
-            "commitID": "765945c82abe42bacd21b5a142a74b14e313c1fd",
-            "configurations": [
-                {
-                    "name": "full"
-                },
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": ">=0.0.12"
-            },
-            "name": "ddbc",
-            "version": "0.2.14"
-        },
-        {
-            "commitID": "bc21a6f3791f12307660b7fb648faeba064e2927",
-            "configurations": [
-                {
-                    "name": "full"
-                },
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": ">=0.0.12"
-            },
-            "name": "ddbc",
-            "version": "0.2.15"
-        },
-        {
-            "commitID": "de164f257e1a245ac32d3e2b2c2af95b5224c328",
-            "configurations": [
-                {
-                    "name": "full"
-                },
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": ">=0.0.12"
-            },
-            "name": "ddbc",
-            "version": "0.2.16"
-        },
-        {
-            "commitID": "18032150b4f16d9123bab8c74942b2ffd60fa150",
-            "configurations": [
-                {
-                    "name": "full"
-                },
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": ">=0.0.12"
-            },
-            "name": "ddbc",
-            "version": "0.2.17"
-        },
-        {
-            "commitID": "8a76a69f154591829f746a8b30d897d7b1534e59",
-            "configurations": [
-                {
-                    "name": "full"
-                },
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": ">=0.0.12"
-            },
-            "name": "ddbc",
-            "version": "0.2.18"
-        },
-        {
-            "commitID": "581da0df864bdc77fb11c0a5a048f0f8c51b399c",
-            "configurations": [
-                {
-                    "name": "full"
-                },
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": ">=0.0.12"
-            },
-            "name": "ddbc",
-            "version": "0.2.19"
-        },
-        {
-            "commitID": "ca25f80ec5379f7d2048bb8688281ed8674ac78d",
-            "configurations": [
-                {
-                    "name": "full"
-                },
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                }
-            ],
-            "dependencies": {
-                "mysql-native": ">=0.0.12"
-            },
-            "name": "ddbc",
-            "version": "0.2.20"
         },
         {
             "commitID": "87e4e9d7cad3d02504b465be0276109a8df1aa52",
@@ -700,34 +515,6 @@
             ],
             "name": "ddbc",
             "version": "0.2.26"
-        },
-        {
-            "commitID": "e7c57ea73f25362d7b101620aa5a6ecc5283e20e",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "mysql-native": ">=0.1.6"
-                    },
-                    "name": "full"
-                },
-                {
-                    "dependencies": {
-                        "mysql-native": ">=0.0.12"
-                    },
-                    "name": "MySQL"
-                },
-                {
-                    "name": "SQLite"
-                },
-                {
-                    "name": "PGSQL"
-                },
-                {
-                    "name": "test"
-                }
-            ],
-            "name": "ddbc",
-            "version": "0.2.29"
         },
         {
             "commitID": "b00825ecc0e6efce3fb09334e448217b932afc47",
@@ -1670,6 +1457,390 @@
             ],
             "name": "ddbc",
             "version": "0.5.4"
+        },
+        {
+            "commitID": "5a0009cb5cbfd3c3257b0775b78b7b947aa716fb",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full-omf"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native": "~>3.1.0"
+                    },
+                    "name": "MySQL"
+                },
+                {
+                    "name": "SQLite"
+                },
+                {
+                    "name": "SQLite-omf"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0"
+                    },
+                    "name": "PGSQL"
+                },
+                {
+                    "dependencies": {
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "ODBC"
+                },
+                {
+                    "name": "API"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
+                    "name": "test-omf"
+                }
+            ],
+            "name": "ddbc",
+            "version": "0.5.5"
+        },
+        {
+            "commitID": "97861c72bc864bf8ca75b1c96393f8a759b97207",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full-omf"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native": "~>3.1.0"
+                    },
+                    "name": "MySQL"
+                },
+                {
+                    "name": "SQLite"
+                },
+                {
+                    "name": "SQLite-omf"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0"
+                    },
+                    "name": "PGSQL"
+                },
+                {
+                    "dependencies": {
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "ODBC"
+                },
+                {
+                    "name": "API"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
+                    "name": "test-omf"
+                }
+            ],
+            "name": "ddbc",
+            "version": "0.5.6"
+        },
+        {
+            "commitID": "266d9355c0d4ed024a017764b5fb1a2ba9cfbc7d",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full-omf"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native": "~>3.1.0"
+                    },
+                    "name": "MySQL"
+                },
+                {
+                    "name": "SQLite"
+                },
+                {
+                    "name": "SQLite-omf"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0"
+                    },
+                    "name": "PGSQL"
+                },
+                {
+                    "dependencies": {
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "ODBC"
+                },
+                {
+                    "name": "API"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2",
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
+                    "name": "test-omf"
+                }
+            ],
+            "name": "ddbc",
+            "version": "0.5.7"
+        },
+        {
+            "commitID": "0bc5e690420af4382b6189d71216befc501abcda",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full-omf"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native": "~>3.1.0"
+                    },
+                    "name": "MySQL"
+                },
+                {
+                    "name": "SQLite"
+                },
+                {
+                    "name": "SQLite-omf"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0"
+                    },
+                    "name": "PGSQL"
+                },
+                {
+                    "dependencies": {
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "ODBC"
+                },
+                {
+                    "name": "API"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2",
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
+                    "name": "test-omf"
+                }
+            ],
+            "name": "ddbc",
+            "version": "0.5.8"
+        },
+        {
+            "commitID": "92d342c019ca77c9c0a33032c3086fcd5459f0f0",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full-omf"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native": "~>3.1.0"
+                    },
+                    "name": "MySQL"
+                },
+                {
+                    "name": "SQLite"
+                },
+                {
+                    "name": "SQLite-omf"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0"
+                    },
+                    "name": "PGSQL"
+                },
+                {
+                    "dependencies": {
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "ODBC"
+                },
+                {
+                    "name": "API"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2",
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
+                    "name": "test-omf"
+                }
+            ],
+            "name": "ddbc",
+            "version": "0.5.9"
+        },
+        {
+            "commitID": "736b2cd010935cff30d6840d20f3629a54812ae6",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "full-omf"
+                },
+                {
+                    "dependencies": {
+                        "mysql-native": "~>3.1.0"
+                    },
+                    "name": "MySQL"
+                },
+                {
+                    "name": "SQLite"
+                },
+                {
+                    "name": "SQLite-omf"
+                },
+                {
+                    "dependencies": {
+                        "derelict-pq": "~>2.2.0"
+                    },
+                    "name": "PGSQL"
+                },
+                {
+                    "dependencies": {
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "ODBC"
+                },
+                {
+                    "name": "API"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2",
+                        "derelict-pq": "~>2.2.0",
+                        "mysql-native": "~>3.1.0",
+                        "odbc": "~>1.0.0"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "d-unit": "~>0.10.2"
+                    },
+                    "name": "test-omf"
+                }
+            ],
+            "name": "ddbc",
+            "version": "0.6.0"
         }
     ]
 }

@@ -1,0 +1,189 @@
+{
+    "categories": [],
+    "commitID": "034077e8aaf65870f4f661b9f64c50f045b9e69a",
+    "dateAdded": "2023-08-12T16:18:36",
+    "description": "timetable tools",
+    "documentationURL": "",
+    "id": "64d794bcf39ef9b037b26dd6",
+    "name": "slowtable",
+    "owner": "583acfd6e057e0160de4fb67",
+    "repository": {
+        "kind": "github",
+        "owner": "Nafees10",
+        "project": "slowtable"
+    },
+    "versions": [
+        {
+            "commitID": "39f7b1c91d1d67c4adcf64c1113d07b6337bf33d",
+            "name": "slowtable",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "archive": "~>0.6.0",
+                        "dxml": "~>0.3.2",
+                        "slowtable:common": {
+                            "path": "..\/"
+                        },
+                        "utils": "~>0.7.1"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "slowtable:common": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "filter"
+                },
+                {
+                    "dependencies": {
+                        "slowtable:common": {
+                            "path": "..\/"
+                        },
+                        "utils": "~>0.7.1"
+                    },
+                    "name": "tablemaker"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "commitID": "5dd8a1b350e8d9f053473855089fa6bac100980e",
+            "dependencies": {
+                "archive": "~>0.6.0",
+                "argparse": "~>1.2.0",
+                "dxml": "~>0.3.2",
+                "utils": "~>0.7.0"
+            },
+            "name": "slowtable",
+            "version": "1.0.0"
+        },
+        {
+            "commitID": "2b5baceaed884a024fd0b1bdeaa17e393f52bf91",
+            "dependencies": {
+                "argparse": "~>1.2.0",
+                "ods": "~>0.0.2",
+                "utils": "~>0.7.0"
+            },
+            "name": "slowtable",
+            "version": "1.0.1"
+        },
+        {
+            "commitID": "c93075c178ae06847cdbbcbcc249bf06ab0122be",
+            "name": "slowtable",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "argparse": "~>1.3.0",
+                        "ods": "~>0.0.2",
+                        "slowtable:common": ">=0.0.0",
+                        "utils": "~>0.7.1"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "argparse": "~>1.3.0",
+                        "slowtable:common": ">=0.0.0"
+                    },
+                    "name": "filter"
+                },
+                {
+                    "dependencies": {
+                        "slowtable:common": ">=0.0.0",
+                        "utils": "~>0.7.1"
+                    },
+                    "name": "tablemaker"
+                }
+            ],
+            "version": "2.0.0"
+        },
+        {
+            "commitID": "37bcb9d655d6fc0465c72c9a7da864aaed2dc2e4",
+            "name": "slowtable",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "archive": "~>0.6.0",
+                        "argparse": "~>1.3.0",
+                        "dxml": "~>0.3.2",
+                        "slowtable:common": {
+                            "path": "..\/"
+                        },
+                        "utils": "~>0.7.1"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "argparse": "~>1.3.0",
+                        "slowtable:common": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "filter"
+                },
+                {
+                    "dependencies": {
+                        "slowtable:common": {
+                            "path": "..\/"
+                        },
+                        "utils": "~>0.7.1"
+                    },
+                    "name": "tablemaker"
+                }
+            ],
+            "version": "2.1.0"
+        },
+        {
+            "commitID": "034077e8aaf65870f4f661b9f64c50f045b9e69a",
+            "name": "slowtable",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "archive": "~>0.6.0",
+                        "argparse": "~>1.3.0",
+                        "dxml": "~>0.3.2",
+                        "slowtable:common": {
+                            "path": "..\/"
+                        },
+                        "utils": "~>0.7.1"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "argparse": "~>1.3.0",
+                        "slowtable:common": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "filter"
+                },
+                {
+                    "dependencies": {
+                        "slowtable:common": {
+                            "path": "..\/"
+                        },
+                        "utils": "~>0.7.1"
+                    },
+                    "name": "tablemaker"
+                }
+            ],
+            "version": "2.2.0"
+        }
+    ]
+}

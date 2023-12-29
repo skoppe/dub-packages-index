@@ -1,33 +1,34 @@
 {
     "categories": [
         "library.binding",
-        "library.graphics"
+        "library.graphics",
+        "library.nogc"
     ],
-    "commitID": "8cf53a8fb53e42d2b706c2f728536f12792db92c",
+    "commitID": "5406af62a62b6d46467e411575732f3783961c7a",
     "dateAdded": "2019-09-29T06:30:33",
-    "description": "Dynamic and static D bindings for bgfx.",
+    "description": "Static & dynamic bindings to bgfx, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
     "id": "5d903369dc6d04e9628b810e",
     "name": "bindbc-bgfx",
-    "owner": "5d903262dc6d04e9628b80cc",
+    "owner": "62d24f13a808d5cc35199e92",
     "repository": {
         "kind": "github",
-        "owner": "GoaLitiuM",
+        "owner": "BindBC",
         "project": "bindbc-bgfx"
     },
     "versions": [
         {
-            "commitID": "8cf53a8fb53e42d2b706c2f728536f12792db92c",
+            "commitID": "5406af62a62b6d46467e411575732f3783961c7a",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>0.3.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>0.3.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamicBC"
                 },
@@ -38,6 +39,9 @@
                     "name": "staticBC"
                 }
             ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.2"
+            },
             "name": "bindbc-bgfx",
             "version": "~master"
         },
@@ -265,6 +269,308 @@
             ],
             "name": "bindbc-bgfx",
             "version": "0.6.1+115"
+        },
+        {
+            "commitID": "ebc94a6d88c8b61c84f3be6ea9bf1f5ce9b4e92e",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>0.3.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-bgfx",
+            "version": "0.7.0+118"
+        },
+        {
+            "commitID": "95967e21f37a64ed0e6ed4a48418d4529d884a86",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-bgfx",
+            "version": "0.8.0+118"
+        },
+        {
+            "commitID": "33fd42fc98e3b8cd46294f604d0f824327bc5586",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.0"
+            },
+            "name": "bindbc-bgfx",
+            "version": "1.0.0+121"
+        },
+        {
+            "commitID": "26370ad7fd4e248d1cda6adf61f1f808af497f88",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.0"
+            },
+            "name": "bindbc-bgfx",
+            "version": "1.0.1+121"
+        },
+        {
+            "commitID": "f86e2cb32811f54c2482d3cc943f5215538fce85",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.0"
+            },
+            "name": "bindbc-bgfx",
+            "version": "1.0.2+121"
+        },
+        {
+            "commitID": "f6a800fa3bd36b838e996670f967a702ca0c2300",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.0"
+            },
+            "name": "bindbc-bgfx",
+            "version": "1.0.3+121"
+        },
+        {
+            "commitID": "e6ca2a5da7d44181e119cd17a49aadd911f97f65",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.0"
+            },
+            "name": "bindbc-bgfx",
+            "version": "1.0.4+121"
+        },
+        {
+            "commitID": "d20c676a278d42f9ce343f18273acd016d3fa0e5",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.0"
+            },
+            "name": "bindbc-bgfx",
+            "version": "1.0.5+121"
+        },
+        {
+            "commitID": "f99e5bcb429b399f0eb9d98e2e319dc85346c153",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.2"
+            },
+            "name": "bindbc-bgfx",
+            "version": "1.0.6+121"
+        },
+        {
+            "commitID": "0c46352df49f3f088d9c2ed650d969fb71c39d1e",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.2"
+            },
+            "name": "bindbc-bgfx",
+            "version": "1.1.0+124"
+        },
+        {
+            "commitID": "5406af62a62b6d46467e411575732f3783961c7a",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.2"
+            },
+            "name": "bindbc-bgfx",
+            "version": "1.1.1+124"
         }
     ]
 }

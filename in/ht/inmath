@@ -2,7 +2,7 @@
     "categories": [
         "library.scientific.linalg"
     ],
-    "commitID": "66ce978344573491c3a9eeae41848897c5e50a03",
+    "commitID": "126d1a7379fad3b14e2d91e79cd33609b7cdd1f6",
     "dateAdded": "2022-05-14T20:15:31",
     "description": "Inochi2D Math Library (fork of gl3n)",
     "documentationURL": "",
@@ -16,12 +16,29 @@
     },
     "versions": [
         {
-            "commitID": "66ce978344573491c3a9eeae41848897c5e50a03",
+            "commitID": "3e46a1aafd9ec11f0dea39e2ba6ebb686846baf7",
             "dependencies": {
                 "silly": "~>1.1.1"
             },
             "name": "inmath",
             "version": "~main"
+        },
+        {
+            "commitID": "32dd0588e90056f78129f1146556912947063907",
+            "configurations": [
+                {
+                    "name": "simdless"
+                },
+                {
+                    "name": "simd"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.11.7",
+                "silly": "~>1.1.1"
+            },
+            "name": "inmath",
+            "version": "~simd"
         },
         {
             "commitID": "732a9281e12e84f62800cea2ce2621361e09e509",
@@ -54,6 +71,22 @@
             },
             "name": "inmath",
             "version": "1.0.3"
+        },
+        {
+            "commitID": "f507c0718d919a669613c6ab31d8e1c238f08988",
+            "dependencies": {
+                "silly": "~>1.1.1"
+            },
+            "name": "inmath",
+            "version": "1.0.4"
+        },
+        {
+            "commitID": "126d1a7379fad3b14e2d91e79cd33609b7cdd1f6",
+            "dependencies": {
+                "silly": "~>1.1.1"
+            },
+            "name": "inmath",
+            "version": "1.0.5"
         }
     ]
 }

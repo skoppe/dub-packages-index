@@ -2,7 +2,7 @@
     "categories": [
         "library.network"
     ],
-    "commitID": "7e35d9dabbba97ed1f2e40f85d1775f37ebcaf8c",
+    "commitID": "11d5b25c430bd8373642374ef888041549f5c692",
     "dateAdded": "2019-09-07T23:24:24",
     "description": "IRC parsing library",
     "documentationURL": "http:\/\/dialect.dpldocs.info",
@@ -40,6 +40,42 @@
             },
             "name": "dialect",
             "version": "~benchmark"
+        },
+        {
+            "commitID": "789df2ed17b2cc9d5b936adb9443f736fe4b51cc",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "bot"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitchbot"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.2.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.2.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "~multicount"
         },
         {
             "commitID": "df92483369c99b6b7654b258f05cf53f1773ac7b",
@@ -128,13 +164,19 @@
             "version": "~v1.0"
         },
         {
-            "commitID": "7e35d9dabbba97ed1f2e40f85d1775f37ebcaf8c",
+            "commitID": "bad0d4f0fd6196e56181db664ef8f87003149e98",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
+                    "name": "bot"
+                },
+                {
                     "name": "twitch"
+                },
+                {
+                    "name": "twitchbot"
                 },
                 {
                     "name": "dev"
@@ -144,13 +186,13 @@
                 }
             ],
             "dependencies": {
-                "lu": "~>1.2.0"
+                "lu": "~>2.0.0"
             },
             "name": "dialect",
             "subPackages": [
                 {
                     "dependencies": {
-                        "lu": "~>1.2.0"
+                        "lu": "~>2.0.0"
                     },
                     "name": "assertgen"
                 }
@@ -993,6 +1035,288 @@
                 }
             ],
             "version": "1.3.1"
+        },
+        {
+            "commitID": "d1bd41b43c9823667997306c1cce7c41ea2ce115",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.2.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.2.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "1.4.0"
+        },
+        {
+            "commitID": "2b8c4bd3f526b7594579261b53a42f5f00cd85ad",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "agnostic"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitchagnostic"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.2.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.2.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "1.4.1"
+        },
+        {
+            "commitID": "c6808a07b68eeec8347c033cd85170f4c3980da6",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "agnostic"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitchagnostic"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.2.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.2.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "1.5.0"
+        },
+        {
+            "commitID": "8ef092dbed4c79d41f3b2646c458e48f861ba6a0",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "bot"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitchbot"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.2.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.2.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "2.0.0"
+        },
+        {
+            "commitID": "6c4818d6d52e874bc943fa6ac078b37c77c6a1fd",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "bot"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitchbot"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.2.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.2.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "2.0.1"
+        },
+        {
+            "commitID": "97a0ec07c00e20c76f177abc7bece5f5c6f10569",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "bot"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitchbot"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.2.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.2.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "2.0.2"
+        },
+        {
+            "commitID": "5539941d52a37bedffa29c6d0005b77008736b6d",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "bot"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitchbot"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>1.2.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>1.2.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "2.0.3"
+        },
+        {
+            "commitID": "11d5b25c430bd8373642374ef888041549f5c692",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "bot"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitchbot"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>2.0.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>2.0.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "2.0.4"
         }
     ]
 }

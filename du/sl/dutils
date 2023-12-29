@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "bda28a76a740a86b92f7ec3056b640e49a993db0",
+    "commitID": "d77dbce21ef7a25ff91e3bb682bb6b63a6ce6d11",
     "dateAdded": "2021-10-01T22:33:05",
     "description": "A collection of modules in the D Programming Language that people may find useful.",
     "documentationURL": "",
@@ -16,7 +16,36 @@
     },
     "versions": [
         {
-            "commitID": "77f23047bd4e812b3d4693845f836b726a2668c2",
+            "commitID": "4e8a4a76011b9e450a1d22eca3e8fe35545656f6",
+            "configurations": [
+                {
+                    "name": "standard"
+                },
+                {
+                    "name": "shared"
+                }
+            ],
+            "dependencies": {
+                "silly": "~>1.1.1"
+            },
+            "name": "dutils",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "standard"
+                        },
+                        {
+                            "name": "shared"
+                        }
+                    ],
+                    "name": "math"
+                }
+            ],
+            "version": "~fix16"
+        },
+        {
+            "commitID": "c05624a82a84eb950f9cf2153e2b54bd62c10c96",
             "configurations": [
                 {
                     "name": "standard"
@@ -45,7 +74,7 @@
             "version": "~rubytheroobster"
         },
         {
-            "commitID": "bda28a76a740a86b92f7ec3056b640e49a993db0",
+            "commitID": "d77dbce21ef7a25ff91e3bb682bb6b63a6ce6d11",
             "configurations": [
                 {
                     "name": "standard"
@@ -74,7 +103,7 @@
             "version": "~stable"
         },
         {
-            "commitID": "45934eab53c84144e6595ce4fa9a1582513f0a28",
+            "commitID": "e5435c1089a147bafd67e44ae6726f6cce2a5b59",
             "configurations": [
                 {
                     "name": "standard"
@@ -350,6 +379,35 @@
                 }
             ],
             "version": "0.2.0-beta.2"
+        },
+        {
+            "commitID": "d77dbce21ef7a25ff91e3bb682bb6b63a6ce6d11",
+            "configurations": [
+                {
+                    "name": "standard"
+                },
+                {
+                    "name": "shared"
+                }
+            ],
+            "dependencies": {
+                "silly": "~>1.1.1"
+            },
+            "name": "dutils",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "standard"
+                        },
+                        {
+                            "name": "shared"
+                        }
+                    ],
+                    "name": "math"
+                }
+            ],
+            "version": "0.2.0"
         }
     ]
 }

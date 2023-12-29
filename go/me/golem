@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "4b84318a7979764ce6074e9e71d7029969a4d5d4",
+    "commitID": "eb91abd9b6534dfc4f8005a50ee98d2445ba4793",
     "dateAdded": "2020-10-06T14:48:10",
     "description": "A simple tensor library for the computational graph on CPU",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "15bd557ef165f10e3ac4f59b3a662123ad783cf7",
+            "commitID": "d4c1cb1cf5c2080087f391aa3897b815321e59b1",
             "configurations": [
                 {
                     "name": "default"
@@ -38,9 +38,40 @@
                 }
             ],
             "dependencies": {
-                "mir-algorithm": "~>3.13.2",
+                "mir-algorithm": "~>3.18.4",
                 "mir-blas": "~>1.1.14",
-                "msgpack-d": "~>1.0.3",
+                "msgpack-d": "~>1.0.4",
+                "numir": "~>2.0.6"
+            },
+            "name": "golem",
+            "version": "~upgrade\/202301"
+        },
+        {
+            "commitID": "eb91abd9b6534dfc4f8005a50ee98d2445ba4793",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "makedeps"
+                },
+                {
+                    "name": "diff-update"
+                },
+                {
+                    "name": "diff"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.16.5",
+                "mir-blas": "~>1.1.14",
+                "msgpack-d": "~>1.0.4",
                 "numir": "~>2.0.6"
             },
             "name": "golem",
@@ -448,6 +479,37 @@
             },
             "name": "golem",
             "version": "0.11.0"
+        },
+        {
+            "commitID": "eb91abd9b6534dfc4f8005a50ee98d2445ba4793",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "makedeps"
+                },
+                {
+                    "name": "diff-update"
+                },
+                {
+                    "name": "diff"
+                }
+            ],
+            "dependencies": {
+                "mir-algorithm": "~>3.16.5",
+                "mir-blas": "~>1.1.14",
+                "msgpack-d": "~>1.0.4",
+                "numir": "~>2.0.6"
+            },
+            "name": "golem",
+            "version": "0.12.0"
         }
     ]
 }

@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.optimized_mem"
     ],
-    "commitID": "a7eeabcb10c909f8569b32d6f70f0694133018f9",
+    "commitID": "8a039864857f3b45b07990ee2a1d7717fda60955",
     "dateAdded": "2016-06-18T07:37:48",
     "description": "Pro-actor based abstraction layer over operating system asynchronous I\/O facilities.",
     "documentationURL": "https:\/\/vibed.org\/api\/",
@@ -18,6 +18,84 @@
         "project": "eventcore"
     },
     "versions": [
+        {
+            "commitID": "5c02cc5012243d9d86123de8bcb0ef7c6c644fe1",
+            "configurations": [
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "epoll-gaia"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "dependencies": {
+                        "libasync": "~>0.8.2"
+                    },
+                    "name": "libasync"
+                },
+                {
+                    "name": "generic"
+                }
+            ],
+            "dependencies": {
+                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
+            },
+            "name": "eventcore",
+            "version": "~fix_win32_events"
+        },
+        {
+            "commitID": "d7650d7892335a62f5b1cf544de7ad68a17f40f6",
+            "configurations": [
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "epoll-gaia"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "dependencies": {
+                        "libasync": "~>0.8.2"
+                    },
+                    "name": "libasync"
+                },
+                {
+                    "name": "uring"
+                },
+                {
+                    "name": "generic"
+                }
+            ],
+            "dependencies": {
+                "during": "~>0.3.0",
+                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
+            },
+            "name": "eventcore",
+            "version": "~io_uring"
+        },
         {
             "commitID": "ed3467c7a8847eb515103f0f3d2deed8f2d09391",
             "configurations": [
@@ -99,7 +177,7 @@
             "version": "~readyness"
         },
         {
-            "commitID": "a7eeabcb10c909f8569b32d6f70f0694133018f9",
+            "commitID": "8a039864857f3b45b07990ee2a1d7717fda60955",
             "configurations": [
                 {
                     "name": "epoll"
@@ -3261,6 +3339,265 @@
             },
             "name": "eventcore",
             "version": "0.9.20"
+        },
+        {
+            "commitID": "f42a57c30355fb8a1e77cc18822ddafbac6163ec",
+            "configurations": [
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "epoll-gaia"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "dependencies": {
+                        "libasync": "~>0.8.2"
+                    },
+                    "name": "libasync"
+                },
+                {
+                    "name": "generic"
+                }
+            ],
+            "dependencies": {
+                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
+            },
+            "name": "eventcore",
+            "version": "0.9.21"
+        },
+        {
+            "commitID": "15979d4ff79a21017e4d66bfca6baca580dcec77",
+            "configurations": [
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "epoll-gaia"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "dependencies": {
+                        "libasync": "~>0.8.2"
+                    },
+                    "name": "libasync"
+                },
+                {
+                    "name": "generic"
+                }
+            ],
+            "dependencies": {
+                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
+            },
+            "name": "eventcore",
+            "version": "0.9.22"
+        },
+        {
+            "commitID": "a9ca564c697509839531d4b0d454b0b2f6c9abf3",
+            "configurations": [
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "epoll-gaia"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "dependencies": {
+                        "libasync": "~>0.8.2"
+                    },
+                    "name": "libasync"
+                },
+                {
+                    "name": "generic"
+                }
+            ],
+            "dependencies": {
+                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
+            },
+            "name": "eventcore",
+            "version": "0.9.23"
+        },
+        {
+            "commitID": "db0e0e25251a02a0d17a48b76042a40b9cf42f53",
+            "configurations": [
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "epoll-gaia"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "dependencies": {
+                        "libasync": "~>0.8.2"
+                    },
+                    "name": "libasync"
+                },
+                {
+                    "name": "generic"
+                }
+            ],
+            "dependencies": {
+                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
+            },
+            "name": "eventcore",
+            "version": "0.9.24"
+        },
+        {
+            "commitID": "5baa964d49293441719a25c6dd755a18d4a85b60",
+            "configurations": [
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "epoll-gaia"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "dependencies": {
+                        "libasync": "~>0.8.2"
+                    },
+                    "name": "libasync"
+                },
+                {
+                    "name": "generic"
+                }
+            ],
+            "dependencies": {
+                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
+            },
+            "name": "eventcore",
+            "version": "0.9.25"
+        },
+        {
+            "commitID": "37c3c0495dfa91ac255999a327d5f6427293580e",
+            "configurations": [
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "epoll-gaia"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "dependencies": {
+                        "libasync": "~>0.8.2"
+                    },
+                    "name": "libasync"
+                },
+                {
+                    "name": "generic"
+                }
+            ],
+            "dependencies": {
+                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
+            },
+            "name": "eventcore",
+            "version": "0.9.26"
+        },
+        {
+            "commitID": "8a039864857f3b45b07990ee2a1d7717fda60955",
+            "configurations": [
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "epoll-gaia"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "dependencies": {
+                        "libasync": "~>0.8.2"
+                    },
+                    "name": "libasync"
+                },
+                {
+                    "name": "generic"
+                }
+            ],
+            "dependencies": {
+                "taggedalgebraic": ">=0.10.12 <0.12.0-0"
+            },
+            "name": "eventcore",
+            "version": "0.9.27"
         }
     ]
 }

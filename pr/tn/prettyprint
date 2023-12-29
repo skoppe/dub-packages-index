@@ -3,7 +3,7 @@
         "library.encoding",
         "application.desktop.development"
     ],
-    "commitID": "d0e564964d40992156e9f820201b7ec4b29f78cb",
+    "commitID": "754ca503b44a6345ee14f35ee33633d55b4cc687",
     "dateAdded": "2020-02-13T13:55:58",
     "description": "Pretty-print structured strings heuristically based on parentheses",
     "documentationURL": "",
@@ -12,7 +12,7 @@
     "owner": "5b03beb308bfda1913cc8d36",
     "repository": {
         "kind": "github",
-        "owner": "funkwerk",
+        "owner": "funkwerk-mobility",
         "project": "prettyprint"
     },
     "versions": [
@@ -41,7 +41,7 @@
             "version": "~fix\/pure"
         },
         {
-            "commitID": "d0e564964d40992156e9f820201b7ec4b29f78cb",
+            "commitID": "754ca503b44a6345ee14f35ee33633d55b4cc687",
             "configurations": [
                 {
                     "name": "library"
@@ -269,6 +269,30 @@
                 }
             ],
             "version": "1.0.8"
+        },
+        {
+            "commitID": "754ca503b44a6345ee14f35ee33633d55b4cc687",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=1.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "prettyprint",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "prettyprint": ">=0.0.0"
+                    },
+                    "name": "pp"
+                }
+            ],
+            "version": "1.0.9"
         }
     ]
 }

@@ -3,9 +3,9 @@
         "library.network",
         "library.data"
     ],
-    "commitID": "0f6a10f0127e77fc501b81dd935871de251626dc",
+    "commitID": "4bee62e4e2ec1b7ebd498914e8176a7987a95cb9",
     "dateAdded": "2020-06-21T17:37:54",
-    "description": "Tag-based asynchronous messaging framework",
+    "description": "Tristanable network message queuing framework",
     "documentationURL": "",
     "id": "5eef7ed2b0caf8dc2a711591",
     "name": "tristanable",
@@ -33,6 +33,32 @@
             "version": "~exceptions"
         },
         {
+            "commitID": "a493114373d2a2c220bb3f4315b6344bad552f2e",
+            "dependencies": {
+                "bformat": ">=4.1.1",
+                "niknaks": ">=0.3.0"
+            },
+            "name": "tristanable",
+            "version": "~hotfix\/niknaks"
+        },
+        {
+            "commitID": "3bf9fd879e6f6350a3b84dddf6003d843434ab71",
+            "dependencies": {
+                "bformat": ">=4.1.1",
+                "niknaks": ">=0.3.0"
+            },
+            "name": "tristanable",
+            "version": "~hotfix\/unblock_queues_on_shutdown"
+        },
+        {
+            "commitID": "f35441bf5792d0288521005a2dc3d8e69aa50b5d",
+            "dependencies": {
+                "bformat": ">=4.1.1"
+            },
+            "name": "tristanable",
+            "version": "~libsnooze_deprecate"
+        },
+        {
             "commitID": "6382343916bf26fc2224e870ce27954026e27d30",
             "dependencies": {
                 "bformat": "~>3.1.0"
@@ -55,6 +81,50 @@
             },
             "name": "tristanable",
             "version": "~newFuncs"
+        },
+        {
+            "commitID": "aced8fdc7645f0e75cb78fd3a7d36d8542c9248b",
+            "dependencies": {
+                "bformat": ">=4.1.1",
+                "niknaks": ">=0.3.0"
+            },
+            "name": "tristanable",
+            "version": "~nextgen"
+        },
+        {
+            "commitID": "bfee652a9401d6560949c78c359bc453541c6add",
+            "dependencies": {
+                "bformat": ">=4.1.1",
+                "niknaks": ">=0.3.0"
+            },
+            "name": "tristanable",
+            "version": "~nextgen_listener"
+        },
+        {
+            "commitID": "bbe7b344eca1e46f007971b6b829d308dbe0a22a",
+            "dependencies": {
+                "bformat": "4.1.0",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "~nextgen_queue_remove"
+        },
+        {
+            "commitID": "10e230ea2f74da4ce88a97eb7710130aec6e618a",
+            "dependencies": {
+                "bformat": "4.1.0",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "~nextgen_river"
+        },
+        {
+            "commitID": "02f8c8f102506df0938a191164c19e8323e04415",
+            "dependencies": {
+                "bformat": "~>3.1.3"
+            },
+            "name": "tristanable",
+            "version": "~onRecvQeue"
         },
         {
             "commitID": "88be3d08e3f7d919cd5f9b72b4e9fe89ad3d1ac6",
@@ -89,9 +159,10 @@
             "version": "~select"
         },
         {
-            "commitID": "586835a6277481abcf2ead7d84b68f856ba36697",
+            "commitID": "4bee62e4e2ec1b7ebd498914e8176a7987a95cb9",
             "dependencies": {
-                "bformat": "~>3.1.3"
+                "bformat": ">=4.1.1",
+                "niknaks": ">=0.3.0"
             },
             "name": "tristanable",
             "version": "~master"
@@ -663,6 +734,211 @@
             },
             "name": "tristanable",
             "version": "2.6.12"
+        },
+        {
+            "commitID": "c6611fc26ba1bdf36ee437585bf15f29e3805f67",
+            "dependencies": {
+                "bformat": "3.1.13",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.0.0-beta"
+        },
+        {
+            "commitID": "cf62054eb8cd152eaff71172a427132cda2be208",
+            "dependencies": {
+                "bformat": "3.1.13",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.0.1-beta"
+        },
+        {
+            "commitID": "375a611a827cf0856b4c73f2dc47ee82581a0433",
+            "dependencies": {
+                "bformat": "3.1.13",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.1.0-beta"
+        },
+        {
+            "commitID": "79fee5bd7e79f8dc62b3b929fff315a24a79a496",
+            "dependencies": {
+                "bformat": "3.1.13",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.1.1-beta"
+        },
+        {
+            "commitID": "07d47551aed0107edca71f0155345e9e7b5fb3bd",
+            "dependencies": {
+                "bformat": "3.1.13",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.1.2-beta"
+        },
+        {
+            "commitID": "3bda88267b327dca8de060b2b0a21ed4eaa3afd9",
+            "dependencies": {
+                "bformat": "3.1.13",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.1.3-beta"
+        },
+        {
+            "commitID": "b7bb3df7c97a0266ddfe4d800c24ce0e57f186c8",
+            "dependencies": {
+                "bformat": "3.1.13",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.1.4-beta"
+        },
+        {
+            "commitID": "97e72e09f06fe208061d1786f423334df7070ff0",
+            "dependencies": {
+                "bformat": "3.1.13",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.1.5-beta"
+        },
+        {
+            "commitID": "6e972b6cc5a02c5a469cb451eca198fbc4728e66",
+            "dependencies": {
+                "bformat": "3.1.13",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.1.6-beta"
+        },
+        {
+            "commitID": "19742d927619f200f2136bff61d0a28d52750fca",
+            "dependencies": {
+                "bformat": "3.1.13",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.1.7-beta"
+        },
+        {
+            "commitID": "97ecbd86bb16f7f460b26b9c685f5ffdf177ed9c",
+            "dependencies": {
+                "bformat": "3.1.13",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.1.8-beta"
+        },
+        {
+            "commitID": "14378956696033f747229747cccf551eef15644c",
+            "dependencies": {
+                "bformat": "4.1.0",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.1.9-beta"
+        },
+        {
+            "commitID": "25775414e19b6025e168116ff331b8d8ecd0c233",
+            "dependencies": {
+                "bformat": "4.1.0",
+                "libsnooze": "0.3.3"
+            },
+            "name": "tristanable",
+            "version": "3.2.0-beta"
+        },
+        {
+            "commitID": "3ff4519d99fd248a3c36bb250a23f5c74adb0e79",
+            "dependencies": {
+                "bformat": "4.1.0",
+                "libsnooze": ">=1.0.0-beta"
+            },
+            "name": "tristanable",
+            "version": "3.2.1-beta"
+        },
+        {
+            "commitID": "628d8444b7e6d36ba9eebb2369bac076fd332bef",
+            "dependencies": {
+                "bformat": "4.1.0",
+                "libsnooze": ">=1.0.0-beta"
+            },
+            "name": "tristanable",
+            "version": "3.2.2-beta"
+        },
+        {
+            "commitID": "4611da0d1d656f669f1c34a6adc29f31b37aaa01",
+            "dependencies": {
+                "bformat": ">=4.1.1",
+                "libsnooze": ">=1.0.0-beta"
+            },
+            "name": "tristanable",
+            "version": "3.2.3-beta"
+        },
+        {
+            "commitID": "7ca6489b58f36a8d3c1c72349a22e4558b9a2c74",
+            "dependencies": {
+                "bformat": ">=4.1.1",
+                "libsnooze": ">=1.3.0-beta"
+            },
+            "name": "tristanable",
+            "version": "3.2.4-beta"
+        },
+        {
+            "commitID": "42c6b111c8353c723ac4fb67779cf9018745e522",
+            "dependencies": {
+                "bformat": ">=4.1.1"
+            },
+            "name": "tristanable",
+            "version": "4.0.0-beta"
+        },
+        {
+            "commitID": "5cafbb8130f748d606c75b9656d6f1253f6f099f",
+            "dependencies": {
+                "bformat": ">=4.1.1"
+            },
+            "name": "tristanable",
+            "version": "4.0.1-beta"
+        },
+        {
+            "commitID": "dafcdf714bebf4e82e2c53099ff35808d226216a",
+            "dependencies": {
+                "bformat": ">=4.1.1",
+                "niknaks": ">=0.3.0"
+            },
+            "name": "tristanable",
+            "version": "4.0.2-beta"
+        },
+        {
+            "commitID": "aced8fdc7645f0e75cb78fd3a7d36d8542c9248b",
+            "dependencies": {
+                "bformat": ">=4.1.1",
+                "niknaks": ">=0.3.0"
+            },
+            "name": "tristanable",
+            "version": "4.1.0-beta"
+        },
+        {
+            "commitID": "b24c3368b3f2581fc3af605ebeb0b81def6d638a",
+            "dependencies": {
+                "bformat": ">=4.1.1",
+                "niknaks": ">=0.3.0"
+            },
+            "name": "tristanable",
+            "version": "4.1.1-beta"
+        },
+        {
+            "commitID": "4bee62e4e2ec1b7ebd498914e8176a7987a95cb9",
+            "dependencies": {
+                "bformat": ">=4.1.1",
+                "niknaks": ">=0.3.0"
+            },
+            "name": "tristanable",
+            "version": "4.1.2-beta"
         }
     ]
 }

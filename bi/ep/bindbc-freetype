@@ -1,15 +1,17 @@
 {
     "categories": [
         "library.binding",
-        "library.graphics"
+        "library.graphics",
+        "library.data",
+        "library.nogc"
     ],
-    "commitID": "7cbf9294045bbe44ab655aef27bfa3e93f698d9c",
+    "commitID": "7b981a71dcbcd4b491782bbc3d3ec144773039c6",
     "dateAdded": "2019-03-29T15:41:16",
-    "description": "Dynamic and static bindings to FreeType, compatible with -betterC, @nogc, and nothrow.",
+    "description": "Static & dynamic bindings to FreeType, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
     "id": "5c9e2e8c2f49e9f1353b9155",
     "name": "bindbc-freetype",
-    "owner": "51c06019cbbd2bfc610002a4",
+    "owner": "62d24f13a808d5cc35199e92",
     "repository": {
         "kind": "github",
         "owner": "BindBC",
@@ -17,17 +19,17 @@
     },
     "versions": [
         {
-            "commitID": "7cbf9294045bbe44ab655aef27bfa3e93f698d9c",
+            "commitID": "6998d302a24dfe0428fe94331737b98bef3e301a",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.0"
+                        "bindbc-loader": "~>1.1.0"
                     },
                     "name": "dynamicBC"
                 },
@@ -38,6 +40,9 @@
                     "name": "staticBC"
                 }
             ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.0"
+            },
             "name": "bindbc-freetype",
             "version": "~master"
         },
@@ -515,6 +520,106 @@
             ],
             "name": "bindbc-freetype",
             "version": "1.0.3"
+        },
+        {
+            "commitID": "59880ccdc51c2ac044791f0a7f825d99b47ef816",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-freetype",
+            "version": "1.0.4"
+        },
+        {
+            "commitID": "a5c5972aad6b4e5d0a22e1d0af6a8955aef5b0ec",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-freetype",
+            "version": "1.0.5"
+        },
+        {
+            "commitID": "2669fec0a08c43ca123626b7a32a80707a9f8780",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-freetype",
+            "version": "1.1.0"
+        },
+        {
+            "commitID": "7b981a71dcbcd4b491782bbc3d3ec144773039c6",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-freetype",
+            "version": "1.1.1"
         }
     ]
 }

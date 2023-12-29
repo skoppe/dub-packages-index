@@ -2,28 +2,41 @@
     "categories": [
         "library.development.parsing"
     ],
-    "commitID": "a80680783c75d51d67778a604583c1c27fe6d614",
+    "commitID": "8ce26af5064ae35e7a136ed454e5fd29f7c9f8af",
     "dateAdded": "2017-06-08T16:03:59",
-    "description": "D implementation of TOML",
+    "description": "D implementation of TOML ",
     "documentationURL": "",
     "id": "5939594fc84f7ad77506f27d",
     "name": "toml",
     "owner": "587210018600a85824bf5ec7",
     "repository": {
         "kind": "github",
-        "owner": "Kripth",
+        "owner": "dlang-community",
         "project": "toml"
     },
     "versions": [
         {
-            "commitID": "a80680783c75d51d67778a604583c1c27fe6d614",
+            "commitID": "aa17362d95be2ccca5fbc6b7c62d8d6c365c82a9",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ut_def"
+                }
+            ],
             "name": "toml",
             "subPackages": [
                 {
                     "dependencies": {
                         "toml": {
-                            "path": "..",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         }
                     },
                     "name": "json"
@@ -90,8 +103,7 @@
                 {
                     "dependencies": {
                         "toml": {
-                            "path": "..",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         }
                     },
                     "name": "json"
@@ -106,8 +118,7 @@
                 {
                     "dependencies": {
                         "toml": {
-                            "path": "..",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         }
                     },
                     "name": "json"
@@ -122,14 +133,86 @@
                 {
                     "dependencies": {
                         "toml": {
-                            "path": "..",
-                            "version": ">=0.0.0"
+                            "path": ".."
                         }
                     },
                     "name": "json"
                 }
             ],
             "version": "1.0.0-rc.3"
+        },
+        {
+            "commitID": "aa0990358041474ff1e6a892fcc9b80751cf3805",
+            "name": "toml",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "toml": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "json"
+                }
+            ],
+            "version": "1.0.0"
+        },
+        {
+            "commitID": "421e5926519f75f0b77c9b720f28698d8b8923f6",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "~>2.0.5"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ut_def"
+                }
+            ],
+            "name": "toml",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "toml": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "json"
+                }
+            ],
+            "version": "2.0.0"
+        },
+        {
+            "commitID": "8ce26af5064ae35e7a136ed454e5fd29f7c9f8af",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "~>2.0.5"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "ut_def"
+                }
+            ],
+            "name": "toml",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "toml": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "json"
+                }
+            ],
+            "version": "2.0.1"
         }
     ]
 }

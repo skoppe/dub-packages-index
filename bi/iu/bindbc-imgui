@@ -1,185 +1,45 @@
 {
-    "categories": [],
-    "commitID": "8d67645ce28ae019359a27e3496e14150ea77a41",
+    "categories": [
+        "library.binding",
+        "library.gui",
+        "library.gamedev",
+        "library.nogc"
+    ],
+    "commitID": "a4fe99be4311dcf398f57a2c7f51d301369d038c",
     "dateAdded": "2020-10-24T21:02:00",
     "description": "Dynamic and static bindings to imgui, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
     "id": "5f947a28617bc1ae243cb14f",
     "name": "bindbc-imgui",
-    "owner": "5a7f7576517e9b646d9883ca",
+    "owner": "62d24f13a808d5cc35199e92",
     "repository": {
         "kind": "github",
-        "owner": "Inochi2D",
+        "owner": "BindBC",
         "project": "bindbc-imgui"
     },
     "versions": [
         {
-            "commitID": "e35176878fb65540e416047042798c0e262001e6",
+            "commitID": "63cf88e1ab3981794d2e17d2c4a30d1ac340b148",
             "configurations": [
                 {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.13.0",
-                        "bindbc-sdl": "~>0.21.4"
-                    },
-                    "name": "dynamic"
+                    "name": "static_dynamicCRT"
                 },
                 {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.13.0",
-                        "bindbc-sdl": "~>0.21.4"
-                    },
-                    "name": "dynamicBC"
+                    "name": "static_staticCRT"
                 },
                 {
-                    "name": "static"
+                    "name": "dynamic_dynamicCRT"
                 },
                 {
-                    "name": "staticBC"
+                    "name": "dynamic_staticCRT"
                 }
             ],
-            "name": "bindbc-imgui",
-            "version": "~fixing_cimgui"
-        },
-        {
-            "commitID": "b9d9bd09d686e31ecc8aaebfdb7f4389cdd395ac",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.13.0",
-                        "bindbc-sdl": "~>0.21.4"
-                    },
-                    "name": "dynamic"
-                },
-                {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.13.0",
-                        "bindbc-sdl": "~>0.21.4"
-                    },
-                    "name": "dynamicBC"
-                },
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "staticBC"
-                }
-            ],
-            "name": "bindbc-imgui",
-            "version": "~freetype"
-        },
-        {
-            "commitID": "eecf917b4cdc42601a583f1366fe306a1d1eca15",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.13.0"
-                    },
-                    "name": "dynamic"
-                },
-                {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.13.0"
-                    },
-                    "name": "dynamicBC"
-                },
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "staticBC"
-                }
-            ],
-            "name": "bindbc-imgui",
-            "version": "~further_version_work"
-        },
-        {
-            "commitID": "3c9c251e3f170855be4599334862f76735f96924",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.13.0",
-                        "bindbc-sdl": "~>0.21.4"
-                    },
-                    "name": "dynamic"
-                },
-                {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.13.0",
-                        "bindbc-sdl": "~>0.21.4"
-                    },
-                    "name": "dynamicBC"
-                },
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "staticBC"
-                }
-            ],
+            "dependencies": {
+                "bindbc-opengl": "~>1.0.0",
+                "bindbc-sdl": "~>1.1.2"
+            },
             "name": "bindbc-imgui",
             "version": "~main"
-        },
-        {
-            "commitID": "232cab3c00559dc35fe9a7fbd56b132ca0f35bb8",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.13.0",
-                        "bindbc-sdl": "~>0.21.4"
-                    },
-                    "name": "dynamic"
-                },
-                {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0",
-                        "bindbc-opengl": "~>0.13.0",
-                        "bindbc-sdl": "~>0.21.4"
-                    },
-                    "name": "dynamicBC"
-                },
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "staticBC"
-                }
-            ],
-            "name": "bindbc-imgui",
-            "version": "~playmer\/CI"
-        },
-        {
-            "commitID": "8015f39a8c7d9677b2ced090f1158b346d9d2c58",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0"
-                    },
-                    "name": "dynamic"
-                },
-                {
-                    "dependencies": {
-                        "bindbc-loader": "~>0.3.0"
-                    },
-                    "name": "dynamicBC"
-                },
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "staticBC"
-                }
-            ],
-            "name": "bindbc-imgui",
-            "version": "~versioned"
         },
         {
             "commitID": "086f391af952cbc772b908ea26f0315fa66ca07f",
@@ -300,6 +160,29 @@
             ],
             "name": "bindbc-imgui",
             "version": "0.6.1"
+        },
+        {
+            "commitID": "a4fe99be4311dcf398f57a2c7f51d301369d038c",
+            "configurations": [
+                {
+                    "name": "static_dynamicCRT"
+                },
+                {
+                    "name": "static_staticCRT"
+                },
+                {
+                    "name": "dynamic_dynamicCRT"
+                },
+                {
+                    "name": "dynamic_staticCRT"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "~>0.13.0",
+                "bindbc-sdl": "~>0.21.4"
+            },
+            "name": "bindbc-imgui",
+            "version": "0.7.0"
         }
     ]
 }

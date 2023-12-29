@@ -1,0 +1,93 @@
+{
+    "categories": [],
+    "commitID": "c539ffa9105d994a79426cb1eaadf6a07f1aebc1",
+    "dateAdded": "2023-03-26T16:59:41",
+    "description": "A quick way to set up Retrograde Engine projects",
+    "documentationURL": "",
+    "id": "64205dddbb22d3ff44db6abc",
+    "name": "retrograde-bootstrap",
+    "owner": "538e57940c9cc1a23c0050e1",
+    "repository": {
+        "kind": "github",
+        "owner": "mbierlee",
+        "project": "retrograde-bootstrap"
+    },
+    "versions": [
+        {
+            "commitID": "95660ac8486a659c8589850dc3b0941dde2d0a50",
+            "dependencies": {
+                "retrograde": {
+                    "path": "..\/retrograde"
+                }
+            },
+            "name": "retrograde-bootstrap",
+            "subPackages": [
+                {
+                    "name": "minimal"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "opengl46"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-opengl": "~>1.0.5",
+                        "glfw-d": "~>1.1.0",
+                        "preprocessor": "~>1.2.0",
+                        "retrograde": {
+                            "path": "..\/retrograde"
+                        }
+                    },
+                    "name": "glfw-opengl"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": "~>0.9.6",
+                        "vibe-d:tls": "~>0.9.6"
+                    },
+                    "name": "stability-ai"
+                }
+            ],
+            "version": "~main"
+        },
+        {
+            "commitID": "c539ffa9105d994a79426cb1eaadf6a07f1aebc1",
+            "dependencies": {
+                "retrograde": {
+                    "path": "..\/retrograde"
+                }
+            },
+            "name": "retrograde-bootstrap",
+            "subPackages": [
+                {
+                    "name": "minimal"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "opengl46"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-opengl": "~>1.0.5",
+                        "glfw-d": "~>1.1.0",
+                        "preprocessor": "~>1.2.0",
+                        "retrograde": {
+                            "path": "..\/retrograde"
+                        }
+                    },
+                    "name": "glfw-opengl"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": "~>0.9.6",
+                        "vibe-d:tls": "~>0.9.6"
+                    },
+                    "name": "stability-ai"
+                }
+            ],
+            "version": "0.0.0"
+        }
+    ]
+}

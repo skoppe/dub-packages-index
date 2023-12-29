@@ -3,7 +3,7 @@
         "library.binding",
         "library.graphics"
     ],
-    "commitID": "15ba316a76eff00956622f317faf00e0cbc0f91f",
+    "commitID": "f0be9da3765dafeb8c227de622d61577d88f8c8a",
     "dateAdded": "2022-02-27T19:46:58",
     "description": "Dynamic and static bindings to ThorVG CAPI, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -17,17 +17,17 @@
     },
     "versions": [
         {
-            "commitID": "15ba316a76eff00956622f317faf00e0cbc0f91f",
+            "commitID": "f0be9da3765dafeb8c227de622d61577d88f8c8a",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.1"
+                        "bindbc-loader": "~>1.1.2"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.0.1"
+                        "bindbc-loader": "~>1.1.2"
                     },
                     "name": "dynamicBC"
                 },
@@ -39,7 +39,7 @@
                 }
             ],
             "dependencies": {
-                "bindbc-loader": "~>1.0.1"
+                "bindbc-loader": "~>1.1.2"
             },
             "name": "bindbc-thorvg",
             "version": "~main"
@@ -71,6 +71,34 @@
             },
             "name": "bindbc-thorvg",
             "version": "1.0.0"
+        },
+        {
+            "commitID": "f0be9da3765dafeb8c227de622d61577d88f8c8a",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.2"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.2"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>1.1.2"
+            },
+            "name": "bindbc-thorvg",
+            "version": "1.0.1"
         }
     ]
 }

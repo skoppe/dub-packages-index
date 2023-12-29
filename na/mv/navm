@@ -3,7 +3,7 @@
         "library.scripting",
         "library.optimized_cpu"
     ],
-    "commitID": "0f60667b476bcc0dca44c0fd7b7f85d8ccc5e6aa",
+    "commitID": "c84177567b8e3deb7786571aa1717db939d4f674",
     "dateAdded": "2019-12-24T20:51:25",
     "description": "A barebones VM for use in scripting languages",
     "documentationURL": "",
@@ -17,19 +17,21 @@
     },
     "versions": [
         {
-            "commitID": "0f60667b476bcc0dca44c0fd7b7f85d8ccc5e6aa",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "name": "demo"
-                }
-            ],
+            "commitID": "df476bf56387b58c928ea1eaadb29dcc67d60e3f",
             "dependencies": {
-                "utils": "~>0.6.0"
+                "utils": "~>0.7.0"
             },
             "name": "navm",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "navm": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "stackvm"
+                }
+            ],
             "version": "~master"
         },
         {
@@ -415,6 +417,22 @@
             },
             "name": "navm",
             "version": "1.4.0"
+        },
+        {
+            "commitID": "c84177567b8e3deb7786571aa1717db939d4f674",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "demo"
+                }
+            ],
+            "dependencies": {
+                "utils": "~>0.7.0"
+            },
+            "name": "navm",
+            "version": "1.4.1"
         }
     ]
 }

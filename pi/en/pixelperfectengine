@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.gui"
     ],
-    "commitID": "6afa86276bd6b1a3a8d62cb76213e74399ef46ab",
+    "commitID": "73eb97fe38dd26046accd7167d313fa72ef6f88b",
     "dateAdded": "2017-01-20T00:24:00",
     "description": "A 2D game engine for retro styled games",
     "documentationURL": "",
@@ -18,20 +18,20 @@
     },
     "versions": [
         {
-            "commitID": "74b6b838b89db8a924128f6689c9aba6c11313bb",
+            "commitID": "a80c393aa4e56b7295d10f3d8f970fb44c31aabf",
             "dependencies": {
                 "bindbc-sdl": ">=0.0.0",
                 "bitleveld": ">=0.0.0",
                 "bmfont": "0.1.0",
-                "collections-d": "0.4.5",
-                "cpublit": "0.5.0",
+                "collections-d": "0.5.1",
+                "cpublit": "0.6.1",
                 "dimage": "0.3.0-beta.2",
                 "intel-intrinsics": ">=0.0.0",
-                "iota": ">=0.0.0",
+                "iota": "0.3.0-alpha2",
                 "midi-di": ">=0.0.0",
                 "midi2": ">=0.0.0",
-                "sdlang-d": ">=0.0.0",
-                "undead": ">=0.0.0"
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
             },
             "name": "pixelperfectengine",
             "subPackages": [
@@ -51,19 +51,43 @@
                     "dependencies": {
                         "pixelperfectengine": ">=0.0.0"
                     },
+                    "name": "test2"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
                     "name": "test3"
                 },
                 {
                     "dependencies": {
                         "pixelperfectengine": ">=0.0.0"
                     },
-                    "name": "windowmakerforconcrete"
+                    "name": "test4"
                 },
                 {
                     "dependencies": {
                         "pixelperfectengine": ">=0.0.0"
                     },
-                    "name": "wallbreaker"
+                    "name": "test5"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wmfc"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
                 }
             ],
             "version": "~master"
@@ -945,6 +969,754 @@
                 }
             ],
             "version": "0.10.0-beta.5"
+        },
+        {
+            "commitID": "3d197f467e4ce6bb27cd1b85cc2353b85a007306",
+            "dependencies": {
+                "bindbc-lua": ">=0.0.0",
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.4.7",
+                "cpublit": "0.5.1",
+                "dimage": "0.3.0-beta.2",
+                "i18n-d": ">=0.0.0",
+                "intel-intrinsics": ">=0.0.0",
+                "iota": "0.2.0",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test3"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "windowmakerforconcrete"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
+                }
+            ],
+            "version": "0.10.0-beta.7"
+        },
+        {
+            "commitID": "fee926af04125d262c7fc552a43e82984c0e2371",
+            "dependencies": {
+                "bindbc-lua": ">=0.0.0",
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.4.7",
+                "cpublit": "0.6.1",
+                "dimage": "0.3.0-beta.2",
+                "i18n-d": ">=0.0.0",
+                "intel-intrinsics": ">=0.0.0",
+                "iota": "0.2.0",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test2"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test3"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "windowmakerforconcrete"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
+                }
+            ],
+            "version": "0.10.0-beta.8"
+        },
+        {
+            "commitID": "9edd10ab7eec5af581b2e9af053253e1eb934d07",
+            "dependencies": {
+                "bindbc-lua": ">=0.0.0",
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.4.7",
+                "cpublit": "0.6.1",
+                "dimage": "0.3.0-beta.2",
+                "i18n-d": ">=0.0.0",
+                "intel-intrinsics": ">=0.0.0",
+                "iota": "0.2.0",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test2"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test3"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "windowmakerforconcrete"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
+                }
+            ],
+            "version": "0.10.0-beta.9"
+        },
+        {
+            "commitID": "dcbe7b0850da01edef3662debf188a3f19330f3a",
+            "dependencies": {
+                "bindbc-lua": ">=0.0.0",
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.4.7",
+                "cpublit": "0.6.1",
+                "dimage": "0.3.0-beta.2",
+                "i18n-d": ">=0.0.0",
+                "intel-intrinsics": ">=0.0.0",
+                "iota": "0.3.0-alpha2",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test2"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test3"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wmfc"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
+                }
+            ],
+            "version": "0.10.0-beta.10"
+        },
+        {
+            "commitID": "231442f833eafafa1fd7b15a3b2cdb76e02d673e",
+            "dependencies": {
+                "bindbc-lua": ">=0.0.0",
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.5.0",
+                "cpublit": "0.6.1",
+                "dimage": "0.3.0-beta.2",
+                "i18n-d": ">=0.0.0",
+                "intel-intrinsics": ">=0.0.0",
+                "iota": "0.3.0-alpha2",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test2"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test3"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wmfc"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
+                }
+            ],
+            "version": "0.10.0"
+        },
+        {
+            "commitID": "486a66ce88b2758a111823a0e3928a0dc0f09281",
+            "dependencies": {
+                "bindbc-lua": ">=0.0.0",
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.5.0",
+                "cpublit": "0.6.1",
+                "dimage": "0.3.0-beta.2",
+                "i18n-d": ">=0.0.0",
+                "intel-intrinsics": ">=0.0.0",
+                "iota": "0.3.0-alpha2",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test2"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test3"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test5"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wmfc"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
+                }
+            ],
+            "version": "0.10.1"
+        },
+        {
+            "commitID": "537dd150298aa7067f54f9f9f5b211efb7d6f062",
+            "dependencies": {
+                "bindbc-lua": ">=0.0.0",
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.5.0",
+                "cpublit": "0.6.1",
+                "dimage": "0.3.0-beta.2",
+                "i18n-d": ">=0.0.0",
+                "intel-intrinsics": ">=0.0.0",
+                "iota": "0.3.0-alpha2",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test2"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test3"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test5"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wmfc"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
+                }
+            ],
+            "version": "0.10.2"
+        },
+        {
+            "commitID": "afdd58811ce5bda09c2fb30656da840ed1c8420c",
+            "dependencies": {
+                "bindbc-lua": ">=0.0.0",
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.5.0",
+                "cpublit": "0.6.1",
+                "dimage": "0.3.0-beta.2",
+                "i18n-d": ">=0.0.0",
+                "intel-intrinsics": ">=0.0.0",
+                "iota": "0.3.0-alpha2",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test2"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test3"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test5"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wmfc"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
+                }
+            ],
+            "version": "0.10.3"
+        },
+        {
+            "commitID": "a40d564e71d2b5a35f1a20a5e1e6255d19e6fcba",
+            "dependencies": {
+                "bindbc-lua": ">=0.0.0",
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.5.0",
+                "cpublit": "0.6.1",
+                "dimage": "0.3.0-beta.2",
+                "intel-intrinsics": ">=0.0.0",
+                "iota": "0.3.0-alpha2",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test2"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test3"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test5"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wmfc"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
+                }
+            ],
+            "version": "0.10.4"
+        },
+        {
+            "commitID": "7d57246b11a592876554f74dd5ecf4be702ae43c",
+            "dependencies": {
+                "bindbc-lua": ">=0.0.0",
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.5.1",
+                "cpublit": "0.6.1",
+                "dimage": "0.3.0-beta.2",
+                "intel-intrinsics": ">=0.0.0",
+                "iota": "0.3.0-alpha2",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test2"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test3"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test5"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wmfc"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
+                }
+            ],
+            "version": "0.10.5"
+        },
+        {
+            "commitID": "73eb97fe38dd26046accd7167d313fa72ef6f88b",
+            "dependencies": {
+                "bindbc-lua": ">=0.0.0",
+                "bindbc-sdl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "bmfont": "0.1.0",
+                "collections-d": "0.5.1",
+                "cpublit": "0.6.1",
+                "dimage": "0.3.0-beta.2",
+                "intel-intrinsics": ">=0.0.0",
+                "iota": "0.3.0-alpha2",
+                "midi-di": ">=0.0.0",
+                "midi2": ">=0.0.0",
+                "newxml": "0.2.1",
+                "sdlang-d": ">=0.0.0"
+            },
+            "name": "pixelperfectengine",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test0"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test1"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test2"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test3"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test4"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "test5"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "wmfc"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "snake"
+                },
+                {
+                    "dependencies": {
+                        "pixelperfectengine": ">=0.0.0"
+                    },
+                    "name": "icebreaker"
+                }
+            ],
+            "version": "0.10.6"
         }
     ]
 }

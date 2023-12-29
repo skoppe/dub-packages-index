@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "1520170e6cbe3f87a9adc356e2c0423eda285ae9",
+    "commitID": "fe076f90393852c2133480197ed6e999d5a32836",
     "dateAdded": "2020-11-09T21:56:59",
     "description": "D library for Apache Thrift RPC system",
     "documentationURL": "",
@@ -9,14 +9,24 @@
     "owner": "5fa2d6222c014cfd084bb7fe",
     "repository": {
         "kind": "github",
-        "owner": "kingbirdogd",
+        "owner": "symmetryinvestments",
         "project": "symmetry_thrift_d"
     },
     "versions": [
         {
-            "commitID": "1520170e6cbe3f87a9adc356e2c0423eda285ae9",
+            "commitID": "fe076f90393852c2133480197ed6e999d5a32836",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "libevent": "~>2.0.2"
+                    },
+                    "name": "default"
+                },
+                {
+                    "name": "no-libevent"
+                }
+            ],
             "dependencies": {
-                "libevent": "~>2.0.2",
                 "openssl": "~>3.1"
             },
             "name": "symmetry_thrift_d",
@@ -84,6 +94,25 @@
             },
             "name": "symmetry_thrift_d",
             "version": "1.0.7"
+        },
+        {
+            "commitID": "fe076f90393852c2133480197ed6e999d5a32836",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "libevent": "~>2.0.2"
+                    },
+                    "name": "default"
+                },
+                {
+                    "name": "no-libevent"
+                }
+            ],
+            "dependencies": {
+                "openssl": "~>3.1"
+            },
+            "name": "symmetry_thrift_d",
+            "version": "1.0.8"
         }
     ]
 }

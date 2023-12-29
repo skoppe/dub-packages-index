@@ -3,7 +3,7 @@
         "library.binding",
         "library.generic"
     ],
-    "commitID": "3399fc2cb411e3e4bfe464c860544282a2f5c3b0",
+    "commitID": "462746dea175ddc0db81eb2f08072a382f19e46c",
     "dateAdded": "2021-10-13T12:16:54",
     "description": "Dynamic and static bindings to Nodave, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "3399fc2cb411e3e4bfe464c860544282a2f5c3b0",
+            "commitID": "fdfaa9386af35f435c7969a9357732bca09694f7",
             "configurations": [
                 {
                     "dependencies": {
@@ -165,6 +165,56 @@
             ],
             "name": "bindbc-nodave",
             "version": "0.4.0"
+        },
+        {
+            "commitID": "4449bca45dc6052909a64e5c37026fad22e08fad",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-nodave",
+            "version": "0.5.0"
+        },
+        {
+            "commitID": "462746dea175ddc0db81eb2f08072a382f19e46c",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.0.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-nodave",
+            "version": "0.6.0"
         }
     ]
 }

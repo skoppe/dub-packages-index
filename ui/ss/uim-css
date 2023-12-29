@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "0df1bb2f156ff5d263820075817b82c95f4f9af7",
+    "commitID": "9c0ded6b9857c88797c4db677e45193683e54ef6",
     "dateAdded": "2019-06-09T11:44:21",
     "description": "CSS Library in D",
     "documentationURL": "",
@@ -16,20 +16,41 @@
     },
     "versions": [
         {
-            "commitID": "f8119702520203c30e9c910bf2ad6aea4c6daae9",
+            "commitID": "90fd21324119abd48dcf9902b4dcac11ee1656ba",
             "configurations": [
                 {
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "vibe-d": "~>0.9.5"
+                    },
                     "name": "default"
                 },
                 {
-                    "name": "test"
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "uim-oop": {
+                            "repository": "git+https:\/\/github.com\/UI-Manufaktur\/uim-oop.git",
+                            "version": "6ba8c929ad8a6a621613dfdabfdf4d6397452de3"
+                        },
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "github"
+                },
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "testUnit"
+                },
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "testAll"
                 }
             ],
-            "dependencies": {
-                "uim-core": "~>22.1.1",
-                "uim-oop": "~>22.1.1",
-                "vibe-d": "~>0.9.4"
-            },
             "name": "uim-css",
             "version": "~master"
         },
@@ -66,6 +87,45 @@
             },
             "name": "uim-css",
             "version": "22.1.1"
+        },
+        {
+            "commitID": "9c0ded6b9857c88797c4db677e45193683e54ef6",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "uim-oop": {
+                            "repository": "git+https:\/\/github.com\/UI-Manufaktur\/uim-oop.git",
+                            "version": "6ba8c929ad8a6a621613dfdabfdf4d6397452de3"
+                        },
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "github"
+                },
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "testUnit"
+                },
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.27",
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "testAll"
+                }
+            ],
+            "name": "uim-css",
+            "version": "22.8.1"
         }
     ]
 }

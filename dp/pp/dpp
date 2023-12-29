@@ -2,7 +2,7 @@
     "categories": [
         "application"
     ],
-    "commitID": "40ab857b7159268800c72d3de6242c4568f5e177",
+    "commitID": "c74291190d5fe81ff23ec1d21290fd7047c256a9",
     "dateAdded": "2018-04-09T12:19:02",
     "description": "Include C\/C++ headers directly in D files",
     "documentationURL": "",
@@ -40,8 +40,7 @@
             "dependencies": {
                 "libclang": "~>0.0.17",
                 "sumtype": {
-                    "path": "~>0.7.1",
-                    "version": ">=0.0.0"
+                    "path": "~>0.7.1"
                 }
             },
             "name": "dpp",
@@ -113,44 +112,14 @@
             "dependencies": {
                 "libclang": "~>0.0.17",
                 "sumtype": {
-                    "path": "~>0.7.1",
-                    "version": ">=0.0.0"
+                    "path": "~>0.7.1"
                 }
             },
             "name": "dpp",
             "version": "~laeeth-opaque"
         },
         {
-            "commitID": "8ee8640a8f0ed5af3a147a794493bb6e62e6be80",
-            "configurations": [
-                {
-                    "name": "executable"
-                },
-                {
-                    "name": "library"
-                },
-                {
-                    "dependencies": {
-                        "unit-threaded": ">=0.0.0"
-                    },
-                    "name": "unittest"
-                },
-                {
-                    "dependencies": {
-                        "unit-threaded": ">=0.0.0"
-                    },
-                    "name": "dpp2"
-                }
-            ],
-            "dependencies": {
-                "libclang": "~>0.0.17",
-                "sumtype": "~>0.8.0"
-            },
-            "name": "dpp",
-            "version": "~node"
-        },
-        {
-            "commitID": "40ab857b7159268800c72d3de6242c4568f5e177",
+            "commitID": "b549d0a934d1b06e36b3555a17c13ef81c0913f2",
             "configurations": [
                 {
                     "name": "executable"
@@ -184,7 +153,77 @@
                 }
             ],
             "dependencies": {
-                "libclang": "~>0.2.0",
+                "libclang": "~>0.2.12",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "~libclang-version"
+        },
+        {
+            "commitID": "8ee8640a8f0ed5af3a147a794493bb6e62e6be80",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.0.17",
+                "sumtype": "~>0.8.0"
+            },
+            "name": "dpp",
+            "version": "~node"
+        },
+        {
+            "commitID": "bf7076c535c821ffdc7ab594ed7cc7626cb74e78",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.3.1",
                 "sumtype": "~>0.7.1"
             },
             "name": "dpp",
@@ -1472,6 +1511,416 @@
             },
             "name": "dpp",
             "version": "0.4.10"
+        },
+        {
+            "commitID": "4c66d7959917f8440970ac447129b7b9f691dbc0",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.2.0",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "0.4.11"
+        },
+        {
+            "commitID": "06a340250792eac4bb3c7ff2661cc76e1e75b5c7",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.2.0",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "0.4.12"
+        },
+        {
+            "commitID": "a29b2931cfc9c43fd2cc29a9795d6a0b2e5c2e39",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.2.12",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "0.4.13"
+        },
+        {
+            "commitID": "efcdeece9e577504e1cc2438da10a136901b914f",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.2.12",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "0.4.14"
+        },
+        {
+            "commitID": "54ce7794e2a8daa67eaa673af98b467448760d93",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.3.0",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "0.5.0"
+        },
+        {
+            "commitID": "23339d566032419501b005e13f601bb6b6b1ebe5",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.3.1",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "0.5.1"
+        },
+        {
+            "commitID": "1c42ced86f170f2961f948e66c9d8c01816b9186",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.3.1",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "0.5.2"
+        },
+        {
+            "commitID": "52c7e845e1158208847cb299e9f8ad5377429027",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.3.1",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "0.5.3"
+        },
+        {
+            "commitID": "28a52fb2c761aae3a84ab8456c8fba31d92b564d",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.3.1",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "0.5.4"
+        },
+        {
+            "commitID": "c74291190d5fe81ff23ec1d21290fd7047c256a9",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "integration"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "contract"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "dpp2"
+                }
+            ],
+            "dependencies": {
+                "libclang": "~>0.3.1",
+                "sumtype": "~>0.7.1"
+            },
+            "name": "dpp",
+            "version": "0.5.5"
         }
     ]
 }

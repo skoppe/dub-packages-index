@@ -3,7 +3,7 @@
         "library.audio",
         "library.gamedev"
     ],
-    "commitID": "d22a8a7090732ca88041361664d744c330158dda",
+    "commitID": "d8dba93f5573c7c448a8e193a1128cd8176bb391",
     "dateAdded": "2021-12-21T22:10:48",
     "description": "Multimedia I\/O library for D",
     "documentationURL": "",
@@ -17,9 +17,12 @@
     },
     "versions": [
         {
-            "commitID": "f1a0fa237389657178825e6048e5b8c3cf62f08e",
+            "commitID": "6f47c2cf3b2f8fa5bdc7ff2bd5ae0ee6290c8301",
             "dependencies": {
-                "bitleveld": ">=0.0.0"
+                "bindbc-opengl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "collections-d": ">=0.0.0",
+                "x11d": ">=0.0.0"
             },
             "name": "iota",
             "subPackages": [
@@ -34,6 +37,13 @@
                         "iota": ">=0.0.0"
                     },
                     "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": ">=0.0.0",
+                        "iota": ">=0.0.0"
+                    },
+                    "name": "inputtest"
                 }
             ],
             "version": "~main"
@@ -91,6 +101,99 @@
                 }
             ],
             "version": "0.2.0"
+        },
+        {
+            "commitID": "c2cf62058b920b2dd41090c80df4dca69db83587",
+            "dependencies": {
+                "bindbc-opengl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "collections-d": ">=0.0.0"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": ">=0.0.0"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": ">=0.0.0"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": ">=0.0.0",
+                        "iota": ">=0.0.0"
+                    },
+                    "name": "inputtest"
+                }
+            ],
+            "version": "0.3.0-alpha"
+        },
+        {
+            "commitID": "9fae04bf0bc46071f79da4ccded7dbfb0e3688f2",
+            "dependencies": {
+                "bindbc-opengl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "collections-d": ">=0.0.0"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": ">=0.0.0"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": ">=0.0.0"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": ">=0.0.0",
+                        "iota": ">=0.0.0"
+                    },
+                    "name": "inputtest"
+                }
+            ],
+            "version": "0.3.0-alpha1"
+        },
+        {
+            "commitID": "d8dba93f5573c7c448a8e193a1128cd8176bb391",
+            "dependencies": {
+                "bindbc-opengl": ">=0.0.0",
+                "bitleveld": ">=0.0.0",
+                "collections-d": ">=0.0.0"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": ">=0.0.0"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": ">=0.0.0"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": ">=0.0.0",
+                        "iota": ">=0.0.0"
+                    },
+                    "name": "inputtest"
+                }
+            ],
+            "version": "0.3.0-alpha2"
         }
     ]
 }

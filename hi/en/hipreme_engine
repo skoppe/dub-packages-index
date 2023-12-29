@@ -1,0 +1,1853 @@
+{
+    "categories": [
+        "application.desktop.game",
+        "library.scripting",
+        "library.graphics",
+        "application.desktop.development.build"
+    ],
+    "commitID": "344bce7b45ac2ef031197a79d83bdb00e426920a",
+    "dateAdded": "2023-12-21T01:18:07",
+    "description": "Open-Source D Game Engine",
+    "documentationURL": "",
+    "id": "6583843f3de30735e06beea2",
+    "name": "hipreme_engine",
+    "owner": "5f90dd95d11314954d7a48bb",
+    "repository": {
+        "kind": "github",
+        "owner": "MrcSnm",
+        "project": "HipremeEngine"
+    },
+    "versions": [
+        {
+            "commitID": "42a247170a208bb6840d311f168a80786e350e72",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "version": "~feature\/build_refactor"
+        },
+        {
+            "commitID": "f96833b0b7fc96ed7edb688c4e7e60705b292791",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:minigui": "~master",
+                        "arsd-official:terminal": "~master",
+                        "objc_meta": "~>1.0.11"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "~featureChooser"
+        },
+        {
+            "commitID": "5bc3743cad300af36e84dc515579285e420f3b12",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:minigui": "~master",
+                        "arsd-official:terminal": "~master",
+                        "objc_meta": "~>1.0.11"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "commitID": "8bc6173d2cab6df01dffcfbca83485e8ad9e9030",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.0"
+        },
+        {
+            "commitID": "22309b47e95e822853de5ee734d2058e5ee8256a",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.1"
+        },
+        {
+            "commitID": "cf8e1ebcdc7e22eae0e760ce9207892c6902ea4d",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.2"
+        },
+        {
+            "commitID": "f98e4a7637345e3ec1f1ebf0f49472a35e7c7e83",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.3"
+        },
+        {
+            "commitID": "ce82f01e8d76a18feb33ad16280098adc557c20b",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.4"
+        },
+        {
+            "commitID": "1ce292f212ad7f285f423b809402a3ec43550edd",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.5"
+        },
+        {
+            "commitID": "2c4eefb32b56c48545c6761c92d1695d7d327236",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.6"
+        },
+        {
+            "commitID": "16f7845e1b47a20ed430d026e778a4363946028c",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.7"
+        },
+        {
+            "commitID": "2b426065dbc2418e9055f65048ed7fc034175105",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.8"
+        },
+        {
+            "commitID": "6fa910b19758f2baf5e54a09a91b9499ceff3c52",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:minigui": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.9"
+        },
+        {
+            "commitID": "866a0bbd42b6bb39a893f8ceef43de06a046ac1b",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:minigui": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.10"
+        },
+        {
+            "commitID": "49873241c68f8d66643a8734b2dcaef105f27025",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:minigui": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.11"
+        },
+        {
+            "commitID": "b2200050cd1eb5dabf25471cf6c87c48bd57217b",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:minigui": "~master",
+                        "arsd-official:terminal": "~master"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.12"
+        },
+        {
+            "commitID": "98a6db43619f1a005d905af7a2a3d0b9a1813237",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:minigui": "~master",
+                        "arsd-official:terminal": "~master",
+                        "objc_meta": "~>1.0.11"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.13"
+        },
+        {
+            "commitID": "344bce7b45ac2ef031197a79d83bdb00e426920a",
+            "configurations": [
+                {
+                    "name": "desktop"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "4mb"
+                },
+                {
+                    "name": "nodx"
+                },
+                {
+                    "dependencies": {
+                        "fswatch": "~>0.6.1"
+                    },
+                    "name": "script"
+                },
+                {
+                    "name": "game"
+                },
+                {
+                    "dependencies": {
+                        "d_std": {
+                            "path": "modules\/d_std"
+                        },
+                        "runtime": {
+                            "path": "dependencies\/runtime"
+                        }
+                    },
+                    "name": "customrt"
+                }
+            ],
+            "dependencies": {
+                "assets": {
+                    "path": ".\/modules\/assets"
+                },
+                "audio": {
+                    "path": ".\/modules\/audio"
+                },
+                "bind": {
+                    "path": ".\/modules\/bind"
+                },
+                "config": {
+                    "path": ".\/modules\/config"
+                },
+                "console": {
+                    "path": ".\/modules\/console"
+                },
+                "error": {
+                    "path": ".\/modules\/error"
+                },
+                "filesystem": {
+                    "path": ".\/modules\/filesystem"
+                },
+                "hipengine_api": {
+                    "path": ".\/api"
+                },
+                "math": {
+                    "path": ".\/modules\/math"
+                },
+                "renderer": {
+                    "path": ".\/modules\/renderer"
+                },
+                "timer": {
+                    "path": ".\/modules\/timer"
+                },
+                "tween": {
+                    "path": ".\/modules\/tween"
+                },
+                "util": {
+                    "path": ".\/modules\/util"
+                }
+            },
+            "name": "hipreme_engine",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "ci"
+                        }
+                    ],
+                    "dependencies": {
+                        "arsd-official:cgi": "~master",
+                        "arsd-official:minigui": "~master",
+                        "arsd-official:terminal": "~master",
+                        "objc_meta": "~>1.0.11"
+                    },
+                    "name": "build_selector"
+                }
+            ],
+            "version": "1.0.14"
+        }
+    ]
+}

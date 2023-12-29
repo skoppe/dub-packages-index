@@ -3,7 +3,7 @@
         "library.data",
         "library.gamedev"
     ],
-    "commitID": "777f2672aacb1641e3a8913001c4e5c58516820c",
+    "commitID": "a4eb9d41b85550aa3e86ca30bf8aaf5c5335f36c",
     "dateAdded": "2018-06-26T19:43:21",
     "description": "Library & tooling for Neverwinter Nights 2 resource files",
     "documentationURL": "https:\/\/cromfr.github.io\/nwn-lib-d\/docs\/",
@@ -16,6 +16,38 @@
         "project": "nwn-lib-d"
     },
     "versions": [
+        {
+            "commitID": "5aacb29c1bb75a113d872d09fb82237eeb780492",
+            "dependencies": {
+                "gfm:math": "~>8.0.6"
+            },
+            "name": "nwn-lib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "benchmark"
+                }
+            ],
+            "version": "~fix-json-nan"
+        },
+        {
+            "commitID": "798244d8a5d9a08e50f95b214533ecdf306f23c3",
+            "dependencies": {
+                "gfm:math": "~>8.0.6"
+            },
+            "name": "nwn-lib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "benchmark"
+                }
+            ],
+            "version": "~rework-json-format"
+        },
         {
             "commitID": "b70a7383fe822f89b64522c65da8b2d6dbf06ca8",
             "dependencies": {
@@ -268,9 +300,9 @@
             "version": "~yaml"
         },
         {
-            "commitID": "777f2672aacb1641e3a8913001c4e5c58516820c",
+            "commitID": "a4eb9d41b85550aa3e86ca30bf8aaf5c5335f36c",
             "dependencies": {
-                "gfm:math": "~>7.0.0"
+                "gfm:math": "~>8.0.6"
             },
             "name": "nwn-lib-d",
             "subPackages": [
@@ -1108,6 +1140,70 @@
                 }
             ],
             "version": "1.0.3"
+        },
+        {
+            "commitID": "a8b66efc34a7db765f27a447926954c3008bc828",
+            "dependencies": {
+                "gfm:math": "~>8.0.6"
+            },
+            "name": "nwn-lib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "benchmark"
+                }
+            ],
+            "version": "1.0.4"
+        },
+        {
+            "commitID": "d623237f77e4d2ffc9f57f355c7468ae94a7b85a",
+            "dependencies": {
+                "gfm:math": "~>8.0.6"
+            },
+            "name": "nwn-lib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "benchmark"
+                }
+            ],
+            "version": "1.0.5"
+        },
+        {
+            "commitID": "0c476c8d22a62566e0ebdc915100f78ee8a888f3",
+            "dependencies": {
+                "gfm:math": "~>8.0.6"
+            },
+            "name": "nwn-lib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "benchmark"
+                }
+            ],
+            "version": "1.0.6"
+        },
+        {
+            "commitID": "a4eb9d41b85550aa3e86ca30bf8aaf5c5335f36c",
+            "dependencies": {
+                "gfm:math": "~>8.0.6"
+            },
+            "name": "nwn-lib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "benchmark"
+                }
+            ],
+            "version": "1.1.0"
         }
     ]
 }

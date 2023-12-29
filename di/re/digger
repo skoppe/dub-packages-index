@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.build"
     ],
-    "commitID": "f2aeac45252e15b01afedb842b3faddf4c83989a",
+    "commitID": "8fe7087751e1c052b79b657c930ca5d8642ea4ae",
     "dateAdded": "2016-09-30T21:02:18",
     "description": "A tool to build D and bisect old D versions",
     "documentationURL": "",
@@ -15,6 +15,26 @@
         "project": "Digger"
     },
     "versions": [
+        {
+            "commitID": "c293a399defed7b31395e21d604532538af2b93b",
+            "dependencies": {
+                "digger:lib": {
+                    "path": "."
+                }
+            },
+            "name": "digger",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "ae": "0.0.3201",
+                        "ae:sys-net-curl": "0.0.3201",
+                        "ae:sys-net-wininet": "0.0.3201"
+                    },
+                    "name": "lib"
+                }
+            ],
+            "version": "~digger-v"
+        },
         {
             "commitID": "99989c7e559b13968a390047959c533a9151db3a",
             "dependencies": {
@@ -76,11 +96,11 @@
             "version": "~travis2"
         },
         {
-            "commitID": "f2aeac45252e15b01afedb842b3faddf4c83989a",
+            "commitID": "8fe7087751e1c052b79b657c930ca5d8642ea4ae",
             "dependencies": {
-                "ae": "0.0.2845",
-                "ae:sys-net-curl": "0.0.2845",
-                "ae:sys-net-wininet": "0.0.2845"
+                "ae": "0.0.3236",
+                "ae:sys-net-curl": "0.0.3236",
+                "ae:sys-net-wininet": "0.0.3236"
             },
             "name": "digger",
             "version": "~master"
@@ -328,6 +348,36 @@
             },
             "name": "digger",
             "version": "3.0.6"
+        },
+        {
+            "commitID": "4125fe7424dd684a62cd5e0d5930825dc30e37d5",
+            "dependencies": {
+                "ae": "0.0.3201",
+                "ae:sys-net-curl": "0.0.3201",
+                "ae:sys-net-wininet": "0.0.3201"
+            },
+            "name": "digger",
+            "version": "3.0.7"
+        },
+        {
+            "commitID": "cfd904aaf6f4beb1abbe0d25c23e0c749c1c3025",
+            "dependencies": {
+                "ae": "0.0.3227",
+                "ae:sys-net-curl": "0.0.3227",
+                "ae:sys-net-wininet": "0.0.3227"
+            },
+            "name": "digger",
+            "version": "3.0.8"
+        },
+        {
+            "commitID": "8fe7087751e1c052b79b657c930ca5d8642ea4ae",
+            "dependencies": {
+                "ae": "0.0.3236",
+                "ae:sys-net-curl": "0.0.3236",
+                "ae:sys-net-wininet": "0.0.3236"
+            },
+            "name": "digger",
+            "version": "3.0.9"
         }
     ]
 }

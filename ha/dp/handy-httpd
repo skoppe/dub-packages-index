@@ -1,11 +1,12 @@
 {
     "categories": [
-        "library.web"
+        "library.web",
+        "application.server.web"
     ],
-    "commitID": "757ea04412bb17a256fbf662c14fff5b227237e6",
+    "commitID": "ff7eea71f844806205f6563bb53b75b55937061a",
     "dateAdded": "2022-01-07T16:53:14",
     "description": "Extremely lightweight HTTP server for D.",
-    "documentationURL": "",
+    "documentationURL": "https:\/\/andrewlalis.github.io\/handy-httpd\/",
     "id": "61d861eaa8d9f7d312e246d4",
     "name": "handy-httpd",
     "owner": "6149d29aa33a2f946308babf",
@@ -16,9 +17,17 @@
     },
     "versions": [
         {
-            "commitID": "757ea04412bb17a256fbf662c14fff5b227237e6",
+            "commitID": "55ad4ee4faaa7ed6d8cdeff1f1952bb8da1f39a4",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
             "dependencies": {
-                "httparsed": "~>1.2.1"
+                "httparsed": "~>1.2.1",
+                "path-matcher": "~>1.1.3",
+                "slf4d": "~>2",
+                "streams": "~>3"
             },
             "name": "handy-httpd",
             "version": "~main"
@@ -94,6 +103,707 @@
             },
             "name": "handy-httpd",
             "version": "3.1.0"
+        },
+        {
+            "commitID": "5ad428ce3260b46503c346c8ba63dfe4d72f315d",
+            "dependencies": {
+                "httparsed": "~>1.2.1"
+            },
+            "name": "handy-httpd",
+            "version": "3.2.0"
+        },
+        {
+            "commitID": "c99e1cf6340393070d0edc5aeed7cc58a4915c08",
+            "dependencies": {
+                "httparsed": "~>1.2.1"
+            },
+            "name": "handy-httpd",
+            "version": "3.3.0"
+        },
+        {
+            "commitID": "711bc47555f26eaac893e2bd888f34e5437d4c64",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1"
+            },
+            "name": "handy-httpd",
+            "version": "4.0.0"
+        },
+        {
+            "commitID": "918587436fb2e3d9aa4acb13c4fcbb1160c7cd1b",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1"
+            },
+            "name": "handy-httpd",
+            "version": "4.0.1"
+        },
+        {
+            "commitID": "bc1607b2a48d1476d6738c19f70bd3b1006e787a",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1"
+            },
+            "name": "handy-httpd",
+            "version": "4.0.2"
+        },
+        {
+            "commitID": "a6ef4dc1b817f443deeba04cf8d7288d0eb707c5",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1"
+            },
+            "name": "handy-httpd",
+            "version": "5.0.0"
+        },
+        {
+            "commitID": "b4f9eccb6e953edca09c699b8b2923b12079b71e",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1"
+            },
+            "name": "handy-httpd",
+            "version": "5.1.0"
+        },
+        {
+            "commitID": "83fbbe7c37fe6b3f2d582fe0cb12d0b11bdf4430",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1"
+            },
+            "name": "handy-httpd",
+            "version": "5.2.0"
+        },
+        {
+            "commitID": "d4d7449029dab51f17dbdfc93094e7fb80abca65",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1"
+            },
+            "name": "handy-httpd",
+            "version": "5.2.1"
+        },
+        {
+            "commitID": "5474129844bb78047216b4959741b1468fe5973b",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>1.0.0"
+            },
+            "name": "handy-httpd",
+            "version": "5.3.0"
+        },
+        {
+            "commitID": "8074257821f6b05d044bb89b338e62da3994cc49",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>1.2.0"
+            },
+            "name": "handy-httpd",
+            "version": "5.4.0"
+        },
+        {
+            "commitID": "63c05a4b845f0406410ce497748ec9d0b4f61533",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2.0.0"
+            },
+            "name": "handy-httpd",
+            "version": "5.5.0"
+        },
+        {
+            "commitID": "1a12fa8f6e3afe87db08f77289ac9a776ffe50ff",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2.0.0"
+            },
+            "name": "handy-httpd",
+            "version": "5.6.0"
+        },
+        {
+            "commitID": "022d789fd58bd9b491aba4c775b559ef6b38672c",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2.1.0"
+            },
+            "name": "handy-httpd",
+            "version": "5.6.1"
+        },
+        {
+            "commitID": "8d087303e7e9f755627009c59f9b78c61af1a4e6",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2.1.0"
+            },
+            "name": "handy-httpd",
+            "version": "5.6.2"
+        },
+        {
+            "commitID": "e064dd8838a2ffccf408f427f1665106c34d0719",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2.1.1"
+            },
+            "name": "handy-httpd",
+            "version": "5.7.0"
+        },
+        {
+            "commitID": "de1f8323ea45b6a182a876f0dc223297d7cd3397",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2.1.1"
+            },
+            "name": "handy-httpd",
+            "version": "5.7.1"
+        },
+        {
+            "commitID": "30690941740b518116560f0f49b724752aaacc9f",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2.1.1"
+            },
+            "name": "handy-httpd",
+            "version": "6.0.0"
+        },
+        {
+            "commitID": "fc08009cfd8c2a3115ce032c237a40e3ea6ad5d4",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2.2.0",
+                "streams": "~>3.2.0"
+            },
+            "name": "handy-httpd",
+            "version": "7.0.0"
+        },
+        {
+            "commitID": "f5bcd0337e4e12f13b2930b2779f534db029de8e",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2.4.0",
+                "streams": "~>3.4.3"
+            },
+            "name": "handy-httpd",
+            "version": "7.1.0"
+        },
+        {
+            "commitID": "2b07b7b8b8e10c7fc92e36bdb694802cc2a60afe",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2.4.0",
+                "streams": "~>3.4.3"
+            },
+            "name": "handy-httpd",
+            "version": "7.2.0"
+        },
+        {
+            "commitID": "93695d0e78912b23b1631cec4c4c042bef6d6fcc",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2.4.0",
+                "streams": "~>3.4.3"
+            },
+            "name": "handy-httpd",
+            "version": "7.3.0"
+        },
+        {
+            "commitID": "cdff4fd067e4ec10382279603c5c481e0b71d175",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.4.0"
+        },
+        {
+            "commitID": "6f15ed0a8caffb9ba43284b14526581744bcfbf4",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.5.0"
+        },
+        {
+            "commitID": "ecedcfe56956d9b337122fcae4fe676070145712",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.6.0"
+        },
+        {
+            "commitID": "1b70b713382d211762802d06fd60069d15d02928",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.6.1"
+        },
+        {
+            "commitID": "674f653b9b48f7adb705ec05c49bd2258d2ae02f",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.6.2"
+        },
+        {
+            "commitID": "505543225276bd80d14e9a6c37872daccc0e62a2",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.6.3"
+        },
+        {
+            "commitID": "09534a6aaf501a9dedcf65c9561ee53b81045428",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.6.4"
+        },
+        {
+            "commitID": "14813d6b58d5c1916da625947c84eb52d26d82dc",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.7.0"
+        },
+        {
+            "commitID": "1b90e0b4ef693bfed2551074111829e1be485ae6",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.7.1"
+        },
+        {
+            "commitID": "10d2a5daf862c30a28bf6e3ae698525422ef4410",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.8.0"
+        },
+        {
+            "commitID": "2bb585b1f2600fb46f2b493d8cfdba6dba3ec320",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.9.0"
+        },
+        {
+            "commitID": "013d3832739c8accfbb158db0752dc1a821f002f",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.9.1"
+        },
+        {
+            "commitID": "59a846539d6eb51863fa03abe466ef4b2f0e1c46",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.9.2"
+        },
+        {
+            "commitID": "bc5377c162dbf3271fe1492c39e184b7cdadd4d2",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.9.3"
+        },
+        {
+            "commitID": "5e85de62e7762cf4c51c54887a89067f1940ac79",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.10.0"
+        },
+        {
+            "commitID": "bc357ccbb8ece89ca7aaf9c24c1a6df586f486a5",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.10.1"
+        },
+        {
+            "commitID": "dfec3a7f78d7c313d512d2c98454440348452fe8",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.10.2"
+        },
+        {
+            "commitID": "d54d11768ae8463e250c13c641ce31c3cbbcfcf4",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.10.3"
+        },
+        {
+            "commitID": "a94a4c62895d64ab7a7f98ebd3dee048c4315fd1",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.10.4"
+        },
+        {
+            "commitID": "6682f3767873686df1587b023d3c32216227f7c1",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.10.5"
+        },
+        {
+            "commitID": "1aaf54db6a56d958ad3b00478f5283fd5c20839d",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.11.0"
+        },
+        {
+            "commitID": "7c4dfc1375a90901eaf5457cc2a291d62615dd57",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.11.1"
+        },
+        {
+            "commitID": "bf6cac6579ea66a0d39a829d5a8d7204f903a98c",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "path-matcher": "~>1.1.2",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.12.0"
+        },
+        {
+            "commitID": "325ce19ac8b2d4366831c3e706ab19651921f63b",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "path-matcher": "~>1.1.3",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.13.0"
+        },
+        {
+            "commitID": "ff7eea71f844806205f6563bb53b75b55937061a",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "httparsed": "~>1.2.1",
+                "path-matcher": "~>1.1.3",
+                "slf4d": "~>2",
+                "streams": "~>3"
+            },
+            "name": "handy-httpd",
+            "version": "7.14.0"
         }
     ]
 }

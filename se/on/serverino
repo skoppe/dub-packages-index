@@ -3,10 +3,10 @@
         "application.server.web",
         "library.web"
     ],
-    "commitID": "4f487cbe9f2b1318300b943a265f0e9246c37c36",
+    "commitID": "d4c0f2190dab55e1758d744f7d5962d0a0b16505",
     "dateAdded": "2022-05-08T22:38:24",
-    "description": "Small and ready-to-go http\/https server",
-    "documentationURL": "https:\/\/github.com\/trikko\/serverino\/blob\/master\/README.md#documentation-you-need",
+    "description": "Small and ready-to-go http server",
+    "documentationURL": "https:\/\/trikko.github.io\/serverino\/",
     "id": "62782a4066c2f62a29cd6410",
     "name": "serverino",
     "owner": "56d6a26405025b4507ebc179",
@@ -17,16 +17,29 @@
     },
     "versions": [
         {
-            "commitID": "4f487cbe9f2b1318300b943a265f0e9246c37c36",
+            "commitID": "3719cef61b575c6f9d87e00cd3cf881283435a56",
             "configurations": [
                 {
-                    "name": "NoTLS"
-                },
-                {
-                    "name": "WithTLS"
+                    "name": "lib"
                 }
             ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
             "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
             "version": "~master"
         },
         {
@@ -119,6 +132,318 @@
             ],
             "name": "serverino",
             "version": "0.2.3"
+        },
+        {
+            "commitID": "6eee3d297e72638352e89e6ac80d2debb959bcb2",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.3.0"
+        },
+        {
+            "commitID": "8c56ce87398c8fc0ffbe42972df67a72a95bacb3",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.3.1"
+        },
+        {
+            "commitID": "a58eb0b0607e702e55664699ed3c5f0d3424e9b2",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.3.2"
+        },
+        {
+            "commitID": "4f8384487a8d072647251c563834c10145173786",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.4.0"
+        },
+        {
+            "commitID": "f2e75bcafc026b009a4bab1049538a6b4b54c0fe",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.4.1"
+        },
+        {
+            "commitID": "25c127ada666ff73a0369fef7f6f2c3bfae250b5",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.4.2"
+        },
+        {
+            "commitID": "0bb303fc16301976b873a8036a9ef39728761838",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.4.3"
+        },
+        {
+            "commitID": "f6c3c1728c36d36f71367715719da191203b2079",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.4.4"
+        },
+        {
+            "commitID": "bb57fd78334c817f81530f3a8b51c2f048083fa3",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.4.5"
+        },
+        {
+            "commitID": "e425ffcb2090bd7fd6f9d1db7c230a5dbc7035e5",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.4.6"
+        },
+        {
+            "commitID": "62a31ab88cb52b5d2f2d5959d59579893ac3174f",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.4.7"
+        },
+        {
+            "commitID": "d4c0f2190dab55e1758d744f7d5962d0a0b16505",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.5.0"
         }
     ]
 }

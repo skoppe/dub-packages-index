@@ -1,6 +1,9 @@
 {
-    "categories": [],
-    "commitID": "89733bab9fd1d3588c14f4aa54b62ad45022a105",
+    "categories": [
+        "library.binding",
+        "library.graphics"
+    ],
+    "commitID": "a8f9ab2cccec720d7a09aff1d42607a9ed305e5e",
     "dateAdded": "2021-04-21T02:35:39",
     "description": "D binding for Raylib",
     "documentationURL": "",
@@ -13,6 +16,19 @@
         "project": "raylib-d"
     },
     "versions": [
+        {
+            "commitID": "c9b26f5935819d97119f15ccb267d6d1e76e4201",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": "~>0.13.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "version": "~4.0"
+        },
         {
             "commitID": "b497a9e98a2fd7e9d067539c2dff8314eece1a6c",
             "configurations": [
@@ -27,7 +43,7 @@
             "version": "~addmathstuff"
         },
         {
-            "commitID": "89733bab9fd1d3588c14f4aa54b62ad45022a105",
+            "commitID": "7163af9a340e798ab1499ee32f76fa88b1e1fd8c",
             "configurations": [
                 {
                     "dependencies": {
@@ -37,6 +53,29 @@
                 }
             ],
             "name": "raylib-d",
+            "version": "~updatewithconfig"
+        },
+        {
+            "commitID": "a8f9ab2cccec720d7a09aff1d42607a9ed305e5e",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "io": "~>0.3.4",
+                        "iopipe": "~>0.2.4",
+                        "jsoniopipe": "~>0.2.5"
+                    },
+                    "name": "install"
+                }
+            ],
             "version": "~master"
         },
         {
@@ -136,6 +175,208 @@
             ],
             "name": "raylib-d",
             "version": "4.0.1"
+        },
+        {
+            "commitID": "c9b26f5935819d97119f15ccb267d6d1e76e4201",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "fluent-asserts": "~>0.13.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "version": "4.0.2"
+        },
+        {
+            "commitID": "d98db494eeeca3bf7a0904e93ef39d07522e26c0",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "version": "4.2.0"
+        },
+        {
+            "commitID": "b6efadf1bf80797ef3c9c76cf82abe079188e242",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jsoniopipe": "~>0.1.4"
+                    },
+                    "name": "install"
+                }
+            ],
+            "version": "4.2.1"
+        },
+        {
+            "commitID": "453bb8cd47701ea3ce6865d722e4c4b29e78483a",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jsoniopipe": "~>0.1.4"
+                    },
+                    "name": "install"
+                }
+            ],
+            "version": "4.2.2"
+        },
+        {
+            "commitID": "be80478006812a6bd642b6575fe11041898736d7",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jsoniopipe": "~>0.1.4"
+                    },
+                    "name": "install"
+                }
+            ],
+            "version": "4.2.3"
+        },
+        {
+            "commitID": "1cb6091ca5f757b54f0039bdf8184a2a5be80866",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "jsoniopipe": "~>0.1.4"
+                    },
+                    "name": "install"
+                }
+            ],
+            "version": "4.2.4"
+        },
+        {
+            "commitID": "040b38fa82437630766ca47064702508898f4555",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "io": "~>0.3.4",
+                        "iopipe": "~>0.2.4",
+                        "jsoniopipe": "~>0.1.4"
+                    },
+                    "name": "install"
+                }
+            ],
+            "version": "4.5.0"
+        },
+        {
+            "commitID": "30c97fa28777e7252c8c370a5f3799421329078a",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "io": "~>0.3.4",
+                        "iopipe": "~>0.2.4",
+                        "jsoniopipe": "~>0.1.4"
+                    },
+                    "name": "install"
+                }
+            ],
+            "version": "4.5.1"
+        },
+        {
+            "commitID": "c5329259704ccd541fc9e186bb62a67d42a2ac94",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "io": "~>0.3.4",
+                        "iopipe": "~>0.2.4",
+                        "jsoniopipe": "~>0.2.5"
+                    },
+                    "name": "install"
+                }
+            ],
+            "version": "4.5.2"
+        },
+        {
+            "commitID": "a8f9ab2cccec720d7a09aff1d42607a9ed305e5e",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "io": "~>0.3.4",
+                        "iopipe": "~>0.2.4",
+                        "jsoniopipe": "~>0.2.5"
+                    },
+                    "name": "install"
+                }
+            ],
+            "version": "5.0.0"
         }
     ]
 }

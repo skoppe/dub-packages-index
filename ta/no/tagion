@@ -1,0 +1,329 @@
+{
+    "categories": [],
+    "commitID": "4e42824ceb49946565ee2c0268d135c4b528266d",
+    "dateAdded": "2023-12-20T13:14:05",
+    "description": "Configuration exists to allow language server to do proper static analasys, compilation is not supported",
+    "documentationURL": "https:\/\/docs.tagion.org",
+    "id": "6582da8d3de30735e06b7694",
+    "name": "tagion",
+    "owner": "6582d8433de30735e06b71cf",
+    "repository": {
+        "kind": "github",
+        "owner": "tagion",
+        "project": "tagion"
+    },
+    "versions": [
+        {
+            "commitID": "58ff0410cb52118dd0eb5a388e95c87adefbacdd",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "tagion:actor": ">=0.0.0",
+                        "tagion:basic": ">=0.0.0",
+                        "tagion:behaviour": ">=0.0.0",
+                        "tagion:crypto": ">=0.0.0",
+                        "tagion:dart": ">=0.0.0",
+                        "tagion:hashgraph": ">=0.0.0",
+                        "tagion:network": ">=0.0.0"
+                    },
+                    "name": "bin"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "basic"
+                },
+                {
+                    "dependencies": {
+                        "tagion:basic": ">=0.0.0"
+                    },
+                    "name": "utils"
+                },
+                {
+                    "dependencies": {
+                        "tagion:basic": ">=0.0.0",
+                        "tagion:hibon": ">=0.0.0"
+                    },
+                    "name": "logger"
+                },
+                {
+                    "dependencies": {
+                        "tagion:basic": ">=0.0.0",
+                        "tagion:logger": ">=0.0.0"
+                    },
+                    "name": "actor"
+                },
+                {
+                    "dependencies": {
+                        "tagion:utils": ">=0.0.0"
+                    },
+                    "name": "hibon"
+                },
+                {
+                    "dependencies": {
+                        "tagion:basic": ">=0.0.0",
+                        "tagion:communication": ">=0.0.0",
+                        "tagion:crypto": ">=0.0.0",
+                        "tagion:hibon": ">=0.0.0",
+                        "tagion:logger": ">=0.0.0",
+                        "tagion:options": ">=0.0.0"
+                    },
+                    "name": "dart"
+                },
+                {
+                    "name": "crypto"
+                },
+                {
+                    "name": "communication"
+                },
+                {
+                    "name": "options"
+                },
+                {
+                    "name": "tools"
+                },
+                {
+                    "dependencies": {
+                        "tagion:hibon": ">=0.0.0"
+                    },
+                    "name": "behaviour"
+                },
+                {
+                    "dependencies": {
+                        "tagion:gossip": ">=0.0.0",
+                        "tagion:hashgraphview": ">=0.0.0"
+                    },
+                    "name": "hashgraph"
+                },
+                {
+                    "name": "hashgraphview"
+                },
+                {
+                    "name": "gossip"
+                },
+                {
+                    "name": "network"
+                },
+                {
+                    "name": "prior_services"
+                },
+                {
+                    "dependencies": {
+                        "tagion:actor": ">=0.0.0",
+                        "tagion:dart": ">=0.0.0"
+                    },
+                    "name": "services"
+                },
+                {
+                    "dependencies": {
+                        "tagion:actor": ">=0.0.0",
+                        "tagion:basic": ">=0.0.0",
+                        "tagion:behaviour": ">=0.0.0",
+                        "tagion:crypto": ">=0.0.0",
+                        "tagion:dart": ">=0.0.0",
+                        "tagion:hashgraph": ">=0.0.0",
+                        "tagion:network": ">=0.0.0",
+                        "tagion:tools": ">=0.0.0"
+                    },
+                    "name": "tests"
+                }
+            ],
+            "version": "~android-nng"
+        },
+        {
+            "commitID": "bc336acbdb56adba4d6f83f41749090e3f6fe8ab",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "~crypto-review-freeze"
+        },
+        {
+            "commitID": "1f2c1f760b901dccb04d2f3d838e90bfb89ba636",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~current"
+        },
+        {
+            "commitID": "99b0945d982a53a3562a6ec5752d90a87e7e2f4d",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "~hotfix-hashgraph-ismethod"
+        },
+        {
+            "commitID": "f51c75f7e5bba6522c105cb4f3a8502d46ae4fe7",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "~hotfix-wallet-dartindex"
+        },
+        {
+            "commitID": "1f2c1f760b901dccb04d2f3d838e90bfb89ba636",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~ib-trt"
+        },
+        {
+            "commitID": "007dcf7b703c8dec31a1389bd3e76bbfc083dcf1",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "~pubkey-bug"
+        },
+        {
+            "commitID": "5e93a448a3a6c5c62abad2b287929bb1dc923920",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "~release"
+        },
+        {
+            "commitID": "4e42824ceb49946565ee2c0268d135c4b528266d",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "~master"
+        },
+        {
+            "commitID": "7339653f5a55046171951f1d69e1a481f81981d5",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "1.0.0"
+        },
+        {
+            "commitID": "0190792405dac5b4590d74233b08768314678d4b",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "1.0.1"
+        },
+        {
+            "commitID": "18eb7d1389385e716487ed553ad2af317c67ce15",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "1.0.2"
+        },
+        {
+            "commitID": "239ea27281924208ea25a2563992da76368abeb6",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "1.0.3-rc1"
+        },
+        {
+            "commitID": "5e93a448a3a6c5c62abad2b287929bb1dc923920",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "1.0.4"
+        },
+        {
+            "commitID": "4e42824ceb49946565ee2c0268d135c4b528266d",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "version": "1.0.5-rc1"
+        }
+    ]
+}

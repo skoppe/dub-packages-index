@@ -3,7 +3,7 @@
         "library.network",
         "library.web.communication"
     ],
-    "commitID": "07655ba38f2f8bb5b707a8658da81d82b4a38742",
+    "commitID": "b09d5fd5e03d6cba17edfbbd6d55abdb9c7402d0",
     "dateAdded": "2016-04-16T23:18:11",
     "description": "http\/ftp client library, inspired by python-requests",
     "documentationURL": "",
@@ -92,10 +92,13 @@
             "version": "~vibeTask"
         },
         {
-            "commitID": "07655ba38f2f8bb5b707a8658da81d82b4a38742",
+            "commitID": "b09d5fd5e03d6cba17edfbbd6d55abdb9c7402d0",
             "configurations": [
                 {
                     "name": "std"
+                },
+                {
+                    "name": "staticssl"
                 }
             ],
             "dependencies": {
@@ -1280,6 +1283,103 @@
                 }
             ],
             "version": "2.0.8"
+        },
+        {
+            "commitID": "57846267bb0f88c33338e387664dd9ce2827e424",
+            "configurations": [
+                {
+                    "name": "std"
+                }
+            ],
+            "dependencies": {
+                "cachetools": "~>0"
+            },
+            "name": "requests",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "cachetools": "~>0",
+                        "vibe-d": "~>0.8"
+                    },
+                    "name": "vibed"
+                }
+            ],
+            "version": "2.0.9"
+        },
+        {
+            "commitID": "8ecd4bcd95c16c5ecdbe62a701416487702a7dfa",
+            "configurations": [
+                {
+                    "name": "std"
+                },
+                {
+                    "name": "staticssl"
+                }
+            ],
+            "dependencies": {
+                "cachetools": "~>0"
+            },
+            "name": "requests",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "cachetools": "~>0",
+                        "vibe-d": "~>0.8"
+                    },
+                    "name": "vibed"
+                }
+            ],
+            "version": "2.1.0"
+        },
+        {
+            "commitID": "61734bf4e156814123b50dd03b89d9791b1797ab",
+            "configurations": [
+                {
+                    "name": "std"
+                },
+                {
+                    "name": "staticssl"
+                }
+            ],
+            "dependencies": {
+                "cachetools": "~>0"
+            },
+            "name": "requests",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "cachetools": "~>0",
+                        "vibe-d": "~>0.8"
+                    },
+                    "name": "vibed"
+                }
+            ],
+            "version": "2.1.1"
+        },
+        {
+            "commitID": "b09d5fd5e03d6cba17edfbbd6d55abdb9c7402d0",
+            "configurations": [
+                {
+                    "name": "std"
+                },
+                {
+                    "name": "staticssl"
+                }
+            ],
+            "dependencies": {
+                "cachetools": "~>0"
+            },
+            "name": "requests",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "cachetools": "~>0",
+                        "vibe-d": "~>0.8"
+                    },
+                    "name": "vibed"
+                }
+            ],
+            "version": "2.1.2"
         }
     ]
 }

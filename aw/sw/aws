@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "6bfce14b587ad5d69acc5f400304bc6a307171fe",
+    "commitID": "cea428d370c8431aa0fb0c8842e0ae888822a24b",
     "dateAdded": "2021-07-15T12:05:27",
     "description": "aws client services",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "6bfce14b587ad5d69acc5f400304bc6a307171fe",
+            "commitID": "cea428d370c8431aa0fb0c8842e0ae888822a24b",
             "configurations": [
                 {
                     "dependencies": {
@@ -104,6 +104,29 @@
             },
             "name": "aws",
             "version": "1.1.10"
+        },
+        {
+            "commitID": "cea428d370c8431aa0fb0c8842e0ae888822a24b",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "it"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:dom": "~>2.0.0",
+                "requests": "~>2.0.0"
+            },
+            "name": "aws",
+            "version": "1.1.11"
         }
     ]
 }
