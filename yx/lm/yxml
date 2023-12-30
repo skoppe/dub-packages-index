@@ -1,8 +1,8 @@
 {
     "categories": [],
-    "commitID": "378fdbcb2bd339f3b405d1ec656af2315e190f9c",
+    "commitID": "c991f7560e467ce731bcd134801f559ffb1d6eb4",
     "dateAdded": "2023-12-29T16:44:36",
-    "description": "WIP XML parsing library",
+    "description": "XML parsing library, nothrow @nogc, XML subset. Port of yxml.",
     "documentationURL": "",
     "id": "658ee9643de30735e073d4f7",
     "name": "yxml",
@@ -14,7 +14,10 @@
     },
     "versions": [
         {
-            "commitID": "378fdbcb2bd339f3b405d1ec656af2315e190f9c",
+            "commitID": "c991f7560e467ce731bcd134801f559ffb1d6eb4",
+            "dependencies": {
+                "numem": "~>0.5"
+            },
             "name": "yxml",
             "version": "~main"
         },
@@ -32,6 +35,14 @@
             "commitID": "378fdbcb2bd339f3b405d1ec656af2315e190f9c",
             "name": "yxml",
             "version": "0.0.3"
+        },
+        {
+            "commitID": "c991f7560e467ce731bcd134801f559ffb1d6eb4",
+            "dependencies": {
+                "numem": "~>0.5"
+            },
+            "name": "yxml",
+            "version": "0.0.4"
         }
     ]
 }
