@@ -5,7 +5,7 @@
         "library.general",
         "library.optimized_cpu"
     ],
-    "commitID": "cb3de0fe0f92323fa43fbad89df2a9eced6ed4f2",
+    "commitID": "cafb2fe801ce30973e4aff29f59faff236e8b917",
     "dateAdded": "2014-09-23T20:21:10",
     "description": "A cross-platform event loop library of asynchroneous objects.",
     "documentationURL": "",
@@ -18,6 +18,19 @@
         "project": "libasync"
     },
     "versions": [
+        {
+            "commitID": "a833f9835a48e416914d40045f4cebe33df888c5",
+            "configurations": [
+                {
+                    "name": "regular"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~>1.0.1"
+            },
+            "name": "libasync",
+            "version": "~dns_async_epoll"
+        },
         {
             "commitID": "ce9cd117cf5eb4e23d66af643637eca1ee88b1b1",
             "configurations": [
@@ -56,7 +69,7 @@
             "version": "~stable"
         },
         {
-            "commitID": "b6d2ec31541b140df87ecfa61ce9da2aa0b00308",
+            "commitID": "cafb2fe801ce30973e4aff29f59faff236e8b917",
             "configurations": [
                 {
                     "name": "regular"
@@ -390,6 +403,32 @@
             },
             "name": "libasync",
             "version": "0.9.3"
+        },
+        {
+            "commitID": "3eba9e87502ffeb9545d8ed024b919c4ae6019c4",
+            "configurations": [
+                {
+                    "name": "regular"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~>1.0.1"
+            },
+            "name": "libasync",
+            "version": "0.9.4"
+        },
+        {
+            "commitID": "cafb2fe801ce30973e4aff29f59faff236e8b917",
+            "configurations": [
+                {
+                    "name": "regular"
+                }
+            ],
+            "dependencies": {
+                "memutils": "~>1.0.1"
+            },
+            "name": "libasync",
+            "version": "0.9.5"
         }
     ]
 }
