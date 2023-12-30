@@ -1,0 +1,187 @@
+{
+    "categories": [],
+    "commitID": "4b8f1595287b7c6fb2d37310dc3d9941bb884623",
+    "dateAdded": "2023-12-30T16:21:40",
+    "description": "A framework for writing webassembly single page applications",
+    "documentationURL": "",
+    "id": "659035843de30735e074b316",
+    "name": "libwasm",
+    "owner": "540fac6f5fbe9bb546008306",
+    "repository": {
+        "kind": "github",
+        "owner": "etcimon",
+        "project": "libwasm"
+    },
+    "versions": [
+        {
+            "commitID": "4b8f1595287b7c6fb2d37310dc3d9941bb884623",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "dmd"
+                }
+            ],
+            "dependencies": {
+                "libwasm:algorithm": {
+                    "path": ".\/algorithm"
+                },
+                "libwasm:core": {
+                    "path": ".\/core"
+                },
+                "libwasm:diet": {
+                    "path": ".\/diet"
+                },
+                "libwasm:memory": {
+                    "path": ".\/memutils"
+                },
+                "libwasm:runtime": {
+                    "path": ".\/runtime"
+                },
+                "optional": "~>0.16.0"
+            },
+            "name": "libwasm",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "wasm"
+                        }
+                    ],
+                    "name": "runtime"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "wasm"
+                        }
+                    ],
+                    "dependencies": {
+                        "libwasm:runtime": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "memory"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "wasm"
+                        }
+                    ],
+                    "dependencies": {
+                        "libwasm:memory": {
+                            "path": "..\/"
+                        },
+                        "libwasm:runtime": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "silly"
+                        },
+                        {
+                            "name": "dip1008"
+                        },
+                        {
+                            "name": "dips"
+                        },
+                        {
+                            "name": "ci-bignum-test"
+                        },
+                        {
+                            "name": "ci-core-test"
+                        },
+                        {
+                            "name": "ci-ndslice-test"
+                        },
+                        {
+                            "name": "ci-test"
+                        }
+                    ],
+                    "dependencies": {
+                        "mir-core": ">=1.3.5"
+                    },
+                    "name": "mir-algorithm"
+                },
+                {
+                    "dependencies": {
+                        "fast": {
+                            "path": "..\/fast"
+                        },
+                        "memutils": {
+                            "path": "..\/memutils"
+                        }
+                    },
+                    "name": "diet-ng",
+                    "subPackages": [
+                        {
+                            "dependencies": {
+                                "diet-ng": {
+                                    "path": ".."
+                                }
+                            },
+                            "name": "makepot"
+                        }
+                    ]
+                },
+                {
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "sdlang-d": "~>0.10.4"
+                    },
+                    "name": "bootstrap-webpack"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "executable"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "openmethods": "~>1.1.1",
+                        "pegged": "~>0.4.4",
+                        "sdlang-d": "~>0.10.4",
+                        "wasm-reader": "~>0.0.4",
+                        "webidl-grammar": "0.0.8"
+                    },
+                    "name": "webidl"
+                }
+            ],
+            "version": "~abandoned"
+        }
+    ]
+}
