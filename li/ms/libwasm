@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.data_structures"
     ],
-    "commitID": "51491fdab74eeb970f86a6b10d521a865e537b70",
+    "commitID": "c2f7d7567c6f36b30f4131923214546df9f2d2a9",
     "dateAdded": "2023-12-30T16:21:40",
     "description": "A framework for writing webassembly single page applications",
     "documentationURL": "",
@@ -189,7 +189,63 @@
             "version": "~abandoned"
         },
         {
-            "commitID": "51491fdab74eeb970f86a6b10d521a865e537b70",
+            "commitID": "4e2d3ef97f10346098aa972d22344a9f0437f390",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "diet-wasm": {
+                    "path": ".\/diet-ng"
+                },
+                "fast-wasm": {
+                    "path": ".\/fast"
+                },
+                "memutils-wasm": {
+                    "path": ".\/memutils"
+                },
+                "optional-wasm": {
+                    "path": ".\/optional"
+                }
+            },
+            "name": "libwasm",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "executable"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "openmethods": "~>1.1.1",
+                        "pegged": "0.4.4",
+                        "sdlang-d": "~>0.10.6",
+                        "wasm-reader": "~>0.0.4",
+                        "webidl-grammar": {
+                            "path": ".\/webidl-grammar"
+                        }
+                    },
+                    "name": "webidl"
+                }
+            ],
+            "version": "~fixtests"
+        },
+        {
+            "commitID": "0eb2a304135d4137b8be03093a3bf3f3d4e3c885",
             "configurations": [
                 {
                     "name": "library"
@@ -245,7 +301,7 @@
             "version": "~master"
         },
         {
-            "commitID": "51491fdab74eeb970f86a6b10d521a865e537b70",
+            "commitID": "02068afadaca5d9c8dbf1abd02e16aed22631af5",
             "configurations": [
                 {
                     "name": "library"
@@ -299,6 +355,62 @@
                 }
             ],
             "version": "0.8.0"
+        },
+        {
+            "commitID": "c2f7d7567c6f36b30f4131923214546df9f2d2a9",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "diet-wasm": {
+                    "path": ".\/diet-ng"
+                },
+                "fast-wasm": {
+                    "path": ".\/fast"
+                },
+                "memutils-wasm": {
+                    "path": ".\/memutils"
+                },
+                "optional-wasm": {
+                    "path": ".\/optional"
+                }
+            },
+            "name": "libwasm",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "executable"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": ">=0.0.0"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "openmethods": "~>1.1.1",
+                        "pegged": "0.4.4",
+                        "sdlang-d": "~>0.10.6",
+                        "wasm-reader": "~>0.0.4",
+                        "webidl-grammar": {
+                            "path": ".\/webidl-grammar"
+                        }
+                    },
+                    "name": "webidl"
+                }
+            ],
+            "version": "0.8.1"
         }
     ]
 }
