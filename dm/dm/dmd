@@ -4,7 +4,7 @@
         "application.desktop.development.analyzer",
         "application.desktop.development.compiler"
     ],
-    "commitID": "40f57258ae7fdc3f0962653cfd0f734330c735b6",
+    "commitID": "99526adebb35a4c44e153867165900bede33d087",
     "dateAdded": "2017-07-17T22:04:25",
     "description": "The DMD compiler",
     "documentationURL": "",
@@ -133,6 +133,37 @@
             "version": "~newCTFE"
         },
         {
+            "commitID": "3c2bafcccb7a87bd728f8a4f94bd37eb6bef8b23",
+            "dependencies": {
+                "dmd:frontend": ">=0.0.0"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": ">=0.0.0"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": ">=0.0.0"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": ">=0.0.0"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "~rainer_dll2"
+        },
+        {
             "commitID": "c764869540fcec90e8839def9416d0e5b9eb384a",
             "dependencies": {
                 "dmd:frontend": ">=0.0.0"
@@ -162,37 +193,6 @@
                 }
             ],
             "version": "~revert-14556-midOverflow"
-        },
-        {
-            "commitID": "dbfd3a9f3e15f38079455c0051e1bbc530418db5",
-            "dependencies": {
-                "dmd:frontend": ">=0.0.0"
-            },
-            "name": "dmd",
-            "subPackages": [
-                {
-                    "name": "root"
-                },
-                {
-                    "dependencies": {
-                        "dmd:root": ">=0.0.0"
-                    },
-                    "name": "lexer"
-                },
-                {
-                    "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
-                    },
-                    "name": "parser"
-                },
-                {
-                    "dependencies": {
-                        "dmd:parser": ">=0.0.0"
-                    },
-                    "name": "frontend"
-                }
-            ],
-            "version": "~revert-15816-stdatomic"
         },
         {
             "commitID": "ec32f0e2f314c2c2f1cd4e8414204de52897a9fb",
@@ -226,7 +226,7 @@
             "version": "~revert-15907-mtype_sema1"
         },
         {
-            "commitID": "3a85e6bdbee15235d12f714f608a757ad1983bc3",
+            "commitID": "99526adebb35a4c44e153867165900bede33d087",
             "dependencies": {
                 "dmd:frontend": ">=0.0.0"
             },
@@ -288,7 +288,7 @@
             "version": "~update-pre-commit-hooks"
         },
         {
-            "commitID": "7f74cb30db9be47428cc69e21b50e40651241bde",
+            "commitID": "1f7ba493a96797eb99c18dc0ec14ad9a9131b945",
             "dependencies": {
                 "dmd:frontend": ">=0.0.0"
             },
@@ -1557,6 +1557,37 @@
                 }
             ],
             "version": "2.106.1-rc.1"
+        },
+        {
+            "commitID": "99526adebb35a4c44e153867165900bede33d087",
+            "dependencies": {
+                "dmd:frontend": ">=0.0.0"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": ">=0.0.0"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": ">=0.0.0"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": ">=0.0.0"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.106.1"
         }
     ]
 }
