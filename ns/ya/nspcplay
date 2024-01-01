@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "34f4dd3a9174ec6aaab045ae191f24ce98696de9",
+    "commitID": "c3c3b526c2e1792ed2b60fc703b9fc30bb46e4c6",
     "dateAdded": "2022-11-12T08:59:53",
     "description": "NSPC player.",
     "documentationURL": "",
@@ -52,7 +52,7 @@
             "version": "~echo"
         },
         {
-            "commitID": "b68a0c0661bd1920778934f095e86fdebaad0385",
+            "commitID": "c3c3b526c2e1792ed2b60fc703b9fc30bb46e4c6",
             "configurations": [
                 {
                     "name": "default"
@@ -238,6 +238,44 @@
                 }
             ],
             "version": "0.9.0"
+        },
+        {
+            "commitID": "c3c3b526c2e1792ed2b60fc703b9fc30bb46e4c6",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "shared"
+                }
+            ],
+            "name": "nspcplay",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-sdl": "~>1.0.0",
+                        "nspcplay": ">=0.0.0"
+                    },
+                    "name": "player"
+                },
+                {
+                    "dependencies": {
+                        "nspcplay": ">=0.0.0",
+                        "siryul": ">=0.0.0"
+                    },
+                    "name": "extract"
+                },
+                {
+                    "dependencies": {
+                        "nspcplay": ">=0.0.0"
+                    },
+                    "name": "mknspc"
+                }
+            ],
+            "version": "0.9.1"
         }
     ]
 }

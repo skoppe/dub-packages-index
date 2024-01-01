@@ -3,7 +3,7 @@
         "library.gamedev",
         "library.binding"
     ],
-    "commitID": "339da461a1923c23db61b6ff43b76823c7abc1af",
+    "commitID": "34e3b63cbdc8d470b6abdbe0d7bfb1485e9e78ad",
     "dateAdded": "2022-11-06T19:15:34",
     "description": "D bindings for godot",
     "documentationURL": "",
@@ -151,7 +151,7 @@
             "version": "~4.1"
         },
         {
-            "commitID": "0966da1269cd3ebb8d413ccc6b512b7992bec6e9",
+            "commitID": "34e3b63cbdc8d470b6abdbe0d7bfb1485e9e78ad",
             "configurations": [
                 {
                     "name": "default"
@@ -541,6 +541,92 @@
                 }
             ],
             "version": "0.5.0"
+        },
+        {
+            "commitID": "34e3b63cbdc8d470b6abdbe0d7bfb1485e9e78ad",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "classes"
+                }
+            ],
+            "dependencies": {
+                "godot-dlang:util": ">=0.0.0",
+                "utf_bc": "~>0.2.1"
+            },
+            "name": "godot-dlang",
+            "subPackages": [
+                {
+                    "name": "init"
+                },
+                {
+                    "name": "util"
+                },
+                {
+                    "dependencies": {
+                        "asdf": "~>0.7.17",
+                        "dxml": "~>0.4.4",
+                        "godot-dlang:util": ">=0.0.0",
+                        "libdparse": "~>0.20.0"
+                    },
+                    "name": "generator"
+                },
+                {
+                    "dependencies": {
+                        "godot-dlang:util": ">=0.0.0"
+                    },
+                    "name": "makebind"
+                },
+                {
+                    "dependencies": {
+                        "dsymbol": "~>0.14.1",
+                        "emsi_containers": "~>0.8.0",
+                        "godot-dlang:util": ">=0.0.0",
+                        "libdparse": "~>0.20.0"
+                    },
+                    "name": "classfinder"
+                },
+                {
+                    "dependencies": {
+                        "godot-dlang:classfinder": ">=0.0.0",
+                        "godot-dlang:util": ">=0.0.0"
+                    },
+                    "name": "pregenerate"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d": "~>0.9.5"
+                    },
+                    "name": "reloader"
+                },
+                {
+                    "dependencies": {
+                        "godot-dlang": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "asteroids"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "classes"
+                        }
+                    ],
+                    "dependencies": {
+                        "godot-dlang": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.6.0"
         }
     ]
 }
