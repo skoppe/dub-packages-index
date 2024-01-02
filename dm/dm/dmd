@@ -4,7 +4,7 @@
         "application.desktop.development.analyzer",
         "application.desktop.development.compiler"
     ],
-    "commitID": "99526adebb35a4c44e153867165900bede33d087",
+    "commitID": "5d3b5c43468db4e6e8579fcfcebb44cfa475ed16",
     "dateAdded": "2017-07-17T22:04:25",
     "description": "The DMD compiler",
     "documentationURL": "",
@@ -226,7 +226,7 @@
             "version": "~revert-15907-mtype_sema1"
         },
         {
-            "commitID": "99526adebb35a4c44e153867165900bede33d087",
+            "commitID": "5d3b5c43468db4e6e8579fcfcebb44cfa475ed16",
             "dependencies": {
                 "dmd:frontend": ">=0.0.0"
             },
@@ -288,7 +288,7 @@
             "version": "~update-pre-commit-hooks"
         },
         {
-            "commitID": "1f7ba493a96797eb99c18dc0ec14ad9a9131b945",
+            "commitID": "d8e3976a58d6aef7c2c9371028a2ca4460b5b2ce",
             "dependencies": {
                 "dmd:frontend": ">=0.0.0"
             },
@@ -1588,6 +1588,37 @@
                 }
             ],
             "version": "2.106.1"
+        },
+        {
+            "commitID": "5d3b5c43468db4e6e8579fcfcebb44cfa475ed16",
+            "dependencies": {
+                "dmd:frontend": ">=0.0.0"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": ">=0.0.0"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": ">=0.0.0"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": ">=0.0.0"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.107.0-beta.1"
         }
     ]
 }
