@@ -3,7 +3,7 @@
         "application.server.web",
         "library.web"
     ],
-    "commitID": "d4c0f2190dab55e1758d744f7d5962d0a0b16505",
+    "commitID": "d382d7fcdb127b5fbc489f096954aa1c8b69fe05",
     "dateAdded": "2022-05-08T22:38:24",
     "description": "Small and ready-to-go http server",
     "documentationURL": "https:\/\/trikko.github.io\/serverino\/",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "3719cef61b575c6f9d87e00cd3cf881283435a56",
+            "commitID": "d382d7fcdb127b5fbc489f096954aa1c8b69fe05",
             "configurations": [
                 {
                     "name": "lib"
@@ -444,6 +444,32 @@
                 }
             ],
             "version": "0.5.0"
+        },
+        {
+            "commitID": "d382d7fcdb127b5fbc489f096954aa1c8b69fe05",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": ">=0.0.0"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.5.1"
         }
     ]
 }
