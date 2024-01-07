@@ -4,7 +4,7 @@
         "library.network",
         "library.general"
     ],
-    "commitID": "cf5d9116ad5e822762d1fa648e69c217e39063dc",
+    "commitID": "d66388adb79f5b02c984ad633c2b91dd9b081086",
     "dateAdded": "2018-09-03T04:05:03",
     "description": "SOCKS 5 client implementation",
     "documentationURL": "",
@@ -18,7 +18,15 @@
     },
     "versions": [
         {
-            "commitID": "3e0bda1fa569a75eeb942311d47ac3b6ea66a5c0",
+            "commitID": "1162d2343f1b9a5d76138b6e51041f3fcf477991",
+            "dependencies": {
+                "vibe-core": ">=1.4.0"
+            },
+            "name": "socks-client",
+            "version": "~v0.2.0-dev"
+        },
+        {
+            "commitID": "d66388adb79f5b02c984ad633c2b91dd9b081086",
             "configurations": [
                 {
                     "name": "std"
@@ -87,6 +95,22 @@
             ],
             "name": "socks-client",
             "version": "0.1.0"
+        },
+        {
+            "commitID": "d66388adb79f5b02c984ad633c2b91dd9b081086",
+            "configurations": [
+                {
+                    "name": "std"
+                },
+                {
+                    "dependencies": {
+                        "vibe-core": ">=1.4.0"
+                    },
+                    "name": "vibed"
+                }
+            ],
+            "name": "socks-client",
+            "version": "0.2.0"
         }
     ]
 }
