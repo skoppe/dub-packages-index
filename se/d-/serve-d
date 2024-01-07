@@ -5,7 +5,7 @@
         "application.desktop.editor",
         "application.web.development"
     ],
-    "commitID": "70fc09b4eb69fc06194225dfc23a8df9c5844ce4",
+    "commitID": "870fbfeccb1bae85d9d2a790934f18cb55d0e6f5",
     "dateAdded": "2018-03-24T20:39:29",
     "description": "Microsoft Language Server Protocol library and D Server",
     "documentationURL": "",
@@ -788,7 +788,7 @@
             "version": "~workspaced-v3"
         },
         {
-            "commitID": "6ceec8a3f1686b4e5173ae4ff2c637ecdbaae670",
+            "commitID": "c13fd8707173968a96d6db2169a7e70cad205dbe",
             "configurations": [
                 {
                     "name": "executable"
@@ -2124,6 +2124,66 @@
                 }
             ],
             "version": "0.7.5"
+        },
+        {
+            "commitID": "fc9df495aa828dd3a9b107afdeef36910945b029",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.8.0",
+                "eventsystem": "~>1.2.0",
+                "libddoc": "0.7.4",
+                "rm-rf": "~>0.1.0",
+                "serve-d:http": ">=0.0.0",
+                "serve-d:lsp": ">=0.0.0",
+                "serve-d:serverbase": ">=0.0.0",
+                "workspace-d": "3.7.0"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>2.1.1"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "eventsystem": "~>1.2.0",
+                        "painlessjson": "1.4.0"
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": ".."
+                        },
+                        "workspace-d": {
+                            "optional": true,
+                            "version": ">=3.0.0"
+                        }
+                    },
+                    "name": "serverbase"
+                }
+            ],
+            "version": "0.7.6"
         },
         {
             "commitID": "e10bf4bb6a6162f8015ca6f1123133bf90817c10",
@@ -3603,6 +3663,106 @@
                 }
             ],
             "version": "0.8.0-beta.15"
+        },
+        {
+            "commitID": "870fbfeccb1bae85d9d2a790934f18cb55d0e6f5",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.9.0",
+                "fuzzymatch": "~>1.0.0",
+                "libddoc": "0.8.0",
+                "rm-rf": "~>0.1.0",
+                "sdlfmt": "~>0.1.1",
+                "serve-d:http": ">=0.0.0",
+                "serve-d:lsp": ">=0.0.0",
+                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:workspace-d": ">=0.0.0"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>2.1"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": "~>3.20",
+                        "mir-ion": "~>2.1"
+                    },
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": "~>3.20",
+                        "mir-ion": "~>2.1",
+                        "serve-d:protocol": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "serverbase"
+                },
+                {
+                    "dependencies": {
+                        "dcd:common": ">=0.16.0-beta.1 <0.17.0-0"
+                    },
+                    "name": "dcd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "dfmt": "~>0.15.0",
+                        "dscanner": ">=0.16.0-beta.1 <0.17.0-0",
+                        "dub": "1.33.1",
+                        "emsi_containers": "0.9.0",
+                        "inifiled": "1.3.3",
+                        "libdparse": "~>0.23.0",
+                        "mir-algorithm": "~>3.20",
+                        "serve-d:dcd": {
+                            "path": ".."
+                        },
+                        "standardpaths": "0.8.2"
+                    },
+                    "name": "workspace-d"
+                }
+            ],
+            "version": "0.8.0-beta.16"
         }
     ]
 }
