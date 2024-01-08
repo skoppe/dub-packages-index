@@ -2,7 +2,7 @@
     "categories": [
         "application.server.messaging"
     ],
-    "commitID": "8dc95601af7b4cf0a8b947df6de81e0d5e7322d9",
+    "commitID": "c5ec3a5e9b304209e46c047a5ef9a2f63edc1724",
     "dateAdded": "2018-04-21T15:49:41",
     "description": "Telegram Dlang news notify bot",
     "documentationURL": "",
@@ -16,12 +16,34 @@
     },
     "versions": [
         {
-            "commitID": "651d3b5b8712e2b936b3a27690a92b23a28b9373",
+            "commitID": "9fdf53738d64a5124fd522eb01e20245d5f437a6",
             "dependencies": {
-                "d2sqlite3": "~>0.16.1",
-                "htmld": "~>0.3.2",
-                "telega": "~>0.0.9",
-                "vibe-d:data": "~>0.8.5"
+                "d2sqlite3": "~>1.0.0",
+                "htmld": "~>0.3.7",
+                "telega": "~>0.2.1",
+                "vibe-d:data": ">=0.9.8-beta.1 <0.10.0-0"
+            },
+            "name": "paper_plane_bot",
+            "version": "~move_from_per_user_to_channel"
+        },
+        {
+            "commitID": "95535fb6a0d3c12cd856117743be64bed4282541",
+            "dependencies": {
+                "d2sqlite3": "~>1.0.0",
+                "htmld": "~>0.3.7",
+                "telega": "~>0.2.1",
+                "vibe-d:data": ">=0.9.8-beta.1 <0.10.0-0"
+            },
+            "name": "paper_plane_bot",
+            "version": "~move_to_new_telega_version"
+        },
+        {
+            "commitID": "c5ec3a5e9b304209e46c047a5ef9a2f63edc1724",
+            "dependencies": {
+                "d2sqlite3": "~>1.0.0",
+                "htmld": "~>0.3.7",
+                "telega": "~>0.2.1",
+                "vibe-d:data": ">=0.9.8-beta.1 <0.10.0-0"
             },
             "name": "paper_plane_bot",
             "version": "~master"
@@ -96,6 +118,17 @@
             },
             "name": "paper_plane_bot",
             "version": "0.0.6"
+        },
+        {
+            "commitID": "c5ec3a5e9b304209e46c047a5ef9a2f63edc1724",
+            "dependencies": {
+                "d2sqlite3": "~>1.0.0",
+                "htmld": "~>0.3.7",
+                "telega": "~>0.2.1",
+                "vibe-d:data": ">=0.9.8-beta.1 <0.10.0-0"
+            },
+            "name": "paper_plane_bot",
+            "version": "0.0.7"
         }
     ]
 }
