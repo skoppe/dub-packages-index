@@ -3,7 +3,7 @@
         "library.data",
         "library.gamedev"
     ],
-    "commitID": "a4eb9d41b85550aa3e86ca30bf8aaf5c5335f36c",
+    "commitID": "a869eacfb843bbccf160cd739fd071c4272dedf6",
     "dateAdded": "2018-06-26T19:43:21",
     "description": "Library & tooling for Neverwinter Nights 2 resource files",
     "documentationURL": "https:\/\/cromfr.github.io\/nwn-lib-d\/docs\/",
@@ -300,7 +300,7 @@
             "version": "~yaml"
         },
         {
-            "commitID": "a4eb9d41b85550aa3e86ca30bf8aaf5c5335f36c",
+            "commitID": "a869eacfb843bbccf160cd739fd071c4272dedf6",
             "dependencies": {
                 "gfm:math": "~>8.0.6"
             },
@@ -1204,6 +1204,22 @@
                 }
             ],
             "version": "1.1.0"
+        },
+        {
+            "commitID": "a869eacfb843bbccf160cd739fd071c4272dedf6",
+            "dependencies": {
+                "gfm:math": "~>8.0.6"
+            },
+            "name": "nwn-lib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "benchmark"
+                }
+            ],
+            "version": "1.1.1"
         }
     ]
 }
