@@ -5,7 +5,7 @@
         "library.generic",
         "library.encoding"
     ],
-    "commitID": "1c52bd6096c73fd2ff4170cb1ef1a472e6bb2aa3",
+    "commitID": "4b8a3e9640c9ce0d3813cb668e2930ebda36c97b",
     "dateAdded": "2018-06-24T22:06:58",
     "description": "D Standard Library",
     "documentationURL": "https:\/\/dlang.org\/phobos",
@@ -57,7 +57,7 @@
             "version": "~revert-8096-fix-pure-scope-string"
         },
         {
-            "commitID": "1c52bd6096c73fd2ff4170cb1ef1a472e6bb2aa3",
+            "commitID": "4b8a3e9640c9ce0d3813cb668e2930ebda36c97b",
             "name": "phobos",
             "subPackages": [
                 {
@@ -76,7 +76,7 @@
             "version": "~stable"
         },
         {
-            "commitID": "f41348cda418561ed381f2815e06940a09d03f24",
+            "commitID": "fa7f22b2cf66d991d8dcf2b0cc0dbeba89a6ea9f",
             "name": "phobos",
             "subPackages": [
                 {
@@ -853,6 +853,44 @@
                 }
             ],
             "version": "2.106.1-rc.1"
+        },
+        {
+            "commitID": "1c52bd6096c73fd2ff4170cb1ef1a472e6bb2aa3",
+            "name": "phobos",
+            "subPackages": [
+                {
+                    "name": "checkedint"
+                },
+                {
+                    "name": "allocator-generator"
+                },
+                {
+                    "dependencies": {
+                        "phobos:allocator-generator": ">=0.0.0"
+                    },
+                    "name": "allocator"
+                }
+            ],
+            "version": "2.106.1"
+        },
+        {
+            "commitID": "4b8a3e9640c9ce0d3813cb668e2930ebda36c97b",
+            "name": "phobos",
+            "subPackages": [
+                {
+                    "name": "checkedint"
+                },
+                {
+                    "name": "allocator-generator"
+                },
+                {
+                    "dependencies": {
+                        "phobos:allocator-generator": ">=0.0.0"
+                    },
+                    "name": "allocator"
+                }
+            ],
+            "version": "2.107.0-beta.1"
         }
     ]
 }
