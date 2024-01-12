@@ -3,9 +3,9 @@
         "library.graphics",
         "application.desktop.game"
     ],
-    "commitID": "d6913859a387b7d97c8bb92aecc9615aa1867bef",
+    "commitID": "d48e7f2fe6862cb0d5c3cda809cb46605705fc7c",
     "dateAdded": "2018-09-29T15:35:17",
-    "description": "Atelier Framework",
+    "description": "Framework 2D pour Grimoire",
     "documentationURL": "",
     "id": "5baf7f95c624e52a1bf0aed3",
     "name": "atelier",
@@ -17,103 +17,28 @@
     },
     "versions": [
         {
-            "commitID": "cd65cdac52de370e392fc1c94e258863023f3eb2",
-            "dependencies": {
-                "bindbc-sdl": "~>0.21.2"
-            },
-            "name": "atelier",
-            "subPackages": [
+            "commitID": "d48e7f2fe6862cb0d5c3cda809cb46605705fc7c",
+            "configurations": [
                 {
-                    "dependencies": {
-                        "atelier": {
-                            "path": "..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "test"
+                    "name": "atelier_debug"
+                },
+                {
+                    "name": "atelier_dev"
+                },
+                {
+                    "name": "atelier_rt"
                 }
             ],
-            "version": "~master"
-        },
-        {
-            "commitID": "d86db0013fe329db0f9de365c233350feef9694a",
             "dependencies": {
-                "derelict-sdl2": "~>2.1.4"
-            },
-            "name": "atelier",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "atelier": {
-                            "path": "..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "test"
-                }
-            ],
-            "version": "0.0.1"
-        },
-        {
-            "commitID": "ede264c2cc741b2c6197e72212db1c1e2370986a",
-            "dependencies": {
-                "derelict-sdl2": "~>2.1.4",
+                "audio-formats": "~>3.0.1",
+                "bindbc-openal": "~>1.1.0",
+                "bindbc-sdl": "~>1.4.2",
                 "grimoire": {
-                    "path": "..\/grimoire",
-                    "version": ">=0.0.0"
+                    "path": "grimoire"
                 }
             },
             "name": "atelier",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "atelier": {
-                            "path": "..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "test"
-                }
-            ],
-            "version": "0.0.2"
-        },
-        {
-            "commitID": "351efd6b1be3f6b676841605ff9edc81c8b10b14",
-            "dependencies": {
-                "derelict-sdl2": "~>2.1.4"
-            },
-            "name": "atelier",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "atelier": {
-                            "path": "..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "test"
-                }
-            ],
-            "version": "0.0.3"
-        },
-        {
-            "commitID": "d6913859a387b7d97c8bb92aecc9615aa1867bef",
-            "dependencies": {
-                "bindbc-sdl": "~>0.21.2"
-            },
-            "name": "atelier",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "atelier": {
-                            "path": "..\/",
-                            "version": ">=0.0.0"
-                        }
-                    },
-                    "name": "test"
-                }
-            ],
-            "version": "1.0.0"
+            "version": "~main"
         }
     ]
 }
