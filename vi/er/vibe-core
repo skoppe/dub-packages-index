@@ -4,7 +4,7 @@
         "library.general",
         "library.vibed"
     ],
-    "commitID": "f4c6b75ae01b8664a16c684725d8466e89b21321",
+    "commitID": "6454138b2000481162d5fe4d7dc6de3eafa47a9b",
     "dateAdded": "2016-10-25T00:36:09",
     "description": "The I\/O core library of vibe.d.",
     "documentationURL": "https:\/\/vibed.org\/api\/",
@@ -136,36 +136,7 @@
             "version": "~reproduce_optlink_issue_18"
         },
         {
-            "commitID": "de2403ceab2b02db8155bfb2ccd04934b895e009",
-            "configurations": [
-                {
-                    "name": "winapi"
-                },
-                {
-                    "name": "epoll"
-                },
-                {
-                    "name": "cfrunloop"
-                },
-                {
-                    "name": "kqueue"
-                },
-                {
-                    "name": "select"
-                },
-                {
-                    "name": "libasync"
-                }
-            ],
-            "dependencies": {
-                "eventcore": "~>0.9.27",
-                "vibe-container": "~>1"
-            },
-            "name": "vibe-core",
-            "version": "~void_perform_in_worker"
-        },
-        {
-            "commitID": "f4c6b75ae01b8664a16c684725d8466e89b21321",
+            "commitID": "6454138b2000481162d5fe4d7dc6de3eafa47a9b",
             "configurations": [
                 {
                     "name": "winapi"
@@ -3628,6 +3599,35 @@
             },
             "name": "vibe-core",
             "version": "2.7.1"
+        },
+        {
+            "commitID": "6454138b2000481162d5fe4d7dc6de3eafa47a9b",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.27",
+                "vibe-container": "~>1"
+            },
+            "name": "vibe-core",
+            "version": "2.7.2"
         }
     ]
 }
