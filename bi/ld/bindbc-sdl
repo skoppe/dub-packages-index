@@ -5,7 +5,7 @@
         "library.gamedev",
         "library.nogc"
     ],
-    "commitID": "47f74a2fe83c2cf02847d4e5c0ef7f71ea718d3a",
+    "commitID": "25e170f5a71c3f378815746aef60ee0fd7d7c356",
     "dateAdded": "2018-10-18T17:24:32",
     "description": "Static & dynamic bindings to SDL2 & the SDL_* libraries, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "47f74a2fe83c2cf02847d4e5c0ef7f71ea718d3a",
+            "commitID": "25e170f5a71c3f378815746aef60ee0fd7d7c356",
             "configurations": [
                 {
                     "dependencies": {
@@ -1426,6 +1426,34 @@
             },
             "name": "bindbc-sdl",
             "version": "1.4.4"
+        },
+        {
+            "commitID": "25e170f5a71c3f378815746aef60ee0fd7d7c356",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.1"
+            },
+            "name": "bindbc-sdl",
+            "version": "1.4.5"
         }
     ]
 }
