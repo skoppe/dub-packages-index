@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.network"
     ],
-    "commitID": "6aafe0c08f8c5ee546188fc54dfebab63cfabf7b",
+    "commitID": "6fec5c4046f326a9f06e64dfd48bf736a69f114d",
     "dateAdded": "2024-01-16T19:59:35",
     "description": "Experimental routing daemon",
     "documentationURL": "",
@@ -16,7 +16,18 @@
     },
     "versions": [
         {
-            "commitID": "6aafe0c08f8c5ee546188fc54dfebab63cfabf7b",
+            "commitID": "cebf44562afee01ad0a1acad5c34383659c13309",
+            "dependencies": {
+                "crypto": "~>0.2.18",
+                "gogga": "~>2.2.1",
+                "msgpack-d": "~>1.0.5",
+                "niknaks": "~>0.8.1"
+            },
+            "name": "twine",
+            "version": "~feature\/crypto"
+        },
+        {
+            "commitID": "76c49258a87c04b2cf97875208ffdff9d6bc4fbe",
             "dependencies": {
                 "gogga": "~>2.2.1",
                 "msgpack-d": "~>1.0.5",
@@ -34,6 +45,16 @@
             },
             "name": "twine",
             "version": "0.0.1-alpha"
+        },
+        {
+            "commitID": "6fec5c4046f326a9f06e64dfd48bf736a69f114d",
+            "dependencies": {
+                "gogga": "~>2.2.1",
+                "msgpack-d": "~>1.0.5",
+                "niknaks": "~>0.8.1"
+            },
+            "name": "twine",
+            "version": "0.0.2-alpha"
         }
     ]
 }
