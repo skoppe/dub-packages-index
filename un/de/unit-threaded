@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "b0e0809221e6cca71b6167cfa0f884b0100f4439",
+    "commitID": "6bc35dfd49ec18f7ef2d23270844bd32dcc6e2f2",
     "dateAdded": "2013-11-13T08:07:19",
     "description": "Advanced multi-threaded unit testing framework with minimal to no boilerplate using built-in unittest blocks",
     "documentationURL": "",
@@ -7692,6 +7692,136 @@
                 }
             ],
             "version": "2.1.7"
+        },
+        {
+            "commitID": "6bc35dfd49ec18f7ef2d23270844bd32dcc6e2f2",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "nodips"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-unthreaded"
+                },
+                {
+                    "name": "unittest-light"
+                },
+                {
+                    "name": "unittest-fail"
+                },
+                {
+                    "name": "gen_ut_main"
+                }
+            ],
+            "dependencies": {
+                "unit-threaded:assertions": ">=0.0.0",
+                "unit-threaded:behave": ">=0.0.0",
+                "unit-threaded:exception": ">=0.0.0",
+                "unit-threaded:from": ">=0.0.0",
+                "unit-threaded:integration": ">=0.0.0",
+                "unit-threaded:mocks": ">=0.0.0",
+                "unit-threaded:property": ">=0.0.0",
+                "unit-threaded:runner": ">=0.0.0"
+            },
+            "name": "unit-threaded",
+            "subPackages": [
+                {
+                    "name": "from"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:from": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "exception"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "assertions"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/.."
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "runner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/.."
+                        },
+                        "unit-threaded:exception": {
+                            "path": "..\/.."
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "mocks"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": {
+                            "path": "..\/.."
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "integration"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "unit-threaded:exception": {
+                            "path": "..\/.."
+                        },
+                        "unit-threaded:from": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "property"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:runner": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "autorunner"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:runner": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "behave"
+                }
+            ],
+            "version": "2.1.8"
         }
     ]
 }
