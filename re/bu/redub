@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "f580db1cb28f2b3c3ad17998cfcb1cc83f6aea2d",
+    "commitID": "3da9891c87312c5a969994439aa2eab3aba33368",
     "dateAdded": "2024-01-20T14:47:58",
     "description": "Dub Based Build System, with parallelization per packages and easier to contribute",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "f580db1cb28f2b3c3ad17998cfcb1cc83f6aea2d",
+            "commitID": "3da9891c87312c5a969994439aa2eab3aba33368",
             "configurations": [
                 {
                     "name": "cli"
@@ -153,6 +153,27 @@
             },
             "name": "redub",
             "version": "1.2.2"
+        },
+        {
+            "commitID": "3da9891c87312c5a969994439aa2eab3aba33368",
+            "configurations": [
+                {
+                    "name": "cli"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "colorize": {
+                    "path": "colorize"
+                },
+                "semver": {
+                    "path": "semver"
+                }
+            },
+            "name": "redub",
+            "version": "1.2.3"
         }
     ]
 }
