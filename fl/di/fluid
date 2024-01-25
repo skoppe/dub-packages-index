@@ -1,6 +1,10 @@
 {
-    "categories": [],
-    "commitID": "0f8d8a96db7fee767fdc28bded630681687d5228",
+    "categories": [
+        "library.gamedev",
+        "library.graphics",
+        "library.gui"
+    ],
+    "commitID": "8ad840a96104f7abf6f1846fdc2b66383d8a59ae",
     "dateAdded": "2024-01-17T09:50:03",
     "description": "A straightforward and easy to use GUI library.",
     "documentationURL": "",
@@ -14,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "0f8d8a96db7fee767fdc28bded630681687d5228",
+            "commitID": "8ad840a96104f7abf6f1846fdc2b66383d8a59ae",
             "configurations": [
                 {
                     "name": "default"
@@ -47,98 +51,28 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "fluid": ">=0.0.0"
-                    },
-                    "name": "example-showcase"
-                },
-                {
-                    "dependencies": {
-                        "arsd-official:image_files": "~>11.3",
-                        "arsd-official:simpledisplay": "~>11.3",
-                        "fluid": ">=0.0.0"
-                    },
-                    "name": "example-showcase-2"
-                },
-                {
-                    "dependencies": {
-                        "fluid": ">=0.0.0"
-                    },
-                    "name": "example-onions"
-                },
-                {
-                    "dependencies": {
-                        "fluid": ">=0.0.0"
-                    },
-                    "name": "example-checks"
-                },
-                {
-                    "dependencies": {
-                        "fluid": ">=0.0.0"
-                    },
-                    "name": "example-scroll"
-                },
-                {
-                    "dependencies": {
-                        "fluid": ">=0.0.0"
-                    },
-                    "name": "example-margins"
-                },
-                {
-                    "dependencies": {
-                        "fluid": ">=0.0.0"
-                    },
-                    "name": "example-hidpi"
-                },
-                {
-                    "dependencies": {
-                        "fluid": ">=0.0.0"
-                    },
-                    "name": "example-map"
-                }
-            ],
-            "version": "~main"
-        },
-        {
-            "commitID": "cc2f6dd92d0b7376d18435433d4fb98508e898ff",
-            "configurations": [
-                {
-                    "name": "default"
-                },
-                {
-                    "name": "unittest"
-                }
-            ],
-            "dependencies": {
-                "arsd-official:image_files": {
-                    "optional": true,
-                    "version": "~>11.3"
-                },
-                "arsd-official:simpledisplay": {
-                    "optional": true,
-                    "version": "~>11.3"
-                },
-                "bindbc-freetype": "~>1.1.1",
-                "elemi": {
-                    "optional": true,
-                    "version": "~>1.2.2"
-                },
-                "raylib-d": {
-                    "default": true,
-                    "optional": true,
-                    "version": "~>5"
-                }
-            },
-            "name": "fluid",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "fluid": ">=0.0.0",
+                        "fluid": {
+                            "path": "."
+                        },
                         "libdparse": "~>0.23.2"
                     },
                     "name": "showcase"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2",
+                        "raylib-d": "~>5"
+                    },
+                    "name": "showcase-raylib"
+                },
+                {
+                    "name": "init-exec"
                 }
             ],
-            "version": "~showcase"
+            "version": "~main"
         },
         {
             "commitID": "0f8d8a96db7fee767fdc28bded630681687d5228",
@@ -224,6 +158,63 @@
                 }
             ],
             "version": "0.6.0-alpha"
+        },
+        {
+            "commitID": "8ad840a96104f7abf6f1846fdc2b66383d8a59ae",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "arsd-official:simpledisplay": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2",
+                        "raylib-d": "~>5"
+                    },
+                    "name": "showcase-raylib"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.6.0"
         }
     ]
 }
