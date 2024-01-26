@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "79cd97ff12c113b59164d83677a1041fd6136582",
+    "commitID": "7820236c604d3d92cc55dab61ecee1f3c7a267cb",
     "dateAdded": "2021-01-14T12:40:56",
     "description": "concurrency library",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "79cd97ff12c113b59164d83677a1041fd6136582",
+            "commitID": "7820236c604d3d92cc55dab61ecee1f3c7a267cb",
             "configurations": [
                 {
                     "name": "default"
@@ -556,6 +556,40 @@
             "version": "~oncomplete"
         },
         {
+            "commitID": "e18a827ec1075f3f949d49267bf5594d97bcacae",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-release"
+                },
+                {
+                    "name": "nodip"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-asan"
+                }
+            ],
+            "dependencies": {
+                "concepts": "~>0.0.8"
+            },
+            "name": "concurrency",
+            "version": "~process_globals"
+        },
+        {
             "commitID": "20494505fd034a0ac94287713b188f9adc69b0c9",
             "configurations": [
                 {
@@ -880,7 +914,7 @@
             "version": "~vendoring"
         },
         {
-            "commitID": "4cdff17238c3b68905c84c9f4bf191146e0f504b",
+            "commitID": "1360379ed69bbc021c26ff8a781377af9f686a69",
             "configurations": [
                 {
                     "name": "default"
@@ -3299,6 +3333,43 @@
             },
             "name": "concurrency",
             "version": "5.0.4"
+        },
+        {
+            "commitID": "7820236c604d3d92cc55dab61ecee1f3c7a267cb",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-release"
+                },
+                {
+                    "name": "nodip"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": ">=0.0.0"
+                    },
+                    "name": "unittest-asan"
+                }
+            ],
+            "dependencies": {
+                "automem": "0.6.4",
+                "concepts": "~>0.0.8",
+                "ikod-containers": ">=0.0.22",
+                "mir-core": ">=1.1.62"
+            },
+            "name": "concurrency",
+            "version": "5.0.5"
         }
     ]
 }
