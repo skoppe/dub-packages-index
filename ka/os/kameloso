@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.network"
     ],
-    "commitID": "449d684dcc4d9fabdbd279faf2c11ada283527c8",
+    "commitID": "e24619af5c27ced7eb4afc6d0b0706a53bb306c0",
     "dateAdded": "2018-01-02T22:58:34",
     "description": "IRC bot",
     "documentationURL": "https:\/\/zorael.github.io\/kameloso\/kameloso.html",
@@ -29,6 +29,46 @@
             "commitID": "8cc67625a196ef2ddf25065b1952237ab0e78291",
             "name": "kameloso",
             "version": "~2080-overflow1-ldc"
+        },
+        {
+            "commitID": "b5b328eea9636538f9f1599d4b66711188f76e35",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "application-lowmem"
+                },
+                {
+                    "name": "lowmem"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitch-lowmem"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "dev-lowmem"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-lowmem"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:dom": "~>10.9.0",
+                "dialect": "~>2.1.0",
+                "lu": "~>2.1.0",
+                "requests": "~>2.1.2"
+            },
+            "name": "kameloso",
+            "version": "~bash2"
         },
         {
             "commitID": "fb1ccde36c67aebb6b4cbf955472e73c78c64711",
@@ -151,35 +191,7 @@
             "version": "~gdc-ice"
         },
         {
-            "commitID": "5cf528775d727e520b2e98568791828f1256cff8",
-            "configurations": [
-                {
-                    "name": "posix"
-                },
-                {
-                    "name": "windows"
-                },
-                {
-                    "name": "nowebtitles"
-                },
-                {
-                    "name": "nocolours"
-                },
-                {
-                    "name": "nowebtitles-nocolours"
-                },
-                {
-                    "dependencies": {
-                        "requests": "~>0.5.0"
-                    },
-                    "name": "unittest"
-                }
-            ],
-            "name": "kameloso",
-            "version": "~mite"
-        },
-        {
-            "commitID": "2fb0b5a1af56d8634a55f3bd84ce528b7e3b0882",
+            "commitID": "66037a478ef4322fa63ca71f73a8d8d10f2da8ef",
             "configurations": [
                 {
                     "name": "application"
@@ -217,12 +229,127 @@
                 "requests": "~>2.1.0"
             },
             "name": "kameloso",
+            "version": "~genasfibers"
+        },
+        {
+            "commitID": "5cf528775d727e520b2e98568791828f1256cff8",
+            "configurations": [
+                {
+                    "name": "posix"
+                },
+                {
+                    "name": "windows"
+                },
+                {
+                    "name": "nowebtitles"
+                },
+                {
+                    "name": "nocolours"
+                },
+                {
+                    "name": "nowebtitles-nocolours"
+                },
+                {
+                    "dependencies": {
+                        "requests": "~>0.5.0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "kameloso",
+            "version": "~mite"
+        },
+        {
+            "commitID": "dc9958930dfc23888d473f6af60f6a488ede1893",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "application-lowmem"
+                },
+                {
+                    "name": "lowmem"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitch-lowmem"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "dev-lowmem"
+                },
+                {
+                    "name": "selftest"
+                },
+                {
+                    "name": "selftest-lowmem"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-lowmem"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:dom": "~>10.9.0",
+                "dialect": "~>2.1.0",
+                "lu": "~>2.1.0",
+                "requests": "~>2.1.2"
+            },
+            "name": "kameloso",
             "version": "~onlinetests"
         },
         {
             "commitID": "00f37550048565b7fa3fd31a5ba573b29c3facfa",
             "name": "kameloso",
             "version": "~overflow"
+        },
+        {
+            "commitID": "49299dd265e3a189d91ea5ae932f507f7b2dc678",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "application-lowmem"
+                },
+                {
+                    "name": "lowmem"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitch-lowmem"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "dev-lowmem"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-lowmem"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:dom": "~>10.9.0",
+                "arsd-official:http": "~>10.9.0",
+                "dialect": "~>2.0.4",
+                "lu": "~>2.0.0",
+                "requests": "~>2.1.2"
+            },
+            "name": "kameloso",
+            "version": "~plainmessages"
         },
         {
             "commitID": "c751fb1bd4cd62ee76eff6bb5781db163fc1100b",
@@ -258,7 +385,7 @@
             "version": "~resolveseg"
         },
         {
-            "commitID": "4a1288459ff29da65d5da1bb5d8afdc1d5c0f63d",
+            "commitID": "e24619af5c27ced7eb4afc6d0b0706a53bb306c0",
             "configurations": [
                 {
                     "name": "application"
@@ -282,6 +409,12 @@
                     "name": "dev-lowmem"
                 },
                 {
+                    "name": "selftest"
+                },
+                {
+                    "name": "selftest-lowmem"
+                },
+                {
                     "name": "unittest"
                 },
                 {
@@ -290,10 +423,9 @@
             ],
             "dependencies": {
                 "arsd-official:dom": "~>10.9.0",
-                "arsd-official:http": "~>10.9.0",
-                "dialect": "~>2.0.4",
-                "lu": "~>2.0.0",
-                "requests": "~>2.1.0"
+                "dialect": "~>2.2.0",
+                "lu": "~>2.2.0",
+                "requests": "~>2.1.3"
             },
             "name": "kameloso",
             "version": "~master"
@@ -3815,6 +3947,52 @@
             },
             "name": "kameloso",
             "version": "3.13.0"
+        },
+        {
+            "commitID": "e24619af5c27ced7eb4afc6d0b0706a53bb306c0",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "name": "application-lowmem"
+                },
+                {
+                    "name": "lowmem"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitch-lowmem"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "dev-lowmem"
+                },
+                {
+                    "name": "selftest"
+                },
+                {
+                    "name": "selftest-lowmem"
+                },
+                {
+                    "name": "unittest"
+                },
+                {
+                    "name": "unittest-lowmem"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:dom": "~>10.9.0",
+                "dialect": "~>2.2.0",
+                "lu": "~>2.2.0",
+                "requests": "~>2.1.3"
+            },
+            "name": "kameloso",
+            "version": "3.14.159"
         }
     ]
 }
