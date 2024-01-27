@@ -4,7 +4,7 @@
         "library.graphics",
         "library.gui"
     ],
-    "commitID": "8ad840a96104f7abf6f1846fdc2b66383d8a59ae",
+    "commitID": "85ba3a2b450198fb064b4b11a023b92353db2eee",
     "dateAdded": "2024-01-17T09:50:03",
     "description": "A straightforward and easy to use GUI library.",
     "documentationURL": "",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "8ad840a96104f7abf6f1846fdc2b66383d8a59ae",
+            "commitID": "85ba3a2b450198fb064b4b11a023b92353db2eee",
             "configurations": [
                 {
                     "name": "default"
@@ -51,6 +51,7 @@
             "subPackages": [
                 {
                     "dependencies": {
+                        "arsd-official:simpledisplay": "~>11.3",
                         "fluid": {
                             "path": "."
                         },
@@ -160,7 +161,7 @@
             "version": "0.6.0-alpha"
         },
         {
-            "commitID": "8ad840a96104f7abf6f1846fdc2b66383d8a59ae",
+            "commitID": "ba1c37dea535ec612e96c96d1b53e8f17944c67a",
             "configurations": [
                 {
                     "name": "default"
@@ -215,6 +216,64 @@
                 }
             ],
             "version": "0.6.0"
+        },
+        {
+            "commitID": "85ba3a2b450198fb064b4b11a023b92353db2eee",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "arsd-official:simpledisplay": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "arsd-official:simpledisplay": "~>11.3",
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2",
+                        "raylib-d": "~>5"
+                    },
+                    "name": "showcase-raylib"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.6.1"
         }
     ]
 }
