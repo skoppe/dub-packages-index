@@ -2,7 +2,7 @@
     "categories": [
         "library.network"
     ],
-    "commitID": "6f56693d1df46a4c7ef5ff0d3409bbc528c22cf8",
+    "commitID": "ffe992c591cf34ad1d473a5eecb2bc3bbf8215c7",
     "dateAdded": "2019-09-07T23:24:24",
     "description": "IRC parsing library",
     "documentationURL": "http:\/\/dialect.dpldocs.info",
@@ -164,7 +164,7 @@
             "version": "~v1.0"
         },
         {
-            "commitID": "6f56693d1df46a4c7ef5ff0d3409bbc528c22cf8",
+            "commitID": "ffe992c591cf34ad1d473a5eecb2bc3bbf8215c7",
             "configurations": [
                 {
                     "name": "library"
@@ -186,13 +186,13 @@
                 }
             ],
             "dependencies": {
-                "lu": "~>2.1.0"
+                "lu": "~>2.2.0"
             },
             "name": "dialect",
             "subPackages": [
                 {
                     "dependencies": {
-                        "lu": "~>2.1.0"
+                        "lu": "~>2.2.0"
                     },
                     "name": "assertgen"
                 }
@@ -1353,6 +1353,42 @@
                 }
             ],
             "version": "2.1.0"
+        },
+        {
+            "commitID": "ffe992c591cf34ad1d473a5eecb2bc3bbf8215c7",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "bot"
+                },
+                {
+                    "name": "twitch"
+                },
+                {
+                    "name": "twitchbot"
+                },
+                {
+                    "name": "dev"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "lu": "~>2.2.0"
+            },
+            "name": "dialect",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "lu": "~>2.2.0"
+                    },
+                    "name": "assertgen"
+                }
+            ],
+            "version": "2.2.0"
         }
     ]
 }
