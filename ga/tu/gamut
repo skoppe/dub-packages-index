@@ -5,9 +5,9 @@
         "library.graphics",
         "library.optimized_cpu"
     ],
-    "commitID": "67f48eadbf526962a2560ac2b409df1347c12163",
+    "commitID": "08978a114e02617a52355d24d308b77a7b635af6",
     "dateAdded": "2022-07-03T13:42:25",
-    "description": "Image library. Decoders\/encoders for PNG, TGA, JPEG, DDS, GIF, QOI, QOIX. 16-bit support.",
+    "description": "Image library. Decoders\/encoders for PNG, TGA, BMP, JPEG, DDS, GIF, QOI, QOIX. 16-bit support.",
     "documentationURL": "https:\/\/github.com\/AuburnSounds\/gamut",
     "id": "62c180a199f22e7c456fa67b",
     "name": "gamut",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "7d81005efcb84cb25bfcde2698de3407f9499f86",
+            "commitID": "08978a114e02617a52355d24d308b77a7b635af6",
             "configurations": [
                 {
                     "name": "boost+mit"
@@ -909,6 +909,31 @@
             },
             "name": "gamut",
             "version": "2.4.0"
+        },
+        {
+            "commitID": "08978a114e02617a52355d24d308b77a7b635af6",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1"
+            },
+            "name": "gamut",
+            "version": "2.5.0"
         }
     ]
 }
