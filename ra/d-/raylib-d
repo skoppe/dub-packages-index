@@ -3,7 +3,7 @@
         "library.binding",
         "library.graphics"
     ],
-    "commitID": "a8f9ab2cccec720d7a09aff1d42607a9ed305e5e",
+    "commitID": "9906279494f1f83b2c4c9550779d46962af7c342",
     "dateAdded": "2021-04-21T02:35:39",
     "description": "D binding for Raylib",
     "documentationURL": "",
@@ -56,7 +56,7 @@
             "version": "~updatewithconfig"
         },
         {
-            "commitID": "a8f9ab2cccec720d7a09aff1d42607a9ed305e5e",
+            "commitID": "9906279494f1f83b2c4c9550779d46962af7c342",
             "configurations": [
                 {
                     "name": "library"
@@ -377,6 +377,29 @@
                 }
             ],
             "version": "5.0.0"
+        },
+        {
+            "commitID": "9906279494f1f83b2c4c9550779d46962af7c342",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "io": "~>0.3.4",
+                        "iopipe": "~>0.2.4",
+                        "jsoniopipe": "~>0.2.5"
+                    },
+                    "name": "install"
+                }
+            ],
+            "version": "5.0.1"
         }
     ]
 }
