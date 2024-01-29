@@ -3,9 +3,9 @@
         "application.web",
         "library"
     ],
-    "commitID": "56f30d6e9255c5ee79b8b14a4cad58a2691b62fc",
+    "commitID": "ebd799b495cd1c53340b8328ad638d27f575dcb0",
     "dateAdded": "2024-01-05T15:47:13",
-    "description": "Event driven web and concurrency framework",
+    "description": "UIM framework for building web applications",
     "documentationURL": "",
     "id": "65981671b10c97052cfc0645",
     "name": "uim",
@@ -17,10 +17,11 @@
     },
     "versions": [
         {
-            "commitID": "13ab6529d112d3362e7158f592f113dd27783e07",
+            "commitID": "ebd799b495cd1c53340b8328ad638d27f575dcb0",
             "dependencies": {
                 "uim:core": ">=0.0.0",
                 "uim:css": ">=0.0.0",
+                "uim:filesystems": ">=0.0.0",
                 "uim:oop": ">=0.0.0"
             },
             "name": "uim",
@@ -47,6 +48,22 @@
                         "vibe-d": "~>0.9.7"
                     },
                     "name": "oop"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official": "~>11.2.3",
+                        "colored": "~>0.0.31",
+                        "dlib": "~>1.2.1",
+                        "mir-algorithm": "~>3.21.0",
+                        "uim:core": {
+                            "path": "..\/"
+                        },
+                        "uim:oop": {
+                            "path": "..\/"
+                        },
+                        "vibe-d": "~>0.9.7"
+                    },
+                    "name": "filesystems"
                 },
                 {
                     "dependencies": {
@@ -117,6 +134,74 @@
                 }
             ],
             "version": "24.1.1"
+        },
+        {
+            "commitID": "ebd799b495cd1c53340b8328ad638d27f575dcb0",
+            "dependencies": {
+                "uim:core": ">=0.0.0",
+                "uim:css": ">=0.0.0",
+                "uim:filesystems": ">=0.0.0",
+                "uim:oop": ">=0.0.0"
+            },
+            "name": "uim",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "arsd-official": "~>11.2.3",
+                        "colored": "~>0.0.31",
+                        "dlib": "~>1.2.1",
+                        "mir-algorithm": "~>3.21.0",
+                        "vibe-d": "~>0.9.7"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official": "~>11.2.3",
+                        "colored": "~>0.0.31",
+                        "dlib": "~>1.2.1",
+                        "mir-algorithm": "~>3.21.0",
+                        "uim:core": {
+                            "path": "..\/"
+                        },
+                        "vibe-d": "~>0.9.7"
+                    },
+                    "name": "oop"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official": "~>11.2.3",
+                        "colored": "~>0.0.31",
+                        "dlib": "~>1.2.1",
+                        "mir-algorithm": "~>3.21.0",
+                        "uim:core": {
+                            "path": "..\/"
+                        },
+                        "uim:oop": {
+                            "path": "..\/"
+                        },
+                        "vibe-d": "~>0.9.7"
+                    },
+                    "name": "filesystems"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official": "~>11.2.3",
+                        "colored": "~>0.0.31",
+                        "dlib": "~>1.2.1",
+                        "mir-algorithm": "~>3.21.0",
+                        "uim:core": {
+                            "path": "..\/"
+                        },
+                        "uim:oop": {
+                            "path": "..\/"
+                        },
+                        "vibe-d": "~>0.9.7"
+                    },
+                    "name": "css"
+                }
+            ],
+            "version": "24.1.2"
         }
     ]
 }
