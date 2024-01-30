@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.development"
     ],
-    "commitID": "a652f7d1e81e598c44e55dbd19f958f51c24cce0",
+    "commitID": "b46e6a45b587e0db6cb714174c4b67bc55e31cfe",
     "dateAdded": "2024-01-20T14:47:58",
     "description": "Dub Based Build System, with parallelization per packages and easier to contribute",
     "documentationURL": "",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "a652f7d1e81e598c44e55dbd19f958f51c24cce0",
+            "commitID": "b46e6a45b587e0db6cb714174c4b67bc55e31cfe",
             "configurations": [
                 {
                     "name": "cli"
@@ -29,6 +29,9 @@
                 }
             ],
             "dependencies": {
+                "adv_diff": {
+                    "path": "adv_diff"
+                },
                 "colorize": {
                     "path": "colorize"
                 },
@@ -389,6 +392,51 @@
             },
             "name": "redub",
             "version": "1.2.13"
+        },
+        {
+            "commitID": "3d7f17e091a2b742131fed7cfe7ca63bfd742ce2",
+            "configurations": [
+                {
+                    "name": "cli"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "colorize": {
+                    "path": "colorize"
+                },
+                "semver": {
+                    "path": "semver"
+                }
+            },
+            "name": "redub",
+            "version": "1.2.14"
+        },
+        {
+            "commitID": "b46e6a45b587e0db6cb714174c4b67bc55e31cfe",
+            "configurations": [
+                {
+                    "name": "cli"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "adv_diff": {
+                    "path": "adv_diff"
+                },
+                "colorize": {
+                    "path": "colorize"
+                },
+                "semver": {
+                    "path": "semver"
+                }
+            },
+            "name": "redub",
+            "version": "1.2.15"
         }
     ]
 }
