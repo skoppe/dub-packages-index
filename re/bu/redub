@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.development"
     ],
-    "commitID": "453e61800f337ab50b03a8211e2b032f63942f8c",
+    "commitID": "41ce6a6d30eae6a09b1426f64d56ce7bf415d22b",
     "dateAdded": "2024-01-20T14:47:58",
     "description": "Dub Based Build System, with parallelization per packages and easier to contribute",
     "documentationURL": "",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "453e61800f337ab50b03a8211e2b032f63942f8c",
+            "commitID": "41ce6a6d30eae6a09b1426f64d56ce7bf415d22b",
             "configurations": [
                 {
                     "name": "cli"
@@ -463,6 +463,31 @@
             },
             "name": "redub",
             "version": "1.2.16"
+        },
+        {
+            "commitID": "41ce6a6d30eae6a09b1426f64d56ce7bf415d22b",
+            "configurations": [
+                {
+                    "name": "cli"
+                },
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "adv_diff": {
+                    "path": "adv_diff"
+                },
+                "colorize": {
+                    "path": "colorize"
+                },
+                "semver": {
+                    "path": "semver"
+                },
+                "xxhash3": "~>0.0.5"
+            },
+            "name": "redub",
+            "version": "1.2.17"
         }
     ]
 }
