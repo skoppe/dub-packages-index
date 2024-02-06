@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "13db4b5d10af914ea70a3370df9a8552e33c02b1",
+    "commitID": "a2a246b6f1e358612b2ac42de156bf667ceac60d",
     "dateAdded": "2023-12-20T13:14:05",
     "description": "Decentralised network for high volume transactions and distributed cases",
     "documentationURL": "https:\/\/docs.tagion.org",
@@ -134,7 +134,7 @@
             "version": "~android-nng"
         },
         {
-            "commitID": "bc336acbdb56adba4d6f83f41749090e3f6fe8ab",
+            "commitID": "900973c2a9da6226e81b544eea55a3d384af2ea5",
             "configurations": [
                 {
                     "name": "tagion"
@@ -147,7 +147,7 @@
             "version": "~crypto-review-freeze"
         },
         {
-            "commitID": "1c695297fa6515a7636558b25c3b1b662802e809",
+            "commitID": "b2a2634283df5f5b1f3a7c0393284f1cdcefabdc",
             "configurations": [
                 {
                     "name": "tagion"
@@ -160,7 +160,7 @@
             "version": "~crypto-review-freeze-pr"
         },
         {
-            "commitID": "f08ca754a5f3cc4a73eaa2e0cf743e79d22e6d27",
+            "commitID": "0df6314dd53b5a0ab329bb735f5f7dbac345e53d",
             "configurations": [
                 {
                     "name": "tagion"
@@ -192,7 +192,7 @@
             "version": "~current-review-pr"
         },
         {
-            "commitID": "e91655fadd4b4328c1798b79a2af7424b9e5fbae",
+            "commitID": "6df4bc5cd3f1fc479d7696af8e93659e27287fc7",
             "configurations": [
                 {
                     "name": "tagion"
@@ -211,7 +211,7 @@
             "version": "~fix-doc-boundary"
         },
         {
-            "commitID": "99b0945d982a53a3562a6ec5752d90a87e7e2f4d",
+            "commitID": "2453991af3bc15d41a48afec40c445b7a35f9043",
             "configurations": [
                 {
                     "name": "tagion"
@@ -221,7 +221,13 @@
                 }
             ],
             "name": "tagion",
-            "version": "~hotfix-hashgraph-ismethod"
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~hotfix-trt"
         },
         {
             "commitID": "f51c75f7e5bba6522c105cb4f3a8502d46ae4fe7",
@@ -256,25 +262,6 @@
             "version": "~ib-trt"
         },
         {
-            "commitID": "21dac43a7da67c572be1b00732c35eb5b932e358",
-            "configurations": [
-                {
-                    "name": "tagion"
-                },
-                {
-                    "name": "test"
-                }
-            ],
-            "name": "tagion",
-            "subPackages": [
-                {
-                    "name": "hibon",
-                    "version": "1.0.0"
-                }
-            ],
-            "version": "~lr\/hist"
-        },
-        {
             "commitID": "007dcf7b703c8dec31a1389bd3e76bbfc083dcf1",
             "configurations": [
                 {
@@ -288,7 +275,7 @@
             "version": "~pubkey-bug"
         },
         {
-            "commitID": "13db4b5d10af914ea70a3370df9a8552e33c02b1",
+            "commitID": "a2a246b6f1e358612b2ac42de156bf667ceac60d",
             "configurations": [
                 {
                     "name": "tagion"
@@ -307,26 +294,7 @@
             "version": "~release"
         },
         {
-            "commitID": "fc9673febdc9e9ad3db77ed23a886caefcc03b33",
-            "configurations": [
-                {
-                    "name": "tagion"
-                },
-                {
-                    "name": "test"
-                }
-            ],
-            "name": "tagion",
-            "subPackages": [
-                {
-                    "name": "hibon",
-                    "version": "1.0.0"
-                }
-            ],
-            "version": "~subscription_recorder_example"
-        },
-        {
-            "commitID": "89eca241be908b2fb91b643a40b9f62486a28367",
+            "commitID": "743bd2f0621d09fe32a0c73b3e631d7f42193033",
             "configurations": [
                 {
                     "name": "tagion"
@@ -440,6 +408,25 @@
                 }
             ],
             "version": "1.1.0"
+        },
+        {
+            "commitID": "a2a246b6f1e358612b2ac42de156bf667ceac60d",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "1.1.1"
         }
     ]
 }
