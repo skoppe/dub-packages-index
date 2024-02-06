@@ -1,6 +1,10 @@
 {
-    "categories": [],
-    "commitID": "3ed18360347a36745e9b350f3803dc78e1691f62",
+    "categories": [
+        "library.web.communication",
+        "library.network",
+        "library.vibed"
+    ],
+    "commitID": "e2cbe46dc09f878970ea4135c34c256715bc2bd6",
     "dateAdded": "2019-12-30T10:41:59",
     "description": "HTTP server and client implementation and higher level HTTP functionality",
     "documentationURL": "",
@@ -28,15 +32,13 @@
             "version": "~backport_vibed_changes"
         },
         {
-            "commitID": "e2fcd5f80fc6c6215395f580a6458e78cb23b72f",
+            "commitID": "e2cbe46dc09f878970ea4135c34c256715bc2bd6",
             "dependencies": {
-                "diet-ng": "~>1.1",
-                "taggedalgebraic": ">=0.10.9 <0.12.0-0",
-                "vibe-d:crypto": ">0.8.4",
-                "vibe-d:inet": ">=0.0.0",
-                "vibe-d:stream": ">=0.0.0",
-                "vibe-d:textfilter": ">=0.0.0",
-                "vibe-d:tls": ">0.8.4"
+                "diet-ng": "~>1.2",
+                "vibe-d:crypto": "~>0.9.7",
+                "vibe-d:inet": "~>0.9.7",
+                "vibe-d:textfilter": "~>0.9.0",
+                "vibe-d:tls": "~>0.9.7"
             },
             "name": "vibe-http",
             "version": "~master"
@@ -84,7 +86,7 @@
             "version": "0.3.0"
         },
         {
-            "commitID": "3ed18360347a36745e9b350f3803dc78e1691f62",
+            "commitID": "25e16eb9712c4cce10712894954a6426bba60448",
             "dependencies": {
                 "diet-ng": "~>1.1",
                 "taggedalgebraic": ">=0.10.9 <0.12.0-0",
@@ -96,6 +98,18 @@
             },
             "name": "vibe-http",
             "version": "0.3.1"
+        },
+        {
+            "commitID": "e2cbe46dc09f878970ea4135c34c256715bc2bd6",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-d:crypto": "~>0.9.7",
+                "vibe-d:inet": "~>0.9.7",
+                "vibe-d:textfilter": "~>0.9.0",
+                "vibe-d:tls": "~>0.9.7"
+            },
+            "name": "vibe-http",
+            "version": "0.9.0"
         }
     ]
 }
