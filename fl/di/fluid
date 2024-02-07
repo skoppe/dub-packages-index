@@ -4,7 +4,7 @@
         "library.graphics",
         "library.gui"
     ],
-    "commitID": "85ba3a2b450198fb064b4b11a023b92353db2eee",
+    "commitID": "059c4f7e9e6788cc5544a3fedb978d633cccd471",
     "dateAdded": "2024-01-17T09:50:03",
     "description": "A straightforward and easy to use GUI library.",
     "documentationURL": "",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "85ba3a2b450198fb064b4b11a023b92353db2eee",
+            "commitID": "059c4f7e9e6788cc5544a3fedb978d633cccd471",
             "configurations": [
                 {
                     "name": "default"
@@ -274,6 +274,64 @@
                 }
             ],
             "version": "0.6.1"
+        },
+        {
+            "commitID": "059c4f7e9e6788cc5544a3fedb978d633cccd471",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "arsd-official:simpledisplay": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "arsd-official:simpledisplay": "~>11.3",
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2",
+                        "raylib-d": "~>5"
+                    },
+                    "name": "showcase-raylib"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.6.2"
         }
     ]
 }
