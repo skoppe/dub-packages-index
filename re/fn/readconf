@@ -3,7 +3,7 @@
         "library.encoding",
         "library.development.parsing"
     ],
-    "commitID": "44e1e415b0a5071bf2b4436cc73196cc2d970a9d",
+    "commitID": "c8317314186591007c5be28d20580006282ca78e",
     "dateAdded": "2023-03-24T00:32:53",
     "description": "Singleton for simple reading of the configuration file",
     "documentationURL": "https:\/\/git.zhirov.kz\/dlang\/readconf\/wiki",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "44e1e415b0a5071bf2b4436cc73196cc2d970a9d",
+            "commitID": "c8317314186591007c5be28d20580006282ca78e",
             "configurations": [
                 {
                     "name": "library"
@@ -30,7 +30,7 @@
                 }
             ],
             "dependencies": {
-                "singlog": "~>0.4.0"
+                "singlog": "~>0.5.0"
             },
             "name": "readconf",
             "version": "~master"
@@ -163,6 +163,25 @@
             },
             "name": "readconf",
             "version": "0.4.0"
+        },
+        {
+            "commitID": "c8317314186591007c5be28d20580006282ca78e",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "silly": ">=1.2.0-dev.2 <1.3.0-0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "singlog": "~>0.5.0"
+            },
+            "name": "readconf",
+            "version": "0.4.1"
         }
     ]
 }
