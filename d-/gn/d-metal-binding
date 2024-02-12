@@ -3,7 +3,7 @@
         "library.binding",
         "library.graphics"
     ],
-    "commitID": "0abd993aad614f176fdbcdbf286bd6436b05f5e0",
+    "commitID": "b6f8d3ea3854a679f1893f93bbadc20ce0624b64",
     "dateAdded": "2023-03-10T21:42:26",
     "description": "Bindings to Apple's metal graphics API. No compiler support needed",
     "documentationURL": "",
@@ -17,9 +17,17 @@
     },
     "versions": [
         {
-            "commitID": "0abd993aad614f176fdbcdbf286bd6436b05f5e0",
+            "commitID": "b6f8d3ea3854a679f1893f93bbadc20ce0624b64",
+            "configurations": [
+                {
+                    "name": "macOS"
+                },
+                {
+                    "name": "test_generation"
+                }
+            ],
             "dependencies": {
-                "objc_meta": "~>1.0.14"
+                "objc_meta": "~>1.0.15"
             },
             "name": "d-metal-binding",
             "version": "~main"
@@ -93,6 +101,22 @@
             },
             "name": "d-metal-binding",
             "version": "2.0.18"
+        },
+        {
+            "commitID": "b6f8d3ea3854a679f1893f93bbadc20ce0624b64",
+            "configurations": [
+                {
+                    "name": "macOS"
+                },
+                {
+                    "name": "test_generation"
+                }
+            ],
+            "dependencies": {
+                "objc_meta": "~>1.0.15"
+            },
+            "name": "d-metal-binding",
+            "version": "2.0.19"
         }
     ]
 }
