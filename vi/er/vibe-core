@@ -4,7 +4,7 @@
         "library.general",
         "library.vibed"
     ],
-    "commitID": "552573171eb69afb643b9265cedfef226f8eb97b",
+    "commitID": "9e86e7a3087b63ccedd6fff68d0197e93c440dcc",
     "dateAdded": "2016-10-25T00:36:09",
     "description": "The I\/O core library of vibe.d.",
     "documentationURL": "https:\/\/vibed.org\/api\/",
@@ -136,7 +136,7 @@
             "version": "~reproduce_optlink_issue_18"
         },
         {
-            "commitID": "552573171eb69afb643b9265cedfef226f8eb97b",
+            "commitID": "9e86e7a3087b63ccedd6fff68d0197e93c440dcc",
             "configurations": [
                 {
                     "name": "winapi"
@@ -159,7 +159,7 @@
             ],
             "dependencies": {
                 "eventcore": "~>0.9.27",
-                "vibe-container": "~>1"
+                "vibe-container": "^1.0.2"
             },
             "name": "vibe-core",
             "version": "~master"
@@ -3657,6 +3657,35 @@
             },
             "name": "vibe-core",
             "version": "2.7.3"
+        },
+        {
+            "commitID": "9e86e7a3087b63ccedd6fff68d0197e93c440dcc",
+            "configurations": [
+                {
+                    "name": "winapi"
+                },
+                {
+                    "name": "epoll"
+                },
+                {
+                    "name": "cfrunloop"
+                },
+                {
+                    "name": "kqueue"
+                },
+                {
+                    "name": "select"
+                },
+                {
+                    "name": "libasync"
+                }
+            ],
+            "dependencies": {
+                "eventcore": "~>0.9.27",
+                "vibe-container": "^1.0.2"
+            },
+            "name": "vibe-core",
+            "version": "2.7.4"
         }
     ]
 }
