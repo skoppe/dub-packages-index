@@ -4,7 +4,7 @@
         "library.network",
         "library.vibed"
     ],
-    "commitID": "e2cbe46dc09f878970ea4135c34c256715bc2bd6",
+    "commitID": "0df8c810a657f609902faedbf48a7c9f5e69082a",
     "dateAdded": "2019-12-30T10:41:59",
     "description": "HTTP server and client implementation and higher level HTTP functionality",
     "documentationURL": "",
@@ -32,13 +32,13 @@
             "version": "~backport_vibed_changes"
         },
         {
-            "commitID": "e2cbe46dc09f878970ea4135c34c256715bc2bd6",
+            "commitID": "a6a55b63a8e2efb0f2263d369eb8903a8654ef43",
             "dependencies": {
                 "diet-ng": "~>1.2",
-                "vibe-d:crypto": "~>0.9.7",
-                "vibe-d:inet": "~>0.9.7",
-                "vibe-d:textfilter": "~>0.9.0",
-                "vibe-d:tls": "~>0.9.7"
+                "vibe-inet": "~>1",
+                "vibe-inet:crypto": "~>1",
+                "vibe-inet:textfilter": "~>1",
+                "vibe-stream:tls": "~>1"
             },
             "name": "vibe-http",
             "version": "~master"
@@ -110,6 +110,18 @@
             },
             "name": "vibe-http",
             "version": "0.9.0"
+        },
+        {
+            "commitID": "0df8c810a657f609902faedbf48a7c9f5e69082a",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-inet": "~>1",
+                "vibe-inet:crypto": "~>1",
+                "vibe-inet:textfilter": "~>1",
+                "vibe-stream:tls": "~>1"
+            },
+            "name": "vibe-http",
+            "version": "1.0.0-rc.1"
         }
     ]
 }
