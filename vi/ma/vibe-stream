@@ -1,6 +1,9 @@
 {
-    "categories": [],
-    "commitID": "828e2a549d79fccb11f82bf6dbc5f740102620b6",
+    "categories": [
+        "library.network",
+        "library.vibed"
+    ],
+    "commitID": "f00730c6117c40c74e52b80474b206a7ea44f5cb",
     "dateAdded": "2024-02-17T10:25:02",
     "description": "Advanced stream implementations for vibe-core",
     "documentationURL": "",
@@ -14,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "828e2a549d79fccb11f82bf6dbc5f740102620b6",
+            "commitID": "f00730c6117c40c74e52b80474b206a7ea44f5cb",
             "dependencies": {
                 "vibe-container": ">=1.2.2 <3.0.0-0",
                 "vibe-core": "^2.8.1"
@@ -112,6 +115,56 @@
                 }
             ],
             "version": "1.0.0-rc.1"
+        },
+        {
+            "commitID": "f00730c6117c40c74e52b80474b206a7ea44f5cb",
+            "dependencies": {
+                "vibe-container": ">=1.2.2 <3.0.0-0",
+                "vibe-core": "^2.8.1"
+            },
+            "name": "vibe-stream",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "openssl-mscoff"
+                        },
+                        {
+                            "name": "openssl"
+                        },
+                        {
+                            "name": "openssl-1.1"
+                        },
+                        {
+                            "name": "openssl-1.1-optlink"
+                        },
+                        {
+                            "name": "openssl-1.0"
+                        },
+                        {
+                            "dependencies": {
+                                "openssl-static": "~>1"
+                            },
+                            "name": "openssl-static"
+                        },
+                        {
+                            "name": "notls"
+                        }
+                    ],
+                    "dependencies": {
+                        "openssl": "~>3.1",
+                        "openssl-static": {
+                            "optional": true,
+                            "version": "~>1"
+                        },
+                        "vibe-stream": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "tls"
+                }
+            ],
+            "version": "1.0.0"
         }
     ]
 }
