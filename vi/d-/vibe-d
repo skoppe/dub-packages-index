@@ -5,7 +5,7 @@
         "library.vibed",
         "library.general"
     ],
-    "commitID": "756a3a48331badfdf05bff3557d8b43045b25765",
+    "commitID": "62d43f5ebed162512ccb9ca6abee1877d3f30372",
     "dateAdded": "2013-01-17T11:52:21",
     "description": "Event driven web and concurrency framework",
     "documentationURL": "https:\/\/vibed.org\/docs",
@@ -1024,150 +1024,6 @@
             "version": "~nogc_url2"
         },
         {
-            "commitID": "113a2f79fb2fcf76791eadc021f5b5ffc33da3ce",
-            "dependencies": {
-                "vibe-d:crypto": ">=0.0.0",
-                "vibe-d:data": ">=0.0.0",
-                "vibe-d:http": ">=0.0.0",
-                "vibe-d:inet": ">=0.0.0",
-                "vibe-d:mail": ">=0.0.0",
-                "vibe-d:mongodb": ">=0.0.0",
-                "vibe-d:redis": ">=0.0.0",
-                "vibe-d:stream": ">=0.0.0",
-                "vibe-d:textfilter": ">=0.0.0",
-                "vibe-d:tls": ">=0.0.0",
-                "vibe-d:utils": ">=0.0.0",
-                "vibe-d:web": ">=0.0.0"
-            },
-            "name": "vibe-d",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "vibe-container": "~>1.2"
-                    },
-                    "name": "utils"
-                },
-                {
-                    "dependencies": {
-                        "vibe-container": "^1.2.2"
-                    },
-                    "name": "data"
-                },
-                {
-                    "dependencies": {
-                        "vibe-container": ">=1.2.2 <3.0.0-0",
-                        "vibe-core": ">=1.0.0 <3.0.0-0"
-                    },
-                    "name": "stream"
-                },
-                {
-                    "configurations": [
-                        {
-                            "name": "openssl-mscoff"
-                        },
-                        {
-                            "name": "openssl"
-                        },
-                        {
-                            "name": "openssl-1.1"
-                        },
-                        {
-                            "name": "openssl-1.1-optlink"
-                        },
-                        {
-                            "name": "openssl-1.0"
-                        },
-                        {
-                            "dependencies": {
-                                "openssl-static": "~>1"
-                            },
-                            "name": "openssl-static"
-                        },
-                        {
-                            "name": "notls"
-                        }
-                    ],
-                    "dependencies": {
-                        "openssl": "~>3.1",
-                        "openssl-static": {
-                            "optional": true,
-                            "version": "~>1"
-                        },
-                        "vibe-d:stream": ">=0.0.0"
-                    },
-                    "name": "tls"
-                },
-                {
-                    "dependencies": {
-                        "mir-linux-kernel": "~>1.0.0",
-                        "vibe-core": ">=1.0.0 <3.0.0-0"
-                    },
-                    "name": "crypto"
-                },
-                {
-                    "dependencies": {
-                        "vibe-core": ">=1.0.0 <3.0.0-0"
-                    },
-                    "name": "textfilter"
-                },
-                {
-                    "dependencies": {
-                        "vibe-core": ">=1.0.0 <3.0.0-0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:stream": ">=0.0.0",
-                        "vibe-d:textfilter": ">=0.0.0"
-                    },
-                    "name": "inet"
-                },
-                {
-                    "dependencies": {
-                        "vibe-d:inet": ">=0.0.0",
-                        "vibe-d:tls": ">=0.0.0"
-                    },
-                    "name": "mail"
-                },
-                {
-                    "dependencies": {
-                        "diet-ng": "~>1.2",
-                        "vibe-d:crypto": {
-                            "path": ".."
-                        },
-                        "vibe-d:inet": {
-                            "path": ".."
-                        },
-                        "vibe-d:tls": {
-                            "path": ".."
-                        }
-                    },
-                    "name": "http"
-                },
-                {
-                    "dependencies": {
-                        "vibe-d:http": ">=0.0.0"
-                    },
-                    "name": "mongodb"
-                },
-                {
-                    "dependencies": {
-                        "vibe-d:http": ">=0.0.0"
-                    },
-                    "name": "redis"
-                },
-                {
-                    "dependencies": {
-                        "vibe-d:http": {
-                            "path": ".."
-                        },
-                        "vibe-d:utils": {
-                            "path": ".."
-                        }
-                    },
-                    "name": "web"
-                }
-            ],
-            "version": "~prepare_vibe_utils_removal"
-        },
-        {
             "commitID": "773c68367e8a9d71147de0eaeae886e9fefdc792",
             "dependencies": {
                 "vibe-d:crypto": ">=0.0.0",
@@ -1489,7 +1345,7 @@
             "version": "~v0.9.x"
         },
         {
-            "commitID": "1c93047c6d0b528029ef3685a0a66f3355125f88",
+            "commitID": "2907164aa8c076e565d1dad0ef9e6fdf8a11f0d8",
             "dependencies": {
                 "vibe-d:crypto": ">=0.0.0",
                 "vibe-d:data": ">=0.0.0",
@@ -1508,22 +1364,19 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "vibe-container": "~>1.1"
+                        "vibe-container": "~>1.2"
                     },
                     "name": "utils"
                 },
                 {
                     "dependencies": {
-                        "vibe-d:utils": {
-                            "path": ".."
-                        }
+                        "vibe-serialization": ">=1.0.0-0 <2.0.0-0"
                     },
                     "name": "data"
                 },
                 {
                     "dependencies": {
-                        "vibe-core": ">=1.0.0 <3.0.0-0",
-                        "vibe-d:utils": ">=0.0.0"
+                        "vibe-stream": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "stream"
                 },
@@ -1545,9 +1398,6 @@
                             "name": "openssl-1.0"
                         },
                         {
-                            "dependencies": {
-                                "openssl-static": "~>1"
-                            },
                             "name": "openssl-static"
                         },
                         {
@@ -1555,35 +1405,25 @@
                         }
                     ],
                     "dependencies": {
-                        "openssl": "~>3.1",
-                        "openssl-static": {
-                            "optional": true,
-                            "version": "~>1"
-                        },
-                        "vibe-d:stream": ">=0.0.0"
+                        "vibe-stream:tls": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "tls"
                 },
                 {
                     "dependencies": {
-                        "mir-linux-kernel": "~>1.0.0",
-                        "vibe-core": ">=1.0.0 <3.0.0-0"
+                        "vibe-inet:crypto": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "crypto"
                 },
                 {
                     "dependencies": {
-                        "vibe-core": ">=1.0.0 <3.0.0-0",
-                        "vibe-d:utils": ">=0.0.0"
+                        "vibe-inet:textfilter": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "textfilter"
                 },
                 {
                     "dependencies": {
-                        "vibe-core": ">=1.0.0 <3.0.0-0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:stream": ">=0.0.0",
-                        "vibe-d:textfilter": ">=0.0.0"
+                        "vibe-inet": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "inet"
                 },
@@ -1595,31 +1435,8 @@
                     "name": "mail"
                 },
                 {
-                    "configurations": [
-                        {
-                            "name": "mainline"
-                        },
-                        {
-                            "dependencies": {
-                                "vibe-http": "<2.0.0-0"
-                            },
-                            "name": "experimental"
-                        }
-                    ],
                     "dependencies": {
-                        "diet-ng": "~>1.2",
-                        "vibe-d:crypto": {
-                            "path": ".."
-                        },
-                        "vibe-d:inet": {
-                            "path": ".."
-                        },
-                        "vibe-d:textfilter": {
-                            "path": ".."
-                        },
-                        "vibe-d:tls": {
-                            "path": ".."
-                        }
+                        "vibe-http": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "http"
                 },
@@ -1637,7 +1454,12 @@
                 },
                 {
                     "dependencies": {
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-d:http": {
+                            "path": ".."
+                        },
+                        "vibe-d:utils": {
+                            "path": ".."
+                        }
                     },
                     "name": "web"
                 }
@@ -1645,18 +1467,12 @@
             "version": "~vibe-http"
         },
         {
-            "commitID": "756a3a48331badfdf05bff3557d8b43045b25765",
+            "commitID": "62d43f5ebed162512ccb9ca6abee1877d3f30372",
             "dependencies": {
-                "vibe-d:crypto": ">=0.0.0",
-                "vibe-d:data": ">=0.0.0",
                 "vibe-d:http": ">=0.0.0",
-                "vibe-d:inet": ">=0.0.0",
                 "vibe-d:mail": ">=0.0.0",
                 "vibe-d:mongodb": ">=0.0.0",
                 "vibe-d:redis": ">=0.0.0",
-                "vibe-d:stream": ">=0.0.0",
-                "vibe-d:textfilter": ">=0.0.0",
-                "vibe-d:tls": ">=0.0.0",
                 "vibe-d:utils": ">=0.0.0",
                 "vibe-d:web": ">=0.0.0"
             },
@@ -1664,22 +1480,19 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "vibe-container": "~>1.1"
+                        "vibe-container": "~>1.2"
                     },
                     "name": "utils"
                 },
                 {
                     "dependencies": {
-                        "vibe-d:utils": {
-                            "path": ".."
-                        }
+                        "vibe-serialization": ">=1.0.0-0 <2.0.0-0"
                     },
                     "name": "data"
                 },
                 {
                     "dependencies": {
-                        "vibe-core": ">=1.0.0 <3.0.0-0",
-                        "vibe-d:utils": ">=0.0.0"
+                        "vibe-stream": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "stream"
                 },
@@ -1701,9 +1514,6 @@
                             "name": "openssl-1.0"
                         },
                         {
-                            "dependencies": {
-                                "openssl-static": "~>1"
-                            },
                             "name": "openssl-static"
                         },
                         {
@@ -1711,78 +1521,59 @@
                         }
                     ],
                     "dependencies": {
-                        "openssl": "~>3.1",
-                        "openssl-static": {
-                            "optional": true,
-                            "version": "~>1"
-                        },
-                        "vibe-d:stream": ">=0.0.0"
+                        "vibe-stream:tls": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "tls"
                 },
                 {
                     "dependencies": {
-                        "mir-linux-kernel": "~>1.0.0",
-                        "vibe-core": ">=1.0.0 <3.0.0-0"
+                        "vibe-inet:crypto": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "crypto"
                 },
                 {
                     "dependencies": {
-                        "vibe-core": ">=1.0.0 <3.0.0-0",
-                        "vibe-d:utils": ">=0.0.0"
+                        "vibe-inet:textfilter": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "textfilter"
                 },
                 {
                     "dependencies": {
-                        "vibe-core": ">=1.0.0 <3.0.0-0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:stream": ">=0.0.0",
-                        "vibe-d:textfilter": ">=0.0.0"
+                        "vibe-inet": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "inet"
                 },
                 {
                     "dependencies": {
-                        "vibe-d:inet": ">=0.0.0",
-                        "vibe-d:tls": ">=0.0.0"
+                        "vibe-inet": "~>1",
+                        "vibe-stream:tls": "~>1"
                     },
                     "name": "mail"
                 },
                 {
                     "dependencies": {
-                        "diet-ng": "~>1.2",
-                        "vibe-d:crypto": {
-                            "path": ".."
-                        },
-                        "vibe-d:inet": {
-                            "path": ".."
-                        },
-                        "vibe-d:textfilter": {
-                            "path": ".."
-                        },
-                        "vibe-d:tls": {
-                            "path": ".."
-                        }
+                        "vibe-http": ">=1.0.0-rc.1 <2.0.0-0"
                     },
                     "name": "http"
                 },
                 {
                     "dependencies": {
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-http": "~>1"
                     },
                     "name": "mongodb"
                 },
                 {
                     "dependencies": {
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-http": "~>1"
                     },
                     "name": "redis"
                 },
                 {
                     "dependencies": {
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-d:utils": {
+                            "path": ".."
+                        },
+                        "vibe-http": "~>1"
                     },
                     "name": "web"
                 }
@@ -2490,40 +2281,6 @@
             "version": "0.7.19-rc.4"
         },
         {
-            "commitID": "7f1becacd7c9a04ef5f363ac985f17bbaca6d737",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "libevent": "~master"
-                    },
-                    "name": "libevent"
-                },
-                {
-                    "dependencies": {
-                        "libev": "~master"
-                    },
-                    "name": "libev"
-                },
-                {
-                    "name": "win32"
-                },
-                {
-                    "name": "winrt"
-                },
-                {
-                    "dependencies": {
-                        "libevent": "~master"
-                    },
-                    "name": "unittest"
-                }
-            ],
-            "dependencies": {
-                "openssl": "~master"
-            },
-            "name": "vibe-d",
-            "version": "0.7.19"
-        },
-        {
             "commitID": "7812f118df59be5e0a153d4beb8fb8209ce42d70",
             "configurations": [
                 {
@@ -2556,6 +2313,40 @@
             },
             "name": "vibe-d",
             "version": "0.7.19+openssl-1.0.1g"
+        },
+        {
+            "commitID": "7f1becacd7c9a04ef5f363ac985f17bbaca6d737",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "libevent": "~master"
+                    },
+                    "name": "libevent"
+                },
+                {
+                    "dependencies": {
+                        "libev": "~master"
+                    },
+                    "name": "libev"
+                },
+                {
+                    "name": "win32"
+                },
+                {
+                    "name": "winrt"
+                },
+                {
+                    "dependencies": {
+                        "libevent": "~master"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "openssl": "~master"
+            },
+            "name": "vibe-d",
+            "version": "0.7.19"
         },
         {
             "commitID": "b17894dd936c392bc25259d91d55582890d6daea",
@@ -27210,6 +27001,120 @@
                 }
             ],
             "version": "0.9.8"
+        },
+        {
+            "commitID": "62d43f5ebed162512ccb9ca6abee1877d3f30372",
+            "dependencies": {
+                "vibe-d:http": ">=0.0.0",
+                "vibe-d:mail": ">=0.0.0",
+                "vibe-d:mongodb": ">=0.0.0",
+                "vibe-d:redis": ">=0.0.0",
+                "vibe-d:utils": ">=0.0.0",
+                "vibe-d:web": ">=0.0.0"
+            },
+            "name": "vibe-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-container": "~>1.2"
+                    },
+                    "name": "utils"
+                },
+                {
+                    "dependencies": {
+                        "vibe-serialization": ">=1.0.0-0 <2.0.0-0"
+                    },
+                    "name": "data"
+                },
+                {
+                    "dependencies": {
+                        "vibe-stream": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "stream"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "openssl-mscoff"
+                        },
+                        {
+                            "name": "openssl"
+                        },
+                        {
+                            "name": "openssl-1.1"
+                        },
+                        {
+                            "name": "openssl-1.1-optlink"
+                        },
+                        {
+                            "name": "openssl-1.0"
+                        },
+                        {
+                            "name": "openssl-static"
+                        },
+                        {
+                            "name": "notls"
+                        }
+                    ],
+                    "dependencies": {
+                        "vibe-stream:tls": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "tls"
+                },
+                {
+                    "dependencies": {
+                        "vibe-inet:crypto": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "crypto"
+                },
+                {
+                    "dependencies": {
+                        "vibe-inet:textfilter": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "textfilter"
+                },
+                {
+                    "dependencies": {
+                        "vibe-inet": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "inet"
+                },
+                {
+                    "dependencies": {
+                        "vibe-inet": "~>1",
+                        "vibe-stream:tls": "~>1"
+                    },
+                    "name": "mail"
+                },
+                {
+                    "dependencies": {
+                        "vibe-http": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "vibe-http": "~>1"
+                    },
+                    "name": "mongodb"
+                },
+                {
+                    "dependencies": {
+                        "vibe-http": "~>1"
+                    },
+                    "name": "redis"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:utils": {
+                            "path": ".."
+                        },
+                        "vibe-http": "~>1"
+                    },
+                    "name": "web"
+                }
+            ],
+            "version": "0.10.0-rc.1"
         }
     ]
 }
