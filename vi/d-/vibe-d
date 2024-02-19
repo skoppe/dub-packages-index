@@ -1345,18 +1345,12 @@
             "version": "~v0.9.x"
         },
         {
-            "commitID": "2907164aa8c076e565d1dad0ef9e6fdf8a11f0d8",
+            "commitID": "8eebfcefda8f114241a68cb39d386604369a5189",
             "dependencies": {
-                "vibe-d:crypto": ">=0.0.0",
-                "vibe-d:data": ">=0.0.0",
                 "vibe-d:http": ">=0.0.0",
-                "vibe-d:inet": ">=0.0.0",
                 "vibe-d:mail": ">=0.0.0",
                 "vibe-d:mongodb": ">=0.0.0",
                 "vibe-d:redis": ">=0.0.0",
-                "vibe-d:stream": ">=0.0.0",
-                "vibe-d:textfilter": ">=0.0.0",
-                "vibe-d:tls": ">=0.0.0",
                 "vibe-d:utils": ">=0.0.0",
                 "vibe-d:web": ">=0.0.0"
             },
@@ -1429,8 +1423,8 @@
                 },
                 {
                     "dependencies": {
-                        "vibe-d:inet": ">=0.0.0",
-                        "vibe-d:tls": ">=0.0.0"
+                        "vibe-inet": "~>1",
+                        "vibe-stream:tls": "~>1"
                     },
                     "name": "mail"
                 },
@@ -1442,24 +1436,22 @@
                 },
                 {
                     "dependencies": {
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-http": "~>1"
                     },
                     "name": "mongodb"
                 },
                 {
                     "dependencies": {
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-http": "~>1"
                     },
                     "name": "redis"
                 },
                 {
                     "dependencies": {
-                        "vibe-d:http": {
-                            "path": ".."
-                        },
                         "vibe-d:utils": {
                             "path": ".."
-                        }
+                        },
+                        "vibe-http": "~>1"
                     },
                     "name": "web"
                 }
@@ -27115,6 +27107,120 @@
                 }
             ],
             "version": "0.10.0-rc.1"
+        },
+        {
+            "commitID": "62d43f5ebed162512ccb9ca6abee1877d3f30372",
+            "dependencies": {
+                "vibe-d:http": ">=0.0.0",
+                "vibe-d:mail": ">=0.0.0",
+                "vibe-d:mongodb": ">=0.0.0",
+                "vibe-d:redis": ">=0.0.0",
+                "vibe-d:utils": ">=0.0.0",
+                "vibe-d:web": ">=0.0.0"
+            },
+            "name": "vibe-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "vibe-container": "~>1.2"
+                    },
+                    "name": "utils"
+                },
+                {
+                    "dependencies": {
+                        "vibe-serialization": ">=1.0.0-0 <2.0.0-0"
+                    },
+                    "name": "data"
+                },
+                {
+                    "dependencies": {
+                        "vibe-stream": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "stream"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "openssl-mscoff"
+                        },
+                        {
+                            "name": "openssl"
+                        },
+                        {
+                            "name": "openssl-1.1"
+                        },
+                        {
+                            "name": "openssl-1.1-optlink"
+                        },
+                        {
+                            "name": "openssl-1.0"
+                        },
+                        {
+                            "name": "openssl-static"
+                        },
+                        {
+                            "name": "notls"
+                        }
+                    ],
+                    "dependencies": {
+                        "vibe-stream:tls": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "tls"
+                },
+                {
+                    "dependencies": {
+                        "vibe-inet:crypto": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "crypto"
+                },
+                {
+                    "dependencies": {
+                        "vibe-inet:textfilter": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "textfilter"
+                },
+                {
+                    "dependencies": {
+                        "vibe-inet": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "inet"
+                },
+                {
+                    "dependencies": {
+                        "vibe-inet": "~>1",
+                        "vibe-stream:tls": "~>1"
+                    },
+                    "name": "mail"
+                },
+                {
+                    "dependencies": {
+                        "vibe-http": ">=1.0.0-rc.1 <2.0.0-0"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "vibe-http": "~>1"
+                    },
+                    "name": "mongodb"
+                },
+                {
+                    "dependencies": {
+                        "vibe-http": "~>1"
+                    },
+                    "name": "redis"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:utils": {
+                            "path": ".."
+                        },
+                        "vibe-http": "~>1"
+                    },
+                    "name": "web"
+                }
+            ],
+            "version": "0.10.0"
         }
     ]
 }
