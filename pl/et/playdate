@@ -4,7 +4,7 @@
         "library.gamedev",
         "library.nogc"
     ],
-    "commitID": "182fa256dfe4500cb647f73239c94c2a4cf9d02c",
+    "commitID": "ae98cc5aa8b9033a54acae5eac4e5255d5f653b5",
     "dateAdded": "2022-09-07T07:23:09",
     "description": "D bindings to the Playdate SDK",
     "documentationURL": "https:\/\/chances.github.io\/playdate-d",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "5de70c6b564cec0abd990acf9ba626eaa1c55682",
+            "commitID": "df81f95573e05c565221bfce8ad8eec8e05a42c8",
             "configurations": [
                 {
                     "name": "library"
@@ -233,6 +233,37 @@
                 }
             ],
             "version": "1.13.3"
+        },
+        {
+            "commitID": "ae98cc5aa8b9033a54acae5eac4e5255d5f653b5",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "playdate",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "simulator"
+                        },
+                        {
+                            "name": "device"
+                        }
+                    ],
+                    "dependencies": {
+                        "playdate": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "shapes"
+                }
+            ],
+            "version": "1.13.4"
         }
     ]
 }
