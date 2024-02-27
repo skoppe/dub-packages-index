@@ -4,7 +4,7 @@
         "library.graphics",
         "library.nogc"
     ],
-    "commitID": "27d310dcd0466f592b3493f050c1a13634362275",
+    "commitID": "31374dc3b019714375a637efdf1daa15a095639b",
     "dateAdded": "2019-09-29T06:30:33",
     "description": "Static & dynamic bindings to bgfx, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -18,7 +18,7 @@
     },
     "versions": [
         {
-            "commitID": "962ed2065c0f30c02bb425c8e504d23ff6758674",
+            "commitID": "31374dc3b019714375a637efdf1daa15a095639b",
             "configurations": [
                 {
                     "dependencies": {
@@ -599,6 +599,34 @@
             },
             "name": "bindbc-bgfx",
             "version": "1.2.0+125"
+        },
+        {
+            "commitID": "31374dc3b019714375a637efdf1daa15a095639b",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.2"
+            },
+            "name": "bindbc-bgfx",
+            "version": "1.3.0+126"
         }
     ]
 }
