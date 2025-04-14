@@ -2,9 +2,9 @@
     "categories": [
         "library"
     ],
-    "commitID": "c0d7cee9470d92c6c8680b4eed359f4568d9efec",
+    "commitID": "9b8bde96c6f8ea00d3dd5902d9df3acab39e0149",
     "dateAdded": "2022-11-26T18:34:11",
-    "description": "Personal library",
+    "description": "Personal collection of mini-libraries",
     "documentationURL": "",
     "id": "63824e13100001144e5af7db",
     "name": "sily",
@@ -12,46 +12,34 @@
     "repository": {
         "kind": "github",
         "owner": "al1-ce",
-        "project": "sily-dlang"
+        "project": "sily"
     },
     "versions": [
         {
-            "commitID": "c0d7cee9470d92c6c8680b4eed359f4568d9efec",
-            "dependencies": {
-                "speedy-stdio": {
-                    "optional": true,
-                    "version": "0.2.0"
-                }
-            },
+            "commitID": "a71613a4b98a4b612bb8e89b9c20a2cf46580371",
             "name": "sily",
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
-                        "sily-terminal": "~>1.0.0",
-                        "sily-terminal:logger": "~>1.2.1"
+                        "sily": "*"
                     },
-                    "name": "unit"
+                    "name": "sdl"
                 },
                 {
                     "dependencies": {
-                        "dyaml": "~>0.9.2"
+                        "sily": "*",
+                        "speedy-stdio": {
+                            "optional": true,
+                            "version": "0.2.0"
+                        }
                     },
-                    "name": "dyaml"
+                    "name": "term"
                 },
                 {
                     "dependencies": {
-                        "sdlite": "~>1.1.2",
-                        "taggedalgebraic": "~>0.11.22"
+                        "sily": "*"
                     },
-                    "name": "sdlang"
-                },
-                {
-                    "dependencies": {
-                        "bindbc-loader": "~>1.0.3",
-                        "sily-terminal:logger": "~>1.2.1"
-                    },
-                    "name": "bindbc"
+                    "name": "web"
                 }
             ],
             "version": "~master"
@@ -315,20 +303,20 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "tui"
                 },
                 {
                     "dependencies": {
                         "bindbc-sdl": "~>1.1.2",
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "sdl"
                 },
@@ -365,21 +353,21 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
-                        "sily:logger": ">=0.0.0"
+                        "sily": "*",
+                        "sily:logger": "*"
                     },
                     "name": "tui"
                 },
                 {
                     "dependencies": {
                         "bindbc-sdl": "~>1.1.2",
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "sdl"
                 },
@@ -422,21 +410,21 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
-                        "sily:logger": ">=0.0.0"
+                        "sily": "*",
+                        "sily:logger": "*"
                     },
                     "name": "tui"
                 },
                 {
                     "dependencies": {
                         "bindbc-sdl": "~>1.1.2",
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "sdl"
                 },
@@ -479,21 +467,21 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
-                        "sily:logger": ">=0.0.0"
+                        "sily": "*",
+                        "sily:logger": "*"
                     },
                     "name": "tui"
                 },
                 {
                     "dependencies": {
                         "bindbc-sdl": "~>1.1.2",
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "sdl"
                 },
@@ -536,14 +524,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
-                        "sily:logger": ">=0.0.0",
+                        "sily": "*",
+                        "sily:logger": "*",
                         "speedy-stdio": {
                             "optional": true,
                             "version": "0.2.0"
@@ -554,7 +542,7 @@
                 {
                     "dependencies": {
                         "bindbc-sdl": "~>1.1.2",
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "sdl"
                 },
@@ -584,8 +572,8 @@
                 },
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
-                        "sily:logger": ">=0.0.0"
+                        "sily": "*",
+                        "sily:logger": "*"
                     },
                     "name": "unit"
                 }
@@ -604,14 +592,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
-                        "sily:logger": ">=0.0.0",
+                        "sily": "*",
+                        "sily:logger": "*",
                         "speedy-stdio": {
                             "optional": true,
                             "version": "0.2.0"
@@ -622,7 +610,7 @@
                 {
                     "dependencies": {
                         "bindbc-sdl": "~>1.1.2",
-                        "sily": ">=0.0.0"
+                        "sily": "*"
                     },
                     "name": "sdl"
                 },
@@ -652,8 +640,8 @@
                 },
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
-                        "sily:logger": ">=0.0.0"
+                        "sily": "*",
+                        "sily:logger": "*"
                     },
                     "name": "unit"
                 }
@@ -672,7 +660,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
+                        "sily": "*",
                         "sily-terminal": "~>1.0.0",
                         "sily-terminal:logger": "~>1.0.0"
                     },
@@ -699,7 +687,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
+                        "sily": "*",
                         "sily-terminal": "~>1.0.0",
                         "sily-terminal:logger": "~>1.0.0"
                     },
@@ -726,7 +714,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
+                        "sily": "*",
                         "sily-terminal": "~>1.0.0",
                         "sily-terminal:logger": "~>1.0.0"
                     },
@@ -753,7 +741,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
+                        "sily": "*",
                         "sily-terminal": "~>1.0.0",
                         "sily-terminal:logger": "~>1.0.0"
                     },
@@ -787,7 +775,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
+                        "sily": "*",
                         "sily-terminal": "~>1.0.0",
                         "sily-terminal:logger": "~>1.0.0"
                     },
@@ -821,7 +809,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": ">=0.0.0",
+                        "sily": "*",
                         "sily-terminal": "~>1.0.0",
                         "sily-terminal:logger": "~>1.2.1"
                     },
@@ -849,6 +837,114 @@
                 }
             ],
             "version": "3.0.0"
+        },
+        {
+            "commitID": "cf2a85291c15f360249c2ffb815169a02e417433",
+            "dependencies": {
+                "speedy-stdio": {
+                    "optional": true,
+                    "version": "0.2.0"
+                }
+            },
+            "name": "sily",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dyaml": "~>0.9.2"
+                    },
+                    "name": "dyaml"
+                },
+                {
+                    "dependencies": {
+                        "sdlite": "~>1.1.2",
+                        "sily": "*",
+                        "taggedalgebraic": "~>0.11.22"
+                    },
+                    "name": "sdlang"
+                }
+            ],
+            "version": "4.0.0"
+        },
+        {
+            "commitID": "1a8379816c8809540099acc2932f72525ea2e7a5",
+            "name": "sily",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "sily": "*",
+                        "speedy-stdio": {
+                            "optional": true,
+                            "version": "0.2.0"
+                        }
+                    },
+                    "name": "term"
+                },
+                {
+                    "dependencies": {
+                        "sily": "*"
+                    },
+                    "name": "web"
+                }
+            ],
+            "version": "5.0.0"
+        },
+        {
+            "commitID": "1c81dbed5674a4b740e2220f778243cf2cc78e65",
+            "name": "sily",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "sily": "*"
+                    },
+                    "name": "sdl"
+                },
+                {
+                    "dependencies": {
+                        "sily": "*",
+                        "speedy-stdio": {
+                            "optional": true,
+                            "version": "0.2.0"
+                        }
+                    },
+                    "name": "term"
+                },
+                {
+                    "dependencies": {
+                        "sily": "*"
+                    },
+                    "name": "web"
+                }
+            ],
+            "version": "5.0.1"
+        },
+        {
+            "commitID": "9b8bde96c6f8ea00d3dd5902d9df3acab39e0149",
+            "name": "sily",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "sily": "*"
+                    },
+                    "name": "sdl"
+                },
+                {
+                    "dependencies": {
+                        "sily": "*",
+                        "speedy-stdio": {
+                            "optional": true,
+                            "version": "0.2.0"
+                        }
+                    },
+                    "name": "term"
+                },
+                {
+                    "dependencies": {
+                        "sily": "*"
+                    },
+                    "name": "web"
+                }
+            ],
+            "version": "5.0.2"
         }
     ]
 }

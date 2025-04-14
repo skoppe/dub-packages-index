@@ -1,8 +1,8 @@
 {
     "categories": [],
-    "commitID": "1e6380a6cb18fc748d32496a4c6422c517e9cf51",
+    "commitID": "e9facf7685ec3986ebaa7ab076e9f4882c89c22b",
     "dateAdded": "2023-08-03T23:03:17",
-    "description": "a simple ORM for D for mariadb\/mysql",
+    "description": "simple ORM for D using DDBC",
     "documentationURL": "",
     "id": "64cc1615f39ef9b037a8ccbd",
     "name": "norm",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "1e6380a6cb18fc748d32496a4c6422c517e9cf51",
+            "commitID": "69ede46d933463e7df0898d50fe9ae5a9405525e",
             "configurations": [
                 {
                     "name": "default"
@@ -25,7 +25,7 @@
             ],
             "dependencies": {
                 "mysql-native": "~>3.2.4",
-                "utils": "~>0.7.0"
+                "utils": "~>0.9.0"
             },
             "name": "norm",
             "version": "~master"
@@ -63,6 +63,22 @@
             },
             "name": "norm",
             "version": "1.0.1"
+        },
+        {
+            "commitID": "e9facf7685ec3986ebaa7ab076e9f4882c89c22b",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "dependencies": {
+                "ddbc": "~>0.6.0"
+            },
+            "name": "norm",
+            "version": "2.0.0"
         }
     ]
 }

@@ -5,7 +5,7 @@
         "library.optimized_mem",
         "library.general"
     ],
-    "commitID": "75e4dc418224c3b273180794670f58b9ef30c8cd",
+    "commitID": "53d83894cafec923f49c1226674e58c70db59eb8",
     "dateAdded": "2016-07-05T12:45:13",
     "description": "Use SIMD intrinsics with Intel syntax, with any D compiler, targetting x86 or arm. Like simde but for D.",
     "documentationURL": "",
@@ -19,7 +19,17 @@
     },
     "versions": [
         {
-            "commitID": "75e4dc418224c3b273180794670f58b9ef30c8cd",
+            "commitID": "53d83894cafec923f49c1226674e58c70db59eb8",
+            "dependencies": {
+                "nulib:stdc": {
+                    "optional": true,
+                    "version": ">=0.2.0"
+                },
+                "nurt": {
+                    "optional": true,
+                    "version": ">=0.1.4"
+                }
+            },
             "name": "intel-intrinsics",
             "version": "~master"
         },
@@ -557,6 +567,56 @@
             "commitID": "75e4dc418224c3b273180794670f58b9ef30c8cd",
             "name": "intel-intrinsics",
             "version": "1.11.18"
+        },
+        {
+            "commitID": "e9682ab8cd0b153bdfd5369c171d95afe63715cc",
+            "name": "intel-intrinsics",
+            "version": "1.11.19"
+        },
+        {
+            "commitID": "37fb9aa4d520f9356581abd49a61c77192341b3d",
+            "name": "intel-intrinsics",
+            "version": "1.11.20"
+        },
+        {
+            "commitID": "78c56ae368ae413f4143013b7733bd4968cbaa33",
+            "name": "intel-intrinsics",
+            "version": "1.11.21"
+        },
+        {
+            "commitID": "95c610c56be8f0edf2100133a00e20cf83a14b73",
+            "name": "intel-intrinsics",
+            "version": "1.11.22"
+        },
+        {
+            "commitID": "6910caa81b789a8c21bb45c2ebeb8586b6f86358",
+            "name": "intel-intrinsics",
+            "version": "1.11.23"
+        },
+        {
+            "commitID": "cc545d6ef8f19465c64f1cd914040499501819f9",
+            "name": "intel-intrinsics",
+            "version": "1.11.24"
+        },
+        {
+            "commitID": "1203cd89b9c06fd5f2724d35235e6b285515efb5",
+            "name": "intel-intrinsics",
+            "version": "1.11.25"
+        },
+        {
+            "commitID": "53d83894cafec923f49c1226674e58c70db59eb8",
+            "dependencies": {
+                "nulib:stdc": {
+                    "optional": true,
+                    "version": ">=0.2.0"
+                },
+                "nurt": {
+                    "optional": true,
+                    "version": ">=0.1.4"
+                }
+            },
+            "name": "intel-intrinsics",
+            "version": "1.12.0"
         }
     ]
 }

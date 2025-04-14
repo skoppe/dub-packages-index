@@ -3,9 +3,9 @@
         "library.gui",
         "library.gamedev"
     ],
-    "commitID": "6b36404055b7a10a63450d25e7d7fc5a13bdb302",
+    "commitID": "b853e71aeb60f05d8bdbde308763da9c2879b9f5",
     "dateAdded": "2021-03-13T09:37:53",
-    "description": "A simple UI library designed for IsodiTools and Samerion",
+    "description": "A straightforward and easy to use GUI library.",
     "documentationURL": "",
     "id": "604c79e13daf153e769688d0",
     "name": "glui",
@@ -17,281 +17,84 @@
     },
     "versions": [
         {
-            "commitID": "50b4791acaf0e1e876e37610324b1dd94456bdd9",
-            "dependencies": {
-                "raylib-d": "~>3.1.0"
-            },
-            "name": "glui",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-showcase"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-onions"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-checks"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-scroll"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-margins"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-hidpi"
-                }
-            ],
-            "version": "~0.4.x"
-        },
-        {
-            "commitID": "e65f75c3e28f06a46999279602ebbc4431c1bb78",
-            "dependencies": {
-                "raylib-d": "~>3.1.0"
-            },
-            "name": "glui",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-showcase"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-onions"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-checks"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-scroll"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-margins"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-hidpi"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-map"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-cache"
-                }
-            ],
-            "version": "~cache"
-        },
-        {
-            "commitID": "9bc6e1d96e8c1f85e750d3f72cbcde1d0440b645",
-            "dependencies": {
-                "raylib-d": "~>3.0.3"
-            },
-            "name": "glui",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-showcase"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-onions"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-checks"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-scroll"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-margins"
-                }
-            ],
-            "version": "~docs"
-        },
-        {
-            "commitID": "4db92cc068306f48858cf4c545be2e6f38942278",
+            "commitID": "b853e71aeb60f05d8bdbde308763da9c2879b9f5",
             "configurations": [
                 {
-                    "dependencies": {
-                        "raylib-d": "~>3.1.0"
-                    },
-                    "name": "raylib3"
+                    "name": "default"
                 },
                 {
-                    "dependencies": {
-                        "raylib-d": "~>4.0.1"
-                    },
-                    "name": "raylib4"
+                    "name": "unittest"
                 }
             ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "arsd-official:simpledisplay": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5.0"
+                }
+            },
             "name": "glui",
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "arsd-official:image_files": "~>11.3",
+                        "arsd-official:simpledisplay": "~>11.3",
+                        "glui": "*"
                     },
                     "name": "example-showcase-2"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-scroll"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-margins"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-hidpi"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-map"
-                }
-            ],
-            "version": "~keyboard"
-        },
-        {
-            "commitID": "6b36404055b7a10a63450d25e7d7fc5a13bdb302",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "raylib-d": "~>3.1"
-                    },
-                    "name": "raylib3"
-                },
-                {
-                    "dependencies": {
-                        "raylib-d": "~>4.0.1"
-                    },
-                    "name": "raylib4"
-                }
-            ],
-            "name": "glui",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-showcase"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-showcase-2"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-onions"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-checks"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-scroll"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-margins"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
-                    },
-                    "name": "example-hidpi"
-                },
-                {
-                    "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-map"
                 }
@@ -307,7 +110,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 }
@@ -323,13 +126,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 }
@@ -345,13 +148,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 }
@@ -367,25 +170,25 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-scroll"
                 }
@@ -401,31 +204,31 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-scroll"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-margins"
                 }
@@ -441,31 +244,31 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-scroll"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-margins"
                 }
@@ -481,31 +284,31 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-scroll"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-margins"
                 }
@@ -521,31 +324,31 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-scroll"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-margins"
                 }
@@ -561,37 +364,37 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-scroll"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-margins"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-hidpi"
                 }
@@ -607,49 +410,49 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase-2"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-scroll"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-margins"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-hidpi"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-map"
                 }
@@ -676,49 +479,49 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase-2"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-scroll"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-margins"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-hidpi"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-map"
                 }
@@ -745,49 +548,49 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase-2"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-scroll"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-margins"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-hidpi"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-map"
                 }
@@ -814,54 +617,139 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-showcase-2"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-scroll"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-margins"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-hidpi"
                 },
                 {
                     "dependencies": {
-                        "glui": ">=0.0.0"
+                        "glui": "*"
                     },
                     "name": "example-map"
                 }
             ],
             "version": "0.5.2"
+        },
+        {
+            "commitID": "b853e71aeb60f05d8bdbde308763da9c2879b9f5",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "arsd-official:simpledisplay": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5.0"
+                }
+            },
+            "name": "glui",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "glui": "*"
+                    },
+                    "name": "example-showcase"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:image_files": "~>11.3",
+                        "arsd-official:simpledisplay": "~>11.3",
+                        "glui": "*"
+                    },
+                    "name": "example-showcase-2"
+                },
+                {
+                    "dependencies": {
+                        "glui": "*"
+                    },
+                    "name": "example-onions"
+                },
+                {
+                    "dependencies": {
+                        "glui": "*"
+                    },
+                    "name": "example-checks"
+                },
+                {
+                    "dependencies": {
+                        "glui": "*"
+                    },
+                    "name": "example-scroll"
+                },
+                {
+                    "dependencies": {
+                        "glui": "*"
+                    },
+                    "name": "example-margins"
+                },
+                {
+                    "dependencies": {
+                        "glui": "*"
+                    },
+                    "name": "example-hidpi"
+                },
+                {
+                    "dependencies": {
+                        "glui": "*"
+                    },
+                    "name": "example-map"
+                }
+            ],
+            "version": "0.5.3"
         }
     ]
 }

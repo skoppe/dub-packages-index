@@ -4,7 +4,7 @@
         "application.desktop.development.analyzer",
         "application.desktop.development.compiler"
     ],
-    "commitID": "3d2892be7cef0cf9b563c501cf11c7b30ea27f0c",
+    "commitID": "c403accecf9048802122c17852715251509adf56",
     "dateAdded": "2017-07-17T22:04:25",
     "description": "The DMD compiler",
     "documentationURL": "",
@@ -18,40 +18,9 @@
     },
     "versions": [
         {
-            "commitID": "6f4db65d1af4406fdf766f5c690bb7770efedadf",
-            "dependencies": {
-                "dmd:frontend": ">=0.0.0"
-            },
-            "name": "dmd",
-            "subPackages": [
-                {
-                    "name": "root"
-                },
-                {
-                    "dependencies": {
-                        "dmd:root": ">=0.0.0"
-                    },
-                    "name": "lexer"
-                },
-                {
-                    "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
-                    },
-                    "name": "parser"
-                },
-                {
-                    "dependencies": {
-                        "dmd:parser": ">=0.0.0"
-                    },
-                    "name": "frontend"
-                }
-            ],
-            "version": "~JohanEngelen-patch-1"
-        },
-        {
             "commitID": "bc85c44e819a9ceaf14c33970a07e1105aaf5a93",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -60,13 +29,13 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
@@ -79,7 +48,7 @@
         {
             "commitID": "2598475b80f2e5ac33e2333424d12ef8c31732fa",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -88,19 +57,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -110,7 +79,7 @@
         {
             "commitID": "4a75696471a13e2ad0ac017843e8f3e36d5afa28",
             "dependencies": {
-                "dmd:parser": ">=0.0.0"
+                "dmd:parser": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -119,13 +88,13 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 }
@@ -135,7 +104,7 @@
         {
             "commitID": "c764869540fcec90e8839def9416d0e5b9eb384a",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -144,19 +113,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -164,71 +133,9 @@
             "version": "~revert-14556-midOverflow"
         },
         {
-            "commitID": "3d2892be7cef0cf9b563c501cf11c7b30ea27f0c",
+            "commitID": "1b34fea4788136b54ec77c6ed9678754d109fc79",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
-            },
-            "name": "dmd",
-            "subPackages": [
-                {
-                    "name": "root"
-                },
-                {
-                    "dependencies": {
-                        "dmd:root": ">=0.0.0"
-                    },
-                    "name": "lexer"
-                },
-                {
-                    "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
-                    },
-                    "name": "parser"
-                },
-                {
-                    "dependencies": {
-                        "dmd:parser": ">=0.0.0"
-                    },
-                    "name": "frontend"
-                }
-            ],
-            "version": "~stable"
-        },
-        {
-            "commitID": "c9469162f81b9bf8573afd6f0f40b59ba9e97851",
-            "dependencies": {
-                "dmd:frontend": ">=0.0.0"
-            },
-            "name": "dmd",
-            "subPackages": [
-                {
-                    "name": "root"
-                },
-                {
-                    "dependencies": {
-                        "dmd:root": ">=0.0.0"
-                    },
-                    "name": "lexer"
-                },
-                {
-                    "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
-                    },
-                    "name": "parser"
-                },
-                {
-                    "dependencies": {
-                        "dmd:parser": ">=0.0.0"
-                    },
-                    "name": "frontend"
-                }
-            ],
-            "version": "~update-pre-commit-hooks"
-        },
-        {
-            "commitID": "e9cacc37b66adc840aa28205b9ff38915c3ee5e7",
-            "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -240,19 +147,84 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "~stable"
+        },
+        {
+            "commitID": "c9469162f81b9bf8573afd6f0f40b59ba9e97851",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "~update-pre-commit-hooks"
+        },
+        {
+            "commitID": "5fdf5f3c68a0654ece7bbd369c5bfd80096fba18",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -262,7 +234,7 @@
         {
             "commitID": "eb7bee331a13026eeb4dcbf9d43d5d4e744a4d26",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -271,19 +243,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -293,7 +265,7 @@
         {
             "commitID": "081d61e157f0064dc93c757d61cd998d3cb5288f",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -302,19 +274,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -324,7 +296,7 @@
         {
             "commitID": "32c99d0b58684f1e5549dda710bf2f3d86b86cc8",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -333,19 +305,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -355,7 +327,7 @@
         {
             "commitID": "fa80a8bb79808bee6629d84cbc83636399077d15",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -364,19 +336,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -386,7 +358,7 @@
         {
             "commitID": "f282f98f7b8cadd4e37fb95c78d3590756f817e7",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -395,19 +367,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -417,7 +389,7 @@
         {
             "commitID": "47233b8f221eec7bbec7a1d1e17fbb68cb70b193",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -426,19 +398,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -448,7 +420,7 @@
         {
             "commitID": "316b89f1e3dffcad488c26f56f58c8adfcb84b26",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -457,19 +429,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -479,7 +451,7 @@
         {
             "commitID": "b9b7b1a33fb8b99ae180e904d51e8d1eb9b1b626",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -488,19 +460,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -510,7 +482,7 @@
         {
             "commitID": "299a05caeb3ea54258cd56e3abb84bd51728b60f",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -519,19 +491,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -541,7 +513,7 @@
         {
             "commitID": "8773a410e4900d342764caee13991a6e4edd8468",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -550,19 +522,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -572,7 +544,7 @@
         {
             "commitID": "17beca2694f03bc3c7898321cd6f90ac9adec854",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -581,19 +553,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -603,7 +575,7 @@
         {
             "commitID": "5bfc2b4830f9ef0f39dddc1add27f74792bf025a",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -612,19 +584,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -634,7 +606,7 @@
         {
             "commitID": "bb49be8ad763a87492592b5a9639b141820e9bc5",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -643,19 +615,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -665,7 +637,7 @@
         {
             "commitID": "f15f9ada28405abab6c74cb47fea7663fa4dc189",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -674,19 +646,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -696,7 +668,7 @@
         {
             "commitID": "3f58473daa532ea9cbb3ab9cf6cd6fb23d05192f",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -705,19 +677,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -727,7 +699,7 @@
         {
             "commitID": "113c62bb3636e30e55d65ea759c9a21198cc1199",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -736,19 +708,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -758,7 +730,7 @@
         {
             "commitID": "680cf33d684121ba167f6c97688ceb5403bde7b7",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -767,19 +739,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -789,7 +761,7 @@
         {
             "commitID": "400a74824bc4fe0b986454413dad7938228ef1d5",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -798,19 +770,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -820,7 +792,7 @@
         {
             "commitID": "f8cfdcd7ca96eb445cfda1b752904b34347aa1f4",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -829,19 +801,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -851,7 +823,7 @@
         {
             "commitID": "256e8fe46c0018809c4cf1a95ccb7a86f3f0179e",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -860,19 +832,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -882,7 +854,7 @@
         {
             "commitID": "5a80cd7bc910d13c2c37920572d064d4c8094720",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -891,19 +863,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -913,7 +885,7 @@
         {
             "commitID": "05e91cdcf88a922465ff3604e28f54dc385d7f65",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -922,19 +894,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -944,7 +916,7 @@
         {
             "commitID": "c8745b67c497b2ee74df13a2fd91f2a81b59df5e",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -953,19 +925,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -975,7 +947,7 @@
         {
             "commitID": "a45f4e9f43e9fdbf0b666175e5e66b1ce4f561f6",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -984,19 +956,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1006,7 +978,7 @@
         {
             "commitID": "e4a198a9344670f1a4f5edc84d39b816de19248f",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1015,19 +987,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1037,7 +1009,7 @@
         {
             "commitID": "d8109acf676ee5d3a007b7cb0be490b252523737",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1046,19 +1018,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1068,7 +1040,7 @@
         {
             "commitID": "553e027a394b02f9e492a0bf73a7398670f7e15c",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1077,19 +1049,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1099,7 +1071,7 @@
         {
             "commitID": "421cb1e524260c7fc7a40e4dd0b339aa9d0e7979",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1108,19 +1080,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1130,7 +1102,7 @@
         {
             "commitID": "5c5f8e8e1dd736cc1f0c7ff98701b08fda7b01c8",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1139,19 +1111,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1161,7 +1133,7 @@
         {
             "commitID": "6be5c557e6c85ece52074ae38319c4eb1e5b8b3a",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1170,19 +1142,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1192,7 +1164,7 @@
         {
             "commitID": "a6dd8026a793159f90afdbfdfd759d0ffe54d600",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1201,19 +1173,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1223,7 +1195,7 @@
         {
             "commitID": "10a6125f385e45f06e7d4a12949600c88d604670",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1232,19 +1204,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1254,7 +1226,7 @@
         {
             "commitID": "e21a86f7157192af5f24f59ef9c612b5d9a6e942",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1263,19 +1235,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1285,7 +1257,7 @@
         {
             "commitID": "16d798d69f14f6f36415de857882382da93b1ee2",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1294,19 +1266,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1316,7 +1288,7 @@
         {
             "commitID": "d90ed023bd6c8f29355aa905f20490492cfaa334",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1325,19 +1297,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1347,7 +1319,7 @@
         {
             "commitID": "409d9e9eb96f2633799aac15562fd46c755cff07",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1356,19 +1328,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1378,7 +1350,7 @@
         {
             "commitID": "7115437055568c2f279d142f7ac7a5f2958cf472",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1387,19 +1359,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1409,7 +1381,7 @@
         {
             "commitID": "7631aa5676b4a6f5be7dab6bbb8ee2f784fc40ad",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1418,19 +1390,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1440,7 +1412,7 @@
         {
             "commitID": "618bf5d9cbc869b1956e6df306ed6134e509a611",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1449,19 +1421,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1471,7 +1443,7 @@
         {
             "commitID": "40f57258ae7fdc3f0962653cfd0f734330c735b6",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1480,19 +1452,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1502,7 +1474,7 @@
         {
             "commitID": "99526adebb35a4c44e153867165900bede33d087",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1511,19 +1483,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1533,7 +1505,7 @@
         {
             "commitID": "5d3b5c43468db4e6e8579fcfcebb44cfa475ed16",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1542,19 +1514,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1564,7 +1536,7 @@
         {
             "commitID": "7a72eb1bf47909b8412b817d7aebdfb9cb2e608a",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1573,19 +1545,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1595,7 +1567,7 @@
         {
             "commitID": "d318d9a534eee671bf8a1ca67e8c9a88e7b433e5",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1604,19 +1576,19 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
@@ -1626,7 +1598,7 @@
         {
             "commitID": "3d2892be7cef0cf9b563c501cf11c7b30ea27f0c",
             "dependencies": {
-                "dmd:frontend": ">=0.0.0"
+                "dmd:frontend": "*"
             },
             "name": "dmd",
             "subPackages": [
@@ -1635,24 +1607,599 @@
                 },
                 {
                     "dependencies": {
-                        "dmd:root": ">=0.0.0"
+                        "dmd:root": "*"
                     },
                     "name": "lexer"
                 },
                 {
                     "dependencies": {
-                        "dmd:lexer": ">=0.0.0"
+                        "dmd:lexer": "*"
                     },
                     "name": "parser"
                 },
                 {
                     "dependencies": {
-                        "dmd:parser": ">=0.0.0"
+                        "dmd:parser": "*"
                     },
                     "name": "frontend"
                 }
             ],
             "version": "2.107.1-rc.1"
+        },
+        {
+            "commitID": "5aad132632ebcd0bb5855611815673bdd4cd0d34",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.107.1"
+        },
+        {
+            "commitID": "f8bae0455851a1dfc8113d69323415f6de549e39",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.108.0-beta.1"
+        },
+        {
+            "commitID": "855353a1d9e16d43e85b6cf2b03aef388619bd16",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.108.0-rc.1"
+        },
+        {
+            "commitID": "6f3f5259e873815e42df30572790c1057349f7a0",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.108.0"
+        },
+        {
+            "commitID": "18d80711039c20039b4dba0ee703fd48de86a3a3",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.108.1-rc.1"
+        },
+        {
+            "commitID": "af92b68a81888702896620db1d10ee477b6b31e8",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.108.1"
+        },
+        {
+            "commitID": "9d079ed826936fff33f3d3f3540b91b5246210f5",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.109.0-beta.1"
+        },
+        {
+            "commitID": "0e6f8c1b9aa11b7030b3cb61eca78b1bafcf9ea3",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.109.0-rc.1"
+        },
+        {
+            "commitID": "1caf0e2271b4a17d7ffe7a66c598858e6dc1b1a5",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.109.0"
+        },
+        {
+            "commitID": "76d8696a14632444fa2b09d6da55e632df04887f",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.109.1-rc.1"
+        },
+        {
+            "commitID": "a914584d8dc6cd12596014213f16cd5fa93d47cc",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.109.1"
+        },
+        {
+            "commitID": "0449f297ca437810b778432c0c805caa10e117bd",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.110.0-beta.1"
+        },
+        {
+            "commitID": "d3f2ee3d8c411d0bf7196164c426c21db803a7e2",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.110.0-rc.1"
+        },
+        {
+            "commitID": "d5fa6e062916aa3d98b4f8a15cf1978a9f8d9281",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.110.0"
+        },
+        {
+            "commitID": "c6e387c4482363d00905749e6217a2804f7c0142",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.111.0-beta.1"
+        },
+        {
+            "commitID": "032e24446b3d8c6cfe3043d62534d5ce6d004c34",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.111.0-rc.1"
+        },
+        {
+            "commitID": "c403accecf9048802122c17852715251509adf56",
+            "dependencies": {
+                "dmd:frontend": "*"
+            },
+            "name": "dmd",
+            "subPackages": [
+                {
+                    "name": "compiler"
+                },
+                {
+                    "name": "root"
+                },
+                {
+                    "dependencies": {
+                        "dmd:root": "*"
+                    },
+                    "name": "lexer"
+                },
+                {
+                    "dependencies": {
+                        "dmd:lexer": "*"
+                    },
+                    "name": "parser"
+                },
+                {
+                    "dependencies": {
+                        "dmd:parser": "*"
+                    },
+                    "name": "frontend"
+                }
+            ],
+            "version": "2.111.0"
         }
     ]
 }

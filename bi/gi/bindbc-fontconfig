@@ -1,0 +1,100 @@
+{
+    "categories": [
+        "library.binding",
+        "library.graphics",
+        "library.betterc",
+        "library.nogc"
+    ],
+    "commitID": "98755e4d9af0c7f3387613ec281e2e377e29fea9",
+    "dateAdded": "2024-10-20T18:12:41",
+    "description": "Static & dynamic bindings to Fontconfig, compatible with BetterC, @nogc, and nothrow.",
+    "documentationURL": "",
+    "id": "67152bf97e84504147924068",
+    "name": "bindbc-fontconfig",
+    "owner": "62d24f13a808d5cc35199e92",
+    "repository": {
+        "kind": "github",
+        "owner": "BindBC",
+        "project": "bindbc-fontconfig"
+    },
+    "versions": [
+        {
+            "commitID": "98755e4d9af0c7f3387613ec281e2e377e29fea9",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>1.0"
+            },
+            "name": "bindbc-fontconfig",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-fontconfig": {
+                            "path": "..\/"
+                        },
+                        "bindbc-freetype": "~>1.3"
+                    },
+                    "name": "freetype"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "commitID": "98755e4d9af0c7f3387613ec281e2e377e29fea9",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>1.0"
+            },
+            "name": "bindbc-fontconfig",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-fontconfig": {
+                            "path": "..\/"
+                        },
+                        "bindbc-freetype": "~>1.3"
+                    },
+                    "name": "freetype"
+                }
+            ],
+            "version": "1.0.0"
+        }
+    ]
+}

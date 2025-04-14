@@ -4,10 +4,10 @@
         "library.graphics",
         "library.gui"
     ],
-    "commitID": "3aeb03739c0c2aa59c1775c051b1cd1a651f779b",
+    "commitID": "ae57ca05b5c1a6a47134bc5e6373be3a5b210ee8",
     "dateAdded": "2024-01-17T09:50:03",
     "description": "A straightforward and easy to use GUI library.",
-    "documentationURL": "",
+    "documentationURL": "https:\/\/libfluid.org\/docs\/main",
     "id": "65a794bb7604472fa5c04ec8",
     "name": "fluid",
     "owner": "5f1c827acd0fccdf4a50fcc9",
@@ -18,40 +18,67 @@
     },
     "versions": [
         {
-            "commitID": "3aeb03739c0c2aa59c1775c051b1cd1a651f779b",
+            "commitID": "845295fea2328d61d4acb5366201a0240c24dd4e",
             "configurations": [
                 {
                     "name": "default"
                 },
                 {
+                    "name": "source"
+                },
+                {
+                    "name": "linux-dynamic"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:image_files": "~>11.5.3",
+                        "elemi": "~>1.2.2"
+                    },
                     "name": "unittest"
+                },
+                {
+                    "name": "time-trace"
                 }
             ],
             "dependencies": {
                 "arsd-official:image_files": {
                     "optional": true,
-                    "version": "~>11.3"
-                },
-                "arsd-official:simpledisplay": {
-                    "optional": true,
-                    "version": "~>11.3"
+                    "version": "~>11.5.3"
                 },
                 "bindbc-freetype": "~>1.1.1",
+                "bindbc-loader": "~>1.1.3",
                 "elemi": {
                     "optional": true,
                     "version": "~>1.2.2"
                 },
+                "optional": "~>1.3.0",
                 "raylib-d": {
                     "default": true,
                     "optional": true,
-                    "version": "~>5"
+                    "version": "~>5.0"
                 }
             },
             "name": "fluid",
             "subPackages": [
                 {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "new-io"
+                        }
+                    ],
                     "dependencies": {
-                        "arsd-official:simpledisplay": "~>11.3",
+                        "fluid": {
+                            "path": ".."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "tour"
+                },
+                {
+                    "dependencies": {
                         "fluid": {
                             "path": "."
                         },
@@ -60,29 +87,50 @@
                     "name": "showcase"
                 },
                 {
+                    "name": "init-exec"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "linux-dynamic"
+                        },
+                        {
+                            "name": "default"
+                        }
+                    ],
                     "dependencies": {
                         "fluid": {
                             "path": "."
                         },
-                        "libdparse": "~>0.23.2",
-                        "raylib-d": "~>5"
+                        "fluid-tree-sitter": "~>0.1.6",
+                        "fluid-tree-sitter:d": "~>0.1.6"
                     },
-                    "name": "showcase-raylib"
-                },
-                {
-                    "name": "init-exec"
+                    "name": "module-view"
                 }
             ],
             "version": "~main"
         },
         {
-            "commitID": "8fc9cad80b9ca19de487492dae670ddec4dc0f89",
+            "commitID": "be588f3a1fd8ceb595ff98d692ac8311a89ec002",
             "configurations": [
                 {
                     "name": "default"
                 },
                 {
+                    "name": "source"
+                },
+                {
+                    "name": "linux-dynamic"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:image_files": "~>11.3",
+                        "elemi": "~>1.2.2"
+                    },
                     "name": "unittest"
+                },
+                {
+                    "name": "time-trace"
                 }
             ],
             "dependencies": {
@@ -90,26 +138,40 @@
                     "optional": true,
                     "version": "~>11.3"
                 },
-                "arsd-official:simpledisplay": {
-                    "optional": true,
-                    "version": "~>11.3"
-                },
                 "bindbc-freetype": "~>1.1.1",
+                "bindbc-loader": "~>1.1.3",
                 "elemi": {
                     "optional": true,
                     "version": "~>1.2.2"
                 },
+                "optional": "~>1.3.0",
                 "raylib-d": {
                     "default": true,
                     "optional": true,
-                    "version": "~>5"
+                    "version": "~>5.0"
                 }
             },
             "name": "fluid",
             "subPackages": [
                 {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "new-io"
+                        }
+                    ],
                     "dependencies": {
-                        "arsd-official:simpledisplay": "~>11.3",
+                        "fluid": {
+                            "path": ".."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "tour"
+                },
+                {
+                    "dependencies": {
                         "fluid": {
                             "path": "."
                         },
@@ -118,29 +180,49 @@
                     "name": "showcase"
                 },
                 {
+                    "name": "init-exec"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "linux-dynamic"
+                        },
+                        {
+                            "name": "default"
+                        }
+                    ],
                     "dependencies": {
                         "fluid": {
                             "path": "."
                         },
-                        "libdparse": "~>0.23.2",
-                        "raylib-d": "~>5"
+                        "fluid-tree-sitter": "~>0.1.6",
+                        "fluid-tree-sitter:d": "~>0.1.6"
                     },
-                    "name": "showcase-raylib"
-                },
-                {
-                    "name": "init-exec"
+                    "name": "module-view"
                 }
             ],
-            "version": "~nightly"
+            "version": "~space"
         },
         {
-            "commitID": "b4eae64c2d9652843f5aef21523c98befff1ad41",
+            "commitID": "87ce5028c08899768fd6d760ced37ddc769c95d0",
             "configurations": [
+                {
+                    "name": "linux-dynamic"
+                },
                 {
                     "name": "default"
                 },
                 {
+                    "name": "source"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
                     "name": "unittest"
+                },
+                {
+                    "name": "time-trace"
                 }
             ],
             "dependencies": {
@@ -148,11 +230,8 @@
                     "optional": true,
                     "version": "~>11.3"
                 },
-                "arsd-official:simpledisplay": {
-                    "optional": true,
-                    "version": "~>11.3"
-                },
                 "bindbc-freetype": "~>1.1.1",
+                "bindbc-loader": "~>1.1.3",
                 "elemi": {
                     "optional": true,
                     "version": "~>1.2.2"
@@ -160,14 +239,25 @@
                 "raylib-d": {
                     "default": true,
                     "optional": true,
-                    "version": "~>5"
+                    "version": "~>5.0"
                 }
             },
             "name": "fluid",
             "subPackages": [
                 {
                     "dependencies": {
-                        "arsd-official:simpledisplay": "~>11.3",
+                        "fluid": {
+                            "path": ".."
+                        },
+                        "fluid:module-view": {
+                            "path": ".."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "tour"
+                },
+                {
+                    "dependencies": {
                         "fluid": {
                             "path": "."
                         },
@@ -176,20 +266,20 @@
                     "name": "showcase"
                 },
                 {
+                    "name": "init-exec"
+                },
+                {
                     "dependencies": {
                         "fluid": {
                             "path": "."
                         },
-                        "libdparse": "~>0.23.2",
-                        "raylib-d": "~>5"
+                        "fluid-tree-sitter": "~>0.2.0",
+                        "fluid-tree-sitter:d": "~>0.2.0"
                     },
-                    "name": "showcase-raylib"
-                },
-                {
-                    "name": "init-exec"
+                    "name": "module-view"
                 }
             ],
-            "version": "~tags"
+            "version": "~unstable"
         },
         {
             "commitID": "0f8d8a96db7fee767fdc28bded630681687d5228",
@@ -218,14 +308,14 @@
                 "raylib-d": {
                     "default": true,
                     "optional": true,
-                    "version": "~>5"
+                    "version": "~>5.0"
                 }
             },
             "name": "fluid",
             "subPackages": [
                 {
                     "dependencies": {
-                        "fluid": ">=0.0.0"
+                        "fluid": "*"
                     },
                     "name": "example-showcase"
                 },
@@ -233,43 +323,43 @@
                     "dependencies": {
                         "arsd-official:image_files": "~>11.3",
                         "arsd-official:simpledisplay": "~>11.3",
-                        "fluid": ">=0.0.0"
+                        "fluid": "*"
                     },
                     "name": "example-showcase-2"
                 },
                 {
                     "dependencies": {
-                        "fluid": ">=0.0.0"
+                        "fluid": "*"
                     },
                     "name": "example-onions"
                 },
                 {
                     "dependencies": {
-                        "fluid": ">=0.0.0"
+                        "fluid": "*"
                     },
                     "name": "example-checks"
                 },
                 {
                     "dependencies": {
-                        "fluid": ">=0.0.0"
+                        "fluid": "*"
                     },
                     "name": "example-scroll"
                 },
                 {
                     "dependencies": {
-                        "fluid": ">=0.0.0"
+                        "fluid": "*"
                     },
                     "name": "example-margins"
                 },
                 {
                     "dependencies": {
-                        "fluid": ">=0.0.0"
+                        "fluid": "*"
                     },
                     "name": "example-hidpi"
                 },
                 {
                     "dependencies": {
-                        "fluid": ">=0.0.0"
+                        "fluid": "*"
                     },
                     "name": "example-map"
                 }
@@ -303,7 +393,7 @@
                 "raylib-d": {
                     "default": true,
                     "optional": true,
-                    "version": "~>5"
+                    "version": "~>5.0"
                 }
             },
             "name": "fluid",
@@ -323,7 +413,7 @@
                             "path": "."
                         },
                         "libdparse": "~>0.23.2",
-                        "raylib-d": "~>5"
+                        "raylib-d": "~>5.0"
                     },
                     "name": "showcase-raylib"
                 },
@@ -360,7 +450,7 @@
                 "raylib-d": {
                     "default": true,
                     "optional": true,
-                    "version": "~>5"
+                    "version": "~>5.0"
                 }
             },
             "name": "fluid",
@@ -381,7 +471,7 @@
                             "path": "."
                         },
                         "libdparse": "~>0.23.2",
-                        "raylib-d": "~>5"
+                        "raylib-d": "~>5.0"
                     },
                     "name": "showcase-raylib"
                 },
@@ -418,7 +508,7 @@
                 "raylib-d": {
                     "default": true,
                     "optional": true,
-                    "version": "~>5"
+                    "version": "~>5.0"
                 }
             },
             "name": "fluid",
@@ -439,7 +529,7 @@
                             "path": "."
                         },
                         "libdparse": "~>0.23.2",
-                        "raylib-d": "~>5"
+                        "raylib-d": "~>5.0"
                     },
                     "name": "showcase-raylib"
                 },
@@ -476,7 +566,7 @@
                 "raylib-d": {
                     "default": true,
                     "optional": true,
-                    "version": "~>5"
+                    "version": "~>5.0"
                 }
             },
             "name": "fluid",
@@ -497,7 +587,7 @@
                             "path": "."
                         },
                         "libdparse": "~>0.23.2",
-                        "raylib-d": "~>5"
+                        "raylib-d": "~>5.0"
                     },
                     "name": "showcase-raylib"
                 },
@@ -506,6 +596,725 @@
                 }
             ],
             "version": "0.6.3"
+        },
+        {
+            "commitID": "4a15b1fe967fc1a4749214af2c61c10c6d521774",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "arsd-official:simpledisplay": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5.0"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "arsd-official:simpledisplay": "~>11.3",
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2",
+                        "raylib-d": "~>5.0"
+                    },
+                    "name": "showcase-raylib"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.7.0-alpha.1"
+        },
+        {
+            "commitID": "c1ecefa24e32719497d257e8504436b6aad1147c",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "bindbc-loader": "~>1.1.3",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5.0"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": ".."
+                        },
+                        "fluid:module_view": {
+                            "path": ".."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "tour"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "fluid-tree-sitter": "~>0.1.5",
+                        "fluid-tree-sitter:d": "~>0.1.5"
+                    },
+                    "name": "module_view"
+                }
+            ],
+            "version": "0.7.0-alpha.2"
+        },
+        {
+            "commitID": "5b52595aa421d57bd3ecaea2bd6dcae29e0eab75",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "time-trace"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "bindbc-loader": "~>1.1.3",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5.0"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": ".."
+                        },
+                        "fluid:module_view": {
+                            "path": ".."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "tour"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "fluid-tree-sitter": "~>0.1.5",
+                        "fluid-tree-sitter:d": "~>0.1.5"
+                    },
+                    "name": "module_view"
+                }
+            ],
+            "version": "0.7.0-alpha.3"
+        },
+        {
+            "commitID": "8591a9036eaddac3c7a06ceddc326ba4c220fe4e",
+            "configurations": [
+                {
+                    "name": "linux-dynamic"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "source"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "time-trace"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "bindbc-loader": "~>1.1.3",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5.0"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": ".."
+                        },
+                        "fluid:module-view": {
+                            "path": ".."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "tour"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "fluid-tree-sitter": "~>0.1.6",
+                        "fluid-tree-sitter:d": "~>0.1.6"
+                    },
+                    "name": "module-view"
+                }
+            ],
+            "version": "0.7.0"
+        },
+        {
+            "commitID": "c1b84f74083aaefcdeb3c3f9d9e0c9c50665e3e0",
+            "configurations": [
+                {
+                    "name": "linux-dynamic"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "source"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "time-trace"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "bindbc-loader": "~>1.1.3",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5.0"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": ".."
+                        },
+                        "fluid:module-view": {
+                            "path": ".."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "tour"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "fluid-tree-sitter": "~>0.1.6",
+                        "fluid-tree-sitter:d": "~>0.1.6"
+                    },
+                    "name": "module-view"
+                }
+            ],
+            "version": "0.7.1"
+        },
+        {
+            "commitID": "cc5bcb700882b34baad33a8fa18f943dd2141ad8",
+            "configurations": [
+                {
+                    "name": "linux-dynamic"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "source"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:image_files": "~>11.3",
+                        "elemi": "~>1.2.2",
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "time-trace"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "bindbc-loader": "~>1.1.3",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "optional": "~>1.3.0",
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5.0"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "new-io"
+                        }
+                    ],
+                    "dependencies": {
+                        "fluid": {
+                            "path": ".."
+                        },
+                        "fluid:module-view": {
+                            "path": ".."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "tour"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "fluid-tree-sitter": "~>0.1.6",
+                        "fluid-tree-sitter:d": "~>0.1.6"
+                    },
+                    "name": "module-view"
+                }
+            ],
+            "version": "0.7.2"
+        },
+        {
+            "commitID": "79568687d80903aca6c04a76fc21bfcd1c080e5d",
+            "configurations": [
+                {
+                    "name": "linux-dynamic"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "source"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:image_files": "~>11.3",
+                        "elemi": "~>1.2.2",
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "time-trace"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "bindbc-loader": "~>1.1.3",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "optional": "~>1.3.0",
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5.0"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "new-io"
+                        }
+                    ],
+                    "dependencies": {
+                        "fluid": {
+                            "path": ".."
+                        },
+                        "fluid:module-view": {
+                            "path": ".."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "tour"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "fluid-tree-sitter": "~>0.1.6",
+                        "fluid-tree-sitter:d": "~>0.1.6"
+                    },
+                    "name": "module-view"
+                }
+            ],
+            "version": "0.7.3"
+        },
+        {
+            "commitID": "1f002f0fa3e929bc77a8c89f3bc40a5144fae82b",
+            "configurations": [
+                {
+                    "name": "linux-dynamic"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "source"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:image_files": "~>11.3",
+                        "elemi": "~>1.2.2",
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "time-trace"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "bindbc-loader": "~>1.1.3",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "optional": "~>1.3.0",
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5.0"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "new-io"
+                        }
+                    ],
+                    "dependencies": {
+                        "fluid": {
+                            "path": ".."
+                        },
+                        "fluid:module-view": {
+                            "path": ".."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "tour"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "fluid-tree-sitter": "~>0.1.6",
+                        "fluid-tree-sitter:d": "~>0.1.6"
+                    },
+                    "name": "module-view"
+                }
+            ],
+            "version": "0.7.4"
+        },
+        {
+            "commitID": "ae57ca05b5c1a6a47134bc5e6373be3a5b210ee8",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "linux-dynamic"
+                },
+                {
+                    "dependencies": {
+                        "arsd-official:image_files": "~>11.3",
+                        "elemi": "~>1.2.2",
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "time-trace"
+                }
+            ],
+            "dependencies": {
+                "arsd-official:image_files": {
+                    "optional": true,
+                    "version": "~>11.3"
+                },
+                "bindbc-freetype": "~>1.1.1",
+                "bindbc-loader": "~>1.1.3",
+                "elemi": {
+                    "optional": true,
+                    "version": "~>1.2.2"
+                },
+                "optional": "~>1.3.0",
+                "raylib-d": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>5.0"
+                }
+            },
+            "name": "fluid",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "default"
+                        },
+                        {
+                            "name": "new-io"
+                        }
+                    ],
+                    "dependencies": {
+                        "fluid": {
+                            "path": ".."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "tour"
+                },
+                {
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "libdparse": "~>0.23.2"
+                    },
+                    "name": "showcase"
+                },
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "linux-dynamic"
+                        },
+                        {
+                            "name": "default"
+                        }
+                    ],
+                    "dependencies": {
+                        "fluid": {
+                            "path": "."
+                        },
+                        "fluid-tree-sitter": "~>0.1.6",
+                        "fluid-tree-sitter:d": "~>0.1.6"
+                    },
+                    "name": "module-view"
+                }
+            ],
+            "version": "0.7.5"
         }
     ]
 }

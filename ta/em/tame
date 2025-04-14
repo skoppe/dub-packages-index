@@ -3,7 +3,7 @@
         "library.generic",
         "library.general"
     ],
-    "commitID": "0eb072765be6361d23d66ba40ce3e8cd83f3913f",
+    "commitID": "9e9ebe167d972ab3059190f3fa6c7cf875b67517",
     "dateAdded": "2022-04-20T09:56:06",
     "description": "some utility library for D",
     "documentationURL": "",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "0eb072765be6361d23d66ba40ce3e8cd83f3913f",
+            "commitID": "e03b1d5de87e637f9b07077969056a8cbe8ce49c",
             "configurations": [
                 {
                     "name": "lib"
@@ -26,7 +26,28 @@
             "name": "tame",
             "subPackages": [
                 {
+                    "dependencies": {
+                        "tame": {
+                            "path": "."
+                        }
+                    },
                     "name": "lockfree"
+                },
+                {
+                    "dependencies": {
+                        "tame": {
+                            "path": "."
+                        }
+                    },
+                    "name": "net"
+                },
+                {
+                    "dependencies": {
+                        "tame": {
+                            "path": "."
+                        }
+                    },
+                    "name": "yaml"
                 }
             ],
             "version": "~main"
@@ -130,6 +151,117 @@
                 }
             ],
             "version": "0.0.7"
+        },
+        {
+            "commitID": "7565968965630802b86c3b060eac5e5c7409de24",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "name": "tame",
+            "subPackages": [
+                {
+                    "name": "lockfree"
+                }
+            ],
+            "version": "0.0.8"
+        },
+        {
+            "commitID": "f2b59bcd4a11188fc049b42aad3718f142ceed09",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "name": "tame",
+            "subPackages": [
+                {
+                    "name": "lockfree"
+                }
+            ],
+            "version": "0.0.9"
+        },
+        {
+            "commitID": "4f77c38f338d09344091148c4b1abf9e1c15b734",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "name": "tame",
+            "subPackages": [
+                {
+                    "name": "lockfree"
+                }
+            ],
+            "version": "0.0.10"
+        },
+        {
+            "commitID": "73257e1666cfb4f8121f33b4a146e420d7da1a1d",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "name": "tame",
+            "subPackages": [
+                {
+                    "name": "lockfree"
+                }
+            ],
+            "version": "0.0.11"
+        },
+        {
+            "commitID": "559ff077c4be4cb0cf72bd9179122e257fa09bbb",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "name": "tame",
+            "subPackages": [
+                {
+                    "name": "lockfree"
+                }
+            ],
+            "version": "0.0.12"
+        },
+        {
+            "commitID": "9e9ebe167d972ab3059190f3fa6c7cf875b67517",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "name": "tame",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "tame": {
+                            "path": "."
+                        }
+                    },
+                    "name": "lockfree"
+                },
+                {
+                    "dependencies": {
+                        "tame": {
+                            "path": "."
+                        }
+                    },
+                    "name": "net"
+                },
+                {
+                    "dependencies": {
+                        "tame": {
+                            "path": "."
+                        }
+                    },
+                    "name": "yaml"
+                }
+            ],
+            "version": "0.0.13"
         }
     ]
 }

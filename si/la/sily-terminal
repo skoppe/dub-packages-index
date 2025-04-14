@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "f2193b47f134e778731ee9f6de581fd261668d42",
+    "commitID": "61c15f6fdaadff8542c9ec1eb9e4691218356e34",
     "dateAdded": "2023-04-25T17:43:12",
     "description": "Terminal utils, TUI, bash escape sequences",
     "documentationURL": "",
@@ -14,9 +14,9 @@
     },
     "versions": [
         {
-            "commitID": "f2193b47f134e778731ee9f6de581fd261668d42",
+            "commitID": "61c15f6fdaadff8542c9ec1eb9e4691218356e34",
             "dependencies": {
-                "sily": "~>3.0.0",
+                "sily": "~>4.0",
                 "speedy-stdio": {
                     "optional": true,
                     "version": "0.2.0"
@@ -26,16 +26,16 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": "~>3.0.0",
-                        "sily-terminal": ">=0.0.0"
+                        "sily": "~>4.0",
+                        "sily-terminal": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
-                        "sily": "~>3.0.0",
-                        "sily-terminal": ">=0.0.0",
-                        "sily-terminal:logger": ">=0.0.0",
+                        "sily": "~>4.0",
+                        "sily-terminal": "*",
+                        "sily-terminal:logger": "*",
                         "speedy-stdio": {
                             "optional": true,
                             "version": "0.2.0"
@@ -60,15 +60,15 @@
                 {
                     "dependencies": {
                         "sily": "~>1.5.0",
-                        "sily-terminal": ">=0.0.0"
+                        "sily-terminal": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
                         "sily": "~>1.5.0",
-                        "sily-terminal": ">=0.0.0",
-                        "sily-terminal:logger": ">=0.0.0",
+                        "sily-terminal": "*",
+                        "sily-terminal:logger": "*",
                         "speedy-stdio": {
                             "optional": true,
                             "version": "0.2.0"
@@ -93,15 +93,15 @@
                 {
                     "dependencies": {
                         "sily": "~>2.2.0",
-                        "sily-terminal": ">=0.0.0"
+                        "sily-terminal": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
                         "sily": "~>2.2.0",
-                        "sily-terminal": ">=0.0.0",
-                        "sily-terminal:logger": ">=0.0.0",
+                        "sily-terminal": "*",
+                        "sily-terminal:logger": "*",
                         "speedy-stdio": {
                             "optional": true,
                             "version": "0.2.0"
@@ -126,15 +126,15 @@
                 {
                     "dependencies": {
                         "sily": "~>2.2.0",
-                        "sily-terminal": ">=0.0.0"
+                        "sily-terminal": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
                         "sily": "~>2.2.0",
-                        "sily-terminal": ">=0.0.0",
-                        "sily-terminal:logger": ">=0.0.0",
+                        "sily-terminal": "*",
+                        "sily-terminal:logger": "*",
                         "speedy-stdio": {
                             "optional": true,
                             "version": "0.2.0"
@@ -159,15 +159,15 @@
                 {
                     "dependencies": {
                         "sily": "~>2.2.0",
-                        "sily-terminal": ">=0.0.0"
+                        "sily-terminal": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
                         "sily": "~>2.2.0",
-                        "sily-terminal": ">=0.0.0",
-                        "sily-terminal:logger": ">=0.0.0",
+                        "sily-terminal": "*",
+                        "sily-terminal:logger": "*",
                         "speedy-stdio": {
                             "optional": true,
                             "version": "0.2.0"
@@ -192,15 +192,15 @@
                 {
                     "dependencies": {
                         "sily": "~>3.0.0",
-                        "sily-terminal": ">=0.0.0"
+                        "sily-terminal": "*"
                     },
                     "name": "logger"
                 },
                 {
                     "dependencies": {
                         "sily": "~>3.0.0",
-                        "sily-terminal": ">=0.0.0",
-                        "sily-terminal:logger": ">=0.0.0",
+                        "sily-terminal": "*",
+                        "sily-terminal:logger": "*",
                         "speedy-stdio": {
                             "optional": true,
                             "version": "0.2.0"
@@ -210,6 +210,39 @@
                 }
             ],
             "version": "1.3.0"
+        },
+        {
+            "commitID": "61c15f6fdaadff8542c9ec1eb9e4691218356e34",
+            "dependencies": {
+                "sily": "~>4.0",
+                "speedy-stdio": {
+                    "optional": true,
+                    "version": "0.2.0"
+                }
+            },
+            "name": "sily-terminal",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "sily": "~>4.0",
+                        "sily-terminal": "*"
+                    },
+                    "name": "logger"
+                },
+                {
+                    "dependencies": {
+                        "sily": "~>4.0",
+                        "sily-terminal": "*",
+                        "sily-terminal:logger": "*",
+                        "speedy-stdio": {
+                            "optional": true,
+                            "version": "0.2.0"
+                        }
+                    },
+                    "name": "tui"
+                }
+            ],
+            "version": "4.0.0"
         }
     ]
 }

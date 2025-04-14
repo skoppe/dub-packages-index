@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "fba4116127908e746b85eb9e564d4f904885a4fd",
+    "commitID": "7f65c6b19dd9cf52b67356531969c92e0975bce2",
     "dateAdded": "2023-12-20T13:14:05",
     "description": "Decentralised network for high volume transactions and distributed cases",
     "documentationURL": "https:\/\/docs.tagion.org",
@@ -16,122 +16,99 @@
     },
     "versions": [
         {
-            "commitID": "58ff0410cb52118dd0eb5a388e95c87adefbacdd",
+            "commitID": "423991b3bcb60dcd6e28bdc3ee7920d33a88d059",
             "configurations": [
                 {
-                    "dependencies": {
-                        "tagion:actor": ">=0.0.0",
-                        "tagion:basic": ">=0.0.0",
-                        "tagion:behaviour": ">=0.0.0",
-                        "tagion:crypto": ">=0.0.0",
-                        "tagion:dart": ">=0.0.0",
-                        "tagion:hashgraph": ">=0.0.0",
-                        "tagion:network": ">=0.0.0"
-                    },
-                    "name": "bin"
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
                 }
             ],
             "name": "tagion",
             "subPackages": [
                 {
-                    "name": "basic"
-                },
-                {
-                    "dependencies": {
-                        "tagion:basic": ">=0.0.0"
-                    },
-                    "name": "utils"
-                },
-                {
-                    "dependencies": {
-                        "tagion:basic": ">=0.0.0",
-                        "tagion:hibon": ">=0.0.0"
-                    },
-                    "name": "logger"
-                },
-                {
-                    "dependencies": {
-                        "tagion:basic": ">=0.0.0",
-                        "tagion:logger": ">=0.0.0"
-                    },
-                    "name": "actor"
-                },
-                {
-                    "dependencies": {
-                        "tagion:utils": ">=0.0.0"
-                    },
-                    "name": "hibon"
-                },
-                {
-                    "dependencies": {
-                        "tagion:basic": ">=0.0.0",
-                        "tagion:communication": ">=0.0.0",
-                        "tagion:crypto": ">=0.0.0",
-                        "tagion:hibon": ">=0.0.0",
-                        "tagion:logger": ">=0.0.0",
-                        "tagion:options": ">=0.0.0"
-                    },
-                    "name": "dart"
-                },
-                {
-                    "name": "crypto"
-                },
-                {
-                    "name": "communication"
-                },
-                {
-                    "name": "options"
-                },
-                {
-                    "name": "tools"
-                },
-                {
-                    "dependencies": {
-                        "tagion:hibon": ">=0.0.0"
-                    },
-                    "name": "behaviour"
-                },
-                {
-                    "dependencies": {
-                        "tagion:gossip": ">=0.0.0",
-                        "tagion:hashgraphview": ">=0.0.0"
-                    },
-                    "name": "hashgraph"
-                },
-                {
-                    "name": "hashgraphview"
-                },
-                {
-                    "name": "gossip"
-                },
-                {
-                    "name": "network"
-                },
-                {
-                    "name": "prior_services"
-                },
-                {
-                    "dependencies": {
-                        "tagion:actor": ">=0.0.0",
-                        "tagion:dart": ">=0.0.0"
-                    },
-                    "name": "services"
-                },
-                {
-                    "dependencies": {
-                        "tagion:actor": ">=0.0.0",
-                        "tagion:basic": ">=0.0.0",
-                        "tagion:behaviour": ">=0.0.0",
-                        "tagion:crypto": ">=0.0.0",
-                        "tagion:dart": ">=0.0.0",
-                        "tagion:hashgraph": ">=0.0.0",
-                        "tagion:network": ">=0.0.0",
-                        "tagion:tools": ">=0.0.0"
-                    },
-                    "name": "tests"
+                    "name": "hibon",
+                    "version": "1.0.0"
                 }
             ],
-            "version": "~android-nng"
+            "version": "~al\/recorder_synchronizer"
+        },
+        {
+            "commitID": "f92611c4fdc9461ec49de5a4ccaedac1c1b1e768",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~android-debug"
+        },
+        {
+            "commitID": "300fad5a50b0cc5d7220ee7f576a6b7a844575f1",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~base58"
+        },
+        {
+            "commitID": "5c0c3ba27e5d5e123bacc8f382ab95fa9069057e",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~bbd_delay_inc"
+        },
+        {
+            "commitID": "86d3b7abbce7043ca6ccfffd8f3481b3b4d6392f",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~collider_dep"
         },
         {
             "commitID": "900973c2a9da6226e81b544eea55a3d384af2ea5",
@@ -147,20 +124,7 @@
             "version": "~crypto-review-freeze"
         },
         {
-            "commitID": "b2a2634283df5f5b1f3a7c0393284f1cdcefabdc",
-            "configurations": [
-                {
-                    "name": "tagion"
-                },
-                {
-                    "name": "test"
-                }
-            ],
-            "name": "tagion",
-            "version": "~crypto-review-freeze-pr"
-        },
-        {
-            "commitID": "1f801cceeb3557b5656a1aecf14eb452f78aa5f6",
+            "commitID": "7bece025708f40399f0f78b13feeb0c89bfb505d",
             "configurations": [
                 {
                     "name": "tagion"
@@ -179,20 +143,7 @@
             "version": "~current"
         },
         {
-            "commitID": "4c666fafd26334e77dc5023a9db2bf3395f8dc01",
-            "configurations": [
-                {
-                    "name": "tagion"
-                },
-                {
-                    "name": "test"
-                }
-            ],
-            "name": "tagion",
-            "version": "~current-review-pr"
-        },
-        {
-            "commitID": "6df4bc5cd3f1fc479d7696af8e93659e27287fc7",
+            "commitID": "c4e426a1b5b273fe52d606b7841988eee5dedfda",
             "configurations": [
                 {
                     "name": "tagion"
@@ -208,10 +159,10 @@
                     "version": "1.0.0"
                 }
             ],
-            "version": "~fix-doc-boundary"
+            "version": "~current-wasi"
         },
         {
-            "commitID": "2453991af3bc15d41a48afec40c445b7a35f9043",
+            "commitID": "f7d2d23eb1c28933fb2e439c6c0edf22f2b0174e",
             "configurations": [
                 {
                     "name": "tagion"
@@ -227,23 +178,10 @@
                     "version": "1.0.0"
                 }
             ],
-            "version": "~hotfix-trt"
+            "version": "~current_epoch_voting"
         },
         {
-            "commitID": "f51c75f7e5bba6522c105cb4f3a8502d46ae4fe7",
-            "configurations": [
-                {
-                    "name": "tagion"
-                },
-                {
-                    "name": "test"
-                }
-            ],
-            "name": "tagion",
-            "version": "~hotfix-wallet-dartindex"
-        },
-        {
-            "commitID": "969238f186697f0b97bd3cf034784d49fa4856c1",
+            "commitID": "21186caa5aa3030271b632786c442d9f632cd9cc",
             "configurations": [
                 {
                     "name": "tagion"
@@ -259,23 +197,10 @@
                     "version": "1.0.0"
                 }
             ],
-            "version": "~ib-trt"
+            "version": "~current_tvm"
         },
         {
-            "commitID": "007dcf7b703c8dec31a1389bd3e76bbfc083dcf1",
-            "configurations": [
-                {
-                    "name": "tagion"
-                },
-                {
-                    "name": "test"
-                }
-            ],
-            "name": "tagion",
-            "version": "~pubkey-bug"
-        },
-        {
-            "commitID": "a2a246b6f1e358612b2ac42de156bf667ceac60d",
+            "commitID": "54e2553b937f41a0ba87ede91980f7124f2e8a0a",
             "configurations": [
                 {
                     "name": "tagion"
@@ -291,10 +216,333 @@
                     "version": "1.0.0"
                 }
             ],
-            "version": "~release"
+            "version": "~current_w39"
         },
         {
-            "commitID": "fba4116127908e746b85eb9e564d4f904885a4fd",
+            "commitID": "8fc276ed0928ab055f7c901db178a4bf03fcba22",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~dart_journal"
+        },
+        {
+            "commitID": "833da8ffe0eca744518cfff5ff9c314d3380ca18",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~epoch_voting"
+        },
+        {
+            "commitID": "2f6fa55a8fa53b44618205c9c4d7f0557d51dce9",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~filter_submit"
+        },
+        {
+            "commitID": "7d336a367eb09bd72b350c4b7f63f3f9f028244c",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~fix_br_if"
+        },
+        {
+            "commitID": "01dd7ce1c54291a5c911e0e4270676659739a2e5",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~graph"
+        },
+        {
+            "commitID": "ccd483fdde4421aac0946ea002c4544bb2484d53",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~graph-event2"
+        },
+        {
+            "commitID": "14c804a335eaaa15bffdffd50385ef558affc99d",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~graph-printout"
+        },
+        {
+            "commitID": "fefdcae78bd517ec77cf337ab0c3132e849ff0b5",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~graph-weak"
+        },
+        {
+            "commitID": "8d40472eb1c4de9784072a40092db0ef05ded7c4",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~hashgraph_round"
+        },
+        {
+            "commitID": "c24c51819f709e9c67cde0c0c6f2eb511fa94bb8",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~ib-test"
+        },
+        {
+            "commitID": "33be07c833ffcb59be97fcb6f2e7ee2a3c3b9ab2",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~lr\/actor"
+        },
+        {
+            "commitID": "93bce076e2683aed3d6178e10ae1c4e943dc1428",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~lr\/check_records"
+        },
+        {
+            "commitID": "d64e3eab692369066bfaa4cadb7818d17573ac74",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~lr\/hipatch"
+        },
+        {
+            "commitID": "36e303c95dd82a2c6ca91fd8bee15f07d9f7c065",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~lr\/unitthread"
+        },
+        {
+            "commitID": "33e651f4ee16c569084597496d1fe0fe84d9f2f7",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~lysanderbirkenwald-patch-1"
+        },
+        {
+            "commitID": "6b8061c5444fe9c5296f1c9eb81e9c7e95d042a8",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~master_fix_w45"
+        },
+        {
+            "commitID": "cb3e00e8cf960d9ed6b0df4f2def54d3856c50b0",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "~nng_review"
+        },
+        {
+            "commitID": "c3cdfb15d3030a2c831716c44a3b8404b7780cd9",
             "configurations": [
                 {
                     "name": "tagion"
@@ -446,6 +694,25 @@
                 }
             ],
             "version": "1.2.0-rc"
+        },
+        {
+            "commitID": "7f65c6b19dd9cf52b67356531969c92e0975bce2",
+            "configurations": [
+                {
+                    "name": "tagion"
+                },
+                {
+                    "name": "test"
+                }
+            ],
+            "name": "tagion",
+            "subPackages": [
+                {
+                    "name": "hibon",
+                    "version": "1.0.0"
+                }
+            ],
+            "version": "1.2.0"
         }
     ]
 }

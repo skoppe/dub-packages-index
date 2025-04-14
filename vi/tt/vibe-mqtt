@@ -2,7 +2,7 @@
     "categories": [
         "library.network.messaging"
     ],
-    "commitID": "ffd798db9f8ed8adb1886b9fca20c5fd1a61ac95",
+    "commitID": "d1a1867e879e65cff5a4c25af472b1ccc1b15bf5",
     "dateAdded": "2015-07-25T16:49:28",
     "description": "A MQTT broker client for D",
     "documentationURL": "",
@@ -29,6 +29,16 @@
             "version": "~0.1.7_fixes"
         },
         {
+            "commitID": "0e4f197c127a874392d75c0d457e421426c57538",
+            "dependencies": {
+                "vibe-d:stream": "~>0.8",
+                "vibe-d:tls": "~>0.8",
+                "vibe-d:utils": "~>0.8"
+            },
+            "name": "vibe-mqtt",
+            "version": "~test"
+        },
+        {
             "commitID": "f377f088d6f01a852e017ca35b91289d35ac5ab9",
             "dependencies": {
                 "vibe-d:tls": "~>0.8"
@@ -37,9 +47,11 @@
             "version": "~v0.3"
         },
         {
-            "commitID": "ffd798db9f8ed8adb1886b9fca20c5fd1a61ac95",
+            "commitID": "d1a1867e879e65cff5a4c25af472b1ccc1b15bf5",
             "dependencies": {
-                "vibe-d:tls": "~>0.8"
+                "vibe-d:stream": "~>0.8",
+                "vibe-d:tls": "~>0.8",
+                "vibe-d:utils": "~>0.8"
             },
             "name": "vibe-mqtt",
             "version": "~master"
@@ -405,6 +417,25 @@
             },
             "name": "vibe-mqtt",
             "version": "1.0.0"
+        },
+        {
+            "commitID": "ea45ec329e4cc903f4203e2f5d407d6820515ed5",
+            "dependencies": {
+                "vibe-d:tls": "~>0.8",
+                "vibe-d:utils": "~>0.0.0"
+            },
+            "name": "vibe-mqtt",
+            "version": "1.0.1"
+        },
+        {
+            "commitID": "d1a1867e879e65cff5a4c25af472b1ccc1b15bf5",
+            "dependencies": {
+                "vibe-d:stream": "~>0.8",
+                "vibe-d:tls": "~>0.8",
+                "vibe-d:utils": "~>0.8"
+            },
+            "name": "vibe-mqtt",
+            "version": "1.1.0"
         }
     ]
 }

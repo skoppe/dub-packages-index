@@ -3,7 +3,7 @@
         "library.scripting",
         "library.optimized_cpu"
     ],
-    "commitID": "efd2d7b3388877feb49dbe987d38abd5e6e80e03",
+    "commitID": "8a8ab3fffe7af4a86fccb124a7777e02906ad23e",
     "dateAdded": "2019-12-24T20:51:25",
     "description": "A barebones VM for use in scripting languages",
     "documentationURL": "",
@@ -17,9 +17,9 @@
     },
     "versions": [
         {
-            "commitID": "efd2d7b3388877feb49dbe987d38abd5e6e80e03",
+            "commitID": "8a8ab3fffe7af4a86fccb124a7777e02906ad23e",
             "dependencies": {
-                "utils": "~>0.7.0"
+                "utils": "~>0.8.0"
             },
             "name": "navm",
             "subPackages": [
@@ -487,6 +487,24 @@
                 }
             ],
             "version": "2.0.1"
+        },
+        {
+            "commitID": "8a8ab3fffe7af4a86fccb124a7777e02906ad23e",
+            "dependencies": {
+                "utils": "~>0.8.0"
+            },
+            "name": "navm",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "navm": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "stackvm"
+                }
+            ],
+            "version": "2.0.2"
         }
     ]
 }

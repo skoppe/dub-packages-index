@@ -1,0 +1,136 @@
+{
+    "categories": [
+        "library.binding",
+        "library.general",
+        "library.betterc",
+        "library.nogc"
+    ],
+    "commitID": "e69acd85b9fdd58f9303ac80a5a341a760c46961",
+    "dateAdded": "2024-10-25T16:14:22",
+    "description": "Static & dynamic bindings to GLib & GObject, compatible with BetterC, @nogc, and nothrow.",
+    "documentationURL": "",
+    "id": "671ba7be7e84504147954cc5",
+    "name": "bindbc-glib",
+    "owner": "62d24f13a808d5cc35199e92",
+    "repository": {
+        "kind": "github",
+        "owner": "BindBC",
+        "project": "bindbc-glib"
+    },
+    "versions": [
+        {
+            "commitID": "e69acd85b9fdd58f9303ac80a5a341a760c46961",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>1.0"
+            },
+            "name": "bindbc-glib",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-glib": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "gobject"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "commitID": "8f64bbab8806ca8e0081688f677785b375315c4e",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>1.0"
+            },
+            "name": "bindbc-glib",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-glib": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "gobject"
+                }
+            ],
+            "version": "1.0.0"
+        },
+        {
+            "commitID": "e69acd85b9fdd58f9303ac80a5a341a760c46961",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>1.0"
+            },
+            "name": "bindbc-glib",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-glib": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "gobject"
+                }
+            ],
+            "version": "1.0.1"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "afd2435bfb67ce2106c2886081a23742a497fad6",
+    "commitID": "fc72d31e95a599bbd9e35eb31609e7abe65c5ac8",
     "dateAdded": "2023-02-01T19:42:30",
     "description": "IRC client library",
     "documentationURL": "",
@@ -14,20 +14,20 @@
     },
     "versions": [
         {
-            "commitID": "afd2435bfb67ce2106c2886081a23742a497fad6",
+            "commitID": "fc72d31e95a599bbd9e35eb31609e7abe65c5ac8",
             "name": "virc",
             "subPackages": [
                 {
                     "dependencies": {
-                        "virc": ">=0.0.0"
+                        "virc": "*"
                     },
                     "name": "client"
                 },
                 {
                     "dependencies": {
-                        "vibe-d:stream": "~>0.9.0",
-                        "vibe-d:tls": "~>0.9.0",
-                        "virc:client": ">=0.0.0"
+                        "vibe-d:stream": "~>0.10.0",
+                        "vibe-d:tls": "~>0.10.0",
+                        "virc:client": "*"
                     },
                     "name": "testclient"
                 }
@@ -40,7 +40,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "virc": ">=0.0.0"
+                        "virc": "*"
                     },
                     "name": "client"
                 },
@@ -48,7 +48,7 @@
                     "dependencies": {
                         "vibe-d:stream": "~>0.9.0",
                         "vibe-d:tls": "~>0.9.0",
-                        "virc:client": ">=0.0.0"
+                        "virc:client": "*"
                     },
                     "name": "testclient"
                 }
@@ -61,7 +61,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "virc": ">=0.0.0"
+                        "virc": "*"
                     },
                     "name": "client"
                 },
@@ -69,12 +69,54 @@
                     "dependencies": {
                         "vibe-d:stream": "~>0.9.0",
                         "vibe-d:tls": "~>0.9.0",
-                        "virc:client": ">=0.0.0"
+                        "virc:client": "*"
                     },
                     "name": "testclient"
                 }
             ],
             "version": "0.0.1"
+        },
+        {
+            "commitID": "a2a75180050b44c424936ac81206c8960d9405ce",
+            "name": "virc",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "virc": "*"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:stream": "~>0.10.0",
+                        "vibe-d:tls": "~>0.10.0",
+                        "virc:client": "*"
+                    },
+                    "name": "testclient"
+                }
+            ],
+            "version": "0.0.2"
+        },
+        {
+            "commitID": "fc72d31e95a599bbd9e35eb31609e7abe65c5ac8",
+            "name": "virc",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "virc": "*"
+                    },
+                    "name": "client"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:stream": "~>0.10.0",
+                        "vibe-d:tls": "~>0.10.0",
+                        "virc:client": "*"
+                    },
+                    "name": "testclient"
+                }
+            ],
+            "version": "0.0.3"
         }
     ]
 }

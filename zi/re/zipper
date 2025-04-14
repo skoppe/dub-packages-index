@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "a8cf6c48ba515f2ed297efeb2c8af7ed68abfe47",
+    "commitID": "112e53677b8578b38ea5ca7de289e04b780e38f5",
     "dateAdded": "2023-06-24T23:14:20",
     "description": "D wrapper around libzip",
     "documentationURL": "",
@@ -34,14 +34,14 @@
             "version": "~dev"
         },
         {
-            "commitID": "ebbe92a5b1f40cd851048f7f76d277d3f1ca8699",
+            "commitID": "02ffd0dda0ee6d83ccdb908895e23d3f33057082",
             "configurations": [
                 {
                     "name": "libraryStatic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.1.2"
+                        "bindbc-loader": "~>1.1.5"
                     },
                     "name": "libraryDynamic"
                 },
@@ -53,18 +53,51 @@
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.1.2",
+                        "bindbc-loader": "~>1.1.5",
                         "unit-threaded:assertions": ">=2.0.0"
                     },
                     "name": "unittestDynamic"
                 }
             ],
             "dependencies": {
-                "bindbc-common": "~master",
-                "thepath": ">=0.1.7"
+                "bindbc-common": "~>0.1.6",
+                "thepath": ">=1.2.0"
             },
             "name": "zipper",
             "version": "~dev-bindbc"
+        },
+        {
+            "commitID": "66bfec328e7e1bab57c1c703813614f1176870e6",
+            "configurations": [
+                {
+                    "name": "libraryStatic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.5"
+                    },
+                    "name": "libraryDynamic"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=2.0.0"
+                    },
+                    "name": "unittestStatic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.5",
+                        "unit-threaded:assertions": ">=2.0.0"
+                    },
+                    "name": "unittestDynamic"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.6",
+                "thepath": ">=1.2.0"
+            },
+            "name": "zipper",
+            "version": "~dev-macos"
         },
         {
             "commitID": "b72f900f4c760a9b2ff60ba1f5d6ebba9a76a115",
@@ -86,21 +119,34 @@
             "version": "~master-import-c"
         },
         {
-            "commitID": "e1e36154bc5b1aa63446f1e9d1b7f2a690642d4c",
+            "commitID": "112e53677b8578b38ea5ca7de289e04b780e38f5",
             "configurations": [
                 {
-                    "name": "library"
+                    "name": "libraryStatic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": ">=1.1.5"
+                    },
+                    "name": "libraryDynamic"
                 },
                 {
                     "dependencies": {
                         "unit-threaded:assertions": ">=2.0.0"
                     },
-                    "name": "unittest"
+                    "name": "unittestStatic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": ">=1.1.5",
+                        "unit-threaded:assertions": ">=2.0.0"
+                    },
+                    "name": "unittestDynamic"
                 }
             ],
             "dependencies": {
-                "dlibzip": "~>1.9.2",
-                "thepath": ">=0.1.7"
+                "bindbc-common": ">=1.0.5",
+                "thepath": ">=1.2.0"
             },
             "name": "zipper",
             "version": "~master"
@@ -249,6 +295,105 @@
             },
             "name": "zipper",
             "version": "0.0.4-bindbc"
+        },
+        {
+            "commitID": "02ffd0dda0ee6d83ccdb908895e23d3f33057082",
+            "configurations": [
+                {
+                    "name": "libraryStatic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.5"
+                    },
+                    "name": "libraryDynamic"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=2.0.0"
+                    },
+                    "name": "unittestStatic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.5",
+                        "unit-threaded:assertions": ">=2.0.0"
+                    },
+                    "name": "unittestDynamic"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.6",
+                "thepath": ">=1.2.0"
+            },
+            "name": "zipper",
+            "version": "0.0.5"
+        },
+        {
+            "commitID": "66bfec328e7e1bab57c1c703813614f1176870e6",
+            "configurations": [
+                {
+                    "name": "libraryStatic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.5"
+                    },
+                    "name": "libraryDynamic"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=2.0.0"
+                    },
+                    "name": "unittestStatic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.5",
+                        "unit-threaded:assertions": ">=2.0.0"
+                    },
+                    "name": "unittestDynamic"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>0.1.6",
+                "thepath": ">=1.2.0"
+            },
+            "name": "zipper",
+            "version": "0.0.6"
+        },
+        {
+            "commitID": "112e53677b8578b38ea5ca7de289e04b780e38f5",
+            "configurations": [
+                {
+                    "name": "libraryStatic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": ">=1.1.5"
+                    },
+                    "name": "libraryDynamic"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded:assertions": ">=2.0.0"
+                    },
+                    "name": "unittestStatic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": ">=1.1.5",
+                        "unit-threaded:assertions": ">=2.0.0"
+                    },
+                    "name": "unittestDynamic"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": ">=1.0.5",
+                "thepath": ">=1.2.0"
+            },
+            "name": "zipper",
+            "version": "0.0.7"
         }
     ]
 }

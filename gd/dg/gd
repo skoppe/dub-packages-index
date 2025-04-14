@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "5d6a920ab241fa092fe4dd6f3173ef974aa27091",
+    "commitID": "5fbd528c140e869a130062b2b225171cc50ec41e",
     "dateAdded": "2024-01-12T20:39:56",
     "description": "GUI for D",
     "documentationURL": "",
@@ -24,7 +24,7 @@
                 }
             ],
             "dependencies": {
-                "gd:bindings": ">=0.0.0",
+                "gd:bindings": "*",
                 "imageformats": "~>7.0.2"
             },
             "name": "gd",
@@ -41,17 +41,20 @@
             "version": "~beforethemoveawayfromcustomrenderer"
         },
         {
-            "commitID": "5d6a920ab241fa092fe4dd6f3173ef974aa27091",
+            "commitID": "3024fe3843967de5d1e90eaf3bb53add74056c47",
             "configurations": [
                 {
                     "name": "gd_Linux"
                 },
                 {
                     "name": "gd_Win32"
+                },
+                {
+                    "name": "gd_Android"
                 }
             ],
             "dependencies": {
-                "gd:bindings": ">=0.0.0",
+                "gd:bindings": "*",
                 "imageformats": "~>7.0.2"
             },
             "name": "gd",
@@ -61,6 +64,40 @@
                         "weakset": "~>1.0.1"
                     },
                     "name": "bindings"
+                },
+                {
+                    "name": "build"
+                }
+            ],
+            "version": "~wasm"
+        },
+        {
+            "commitID": "3024fe3843967de5d1e90eaf3bb53add74056c47",
+            "configurations": [
+                {
+                    "name": "gd_Linux"
+                },
+                {
+                    "name": "gd_Win32"
+                },
+                {
+                    "name": "gd_Android"
+                }
+            ],
+            "dependencies": {
+                "gd:bindings": "*",
+                "imageformats": "~>7.0.2"
+            },
+            "name": "gd",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "weakset": "~>1.0.1"
+                    },
+                    "name": "bindings"
+                },
+                {
+                    "name": "build"
                 }
             ],
             "version": "~master"
@@ -76,7 +113,7 @@
                 }
             ],
             "dependencies": {
-                "gd:bindings": ">=0.0.0",
+                "gd:bindings": "*",
                 "imageformats": "~>7.0.2"
             },
             "name": "gd",
@@ -89,6 +126,31 @@
                 }
             ],
             "version": "0.1.0"
+        },
+        {
+            "commitID": "5fbd528c140e869a130062b2b225171cc50ec41e",
+            "configurations": [
+                {
+                    "name": "gd_Linux"
+                },
+                {
+                    "name": "gd_Win32"
+                }
+            ],
+            "dependencies": {
+                "gd:bindings": "*",
+                "imageformats": "~>7.0.2"
+            },
+            "name": "gd",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "weakset": "~>1.0.1"
+                    },
+                    "name": "bindings"
+                }
+            ],
+            "version": "0.1.1"
         }
     ]
 }

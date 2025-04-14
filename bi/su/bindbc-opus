@@ -2,10 +2,10 @@
     "categories": [
         "library.binding",
         "library.audio",
-        "library.web.communication",
+        "library.betterc",
         "library.nogc"
     ],
-    "commitID": "8677d6b86688f8968772c362b005b311fbb99a2c",
+    "commitID": "f59e2571acec91ea37fa86ad0f37ea33cbe719f8",
     "dateAdded": "2023-03-15T07:24:57",
     "description": "Static & dynamic bindings to the Opus libraries, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -19,17 +19,17 @@
     },
     "versions": [
         {
-            "commitID": "8677d6b86688f8968772c362b005b311fbb99a2c",
+            "commitID": "f59e2571acec91ea37fa86ad0f37ea33cbe719f8",
             "configurations": [
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.1.1"
+                        "bindbc-loader": "~>1.1"
                     },
                     "name": "dynamic"
                 },
                 {
                     "dependencies": {
-                        "bindbc-loader": "~>1.1.1"
+                        "bindbc-loader": "~>1.1"
                     },
                     "name": "dynamicBC"
                 },
@@ -41,7 +41,7 @@
                 }
             ],
             "dependencies": {
-                "bindbc-common": "~>0.1.1"
+                "bindbc-common": "~>1.0"
             },
             "name": "bindbc-opus",
             "version": "~main"
@@ -210,6 +210,34 @@
             },
             "name": "bindbc-opus",
             "version": "1.0.2"
+        },
+        {
+            "commitID": "f59e2571acec91ea37fa86ad0f37ea33cbe719f8",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-common": "~>1.0"
+            },
+            "name": "bindbc-opus",
+            "version": "1.1.0"
         }
     ]
 }

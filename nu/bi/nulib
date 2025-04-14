@@ -1,0 +1,293 @@
+{
+    "categories": [],
+    "commitID": "e743000810b89bed0ee1ccee3ee4f8d879353bc4",
+    "dateAdded": "2025-02-24T08:15:43",
+    "description": "Portable standard library for DLang",
+    "documentationURL": "",
+    "id": "67bc1c9fc591f247061fcf26",
+    "name": "nulib",
+    "owner": "5a7f7576517e9b646d9883ca",
+    "repository": {
+        "kind": "github",
+        "owner": "Inochi2D",
+        "project": "nulib"
+    },
+    "versions": [
+        {
+            "commitID": "b70b7356c764e7c80f7af5bdac5d6a2b01d5cacb",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "numem:hookset-libc": "*",
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "nulib:stdc": "*",
+                "numem": ">=1.0.5"
+            },
+            "name": "nulib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "other_platforms"
+                        }
+                    ],
+                    "dependencies": {
+                        "nulib": "*",
+                        "numem": "*"
+                    },
+                    "name": "com"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "other_platforms"
+                        }
+                    ],
+                    "dependencies": {
+                        "nulib": "*",
+                        "numem": "*",
+                        "objective-d": "*"
+                    },
+                    "name": "objc"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "numem": "*"
+                    },
+                    "name": "stdc"
+                }
+            ],
+            "version": "~main"
+        },
+        {
+            "commitID": "156c43d0e284a0d7c323d30bab30bc471e6a15d2",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "numem": ">=1.0.5"
+            },
+            "name": "nulib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "other_platforms"
+                        }
+                    ],
+                    "dependencies": {
+                        "nulib": "*",
+                        "numem": "*"
+                    },
+                    "name": "com"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "other_platforms"
+                        }
+                    ],
+                    "dependencies": {
+                        "nulib": "*",
+                        "numem": "*",
+                        "objective-d": "*"
+                    },
+                    "name": "objc"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "nulib": "*",
+                        "numem": "*"
+                    },
+                    "name": "glib"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "nulib": "*",
+                        "nulib:glib": "*",
+                        "numem": "*"
+                    },
+                    "name": "gobject"
+                }
+            ],
+            "version": "0.1.0"
+        },
+        {
+            "commitID": "e743000810b89bed0ee1ccee3ee4f8d879353bc4",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "numem:hookset-libc": "*",
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "nulib:stdc": "*",
+                "numem": ">=1.0.5"
+            },
+            "name": "nulib",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "other_platforms"
+                        }
+                    ],
+                    "dependencies": {
+                        "nulib": "*",
+                        "numem": "*"
+                    },
+                    "name": "com"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        },
+                        {
+                            "name": "other_platforms"
+                        }
+                    ],
+                    "dependencies": {
+                        "nulib": "*",
+                        "numem": "*",
+                        "objective-d": "*"
+                    },
+                    "name": "objc"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "numem": "*"
+                    },
+                    "name": "stdc"
+                }
+            ],
+            "version": "0.2.0"
+        }
+    ]
+}

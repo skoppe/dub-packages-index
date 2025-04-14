@@ -1,0 +1,599 @@
+{
+    "categories": [
+        "library.general",
+        "library.vibed"
+    ],
+    "commitID": "7b7a4e6e02e4356c5bd1f44ca47b266c7a018a25",
+    "dateAdded": "2025-04-07T06:43:38",
+    "description": "UIM base library",
+    "documentationURL": "",
+    "id": "67f357fa411048a858c03586",
+    "name": "uim-base",
+    "owner": "5cc2c9de89e62a6b4ad6540c",
+    "repository": {
+        "kind": "github",
+        "owner": "UIMSolutions",
+        "project": "uim-base"
+    },
+    "versions": [
+        {
+            "commitID": "7b7a4e6e02e4356c5bd1f44ca47b266c7a018a25",
+            "dependencies": {
+                "colored": "~>0.0.31",
+                "uim-base:core": "*",
+                "uim-base:oop": "*",
+                "uim-base:phobos": "*",
+                "uim-base:vibe": "*",
+                "unit-threaded": "~>2.2.2",
+                "vibe-d": "~>0.10.2"
+            },
+            "name": "uim-base",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_phobos"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "phobos"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_vibe"
+                        },
+                        {
+                            "name": "test_uim_all"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:phobos": "*",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "vibe"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_core"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:vibe": "*",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_oop"
+                        }
+                    ],
+                    "dependencies": {
+                        "uim-base:core": "*"
+                    },
+                    "name": "oop"
+                }
+            ],
+            "version": "~main"
+        },
+        {
+            "commitID": "34a742c5cae30373501bb0294282f8b911e12d36",
+            "dependencies": {
+                "uim-core": {
+                    "path": ".\/core"
+                },
+                "uim-oop": {
+                    "path": ".\/oop"
+                },
+                "uim-phobos": {
+                    "path": ".\/phobos"
+                },
+                "uim-vibe": {
+                    "path": ".\/vibe"
+                }
+            },
+            "name": "uim-base",
+            "version": "25.4.7"
+        },
+        {
+            "commitID": "9e0d0f86b6650a24153f87d985e2dda81136ca76",
+            "dependencies": {
+                "colored": "~>0.0.31",
+                "uim-base:core": "*",
+                "uim-base:oop": "*",
+                "uim-base:phobos": "*",
+                "uim-base:vibe": "*",
+                "unit-threaded": "~>2.2.2",
+                "vibe-d": "~>0.10.2"
+            },
+            "name": "uim-base",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "phobos"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_vibe"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:phobos": {
+                            "path": ".."
+                        },
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "vibe"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_core"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:vibe": {
+                            "path": ".."
+                        },
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_oop"
+                        }
+                    ],
+                    "dependencies": {
+                        "uim-base:core": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "oop"
+                }
+            ],
+            "version": "25.4.8"
+        },
+        {
+            "commitID": "0b1e160c17a3c2d783b01e82f9b462783ce252b6",
+            "dependencies": {
+                "colored": "~>0.0.31",
+                "uim-base:core": "*",
+                "uim-base:oop": "*",
+                "uim-base:phobos": "*",
+                "uim-base:vibe": "*",
+                "unit-threaded": "~>2.2.2",
+                "vibe-d": "~>0.10.2"
+            },
+            "name": "uim-base",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "phobos"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_vibe"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:phobos": {
+                            "path": ".."
+                        },
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "vibe"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_core"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:vibe": {
+                            "path": ".."
+                        },
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_oop"
+                        }
+                    ],
+                    "dependencies": {
+                        "uim-base:core": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "oop"
+                }
+            ],
+            "version": "25.4.9"
+        },
+        {
+            "commitID": "b067956f4fe94cfe17181beedbccfb75fba3ea93",
+            "dependencies": {
+                "colored": "~>0.0.31",
+                "uim-base:core": "*",
+                "uim-base:oop": "*",
+                "uim-base:phobos": "*",
+                "uim-base:vibe": "*",
+                "unit-threaded": "~>2.2.2",
+                "vibe-d": "~>0.10.2"
+            },
+            "name": "uim-base",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "phobos"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_vibe"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:phobos": {
+                            "path": ".."
+                        },
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "vibe"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_core"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:vibe": {
+                            "path": ".."
+                        },
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_oop"
+                        }
+                    ],
+                    "dependencies": {
+                        "uim-base:core": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "oop"
+                }
+            ],
+            "version": "25.4.10"
+        },
+        {
+            "commitID": "bbffdb02b6403e71dc68c0b71995a24937be9d42",
+            "dependencies": {
+                "colored": "~>0.0.31",
+                "uim-base:core": "*",
+                "uim-base:oop": "*",
+                "uim-base:phobos": "*",
+                "uim-base:vibe": "*",
+                "unit-threaded": "~>2.2.2",
+                "vibe-d": "~>0.10.2"
+            },
+            "name": "uim-base",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "phobos"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_vibe"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:phobos": {
+                            "path": ".."
+                        },
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "vibe"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_core"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:vibe": {
+                            "path": ".."
+                        },
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_oop"
+                        }
+                    ],
+                    "dependencies": {
+                        "uim-base:core": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "oop"
+                }
+            ],
+            "version": "25.4.11"
+        },
+        {
+            "commitID": "907004244a5a9ecbf86ea751cee7aee7d7497e35",
+            "dependencies": {
+                "colored": "~>0.0.31",
+                "uim-base:core": "*",
+                "uim-base:oop": "*",
+                "uim-base:phobos": "*",
+                "uim-base:vibe": "*",
+                "unit-threaded": "~>2.2.2",
+                "vibe-d": "~>0.10.2"
+            },
+            "name": "uim-base",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_phobos"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "phobos"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_vibe"
+                        },
+                        {
+                            "name": "test_uim_all"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:phobos": "*",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "vibe"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_core"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:vibe": "*",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_oop"
+                        }
+                    ],
+                    "dependencies": {
+                        "uim-base:core": "*"
+                    },
+                    "name": "oop"
+                }
+            ],
+            "version": "25.4.12"
+        },
+        {
+            "commitID": "7b7a4e6e02e4356c5bd1f44ca47b266c7a018a25",
+            "dependencies": {
+                "colored": "~>0.0.31",
+                "uim-base:core": "*",
+                "uim-base:oop": "*",
+                "uim-base:phobos": "*",
+                "uim-base:vibe": "*",
+                "unit-threaded": "~>2.2.2",
+                "vibe-d": "~>0.10.2"
+            },
+            "name": "uim-base",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_phobos"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "phobos"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_vibe"
+                        },
+                        {
+                            "name": "test_uim_all"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:phobos": "*",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "vibe"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_core"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:vibe": "*",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_oop"
+                        }
+                    ],
+                    "dependencies": {
+                        "uim-base:core": "*"
+                    },
+                    "name": "oop"
+                }
+            ],
+            "version": "25.4.13"
+        },
+        {
+            "commitID": "7b7a4e6e02e4356c5bd1f44ca47b266c7a018a25",
+            "dependencies": {
+                "colored": "~>0.0.31",
+                "uim-base:core": "*",
+                "uim-base:oop": "*",
+                "uim-base:phobos": "*",
+                "uim-base:vibe": "*",
+                "unit-threaded": "~>2.2.2",
+                "vibe-d": "~>0.10.2"
+            },
+            "name": "uim-base",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_phobos"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "phobos"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_vibe"
+                        },
+                        {
+                            "name": "test_uim_all"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:phobos": "*",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "vibe"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_core"
+                        }
+                    ],
+                    "dependencies": {
+                        "colored": "~>0.0.31",
+                        "uim-base:vibe": "*",
+                        "unit-threaded": "~>2.2.2",
+                        "vibe-d": "~>0.10.2"
+                    },
+                    "name": "core"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "test_uim_oop"
+                        }
+                    ],
+                    "dependencies": {
+                        "uim-base:core": "*"
+                    },
+                    "name": "oop"
+                }
+            ],
+            "version": "25.4.14"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "0dc91fe8d02c0d60ddb2beb0d544014cf10b2f51",
+    "commitID": "6439d6418ba14574e3b4eebb60556f44c30cfa9b",
     "dateAdded": "2023-12-08T15:17:37",
     "description": "Web related utils and parsers",
     "documentationURL": "",
@@ -14,17 +14,17 @@
     },
     "versions": [
         {
-            "commitID": "0dc91fe8d02c0d60ddb2beb0d544014cf10b2f51",
+            "commitID": "6439d6418ba14574e3b4eebb60556f44c30cfa9b",
             "dependencies": {
-                "sily-web:css": ">=0.0.0",
-                "sily-web:html": ">=0.0.0",
-                "sily-web:js": ">=0.0.0"
+                "sily-web:css": "*",
+                "sily-web:html": "*",
+                "sily-web:js": "*"
             },
             "name": "sily-web",
             "subPackages": [
                 {
                     "dependencies": {
-                        "sily": "~>3.0.0"
+                        "sily": "~>4.0"
                     },
                     "name": "html"
                 },
@@ -40,9 +40,9 @@
         {
             "commitID": "55d29b595660e5b9fa631f38fa23b115cad1301f",
             "dependencies": {
-                "sily-web:css": ">=0.0.0",
-                "sily-web:html": ">=0.0.0",
-                "sily-web:js": ">=0.0.0"
+                "sily-web:css": "*",
+                "sily-web:html": "*",
+                "sily-web:js": "*"
             },
             "name": "sily-web",
             "subPackages": [
@@ -64,9 +64,9 @@
         {
             "commitID": "0dc91fe8d02c0d60ddb2beb0d544014cf10b2f51",
             "dependencies": {
-                "sily-web:css": ">=0.0.0",
-                "sily-web:html": ">=0.0.0",
-                "sily-web:js": ">=0.0.0"
+                "sily-web:css": "*",
+                "sily-web:html": "*",
+                "sily-web:js": "*"
             },
             "name": "sily-web",
             "subPackages": [
@@ -84,6 +84,30 @@
                 }
             ],
             "version": "0.0.2"
+        },
+        {
+            "commitID": "6439d6418ba14574e3b4eebb60556f44c30cfa9b",
+            "dependencies": {
+                "sily-web:css": "*",
+                "sily-web:html": "*",
+                "sily-web:js": "*"
+            },
+            "name": "sily-web",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "sily": "~>4.0"
+                    },
+                    "name": "html"
+                },
+                {
+                    "name": "js"
+                },
+                {
+                    "name": "css"
+                }
+            ],
+            "version": "4.0.0"
         }
     ]
 }

@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "b4365b11eb1614ba9c58a409ab0228f211920aa8",
+    "commitID": "180f95dc1e07205dec5601605019106bc400829c",
     "dateAdded": "2023-07-30T03:56:14",
     "description": "A abstraction for fs operations that also supports embedding",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "b4365b11eb1614ba9c58a409ab0228f211920aa8",
+            "commitID": "180f95dc1e07205dec5601605019106bc400829c",
             "configurations": [
                 {
                     "dependencies": {
@@ -25,6 +25,10 @@
                     "name": "application"
                 },
                 {
+                    "dependencies": {
+                        "ninox-d_std:callable": "~>1.7.2",
+                        "ninox-d_std:traits": "~>1.7.2"
+                    },
                     "name": "library"
                 }
             ],
@@ -78,6 +82,26 @@
             ],
             "name": "ninox-d_fs",
             "version": "1.0.2"
+        },
+        {
+            "commitID": "180f95dc1e07205dec5601605019106bc400829c",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "d-glob": "~>0.4.0"
+                    },
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "ninox-d_std:callable": "~>1.7.2",
+                        "ninox-d_std:traits": "~>1.7.2"
+                    },
+                    "name": "library"
+                }
+            ],
+            "name": "ninox-d_fs",
+            "version": "1.1.0"
         }
     ]
 }

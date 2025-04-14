@@ -1,0 +1,53 @@
+{
+    "categories": [
+        "library.web.communication"
+    ],
+    "commitID": "89500ba43dda963d6f45a0ab67b49f1106b48f6f",
+    "dateAdded": "2024-11-11T07:06:51",
+    "description": "Beangle Task",
+    "documentationURL": "",
+    "id": "67319efbc4738aeecdf836a5",
+    "name": "beangle-task",
+    "owner": "53140e3b006e9f467202a23a",
+    "repository": {
+        "kind": "github",
+        "owner": "beangle",
+        "project": "task"
+    },
+    "versions": [
+        {
+            "commitID": "89500ba43dda963d6f45a0ab67b49f1106b48f6f",
+            "dependencies": {
+                "beangle-task:agent": "*",
+                "beangle-task:core": "*",
+                "beangle-task:server": "*"
+            },
+            "name": "beangle-task",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dxml": "~>0.4.4"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "beangle-task:core": "*",
+                        "vibe-http": "~>1.1.2",
+                        "vibe-stream:tls": "~>1.1.0"
+                    },
+                    "name": "server"
+                },
+                {
+                    "dependencies": {
+                        "beangle-task:core": "*",
+                        "vibe-http": "~>1.1.2",
+                        "vibe-stream:tls": "~>1.1.0"
+                    },
+                    "name": "agent"
+                }
+            ],
+            "version": "0.0.1"
+        }
+    ]
+}

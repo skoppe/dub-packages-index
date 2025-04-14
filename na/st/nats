@@ -1,8 +1,8 @@
 {
     "categories": [],
-    "commitID": "ab419c8bfaa1cf64d4963f22df9f2fe266a04daa",
+    "commitID": "0eb1e5144a18dd1ec28fc3c1466cce359edeb210",
     "dateAdded": "2020-02-20T06:17:15",
-    "description": "A nats pubsub client for vibe.d",
+    "description": "A nats pubsub client for Dlang, using vibe eventloop",
     "documentationURL": "",
     "id": "5e4e165b3f18d0d828285918",
     "name": "nats",
@@ -39,7 +39,7 @@
             "version": "~nbuff"
         },
         {
-            "commitID": "ab419c8bfaa1cf64d4963f22df9f2fe266a04daa",
+            "commitID": "0eb1e5144a18dd1ec28fc3c1466cce359edeb210",
             "configurations": [
                 {
                     "name": "lib"
@@ -55,10 +55,10 @@
                 }
             ],
             "dependencies": {
-                "nbuff": "~>0.1",
-                "vibe-d:core": "~>0.9",
-                "vibe-d:data": "~>0.9",
-                "vibe-d:inet": "~>0.9"
+                "vibe-core": "~>2.9",
+                "vibe-inet": "~>1.0",
+                "vibe-serialization": "~>1.0",
+                "vibe-stream:tls": "~>1.1"
             },
             "name": "nats",
             "version": "~master"
@@ -524,6 +524,56 @@
             },
             "name": "nats",
             "version": "0.5.1"
+        },
+        {
+            "commitID": "d24c8557634dd03f2f6ab50fe18989fb8dabced1",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "build-deps"
+                },
+                {
+                    "name": "test-app"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "nbuff": "~>0.1",
+                "vibe-core": "~>2.9",
+                "vibe-inet": "~>1.0",
+                "vibe-serialization": "~>1.0"
+            },
+            "name": "nats",
+            "version": "0.5.2"
+        },
+        {
+            "commitID": "0eb1e5144a18dd1ec28fc3c1466cce359edeb210",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "build-deps"
+                },
+                {
+                    "name": "test-app"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "vibe-core": "~>2.9",
+                "vibe-inet": "~>1.0",
+                "vibe-serialization": "~>1.0",
+                "vibe-stream:tls": "~>1.1"
+            },
+            "name": "nats",
+            "version": "0.6.0"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "8efbcb3ccb651491a844c838b9727cd441ebfa9c",
+    "commitID": "3412ab6afd4dbe89edbc6e4865827eb5c3239215",
     "dateAdded": "2023-05-02T16:25:05",
     "description": "A library to aid in querying databases",
     "documentationURL": "",
@@ -26,7 +26,7 @@
             "version": "~docs"
         },
         {
-            "commitID": "8efbcb3ccb651491a844c838b9727cd441ebfa9c",
+            "commitID": "6913bcd35a40dbf2b7dfa0f9f55b504c7a53533c",
             "dependencies": {
                 "d2sqlite3": {
                     "optional": true,
@@ -38,6 +38,17 @@
                 }
             },
             "name": "sqlbuilder",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "d2sqlite3": "~>1.0.0",
+                        "sqlbuilder": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "bookdata"
+                }
+            ],
             "version": "~master"
         },
         {
@@ -47,7 +58,7 @@
                     "optional": true,
                     "version": "~>0.19.0"
                 },
-                "mysql-native": "~>3"
+                "mysql-native": "~>3.0"
             },
             "name": "sqlbuilder",
             "version": "0.0.1"
@@ -165,6 +176,21 @@
             },
             "name": "sqlbuilder",
             "version": "0.2.2"
+        },
+        {
+            "commitID": "3412ab6afd4dbe89edbc6e4865827eb5c3239215",
+            "dependencies": {
+                "d2sqlite3": {
+                    "optional": true,
+                    "version": ">=0.19.0"
+                },
+                "mysql-native": {
+                    "optional": true,
+                    "version": ">=3.2.4"
+                }
+            },
+            "name": "sqlbuilder",
+            "version": "0.2.3"
         }
     ]
 }

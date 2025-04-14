@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "454f489f60c2d0b6206a31be34be2fc2c62f69c3",
+    "commitID": "aedf988024a747489233ad10d136dbfbd345719e",
     "dateAdded": "2020-12-22T11:33:06",
     "description": "A general purpose library for D",
     "documentationURL": "",
@@ -16,37 +16,29 @@
     },
     "versions": [
         {
-            "commitID": "454f489f60c2d0b6206a31be34be2fc2c62f69c3",
+            "commitID": "aedf988024a747489233ad10d136dbfbd345719e",
             "dependencies": {
-                "viva:collections": ">=0.0.0",
-                "viva:css": ">=0.0.0",
-                "viva:discord": ">=0.0.0",
-                "viva:docker": ">=0.0.0",
-                "viva:dvm": ">=0.0.0",
-                "viva:exceptions": ">=0.0.0",
-                "viva:file": ">=0.0.0",
-                "viva:gui": ">=0.0.0",
-                "viva:html": ">=0.0.0",
-                "viva:http": ">=0.0.0",
-                "viva:io": ">=0.0.0",
-                "viva:json": ">=0.0.0",
-                "viva:logging": ">=0.0.0",
-                "viva:math": ">=0.0.0",
-                "viva:mistflake": ">=0.0.0",
-                "viva:path": ">=0.0.0",
-                "viva:requests": ">=0.0.0",
-                "viva:scrypt": ">=0.0.0",
-                "viva:time": ">=0.0.0",
-                "viva:types": ">=0.0.0",
-                "viva:uuid": ">=0.0.0",
-                "viva:xml": ">=0.0.0",
-                "viva:yaml": ">=0.0.0"
+                "viva:collections": "*",
+                "viva:docker": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:scrypt": "*",
+                "viva:time": "*",
+                "viva:types": "*"
             },
             "name": "viva",
             "subPackages": [
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "io"
                 },
@@ -58,13 +50,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "time"
                 },
                 {
                     "dependencies": {
-                        "viva:collections": ">=0.0.0"
+                        "viva:collections": "*"
                     },
                     "name": "types"
                 },
@@ -72,66 +64,42 @@
                     "name": "exceptions"
                 },
                 {
-                    "name": "gui"
-                },
-                {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "json"
                 },
                 {
-                    "name": "yaml"
-                },
-                {
-                    "name": "xml"
-                },
-                {
-                    "name": "html"
-                },
-                {
-                    "name": "css"
-                },
-                {
                     "dependencies": {
-                        "viva:file": ">=0.0.0",
-                        "viva:io": ">=0.0.0"
+                        "viva:file": "*",
+                        "viva:io": "*"
                     },
                     "name": "logging"
-                },
-                {
-                    "name": "discord"
-                },
-                {
-                    "name": "http"
                 },
                 {
                     "name": "requests"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "mistflake"
                 },
                 {
                     "dependencies": {
-                        "viva:exceptions": ">=0.0.0"
+                        "viva:exceptions": "*"
                     },
                     "name": "collections"
                 },
                 {
-                    "name": "uuid"
-                },
-                {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "dvm"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "math"
                 },
@@ -140,7 +108,7 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "docker"
                 }
@@ -150,33 +118,33 @@
         {
             "commitID": "5ef56c39781073ff8f483b056b7505605a304a9e",
             "dependencies": {
-                "viva:collections": ">=0.0.0",
-                "viva:css": ">=0.0.0",
-                "viva:discord": ">=0.0.0",
-                "viva:dvm": ">=0.0.0",
-                "viva:exceptions": ">=0.0.0",
-                "viva:file": ">=0.0.0",
-                "viva:gui": ">=0.0.0",
-                "viva:html": ">=0.0.0",
-                "viva:http": ">=0.0.0",
-                "viva:io": ">=0.0.0",
-                "viva:json": ">=0.0.0",
-                "viva:logging": ">=0.0.0",
-                "viva:math": ">=0.0.0",
-                "viva:mistflake": ">=0.0.0",
-                "viva:path": ">=0.0.0",
-                "viva:requests": ">=0.0.0",
-                "viva:time": ">=0.0.0",
-                "viva:types": ">=0.0.0",
-                "viva:uuid": ">=0.0.0",
-                "viva:xml": ">=0.0.0",
-                "viva:yaml": ">=0.0.0"
+                "viva:collections": "*",
+                "viva:css": "*",
+                "viva:discord": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:gui": "*",
+                "viva:html": "*",
+                "viva:http": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:time": "*",
+                "viva:types": "*",
+                "viva:uuid": "*",
+                "viva:xml": "*",
+                "viva:yaml": "*"
             },
             "name": "viva",
             "subPackages": [
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "io"
                 },
@@ -188,13 +156,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "time"
                 },
                 {
                     "dependencies": {
-                        "viva:collections": ">=0.0.0"
+                        "viva:collections": "*"
                     },
                     "name": "types"
                 },
@@ -221,8 +189,8 @@
                 },
                 {
                     "dependencies": {
-                        "viva:file": ">=0.0.0",
-                        "viva:io": ">=0.0.0"
+                        "viva:file": "*",
+                        "viva:io": "*"
                     },
                     "name": "logging"
                 },
@@ -237,13 +205,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "mistflake"
                 },
                 {
                     "dependencies": {
-                        "viva:exceptions": ">=0.0.0"
+                        "viva:exceptions": "*"
                     },
                     "name": "collections"
                 },
@@ -252,13 +220,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "dvm"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "math"
                 }
@@ -268,33 +236,33 @@
         {
             "commitID": "b87c6eb5f6376e6d3e5745747497d44373a8bd51",
             "dependencies": {
-                "viva:collections": ">=0.0.0",
-                "viva:css": ">=0.0.0",
-                "viva:discord": ">=0.0.0",
-                "viva:dvm": ">=0.0.0",
-                "viva:exceptions": ">=0.0.0",
-                "viva:file": ">=0.0.0",
-                "viva:gui": ">=0.0.0",
-                "viva:html": ">=0.0.0",
-                "viva:http": ">=0.0.0",
-                "viva:io": ">=0.0.0",
-                "viva:json": ">=0.0.0",
-                "viva:logging": ">=0.0.0",
-                "viva:math": ">=0.0.0",
-                "viva:mistflake": ">=0.0.0",
-                "viva:path": ">=0.0.0",
-                "viva:requests": ">=0.0.0",
-                "viva:time": ">=0.0.0",
-                "viva:types": ">=0.0.0",
-                "viva:uuid": ">=0.0.0",
-                "viva:xml": ">=0.0.0",
-                "viva:yaml": ">=0.0.0"
+                "viva:collections": "*",
+                "viva:css": "*",
+                "viva:discord": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:gui": "*",
+                "viva:html": "*",
+                "viva:http": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:time": "*",
+                "viva:types": "*",
+                "viva:uuid": "*",
+                "viva:xml": "*",
+                "viva:yaml": "*"
             },
             "name": "viva",
             "subPackages": [
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "io"
                 },
@@ -306,13 +274,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "time"
                 },
                 {
                     "dependencies": {
-                        "viva:collections": ">=0.0.0"
+                        "viva:collections": "*"
                     },
                     "name": "types"
                 },
@@ -339,8 +307,8 @@
                 },
                 {
                     "dependencies": {
-                        "viva:file": ">=0.0.0",
-                        "viva:io": ">=0.0.0"
+                        "viva:file": "*",
+                        "viva:io": "*"
                     },
                     "name": "logging"
                 },
@@ -355,13 +323,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "mistflake"
                 },
                 {
                     "dependencies": {
-                        "viva:exceptions": ">=0.0.0"
+                        "viva:exceptions": "*"
                     },
                     "name": "collections"
                 },
@@ -370,13 +338,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "dvm"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "math"
                 }
@@ -386,33 +354,33 @@
         {
             "commitID": "0f94df8465da6c91f1eb2a5f0ce230e954a6abf4",
             "dependencies": {
-                "viva:collections": ">=0.0.0",
-                "viva:css": ">=0.0.0",
-                "viva:discord": ">=0.0.0",
-                "viva:dvm": ">=0.0.0",
-                "viva:exceptions": ">=0.0.0",
-                "viva:file": ">=0.0.0",
-                "viva:gui": ">=0.0.0",
-                "viva:html": ">=0.0.0",
-                "viva:http": ">=0.0.0",
-                "viva:io": ">=0.0.0",
-                "viva:json": ">=0.0.0",
-                "viva:logging": ">=0.0.0",
-                "viva:math": ">=0.0.0",
-                "viva:mistflake": ">=0.0.0",
-                "viva:path": ">=0.0.0",
-                "viva:requests": ">=0.0.0",
-                "viva:time": ">=0.0.0",
-                "viva:types": ">=0.0.0",
-                "viva:uuid": ">=0.0.0",
-                "viva:xml": ">=0.0.0",
-                "viva:yaml": ">=0.0.0"
+                "viva:collections": "*",
+                "viva:css": "*",
+                "viva:discord": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:gui": "*",
+                "viva:html": "*",
+                "viva:http": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:time": "*",
+                "viva:types": "*",
+                "viva:uuid": "*",
+                "viva:xml": "*",
+                "viva:yaml": "*"
             },
             "name": "viva",
             "subPackages": [
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "io"
                 },
@@ -424,13 +392,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "time"
                 },
                 {
                     "dependencies": {
-                        "viva:collections": ">=0.0.0"
+                        "viva:collections": "*"
                     },
                     "name": "types"
                 },
@@ -457,8 +425,8 @@
                 },
                 {
                     "dependencies": {
-                        "viva:file": ">=0.0.0",
-                        "viva:io": ">=0.0.0"
+                        "viva:file": "*",
+                        "viva:io": "*"
                     },
                     "name": "logging"
                 },
@@ -473,13 +441,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "mistflake"
                 },
                 {
                     "dependencies": {
-                        "viva:exceptions": ">=0.0.0"
+                        "viva:exceptions": "*"
                     },
                     "name": "collections"
                 },
@@ -488,13 +456,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "dvm"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "math"
                 }
@@ -504,34 +472,34 @@
         {
             "commitID": "715c960c301a7bf22cbf67a2c868d2752a33ca6d",
             "dependencies": {
-                "viva:collections": ">=0.0.0",
-                "viva:css": ">=0.0.0",
-                "viva:discord": ">=0.0.0",
-                "viva:dvm": ">=0.0.0",
-                "viva:exceptions": ">=0.0.0",
-                "viva:file": ">=0.0.0",
-                "viva:gui": ">=0.0.0",
-                "viva:html": ">=0.0.0",
-                "viva:http": ">=0.0.0",
-                "viva:io": ">=0.0.0",
-                "viva:json": ">=0.0.0",
-                "viva:logging": ">=0.0.0",
-                "viva:math": ">=0.0.0",
-                "viva:mistflake": ">=0.0.0",
-                "viva:path": ">=0.0.0",
-                "viva:requests": ">=0.0.0",
-                "viva:scrypt": ">=0.0.0",
-                "viva:time": ">=0.0.0",
-                "viva:types": ">=0.0.0",
-                "viva:uuid": ">=0.0.0",
-                "viva:xml": ">=0.0.0",
-                "viva:yaml": ">=0.0.0"
+                "viva:collections": "*",
+                "viva:css": "*",
+                "viva:discord": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:gui": "*",
+                "viva:html": "*",
+                "viva:http": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:scrypt": "*",
+                "viva:time": "*",
+                "viva:types": "*",
+                "viva:uuid": "*",
+                "viva:xml": "*",
+                "viva:yaml": "*"
             },
             "name": "viva",
             "subPackages": [
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "io"
                 },
@@ -543,13 +511,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "time"
                 },
                 {
                     "dependencies": {
-                        "viva:collections": ">=0.0.0"
+                        "viva:collections": "*"
                     },
                     "name": "types"
                 },
@@ -576,8 +544,8 @@
                 },
                 {
                     "dependencies": {
-                        "viva:file": ">=0.0.0",
-                        "viva:io": ">=0.0.0"
+                        "viva:file": "*",
+                        "viva:io": "*"
                     },
                     "name": "logging"
                 },
@@ -592,13 +560,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "mistflake"
                 },
                 {
                     "dependencies": {
-                        "viva:exceptions": ">=0.0.0"
+                        "viva:exceptions": "*"
                     },
                     "name": "collections"
                 },
@@ -607,13 +575,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "dvm"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "math"
                 },
@@ -626,34 +594,34 @@
         {
             "commitID": "98b381cd571562bc308a79323ff443760574a2e2",
             "dependencies": {
-                "viva:collections": ">=0.0.0",
-                "viva:css": ">=0.0.0",
-                "viva:discord": ">=0.0.0",
-                "viva:dvm": ">=0.0.0",
-                "viva:exceptions": ">=0.0.0",
-                "viva:file": ">=0.0.0",
-                "viva:gui": ">=0.0.0",
-                "viva:html": ">=0.0.0",
-                "viva:http": ">=0.0.0",
-                "viva:io": ">=0.0.0",
-                "viva:json": ">=0.0.0",
-                "viva:logging": ">=0.0.0",
-                "viva:math": ">=0.0.0",
-                "viva:mistflake": ">=0.0.0",
-                "viva:path": ">=0.0.0",
-                "viva:requests": ">=0.0.0",
-                "viva:scrypt": ">=0.0.0",
-                "viva:time": ">=0.0.0",
-                "viva:types": ">=0.0.0",
-                "viva:uuid": ">=0.0.0",
-                "viva:xml": ">=0.0.0",
-                "viva:yaml": ">=0.0.0"
+                "viva:collections": "*",
+                "viva:css": "*",
+                "viva:discord": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:gui": "*",
+                "viva:html": "*",
+                "viva:http": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:scrypt": "*",
+                "viva:time": "*",
+                "viva:types": "*",
+                "viva:uuid": "*",
+                "viva:xml": "*",
+                "viva:yaml": "*"
             },
             "name": "viva",
             "subPackages": [
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "io"
                 },
@@ -665,13 +633,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "time"
                 },
                 {
                     "dependencies": {
-                        "viva:collections": ">=0.0.0"
+                        "viva:collections": "*"
                     },
                     "name": "types"
                 },
@@ -698,8 +666,8 @@
                 },
                 {
                     "dependencies": {
-                        "viva:file": ">=0.0.0",
-                        "viva:io": ">=0.0.0"
+                        "viva:file": "*",
+                        "viva:io": "*"
                     },
                     "name": "logging"
                 },
@@ -714,13 +682,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "mistflake"
                 },
                 {
                     "dependencies": {
-                        "viva:exceptions": ">=0.0.0"
+                        "viva:exceptions": "*"
                     },
                     "name": "collections"
                 },
@@ -729,13 +697,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "dvm"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "math"
                 },
@@ -748,34 +716,34 @@
         {
             "commitID": "3496118187a400fb843930608dd177a64c5be92c",
             "dependencies": {
-                "viva:collections": ">=0.0.0",
-                "viva:css": ">=0.0.0",
-                "viva:discord": ">=0.0.0",
-                "viva:dvm": ">=0.0.0",
-                "viva:exceptions": ">=0.0.0",
-                "viva:file": ">=0.0.0",
-                "viva:gui": ">=0.0.0",
-                "viva:html": ">=0.0.0",
-                "viva:http": ">=0.0.0",
-                "viva:io": ">=0.0.0",
-                "viva:json": ">=0.0.0",
-                "viva:logging": ">=0.0.0",
-                "viva:math": ">=0.0.0",
-                "viva:mistflake": ">=0.0.0",
-                "viva:path": ">=0.0.0",
-                "viva:requests": ">=0.0.0",
-                "viva:scrypt": ">=0.0.0",
-                "viva:time": ">=0.0.0",
-                "viva:types": ">=0.0.0",
-                "viva:uuid": ">=0.0.0",
-                "viva:xml": ">=0.0.0",
-                "viva:yaml": ">=0.0.0"
+                "viva:collections": "*",
+                "viva:css": "*",
+                "viva:discord": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:gui": "*",
+                "viva:html": "*",
+                "viva:http": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:scrypt": "*",
+                "viva:time": "*",
+                "viva:types": "*",
+                "viva:uuid": "*",
+                "viva:xml": "*",
+                "viva:yaml": "*"
             },
             "name": "viva",
             "subPackages": [
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "io"
                 },
@@ -787,13 +755,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "time"
                 },
                 {
                     "dependencies": {
-                        "viva:collections": ">=0.0.0"
+                        "viva:collections": "*"
                     },
                     "name": "types"
                 },
@@ -820,8 +788,8 @@
                 },
                 {
                     "dependencies": {
-                        "viva:file": ">=0.0.0",
-                        "viva:io": ">=0.0.0"
+                        "viva:file": "*",
+                        "viva:io": "*"
                     },
                     "name": "logging"
                 },
@@ -836,13 +804,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "mistflake"
                 },
                 {
                     "dependencies": {
-                        "viva:exceptions": ">=0.0.0"
+                        "viva:exceptions": "*"
                     },
                     "name": "collections"
                 },
@@ -851,13 +819,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "dvm"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "math"
                 },
@@ -870,35 +838,35 @@
         {
             "commitID": "e99392c7a8b52938b13df3977f35f7278172d03a",
             "dependencies": {
-                "viva:collections": ">=0.0.0",
-                "viva:css": ">=0.0.0",
-                "viva:discord": ">=0.0.0",
-                "viva:docker": ">=0.0.0",
-                "viva:dvm": ">=0.0.0",
-                "viva:exceptions": ">=0.0.0",
-                "viva:file": ">=0.0.0",
-                "viva:gui": ">=0.0.0",
-                "viva:html": ">=0.0.0",
-                "viva:http": ">=0.0.0",
-                "viva:io": ">=0.0.0",
-                "viva:json": ">=0.0.0",
-                "viva:logging": ">=0.0.0",
-                "viva:math": ">=0.0.0",
-                "viva:mistflake": ">=0.0.0",
-                "viva:path": ">=0.0.0",
-                "viva:requests": ">=0.0.0",
-                "viva:scrypt": ">=0.0.0",
-                "viva:time": ">=0.0.0",
-                "viva:types": ">=0.0.0",
-                "viva:uuid": ">=0.0.0",
-                "viva:xml": ">=0.0.0",
-                "viva:yaml": ">=0.0.0"
+                "viva:collections": "*",
+                "viva:css": "*",
+                "viva:discord": "*",
+                "viva:docker": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:gui": "*",
+                "viva:html": "*",
+                "viva:http": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:scrypt": "*",
+                "viva:time": "*",
+                "viva:types": "*",
+                "viva:uuid": "*",
+                "viva:xml": "*",
+                "viva:yaml": "*"
             },
             "name": "viva",
             "subPackages": [
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "io"
                 },
@@ -910,13 +878,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "time"
                 },
                 {
                     "dependencies": {
-                        "viva:collections": ">=0.0.0"
+                        "viva:collections": "*"
                     },
                     "name": "types"
                 },
@@ -928,7 +896,7 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "json"
                 },
@@ -946,8 +914,8 @@
                 },
                 {
                     "dependencies": {
-                        "viva:file": ">=0.0.0",
-                        "viva:io": ">=0.0.0"
+                        "viva:file": "*",
+                        "viva:io": "*"
                     },
                     "name": "logging"
                 },
@@ -962,13 +930,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "mistflake"
                 },
                 {
                     "dependencies": {
-                        "viva:exceptions": ">=0.0.0"
+                        "viva:exceptions": "*"
                     },
                     "name": "collections"
                 },
@@ -977,13 +945,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "dvm"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "math"
                 },
@@ -992,7 +960,7 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "docker"
                 }
@@ -1002,35 +970,35 @@
         {
             "commitID": "bd6ce3995a06a0611ffe49998632c9ea5bff800e",
             "dependencies": {
-                "viva:collections": ">=0.0.0",
-                "viva:css": ">=0.0.0",
-                "viva:discord": ">=0.0.0",
-                "viva:docker": ">=0.0.0",
-                "viva:dvm": ">=0.0.0",
-                "viva:exceptions": ">=0.0.0",
-                "viva:file": ">=0.0.0",
-                "viva:gui": ">=0.0.0",
-                "viva:html": ">=0.0.0",
-                "viva:http": ">=0.0.0",
-                "viva:io": ">=0.0.0",
-                "viva:json": ">=0.0.0",
-                "viva:logging": ">=0.0.0",
-                "viva:math": ">=0.0.0",
-                "viva:mistflake": ">=0.0.0",
-                "viva:path": ">=0.0.0",
-                "viva:requests": ">=0.0.0",
-                "viva:scrypt": ">=0.0.0",
-                "viva:time": ">=0.0.0",
-                "viva:types": ">=0.0.0",
-                "viva:uuid": ">=0.0.0",
-                "viva:xml": ">=0.0.0",
-                "viva:yaml": ">=0.0.0"
+                "viva:collections": "*",
+                "viva:css": "*",
+                "viva:discord": "*",
+                "viva:docker": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:gui": "*",
+                "viva:html": "*",
+                "viva:http": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:scrypt": "*",
+                "viva:time": "*",
+                "viva:types": "*",
+                "viva:uuid": "*",
+                "viva:xml": "*",
+                "viva:yaml": "*"
             },
             "name": "viva",
             "subPackages": [
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "io"
                 },
@@ -1042,13 +1010,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "time"
                 },
                 {
                     "dependencies": {
-                        "viva:collections": ">=0.0.0"
+                        "viva:collections": "*"
                     },
                     "name": "types"
                 },
@@ -1060,7 +1028,7 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "json"
                 },
@@ -1078,8 +1046,8 @@
                 },
                 {
                     "dependencies": {
-                        "viva:file": ">=0.0.0",
-                        "viva:io": ">=0.0.0"
+                        "viva:file": "*",
+                        "viva:io": "*"
                     },
                     "name": "logging"
                 },
@@ -1094,13 +1062,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "mistflake"
                 },
                 {
                     "dependencies": {
-                        "viva:exceptions": ">=0.0.0"
+                        "viva:exceptions": "*"
                     },
                     "name": "collections"
                 },
@@ -1109,13 +1077,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "dvm"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "math"
                 },
@@ -1124,7 +1092,7 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "docker"
                 }
@@ -1134,35 +1102,35 @@
         {
             "commitID": "efdf9a8e6b04d1826b3b1ac9ee33d6d1b9714f20",
             "dependencies": {
-                "viva:collections": ">=0.0.0",
-                "viva:css": ">=0.0.0",
-                "viva:discord": ">=0.0.0",
-                "viva:docker": ">=0.0.0",
-                "viva:dvm": ">=0.0.0",
-                "viva:exceptions": ">=0.0.0",
-                "viva:file": ">=0.0.0",
-                "viva:gui": ">=0.0.0",
-                "viva:html": ">=0.0.0",
-                "viva:http": ">=0.0.0",
-                "viva:io": ">=0.0.0",
-                "viva:json": ">=0.0.0",
-                "viva:logging": ">=0.0.0",
-                "viva:math": ">=0.0.0",
-                "viva:mistflake": ">=0.0.0",
-                "viva:path": ">=0.0.0",
-                "viva:requests": ">=0.0.0",
-                "viva:scrypt": ">=0.0.0",
-                "viva:time": ">=0.0.0",
-                "viva:types": ">=0.0.0",
-                "viva:uuid": ">=0.0.0",
-                "viva:xml": ">=0.0.0",
-                "viva:yaml": ">=0.0.0"
+                "viva:collections": "*",
+                "viva:css": "*",
+                "viva:discord": "*",
+                "viva:docker": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:gui": "*",
+                "viva:html": "*",
+                "viva:http": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:scrypt": "*",
+                "viva:time": "*",
+                "viva:types": "*",
+                "viva:uuid": "*",
+                "viva:xml": "*",
+                "viva:yaml": "*"
             },
             "name": "viva",
             "subPackages": [
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "io"
                 },
@@ -1174,13 +1142,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "time"
                 },
                 {
                     "dependencies": {
-                        "viva:collections": ">=0.0.0"
+                        "viva:collections": "*"
                     },
                     "name": "types"
                 },
@@ -1192,7 +1160,7 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "json"
                 },
@@ -1210,8 +1178,8 @@
                 },
                 {
                     "dependencies": {
-                        "viva:file": ">=0.0.0",
-                        "viva:io": ">=0.0.0"
+                        "viva:file": "*",
+                        "viva:io": "*"
                     },
                     "name": "logging"
                 },
@@ -1226,13 +1194,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "mistflake"
                 },
                 {
                     "dependencies": {
-                        "viva:exceptions": ">=0.0.0"
+                        "viva:exceptions": "*"
                     },
                     "name": "collections"
                 },
@@ -1241,13 +1209,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "dvm"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "math"
                 },
@@ -1256,7 +1224,7 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "docker"
                 }
@@ -1266,35 +1234,35 @@
         {
             "commitID": "454f489f60c2d0b6206a31be34be2fc2c62f69c3",
             "dependencies": {
-                "viva:collections": ">=0.0.0",
-                "viva:css": ">=0.0.0",
-                "viva:discord": ">=0.0.0",
-                "viva:docker": ">=0.0.0",
-                "viva:dvm": ">=0.0.0",
-                "viva:exceptions": ">=0.0.0",
-                "viva:file": ">=0.0.0",
-                "viva:gui": ">=0.0.0",
-                "viva:html": ">=0.0.0",
-                "viva:http": ">=0.0.0",
-                "viva:io": ">=0.0.0",
-                "viva:json": ">=0.0.0",
-                "viva:logging": ">=0.0.0",
-                "viva:math": ">=0.0.0",
-                "viva:mistflake": ">=0.0.0",
-                "viva:path": ">=0.0.0",
-                "viva:requests": ">=0.0.0",
-                "viva:scrypt": ">=0.0.0",
-                "viva:time": ">=0.0.0",
-                "viva:types": ">=0.0.0",
-                "viva:uuid": ">=0.0.0",
-                "viva:xml": ">=0.0.0",
-                "viva:yaml": ">=0.0.0"
+                "viva:collections": "*",
+                "viva:css": "*",
+                "viva:discord": "*",
+                "viva:docker": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:gui": "*",
+                "viva:html": "*",
+                "viva:http": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:scrypt": "*",
+                "viva:time": "*",
+                "viva:types": "*",
+                "viva:uuid": "*",
+                "viva:xml": "*",
+                "viva:yaml": "*"
             },
             "name": "viva",
             "subPackages": [
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "io"
                 },
@@ -1306,13 +1274,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "time"
                 },
                 {
                     "dependencies": {
-                        "viva:collections": ">=0.0.0"
+                        "viva:collections": "*"
                     },
                     "name": "types"
                 },
@@ -1324,7 +1292,7 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "json"
                 },
@@ -1342,8 +1310,8 @@
                 },
                 {
                     "dependencies": {
-                        "viva:file": ">=0.0.0",
-                        "viva:io": ">=0.0.0"
+                        "viva:file": "*",
+                        "viva:io": "*"
                     },
                     "name": "logging"
                 },
@@ -1358,13 +1326,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "mistflake"
                 },
                 {
                     "dependencies": {
-                        "viva:exceptions": ">=0.0.0"
+                        "viva:exceptions": "*"
                     },
                     "name": "collections"
                 },
@@ -1373,13 +1341,13 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "dvm"
                 },
                 {
                     "dependencies": {
-                        "viva:types": ">=0.0.0"
+                        "viva:types": "*"
                     },
                     "name": "math"
                 },
@@ -1388,12 +1356,212 @@
                 },
                 {
                     "dependencies": {
-                        "viva:io": ">=0.0.0"
+                        "viva:io": "*"
                     },
                     "name": "docker"
                 }
             ],
             "version": "0.1.9-alpha"
+        },
+        {
+            "commitID": "ae14a590b6d68a7bf2b2f1c3ebe409d116dc18ad",
+            "dependencies": {
+                "viva:collections": "*",
+                "viva:docker": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:scrypt": "*",
+                "viva:time": "*",
+                "viva:types": "*"
+            },
+            "name": "viva",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "viva:types": "*"
+                    },
+                    "name": "io"
+                },
+                {
+                    "name": "file"
+                },
+                {
+                    "name": "path"
+                },
+                {
+                    "dependencies": {
+                        "viva:types": "*"
+                    },
+                    "name": "time"
+                },
+                {
+                    "dependencies": {
+                        "viva:collections": "*"
+                    },
+                    "name": "types"
+                },
+                {
+                    "name": "exceptions"
+                },
+                {
+                    "dependencies": {
+                        "viva:io": "*"
+                    },
+                    "name": "json"
+                },
+                {
+                    "dependencies": {
+                        "viva:file": "*",
+                        "viva:io": "*"
+                    },
+                    "name": "logging"
+                },
+                {
+                    "name": "requests"
+                },
+                {
+                    "dependencies": {
+                        "viva:types": "*"
+                    },
+                    "name": "mistflake"
+                },
+                {
+                    "dependencies": {
+                        "viva:exceptions": "*"
+                    },
+                    "name": "collections"
+                },
+                {
+                    "dependencies": {
+                        "viva:io": "*"
+                    },
+                    "name": "dvm"
+                },
+                {
+                    "dependencies": {
+                        "viva:types": "*"
+                    },
+                    "name": "math"
+                },
+                {
+                    "name": "scrypt"
+                },
+                {
+                    "dependencies": {
+                        "viva:io": "*"
+                    },
+                    "name": "docker"
+                }
+            ],
+            "version": "0.2.0-alpha"
+        },
+        {
+            "commitID": "aedf988024a747489233ad10d136dbfbd345719e",
+            "dependencies": {
+                "viva:collections": "*",
+                "viva:docker": "*",
+                "viva:dvm": "*",
+                "viva:exceptions": "*",
+                "viva:file": "*",
+                "viva:io": "*",
+                "viva:json": "*",
+                "viva:logging": "*",
+                "viva:math": "*",
+                "viva:mistflake": "*",
+                "viva:path": "*",
+                "viva:requests": "*",
+                "viva:scrypt": "*",
+                "viva:time": "*",
+                "viva:types": "*"
+            },
+            "name": "viva",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "viva:types": "*"
+                    },
+                    "name": "io"
+                },
+                {
+                    "name": "file"
+                },
+                {
+                    "name": "path"
+                },
+                {
+                    "dependencies": {
+                        "viva:types": "*"
+                    },
+                    "name": "time"
+                },
+                {
+                    "dependencies": {
+                        "viva:collections": "*"
+                    },
+                    "name": "types"
+                },
+                {
+                    "name": "exceptions"
+                },
+                {
+                    "dependencies": {
+                        "viva:io": "*"
+                    },
+                    "name": "json"
+                },
+                {
+                    "dependencies": {
+                        "viva:file": "*",
+                        "viva:io": "*"
+                    },
+                    "name": "logging"
+                },
+                {
+                    "name": "requests"
+                },
+                {
+                    "dependencies": {
+                        "viva:types": "*"
+                    },
+                    "name": "mistflake"
+                },
+                {
+                    "dependencies": {
+                        "viva:exceptions": "*"
+                    },
+                    "name": "collections"
+                },
+                {
+                    "dependencies": {
+                        "viva:io": "*"
+                    },
+                    "name": "dvm"
+                },
+                {
+                    "dependencies": {
+                        "viva:types": "*"
+                    },
+                    "name": "math"
+                },
+                {
+                    "name": "scrypt"
+                },
+                {
+                    "dependencies": {
+                        "viva:io": "*"
+                    },
+                    "name": "docker"
+                }
+            ],
+            "version": "0.2.1-alpha"
         }
     ]
 }

@@ -5,7 +5,7 @@
         "application.desktop.editor",
         "application.web.development"
     ],
-    "commitID": "870fbfeccb1bae85d9d2a790934f18cb55d0e6f5",
+    "commitID": "1c19fd232d9495168c85c985ef974837112fe4b5",
     "dateAdded": "2018-03-24T20:39:29",
     "description": "Microsoft Language Server Protocol library and D Server",
     "documentationURL": "",
@@ -43,9 +43,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.7.0"
             },
             "name": "serve-d",
@@ -79,6 +79,106 @@
             "version": "~0.7.4-hotfixes"
         },
         {
+            "commitID": "f814e69d5be50943767c26ce1ffe3e1422e56825",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.9.0",
+                "fuzzymatch": "~>1.0.0",
+                "libddoc": "0.8.0",
+                "rm-rf": "~>0.1.0",
+                "sdlfmt": "~>0.1.1",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>2.1"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": "~>3.20",
+                        "mir-ion": "~>2.1"
+                    },
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": "~>3.20",
+                        "mir-ion": "~>2.1",
+                        "serve-d:protocol": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "serverbase"
+                },
+                {
+                    "dependencies": {
+                        "dcd:common": ">=0.16.0-beta.1 <0.17.0-0"
+                    },
+                    "name": "dcd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "dfmt": "~>0.15.0",
+                        "dscanner": ">=0.16.0-beta.1 <0.17.0-0",
+                        "dub": "~>1.36.0",
+                        "emsi_containers": "0.9.0",
+                        "inifiled": "1.3.3",
+                        "libdparse": "~>0.23.0",
+                        "mir-algorithm": "~>3.20",
+                        "serve-d:dcd": {
+                            "path": ".."
+                        },
+                        "standardpaths": "0.8.2"
+                    },
+                    "name": "workspace-d"
+                }
+            ],
+            "version": "~ccdb"
+        },
+        {
             "commitID": "bf608dd7212767698ab8e20faa10e07d22ba0ea8",
             "configurations": [
                 {
@@ -103,9 +203,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.0-pre.15"
             },
             "name": "serve-d",
@@ -164,10 +264,10 @@
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
                 "sdlfmt": "~>0.1.1",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase-v2": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase-v2": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -257,13 +357,13 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest-optimized"
                 }
@@ -275,7 +375,7 @@
                 "libddoc": "0.7.2",
                 "painlessjson": "1.4.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
+                "serve-d:http": "*",
                 "workspace-d": "3.6.0-pre.5"
             },
             "name": "serve-d",
@@ -298,10 +398,10 @@
                 "libddoc": "0.6.1",
                 "painlessjson": "~>1.3.9",
                 "rm-rf": "~>0.1.0",
-                "serve-d:ct": ">=0.0.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:jsonrpc": ">=0.0.0",
-                "serve-d:logger": ">=0.0.0",
+                "serve-d:ct": "*",
+                "serve-d:http": "*",
+                "serve-d:jsonrpc": "*",
+                "serve-d:logger": "*",
                 "workspace-d": "3.4.0-pre5"
             },
             "name": "serve-d",
@@ -315,7 +415,7 @@
                 {
                     "dependencies": {
                         "painlessjson": "~>1.3.9",
-                        "serve-d:logger": ">=0.0.0"
+                        "serve-d:logger": "*"
                     },
                     "name": "jsonrpc"
                 },
@@ -353,10 +453,10 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -411,7 +511,7 @@
                         "inifiled": "1.3.3",
                         "libdparse": "0.19.0",
                         "painlessjson": "1.4.0",
-                        "serve-d:dcd": ">=0.0.0",
+                        "serve-d:dcd": "*",
                         "standardpaths": "0.8.2"
                     },
                     "name": "workspace-d"
@@ -443,10 +543,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -542,10 +642,10 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -641,10 +741,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -740,9 +840,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.0-pre.15"
             },
             "name": "serve-d",
@@ -788,7 +888,7 @@
             "version": "~workspaced-v3"
         },
         {
-            "commitID": "c13fd8707173968a96d6db2169a7e70cad205dbe",
+            "commitID": "bd968dc2ab7bc6591b885c0ef5a6892a46ff1a91",
             "configurations": [
                 {
                     "name": "executable"
@@ -813,10 +913,10 @@
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
                 "sdlfmt": "~>0.1.1",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -872,7 +972,7 @@
                     "dependencies": {
                         "dfmt": "~>0.15.0",
                         "dscanner": ">=0.16.0-beta.1 <0.17.0-0",
-                        "dub": "1.33.1",
+                        "dub": ">=1.38.0-beta.1 <1.39.0-0",
                         "emsi_containers": "0.9.0",
                         "inifiled": "1.3.3",
                         "libdparse": "~>0.23.0",
@@ -1003,7 +1103,7 @@
                 "libddoc": "0.6.1",
                 "painlessjson": "1.4.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
+                "serve-d:http": "*",
                 "workspace-d": "3.4.0-pre13"
             },
             "name": "serve-d",
@@ -1026,7 +1126,7 @@
                 "libddoc": "0.6.1",
                 "painlessjson": "1.4.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
+                "serve-d:http": "*",
                 "workspace-d": "3.4.0-pre13"
             },
             "name": "serve-d",
@@ -1049,7 +1149,7 @@
                 "libddoc": "0.6.1",
                 "painlessjson": "1.4.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
+                "serve-d:http": "*",
                 "workspace-d": "3.4.0"
             },
             "name": "serve-d",
@@ -1071,7 +1171,7 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 }
@@ -1083,7 +1183,7 @@
                 "libddoc": "0.7.0",
                 "painlessjson": "1.4.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
+                "serve-d:http": "*",
                 "workspace-d": "3.5.0-pre.9"
             },
             "name": "serve-d",
@@ -1105,7 +1205,7 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 }
@@ -1117,7 +1217,7 @@
                 "libddoc": "0.7.0",
                 "painlessjson": "1.4.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
+                "serve-d:http": "*",
                 "workspace-d": "3.5.0-pre.9"
             },
             "name": "serve-d",
@@ -1139,7 +1239,7 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 }
@@ -1151,7 +1251,7 @@
                 "libddoc": "0.7.0",
                 "painlessjson": "1.4.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
+                "serve-d:http": "*",
                 "workspace-d": "3.5.0"
             },
             "name": "serve-d",
@@ -1173,13 +1273,13 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest-optimized"
                 }
@@ -1190,9 +1290,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.3",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.0-pre.8"
             },
             "name": "serve-d",
@@ -1233,13 +1333,13 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest-optimized"
                 }
@@ -1250,9 +1350,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.3",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.0-pre.8"
             },
             "name": "serve-d",
@@ -1293,13 +1393,13 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest-optimized"
                 }
@@ -1310,9 +1410,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.3",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.0-pre.8"
             },
             "name": "serve-d",
@@ -1353,13 +1453,13 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest-optimized"
                 }
@@ -1370,9 +1470,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.3",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.0-pre.8"
             },
             "name": "serve-d",
@@ -1413,13 +1513,13 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest-optimized"
                 }
@@ -1430,9 +1530,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.3",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.0-pre.8"
             },
             "name": "serve-d",
@@ -1490,9 +1590,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.0-pre.12"
             },
             "name": "serve-d",
@@ -1550,9 +1650,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.0-pre.15"
             },
             "name": "serve-d",
@@ -1610,9 +1710,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.0"
             },
             "name": "serve-d",
@@ -1670,9 +1770,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.0"
             },
             "name": "serve-d",
@@ -1730,9 +1830,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.1"
             },
             "name": "serve-d",
@@ -1790,9 +1890,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.1"
             },
             "name": "serve-d",
@@ -1850,9 +1950,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.6.1"
             },
             "name": "serve-d",
@@ -1910,9 +2010,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.7.0"
             },
             "name": "serve-d",
@@ -1970,9 +2070,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.7.0"
             },
             "name": "serve-d",
@@ -2030,9 +2130,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.7.0"
             },
             "name": "serve-d",
@@ -2090,9 +2190,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.7.0"
             },
             "name": "serve-d",
@@ -2150,9 +2250,9 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.7.4",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
                 "workspace-d": "3.7.0"
             },
             "name": "serve-d",
@@ -2210,10 +2310,10 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -2310,10 +2410,10 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -2410,10 +2510,10 @@
                 "eventsystem": "~>1.2.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -2509,10 +2609,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -2607,10 +2707,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -2705,10 +2805,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -2803,10 +2903,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -2901,10 +3001,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -2999,10 +3099,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -3097,10 +3197,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -3195,10 +3295,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -3293,10 +3393,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -3391,10 +3491,10 @@
                 "emsi_containers": "0.9.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -3490,10 +3590,10 @@
                 "fuzzymatch": "~>1.0.0",
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -3590,10 +3690,10 @@
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
                 "sdlfmt": "~>0.1.1",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -3690,10 +3790,10 @@
                 "libddoc": "0.8.0",
                 "rm-rf": "~>0.1.0",
                 "sdlfmt": "~>0.1.1",
-                "serve-d:http": ">=0.0.0",
-                "serve-d:lsp": ">=0.0.0",
-                "serve-d:serverbase": ">=0.0.0",
-                "serve-d:workspace-d": ">=0.0.0"
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
             },
             "name": "serve-d",
             "subPackages": [
@@ -3763,6 +3863,206 @@
                 }
             ],
             "version": "0.8.0-beta.16"
+        },
+        {
+            "commitID": "8ca8e337fb72ca2ba026c3c2807a7fbd63f87e7b",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.9.0",
+                "fuzzymatch": "~>1.0.0",
+                "libddoc": "0.8.0",
+                "rm-rf": "~>0.1.0",
+                "sdlfmt": "~>0.1.1",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>2.1"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": "~>3.20",
+                        "mir-ion": "~>2.1"
+                    },
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": "~>3.20",
+                        "mir-ion": "~>2.1",
+                        "serve-d:protocol": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "serverbase"
+                },
+                {
+                    "dependencies": {
+                        "dcd:common": ">=0.16.0-beta.1 <0.17.0-0"
+                    },
+                    "name": "dcd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "dfmt": "~>0.15.0",
+                        "dscanner": ">=0.16.0-beta.1 <0.17.0-0",
+                        "dub": "~>1.36.0",
+                        "emsi_containers": "0.9.0",
+                        "inifiled": "1.3.3",
+                        "libdparse": "~>0.23.0",
+                        "mir-algorithm": "~>3.20",
+                        "serve-d:dcd": {
+                            "path": ".."
+                        },
+                        "standardpaths": "0.8.2"
+                    },
+                    "name": "workspace-d"
+                }
+            ],
+            "version": "0.8.0-beta.17"
+        },
+        {
+            "commitID": "1c19fd232d9495168c85c985ef974837112fe4b5",
+            "configurations": [
+                {
+                    "name": "executable"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest-optimized"
+                }
+            ],
+            "dependencies": {
+                "diet-complete": "~>0.0.3",
+                "emsi_containers": "0.9.0",
+                "fuzzymatch": "~>1.0.0",
+                "libddoc": "0.8.0",
+                "rm-rf": "~>0.1.0",
+                "sdlfmt": "~>0.1.1",
+                "serve-d:http": "*",
+                "serve-d:lsp": "*",
+                "serve-d:serverbase": "*",
+                "serve-d:workspace-d": "*"
+            },
+            "name": "serve-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "requests": "~>2.1"
+                    },
+                    "name": "http"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": "~>3.20",
+                        "mir-ion": "~>2.1"
+                    },
+                    "name": "protocol"
+                },
+                {
+                    "dependencies": {
+                        "mir-algorithm": "~>3.20",
+                        "mir-ion": "~>2.1",
+                        "serve-d:protocol": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "lsp"
+                },
+                {
+                    "dependencies": {
+                        "serve-d:lsp": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "serverbase"
+                },
+                {
+                    "dependencies": {
+                        "dcd:common": ">=0.16.0-beta.1 <0.17.0-0"
+                    },
+                    "name": "dcd"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "library"
+                        },
+                        {
+                            "dependencies": {
+                                "silly": "~>1.1.1"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "dfmt": "~>0.15.0",
+                        "dscanner": ">=0.16.0-beta.1 <0.17.0-0",
+                        "dub": ">=1.38.0-beta.1 <1.39.0-0",
+                        "emsi_containers": "0.9.0",
+                        "inifiled": "1.3.3",
+                        "libdparse": "~>0.23.0",
+                        "mir-algorithm": "~>3.20",
+                        "serve-d:dcd": {
+                            "path": ".."
+                        },
+                        "standardpaths": "0.8.2"
+                    },
+                    "name": "workspace-d"
+                }
+            ],
+            "version": "0.8.0-beta.18"
         }
     ]
 }

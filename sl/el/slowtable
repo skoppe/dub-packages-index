@@ -1,6 +1,8 @@
 {
-    "categories": [],
-    "commitID": "db593cb27977de43b0960a2e636bbb75ffae48f2",
+    "categories": [
+        "application.desktop"
+    ],
+    "commitID": "5d534b3e729cbedd2e7b6a2488b61ddaf2fafcb4",
     "dateAdded": "2023-08-12T16:18:36",
     "description": "timetable tools",
     "documentationURL": "",
@@ -14,49 +16,21 @@
     },
     "versions": [
         {
-            "commitID": "db593cb27977de43b0960a2e636bbb75ffae48f2",
-            "name": "slowtable",
-            "subPackages": [
+            "commitID": "5d534b3e729cbedd2e7b6a2488b61ddaf2fafcb4",
+            "configurations": [
                 {
-                    "name": "common"
+                    "name": "library"
                 },
                 {
-                    "dependencies": {
-                        "archive": "~>0.6.0",
-                        "dxml": "~>0.3.2",
-                        "slowtable:common": {
-                            "path": "..\/"
-                        },
-                        "utils": "~>0.7.1"
-                    },
-                    "name": "stparse"
-                },
-                {
-                    "dependencies": {
-                        "slowtable:common": {
-                            "path": "..\/"
-                        }
-                    },
-                    "name": "stfilter"
-                },
-                {
-                    "dependencies": {
-                        "slowtable:common": {
-                            "path": "..\/"
-                        },
-                        "utils": "~>0.7.1"
-                    },
-                    "name": "sthtml"
-                },
-                {
-                    "dependencies": {
-                        "slowtable:common": {
-                            "path": "..\/"
-                        }
-                    },
-                    "name": "stcomb"
+                    "name": "app"
                 }
             ],
+            "dependencies": {
+                "archive": "~>0.6.0",
+                "dxml": "~>0.3.2",
+                "utils": "~>0.8.0"
+            },
+            "name": "slowtable",
             "version": "~master"
         },
         {
@@ -91,7 +65,7 @@
                     "dependencies": {
                         "argparse": "~>1.3.0",
                         "ods": "~>0.0.2",
-                        "slowtable:common": ">=0.0.0",
+                        "slowtable:common": "*",
                         "utils": "~>0.7.1"
                     },
                     "name": "parser"
@@ -99,13 +73,13 @@
                 {
                     "dependencies": {
                         "argparse": "~>1.3.0",
-                        "slowtable:common": ">=0.0.0"
+                        "slowtable:common": "*"
                     },
                     "name": "filter"
                 },
                 {
                     "dependencies": {
-                        "slowtable:common": ">=0.0.0",
+                        "slowtable:common": "*",
                         "utils": "~>0.7.1"
                     },
                     "name": "tablemaker"
@@ -330,6 +304,170 @@
                 }
             ],
             "version": "2.3.2"
+        },
+        {
+            "commitID": "b8eed1db50d3a0125b9088ee11f39c2b9f1bc8d5",
+            "name": "slowtable",
+            "subPackages": [
+                {
+                    "name": "common"
+                },
+                {
+                    "dependencies": {
+                        "archive": "~>0.6.0",
+                        "dxml": "~>0.3.2",
+                        "slowtable:common": {
+                            "path": "..\/"
+                        },
+                        "utils": "~>0.7.1"
+                    },
+                    "name": "stparse"
+                },
+                {
+                    "dependencies": {
+                        "slowtable:common": {
+                            "path": "..\/"
+                        }
+                    },
+                    "name": "stfilter"
+                },
+                {
+                    "dependencies": {
+                        "slowtable:common": {
+                            "path": "..\/"
+                        },
+                        "utils": "~>0.7.1"
+                    },
+                    "name": "sthtml"
+                },
+                {
+                    "dependencies": {
+                        "slowtable:common": {
+                            "path": "..\/"
+                        },
+                        "utils": "~>0.7.1"
+                    },
+                    "name": "stdelab"
+                },
+                {
+                    "dependencies": {
+                        "slowtable:common": {
+                            "path": "..\/"
+                        },
+                        "utils": "~>0.8.0"
+                    },
+                    "name": "stcomb"
+                }
+            ],
+            "version": "2.4.0"
+        },
+        {
+            "commitID": "59556ee6d057e1f9dcdef3956873549a80d6d408",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "app"
+                }
+            ],
+            "dependencies": {
+                "archive": "~>0.6.0",
+                "dxml": "~>0.3.2",
+                "utils": "~>0.8.0"
+            },
+            "name": "slowtable",
+            "version": "2.5.0"
+        },
+        {
+            "commitID": "9402e364cfa40a02e34e3f02ab9c6ac558c827c1",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "app"
+                }
+            ],
+            "dependencies": {
+                "archive": "~>0.6.0",
+                "dxml": "~>0.3.2",
+                "utils": "~>0.8.0"
+            },
+            "name": "slowtable",
+            "version": "2.6.0"
+        },
+        {
+            "commitID": "e412ca232eade90958d5986ea84df61f6883f61c",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "app"
+                }
+            ],
+            "dependencies": {
+                "archive": "~>0.6.0",
+                "dxml": "~>0.3.2",
+                "utils": "~>0.8.0"
+            },
+            "name": "slowtable",
+            "version": "2.6.1"
+        },
+        {
+            "commitID": "96a832ea1da576e88d41c9b6443b2232d8cb5829",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "app"
+                }
+            ],
+            "dependencies": {
+                "archive": "~>0.6.0",
+                "dxml": "~>0.3.2",
+                "utils": "~>0.8.0"
+            },
+            "name": "slowtable",
+            "version": "2.6.2"
+        },
+        {
+            "commitID": "16ccf2c121529d0db3dfa210268433f4a2e79cd6",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "app"
+                }
+            ],
+            "dependencies": {
+                "archive": "~>0.6.0",
+                "dxml": "~>0.3.2",
+                "utils": "~>0.8.0"
+            },
+            "name": "slowtable",
+            "version": "2.7.0"
+        },
+        {
+            "commitID": "5d534b3e729cbedd2e7b6a2488b61ddaf2fafcb4",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "app"
+                }
+            ],
+            "dependencies": {
+                "archive": "~>0.6.0",
+                "dxml": "~>0.3.2",
+                "utils": "~>0.8.0"
+            },
+            "name": "slowtable",
+            "version": "2.7.1"
         }
     ]
 }

@@ -5,7 +5,7 @@
         "library.optimized_cpu",
         "library.data_structures"
     ],
-    "commitID": "69b22266f6c1e41846b37ce4b71a9eb32630b8a1",
+    "commitID": "76c23e9df79cf44bc1e2e820a4c4d714c9616e53",
     "dateAdded": "2023-12-30T16:21:40",
     "description": "A framework for writing webassembly single page applications",
     "documentationURL": "",
@@ -26,7 +26,7 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 },
@@ -170,7 +170,7 @@
                         },
                         {
                             "dependencies": {
-                                "unit-threaded": ">=0.0.0"
+                                "unit-threaded": "*"
                             },
                             "name": "unittest"
                         }
@@ -196,7 +196,7 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 }
@@ -224,7 +224,7 @@
                         },
                         {
                             "dependencies": {
-                                "unit-threaded": ">=0.0.0"
+                                "unit-threaded": "*"
                             },
                             "name": "unittest"
                         }
@@ -245,30 +245,35 @@
             "version": "~fixtests"
         },
         {
-            "commitID": "69b22266f6c1e41846b37ce4b71a9eb32630b8a1",
+            "commitID": "b283942fb0dda537f28ac536a57e08e803c01ee9",
             "configurations": [
                 {
+                    "dependencies": {
+                        "druntime-wasm": {
+                            "path": ".\/druntime-wasm"
+                        }
+                    },
                     "name": "library"
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 }
             ],
             "dependencies": {
                 "diet-wasm": {
-                    "path": ".\/diet-ng"
+                    "path": ".\/diet-wasm"
                 },
                 "fast-wasm": {
-                    "path": ".\/fast"
+                    "path": ".\/fast-wasm"
                 },
                 "memutils-wasm": {
-                    "path": ".\/memutils"
+                    "path": ".\/memutils-wasm"
                 },
                 "optional-wasm": {
-                    "path": ".\/optional"
+                    "path": ".\/optional-wasm"
                 }
             },
             "name": "libwasm",
@@ -280,7 +285,7 @@
                         },
                         {
                             "dependencies": {
-                                "unit-threaded": ">=0.0.0"
+                                "unit-threaded": "*"
                             },
                             "name": "unittest"
                         }
@@ -308,7 +313,7 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 }
@@ -336,7 +341,7 @@
                         },
                         {
                             "dependencies": {
-                                "unit-threaded": ">=0.0.0"
+                                "unit-threaded": "*"
                             },
                             "name": "unittest"
                         }
@@ -364,7 +369,7 @@
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 }
@@ -392,7 +397,7 @@
                         },
                         {
                             "dependencies": {
-                                "unit-threaded": ">=0.0.0"
+                                "unit-threaded": "*"
                             },
                             "name": "unittest"
                         }
@@ -413,14 +418,14 @@
             "version": "0.8.1"
         },
         {
-            "commitID": "69b22266f6c1e41846b37ce4b71a9eb32630b8a1",
+            "commitID": "71b188c0acbae3812d5ddd9919b2cefc6886f111",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
                     "dependencies": {
-                        "unit-threaded": ">=0.0.0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 }
@@ -448,7 +453,7 @@
                         },
                         {
                             "dependencies": {
-                                "unit-threaded": ">=0.0.0"
+                                "unit-threaded": "*"
                             },
                             "name": "unittest"
                         }
@@ -467,6 +472,62 @@
                 }
             ],
             "version": "0.8.2"
+        },
+        {
+            "commitID": "76c23e9df79cf44bc1e2e820a4c4d714c9616e53",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "unit-threaded": "*"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "diet-wasm": {
+                    "path": ".\/diet-ng"
+                },
+                "fast-wasm": {
+                    "path": ".\/fast"
+                },
+                "memutils-wasm": {
+                    "path": ".\/memutils"
+                },
+                "optional-wasm": {
+                    "path": ".\/optional"
+                }
+            },
+            "name": "libwasm",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "executable"
+                        },
+                        {
+                            "dependencies": {
+                                "unit-threaded": "*"
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "dependencies": {
+                        "asdf": "~>0.3.0",
+                        "openmethods": "~>1.1.1",
+                        "pegged": "0.4.4",
+                        "sdlang-d": "~>0.10.6",
+                        "wasm-reader": "~>0.0.4",
+                        "webidl-grammar": {
+                            "path": ".\/webidl-grammar"
+                        }
+                    },
+                    "name": "webidl"
+                }
+            ],
+            "version": "0.9.0"
         }
     ]
 }

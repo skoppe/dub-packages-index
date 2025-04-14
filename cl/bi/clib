@@ -1,0 +1,92 @@
+{
+    "categories": [],
+    "commitID": "26e072e6205d61333dd8335cf6df1245be4e5662",
+    "dateAdded": "2024-04-09T19:02:23",
+    "description": "c++ stdlib and utils for D with noGC",
+    "documentationURL": "",
+    "id": "6615749fccf251772ed0ed05",
+    "name": "clib",
+    "owner": "62236b69e0a857331dfbb839",
+    "repository": {
+        "kind": "github",
+        "owner": "al1-ce",
+        "project": "clib"
+    },
+    "versions": [
+        {
+            "commitID": "aa8857b92d2bec8c66709ce0a9bb109bb094a9cb",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "clib",
+            "version": "~master"
+        },
+        {
+            "commitID": "cd46f441b4aea6402d3369807ac009860ce87e61",
+            "name": "clib",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "clib": "*"
+                    },
+                    "name": "test"
+                }
+            ],
+            "version": "0.0.1"
+        },
+        {
+            "commitID": "426726ca1ddeb062f20d1f77d3b2ac665e60ff78",
+            "name": "clib",
+            "subPackages": [
+                {
+                    "name": "betterc"
+                },
+                {
+                    "dependencies": {
+                        "clib": "*"
+                    },
+                    "name": "test"
+                },
+                {
+                    "dependencies": {
+                        "clib:betterc": "*"
+                    },
+                    "name": "test_betterc"
+                }
+            ],
+            "version": "0.0.2"
+        },
+        {
+            "commitID": "0ad2fc70dba43598ede77e1448d15dbcbd57a838",
+            "name": "clib",
+            "subPackages": [
+                {
+                    "name": "betterc"
+                },
+                {
+                    "dependencies": {
+                        "clib": "*"
+                    },
+                    "name": "test_nogc"
+                },
+                {
+                    "dependencies": {
+                        "clib:betterc": "*"
+                    },
+                    "name": "test_betterc"
+                }
+            ],
+            "version": "0.0.3"
+        },
+        {
+            "commitID": "26e072e6205d61333dd8335cf6df1245be4e5662",
+            "name": "clib",
+            "version": "0.1.0"
+        }
+    ]
+}

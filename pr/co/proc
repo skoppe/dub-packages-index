@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "8a94b087f242b3eb6d7cb918dcfdea305d63aef7",
+    "commitID": "d745e29e76e65b7eac9c1a3ae16ea75437803032",
     "dateAdded": "2020-05-01T13:56:47",
     "description": "Library for managing running processes and trees of them",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "5bea02d9dd8913acdd60822496eee0f329114b5b",
+            "commitID": "d745e29e76e65b7eac9c1a3ae16ea75437803032",
             "configurations": [
                 {
                     "name": "library"
@@ -28,7 +28,7 @@
                 }
             ],
             "dependencies": {
-                "my": "~>0.0.33"
+                "mylib": "~>0.0.41"
             },
             "name": "proc",
             "version": "~master"
@@ -299,6 +299,26 @@
             },
             "name": "proc",
             "version": "1.1.4"
+        },
+        {
+            "commitID": "d745e29e76e65b7eac9c1a3ae16ea75437803032",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "beep": "~>0.0.2",
+                        "silly": "~>1.0.2"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "mylib": "~>0.0.41"
+            },
+            "name": "proc",
+            "version": "1.1.5"
         }
     ]
 }

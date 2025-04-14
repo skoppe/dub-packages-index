@@ -3,7 +3,7 @@
         "library.encoding",
         "library.i18n"
     ],
-    "commitID": "2a22354d18899548a986d79c8c7f2d84553a65d8",
+    "commitID": "728ab07b4274429ec5ee7df98f001b68a7b4ca17",
     "dateAdded": "2021-02-04T20:06:06",
     "description": "Encoding schemes based on IBM ICU",
     "documentationURL": "https:\/\/shoo.github.io\/icu4d",
@@ -17,7 +17,7 @@
     },
     "versions": [
         {
-            "commitID": "2a22354d18899548a986d79c8c7f2d84553a65d8",
+            "commitID": "728ab07b4274429ec5ee7df98f001b68a7b4ca17",
             "configurations": [
                 {
                     "name": "static"
@@ -42,7 +42,38 @@
                 }
             ],
             "dependencies": {
-                "bindbc-icu": "~>70.1.0"
+                "bindbc-icu": "~>74.2.0"
+            },
+            "name": "icu4d",
+            "version": "~apply_icu74"
+        },
+        {
+            "commitID": "e7862fdcb8b6569433b9c27b06384c6f5c315217",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "static-nolib"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "dynamic-nolib"
+                },
+                {
+                    "name": "both"
+                },
+                {
+                    "name": "unittest-debug"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "bindbc-icu": "~>74.2.0"
             },
             "name": "icu4d",
             "version": "~master"
@@ -170,6 +201,37 @@
             },
             "name": "icu4d",
             "version": "70.1.0"
+        },
+        {
+            "commitID": "728ab07b4274429ec5ee7df98f001b68a7b4ca17",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "static-nolib"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "dynamic-nolib"
+                },
+                {
+                    "name": "both"
+                },
+                {
+                    "name": "unittest-debug"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "bindbc-icu": "~>74.2.0"
+            },
+            "name": "icu4d",
+            "version": "74.2.0"
         }
     ]
 }

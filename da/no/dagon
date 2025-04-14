@@ -3,7 +3,7 @@
         "library.graphics",
         "library.gamedev"
     ],
-    "commitID": "72560f641141e37f8f173c108d9027e10006f33a",
+    "commitID": "4573cb0112adfe0c4def3dced1ce54a2ad3fa7c1",
     "dateAdded": "2017-04-05T18:23:40",
     "description": "3D game engine for D",
     "documentationURL": "",
@@ -80,54 +80,73 @@
             "version": "~dev_0.9"
         },
         {
-            "commitID": "72560f641141e37f8f173c108d9027e10006f33a",
+            "commitID": "eb8048575f5b0c3329f8745604eec18a0322792e",
             "configurations": [
                 {
                     "name": "library"
                 }
             ],
             "dependencies": {
-                "dlib": "~>1.3.0"
+                "bindbc-loader": "1.1.4",
+                "bindbc-opengl": "1.1.1",
+                "bindbc-sdl": "1.4.8",
+                "dlib": "~>1.3"
             },
             "name": "dagon",
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
-                    },
-                    "name": "stbi"
-                },
-                {
-                    "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "bindbc-freetype": "1.2.6",
+                        "dagon": "*"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0"
-                    },
-                    "name": "nuklear"
-                },
-                {
-                    "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0"
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
                     },
                     "name": "imgui"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
+                    },
+                    "name": "iqm"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "1.1.4",
+                        "dagon": "*"
+                    },
+                    "name": "ktx"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-lua": "0.6.1",
+                        "dagon": "*"
+                    },
+                    "name": "lua"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-newton": "0.3.1",
+                        "dagon": "*"
                     },
                     "name": "newton"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
                     },
-                    "name": "iqm"
+                    "name": "nuklear"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*"
+                    },
+                    "name": "stbi"
                 },
                 {
                     "name": "init-exec"
@@ -615,22 +634,22 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~master"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0",
+                        "dagon": "*",
+                        "dagon:ftfont": "*",
                         "dlib": "~master"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~master"
                     },
                     "name": "physics"
@@ -646,29 +665,29 @@
                 }
             ],
             "dependencies": {
-                "dagon:init-exec": ">=0.0.0",
+                "dagon:init-exec": "*",
                 "dlib": "~master"
             },
             "name": "dagon",
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~master"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0",
+                        "dagon": "*",
+                        "dagon:ftfont": "*",
                         "dlib": "~master"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~master"
                     },
                     "name": "physics"
@@ -693,29 +712,29 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~master"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0",
+                        "dagon": "*",
+                        "dagon:ftfont": "*",
                         "dlib": "~master"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~master"
                     },
                     "name": "physics"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~master"
                     },
                     "name": "iqm"
@@ -740,29 +759,29 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~master"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0",
+                        "dagon": "*",
+                        "dagon:ftfont": "*",
                         "dlib": "~master"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~master"
                     },
                     "name": "physics"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~master"
                     },
                     "name": "iqm"
@@ -787,29 +806,29 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "0.20.0-beta1"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0",
+                        "dagon": "*",
+                        "dagon:ftfont": "*",
                         "dlib": "0.20.0-beta1"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "0.20.0-beta1"
                     },
                     "name": "physics"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "0.20.0-beta1"
                     },
                     "name": "iqm"
@@ -834,29 +853,29 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.20.0"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0",
+                        "dagon": "*",
+                        "dagon:ftfont": "*",
                         "dlib": "~>0.20.0"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.20.0"
                     },
                     "name": "physics"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.20.0"
                     },
                     "name": "iqm"
@@ -881,36 +900,36 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.22.0"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0",
+                        "dagon": "*",
+                        "dagon:ftfont": "*",
                         "dlib": "~>0.22.0"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.22.0"
                     },
                     "name": "newton"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.22.0"
                     },
                     "name": "physics"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.22.0"
                     },
                     "name": "iqm"
@@ -935,36 +954,36 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0",
+                        "dagon": "*",
+                        "dagon:ftfont": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "newton"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "physics"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "iqm"
@@ -989,36 +1008,36 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0",
+                        "dagon": "*",
+                        "dagon:ftfont": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "newton"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "physics"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "iqm"
@@ -1043,36 +1062,36 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0",
+                        "dagon": "*",
+                        "dagon:ftfont": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "newton"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "physics"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>0.23.0"
                     },
                     "name": "iqm"
@@ -1097,36 +1116,36 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>1.0.0"
                     },
                     "name": "stbi"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>1.0.0"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0",
+                        "dagon": "*",
+                        "dagon:ftfont": "*",
                         "dlib": "~>1.0.0"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>1.0.0"
                     },
                     "name": "newton"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>1.0.0"
                     },
                     "name": "iqm"
@@ -1151,40 +1170,40 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>1.0.0"
                     },
                     "name": "stbi"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0"
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0"
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
                     },
                     "name": "imgui"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "newton"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "iqm"
                 },
@@ -1208,40 +1227,40 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
+                        "dagon": "*",
                         "dlib": "~>1.0.0"
                     },
                     "name": "stbi"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0"
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0"
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
                     },
                     "name": "imgui"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "newton"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "iqm"
                 },
@@ -1265,39 +1284,39 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "stbi"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0"
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0"
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
                     },
                     "name": "imgui"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "newton"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "iqm"
                 },
@@ -1321,39 +1340,39 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "stbi"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "ftfont"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0"
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
                     },
                     "name": "nuklear"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0",
-                        "dagon:ftfont": ">=0.0.0"
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
                     },
                     "name": "imgui"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "newton"
                 },
                 {
                     "dependencies": {
-                        "dagon": ">=0.0.0"
+                        "dagon": "*"
                     },
                     "name": "iqm"
                 },
@@ -1362,6 +1381,346 @@
                 }
             ],
             "version": "0.16.0"
+        },
+        {
+            "commitID": "d2324d4605f7e6ee4ea70ac6e013f641a32148d4",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>1.1",
+                "bindbc-opengl": "~>1.1",
+                "bindbc-sdl": "~>1.4",
+                "dlib": "~>1.3"
+            },
+            "name": "dagon",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-freetype": "~>1.2",
+                        "dagon": "*"
+                    },
+                    "name": "ftfont"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
+                    },
+                    "name": "imgui"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*"
+                    },
+                    "name": "iqm"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-lua": "~>0.6",
+                        "dagon": "*"
+                    },
+                    "name": "lua"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-newton": "~>0.3",
+                        "dagon": "*"
+                    },
+                    "name": "newton"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
+                    },
+                    "name": "nuklear"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*"
+                    },
+                    "name": "stbi"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.17.0"
+        },
+        {
+            "commitID": "ca3a85a12de88be5f8cf8601a91c199bdb85aa25",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>1.1",
+                "bindbc-opengl": "~>1.1",
+                "bindbc-sdl": "~>1.4",
+                "dlib": "~>1.3"
+            },
+            "name": "dagon",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-freetype": "~>1.2",
+                        "dagon": "*"
+                    },
+                    "name": "ftfont"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
+                    },
+                    "name": "imgui"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*"
+                    },
+                    "name": "iqm"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-lua": "~>0.6",
+                        "dagon": "*"
+                    },
+                    "name": "lua"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-newton": "~>0.3",
+                        "dagon": "*"
+                    },
+                    "name": "newton"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
+                    },
+                    "name": "nuklear"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*"
+                    },
+                    "name": "stbi"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.17.1"
+        },
+        {
+            "commitID": "8d59c00ef0c54a903c7938a3f02d9c03a5d8cd40",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "1.1.4",
+                "bindbc-opengl": "1.1.1",
+                "bindbc-sdl": "1.4.8",
+                "dlib": "~>1.3"
+            },
+            "name": "dagon",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-freetype": "1.2.6",
+                        "dagon": "*"
+                    },
+                    "name": "ftfont"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
+                    },
+                    "name": "imgui"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*"
+                    },
+                    "name": "iqm"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-lua": "0.6.1",
+                        "dagon": "*"
+                    },
+                    "name": "lua"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-newton": "0.3.1",
+                        "dagon": "*"
+                    },
+                    "name": "newton"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
+                    },
+                    "name": "nuklear"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*"
+                    },
+                    "name": "stbi"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.18.0"
+        },
+        {
+            "commitID": "e5f1e7af3c90376e32069eb4f50a4ddf57a39b0d",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "1.1.4",
+                "bindbc-opengl": "1.1.1",
+                "bindbc-sdl": "1.4.8",
+                "dlib": "~>1.3"
+            },
+            "name": "dagon",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-freetype": "1.2.6",
+                        "dagon": "*"
+                    },
+                    "name": "ftfont"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
+                    },
+                    "name": "imgui"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*"
+                    },
+                    "name": "iqm"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-lua": "0.6.1",
+                        "dagon": "*"
+                    },
+                    "name": "lua"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-newton": "0.3.1",
+                        "dagon": "*"
+                    },
+                    "name": "newton"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
+                    },
+                    "name": "nuklear"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*"
+                    },
+                    "name": "stbi"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.19.0"
+        },
+        {
+            "commitID": "4573cb0112adfe0c4def3dced1ce54a2ad3fa7c1",
+            "configurations": [
+                {
+                    "name": "library"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "1.1.4",
+                "bindbc-opengl": "1.1.1",
+                "bindbc-sdl": "1.4.8",
+                "dlib": "~>1.3"
+            },
+            "name": "dagon",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bindbc-freetype": "1.2.6",
+                        "dagon": "*"
+                    },
+                    "name": "ftfont"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
+                    },
+                    "name": "imgui"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*"
+                    },
+                    "name": "iqm"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-lua": "0.6.1",
+                        "dagon": "*"
+                    },
+                    "name": "lua"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-newton": "0.3.1",
+                        "dagon": "*"
+                    },
+                    "name": "newton"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*",
+                        "dagon:ftfont": "*"
+                    },
+                    "name": "nuklear"
+                },
+                {
+                    "dependencies": {
+                        "dagon": "*"
+                    },
+                    "name": "stbi"
+                },
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.20.0"
         }
     ]
 }

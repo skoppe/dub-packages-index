@@ -5,7 +5,7 @@
         "library.vibed",
         "library.generic"
     ],
-    "commitID": "bb1527309c8a4cb647e08a21882788c955f3e83d",
+    "commitID": "3b21cac08f7d53c914ace28772052fca7016d8aa",
     "dateAdded": "2017-04-03T01:03:09",
     "description": "Fluent assertions done right",
     "documentationURL": "http:\/\/fluentasserts.szabobogdan.com\/",
@@ -19,21 +19,25 @@
     },
     "versions": [
         {
-            "commitID": "bb1527309c8a4cb647e08a21882788c955f3e83d",
+            "commitID": "3b21cac08f7d53c914ace28772052fca7016d8aa",
             "configurations": [
                 {
                     "name": "library"
                 },
                 {
-                    "name": "trial"
+                    "dependencies": {
+                        "silly": ">=1.2.0-dev.2 <1.3.0-0"
+                    },
+                    "name": "unittest"
                 }
             ],
             "dependencies": {
                 "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
+                "either": "~>1.1.3",
                 "libdparse": "~>0.20.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -42,7 +46,7 @@
         {
             "commitID": "82329c4482d732685d5f5aa5497c369090ddd684",
             "dependencies": {
-                "vibe-d": ">=0.0.0"
+                "vibe-d": "*"
             },
             "name": "fluent-asserts",
             "version": "0.2.0"
@@ -50,7 +54,7 @@
         {
             "commitID": "cc46766372b0abb5a3d01ee13bad2ed9e9d683fc",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -59,9 +63,9 @@
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -71,7 +75,7 @@
         {
             "commitID": "78b07e9d1264b04b6bb1b3eae63fc8ef982c9759",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -83,17 +87,17 @@
                         },
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -103,7 +107,7 @@
         {
             "commitID": "7ac16403fe1a919beeb84a025f5ba9e0e179c468",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -115,17 +119,17 @@
                         },
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -135,7 +139,7 @@
         {
             "commitID": "d4a75b5814aa43faf3f4835d63fb196f867d466a",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -148,17 +152,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -168,7 +172,7 @@
         {
             "commitID": "8a2bafcfe918687a5ed13f3054c48e2c2e09f30b",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -181,17 +185,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -201,7 +205,7 @@
         {
             "commitID": "17597d271d9d17cea412faf29f7743aac0b8a7ba",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -210,17 +214,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -230,7 +234,7 @@
         {
             "commitID": "994d6ee0d1615da1f04dbe56753cc475efc938da",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -239,17 +243,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -259,7 +263,7 @@
         {
             "commitID": "d9ef201aa9534ccd48495c4edcfafc3ce22f51df",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -268,17 +272,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -288,7 +292,7 @@
         {
             "commitID": "1af85b8d0dc6d2cd22cc2ed644d87af864e8f473",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -297,17 +301,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -317,7 +321,7 @@
         {
             "commitID": "b362c78730302c353abc1e04a198d098bef413b6",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -326,17 +330,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -346,7 +350,7 @@
         {
             "commitID": "08c93684ef4d65c8c730016a5bd1545e5de9c296",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -355,17 +359,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -375,7 +379,7 @@
         {
             "commitID": "9159dcecc41fc68473c6042abd7a73c4e0177a0a",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -384,17 +388,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -404,7 +408,7 @@
         {
             "commitID": "094406ab3b2bac197658ed2f1dc74d33ca51d3a9",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -413,17 +417,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -433,7 +437,7 @@
         {
             "commitID": "d479eb18bf98105f7cb114780287a3fdb4c4ea02",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -442,17 +446,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -462,7 +466,7 @@
         {
             "commitID": "5471e316b616326d82b005a56a576b5f27a03455",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -471,17 +475,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -491,7 +495,7 @@
         {
             "commitID": "c4fdfff664a314858c03dca18f9d5e84e646a930",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -500,17 +504,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -520,7 +524,7 @@
         {
             "commitID": "5fe32ef14600126a85c1100c2b8f33ae5a7e89fb",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -529,17 +533,17 @@
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -549,7 +553,7 @@
         {
             "commitID": "cf24b887d59daa50275544e0f381fcee84e4a412",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -559,17 +563,17 @@
                         "libdparse": "~>0.7.1",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -579,7 +583,7 @@
         {
             "commitID": "6db05b16d8a9c5b40d4f148187b966ec963506df",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -589,17 +593,17 @@
                         "libdparse": "~>0.7.1",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -609,7 +613,7 @@
         {
             "commitID": "ede629dec4df5b1ecf1a802dbf77c68273b7a66d",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -619,17 +623,17 @@
                         "libdparse": "~>0.7.1",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -639,7 +643,7 @@
         {
             "commitID": "fe12bffc0b625c3cfad9cf132dcf4468bcd61eaa",
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -649,17 +653,17 @@
                         "libdparse": "~>0.7.1",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -672,17 +676,17 @@
                 {
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
-                        "fluent-asserts:core": ">=0.0.0",
+                        "fluent-asserts:core": "*",
                         "libdparse": "~>0.7.1",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
             ],
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -692,17 +696,17 @@
                         "libdparse": "~>0.7.1",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -714,24 +718,24 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0"
+                        "fluent-asserts:core": "*"
                     },
                     "name": "library"
                 },
                 {
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
-                        "fluent-asserts:core": ">=0.0.0",
+                        "fluent-asserts:core": "*",
                         "libdparse": ">=0.7.2-alpha.3 <0.8.0-0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
             ],
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -741,17 +745,17 @@
                         "libdparse": ">=0.7.2-alpha.3 <0.8.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -763,24 +767,24 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0"
+                        "fluent-asserts:core": "*"
                     },
                     "name": "library"
                 },
                 {
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
-                        "fluent-asserts:core": ">=0.0.0",
+                        "fluent-asserts:core": "*",
                         "libdparse": ">=0.7.2-alpha.3 <0.8.0-0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
             ],
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -790,17 +794,17 @@
                         "libdparse": ">=0.7.2-alpha.3 <0.8.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -812,24 +816,24 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0"
+                        "fluent-asserts:core": "*"
                     },
                     "name": "library"
                 },
                 {
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
-                        "fluent-asserts:core": ">=0.0.0",
+                        "fluent-asserts:core": "*",
                         "libdparse": ">=0.7.2-alpha.3 <0.8.0-0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
             ],
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -839,17 +843,17 @@
                         "libdparse": ">=0.7.2-alpha.3 <0.8.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -861,24 +865,24 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0"
+                        "fluent-asserts:core": "*"
                     },
                     "name": "library"
                 },
                 {
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.2 <0.1.0-0",
-                        "fluent-asserts:core": ">=0.0.0",
+                        "fluent-asserts:core": "*",
                         "libdparse": ">=0.7.2-alpha.3 <0.8.0-0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
             ],
             "dependencies": {
-                "fluent-asserts:core": ">=0.0.0"
+                "fluent-asserts:core": "*"
             },
             "name": "fluent-asserts",
             "subPackages": [
@@ -888,17 +892,17 @@
                         "libdparse": ">=0.7.2-alpha.3 <0.8.0-0",
                         "unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "fluent-asserts:core": ">=0.0.0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "fluent-asserts:core": "*",
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "vibe"
                 }
@@ -915,9 +919,9 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -927,15 +931,15 @@
                 "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -944,9 +948,9 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "core"
                 }
@@ -963,9 +967,9 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -975,15 +979,15 @@
                 "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1008,10 +1012,10 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
-                        "openssl": ">=0.0.0",
+                        "openssl": "*",
                         "trial:lifecycle-core": "0.7.0-alpha.1",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1021,15 +1025,15 @@
                 "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1054,10 +1058,10 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
-                        "openssl": ">=0.0.0",
+                        "openssl": "*",
                         "trial:lifecycle-core": "0.7.0-alpha.1",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1067,15 +1071,15 @@
                 "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1100,10 +1104,10 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
-                        "openssl": ">=0.0.0",
+                        "openssl": "*",
                         "trial:lifecycle-core": "0.7.0-alpha.3",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1113,15 +1117,15 @@
                 "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1146,10 +1150,10 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
-                        "openssl": ">=0.0.0",
+                        "openssl": "*",
                         "trial:lifecycle-core": "0.7.0-alpha.3",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1159,15 +1163,15 @@
                 "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1192,10 +1196,10 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
-                        "openssl": ">=0.0.0",
+                        "openssl": "*",
                         "trial:lifecycle-core": ">=0.7.0-alpha.5",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1205,15 +1209,15 @@
                 "libdparse": ">=0.8.0-alpha.5 <0.9.0-0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1238,10 +1242,10 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": "~>0.8.0",
-                        "openssl": ">=0.0.0",
+                        "openssl": "*",
                         "trial:lifecycle-core": ">=0.7.0-alpha.5",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1251,15 +1255,15 @@
                 "libdparse": "~>0.8.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1284,10 +1288,10 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": "~>0.8.0",
-                        "openssl": ">=0.0.0",
+                        "openssl": "*",
                         "trial:lifecycle-core": ">=0.7.0-alpha.5",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1297,15 +1301,15 @@
                 "libdparse": "~>0.8.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1330,10 +1334,10 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": "~>0.8.0",
-                        "openssl": ">=0.0.0",
+                        "openssl": "*",
                         "trial:lifecycle-core": ">=0.7.0-alpha.5",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1343,15 +1347,15 @@
                 "libdparse": "~>0.8.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1376,9 +1380,9 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": "~>0.8.7",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1388,15 +1392,15 @@
                 "libdparse": "~>0.8.7",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1412,9 +1416,9 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": "~>0.8.7",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1424,15 +1428,15 @@
                 "libdparse": "~>0.8.7",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1448,9 +1452,9 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": "~>0.8.7",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1460,15 +1464,15 @@
                 "libdparse": "~>0.8.7",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1484,9 +1488,9 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": "~>0.8.7",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1496,15 +1500,15 @@
                 "libdparse": "~>0.8.7",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1520,9 +1524,9 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": "~>0.8.7",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1532,15 +1536,15 @@
                 "libdparse": "~>0.8.7",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1556,9 +1560,9 @@
                     "dependencies": {
                         "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                         "libdparse": "~>0.8.7",
-                        "openssl": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0",
-                        "vibe-d:http": ">=0.0.0"
+                        "openssl": "*",
+                        "vibe-d:data": "*",
+                        "vibe-d:http": "*"
                     },
                     "name": "trial"
                 }
@@ -1568,15 +1572,15 @@
                 "libdparse": "~>0.8.7",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:data": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "vibe-d:http": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1597,7 +1601,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1617,12 +1621,12 @@
                 "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
                 "fluent-asserts-vibe": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 },
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1643,7 +1647,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1664,7 +1668,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1685,7 +1689,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1706,7 +1710,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1727,7 +1731,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1748,7 +1752,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1769,7 +1773,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1790,7 +1794,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1811,7 +1815,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1832,7 +1836,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1853,7 +1857,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1874,7 +1878,7 @@
                 "libdparse": "~>0.14.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1895,7 +1899,7 @@
                 "libdparse": "~>0.18.1",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1916,7 +1920,7 @@
                 "libdparse": "~>0.18.1",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1937,7 +1941,7 @@
                 "libdparse": "~>0.20.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1958,7 +1962,7 @@
                 "libdparse": "~>0.20.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
@@ -1979,11 +1983,36 @@
                 "libdparse": "~>0.20.0",
                 "unit-threaded": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "fluent-asserts",
             "version": "1.0.0"
+        },
+        {
+            "commitID": "3b21cac08f7d53c914ace28772052fca7016d8aa",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "silly": ">=1.2.0-dev.2 <1.3.0-0"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "ddmp": ">=0.0.1-0.dev.3 <0.1.0-0",
+                "either": "~>1.1.3",
+                "libdparse": "~>0.20.0",
+                "unit-threaded": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "fluent-asserts",
+            "version": "1.0.1"
         }
     ]
 }

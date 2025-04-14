@@ -2,7 +2,7 @@
     "categories": [
         "library"
     ],
-    "commitID": "03a8c2934695bfdfb6c9a765f5a399ae0392ebd3",
+    "commitID": "34ae2a7469c55b918a51cb846e5a44f932891238",
     "dateAdded": "2018-09-18T19:03:48",
     "description": "Safe concurrency for D",
     "documentationURL": "",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "03a8c2934695bfdfb6c9a765f5a399ae0392ebd3",
+            "commitID": "34ae2a7469c55b918a51cb846e5a44f932891238",
             "configurations": [
                 {
                     "name": "default"
@@ -26,9 +26,9 @@
                 },
                 {
                     "dependencies": {
-                        "automem": ">=0.0.0",
-                        "test_allocator": ">=0.0.0",
-                        "unit-threaded": ">=0.0.0"
+                        "automem": "*",
+                        "test_allocator": "*",
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 }
@@ -91,15 +91,36 @@
                 },
                 {
                     "dependencies": {
-                        "automem": ">=0.0.0",
-                        "test_allocator": ">=0.0.0",
-                        "unit-threaded": ">=0.0.0"
+                        "automem": "*",
+                        "test_allocator": "*",
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 }
             ],
             "name": "fearless",
             "version": "0.0.3"
+        },
+        {
+            "commitID": "34ae2a7469c55b918a51cb846e5a44f932891238",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "example"
+                },
+                {
+                    "dependencies": {
+                        "automem": "*",
+                        "test_allocator": "*",
+                        "unit-threaded": "*"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "fearless",
+            "version": "0.0.4"
         }
     ]
 }

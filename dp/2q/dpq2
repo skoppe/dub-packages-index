@@ -2,7 +2,7 @@
     "categories": [
         "library.database"
     ],
-    "commitID": "c7c745ccceb8452837523a2c7c7882fb6ae6b1b2",
+    "commitID": "3f87712e03dfa7e14e7f8811ce2d0f19298c86be",
     "dateAdded": "2013-09-14T10:32:29",
     "description": "Medium-level binding to the PostgreSQL database",
     "documentationURL": "",
@@ -15,131 +15,6 @@
         "project": "dpq2"
     },
     "versions": [
-        {
-            "commitID": "7056b42fbbce1951a7cc412bc24dbd4a1e1d8c97",
-            "configurations": [
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "dynamic"
-                },
-                {
-                    "name": "native"
-                }
-            ],
-            "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
-                "vibe-core": "~>1.4.0",
-                "vibe-d:data": "~>0.8.3"
-            },
-            "name": "dpq2",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
-                    },
-                    "name": "integration_tests"
-                },
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
-                    },
-                    "name": "integration_tests_native_only"
-                },
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0"
-                    },
-                    "name": "example"
-                }
-            ],
-            "version": "~add_native_connection"
-        },
-        {
-            "commitID": "86299f3d453d330e1b8b2bce4599f9b18bce4a0d",
-            "configurations": [
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "dynamic"
-                }
-            ],
-            "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
-                "money": "~>3.0.2",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
-            },
-            "name": "dpq2",
-            "subPackages": [
-                {
-                    "configurations": [
-                        {
-                            "name": "dynamic"
-                        },
-                        {
-                            "name": "static"
-                        }
-                    ],
-                    "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
-                    },
-                    "name": "integration_tests"
-                },
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0"
-                    },
-                    "name": "example"
-                }
-            ],
-            "version": "~adds_portals"
-        },
-        {
-            "commitID": "1c8eaf0ac9380adccbb44fce4b9c14387d03d15e",
-            "configurations": [
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "dynamic"
-                }
-            ],
-            "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
-                "money": "~>3.0.2",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
-            },
-            "name": "dpq2",
-            "subPackages": [
-                {
-                    "configurations": [
-                        {
-                            "name": "dynamic"
-                        },
-                        {
-                            "name": "static"
-                        }
-                    ],
-                    "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
-                    },
-                    "name": "integration_tests"
-                },
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0"
-                    },
-                    "name": "example"
-                }
-            ],
-            "version": "~adds_remaining_time_types"
-        },
         {
             "commitID": "6e47d4d033fb1f163f1e0fd2160fd396559b8a9e",
             "configurations": [
@@ -173,16 +48,16 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6",
-                        "vibe-d:data": ">=0.0.0"
+                        "vibe-d:data": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
                     },
                     "name": "example"
                 }
@@ -190,102 +65,53 @@
             "version": "~adds_std_variant_support"
         },
         {
-            "commitID": "c13fd5c841902d7ec62047abdd68b24b05e429e8",
+            "commitID": "dd945497e19369a0c2d9bc136adf155e324f0ff2",
             "configurations": [
                 {
                     "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
                 },
                 {
                     "name": "dynamic"
                 }
             ],
             "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
-                "money": "~>2.3.0",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.9.0-0"
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
             },
             "name": "dpq2",
             "subPackages": [
                 {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-serialization": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
                     },
                     "name": "example"
                 }
             ],
-            "version": "~bounds_check"
-        },
-        {
-            "commitID": "8740a0fcfd561f336e33ca424f973bcd99f8e51d",
-            "configurations": [
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "dynamic"
-                }
-            ],
-            "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.9.0-0"
-            },
-            "name": "dpq2",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
-                    },
-                    "name": "integration_tests"
-                },
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0"
-                    },
-                    "name": "example"
-                }
-            ],
-            "version": "~bounds_checks_alert"
-        },
-        {
-            "commitID": "1c65946a0f6c31de18b1585b5cc689f9b4b85af6",
-            "configurations": [
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "dynamic"
-                }
-            ],
-            "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
-                "money": "~>2.3.0",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.9.0-0"
-            },
-            "name": "dpq2",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
-                    },
-                    "name": "integration_tests"
-                },
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0"
-                    },
-                    "name": "example"
-                }
-            ],
-            "version": "~bulk_copy"
+            "version": "~array_lbound"
         },
         {
             "commitID": "631bfee58bc54471d5237caac0588d111e41b8dc",
@@ -320,19 +146,68 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
             ],
             "version": "~ci_fixin"
+        },
+        {
+            "commitID": "160d7cf4a7f9554a33710a48d0220aa1c7f4364b",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~cov_text_run_fix"
         },
         {
             "commitID": "6e33afa87e47483d62c4eb68971f969048a8b7a2",
@@ -367,16 +242,16 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6",
-                        "vibe-d:data": ">=0.0.0"
+                        "vibe-d:data": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
                     },
                     "name": "example"
                 }
@@ -416,14 +291,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -431,19 +306,22 @@
             "version": "~dyn_unm_adds_to_ci"
         },
         {
-            "commitID": "5d24d75cb890607eb6e2eb9a4bbd08936efb3c3a",
+            "commitID": "e1f9ed2384abe9194656dbe81334aede192660f0",
             "configurations": [
                 {
                     "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
                 },
                 {
                     "name": "dynamic"
                 }
             ],
             "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
+                "derelict-pq": "~>4.0.0",
                 "money": "~>3.0.2",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
+                "vibe-d:data": ">=0.8.3-beta.1 <0.11.0"
             },
             "name": "dpq2",
             "subPackages": [
@@ -453,23 +331,126 @@
                             "name": "dynamic"
                         },
                         {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
                             "name": "static"
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-d:data": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
                     },
                     "name": "example"
                 }
             ],
-            "version": "~dynamic_loader"
+            "version": "~dyn_unm_fix"
+        },
+        {
+            "commitID": "a9469deda6416dbd081055e4055a4972d5b9df51",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~dyn_unm_fix_bak"
+        },
+        {
+            "commitID": "8f73ecac48e63b04db36f7b29a5730675b2b48a5",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~fix_ver16"
         },
         {
             "commitID": "a388691f1cae757e812d3336b51af4661f5977c6",
@@ -513,79 +494,6 @@
             "version": "~gh-pages"
         },
         {
-            "commitID": "b78e9a770323364969bdb2dde3f2c92de253663c",
-            "configurations": [
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "dynamic"
-                }
-            ],
-            "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
-                "money": "~>3.0.2",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
-            },
-            "name": "dpq2",
-            "subPackages": [
-                {
-                    "configurations": [
-                        {
-                            "name": "dynamic"
-                        },
-                        {
-                            "name": "static"
-                        }
-                    ],
-                    "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
-                    },
-                    "name": "integration_tests"
-                },
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0"
-                    },
-                    "name": "example"
-                }
-            ],
-            "version": "~improve_conn"
-        },
-        {
-            "commitID": "7aedee2190da3ee437b2c1f96f060ade881732c7",
-            "configurations": [
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "dynamic"
-                }
-            ],
-            "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.9.0-0"
-            },
-            "name": "dpq2",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
-                    },
-                    "name": "integration_tests"
-                },
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0"
-                    },
-                    "name": "example"
-                }
-            ],
-            "version": "~improves_arrays"
-        },
-        {
             "commitID": "4e74588db162da1202b55773226fca1dbed5becb",
             "configurations": [
                 {
@@ -618,16 +526,16 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6",
-                        "vibe-d:data": ">=0.0.0"
+                        "vibe-d:data": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
                     },
                     "name": "example"
                 }
@@ -667,14 +575,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -682,19 +590,22 @@
             "version": "~instant_fix"
         },
         {
-            "commitID": "169829474ce1e194427ddb4664aaa82ac9d59819",
+            "commitID": "416b742f21934a72dd21c2fda6dc6f57db75c97f",
             "configurations": [
                 {
                     "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
                 },
                 {
                     "name": "dynamic"
                 }
             ],
             "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
+                "derelict-pq": "~>4.0.0",
                 "money": "~>3.0.2",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
+                "vibe-serialization": "~>1.0.4"
             },
             "name": "dpq2",
             "subPackages": [
@@ -704,56 +615,28 @@
                             "name": "dynamic"
                         },
                         {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
                             "name": "static"
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-serialization": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
                     },
                     "name": "example"
                 }
             ],
-            "version": "~load_libpq_dynamically_att2"
-        },
-        {
-            "commitID": "c33af62495215471d3025736f524c511011a9b79",
-            "configurations": [
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "dynamic"
-                }
-            ],
-            "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
-                "money": "~>2.3.0",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.9.0-0"
-            },
-            "name": "dpq2",
-            "subPackages": [
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
-                    },
-                    "name": "integration_tests"
-                },
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0"
-                    },
-                    "name": "example"
-                }
-            ],
-            "version": "~money_support"
+            "version": "~ix_ci"
         },
         {
             "commitID": "d1aee277bc2060f3e6a811cea423e0c157198037",
@@ -783,7 +666,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6",
                         "mir-core": "~>1.1.106"
                     },
@@ -791,7 +674,7 @@
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -831,19 +714,69 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
             ],
             "version": "~negative_monetary_tests_fix"
+        },
+        {
+            "commitID": "3593b06b76f224d75aa9c916b36642517762b3c5",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-core": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~net_addr_support"
         },
         {
             "commitID": "3def44574ff72d30f57344ac71ec1cc9f270d994",
@@ -878,60 +811,19 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
             ],
             "version": "~preview_in_fix"
-        },
-        {
-            "commitID": "117b3e6a6ba8d00add7de10293c7f5a6fcb530c7",
-            "configurations": [
-                {
-                    "name": "static"
-                },
-                {
-                    "name": "dynamic"
-                }
-            ],
-            "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
-                "money": "~>2.3.0",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.9.0-0"
-            },
-            "name": "dpq2",
-            "subPackages": [
-                {
-                    "configurations": [
-                        {
-                            "name": "dynamic"
-                        },
-                        {
-                            "name": "static"
-                        }
-                    ],
-                    "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
-                    },
-                    "name": "integration_tests"
-                },
-                {
-                    "dependencies": {
-                        "dpq2": ">=0.0.0"
-                    },
-                    "name": "example"
-                }
-            ],
-            "version": "~query_gen"
         },
         {
             "commitID": "3060de584ba0d8a637e6ba0956727bf73fae925a",
@@ -966,21 +858,70 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6",
-                        "vibe-d:data": ">=0.0.0"
+                        "vibe-d:data": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
                     },
                     "name": "example"
                 }
             ],
             "version": "~range_problem_for_chatlane"
+        },
+        {
+            "commitID": "79516e4d1d29c40a092ba8e39bce5569de8a96b8",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~readme_badge"
         },
         {
             "commitID": "6ba2027ba18df0c4610e6fe47e8156027aca8077",
@@ -1015,14 +956,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -1030,19 +971,22 @@
             "version": "~readme_imp"
         },
         {
-            "commitID": "afc1d2bf498acf7236ae75039a562d0b2894ed47",
+            "commitID": "4565834fdeb5c1d7675b6a74cf00499e49f57c0c",
             "configurations": [
                 {
                     "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
                 },
                 {
                     "name": "dynamic"
                 }
             ],
             "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
+                "derelict-pq": "~>4.0.0",
                 "money": "~>3.0.2",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
+                "vibe-serialization": "~>1.0.4"
             },
             "name": "dpq2",
             "subPackages": [
@@ -1052,23 +996,78 @@
                             "name": "dynamic"
                         },
                         {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
                             "name": "static"
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-serialization": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
                     },
                     "name": "example"
                 }
             ],
-            "version": "~reduce_code_amount"
+            "version": "~remove_net_capabilities"
+        },
+        {
+            "commitID": "d9a07596da556251a40a5414a08ec38fdce94642",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-core": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~row_cell_accessors"
         },
         {
             "commitID": "31cff67357763136e88168498b07dcbb0e7a08e2",
@@ -1103,14 +1102,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -1118,18 +1117,22 @@
             "version": "~singltone_dyn_load"
         },
         {
-            "commitID": "60fec24a5b45bd0de40ab69ee64022548bd836ef",
+            "commitID": "c486eabe6d03efe4adc2d769d62413d9001e5184",
             "configurations": [
                 {
                     "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
                 },
                 {
                     "name": "dynamic"
                 }
             ],
             "dependencies": {
-                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
-                "vibe-d:data": ">=0.8.3-beta.1 <0.9.0-0"
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
             },
             "name": "dpq2",
             "subPackages": [
@@ -1139,23 +1142,28 @@
                             "name": "dynamic"
                         },
                         {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
                             "name": "static"
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "gfm:math": "~>7.0.0"
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-serialization": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
                     },
                     "name": "example"
                 }
             ],
-            "version": "~static_config_fix"
+            "version": "~some_additions_from_den"
         },
         {
             "commitID": "f269042cf78a5797ff9537d6575203b5c9a947bb",
@@ -1190,14 +1198,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -1237,16 +1245,16 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6",
-                        "vibe-d:data": ">=0.0.0"
+                        "vibe-d:data": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
                     },
                     "name": "example"
                 }
@@ -1254,7 +1262,98 @@
             "version": "~tests_preview_in"
         },
         {
-            "commitID": "c7c745ccceb8452837523a2c7c7882fb6ae6b1b2",
+            "commitID": "37163990fccb51ef2a4fca230dfd6c0f25716641",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-core": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~try_to_merge_coverage"
+        },
+        {
+            "commitID": "652fdcf3a2b2f15fb2ce9f2416d03388365cbfcc",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": ">=4.0.0-alpha.2 <4.1.0-0",
+                "money": "~>3.0.2",
+                "vibe-d:data": ">=0.8.3-beta.1 <0.10.0"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>7.0.0"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~unsupported_types_toString_fix"
+        },
+        {
+            "commitID": "1a1ad58bf35f8a0ca6ebe7749a23bc715b4d4ae3",
             "configurations": [
                 {
                     "name": "static"
@@ -1286,16 +1385,66 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6",
-                        "vibe-d:data": ">=0.0.0"
+                        "vibe-d:data": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "~updubu"
+        },
+        {
+            "commitID": "8955a2125751dafdd412bebfef258f998ae2edfc",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-core": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
                     },
                     "name": "example"
                 }
@@ -2086,13 +2235,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2117,13 +2266,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2148,13 +2297,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2179,13 +2328,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2210,13 +2359,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2241,13 +2390,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2272,13 +2421,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2303,13 +2452,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2334,13 +2483,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2365,13 +2514,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2396,13 +2545,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2427,13 +2576,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2458,13 +2607,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2489,13 +2638,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2520,13 +2669,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2551,13 +2700,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2582,13 +2731,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2613,13 +2762,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2644,13 +2793,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2675,13 +2824,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2706,13 +2855,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2737,13 +2886,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2768,13 +2917,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2799,13 +2948,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2830,13 +2979,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2861,13 +3010,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2892,13 +3041,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2923,13 +3072,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2954,13 +3103,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -2985,13 +3134,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3016,13 +3165,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3047,13 +3196,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3078,13 +3227,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3109,13 +3258,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3140,13 +3289,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3171,13 +3320,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3202,13 +3351,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3233,13 +3382,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3264,13 +3413,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3295,13 +3444,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3326,13 +3475,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3357,13 +3506,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3388,13 +3537,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3419,13 +3568,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3450,13 +3599,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3481,13 +3630,13 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3512,14 +3661,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3544,14 +3693,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3576,14 +3725,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3608,14 +3757,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3640,14 +3789,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3672,14 +3821,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3704,14 +3853,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3736,14 +3885,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3768,14 +3917,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3800,14 +3949,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3832,14 +3981,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3864,14 +4013,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3896,14 +4045,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3928,14 +4077,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3960,14 +4109,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -3992,14 +4141,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4025,14 +4174,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4058,14 +4207,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4091,14 +4240,14 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4132,14 +4281,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4173,14 +4322,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4214,14 +4363,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4255,14 +4404,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4296,14 +4445,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4337,14 +4486,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4378,14 +4527,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4419,14 +4568,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4460,14 +4609,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4501,14 +4650,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4542,14 +4691,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4583,14 +4732,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4624,14 +4773,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4665,14 +4814,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4706,14 +4855,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4747,14 +4896,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4788,14 +4937,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4829,14 +4978,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4870,14 +5019,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4911,14 +5060,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4952,14 +5101,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -4993,14 +5142,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5034,14 +5183,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5075,14 +5224,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5122,14 +5271,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5169,14 +5318,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5216,14 +5365,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5263,14 +5412,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5310,14 +5459,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5357,14 +5506,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5404,14 +5553,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5451,14 +5600,14 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5498,16 +5647,16 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6",
-                        "vibe-d:data": ">=0.0.0"
+                        "vibe-d:data": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
                     },
                     "name": "example"
                 }
@@ -5547,16 +5696,16 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6",
-                        "vibe-d:data": ">=0.0.0"
+                        "vibe-d:data": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
                     },
                     "name": "example"
                 }
@@ -5596,16 +5745,16 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6",
-                        "vibe-d:data": ">=0.0.0"
+                        "vibe-d:data": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
                     },
                     "name": "example"
                 }
@@ -5634,21 +5783,21 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>7.0.0"
                     },
                     "name": "integration_tests_native_only"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0"
+                        "dpq2": "*"
                     },
                     "name": "example"
                 }
@@ -5688,21 +5837,317 @@
                         }
                     ],
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
+                        "dpq2": "*",
                         "gfm:math": "~>8.0.6",
-                        "vibe-d:data": ">=0.0.0"
+                        "vibe-d:data": "*"
                     },
                     "name": "integration_tests"
                 },
                 {
                     "dependencies": {
-                        "dpq2": ">=0.0.0",
-                        "vibe-d:data": ">=0.0.0"
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
                     },
                     "name": "example"
                 }
             ],
             "version": "1.1.7-rc.1"
+        },
+        {
+            "commitID": "8fd751c2313ae02da87f8a21e8558431a3d47b97",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-d:data": ">=0.8.3-beta.1 <0.11.0"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-d:data": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-d:data": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.1.7"
+        },
+        {
+            "commitID": "195ee7a84d1e80cd183bc3922bd8738e7ee79b7b",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.2.0-rc.1"
+        },
+        {
+            "commitID": "548183e2f3b3384caefc45b136791099f34125a4",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.2.0"
+        },
+        {
+            "commitID": "75be9e14a97edd1df8d593e3c1fba9531b4bf5d5",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.2.1"
+        },
+        {
+            "commitID": "3596433f88b793ed1959df1b9cece4f87b5530f2",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-core": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.2.2"
+        },
+        {
+            "commitID": "3f87712e03dfa7e14e7f8811ce2d0f19298c86be",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic-unmanaged"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "derelict-pq": "~>4.0.0",
+                "money": "~>3.0.2",
+                "vibe-serialization": "~>1.0.4"
+            },
+            "name": "dpq2",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "dynamic"
+                        },
+                        {
+                            "name": "dynamic-unmanaged"
+                        },
+                        {
+                            "name": "static"
+                        }
+                    ],
+                    "dependencies": {
+                        "dpq2": "*",
+                        "gfm:math": "~>8.0.6",
+                        "vibe-core": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "integration_tests"
+                },
+                {
+                    "dependencies": {
+                        "dpq2": "*",
+                        "vibe-serialization": "*"
+                    },
+                    "name": "example"
+                }
+            ],
+            "version": "1.2.3"
         }
     ]
 }

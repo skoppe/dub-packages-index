@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "5656208a202ca0be4d4dc44125b5ca0485f91bf0",
+    "commitID": "1a31d9051d35b732a5fce258955ef95f576694ba",
     "dateAdded": "2018-12-27T14:19:30",
     "description": "Apache Thrift D library",
     "documentationURL": "",
@@ -191,6 +191,50 @@
             "version": "~0.19.0"
         },
         {
+            "commitID": "a1898053bba390b2069179b914c7339caab9b7ef",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.6"
+                    },
+                    "name": "use_openssl_1_0"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>2.0.3"
+                    },
+                    "name": "use_openssl_1_1"
+                }
+            ],
+            "dependencies": {
+                "libevent": "~>2.0.2"
+            },
+            "name": "apache-thrift",
+            "version": "~0.20.0"
+        },
+        {
+            "commitID": "1a31d9051d35b732a5fce258955ef95f576694ba",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.6"
+                    },
+                    "name": "use_openssl_1_0"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>2.0.3"
+                    },
+                    "name": "use_openssl_1_1"
+                }
+            ],
+            "dependencies": {
+                "libevent": "~>2.0.2"
+            },
+            "name": "apache-thrift",
+            "version": "~0.21.0"
+        },
+        {
             "commitID": "ab64f3e264c684675dda85a709b301a424c699cc",
             "configurations": [
                 {
@@ -211,50 +255,6 @@
             },
             "name": "apache-thrift",
             "version": "~ci\/pypi-automation"
-        },
-        {
-            "commitID": "5c087811b334cbd527e496a6d29f4f9ae11ccc72",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "openssl": "~>1.1.6"
-                    },
-                    "name": "use_openssl_1_0"
-                },
-                {
-                    "dependencies": {
-                        "openssl": "~>2.0.3"
-                    },
-                    "name": "use_openssl_1_1"
-                }
-            ],
-            "dependencies": {
-                "libevent": "~>2.0.2"
-            },
-            "name": "apache-thrift",
-            "version": "~dependabot\/gradle\/lib\/java\/com.bmuschko-gradle-clover-plugin-3.0.3"
-        },
-        {
-            "commitID": "1451c15a3aeb25717b0f7a4e1093ab77a3b72c18",
-            "configurations": [
-                {
-                    "dependencies": {
-                        "openssl": "~>1.1.6"
-                    },
-                    "name": "use_openssl_1_0"
-                },
-                {
-                    "dependencies": {
-                        "openssl": "~>2.0.3"
-                    },
-                    "name": "use_openssl_1_1"
-                }
-            ],
-            "dependencies": {
-                "libevent": "~>2.0.2"
-            },
-            "name": "apache-thrift",
-            "version": "~dependabot\/gradle\/lib\/kotlin\/com.bmuschko-gradle-clover-plugin-3.0.3"
         },
         {
             "commitID": "384647d290e2e4a55a14b1b7ef1b7e66293a2c33",
@@ -432,6 +432,50 @@
             },
             "name": "apache-thrift",
             "version": "0.19.0"
+        },
+        {
+            "commitID": "0d0ac75347267f7c12fc9b5b349bf9ef7f632347",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.6"
+                    },
+                    "name": "use_openssl_1_0"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>2.0.3"
+                    },
+                    "name": "use_openssl_1_1"
+                }
+            ],
+            "dependencies": {
+                "libevent": "~>2.0.2"
+            },
+            "name": "apache-thrift",
+            "version": "0.20.0"
+        },
+        {
+            "commitID": "1a31d9051d35b732a5fce258955ef95f576694ba",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "openssl": "~>1.1.6"
+                    },
+                    "name": "use_openssl_1_0"
+                },
+                {
+                    "dependencies": {
+                        "openssl": "~>2.0.3"
+                    },
+                    "name": "use_openssl_1_1"
+                }
+            ],
+            "dependencies": {
+                "libevent": "~>2.0.2"
+            },
+            "name": "apache-thrift",
+            "version": "0.21.0"
         }
     ]
 }

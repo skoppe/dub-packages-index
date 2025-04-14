@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "d943c318ab8f1a915d5387deb005a8961e2b1d2c",
+    "commitID": "c6a78f4a7510fd31a86998b7ceedfc2916ecfae0",
     "dateAdded": "2023-05-05T14:36:44",
     "description": "Dynamic and static bindings to imgui, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "e34f8ba04c0085be7ee83a8df200cf2ffb30bfd3",
+            "commitID": "c6a78f4a7510fd31a86998b7ceedfc2916ecfae0",
             "configurations": [
                 {
                     "name": "static_dynamicCRT"
@@ -60,6 +60,29 @@
             "version": "~playmer\/GitModulesBranchParsing"
         },
         {
+            "commitID": "3fc223cfc5b748f1a9786c8113e4ff1f4cfde0b1",
+            "configurations": [
+                {
+                    "name": "static_dynamicCRT"
+                },
+                {
+                    "name": "static_staticCRT"
+                },
+                {
+                    "name": "dynamic_dynamicCRT"
+                },
+                {
+                    "name": "dynamic_staticCRT"
+                }
+            ],
+            "dependencies": {
+                "bindbc-sdl": "~>1.1.2",
+                "i2d-opengl": "~>1.0.0"
+            },
+            "name": "i2d-imgui",
+            "version": "~playmer\/remove_bindbc_and_backends"
+        },
+        {
             "commitID": "d943c318ab8f1a915d5387deb005a8961e2b1d2c",
             "configurations": [
                 {
@@ -81,6 +104,29 @@
             },
             "name": "i2d-imgui",
             "version": "0.8.0"
+        },
+        {
+            "commitID": "c6a78f4a7510fd31a86998b7ceedfc2916ecfae0",
+            "configurations": [
+                {
+                    "name": "static_dynamicCRT"
+                },
+                {
+                    "name": "static_staticCRT"
+                },
+                {
+                    "name": "dynamic_dynamicCRT"
+                },
+                {
+                    "name": "dynamic_staticCRT"
+                }
+            ],
+            "dependencies": {
+                "bindbc-sdl": "~>1.1.2",
+                "i2d-opengl": "~>1.0.0"
+            },
+            "name": "i2d-imgui",
+            "version": "0.8.1"
         }
     ]
 }

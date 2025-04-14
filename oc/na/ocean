@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "6a269ff758a329ff3a9b6125721f80022131ddf0",
+    "commitID": "2caa13b32f23c627abb184ea66432344679bcf1d",
     "dateAdded": "2019-12-19T16:21:04",
     "description": "Ocean is general purpose library with a focus on supporting the development of high-performance, real-time applications",
     "documentationURL": "",
@@ -14,12 +14,15 @@
     },
     "versions": [
         {
-            "commitID": "0134c6df2182c4daed09b6b4907a3cf1f9070644",
+            "commitID": "b06be4d9c6099bb756a801e13e8b945ea05c2abe",
             "configurations": [
                 {
                     "name": "unittest"
                 }
             ],
+            "dependencies": {
+                "openssl": "~>3.3"
+            },
             "name": "ocean",
             "version": "~v6.x.x"
         },
@@ -167,6 +170,19 @@
             ],
             "name": "ocean",
             "version": "6.2.0"
+        },
+        {
+            "commitID": "2caa13b32f23c627abb184ea66432344679bcf1d",
+            "configurations": [
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "openssl": "~>3.3"
+            },
+            "name": "ocean",
+            "version": "6.3.0"
         }
     ]
 }

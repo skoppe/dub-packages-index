@@ -2,7 +2,7 @@
     "categories": [
         "library.development.parsing"
     ],
-    "commitID": "37888cf9836dcfa8b209a64b1b99ea01d50aedb3",
+    "commitID": "cddce298e5a8fdcb6333bc3d5c616161d75cb3eb",
     "dateAdded": "2023-05-07T17:02:38",
     "description": "Parser generator for the D programming language",
     "documentationURL": "",
@@ -16,9 +16,9 @@
     },
     "versions": [
         {
-            "commitID": "37888cf9836dcfa8b209a64b1b99ea01d50aedb3",
+            "commitID": "b8c0076ec977aa640b1f88b748accc65ed15a508",
             "dependencies": {
-                "dparsergen:generator": ">=0.0.0"
+                "dparsergen:generator": "*"
             },
             "name": "dparsergen",
             "subPackages": [
@@ -27,7 +27,7 @@
                 },
                 {
                     "dependencies": {
-                        "dparsergen:core": ">=0.0.0"
+                        "dparsergen:core": "*"
                     },
                     "name": "generator"
                 },
@@ -74,14 +74,25 @@
                         }
                     },
                     "name": "example_cpp"
+                },
+                {
+                    "dependencies": {
+                        "dparsergen:core": {
+                            "path": "..\/.."
+                        },
+                        "dparsergen:generator": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "example_python"
                 }
             ],
             "version": "~test"
         },
         {
-            "commitID": "37888cf9836dcfa8b209a64b1b99ea01d50aedb3",
+            "commitID": "b8c0076ec977aa640b1f88b748accc65ed15a508",
             "dependencies": {
-                "dparsergen:generator": ">=0.0.0"
+                "dparsergen:generator": "*"
             },
             "name": "dparsergen",
             "subPackages": [
@@ -90,7 +101,7 @@
                 },
                 {
                     "dependencies": {
-                        "dparsergen:core": ">=0.0.0"
+                        "dparsergen:core": "*"
                     },
                     "name": "generator"
                 },
@@ -137,6 +148,17 @@
                         }
                     },
                     "name": "example_cpp"
+                },
+                {
+                    "dependencies": {
+                        "dparsergen:core": {
+                            "path": "..\/.."
+                        },
+                        "dparsergen:generator": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "example_python"
                 }
             ],
             "version": "~master"
@@ -144,7 +166,7 @@
         {
             "commitID": "baf52e1f23d61f854a908cdaf30f9e423bd814ae",
             "dependencies": {
-                "dparsergen:generator": ">=0.0.0"
+                "dparsergen:generator": "*"
             },
             "name": "dparsergen",
             "subPackages": [
@@ -153,7 +175,7 @@
                 },
                 {
                     "dependencies": {
-                        "dparsergen:core": ">=0.0.0"
+                        "dparsergen:core": "*"
                     },
                     "name": "generator"
                 },
@@ -207,7 +229,7 @@
         {
             "commitID": "37888cf9836dcfa8b209a64b1b99ea01d50aedb3",
             "dependencies": {
-                "dparsergen:generator": ">=0.0.0"
+                "dparsergen:generator": "*"
             },
             "name": "dparsergen",
             "subPackages": [
@@ -216,7 +238,7 @@
                 },
                 {
                     "dependencies": {
-                        "dparsergen:core": ">=0.0.0"
+                        "dparsergen:core": "*"
                     },
                     "name": "generator"
                 },
@@ -266,6 +288,80 @@
                 }
             ],
             "version": "0.1.1"
+        },
+        {
+            "commitID": "cddce298e5a8fdcb6333bc3d5c616161d75cb3eb",
+            "dependencies": {
+                "dparsergen:generator": "*"
+            },
+            "name": "dparsergen",
+            "subPackages": [
+                {
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dparsergen:core": "*"
+                    },
+                    "name": "generator"
+                },
+                {
+                    "dependencies": {
+                        "dparsergen:core": {
+                            "path": "..\/.."
+                        },
+                        "dparsergen:generator": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "example_calc"
+                },
+                {
+                    "dependencies": {
+                        "dparsergen:core": {
+                            "path": "..\/.."
+                        },
+                        "dparsergen:generator": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "example_json"
+                },
+                {
+                    "dependencies": {
+                        "dparsergen:core": {
+                            "path": "..\/.."
+                        },
+                        "dparsergen:generator": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "example_d"
+                },
+                {
+                    "dependencies": {
+                        "dparsergen:core": {
+                            "path": "..\/.."
+                        },
+                        "dparsergen:generator": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "example_cpp"
+                },
+                {
+                    "dependencies": {
+                        "dparsergen:core": {
+                            "path": "..\/.."
+                        },
+                        "dparsergen:generator": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "example_python"
+                }
+            ],
+            "version": "0.1.2"
         }
     ]
 }

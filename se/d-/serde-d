@@ -1,0 +1,79 @@
+{
+    "categories": [],
+    "commitID": "853253e021da3a7c08cf6adaa671f76a63291c74",
+    "dateAdded": "2024-11-24T19:55:51",
+    "description": "A minimal D application.",
+    "documentationURL": "",
+    "id": "674376b7c4738aeecd01521b",
+    "name": "serde-d",
+    "owner": "642df621bb22d3ff44e70446",
+    "repository": {
+        "kind": "github",
+        "owner": "Bithero-Agency",
+        "project": "serde-d"
+    },
+    "versions": [
+        {
+            "commitID": "b16121f33ac2df68f98157e04e64e88cf5706615",
+            "dependencies": {
+                "ninox-d_std:callable": "~>1.7.15",
+                "ninox-d_std:traits": "~>1.7.15",
+                "ninox-d_std:variant": {
+                    "optional": true,
+                    "version": "~>1.7.15"
+                }
+            },
+            "name": "serde-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "serde-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "json"
+                },
+                {
+                    "dependencies": {
+                        "serde-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "yaml"
+                }
+            ],
+            "version": "~master"
+        },
+        {
+            "commitID": "853253e021da3a7c08cf6adaa671f76a63291c74",
+            "dependencies": {
+                "ninox-d_std:callable": "~>1.7.14",
+                "ninox-d_std:traits": "~>1.7.14",
+                "ninox-d_std:variant": {
+                    "optional": true,
+                    "version": "~>1.7.14"
+                }
+            },
+            "name": "serde-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "serde-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "json"
+                },
+                {
+                    "dependencies": {
+                        "serde-d": {
+                            "path": "..\/.."
+                        }
+                    },
+                    "name": "yaml"
+                }
+            ],
+            "version": "2024.11.24"
+        }
+    ]
+}

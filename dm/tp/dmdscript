@@ -3,7 +3,7 @@
         "application.desktop.development.compiler",
         "library.development"
     ],
-    "commitID": "14a9547a7ea63267169474db71e752651b5cac5c",
+    "commitID": "f93cb97b5ec1c665648f369b0fb96ff82155cdfb",
     "dateAdded": "2014-12-13T05:06:10",
     "description": "An implementation of the ECMA 262 (Javascript) programming language ",
     "documentationURL": "",
@@ -19,21 +19,21 @@
         {
             "commitID": "198c908369e29c9f675082ec2d88b8eda4e9fdc1",
             "dependencies": {
-                "dmdscript:ds": ">=0.0.0",
-                "dmdscript:ds-ext": ">=0.0.0",
-                "dmdscript:engine": ">=0.0.0"
+                "dmdscript:ds": "*",
+                "dmdscript:ds-ext": "*",
+                "dmdscript:engine": "*"
             },
             "name": "dmdscript",
             "subPackages": [
                 {
                     "dependencies": {
-                        "dmdscript:engine": ">=0.0.0"
+                        "dmdscript:engine": "*"
                     },
                     "name": "ds"
                 },
                 {
                     "dependencies": {
-                        "dmdscript:engine": ">=0.0.0"
+                        "dmdscript:engine": "*"
                     },
                     "name": "ds-ext"
                 },
@@ -47,23 +47,23 @@
             "version": "~test"
         },
         {
-            "commitID": "14a9547a7ea63267169474db71e752651b5cac5c",
+            "commitID": "f93cb97b5ec1c665648f369b0fb96ff82155cdfb",
             "dependencies": {
-                "dmdscript:ds": ">=0.0.0",
-                "dmdscript:ds-ext": ">=0.0.0",
-                "dmdscript:engine": ">=0.0.0"
+                "dmdscript:ds": "*",
+                "dmdscript:ds-ext": "*",
+                "dmdscript:engine": "*"
             },
             "name": "dmdscript",
             "subPackages": [
                 {
                     "dependencies": {
-                        "dmdscript:engine": ">=0.0.0"
+                        "dmdscript:engine": "*"
                     },
                     "name": "ds"
                 },
                 {
                     "dependencies": {
-                        "dmdscript:engine": ">=0.0.0"
+                        "dmdscript:engine": "*"
                     },
                     "name": "ds-ext"
                 },
@@ -79,21 +79,21 @@
         {
             "commitID": "fa552dcc0d25994475f05f808a7c9926de6dd305",
             "dependencies": {
-                "dmdscript:ds": ">=0.0.0",
-                "dmdscript:ds-ext": ">=0.0.0",
-                "dmdscript:engine": ">=0.0.0"
+                "dmdscript:ds": "*",
+                "dmdscript:ds-ext": "*",
+                "dmdscript:engine": "*"
             },
             "name": "dmdscript",
             "subPackages": [
                 {
                     "dependencies": {
-                        "dmdscript:engine": ">=0.0.0"
+                        "dmdscript:engine": "*"
                     },
                     "name": "ds"
                 },
                 {
                     "dependencies": {
-                        "dmdscript:engine": ">=0.0.0"
+                        "dmdscript:engine": "*"
                     },
                     "name": "ds-ext"
                 },
@@ -109,21 +109,21 @@
         {
             "commitID": "47d5e54a4f07b71662c0b95815f2203abb944999",
             "dependencies": {
-                "dmdscript:ds": ">=0.0.0",
-                "dmdscript:ds-ext": ">=0.0.0",
-                "dmdscript:engine": ">=0.0.0"
+                "dmdscript:ds": "*",
+                "dmdscript:ds-ext": "*",
+                "dmdscript:engine": "*"
             },
             "name": "dmdscript",
             "subPackages": [
                 {
                     "dependencies": {
-                        "dmdscript:engine": ">=0.0.0"
+                        "dmdscript:engine": "*"
                     },
                     "name": "ds"
                 },
                 {
                     "dependencies": {
-                        "dmdscript:engine": ">=0.0.0"
+                        "dmdscript:engine": "*"
                     },
                     "name": "ds-ext"
                 },
@@ -139,21 +139,21 @@
         {
             "commitID": "14a9547a7ea63267169474db71e752651b5cac5c",
             "dependencies": {
-                "dmdscript:ds": ">=0.0.0",
-                "dmdscript:ds-ext": ">=0.0.0",
-                "dmdscript:engine": ">=0.0.0"
+                "dmdscript:ds": "*",
+                "dmdscript:ds-ext": "*",
+                "dmdscript:engine": "*"
             },
             "name": "dmdscript",
             "subPackages": [
                 {
                     "dependencies": {
-                        "dmdscript:engine": ">=0.0.0"
+                        "dmdscript:engine": "*"
                     },
                     "name": "ds"
                 },
                 {
                     "dependencies": {
-                        "dmdscript:engine": ">=0.0.0"
+                        "dmdscript:engine": "*"
                     },
                     "name": "ds-ext"
                 },
@@ -165,6 +165,36 @@
                 }
             ],
             "version": "2.1.1"
+        },
+        {
+            "commitID": "f93cb97b5ec1c665648f369b0fb96ff82155cdfb",
+            "dependencies": {
+                "dmdscript:ds": "*",
+                "dmdscript:ds-ext": "*",
+                "dmdscript:engine": "*"
+            },
+            "name": "dmdscript",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "dmdscript:engine": "*"
+                    },
+                    "name": "ds"
+                },
+                {
+                    "dependencies": {
+                        "dmdscript:engine": "*"
+                    },
+                    "name": "ds-ext"
+                },
+                {
+                    "dependencies": {
+                        "undead": ">=1.0.3"
+                    },
+                    "name": "engine"
+                }
+            ],
+            "version": "2.1.2"
         }
     ]
 }

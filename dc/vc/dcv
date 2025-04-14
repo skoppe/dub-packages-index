@@ -5,7 +5,7 @@
         "application.desktop.graphics",
         "application.desktop.photo"
     ],
-    "commitID": "fc23041a33157c9aecbe7937cd84fa7a01a8cda7",
+    "commitID": "b3168ee9b600108957b6604e83340e21fbaf2c1c",
     "dateAdded": "2016-08-14T22:46:52",
     "description": "Computer vision library for D programming language.",
     "documentationURL": "",
@@ -29,9 +29,9 @@
                 }
             ],
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:io": ">=0.0.0",
-                "dcv:plot": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:io": "*",
+                "dcv:plot": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -43,7 +43,7 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "ffmpeg-d": "~>3.1.1",
                         "imageformats": "~>6.1.0"
                     },
@@ -62,7 +62,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -80,9 +80,9 @@
                 }
             ],
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:io": ">=0.0.0",
-                "dcv:plot": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:io": "*",
+                "dcv:plot": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -95,7 +95,7 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "ffmpeg-d": "~>3.1.0",
                         "imageformats": "~>6.1.0"
                     },
@@ -114,7 +114,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -122,12 +122,13 @@
             "version": "~refactorzilla-pt1"
         },
         {
-            "commitID": "88633ac93d31e021d187e8f46071c70455acc24b",
+            "commitID": "c777e2aa990548e0784a9c854ff9576f149364bb",
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:imageio": ">=0.0.0",
-                "dcv:plot": ">=0.0.0",
-                "dcv:videoio": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:imageio": "*",
+                "dcv:linalg": "*",
+                "dcv:plot": "*",
+                "dcv:videoio": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -136,23 +137,33 @@
                         "bcaa": "~>0.0.8",
                         "dplug:core": "~>13.4.9",
                         "dvector": "~>0.0.5",
-                        "mir-algorithm": ">=3.15.3",
-                        "mir-core": "~>1.5.3",
+                        "mir-algorithm": "~>3.22.0",
+                        "mir-core": "~>1.7.0",
                         "mir-random": "2.2.19"
                     },
                     "name": "core"
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
-                        "gamut": "~>1.0.0"
+                        "dcv:core": "*",
+                        "lubeck": {
+                            "repository": "git+https:\/\/github.com\/aferust\/lubeck",
+                            "version": "455dd4d"
+                        }
+                    },
+                    "name": "linalg"
+                },
+                {
+                    "dependencies": {
+                        "dcv:core": "*",
+                        "gamut": "~>2.6.0"
                     },
                     "name": "imageio"
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
-                        "dcv:imageio": ">=0.0.0",
+                        "dcv:core": "*",
+                        "dcv:imageio": "*",
                         "ffmpeg-d": "~>4.4.1"
                     },
                     "name": "videoio"
@@ -180,8 +191,7 @@
                     ],
                     "dependencies": {
                         "bindbc-opengl": "~>1.0.0",
-                        "dcv:core": ">=0.0.0",
-                        "utf8proc": "~>0.0.2"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -447,9 +457,9 @@
                 }
             ],
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:io": ">=0.0.0",
-                "dcv:plot": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:io": "*",
+                "dcv:plot": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -461,7 +471,7 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "ffmpeg-d": "~>2.5.1",
                         "imageformats": "~>6.1.0"
                     },
@@ -480,7 +490,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -498,9 +508,9 @@
                 }
             ],
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:io": ">=0.0.0",
-                "dcv:plot": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:io": "*",
+                "dcv:plot": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -512,7 +522,7 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "ffmpeg-d": "~>2.5.1",
                         "imageformats": "~>6.1.0"
                     },
@@ -531,7 +541,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -549,9 +559,9 @@
                 }
             ],
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:io": ">=0.0.0",
-                "dcv:plot": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:io": "*",
+                "dcv:plot": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -563,7 +573,7 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "ffmpeg-d": "~>2.5.1",
                         "imageformats": "~>6.1.0"
                     },
@@ -582,7 +592,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -600,9 +610,9 @@
                 }
             ],
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:io": ">=0.0.0",
-                "dcv:plot": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:io": "*",
+                "dcv:plot": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -614,7 +624,7 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "ffmpeg-d": "~>2.5.1",
                         "imageformats": "~>6.1.0"
                     },
@@ -633,7 +643,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -651,9 +661,9 @@
                 }
             ],
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:io": ">=0.0.0",
-                "dcv:plot": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:io": "*",
+                "dcv:plot": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -665,7 +675,7 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "ffmpeg-d": "~>2.5.1",
                         "imageformats": "~>6.1.0"
                     },
@@ -684,7 +694,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -702,9 +712,9 @@
                 }
             ],
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:io": ">=0.0.0",
-                "dcv:plot": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:io": "*",
+                "dcv:plot": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -717,7 +727,7 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "ffmpeg-d": "~>2.5.1",
                         "imageformats": "~>6.1.0"
                     },
@@ -736,7 +746,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -754,9 +764,9 @@
                 }
             ],
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:io": ">=0.0.0",
-                "dcv:plot": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:io": "*",
+                "dcv:plot": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -768,7 +778,7 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "ffmpeg-d": "~>2.5.1",
                         "imageformats": "~>6.1.0"
                     },
@@ -787,7 +797,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -805,9 +815,9 @@
                 }
             ],
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:io": ">=0.0.0",
-                "dcv:plot": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:io": "*",
+                "dcv:plot": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -819,7 +829,7 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "ffmpeg-d": "~>3.1.0",
                         "imageformats": "~>6.1.0"
                     },
@@ -838,7 +848,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -856,9 +866,9 @@
                 }
             ],
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:io": ">=0.0.0",
-                "dcv:plot": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:io": "*",
+                "dcv:plot": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -870,7 +880,7 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "ffmpeg-d": "~>3.1.0",
                         "imageformats": "~>6.1.0"
                     },
@@ -889,7 +899,7 @@
                         }
                     ],
                     "dependencies": {
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
@@ -899,10 +909,10 @@
         {
             "commitID": "fc23041a33157c9aecbe7937cd84fa7a01a8cda7",
             "dependencies": {
-                "dcv:core": ">=0.0.0",
-                "dcv:imageio": ">=0.0.0",
-                "dcv:plot": ">=0.0.0",
-                "dcv:videoio": ">=0.0.0"
+                "dcv:core": "*",
+                "dcv:imageio": "*",
+                "dcv:plot": "*",
+                "dcv:videoio": "*"
             },
             "name": "dcv",
             "subPackages": [
@@ -916,15 +926,15 @@
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
+                        "dcv:core": "*",
                         "imageformats": "7.0.2"
                     },
                     "name": "imageio"
                 },
                 {
                     "dependencies": {
-                        "dcv:core": ">=0.0.0",
-                        "dcv:imageio": ">=0.0.0",
+                        "dcv:core": "*",
+                        "dcv:imageio": "*",
                         "ffmpeg-d": "~>4.4.1"
                     },
                     "name": "videoio"
@@ -941,12 +951,89 @@
                     "dependencies": {
                         "bindbc-glfw": "~>1.0.0",
                         "bindbc-opengl": "~>1.0.0",
-                        "dcv:core": ">=0.0.0"
+                        "dcv:core": "*"
                     },
                     "name": "plot"
                 }
             ],
             "version": "0.3.0"
+        },
+        {
+            "commitID": "b3168ee9b600108957b6604e83340e21fbaf2c1c",
+            "dependencies": {
+                "dcv:core": "*",
+                "dcv:imageio": "*",
+                "dcv:linalg": "*",
+                "dcv:plot": "*",
+                "dcv:videoio": "*"
+            },
+            "name": "dcv",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "bcaa": "~>0.0.8",
+                        "dplug:core": "~>13.4.9",
+                        "dvector": "~>0.0.5",
+                        "mir-algorithm": "~>3.22.0",
+                        "mir-core": "~>1.7.0",
+                        "mir-random": "2.2.19"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "dcv:core": "*",
+                        "lubeck": {
+                            "repository": "git+https:\/\/github.com\/aferust\/lubeck",
+                            "version": "455dd4d"
+                        }
+                    },
+                    "name": "linalg"
+                },
+                {
+                    "dependencies": {
+                        "dcv:core": "*",
+                        "gamut": "~>2.6.0"
+                    },
+                    "name": "imageio"
+                },
+                {
+                    "dependencies": {
+                        "dcv:core": "*",
+                        "dcv:imageio": "*",
+                        "ffmpeg-d": "~>4.4.1"
+                    },
+                    "name": "videoio"
+                },
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "bindbc-glfw": "~>1.0.0"
+                            },
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "bindbc-glfw": "~>1.0.0"
+                            },
+                            "name": "legacygl"
+                        },
+                        {
+                            "dependencies": {
+                                "glfw-d": "~>1.1.0"
+                            },
+                            "name": "use-glfw-d"
+                        }
+                    ],
+                    "dependencies": {
+                        "bindbc-opengl": "~>1.0.0",
+                        "dcv:core": "*"
+                    },
+                    "name": "plot"
+                }
+            ],
+            "version": "0.4.0"
         }
     ]
 }

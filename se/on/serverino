@@ -1,11 +1,13 @@
 {
     "categories": [
         "application.server.web",
-        "library.web"
+        "library.web",
+        "library.optimized_cpu",
+        "library.optimized_mem"
     ],
-    "commitID": "d382d7fcdb127b5fbc489f096954aa1c8b69fe05",
+    "commitID": "7c0ba44e3bd9c303b99a08d1331d392d2475f5fb",
     "dateAdded": "2022-05-08T22:38:24",
-    "description": "Small and ready-to-go http server",
+    "description": "Small and ready-to-go http server. Support for websockets included.",
     "documentationURL": "https:\/\/trikko.github.io\/serverino\/",
     "id": "62782a4066c2f62a29cd6410",
     "name": "serverino",
@@ -17,27 +19,31 @@
     },
     "versions": [
         {
-            "commitID": "d382d7fcdb127b5fbc489f096954aa1c8b69fe05",
+            "commitID": "34ee7e2cac53a579af730482c2a113060db1cdb8",
             "configurations": [
                 {
                     "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                },
+                {
+                    "name": "kqueue_backend"
+                },
+                {
+                    "name": "epoll_backend"
+                },
+                {
+                    "name": "select_backend"
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
                 {
                     "name": "init-exec"
-                },
-                {
-                    "dependencies": {
-                        "serverino": {
-                            "path": ".."
-                        }
-                    },
-                    "name": "test-1"
                 }
             ],
             "version": "~master"
@@ -141,7 +147,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -167,7 +173,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -193,7 +199,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -219,7 +225,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -245,7 +251,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -271,7 +277,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -297,7 +303,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -323,7 +329,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -349,7 +355,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -375,7 +381,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -401,7 +407,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -427,7 +433,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -453,7 +459,7 @@
                 }
             ],
             "dependencies": {
-                "serverino:init-exec": ">=0.0.0"
+                "serverino:init-exec": "*"
             },
             "name": "serverino",
             "subPackages": [
@@ -470,6 +476,775 @@
                 }
             ],
             "version": "0.5.1"
+        },
+        {
+            "commitID": "6954406111b360c9d2056d09a760fb9adb676698",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.6.0"
+        },
+        {
+            "commitID": "19cc6c65621686cb0e31b6a6950853ff84519df8",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.6.1"
+        },
+        {
+            "commitID": "23fec3c5927dfa5ce30dfc8d869074bbd5741a2e",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": ".."
+                        }
+                    },
+                    "name": "test-1"
+                }
+            ],
+            "version": "0.6.2"
+        },
+        {
+            "commitID": "3fd83ca12e471b5a0a43a644436b7141a3297d82",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.6.3"
+        },
+        {
+            "commitID": "ec646a0f209d7ea08264ef24a454e6c5e36da490",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.6.4"
+        },
+        {
+            "commitID": "7e6f1c8dc6681d493136173c4fa5d2a7204a026f",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.6.5"
+        },
+        {
+            "commitID": "b3de66b65fa0991d3fdccc8a7d351bf2c1a065d0",
+            "configurations": [
+                {
+                    "name": "lib"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.0"
+        },
+        {
+            "commitID": "da297bce83b34a29e4d8ddac3695180b98e64eb1",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.1"
+        },
+        {
+            "commitID": "a8b7132e27a92e2c3156dbc84e4f7a80ac0c3518",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.2"
+        },
+        {
+            "commitID": "73b0648ffd68731982c951a1293c0027cf1ed51a",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.3"
+        },
+        {
+            "commitID": "62b82c7e0cb9a2658e331d13603ba9ca527c4149",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.4"
+        },
+        {
+            "commitID": "1517fbb09ee6ef1335ca6636452de243d8af9ca6",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.5"
+        },
+        {
+            "commitID": "ec8d60ecf71ff7f54841355b5d64ddd3ef97cbca",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.6"
+        },
+        {
+            "commitID": "56a1132701cea01869eeefdd87337536955de68b",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.7"
+        },
+        {
+            "commitID": "c5bdd5d236ae19ab8d1359962421cd94c7bc4507",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.8"
+        },
+        {
+            "commitID": "fe931753dd305b7845447377dfdd71f45c7036ee",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.9"
+        },
+        {
+            "commitID": "216aed5b8b24c36b4d78d8df823332e7f5f1fa99",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.10"
+        },
+        {
+            "commitID": "05c89790669fa12716918373bf7fdbfff8b34b78",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.11"
+        },
+        {
+            "commitID": "f264bbead88989cdc8942f5bc9ce930b2cc53545",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-01"
+                },
+                {
+                    "dependencies": {
+                        "serverino": {
+                            "path": "..\/..\/"
+                        }
+                    },
+                    "name": "test-02"
+                }
+            ],
+            "version": "0.7.12"
+        },
+        {
+            "commitID": "7869073b38a0f879398fd79e2a1ef69f298d2e6e",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.7.13"
+        },
+        {
+            "commitID": "fd891651112de0e4f9df4102273bc316e4959349",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                },
+                {
+                    "name": "kqueue_backend"
+                },
+                {
+                    "name": "epoll_backend"
+                },
+                {
+                    "name": "select_backend"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.7.14"
+        },
+        {
+            "commitID": "0c73260a0600ebaf92007a166cd6ebd0aaa484ae",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                },
+                {
+                    "name": "kqueue_backend"
+                },
+                {
+                    "name": "epoll_backend"
+                },
+                {
+                    "name": "select_backend"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.7.15"
+        },
+        {
+            "commitID": "7c0ba44e3bd9c303b99a08d1331d392d2475f5fb",
+            "configurations": [
+                {
+                    "name": "lib"
+                },
+                {
+                    "name": "disable_websockets"
+                },
+                {
+                    "name": "kqueue_backend"
+                },
+                {
+                    "name": "epoll_backend"
+                },
+                {
+                    "name": "select_backend"
+                }
+            ],
+            "dependencies": {
+                "serverino:init-exec": "*"
+            },
+            "name": "serverino",
+            "subPackages": [
+                {
+                    "name": "init-exec"
+                }
+            ],
+            "version": "0.7.16"
         }
     ]
 }

@@ -4,7 +4,7 @@
         "library.memory",
         "library.general"
     ],
-    "commitID": "8b2a68b0b31fcb60055f12e9c272161626c8be2e",
+    "commitID": "1f8911f40650c54c63c2ff38fb9d4f46a2862a66",
     "dateAdded": "2023-12-19T16:16:01",
     "description": "Memory managment utilities for D",
     "documentationURL": "",
@@ -18,19 +18,56 @@
     },
     "versions": [
         {
-            "commitID": "8b2a68b0b31fcb60055f12e9c272161626c8be2e",
+            "commitID": "1f8911f40650c54c63c2ff38fb9d4f46a2862a66",
             "configurations": [
                 {
-                    "name": "main"
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
                 },
                 {
                     "dependencies": {
+                        "numem:hookset-libc": "*",
                         "silly": "~>1.1.1"
                     },
                     "name": "unittest"
                 }
             ],
             "name": "numem",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "emscripten"
+                        },
+                        {
+                            "name": "others"
+                        }
+                    ],
+                    "name": "hookset-libc"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "emscripten32"
+                        },
+                        {
+                            "name": "emscripten64"
+                        },
+                        {
+                            "name": "wasm32"
+                        },
+                        {
+                            "name": "wasm64"
+                        },
+                        {
+                            "name": "other"
+                        }
+                    ],
+                    "name": "hookset-wasm"
+                }
+            ],
             "version": "~main"
         },
         {
@@ -73,6 +110,1238 @@
             ],
             "name": "numem",
             "version": "0.6.0"
+        },
+        {
+            "commitID": "1417e7af4cfee090f7d2185f1e1537fc75465968",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "numem",
+            "version": "0.6.1"
+        },
+        {
+            "commitID": "6777aa747a6a86390f5d0711b35c2a92c66fa33b",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "numem",
+            "version": "0.6.2"
+        },
+        {
+            "commitID": "02c0a548a218f36fbef9e3c70ec208a2843d921b",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "numem",
+            "version": "0.6.3"
+        },
+        {
+            "commitID": "f7b5571c3effb776cbba4e5c0674e68767aeb093",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "numem",
+            "version": "0.6.4"
+        },
+        {
+            "commitID": "07ad0d6e76ea08c90423021e5030af2c30b53a13",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": ">0.0.0"
+                }
+            },
+            "name": "numem",
+            "version": "0.7.0"
+        },
+        {
+            "commitID": "21566c7d9c9e7566913a300485b1a72a31f7d4af",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": ">0.0.0"
+                }
+            },
+            "name": "numem",
+            "version": "0.7.1"
+        },
+        {
+            "commitID": "aab4afec96240fd3286772f959ab0cf6bf91c346",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.7.2"
+        },
+        {
+            "commitID": "c8fe75b85b0f14fec9c71b321f3a70a46f6397b4",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.7.3"
+        },
+        {
+            "commitID": "869bea43e96ab6a6ae72166fc9adced948a16c63",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.7.4"
+        },
+        {
+            "commitID": "693ada7569adc319b5b28fcbbbe3123b3e6a208d",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.8.0"
+        },
+        {
+            "commitID": "76404807e924506ab2a169e3544f4831af8f505b",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.8.1"
+        },
+        {
+            "commitID": "d293913006ea1809ab6a684c88efe6029514074d",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.8.2"
+        },
+        {
+            "commitID": "a047fdb78f1b4491f1d7fd59708a15d9490dc71f",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.8.3"
+        },
+        {
+            "commitID": "5d56b21bd28fb717bc33effc38b0856850e3b8ad",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.9.0"
+        },
+        {
+            "commitID": "e615e64669b0ce336bae97670a12427a77facb44",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.9.1"
+        },
+        {
+            "commitID": "1cb28cc4569edf275f4c25f6e300d7bff061dff4",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.9.2"
+        },
+        {
+            "commitID": "7bc7ca03c6831ee9e6adae50781d32ab2885a925",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.10.0"
+        },
+        {
+            "commitID": "5e1eae0daa3c7bb22f42780a1ef8e25299d6e130",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.11.0"
+        },
+        {
+            "commitID": "8f3a5256525f2d997826a5e73d68663cd9b4961a",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.11.1"
+        },
+        {
+            "commitID": "b018a8d0ed1927693c1711af9e4575f27d0f6f9d",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.11.2"
+        },
+        {
+            "commitID": "f1efda5c9f0b8e83918d77e6b4c78b3b8e884589",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.11.3"
+        },
+        {
+            "commitID": "924f8c8491810ca63013bd54b1d8ac3489f455c0",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.20.0"
+        },
+        {
+            "commitID": "eec2a935d8cdcae32efce08f8e0023c69b2c38f7",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.20.1"
+        },
+        {
+            "commitID": "4598a0623efdd9499e8c1ce9b2ff044d0399921f",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.21.0"
+        },
+        {
+            "commitID": "273b28f1824a463f1a83334e2c69cbb0ee5c88cf",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.21.1"
+        },
+        {
+            "commitID": "5821b1a45a6d5eca73eb51e8cb92ee672c63c4a7",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.22.0"
+        },
+        {
+            "commitID": "2476aa532bcd952012e1f00b45e29d971a6dd3d5",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.23.0"
+        },
+        {
+            "commitID": "0f00f6dedc83c3723aa1e2bac260a7df5b50c322",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.23.1"
+        },
+        {
+            "commitID": "52cc5db440f67236dce8b609462d92ade032bf50",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.23.2"
+        },
+        {
+            "commitID": "225a6938197ea6873ea7fc885c3f9350d86ef5ff",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.23.3"
+        },
+        {
+            "commitID": "b48ef471de041107f45799a88f3b1647d90656e8",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.23.4"
+        },
+        {
+            "commitID": "6260825e121afe66986a6c61d3dcaa5091fb5491",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.23.5"
+        },
+        {
+            "commitID": "af9b0e7d8cc9984013e37e1ce3e0c78717700bb8",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.23.6"
+        },
+        {
+            "commitID": "cb04ac7bd3b55cabc7f45a7bd614bdbff6df27e5",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.23.7"
+        },
+        {
+            "commitID": "aaed153b2e7105c994d9e1109c6cc2da5a53c312",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.23.8"
+        },
+        {
+            "commitID": "cc6369364b2d11ccc693e51952eff0a9beeae825",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.23.9"
+        },
+        {
+            "commitID": "0b2e9694d2d07ef899f7e3efc627897a400151a3",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.24.0"
+        },
+        {
+            "commitID": "38544a01929c4829e3ba61f5e9eb91b1b6d9e362",
+            "configurations": [
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "tinyd-rt": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "version": "0.24.1"
+        },
+        {
+            "commitID": "408ed93b0a6d2b34a2050fceb71486351582b495",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "objective-d": {
+                            "optional": true,
+                            "version": "~>1.0"
+                        }
+                    },
+                    "name": "appleos"
+                },
+                {
+                    "name": "main"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "numem",
+            "version": "0.25.0-beta1"
+        },
+        {
+            "commitID": "e1a71ca6e87c951c0a7ea49ade4a0a94f8364b3e",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "numem:hookset-libc": {
+                    "default": true,
+                    "optional": true,
+                    "version": "*"
+                },
+                "silly": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>1.1.1"
+                }
+            },
+            "name": "numem",
+            "subPackages": [
+                {
+                    "name": "hookset-libc"
+                }
+            ],
+            "version": "1.0.0-rc1"
+        },
+        {
+            "commitID": "f53e737b6e6a299fbaacd5a8164eecb97148c3bb",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "numem:hookset-libc": {
+                    "default": true,
+                    "optional": true,
+                    "version": "*"
+                },
+                "silly": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>1.1.1"
+                }
+            },
+            "name": "numem",
+            "subPackages": [
+                {
+                    "name": "hookset-libc"
+                }
+            ],
+            "version": "1.0.0-rc2"
+        },
+        {
+            "commitID": "bf21584b5405b7c63e72105861c46660d9adb50f",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "numem:hookset-libc": {
+                    "default": true,
+                    "optional": true,
+                    "version": "*"
+                },
+                "silly": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>1.1.1"
+                }
+            },
+            "name": "numem",
+            "subPackages": [
+                {
+                    "name": "hookset-libc"
+                }
+            ],
+            "version": "1.0.0-rc3"
+        },
+        {
+            "commitID": "d3e1b09d883e58b2b8ca4b7c7e86ebb4c24dcdd1",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "numem:hookset-libc": {
+                    "default": true,
+                    "optional": true,
+                    "version": "*"
+                },
+                "silly": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>1.1.1"
+                }
+            },
+            "name": "numem",
+            "subPackages": [
+                {
+                    "name": "hookset-libc"
+                }
+            ],
+            "version": "1.0.0"
+        },
+        {
+            "commitID": "a101cbaf873e6fcbd3e54569955706759ece5543",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "numem:hookset-libc": {
+                    "default": true,
+                    "optional": true,
+                    "version": "*"
+                },
+                "silly": {
+                    "default": true,
+                    "optional": true,
+                    "version": "~>1.1.1"
+                }
+            },
+            "name": "numem",
+            "subPackages": [
+                {
+                    "name": "hookset-libc"
+                }
+            ],
+            "version": "1.0.1"
+        },
+        {
+            "commitID": "5d24661876d5d1a3cad06e7614f3c7d7d7b3f652",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "numem:hookset-libc": {
+                    "default": true,
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "subPackages": [
+                {
+                    "name": "hookset-libc"
+                }
+            ],
+            "version": "1.0.2"
+        },
+        {
+            "commitID": "23f4b3948e8681ef8e4a0c97bbd4f48123bb12cb",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "numem:hookset-libc": {
+                    "default": true,
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "subPackages": [
+                {
+                    "name": "hookset-libc"
+                }
+            ],
+            "version": "1.0.3"
+        },
+        {
+            "commitID": "8aecd9b82655682aa742c175d5dea6822b7327ff",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "numem:hookset-libc": {
+                    "default": true,
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "subPackages": [
+                {
+                    "name": "hookset-libc"
+                }
+            ],
+            "version": "1.0.4"
+        },
+        {
+            "commitID": "75d08a66651c10c29cf4e05092c9a0977637b01f",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "numem:hookset-libc": {
+                    "default": true,
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "numem",
+            "subPackages": [
+                {
+                    "name": "hookset-libc"
+                }
+            ],
+            "version": "1.0.5"
+        },
+        {
+            "commitID": "9359264469106e08658fbb57dd927f4a2cc63a64",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "numem:hookset-libc": "*",
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "numem",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "emscripten"
+                        },
+                        {
+                            "name": "others"
+                        }
+                    ],
+                    "name": "hookset-libc"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "emscripten32"
+                        },
+                        {
+                            "name": "emscripten64"
+                        },
+                        {
+                            "name": "wasm32"
+                        },
+                        {
+                            "name": "wasm64"
+                        },
+                        {
+                            "name": "other"
+                        }
+                    ],
+                    "name": "hookset-wasm"
+                }
+            ],
+            "version": "1.0.6"
+        },
+        {
+            "commitID": "1f8911f40650c54c63c2ff38fb9d4f46a2862a66",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "numem:hookset-libc": "*",
+                        "silly": "~>1.1.1"
+                    },
+                    "name": "unittest"
+                }
+            ],
+            "name": "numem",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "name": "emscripten"
+                        },
+                        {
+                            "name": "others"
+                        }
+                    ],
+                    "name": "hookset-libc"
+                },
+                {
+                    "configurations": [
+                        {
+                            "name": "emscripten32"
+                        },
+                        {
+                            "name": "emscripten64"
+                        },
+                        {
+                            "name": "wasm32"
+                        },
+                        {
+                            "name": "wasm64"
+                        },
+                        {
+                            "name": "other"
+                        }
+                    ],
+                    "name": "hookset-wasm"
+                }
+            ],
+            "version": "1.0.7"
         }
     ]
 }

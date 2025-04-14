@@ -4,7 +4,7 @@
         "library.network",
         "library.vibed"
     ],
-    "commitID": "a6a55b63a8e2efb0f2263d369eb8903a8654ef43",
+    "commitID": "e97838b5e16a3d532bec57d3aba247ede33a0437",
     "dateAdded": "2019-12-30T10:41:59",
     "description": "HTTP server and client implementation and higher level HTTP functionality",
     "documentationURL": "",
@@ -18,27 +18,77 @@
     },
     "versions": [
         {
+            "commitID": "fc549e160d923ba3f98fd05d96a91cdbd1e0798b",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
+            },
+            "name": "vibe-http",
+            "version": "~1.1"
+        },
+        {
             "commitID": "13487116768773aa5a562c4e88b611fee68b9257",
             "dependencies": {
                 "diet-ng": "~>1.1",
                 "taggedalgebraic": "~>0.10.9",
                 "vibe-d:crypto": ">0.8.4",
-                "vibe-d:inet": ">=0.0.0",
-                "vibe-d:stream": ">=0.0.0",
-                "vibe-d:textfilter": ">=0.0.0",
+                "vibe-d:inet": "*",
+                "vibe-d:stream": "*",
+                "vibe-d:textfilter": "*",
                 "vibe-d:tls": ">0.8.4"
             },
             "name": "vibe-http",
             "version": "~backport_vibed_changes"
         },
         {
-            "commitID": "a6a55b63a8e2efb0f2263d369eb8903a8654ef43",
+            "commitID": "f00eba8bdca05e656ea2d6f823619c75109a7486",
+            "dependencies": {
+                "diet-ng": "~>1.1",
+                "taggedalgebraic": ">=0.10.9 <0.12.0-0",
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
+            },
+            "name": "vibe-http",
+            "version": "~http_2_original"
+        },
+        {
+            "commitID": "42381a878b99740f9833e49e780fe3752ff5bd6e",
             "dependencies": {
                 "diet-ng": "~>1.2",
-                "vibe-inet": "~>1",
-                "vibe-inet:crypto": "~>1",
-                "vibe-inet:textfilter": "~>1",
-                "vibe-stream:tls": "~>1"
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
+            },
+            "name": "vibe-http",
+            "version": "~http_status_exception_message"
+        },
+        {
+            "commitID": "56bc6fda08b47be656d8bde7078bd32dfef549bc",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
+            },
+            "name": "vibe-http",
+            "version": "~prepare_http2_client"
+        },
+        {
+            "commitID": "1afbf041e2e43a86e2241b52c69374160402482c",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
             },
             "name": "vibe-http",
             "version": "~master"
@@ -49,9 +99,9 @@
                 "diet-ng": "~>1.1",
                 "taggedalgebraic": "~>0.10.9",
                 "vibe-d:crypto": ">0.8.4",
-                "vibe-d:inet": ">=0.0.0",
-                "vibe-d:stream": ">=0.0.0",
-                "vibe-d:textfilter": ">=0.0.0",
+                "vibe-d:inet": "*",
+                "vibe-d:stream": "*",
+                "vibe-d:textfilter": "*",
                 "vibe-d:tls": ">0.8.4"
             },
             "name": "vibe-http",
@@ -63,9 +113,9 @@
                 "diet-ng": "~>1.1",
                 "taggedalgebraic": "~>0.10.9",
                 "vibe-d:crypto": ">0.8.4",
-                "vibe-d:inet": ">=0.0.0",
-                "vibe-d:stream": ">=0.0.0",
-                "vibe-d:textfilter": ">=0.0.0",
+                "vibe-d:inet": "*",
+                "vibe-d:stream": "*",
+                "vibe-d:textfilter": "*",
                 "vibe-d:tls": ">0.8.4"
             },
             "name": "vibe-http",
@@ -77,9 +127,9 @@
                 "diet-ng": "~>1.1",
                 "taggedalgebraic": ">=0.10.9 <0.12.0-0",
                 "vibe-d:crypto": ">0.8.4",
-                "vibe-d:inet": ">=0.0.0",
-                "vibe-d:stream": ">=0.0.0",
-                "vibe-d:textfilter": ">=0.0.0",
+                "vibe-d:inet": "*",
+                "vibe-d:stream": "*",
+                "vibe-d:textfilter": "*",
                 "vibe-d:tls": ">0.8.4"
             },
             "name": "vibe-http",
@@ -91,9 +141,9 @@
                 "diet-ng": "~>1.1",
                 "taggedalgebraic": ">=0.10.9 <0.12.0-0",
                 "vibe-d:crypto": ">0.8.4",
-                "vibe-d:inet": ">=0.0.0",
-                "vibe-d:stream": ">=0.0.0",
-                "vibe-d:textfilter": ">=0.0.0",
+                "vibe-d:inet": "*",
+                "vibe-d:stream": "*",
+                "vibe-d:textfilter": "*",
                 "vibe-d:tls": ">0.8.4"
             },
             "name": "vibe-http",
@@ -115,10 +165,10 @@
             "commitID": "0df8c810a657f609902faedbf48a7c9f5e69082a",
             "dependencies": {
                 "diet-ng": "~>1.2",
-                "vibe-inet": "~>1",
-                "vibe-inet:crypto": "~>1",
-                "vibe-inet:textfilter": "~>1",
-                "vibe-stream:tls": "~>1"
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
             },
             "name": "vibe-http",
             "version": "1.0.0-rc.1"
@@ -127,13 +177,97 @@
             "commitID": "a6a55b63a8e2efb0f2263d369eb8903a8654ef43",
             "dependencies": {
                 "diet-ng": "~>1.2",
-                "vibe-inet": "~>1",
-                "vibe-inet:crypto": "~>1",
-                "vibe-inet:textfilter": "~>1",
-                "vibe-stream:tls": "~>1"
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
             },
             "name": "vibe-http",
             "version": "1.0.0"
+        },
+        {
+            "commitID": "7e4c53eac0cb9b97c49c4d16ca1e1b56f9a67e94",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
+            },
+            "name": "vibe-http",
+            "version": "1.1.0"
+        },
+        {
+            "commitID": "a6e94a6e1c5761316f4df11ccdff0976ba89dcb9",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
+            },
+            "name": "vibe-http",
+            "version": "1.1.1"
+        },
+        {
+            "commitID": "fc549e160d923ba3f98fd05d96a91cdbd1e0798b",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
+            },
+            "name": "vibe-http",
+            "version": "1.1.2"
+        },
+        {
+            "commitID": "568224d99eb877848a0711452890a300633871b4",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
+            },
+            "name": "vibe-http",
+            "version": "1.2.0-beta.1"
+        },
+        {
+            "commitID": "f90768544d62a0d71fa2966dc596373f6ae38003",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
+            },
+            "name": "vibe-http",
+            "version": "1.2.0"
+        },
+        {
+            "commitID": "b5782f46f743b1960ec2091e71c63a61d74a5c06",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
+            },
+            "name": "vibe-http",
+            "version": "1.2.1"
+        },
+        {
+            "commitID": "e97838b5e16a3d532bec57d3aba247ede33a0437",
+            "dependencies": {
+                "diet-ng": "~>1.2",
+                "vibe-inet": "~>1.0",
+                "vibe-inet:crypto": "~>1.0",
+                "vibe-inet:textfilter": "~>1.0",
+                "vibe-stream:tls": "~>1.0"
+            },
+            "name": "vibe-http",
+            "version": "1.2.2"
         }
     ]
 }

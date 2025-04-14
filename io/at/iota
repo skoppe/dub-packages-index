@@ -3,7 +3,7 @@
         "library.audio",
         "library.gamedev"
     ],
-    "commitID": "d8dba93f5573c7c448a8e193a1128cd8176bb391",
+    "commitID": "15ca31d7f73569dcbd73f28b3e00084399bbf5e7",
     "dateAdded": "2021-12-21T22:10:48",
     "description": "Multimedia I\/O library for D",
     "documentationURL": "",
@@ -17,33 +17,58 @@
     },
     "versions": [
         {
-            "commitID": "6f47c2cf3b2f8fa5bdc7ff2bd5ae0ee6290c8301",
+            "commitID": "15ca31d7f73569dcbd73f28b3e00084399bbf5e7",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "avaudioengine": "*",
+                        "d-metal-binding": "*",
+                        "objc_meta": "*"
+                    },
+                    "name": "osx"
+                }
+            ],
             "dependencies": {
-                "bindbc-opengl": ">=0.0.0",
-                "bitleveld": ">=0.0.0",
-                "collections-d": ">=0.0.0",
-                "x11d": ">=0.0.0"
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*",
+                "x11d": "*"
             },
             "name": "iota",
             "subPackages": [
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "audiotest"
                 },
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "miditest"
                 },
                 {
                     "dependencies": {
-                        "darg": ">=0.0.0",
-                        "iota": ">=0.0.0"
+                        "darg": "*",
+                        "iota": "*"
                     },
                     "name": "inputtest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "gltest"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-opengl": "*",
+                        "d-metal-binding": "*",
+                        "iota": "*",
+                        "objc_meta": "*"
+                    },
+                    "name": "mactest"
                 }
             ],
             "version": "~main"
@@ -51,13 +76,13 @@
         {
             "commitID": "f147107a2934fa415eb1a42bd95a6b4141276bf7",
             "dependencies": {
-                "bitleveld": ">=0.0.0"
+                "bitleveld": "*"
             },
             "name": "iota",
             "subPackages": [
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "test"
                 }
@@ -67,13 +92,13 @@
         {
             "commitID": "14b9d2c31d5308995622f4b290cc7f7762c1ee02",
             "dependencies": {
-                "bitleveld": ">=0.0.0"
+                "bitleveld": "*"
             },
             "name": "iota",
             "subPackages": [
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "test"
                 }
@@ -83,19 +108,19 @@
         {
             "commitID": "d22a8a7090732ca88041361664d744c330158dda",
             "dependencies": {
-                "bitleveld": ">=0.0.0"
+                "bitleveld": "*"
             },
             "name": "iota",
             "subPackages": [
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "audiotest"
                 },
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "miditest"
                 }
@@ -105,28 +130,28 @@
         {
             "commitID": "c2cf62058b920b2dd41090c80df4dca69db83587",
             "dependencies": {
-                "bindbc-opengl": ">=0.0.0",
-                "bitleveld": ">=0.0.0",
-                "collections-d": ">=0.0.0"
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*"
             },
             "name": "iota",
             "subPackages": [
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "audiotest"
                 },
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "miditest"
                 },
                 {
                     "dependencies": {
-                        "darg": ">=0.0.0",
-                        "iota": ">=0.0.0"
+                        "darg": "*",
+                        "iota": "*"
                     },
                     "name": "inputtest"
                 }
@@ -136,28 +161,28 @@
         {
             "commitID": "9fae04bf0bc46071f79da4ccded7dbfb0e3688f2",
             "dependencies": {
-                "bindbc-opengl": ">=0.0.0",
-                "bitleveld": ">=0.0.0",
-                "collections-d": ">=0.0.0"
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*"
             },
             "name": "iota",
             "subPackages": [
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "audiotest"
                 },
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "miditest"
                 },
                 {
                     "dependencies": {
-                        "darg": ">=0.0.0",
-                        "iota": ">=0.0.0"
+                        "darg": "*",
+                        "iota": "*"
                     },
                     "name": "inputtest"
                 }
@@ -167,33 +192,451 @@
         {
             "commitID": "d8dba93f5573c7c448a8e193a1128cd8176bb391",
             "dependencies": {
-                "bindbc-opengl": ">=0.0.0",
-                "bitleveld": ">=0.0.0",
-                "collections-d": ">=0.0.0"
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*"
             },
             "name": "iota",
             "subPackages": [
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "audiotest"
                 },
                 {
                     "dependencies": {
-                        "iota": ">=0.0.0"
+                        "iota": "*"
                     },
                     "name": "miditest"
                 },
                 {
                     "dependencies": {
-                        "darg": ">=0.0.0",
-                        "iota": ">=0.0.0"
+                        "darg": "*",
+                        "iota": "*"
                     },
                     "name": "inputtest"
                 }
             ],
             "version": "0.3.0-alpha2"
+        },
+        {
+            "commitID": "1c431fd953424a20e93b05bac0238e49c6d167f5",
+            "dependencies": {
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*",
+                "x11d": "*"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": "*",
+                        "iota": "*"
+                    },
+                    "name": "inputtest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "gltest"
+                }
+            ],
+            "version": "0.3.0-beta"
+        },
+        {
+            "commitID": "984ad30b5a39ba52a88722208e5702a796417d2a",
+            "dependencies": {
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*",
+                "x11d": "*"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": "*",
+                        "iota": "*"
+                    },
+                    "name": "inputtest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "gltest"
+                }
+            ],
+            "version": "0.3.0-beta.2"
+        },
+        {
+            "commitID": "3d6a54497bb26d8a9b2473ad2865c62487115556",
+            "dependencies": {
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*",
+                "x11d": "*"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": "*",
+                        "iota": "*"
+                    },
+                    "name": "inputtest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "gltest"
+                }
+            ],
+            "version": "0.3.0"
+        },
+        {
+            "commitID": "c46320ba91783ed27f6fdfaa524e4b24982dc4ec",
+            "dependencies": {
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*",
+                "x11d": "*"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": "*",
+                        "iota": "*"
+                    },
+                    "name": "inputtest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "gltest"
+                }
+            ],
+            "version": "0.3.1"
+        },
+        {
+            "commitID": "63546dd98a49823bab439961b7bcf151af679d05",
+            "dependencies": {
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*",
+                "x11d": "*"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": "*",
+                        "iota": "*"
+                    },
+                    "name": "inputtest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "gltest"
+                }
+            ],
+            "version": "0.3.2"
+        },
+        {
+            "commitID": "5fa00c0867b6aa4f6adf9553211ed77b17a5758d",
+            "dependencies": {
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*",
+                "x11d": "*"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": "*",
+                        "iota": "*"
+                    },
+                    "name": "inputtest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "gltest"
+                }
+            ],
+            "version": "0.4.0-alpha"
+        },
+        {
+            "commitID": "34423e302c199929737184f0bdc422cf0e1abdbe",
+            "dependencies": {
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*",
+                "x11d": "*"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": "*",
+                        "iota": "*"
+                    },
+                    "name": "inputtest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "gltest"
+                }
+            ],
+            "version": "0.4.0-beta"
+        },
+        {
+            "commitID": "7228a411dc67b48b78d857f2e0bac22e724880d8",
+            "dependencies": {
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*",
+                "x11d": "*"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": "*",
+                        "iota": "*"
+                    },
+                    "name": "inputtest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "gltest"
+                }
+            ],
+            "version": "0.4.0-beta.2"
+        },
+        {
+            "commitID": "5a398611e0592f5f8cca0336f2b3095fb5eb7caa",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "avaudioengine": "*",
+                        "d-metal-binding": "*",
+                        "objc_meta": "*"
+                    },
+                    "name": "osx"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*",
+                "x11d": "*"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": "*",
+                        "iota": "*"
+                    },
+                    "name": "inputtest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "gltest"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-opengl": "*",
+                        "d-metal-binding": "*",
+                        "iota": "*",
+                        "objc_meta": "*"
+                    },
+                    "name": "mactest"
+                }
+            ],
+            "version": "0.4.0-beta.3"
+        },
+        {
+            "commitID": "15ca31d7f73569dcbd73f28b3e00084399bbf5e7",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "avaudioengine": "*",
+                        "d-metal-binding": "*",
+                        "objc_meta": "*"
+                    },
+                    "name": "osx"
+                }
+            ],
+            "dependencies": {
+                "bindbc-opengl": "*",
+                "bitleveld": "*",
+                "collections-d": "*",
+                "x11d": "*"
+            },
+            "name": "iota",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "audiotest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "miditest"
+                },
+                {
+                    "dependencies": {
+                        "darg": "*",
+                        "iota": "*"
+                    },
+                    "name": "inputtest"
+                },
+                {
+                    "dependencies": {
+                        "iota": "*"
+                    },
+                    "name": "gltest"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-opengl": "*",
+                        "d-metal-binding": "*",
+                        "iota": "*",
+                        "objc_meta": "*"
+                    },
+                    "name": "mactest"
+                }
+            ],
+            "version": "0.4.0-beta.4"
         }
     ]
 }

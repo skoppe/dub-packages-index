@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "377f641ba7683d11e7e6ed854fec8f86a18ed37b",
+    "commitID": "0d49c2d49757a183f0442c0ccee31d603c24d155",
     "dateAdded": "2022-03-18T18:33:26",
     "description": "Grammars containing core language features, for creating DSLs and embedded languages",
     "documentationURL": "",
@@ -14,20 +14,75 @@
     },
     "versions": [
         {
-            "commitID": "377f641ba7683d11e7e6ed854fec8f86a18ed37b",
+            "commitID": "1eef6fa7f0671b66ec470a795d550c79ec958b8a",
             "configurations": [
                 {
                     "name": "default"
                 },
                 {
+                    "dependencies": {
+                        "pegged": "~>0.4.9",
+                        "yyd": "~>0.3.0"
+                    },
                     "name": "modgen"
                 }
             ],
             "dependencies": {
                 "pegged": "~>0.4.9",
-                "yyd": "~>0.2.0"
+                "yyd": "~>0.3.0"
             },
             "name": "coregrammars",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": "~>0.4.9",
+                        "yyd": "~>0.3.0"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:core": "*"
+                    },
+                    "name": "terms"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:terms": "*"
+                    },
+                    "name": "expr"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:terms": "*"
+                    },
+                    "name": "ini"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:terms": "*"
+                    },
+                    "name": "json"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:core": "*"
+                    },
+                    "name": "md"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:core": "*"
+                    },
+                    "name": "xml"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:core": "*"
+                    },
+                    "name": "pegged"
+                }
+            ],
             "version": "~main"
         },
         {
@@ -192,6 +247,134 @@
             },
             "name": "coregrammars",
             "version": "0.2.2"
+        },
+        {
+            "commitID": "ec0425aef8acef255697531a8417fa123b2deaff",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "pegged": "~>0.4.9",
+                        "yyd": "~>0.2.0"
+                    },
+                    "name": "modgen"
+                }
+            ],
+            "name": "coregrammars",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": "~>0.4.9",
+                        "yyd": "~>0.2.0"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:core": "*"
+                    },
+                    "name": "terms"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:terms": "*"
+                    },
+                    "name": "expr"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:terms": "*"
+                    },
+                    "name": "ini"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:terms": "*"
+                    },
+                    "name": "json"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:core": "*"
+                    },
+                    "name": "xml"
+                }
+            ],
+            "version": "0.3.0"
+        },
+        {
+            "commitID": "0d49c2d49757a183f0442c0ccee31d603c24d155",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "pegged": "~>0.4.9",
+                        "yyd": "~>0.2.0"
+                    },
+                    "name": "modgen"
+                }
+            ],
+            "dependencies": {
+                "pegged": "~>0.4.9",
+                "yyd": "~>0.2.0"
+            },
+            "name": "coregrammars",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "pegged": "~>0.4.9",
+                        "yyd": "~>0.2.0"
+                    },
+                    "name": "core"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:core": "*"
+                    },
+                    "name": "terms"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:terms": "*"
+                    },
+                    "name": "expr"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:terms": "*"
+                    },
+                    "name": "ini"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:terms": "*"
+                    },
+                    "name": "json"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:core": "*"
+                    },
+                    "name": "md"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:core": "*"
+                    },
+                    "name": "xml"
+                },
+                {
+                    "dependencies": {
+                        "coregrammars:core": "*"
+                    },
+                    "name": "pegged"
+                }
+            ],
+            "version": "0.4.0"
         }
     ]
 }

@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.documentation"
     ],
-    "commitID": "1b3668d5ab0a6de199634927fa51028ab52c37fe",
+    "commitID": "1ede3cdb785c39847512a50a29c23ad5ca8e8909",
     "dateAdded": "2019-08-17T15:03:01",
     "description": "Document generator using Ddoc D language standard feature for dub package.",
     "documentationURL": "https:\/\/shoo.github.io\/gendoc",
@@ -16,7 +16,7 @@
     },
     "versions": [
         {
-            "commitID": "1b3668d5ab0a6de199634927fa51028ab52c37fe",
+            "commitID": "1ede3cdb785c39847512a50a29c23ad5ca8e8909",
             "configurations": [
                 {
                     "name": "default"
@@ -32,7 +32,7 @@
                 }
             ],
             "dependencies": {
-                "dub": "~>1.30.0",
+                "dub": "~>1.40.0",
                 "mustache-d": "~>0.1.5"
             },
             "name": "gendoc",
@@ -402,6 +402,60 @@
                 }
             ],
             "version": "0.0.8"
+        },
+        {
+            "commitID": "1ede3cdb785c39847512a50a29c23ad5ca8e8909",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "name": "init"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "dependencies": {
+                "dub": "~>1.40.0",
+                "mustache-d": "~>0.1.5"
+            },
+            "name": "gendoc",
+            "subPackages": [
+                {
+                    "configurations": [
+                        {
+                            "dependencies": {
+                                "gendoc": {
+                                    "path": ".."
+                                }
+                            },
+                            "name": "default"
+                        },
+                        {
+                            "dependencies": {
+                                "none": {
+                                    "path": "..\/none"
+                                }
+                            },
+                            "name": "init"
+                        },
+                        {
+                            "dependencies": {
+                                "gendoc": {
+                                    "path": ".."
+                                }
+                            },
+                            "name": "unittest"
+                        }
+                    ],
+                    "name": "candydoc"
+                }
+            ],
+            "version": "0.0.9"
         }
     ]
 }

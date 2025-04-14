@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "f9539205d831bd2c135b989e9f9ea48629af9256",
+    "commitID": "7041cd9c13d494ad6f4cc225e79fc51e5528eb0f",
     "dateAdded": "2022-03-22T23:31:01",
     "description": "Face tracking integration for D",
     "documentationURL": "",
@@ -14,21 +14,21 @@
     },
     "versions": [
         {
-            "commitID": "f9539205d831bd2c135b989e9f9ea48629af9256",
+            "commitID": "a98484316fdce1bc845e8340907d1d8c5eb5453e",
             "configurations": [
                 {
                     "name": "default"
                 },
                 {
                     "dependencies": {
-                        "vibe-d:http": "~>0.9.5"
+                        "vibe-http": "~>1.1.2"
                     },
                     "name": "web-adaptors"
                 }
             ],
             "dependencies": {
                 "fghj": "~>1.0.0",
-                "inmath": "~>1.0.2",
+                "inmath": "~>1.3.0",
                 "vmc-d": "~>1.1.3"
             },
             "name": "facetrack-d",
@@ -177,6 +177,27 @@
             },
             "name": "facetrack-d",
             "version": "0.7.8"
+        },
+        {
+            "commitID": "7041cd9c13d494ad6f4cc225e79fc51e5528eb0f",
+            "configurations": [
+                {
+                    "name": "default"
+                },
+                {
+                    "dependencies": {
+                        "vibe-d:http": "~>0.9.5"
+                    },
+                    "name": "web-adaptors"
+                }
+            ],
+            "dependencies": {
+                "fghj": "~>1.0.0",
+                "inmath": "~>1.3.0",
+                "vmc-d": "~>1.1.3"
+            },
+            "name": "facetrack-d",
+            "version": "0.8.0"
         }
     ]
 }

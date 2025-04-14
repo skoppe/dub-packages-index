@@ -2,7 +2,7 @@
     "categories": [
         "application.desktop.development.analyzer"
     ],
-    "commitID": "efaa18ec063bea45b5645a545458e307d432ce0e",
+    "commitID": "008e3e65795a3ba7b4ebfe999f85b2cc3d5e88b6",
     "dateAdded": "2018-07-23T19:34:20",
     "description": "Tool to check the quality of code for a review\/inspection\/PR",
     "documentationURL": "",
@@ -25,7 +25,7 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
@@ -35,12 +35,30 @@
                 }
             ],
             "dependencies": {
-                "colorlog": "~>0.0.7",
-                "compile_db": "~>0.0.2",
-                "miniorm": "~>0.0.5",
-                "my": "~>0.0.33",
-                "toml": ">=1.0.0-rc.3 <1.1.0-0",
-                "unit-threaded": "~>2.0.3"
+                "colorlog": {
+                    "default": true,
+                    "version": "~>0.0.7"
+                },
+                "compile_db": {
+                    "default": true,
+                    "version": "~>0.0.2"
+                },
+                "miniorm": {
+                    "default": true,
+                    "version": "~>0.0.5"
+                },
+                "my": {
+                    "default": true,
+                    "version": "~>0.0.33"
+                },
+                "toml": {
+                    "default": true,
+                    "version": ">=1.0.0-rc.3 <1.1.0-0"
+                },
+                "unit-threaded": {
+                    "default": true,
+                    "version": "~>2.0.3"
+                }
             },
             "name": "code_checker",
             "version": "~fix-robust-to-clang-tidy-crash"
@@ -55,7 +73,7 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
@@ -65,15 +83,81 @@
                 }
             ],
             "dependencies": {
-                "colorlog": "~>0.0.7",
-                "compile_db": "~>0.0.2",
-                "miniorm": "~>0.0.5",
-                "my": "~>0.0.33",
-                "toml": ">=1.0.0-rc.3 <1.1.0-0",
-                "unit-threaded": "~>2.0.3"
+                "colorlog": {
+                    "default": true,
+                    "version": "~>0.0.7"
+                },
+                "compile_db": {
+                    "default": true,
+                    "version": "~>0.0.2"
+                },
+                "miniorm": {
+                    "default": true,
+                    "version": "~>0.0.5"
+                },
+                "my": {
+                    "default": true,
+                    "version": "~>0.0.33"
+                },
+                "toml": {
+                    "default": true,
+                    "version": ">=1.0.0-rc.3 <1.1.0-0"
+                },
+                "unit-threaded": {
+                    "default": true,
+                    "version": "~>2.0.3"
+                }
             },
             "name": "code_checker",
             "version": "~fix-severity-levels"
+        },
+        {
+            "commitID": "d7a30e3cc274bea6736a507049e2624923d324d0",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": "*"
+                        }
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "integration_test"
+                }
+            ],
+            "dependencies": {
+                "colorlog": {
+                    "default": true,
+                    "version": "~>0.0.7"
+                },
+                "compile_db": {
+                    "default": true,
+                    "version": "~>0.0.2"
+                },
+                "miniorm": {
+                    "default": true,
+                    "version": "~>0.0.5"
+                },
+                "my": {
+                    "default": true,
+                    "version": "~>0.0.35"
+                },
+                "toml": {
+                    "default": true,
+                    "version": ">=1.0.0-rc.3 <1.1.0-0"
+                },
+                "unit-threaded": {
+                    "default": true,
+                    "version": "~>2.0.3"
+                }
+            },
+            "name": "code_checker",
+            "version": "~improve-handling-of-timeout-and-toolfail"
         },
         {
             "commitID": "8b2531e23889b0845d56a742434338891ea7ac42",
@@ -85,7 +169,7 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
@@ -95,18 +179,36 @@
                 }
             ],
             "dependencies": {
-                "colorlog": "~>0.0.7",
-                "compile_db": "~>0.0.2",
-                "miniorm": "~>0.0.5",
-                "my": "~>0.0.33",
-                "toml": ">=1.0.0-rc.3 <1.1.0-0",
-                "unit-threaded": "~>2.0.3"
+                "colorlog": {
+                    "default": true,
+                    "version": "~>0.0.7"
+                },
+                "compile_db": {
+                    "default": true,
+                    "version": "~>0.0.2"
+                },
+                "miniorm": {
+                    "default": true,
+                    "version": "~>0.0.5"
+                },
+                "my": {
+                    "default": true,
+                    "version": "~>0.0.33"
+                },
+                "toml": {
+                    "default": true,
+                    "version": ">=1.0.0-rc.3 <1.1.0-0"
+                },
+                "unit-threaded": {
+                    "default": true,
+                    "version": "~>2.0.3"
+                }
             },
             "name": "code_checker",
             "version": "~speedup"
         },
         {
-            "commitID": "a196425ce459d3f001b15eab05a106290f1c4cf1",
+            "commitID": "9d190d3e20a712df6e0adf57e7c2a174ed58113d",
             "configurations": [
                 {
                     "name": "application"
@@ -115,7 +217,7 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
@@ -125,12 +227,30 @@
                 }
             ],
             "dependencies": {
-                "colorlog": "~>0.0.7",
-                "compile_db": "~>0.0.2",
-                "miniorm": "~>0.0.5",
-                "my": "~>0.0.33",
-                "toml": ">=1.0.0-rc.3 <1.1.0-0",
-                "unit-threaded": "~>2.0.3"
+                "colorlog": {
+                    "default": true,
+                    "version": "~>0.0.10"
+                },
+                "compile_db": {
+                    "default": true,
+                    "version": "~>0.0.5"
+                },
+                "miniorm": {
+                    "default": true,
+                    "version": "~>0.0.10"
+                },
+                "mylib": {
+                    "default": true,
+                    "version": "~>0.0.41"
+                },
+                "toml": {
+                    "default": true,
+                    "version": ">=1.0.0-rc.3 <1.1.0-0"
+                },
+                "unit-threaded": {
+                    "default": true,
+                    "version": "~>2.1.9"
+                }
             },
             "name": "code_checker",
             "version": "~master"
@@ -143,13 +263,13 @@
                 },
                 {
                     "dependencies": {
-                        "code_checker:unit-threaded": ">=0.0.0"
+                        "code_checker:unit-threaded": "*"
                     },
                     "name": "unittest"
                 }
             ],
             "dependencies": {
-                "code_checker:toml": ">=0.0.0"
+                "code_checker:toml": "*"
             },
             "name": "code_checker",
             "subPackages": [
@@ -159,8 +279,7 @@
                         {
                             "dependencies": {
                                 "toml": {
-                                    "path": "..",
-                                    "version": ">=0.0.0"
+                                    "path": ".."
                                 }
                             },
                             "name": "json"
@@ -206,15 +325,15 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
                 }
             ],
             "dependencies": {
-                "code_checker:colorlog": ">=0.0.0",
-                "code_checker:toml": ">=0.0.0"
+                "code_checker:colorlog": "*",
+                "code_checker:toml": "*"
             },
             "name": "code_checker",
             "subPackages": [
@@ -224,8 +343,7 @@
                         {
                             "dependencies": {
                                 "toml": {
-                                    "path": "..",
-                                    "version": ">=0.0.0"
+                                    "path": ".."
                                 }
                             },
                             "name": "json"
@@ -274,15 +392,15 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
                 }
             ],
             "dependencies": {
-                "code_checker:colorlog": ">=0.0.0",
-                "code_checker:toml": ">=0.0.0"
+                "code_checker:colorlog": "*",
+                "code_checker:toml": "*"
             },
             "name": "code_checker",
             "subPackages": [
@@ -292,8 +410,7 @@
                         {
                             "dependencies": {
                                 "toml": {
-                                    "path": "..",
-                                    "version": ">=0.0.0"
+                                    "path": ".."
                                 }
                             },
                             "name": "json"
@@ -342,15 +459,15 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
                 }
             ],
             "dependencies": {
-                "code_checker:colorlog": ">=0.0.0",
-                "code_checker:toml": ">=0.0.0"
+                "code_checker:colorlog": "*",
+                "code_checker:toml": "*"
             },
             "name": "code_checker",
             "subPackages": [
@@ -360,8 +477,7 @@
                         {
                             "dependencies": {
                                 "toml": {
-                                    "path": "..",
-                                    "version": ">=0.0.0"
+                                    "path": ".."
                                 }
                             },
                             "name": "json"
@@ -410,15 +526,15 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
                 }
             ],
             "dependencies": {
-                "code_checker:colorlog": ">=0.0.0",
-                "code_checker:toml": ">=0.0.0"
+                "code_checker:colorlog": "*",
+                "code_checker:toml": "*"
             },
             "name": "code_checker",
             "subPackages": [
@@ -428,8 +544,7 @@
                         {
                             "dependencies": {
                                 "toml": {
-                                    "path": "..",
-                                    "version": ">=0.0.0"
+                                    "path": ".."
                                 }
                             },
                             "name": "json"
@@ -478,15 +593,15 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
                 }
             ],
             "dependencies": {
-                "code_checker:colorlog": ">=0.0.0",
-                "code_checker:toml": ">=0.0.0"
+                "code_checker:colorlog": "*",
+                "code_checker:toml": "*"
             },
             "name": "code_checker",
             "subPackages": [
@@ -496,8 +611,7 @@
                         {
                             "dependencies": {
                                 "toml": {
-                                    "path": "..",
-                                    "version": ">=0.0.0"
+                                    "path": ".."
                                 }
                             },
                             "name": "json"
@@ -546,7 +660,7 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
@@ -556,8 +670,8 @@
                 }
             ],
             "dependencies": {
-                "code_checker:colorlog": ">=0.0.0",
-                "code_checker:toml": ">=0.0.0"
+                "code_checker:colorlog": "*",
+                "code_checker:toml": "*"
             },
             "name": "code_checker",
             "subPackages": [
@@ -570,8 +684,7 @@
                         {
                             "dependencies": {
                                 "toml": {
-                                    "path": "..",
-                                    "version": ">=0.0.0"
+                                    "path": ".."
                                 }
                             },
                             "name": "json"
@@ -603,7 +716,7 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
@@ -613,8 +726,8 @@
                 }
             ],
             "dependencies": {
-                "code_checker:colorlog": ">=0.0.0",
-                "code_checker:toml": ">=0.0.0"
+                "code_checker:colorlog": "*",
+                "code_checker:toml": "*"
             },
             "name": "code_checker",
             "subPackages": [
@@ -627,8 +740,7 @@
                         {
                             "dependencies": {
                                 "toml": {
-                                    "path": "..",
-                                    "version": ">=0.0.0"
+                                    "path": ".."
                                 }
                             },
                             "name": "json"
@@ -660,7 +772,7 @@
                     "dependencies": {
                         "code_checker:unit-threaded": {
                             "optional": true,
-                            "version": ">=0.0.0"
+                            "version": "*"
                         }
                     },
                     "name": "unittest"
@@ -670,15 +782,81 @@
                 }
             ],
             "dependencies": {
-                "colorlog": "~>0.0.7",
-                "compile_db": "~>0.0.2",
-                "miniorm": "~>0.0.5",
-                "my": "~>0.0.33",
-                "toml": ">=1.0.0-rc.3 <1.1.0-0",
-                "unit-threaded": "~>2.0.3"
+                "colorlog": {
+                    "default": true,
+                    "version": "~>0.0.7"
+                },
+                "compile_db": {
+                    "default": true,
+                    "version": "~>0.0.2"
+                },
+                "miniorm": {
+                    "default": true,
+                    "version": "~>0.0.5"
+                },
+                "my": {
+                    "default": true,
+                    "version": "~>0.0.33"
+                },
+                "toml": {
+                    "default": true,
+                    "version": ">=1.0.0-rc.3 <1.1.0-0"
+                },
+                "unit-threaded": {
+                    "default": true,
+                    "version": "~>2.0.3"
+                }
             },
             "name": "code_checker",
             "version": "2.0.0"
+        },
+        {
+            "commitID": "008e3e65795a3ba7b4ebfe999f85b2cc3d5e88b6",
+            "configurations": [
+                {
+                    "name": "application"
+                },
+                {
+                    "dependencies": {
+                        "code_checker:unit-threaded": {
+                            "optional": true,
+                            "version": "*"
+                        }
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "integration_test"
+                }
+            ],
+            "dependencies": {
+                "colorlog": {
+                    "default": true,
+                    "version": "~>0.0.10"
+                },
+                "compile_db": {
+                    "default": true,
+                    "version": "~>0.0.5"
+                },
+                "miniorm": {
+                    "default": true,
+                    "version": "~>0.0.10"
+                },
+                "mylib": {
+                    "default": true,
+                    "version": "~>0.0.41"
+                },
+                "toml": {
+                    "default": true,
+                    "version": ">=1.0.0-rc.3 <1.1.0-0"
+                },
+                "unit-threaded": {
+                    "default": true,
+                    "version": "~>2.1.9"
+                }
+            },
+            "name": "code_checker",
+            "version": "2.1.0"
         }
     ]
 }

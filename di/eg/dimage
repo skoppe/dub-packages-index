@@ -3,7 +3,7 @@
         "library.data",
         "library.graphics"
     ],
-    "commitID": "af818eddb57b4cc55871288ede6dc711a1d54727",
+    "commitID": "71121cf737f61638962b969e92b608c6076d9fb1",
     "dateAdded": "2018-12-17T03:18:51",
     "description": "Image file handling for D",
     "documentationURL": "",
@@ -17,10 +17,11 @@
     },
     "versions": [
         {
-            "commitID": "af818eddb57b4cc55871288ede6dc711a1d54727",
+            "commitID": "71121cf737f61638962b969e92b608c6076d9fb1",
             "dependencies": {
-                "bitleveld": ">=0.0.0",
-                "vfile": ">=0.0.0"
+                "bitleveld": "*",
+                "lzwford": "1.1.0",
+                "vfile": "*"
             },
             "name": "dimage",
             "version": "~master"
@@ -108,7 +109,7 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 }
@@ -121,7 +122,7 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 }
@@ -134,7 +135,7 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 }
@@ -147,7 +148,7 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 }
@@ -160,7 +161,7 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 }
@@ -173,7 +174,7 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 }
@@ -186,13 +187,13 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "lzwford": ">=0.0.0"
+                        "lzwford": "*"
                     },
                     "name": "lzwsupport"
                 }
@@ -208,13 +209,13 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "lzwford": ">=0.0.0"
+                        "lzwford": "*"
                     },
                     "name": "lzwsupport"
                 }
@@ -230,13 +231,13 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "lzwford": ">=0.0.0"
+                        "lzwford": "*"
                     },
                     "name": "lzwsupport"
                 }
@@ -252,13 +253,13 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "lzwford": ">=0.0.0"
+                        "lzwford": "*"
                     },
                     "name": "lzwsupport"
                 }
@@ -274,13 +275,13 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "lzwford": ">=0.0.0"
+                        "lzwford": "*"
                     },
                     "name": "lzwsupport"
                 }
@@ -296,19 +297,19 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "lzwford": ">=0.0.0"
+                        "lzwford": "*"
                     },
                     "name": "lzwsupport"
                 }
             ],
             "dependencies": {
-                "bitleveld": ">=0.0.0"
+                "bitleveld": "*"
             },
             "name": "dimage",
             "version": "0.3.0-beta.2"
@@ -318,19 +319,19 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "vfile": ">=0.0.0"
+                        "vfile": "*"
                     },
                     "name": "unittest"
                 },
                 {
                     "dependencies": {
-                        "lzwford": ">=0.0.0"
+                        "lzwford": "*"
                     },
                     "name": "lzwsupport"
                 }
             ],
             "dependencies": {
-                "bitleveld": ">=0.0.0"
+                "bitleveld": "*"
             },
             "name": "dimage",
             "version": "0.3.0-beta.3"
@@ -338,11 +339,21 @@
         {
             "commitID": "af818eddb57b4cc55871288ede6dc711a1d54727",
             "dependencies": {
-                "bitleveld": ">=0.0.0",
-                "vfile": ">=0.0.0"
+                "bitleveld": "*",
+                "vfile": "*"
             },
             "name": "dimage",
             "version": "0.3.0-beta.4"
+        },
+        {
+            "commitID": "71121cf737f61638962b969e92b608c6076d9fb1",
+            "dependencies": {
+                "bitleveld": "*",
+                "lzwford": "1.1.0",
+                "vfile": "*"
+            },
+            "name": "dimage",
+            "version": "0.3.0-beta.5"
         }
     ]
 }

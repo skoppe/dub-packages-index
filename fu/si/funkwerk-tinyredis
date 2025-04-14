@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "d69d0d964cd7ae448c82c68c8f373e1838ce8558",
+    "commitID": "5db422ca837b9599fd8b2238fc0a65835db0fff2",
     "dateAdded": "2024-02-23T09:36:40",
     "description": "Redis driver for D. (Funkwerk fork)",
     "documentationURL": "",
@@ -14,7 +14,7 @@
     },
     "versions": [
         {
-            "commitID": "d69d0d964cd7ae448c82c68c8f373e1838ce8558",
+            "commitID": "5db422ca837b9599fd8b2238fc0a65835db0fff2",
             "configurations": [
                 {
                     "name": "library"
@@ -32,7 +32,7 @@
             "dependencies": {
                 "openssl": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "funkwerk-tinyredis",
@@ -57,11 +57,36 @@
             "dependencies": {
                 "openssl": {
                     "optional": true,
-                    "version": ">=0.0.0"
+                    "version": "*"
                 }
             },
             "name": "funkwerk-tinyredis",
             "version": "2.4.1"
+        },
+        {
+            "commitID": "5db422ca837b9599fd8b2238fc0a65835db0fff2",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "example"
+                },
+                {
+                    "name": "console"
+                },
+                {
+                    "name": "benchmark"
+                }
+            ],
+            "dependencies": {
+                "openssl": {
+                    "optional": true,
+                    "version": "*"
+                }
+            },
+            "name": "funkwerk-tinyredis",
+            "version": "2.4.2"
         }
     ]
 }

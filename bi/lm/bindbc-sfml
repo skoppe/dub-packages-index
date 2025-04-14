@@ -3,9 +3,9 @@
         "library.binding",
         "library.gamedev",
         "library.graphics",
-        "library.nogc"
+        "library.betterc"
     ],
-    "commitID": "9cad4097c113cc32203108dd4707f633d3f2b30f",
+    "commitID": "869203b5e8f5f6199ccb1b848114663ba54c0825",
     "dateAdded": "2020-11-02T11:53:21",
     "description": "Static & dynamic bindings to the SFML2 libraries, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "3846c376dc5a0139252a9020911c958e7602a776",
+            "commitID": "192f1f364a5fe13b1e0c0a66eedfa84a67525a66",
             "configurations": [
                 {
                     "dependencies": {
@@ -192,6 +192,31 @@
             ],
             "name": "bindbc-sfml",
             "version": "1.1.0"
+        },
+        {
+            "commitID": "869203b5e8f5f6199ccb1b848114663ba54c0825",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-sfml",
+            "version": "1.1.1"
         }
     ]
 }

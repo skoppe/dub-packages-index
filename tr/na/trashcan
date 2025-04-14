@@ -2,7 +2,7 @@
     "categories": [
         "library.filesystem"
     ],
-    "commitID": "3c031c551228a4abc769a2d405ec35be9bc2d5bd",
+    "commitID": "b31da897f9a4cac494bed63da47f77b2aea7779e",
     "dateAdded": "2016-06-24T14:44:26",
     "description": "Move files to trash can (aka recycle bin) programmatically",
     "documentationURL": "",
@@ -16,7 +16,15 @@
     },
     "versions": [
         {
-            "commitID": "3c031c551228a4abc769a2d405ec35be9bc2d5bd",
+            "commitID": "b31da897f9a4cac494bed63da47f77b2aea7779e",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
             "dependencies": {
                 "inilike": "~>1.2.0",
                 "volumeinfo": "~>0.2.2",
@@ -34,7 +42,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "trashcan": ">=0.0.0"
+                        "trashcan": "*"
                     },
                     "name": "put"
                 }
@@ -50,7 +58,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "trashcan": ">=0.0.0"
+                        "trashcan": "*"
                     },
                     "name": "put"
                 }
@@ -66,7 +74,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "trashcan": ">=0.0.0"
+                        "trashcan": "*"
                     },
                     "name": "put"
                 }
@@ -82,7 +90,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "trashcan": ">=0.0.0"
+                        "trashcan": "*"
                     },
                     "name": "put"
                 }
@@ -98,7 +106,7 @@
             "subPackages": [
                 {
                     "dependencies": {
-                        "trashcan": ">=0.0.0"
+                        "trashcan": "*"
                     },
                     "name": "put"
                 }
@@ -142,6 +150,24 @@
             },
             "name": "trashcan",
             "version": "0.3.2"
+        },
+        {
+            "commitID": "b31da897f9a4cac494bed63da47f77b2aea7779e",
+            "configurations": [
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "dynamic"
+                }
+            ],
+            "dependencies": {
+                "inilike": "~>1.2.0",
+                "volumeinfo": "~>0.2.2",
+                "xdgpaths": "~>0.2.5"
+            },
+            "name": "trashcan",
+            "version": "0.3.3"
         }
     ]
 }

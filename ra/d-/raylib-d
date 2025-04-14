@@ -3,7 +3,7 @@
         "library.binding",
         "library.graphics"
     ],
-    "commitID": "9906279494f1f83b2c4c9550779d46962af7c342",
+    "commitID": "1cc76b8be3da3c1a34c54528678a62ce237c969e",
     "dateAdded": "2021-04-21T02:35:39",
     "description": "D binding for Raylib",
     "documentationURL": "",
@@ -56,7 +56,7 @@
             "version": "~updatewithconfig"
         },
         {
-            "commitID": "9906279494f1f83b2c4c9550779d46962af7c342",
+            "commitID": "1cc76b8be3da3c1a34c54528678a62ce237c969e",
             "configurations": [
                 {
                     "name": "library"
@@ -69,6 +69,7 @@
             "subPackages": [
                 {
                     "dependencies": {
+                        "getopt2": "0.0.1",
                         "io": "~>0.3.4",
                         "iopipe": "~>0.2.4",
                         "jsoniopipe": "~>0.2.5"
@@ -400,6 +401,54 @@
                 }
             ],
             "version": "5.0.1"
+        },
+        {
+            "commitID": "1381ca27e195db555fe350810a44fba94f69e9d2",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "getopt2": "0.0.1",
+                        "io": "~>0.3.4",
+                        "iopipe": "~>0.2.4",
+                        "jsoniopipe": "~>0.2.5"
+                    },
+                    "name": "install"
+                }
+            ],
+            "version": "5.5.0"
+        },
+        {
+            "commitID": "1cc76b8be3da3c1a34c54528678a62ce237c969e",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "unittest"
+                }
+            ],
+            "name": "raylib-d",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "getopt2": "0.0.1",
+                        "io": "~>0.3.4",
+                        "iopipe": "~>0.2.4",
+                        "jsoniopipe": "~>0.2.5"
+                    },
+                    "name": "install"
+                }
+            ],
+            "version": "5.5.1"
         }
     ]
 }

@@ -1,0 +1,109 @@
+{
+    "categories": [
+        "library.web.framework"
+    ],
+    "commitID": "a441db5fc86d7f5f9a3fe638c71dbdcca351a14f",
+    "dateAdded": "2024-03-12T23:50:11",
+    "description": "HTTP application server",
+    "documentationURL": "",
+    "id": "65f0dc23655bfeca7aafda6a",
+    "name": "oceandrift-http",
+    "owner": "596c21c5edf032e921669d0c",
+    "repository": {
+        "kind": "github",
+        "owner": "oceandrift",
+        "project": "http"
+    },
+    "versions": [
+        {
+            "commitID": "996b743f1a7b5f4799dcde802971bfeb5a675cf1",
+            "dependencies": {
+                "oceandrift-http:message": "*",
+                "oceandrift-http:microframework": "*",
+                "oceandrift-http:server": "*"
+            },
+            "name": "oceandrift-http",
+            "subPackages": [
+                {
+                    "name": "message"
+                },
+                {
+                    "dependencies": {
+                        "httparsed": "~>1.2",
+                        "oceandrift-http:message": "*",
+                        "vibe-core": "~>1.22"
+                    },
+                    "name": "server"
+                },
+                {
+                    "dependencies": {
+                        "oceandrift-http:server": "*",
+                        "oceandrift-validation": "~>0.2"
+                    },
+                    "name": "microframework"
+                }
+            ],
+            "version": "~dip1000"
+        },
+        {
+            "commitID": "4cc7d92840617aeb44601c969d05abc367fc7023",
+            "dependencies": {
+                "oceandrift-http:message": "*",
+                "oceandrift-http:microframework": "*",
+                "oceandrift-http:server": "*"
+            },
+            "name": "oceandrift-http",
+            "subPackages": [
+                {
+                    "name": "message"
+                },
+                {
+                    "dependencies": {
+                        "httparsed": "~>1.2",
+                        "oceandrift-http:message": "*",
+                        "socketplate": "~>0.30"
+                    },
+                    "name": "server"
+                },
+                {
+                    "dependencies": {
+                        "oceandrift-http:server": "*",
+                        "oceandrift-validation": "~>0.2"
+                    },
+                    "name": "microframework"
+                }
+            ],
+            "version": "~main"
+        },
+        {
+            "commitID": "a441db5fc86d7f5f9a3fe638c71dbdcca351a14f",
+            "dependencies": {
+                "oceandrift-http:message": "*",
+                "oceandrift-http:microframework": "*",
+                "oceandrift-http:server": "*"
+            },
+            "name": "oceandrift-http",
+            "subPackages": [
+                {
+                    "name": "message"
+                },
+                {
+                    "dependencies": {
+                        "httparsed": "~>1.2",
+                        "oceandrift-http:message": "*",
+                        "socketplate": "~>0.30"
+                    },
+                    "name": "server"
+                },
+                {
+                    "dependencies": {
+                        "oceandrift-http:server": "*",
+                        "oceandrift-validation": "~>0.2"
+                    },
+                    "name": "microframework"
+                }
+            ],
+            "version": "0.24.312"
+        }
+    ]
+}

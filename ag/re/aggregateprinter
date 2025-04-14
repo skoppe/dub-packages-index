@@ -1,6 +1,6 @@
 {
     "categories": [],
-    "commitID": "2b848150d6decef0b374d0e7450e1d11bff7ba88",
+    "commitID": "d77b4458677de2bb0b6e9751c0a568933da78563",
     "dateAdded": "2020-05-18T12:52:30",
     "description": "Prints aggregates with some nicer layouts",
     "documentationURL": "",
@@ -14,9 +14,19 @@
     },
     "versions": [
         {
-            "commitID": "2b848150d6decef0b374d0e7450e1d11bff7ba88",
+            "commitID": "d77b4458677de2bb0b6e9751c0a568933da78563",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "graphqld": ">=3.0.0"
+                    },
+                    "name": "graphqld"
+                }
+            ],
             "dependencies": {
-                "graphqld": ">=3.0.0",
                 "nullablestore": "~>2.1.0"
             },
             "name": "aggregateprinter",
@@ -75,6 +85,25 @@
             },
             "name": "aggregateprinter",
             "version": "2.4.0"
+        },
+        {
+            "commitID": "d77b4458677de2bb0b6e9751c0a568933da78563",
+            "configurations": [
+                {
+                    "name": "library"
+                },
+                {
+                    "dependencies": {
+                        "graphqld": ">=3.0.0"
+                    },
+                    "name": "graphqld"
+                }
+            ],
+            "dependencies": {
+                "nullablestore": "~>2.1.0"
+            },
+            "name": "aggregateprinter",
+            "version": "3.0.0"
         }
     ]
 }

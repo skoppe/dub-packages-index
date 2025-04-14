@@ -3,7 +3,7 @@
         "library.graphics",
         "library.tui"
     ],
-    "commitID": "2d45992a27ae19e8ff79e3ec8e95d099b6b61e87",
+    "commitID": "016034d80b1da46e9cea10c21ce85ae96e83437f",
     "dateAdded": "2018-09-26T23:29:44",
     "description": "Low-level API to generate self-contained PDF\/SVG\/HTML documents suitable for print",
     "documentationURL": "http:\/\/printed.dpldocs.info\/",
@@ -17,27 +17,25 @@
     },
     "versions": [
         {
-            "commitID": "2d45992a27ae19e8ff79e3ec8e95d099b6b61e87",
+            "commitID": "016034d80b1da46e9cea10c21ce85ae96e83437f",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "gamut": "~>2",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "gamut": "~>3.0",
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -46,7 +44,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -56,21 +54,21 @@
         {
             "commitID": "62e84577d2a1cac81f4b4cb0bb6667ed04333676",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:shaping": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:shaping": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "printed:font": ">=0.0.0"
+                        "printed:font": "*"
                     },
                     "name": "canvas"
                 },
@@ -83,22 +81,22 @@
         {
             "commitID": "81fc20354d523f6c6f92d0607a2824dc546d21bd",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:shaping": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:shaping": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -114,22 +112,22 @@
         {
             "commitID": "c84dd7f8538ade43fd97881b346fbcd67152a3c5",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:shaping": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:shaping": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -145,22 +143,22 @@
         {
             "commitID": "0200b6eaae6cc182b3b43fe14441ae2d873c5432",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:shaping": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:shaping": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -176,22 +174,22 @@
         {
             "commitID": "8330c97cda4b17a729a05073c65b124941b91933",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:shaping": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:shaping": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -207,26 +205,26 @@
         {
             "commitID": "f78ea8eff1d1d915a2cb72ad59027c769d523450",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:image": ">=0.0.0",
-                "printed:shaping": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:image": "*",
+                "printed:shaping": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "dplug:graphics": "~>8",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "binrange": "~>1.0",
+                        "dplug:graphics": "~>8.0",
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -242,25 +240,25 @@
         {
             "commitID": "09e8c763d8773cf1ac9b1699c5352f7694f48ba4",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "dplug:graphics": "~>8",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "binrange": "~>1.0",
+                        "dplug:graphics": "~>8.0",
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -273,25 +271,25 @@
         {
             "commitID": "0c5e64d14d4582157e19c7a73257aa7f11d3c41a",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <10.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -304,25 +302,25 @@
         {
             "commitID": "d9ae0283fd68178872157aa74e16f801c01b6f63",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <10.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -335,25 +333,25 @@
         {
             "commitID": "a64e9749724509692c9ea370266ba04d5e8abb48",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <10.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -366,25 +364,25 @@
         {
             "commitID": "e9bc4474fc5d4c6468ef71245a70bf5644a6dbf5",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <10.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -397,25 +395,25 @@
         {
             "commitID": "9ce1b9a7e2bc2392139e06f1a9453db47157a98d",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <10.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -428,25 +426,25 @@
         {
             "commitID": "b26561b771f386c29b48c3f8da8093c9caf8d112",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <10.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -459,25 +457,25 @@
         {
             "commitID": "ad0b572238f0e3e57cfa7eb5fc805ab141bb85e6",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <10.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -490,25 +488,25 @@
         {
             "commitID": "2ef0d2b3946f322db100668ea9bd22403a678740",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <10.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -521,25 +519,25 @@
         {
             "commitID": "ec334cbcb077b6fff0ba0c2b743ef156be6ea21b",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <10.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -552,25 +550,25 @@
         {
             "commitID": "47db1b40fe1dec8c3c3f29cde46036aab3729858",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <10.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -583,25 +581,25 @@
         {
             "commitID": "86503c9a722c25c078d7e0ef2d129d87cd8c0a33",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <10.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -614,25 +612,25 @@
         {
             "commitID": "58736136ace42d20361613bf90226dc25e03571b",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <12.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -645,25 +643,25 @@
         {
             "commitID": "af7d7bdaa9ebe3ed461c182c33b5131ef7109eff",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <12.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -676,25 +674,25 @@
         {
             "commitID": "0a9a503ec434c419b6880aedb9da03b287dadb8b",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -707,25 +705,25 @@
         {
             "commitID": "7b2007a33f5caf32426489796e8913b250659958",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -738,25 +736,25 @@
         {
             "commitID": "b76fbdb01cc54d4fc9c716524f37bb969d32e0ee",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -769,25 +767,25 @@
         {
             "commitID": "c1ff187b28e507efa1762548eb84bb5dcbe1a22b",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -796,7 +794,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -806,25 +804,25 @@
         {
             "commitID": "5754432a28add1dc6740301658e29662e7d49c94",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -833,7 +831,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -843,25 +841,25 @@
         {
             "commitID": "6812fe5aad5e395ee9b3b02b623488f9b309d65f",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -870,7 +868,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -880,25 +878,25 @@
         {
             "commitID": "8dd81553685c9fe57a6426ffadfa9455c247ef9e",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -907,7 +905,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -917,25 +915,25 @@
         {
             "commitID": "12493ab22a462653ca93626f66f35d18031b3ffd",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -944,7 +942,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -954,25 +952,25 @@
         {
             "commitID": "e6bcdf65056ab7a80c45ca47a6d4a9b6bb911292",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -981,7 +979,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -991,25 +989,25 @@
         {
             "commitID": "feaf793b3f3f3f50638c32961354ebe5589f4e34",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -1018,7 +1016,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -1028,25 +1026,25 @@
         {
             "commitID": "9db489afb0a589910d914a2d4d006ee56a852b54",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -1055,7 +1053,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -1065,25 +1063,25 @@
         {
             "commitID": "ac3fdf5a27dcda2c5172b647fae38e27c01a78cd",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -1092,7 +1090,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -1102,25 +1100,25 @@
         {
             "commitID": "cf5d78eb9945e5b55a9b26990e41e0cdcb6ba30a",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
+                        "binrange": "~>1.0",
                         "dplug:graphics": ">=8.0.0 <13.0.0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -1129,7 +1127,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -1139,25 +1137,25 @@
         {
             "commitID": "32d38cddb9ae6d12a967984fabde7cb2d802b740",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "gamut": "~>0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "binrange": "~>1.0",
+                        "gamut": "~>0.0",
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -1166,7 +1164,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -1176,25 +1174,25 @@
         {
             "commitID": "05fa8b284743bb688d5e7fe74dd3fc41b6362e01",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "gamut": "~>0",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "binrange": "~>1.0",
+                        "gamut": "~>0.0",
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -1203,7 +1201,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -1213,25 +1211,25 @@
         {
             "commitID": "64d3b65423b077ccf35ef0e10b9414d8465b1ede",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "gamut": "~>2",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "binrange": "~>1.0",
+                        "gamut": "~>2.0",
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -1240,7 +1238,7 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
@@ -1250,25 +1248,25 @@
         {
             "commitID": "2d45992a27ae19e8ff79e3ec8e95d099b6b61e87",
             "dependencies": {
-                "printed:canvas": ">=0.0.0",
-                "printed:font": ">=0.0.0",
-                "printed:htmlcolors": ">=0.0.0"
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
             },
             "name": "printed",
             "subPackages": [
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "standardpaths": "~>0"
+                        "binrange": "~>1.0",
+                        "standardpaths": "~>0.0"
                     },
                     "name": "font"
                 },
                 {
                     "dependencies": {
-                        "binrange": "~>1",
-                        "gamut": "~>2",
-                        "printed:font": ">=0.0.0",
-                        "printed:htmlcolors": ">=0.0.0"
+                        "binrange": "~>1.0",
+                        "gamut": "~>2.0",
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
                     },
                     "name": "canvas"
                 },
@@ -1277,12 +1275,82 @@
                 },
                 {
                     "dependencies": {
-                        "printed:canvas": ">=0.0.0"
+                        "printed:canvas": "*"
                     },
                     "name": "flow"
                 }
             ],
             "version": "1.3.3"
+        },
+        {
+            "commitID": "e03ed8a6429835b44bbf0d447f1d5a27dea4ea02",
+            "dependencies": {
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
+            },
+            "name": "printed",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "standardpaths": "~>0.0"
+                    },
+                    "name": "font"
+                },
+                {
+                    "dependencies": {
+                        "gamut": "~>3.0",
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "name": "htmlcolors"
+                },
+                {
+                    "dependencies": {
+                        "printed:canvas": "*"
+                    },
+                    "name": "flow"
+                }
+            ],
+            "version": "1.3.4"
+        },
+        {
+            "commitID": "016034d80b1da46e9cea10c21ce85ae96e83437f",
+            "dependencies": {
+                "printed:canvas": "*",
+                "printed:font": "*",
+                "printed:htmlcolors": "*"
+            },
+            "name": "printed",
+            "subPackages": [
+                {
+                    "dependencies": {
+                        "standardpaths": "~>0.0"
+                    },
+                    "name": "font"
+                },
+                {
+                    "dependencies": {
+                        "gamut": "~>3.0",
+                        "printed:font": "*",
+                        "printed:htmlcolors": "*"
+                    },
+                    "name": "canvas"
+                },
+                {
+                    "name": "htmlcolors"
+                },
+                {
+                    "dependencies": {
+                        "printed:canvas": "*"
+                    },
+                    "name": "flow"
+                }
+            ],
+            "version": "1.3.5"
         }
     ]
 }

@@ -1,13 +1,13 @@
 {
     "categories": [
         "library.data",
-        "library.gamedev",
+        "library.nogc",
         "library.graphics",
         "library.optimized_cpu"
     ],
-    "commitID": "08978a114e02617a52355d24d308b77a7b635af6",
+    "commitID": "5eb4125d83cc7bfaa1a834f70b1d490be2c45fb1",
     "dateAdded": "2022-07-03T13:42:25",
-    "description": "Image library. Decoders\/encoders for PNG, TGA, BMP, JPEG, DDS, GIF, QOI, QOIX. 16-bit support.",
+    "description": "Image library. Decoders\/encoders for PNG, TGA, BMP, JPEG, JPEG XL, DDS, GIF, QOI, QOIX, SQZ. 16-bit support.",
     "documentationURL": "https:\/\/github.com\/AuburnSounds\/gamut",
     "id": "62c180a199f22e7c456fa67b",
     "name": "gamut",
@@ -19,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "08978a114e02617a52355d24d308b77a7b635af6",
+            "commitID": "a237c6f423a10f9c51d06ae080de59de86ea0969",
             "configurations": [
                 {
                     "name": "boost+mit"
@@ -34,11 +34,15 @@
                     "name": "audio-plugin"
                 },
                 {
+                    "name": "hipreme"
+                },
+                {
                     "name": "no-codecs"
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0",
+                "miniz": "<2.0.0"
             },
             "name": "gamut",
             "version": "~main"
@@ -60,7 +64,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "0.0.1"
@@ -82,7 +86,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "0.0.2"
@@ -104,7 +108,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "0.0.3"
@@ -126,7 +130,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "0.0.4"
@@ -148,7 +152,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "0.0.5"
@@ -170,7 +174,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "0.0.6"
@@ -192,7 +196,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "0.0.7"
@@ -214,7 +218,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "0.0.8"
@@ -236,7 +240,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "0.0.9"
@@ -258,7 +262,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "0.0.10"
@@ -280,7 +284,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "1.0.0"
@@ -305,7 +309,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "1.1.0"
@@ -330,7 +334,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.0.0"
@@ -355,7 +359,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.0.1"
@@ -380,7 +384,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.0.2"
@@ -405,7 +409,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.0.3"
@@ -430,7 +434,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.0.4"
@@ -455,7 +459,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.0.5"
@@ -480,7 +484,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.0.6"
@@ -505,7 +509,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.0.7"
@@ -530,7 +534,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.0.8"
@@ -555,7 +559,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.0.9"
@@ -580,7 +584,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.1.0"
@@ -605,7 +609,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.1.1"
@@ -630,7 +634,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.1.2"
@@ -655,7 +659,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.1.3"
@@ -680,7 +684,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.1.4"
@@ -705,7 +709,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.2.0"
@@ -730,7 +734,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.2.1"
@@ -755,7 +759,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.2.2"
@@ -780,7 +784,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.2.3"
@@ -805,7 +809,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.3.0"
@@ -830,7 +834,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.3.1"
@@ -855,7 +859,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.3.2"
@@ -880,7 +884,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.3.3"
@@ -905,7 +909,7 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.4.0"
@@ -930,10 +934,352 @@
                 }
             ],
             "dependencies": {
-                "intel-intrinsics": "~>1"
+                "intel-intrinsics": "~>1.0"
             },
             "name": "gamut",
             "version": "2.5.0"
+        },
+        {
+            "commitID": "7d7cf536f4fa29b0007fc3dd442826403a827f5f",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0"
+            },
+            "name": "gamut",
+            "version": "2.6.0"
+        },
+        {
+            "commitID": "7220b7bf598af7ddd4845ff9f3470455f7ae9c58",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0"
+            },
+            "name": "gamut",
+            "version": "2.6.1"
+        },
+        {
+            "commitID": "3f3d860bbfbca7839b5101ee7eb7bc08446c200c",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0"
+            },
+            "name": "gamut",
+            "version": "3.0.0"
+        },
+        {
+            "commitID": "a52faaf16d2c17ade4aa130e00e11f2c85ca0b4e",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0"
+            },
+            "name": "gamut",
+            "version": "3.1.0"
+        },
+        {
+            "commitID": "08dbe033d77a4a16ebd86093101aa94310807127",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0"
+            },
+            "name": "gamut",
+            "version": "3.1.1"
+        },
+        {
+            "commitID": "dc6a1b1a8cfb990c53f17c12167475d143971f68",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0"
+            },
+            "name": "gamut",
+            "version": "3.1.2"
+        },
+        {
+            "commitID": "40467f9c8d1710eaecbdb961e15b7bb7303ca07f",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0",
+                "miniz": "<2.0.0"
+            },
+            "name": "gamut",
+            "version": "3.1.3"
+        },
+        {
+            "commitID": "a7fa2177967cc672feaec896399a274f7dc1039f",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0",
+                "miniz": "<2.0.0"
+            },
+            "name": "gamut",
+            "version": "3.1.4"
+        },
+        {
+            "commitID": "5dd841de4c89958581e23b4ee1fb08b861f3e0be",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0",
+                "miniz": "<2.0.0"
+            },
+            "name": "gamut",
+            "version": "3.1.5"
+        },
+        {
+            "commitID": "ae296a0b4de2eb20b05a67abc5e3e59244660db4",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0",
+                "miniz": "<2.0.0"
+            },
+            "name": "gamut",
+            "version": "3.2.0"
+        },
+        {
+            "commitID": "534ca4c106287ebfa2c87d25920eb01e512f5794",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0",
+                "miniz": "<2.0.0"
+            },
+            "name": "gamut",
+            "version": "3.3.0"
+        },
+        {
+            "commitID": "5eb4125d83cc7bfaa1a834f70b1d490be2c45fb1",
+            "configurations": [
+                {
+                    "name": "boost+mit"
+                },
+                {
+                    "name": "boost"
+                },
+                {
+                    "name": "just-decode"
+                },
+                {
+                    "name": "audio-plugin"
+                },
+                {
+                    "name": "hipreme"
+                },
+                {
+                    "name": "no-codecs"
+                }
+            ],
+            "dependencies": {
+                "intel-intrinsics": "~>1.0",
+                "miniz": "<2.0.0"
+            },
+            "name": "gamut",
+            "version": "3.3.1"
         }
     ]
 }

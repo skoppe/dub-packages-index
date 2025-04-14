@@ -1,11 +1,11 @@
 {
     "categories": [
         "library.binding",
-        "library.gamedev",
         "library.graphics",
-        "library.nogc"
+        "library.gamedev",
+        "library.betterc"
     ],
-    "commitID": "042f23eb40fef62fea1a45a85f8aa23813663b3c",
+    "commitID": "4441e62a5fef040374937cd70cdfd61bfc5c0967",
     "dateAdded": "2018-10-18T17:24:00",
     "description": "Dynamic bindings to OpenGL, compatible with BetterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -35,7 +35,7 @@
             "version": "~wayland"
         },
         {
-            "commitID": "042f23eb40fef62fea1a45a85f8aa23813663b3c",
+            "commitID": "d3c00b1cb6b11494ed84bb8d9879eb18baa16d6c",
             "configurations": [
                 {
                     "name": "dynamic"
@@ -45,7 +45,7 @@
                 }
             ],
             "dependencies": {
-                "bindbc-loader": "~>1.1.0"
+                "bindbc-loader": "~>1.1"
             },
             "name": "bindbc-opengl",
             "version": "~master"
@@ -513,6 +513,22 @@
             },
             "name": "bindbc-opengl",
             "version": "1.1.0"
+        },
+        {
+            "commitID": "4441e62a5fef040374937cd70cdfd61bfc5c0967",
+            "configurations": [
+                {
+                    "name": "dynamic"
+                },
+                {
+                    "name": "dynamicBC"
+                }
+            ],
+            "dependencies": {
+                "bindbc-loader": "~>1.1.0"
+            },
+            "name": "bindbc-opengl",
+            "version": "1.1.1"
         }
     ]
 }

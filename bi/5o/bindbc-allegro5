@@ -1,9 +1,11 @@
 {
     "categories": [
         "library.binding",
-        "library.nogc"
+        "library.nogc",
+        "library.gamedev",
+        "library.betterc"
     ],
-    "commitID": "f27d5a71510d4ca570f4d3d71d3d7d2d3356b9b7",
+    "commitID": "dcc9a9943d6dd2a45c4ef094ab604a29f9d02672",
     "dateAdded": "2022-08-21T20:22:54",
     "description": "Dynamic and static bindings to Allegro and its addons, compatible with -betterC, @nogc, and nothrow.",
     "documentationURL": "",
@@ -17,7 +19,7 @@
     },
     "versions": [
         {
-            "commitID": "f27d5a71510d4ca570f4d3d71d3d7d2d3356b9b7",
+            "commitID": "7511efc3e95c129d757828c50670d214a612664f",
             "configurations": [
                 {
                     "dependencies": {
@@ -121,6 +123,31 @@
             ],
             "name": "bindbc-allegro5",
             "version": "1.1.0"
+        },
+        {
+            "commitID": "dcc9a9943d6dd2a45c4ef094ab604a29f9d02672",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamic"
+                },
+                {
+                    "dependencies": {
+                        "bindbc-loader": "~>1.1.0"
+                    },
+                    "name": "dynamicBC"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "staticBC"
+                }
+            ],
+            "name": "bindbc-allegro5",
+            "version": "1.2.0"
         }
     ]
 }

@@ -5,7 +5,7 @@
         "library.optimized_mem",
         "library.nogc"
     ],
-    "commitID": "e795328e2c9e588c25cf0a8ff4629a85ee8be29a",
+    "commitID": "6a023cfdb7ad583334e8c3b933793c7eb42f8f59",
     "dateAdded": "2021-08-21T01:27:01",
     "description": "Sound API for your game",
     "documentationURL": "https:\/\/game-mixer.dpldocs.info\/gamemixer.mixer.html",
@@ -19,11 +19,11 @@
     },
     "versions": [
         {
-            "commitID": "e795328e2c9e588c25cf0a8ff4629a85ee8be29a",
+            "commitID": "6a023cfdb7ad583334e8c3b933793c7eb42f8f59",
             "configurations": [
                 {
                     "dependencies": {
-                        "libsoundio-d": "~>1"
+                        "libsoundio-d": "~>1.0"
                     },
                     "name": "regular"
                 },
@@ -33,8 +33,8 @@
             ],
             "dependencies": {
                 "audio-formats": ">=3.0.1 <4.0.0",
-                "dplug:audio": ">=12.1.2 <14.0.0",
-                "dplug:core": ">=12.1.2 <14.0.0"
+                "dplug:audio": ">=12.1.2 <15.0.0",
+                "dplug:core": ">=12.1.2 <15.0.0"
             },
             "name": "game-mixer",
             "version": "~main"
@@ -43,8 +43,8 @@
             "commitID": "2ace5fb4e62cf8f19a9b39ffa9693cdad6802161",
             "dependencies": {
                 "audio-formats": "~>1.1",
-                "dplug:core": "~>12",
-                "libsoundio-d": "~>1"
+                "dplug:core": "~>12.0",
+                "libsoundio-d": "~>1.0"
             },
             "name": "game-mixer",
             "version": "1.0.0"
@@ -55,7 +55,7 @@
                 "audio-formats": "~>1.1",
                 "dplug:audio": ">=12.1.2 <13.0.0",
                 "dplug:core": ">=12.1.2 <13.0.0",
-                "libsoundio-d": "~>1"
+                "libsoundio-d": "~>1.0"
             },
             "name": "game-mixer",
             "version": "1.0.1"
@@ -66,7 +66,7 @@
                 "audio-formats": "~>1.1",
                 "dplug:audio": ">=12.1.2 <13.0.0",
                 "dplug:core": ">=12.1.2 <13.0.0",
-                "libsoundio-d": "~>1"
+                "libsoundio-d": "~>1.0"
             },
             "name": "game-mixer",
             "version": "1.0.2"
@@ -76,7 +76,7 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "libsoundio-d": "~>1"
+                        "libsoundio-d": "~>1.0"
                     },
                     "name": "regular"
                 },
@@ -97,7 +97,7 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "libsoundio-d": "~>1"
+                        "libsoundio-d": "~>1.0"
                     },
                     "name": "regular"
                 },
@@ -106,7 +106,7 @@
                 }
             ],
             "dependencies": {
-                "audio-formats": "~>2",
+                "audio-formats": "~>2.0",
                 "dplug:audio": ">=12.1.2 <14.0.0",
                 "dplug:core": ">=12.1.2 <14.0.0"
             },
@@ -118,7 +118,7 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "libsoundio-d": "~>1"
+                        "libsoundio-d": "~>1.0"
                     },
                     "name": "regular"
                 },
@@ -133,6 +133,48 @@
             },
             "name": "game-mixer",
             "version": "1.1.2"
+        },
+        {
+            "commitID": "c8a37c1f58cda9a54a124b9c65735af0ab286977",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "libsoundio-d": "~>1.0"
+                    },
+                    "name": "regular"
+                },
+                {
+                    "name": "only-loopback"
+                }
+            ],
+            "dependencies": {
+                "audio-formats": ">=3.0.1 <4.0.0",
+                "dplug:audio": ">=12.1.2 <15.0.0",
+                "dplug:core": ">=12.1.2 <15.0.0"
+            },
+            "name": "game-mixer",
+            "version": "1.1.3"
+        },
+        {
+            "commitID": "6a023cfdb7ad583334e8c3b933793c7eb42f8f59",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "libsoundio-d": "~>1.0"
+                    },
+                    "name": "regular"
+                },
+                {
+                    "name": "only-loopback"
+                }
+            ],
+            "dependencies": {
+                "audio-formats": ">=3.0.1 <4.0.0",
+                "dplug:audio": ">=12.1.2 <15.0.0",
+                "dplug:core": ">=12.1.2 <15.0.0"
+            },
+            "name": "game-mixer",
+            "version": "1.1.4"
         }
     ]
 }

@@ -3,7 +3,7 @@
         "library.data_structures",
         "library.nogc"
     ],
-    "commitID": "adc3d53b7bfa459a224b097abf5736855ebc0b5d",
+    "commitID": "d63ac8ee5f4b51669d9927ddf531fd821e439bd0",
     "dateAdded": "2018-11-26T15:32:43",
     "description": "Collection of cache strategies",
     "documentationURL": "https:\/\/ikod.github.io\/cachetools\/",
@@ -17,11 +17,11 @@
     },
     "versions": [
         {
-            "commitID": "adc3d53b7bfa459a224b097abf5736855ebc0b5d",
+            "commitID": "d63ac8ee5f4b51669d9927ddf531fd821e439bd0",
             "configurations": [
                 {
                     "dependencies": {
-                        "unit-threaded": "~>0"
+                        "unit-threaded": "*"
                     },
                     "name": "unittest"
                 },
@@ -33,7 +33,7 @@
                 }
             ],
             "dependencies": {
-                "automem": ">=0.0.0"
+                "automem": "*"
             },
             "name": "cachetools",
             "version": "~master"
@@ -41,7 +41,7 @@
         {
             "commitID": "954218ffaf3f810042a7d39884fc554372c4f0d5",
             "dependencies": {
-                "stdx-allocator": "~>2"
+                "stdx-allocator": "~>2.0"
             },
             "name": "cachetools",
             "version": "0.0.1"
@@ -186,7 +186,7 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "unit-threaded": "~>0"
+                        "unit-threaded": "~>0.0"
                     },
                     "name": "unittest"
                 },
@@ -198,7 +198,7 @@
                 }
             ],
             "dependencies": {
-                "automem": ">=0.0.0"
+                "automem": "*"
             },
             "name": "cachetools",
             "version": "0.4.0"
@@ -208,7 +208,7 @@
             "configurations": [
                 {
                     "dependencies": {
-                        "unit-threaded": "~>0"
+                        "unit-threaded": "~>0.0"
                     },
                     "name": "unittest"
                 },
@@ -220,10 +220,54 @@
                 }
             ],
             "dependencies": {
-                "automem": ">=0.0.0"
+                "automem": "*"
             },
             "name": "cachetools",
             "version": "0.4.1"
+        },
+        {
+            "commitID": "cc1f79ad334bf23eb3e45453a72db792f07d2c4e",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "unit-threaded": "*"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "application"
+                }
+            ],
+            "dependencies": {
+                "automem": "*"
+            },
+            "name": "cachetools",
+            "version": "0.4.2"
+        },
+        {
+            "commitID": "d63ac8ee5f4b51669d9927ddf531fd821e439bd0",
+            "configurations": [
+                {
+                    "dependencies": {
+                        "unit-threaded": "*"
+                    },
+                    "name": "unittest"
+                },
+                {
+                    "name": "library"
+                },
+                {
+                    "name": "application"
+                }
+            ],
+            "dependencies": {
+                "automem": "*"
+            },
+            "name": "cachetools",
+            "version": "1.0.1"
         }
     ]
 }
